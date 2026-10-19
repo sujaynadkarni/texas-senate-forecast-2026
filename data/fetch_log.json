@@ -1,22 +1,22 @@
 {
  "polls": {
   "ok": true,
-  "at": "2026-10-19T13:55:24+00:00",
+  "at": "2026-10-19T13:56:17+00:00",
   "detail": "senate 59, governor 51 polls"
  },
  "markets": {
   "ok": true,
-  "at": "2026-10-19T13:55:24+00:00",
+  "at": "2026-10-19T13:56:17+00:00",
   "detail": "senate: Kalshi 0.62, Polymarket 0.62; governor: Kalshi 0.25, Polymarket 0.24"
  },
  "turnout": {
   "ok": true,
-  "at": "2026-10-19T13:55:24+00:00",
+  "at": "2026-10-19T13:56:17+00:00",
   "detail": "10/19/2026: 52,342 early votes"
  },
  "results": {
   "ok": true,
-  "at": "2026-10-19T13:55:24+00:00",
+  "at": "2026-10-19T13:56:17+00:00",
   "detail": "votes counted: senate 0, governor 0"
  }
 }
