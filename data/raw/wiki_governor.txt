@@ -524,6 +524,11 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 *''[[Austin American-Statesman]]''<ref>{{Cite web |date=October 9, 2026 |title=Hinojosa would make Texas’ governor’s office work for Texans |url=https://www.statesman.com/opinion/editorials/article/gina-hinojosa-texas-governor-endorsement-22465568.php |access-date=October 9, 2026 |website=Austin American-Statesman |language=en}}</ref>
 *''[[San Antonio Express-News]]''<ref>{{Cite web |date=October 9, 2026 |title=Gina Hinojosa ready to bring needed change to governor’s office |url=https://www.expressnews.com/opinion/editorial/article/gina-hinojosa-texas-governor-recommend-22467612.php |access-date=October 10, 2026 |website=San Antonio Express-News|language=en}}</ref>
 }}
+{{Endorsements box
+| title = Declined to endorse
+| list =
+*''[[The Dallas Morning News]]''<ref>{{Cite web |date=October 17, 2026 |title=No recommendation for Texas governor |url=https://www.dallasnews.com/opinion/we-recommend/article/texas-governor-election-greg-abbott-gina-hinojosa-22477198.php |access-date=2026-10-19 |website=[[The Dallas Morning News]] |language=en}}</ref>
+}}
 
 === Fundraising ===
 {| class="wikitable sortable"
