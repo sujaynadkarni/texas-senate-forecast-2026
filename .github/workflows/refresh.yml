@@ -2,12 +2,19 @@ name: Refresh forecast
 
 on:
   schedule:
-    # Early voting (Oct 19-30, Central Daylight Time): 8 a.m. and 8 p.m. Central
-    - cron: "0 13 * * *"
-    - cron: "0 1 * * *"
+    # Off the top of the hour: GitHub delays or skips many jobs scheduled at :00.
+    # 7:17 a.m., 12:17 p.m. and 7:17 p.m. Central Daylight Time (one hour earlier after Nov. 1)
+    - cron: "17 12 * * *"
+    - cron: "17 17 * * *"
+    - cron: "17 0 * * *"
     # Election night, Nov 3 (Central Standard Time): every 10 minutes from 7 p.m. to 1 a.m. Central
-    - cron: "*/10 1-7 4 11 *"
+    - cron: "3-59/10 1-7 4 11 *"
   workflow_dispatch:        # "Run workflow" button on GitHub
+    inputs:
+      override_sanity:
+        description: "Publish even if the sanity checks flag a big change (only if you have checked it is real)"
+        type: boolean
+        default: false
   push:
     branches: [main]
 
@@ -34,8 +41,10 @@ jobs:
       - run: pip install -r requirements.txt
 
       # fetch -> model -> build -> 40+ regression tests; exits non-zero (and nothing is published) if any test fails
-      - name: Refresh and test
+      - name: Refresh, test and sanity-check
         run: ./refresh.sh
+        env:
+          SANITY_OVERRIDE: ${{ inputs.override_sanity && '1' || '' }}
 
       - name: Save today's data
         run: |

@@ -153,7 +153,8 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 @media (max-width: 860px) { .scen { grid-template-columns: minmax(0, 1fr); } }
 .scen .card h3 { font-family: var(--sans); font-size: 15px; }
 .scen .big { font-family: var(--sans); font-size: 26px; font-weight: 800; margin: 4px 0 8px; }
-.scen ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.scen ul { margin: 0; padding-left: 18px; display: grid; gap: 10px; }
+.scen .ex { display: block; color: var(--ink-2); font-size: 13px; margin-top: 2px; }
 
 .pagetabs { display: flex; gap: 0; border-bottom: 1px solid var(--ink); margin-top: 22px; font-family: var(--sans); }
 .pagetabs a { font: 700 15px var(--sans); color: var(--ink-3); text-decoration: none; padding: 10px 16px 9px; border-bottom: 4px solid transparent; margin-bottom: -1px; }
@@ -175,6 +176,7 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .tip b { display: block; font-size: 15px; margin-bottom: 2px; }
 .tip .r { display: flex; justify-content: space-between; gap: 14px; font-variant-numeric: tabular-nums; }
 .tip .r span:first-child { color: var(--ink-3); }
+.stale { margin-top: 12px; padding: 10px 14px; border: 1px solid var(--warn); border-left-width: 4px; font: 600 14px var(--sans); color: var(--ink); background: var(--wash); }
 footer { margin-top: 40px; border-top: 1px solid var(--ink); padding-top: 16px; font-family: var(--sans); font-size: 13px; color: var(--ink-2); }
 footer h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; margin: 16px 0 6px; }
 footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
@@ -188,6 +190,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
     <span class="status" id="status"><span class="dot"></span><span id="status-text"></span></span>
   </div>
 
+  <div class="col-wide stale" id="stale" hidden></div>
   <header class="col hero">
     <p class="kicker">__D__ (D) vs. __R__ (R)</p>
     <h1 id="headline">Who will win?</h1>
@@ -264,19 +267,16 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
   </section>
 
   <section class="col-wide">
-    <div class="rule-top"><h2>50,000 versions of election night</h2>
-      <p class="section-dek" id="hist-dek"></p></div>
-    <svg class="chart" id="hist" viewBox="0 0 960 230" role="img" aria-label="Distribution of simulated outcomes"></svg>
-    <p class="note">Each bar counts simulations ending at that statewide margin. Polls in Texas have missed by 3 to 4.5 points in each of the last three Senate races, so the spread is wide.</p>
+    <div class="rule-top"><h2>How accurate have Texas polls been?</h2>
+      <p class="section-dek">Texas polls have picked the winner in every recent race, but the final margin has been off by 2 to 5 points, and not always in the same direction.</p></div>
+    <div class="tbl-scroll"><table id="poll-history"></table></div>
+    <p class="note" id="poll-history-note"></p>
   </section>
 
   <section class="col-wide">
     <div class="rule-top"><h2>What would change the result</h2>
       <p class="section-dek">For today's forecast and for a repeat of the __HA_LABEL__ or __HB_LABEL__ race (each county's exact result and turnout rate, applied to 2026 registration): who wins, and what the other candidate would need.</p></div>
     <div class="scen" id="scen"></div>
-    <h3 class="sans" style="font-size:15px;margin:26px 0 4px">If the polls are off</h3>
-    <p class="note" style="margin:0 0 8px">Texas polls picked the winner in 2018, 2020 and 2024, but the margin was off by 3 to 4.5 points each time. These rows show what a miss of the same size would do this year.</p>
-    <div class="tbl-scroll"><table id="stress"></table></div>
   </section>
 
   <section class="col-wide">
@@ -403,6 +403,15 @@ const byName = Object.fromEntries(DATA.counties.map((c) => [c.name, c]));
 const MODE = DATA.mode;
 
 /* ---------- header + status ---------- */
+// the page is static: if no refresh has landed for 14+ hours, say so plainly
+function staleCheck() {
+  const hrs = (Date.now() - new Date(DATA.generated).getTime()) / 36e5;
+  if (hrs < 14) return;
+  const el2 = $("#stale");
+  el2.textContent = `This page has not updated since ${fmtDate(DATA.generated)} (${Math.floor(hrs)} hours ago). Numbers may be out of date.`;
+  el2.hidden = false;
+}
+
 function header() {
   if (PAGE === "early") {
     const e = DATA.early, n = e ? e.total : 0;
@@ -572,8 +581,8 @@ function explain() {
     const mAvg = DATA.markets.reduce((a, m) => a + m.d, 0) / Math.max(DATA.markets.length, 1);
     const fav = f.p >= .5 ? "__D__" : "__R__", favP = Math.max(f.p, 1 - f.p), mFav = f.p >= .5 ? mAvg : 1 - mAvg;
     L.push(Math.abs(f.p - mAvg) < 0.06
-      ? `<strong>Our model and the betting markets roughly agree.</strong> We give ${fav} ${pct(favP)}; ${mk}. If Republicans beat the polls by 4.5 points again, as in 2024, it would be __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`
-      : `<strong>Our model is ${favP > mFav ? "more" : "less"} confident than the betting markets.</strong> We give ${fav} ${pct(favP)}; ${mk}. In 2020 and 2024 Republicans beat their Texas polls by 3 to 4.5 points; in 2018 Democrats did. A 2024-size miss toward Republicans would make it __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`);
+      ? `<strong>Our model and the betting markets roughly agree.</strong> We give ${fav} ${pct(favP)}; ${mk}. Recent Texas polls have been off by 2 to 5 points on the final margin, which is why neither number is close to 100%.`
+      : `<strong>Our model is ${favP > mFav ? "more" : "less"} confident than the betting markets.</strong> We give ${fav} ${pct(favP)}; ${mk}. Recent Texas polls have been off by 2 to 5 points on the final margin, so a lead this size is not safe.`);
     L.push(`<strong>Tarrant County is the bellwether.</strong> It holds the state's median voter in ${pct(tar.tipping)} of simulations. If Tarrant comes in near ${fmtM(tl.even)}, the race is a coin flip. Above ${fmtM(tl.d)}, __D__ is favored; below ${fmtM(tl.r)}, __R__ is.`);
     L.push(`<strong>Two paths.</strong> __D__'s runs through big margins in Harris, Dallas, Bexar and Travis plus wins in Tarrant and Collin. __R__'s runs through rural Texas, where he is expected to net about ${fmtK(Math.abs(rural))} votes, and holding Collin and Denton.`);
     if (ev) L.push(`<strong>Early voting:</strong> ${fmtInt(ev.total)} ballots so far. Turnout does not move this forecast; see the <a href="early.html">Early voting</a> page for county-by-county turnout compared with 2022.`);
@@ -772,42 +781,39 @@ function polls() {
 }
 
 /* ---------- histogram ---------- */
-function hist() {
-  const H = DATA.histogram, s = $("#hist"), W = 960, HH = 230, m = { l: 10, r: 10, t: 24, b: 30 };
-  const max = Math.max(...H.counts), n = H.counts.length, bw = (W - m.l - m.r) / n;
-  H.counts.forEach((c, i) => {
-    const lo = H.edges[i], mid = lo + .5, h = c / max * (HH - m.t - m.b);
-    s.append(svgEl("rect", { x: m.l + i * bw + 1, y: HH - m.b - h, width: bw - 2, height: h, fill: mid > 0 ? css("--dem-2") : css("--rep-2") }));
-  });
-  const x0 = m.l + (0 - H.edges[0]) / (H.edges[n] - H.edges[0]) * (W - m.l - m.r);
-  s.append(svgEl("line", { x1: x0, x2: x0, y1: m.t - 8, y2: HH - m.b, stroke: css("--ink"), "stroke-width": 1.2 }));
-  for (const v of [-15, -10, -5, 0, 5, 10, 15]) {
-    const xx = m.l + (v - H.edges[0]) / (H.edges[n] - H.edges[0]) * (W - m.l - m.r);
-    const t = svgEl("text", { x: xx, y: HH - 10, "text-anchor": "middle" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "__DI__+" : "__RI__+") + Math.abs(v); s.append(t);
+/* ---------- poll accuracy history ---------- */
+function pollHistory() {
+  const rows = DATA.poll_history || [];
+  const col = (party) => party === "R" ? "p" : "t";
+  let h = `<thead><tr><th>Year</th><th>Race</th><th>Final poll average</th><th>Actual result</th><th>Actual vs. polls</th></tr></thead><tbody>`;
+  for (const r of rows) {
+    const diff = r.result - r.poll, gainer = diff >= 0 ? r.leader : r.other, gp = diff >= 0 ? r.party : (r.party === "R" ? "D" : "R");
+    h += `<tr><td>${r.year}</td><td>${C.office}</td><td>${r.leader} +${r.poll.toFixed(1)}</td><td>${r.leader} +${r.result.toFixed(1)}</td>
+      <td><strong class="${col(gp)}">${gainer} did ${Math.abs(diff).toFixed(1)} points better</strong></td></tr>`;
   }
-  const tw = svgEl("text", { x: x0 - 8, y: m.t - 10, "text-anchor": "end", class: "lbl", style: `fill:${css("--dem")}` }); tw.textContent = `← __D__ wins ${pct(DATA.forecast.p)}`; s.append(tw);
-  const pw = svgEl("text", { x: x0 + 8, y: m.t - 10, "text-anchor": "start", class: "lbl", style: `fill:${css("--rep")}` }); pw.textContent = `__R__ wins ${pct(1 - DATA.forecast.p)} →`; s.append(pw);
-  // flip: draw __D__ on the left to match the needle
-  s.setAttribute("transform", "");
-  $("#hist-dek").textContent = `The middle outcome is ${fmtM(share2m(DATA.forecast.median), true)}. In 80% of simulations the result lands between ${fmtM(share2m(DATA.forecast.lo), true)} and ${fmtM(share2m(DATA.forecast.hi), true)}.`;
+  $("#poll-history").innerHTML = h + "</tbody>";
+  $("#poll-history-note").textContent = "Poll averages: " + rows.map((r) => `${r.year}, ${r.source}`).join("; ") + ".";
 }
 
-/* ---------- scenarios, stress, regions, mail ---------- */
+/* ---------- scenarios, regions, mail ---------- */
 function scenarios() {
   const box = $("#scen");
+  const ex = (list) => list.map((e) => `${e.name} ${fmtM(e.before)} → <strong>${fmtM(e.after)}</strong>`).join(" · ");
+  const regName = (g) => ({ "Urban core": "the four big cities (Harris, Dallas, Bexar, Travis)", "Big suburbs": "the big suburbs",
+    "Outer suburbs": "the outer suburbs", "Rural": `the ${g.counties} rural counties`, "Mid-size metros": "the mid-size metros",
+    "Hispanic South/West": "South and West Texas" })[g.name] || g.name;
   for (const r of DATA.scenarios) {
-    const m = share2m(r.share), winner = m >= 0 ? "__D__" : "__R__";
+    const m = share2m(r.share);
     const d = el("div", { class: "card" });
+    const opts = [`<li><strong>A ${r.uniform_pts.toFixed(1)}-point shift his way in every county</strong>, for example:<span class="ex">${ex(r.uniform_examples)}</span></li>`]
+      .concat(r.regions.map((g) => `<li><strong>A ${g.pts.toFixed(1)}-point shift in ${regName(g)} alone</strong>, for example:<span class="ex">${ex(g.examples)}</span></li>`))
+      .concat(r.turnout_boost != null ? [`<li><strong>Turnout up ${Math.round(r.turnout_boost * 100)}% in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")}</strong>, about ${fmtK(r.turnout_extra)} more voters there than expected</li>`] : []);
     d.innerHTML = `<h3>${r.label}</h3><div class="big ${m >= 0 ? "t" : "p"}">${fmtM(m, true)}</div>
-      <p style="margin:0 0 6px;font-size:14px">For <strong class="${r.trailer === "__D__" ? "t" : "p"}">${r.trailer}</strong> to win instead, he would need:</p>
-      <ul><li>a ${r.uniform_pts.toFixed(1)}-point shift in his direction in every county, or</li>
-      ${r.regions.map((g, i) => `<li>${g.name.toLowerCase()} alone to shift ${g.pts.toFixed(1)} points his way${i < r.regions.length - 1 || r.turnout_boost != null ? ", or" : "."}</li>`).join("")}
-      ${r.turnout_boost != null ? `<li>turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} up ${Math.round(r.turnout_boost * 100)}%.</li></ul>` : `</ul><p class="note" style="margin-top:6px">Higher turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} alone would not be enough.</p>`}`;
+      <p style="margin:0 0 6px;font-size:14px">For <strong class="${r.trailer === "__D__" ? "t" : "p"}">${r.trailer}</strong> to win instead, he would need <strong>one</strong> of these:</p>
+      <ul>${opts.join("")}</ul>${r.turnout_boost == null ? `<p class="note" style="margin-top:6px">Higher turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} alone would not be enough.</p>` : ""}`;
     box.append(d);
   }
-  let h = `<thead><tr><th>Scenario</th><th>Likely result</th><th class="t">__D__</th><th class="p">__R__</th></tr></thead><tbody>`;
-  for (const s of DATA.stress) h += `<tr><td style="white-space:normal">${s.label}<span class="sub">${s.detail || ""}</span></td><td>${s.result || "–"}</td><td><strong class="t">${pct(s.p)}</strong></td><td><strong class="p">${pct(1 - s.p)}</strong></td></tr>`;
-  $("#stress").innerHTML = h + "</tbody>";
+
   let r = `<thead><tr><th>Region</th><th>Counties</th><th>Share of vote</th><th>${H[0].short}</th><th>${H[1].short}</th><th>Forecast</th></tr></thead><tbody>`;
   for (const g of DATA.regions) r += `<tr><td class="name">${g.name}</td><td>${g.counties}</td><td>${pct(g.vote_share)}</td><td>${fmtM(g.ha)}</td><td>${fmtM(g.hb)}</td><td><strong>${fmtM(g.fc)}</strong></td></tr>`;
   $("#regions").innerHTML = r + "</tbody>";
@@ -935,5 +941,5 @@ function showView() {
   $("#view-forecast").hidden = early; $("#view-early").hidden = !early;
 }
 
-header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); hist(); scenarios(); splitTicket(); earlyView(); showView();
+staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); showView();
 </script>

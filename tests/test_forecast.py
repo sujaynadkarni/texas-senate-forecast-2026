@@ -270,7 +270,7 @@ class SiteData(unittest.TestCase):
         cls.paths = json.load(open("data/tx_paths.json"))
 
     def test_schema(self):
-        for k in ("race", "cand", "generated", "mode", "needle", "forecast", "polls", "markets", "counties", "early", "histogram", "scenarios", "stress", "others"):
+        for k in ("race", "cand", "generated", "mode", "needle", "forecast", "polls", "markets", "counties", "early", "scenarios", "poll_history", "others"):
             self.assertIn(k, self.d)
         self.assertIn(self.d["mode"], ("pre", "early", "live", "final"))
         self.assertEqual(len(self.d["counties"]), 254)
@@ -306,6 +306,24 @@ class SiteData(unittest.TestCase):
         if self.d.get("early_vote"):
             feed = json.load(open("data/turnout.json"))["counties"]
             self.assertEqual(self.d["early_vote"]["total"], sum(v["in_person"] + v["mail"] for v in feed.values()))
+
+
+    def test_poll_history_newest_first(self):
+        years = [r["year"] for r in self.d["poll_history"]]
+        self.assertEqual(years, sorted(years, reverse=True))
+        self.assertGreaterEqual(len(years), 2)
+
+    def test_scenarios_name_real_counties(self):
+        names = {c["name"] for c in self.d["counties"]}
+        for sc in self.d["scenarios"]:
+            ex = sc["uniform_examples"] + [e for g in sc["regions"] for e in g["examples"]]
+            self.assertTrue(ex)
+            for e in ex:
+                self.assertIn(e["name"], names)
+                moved = abs(e["after"] - e["before"])
+                self.assertTrue(moved > 0)
+            # the uniform shift moves every example by the same number of points
+            self.assertTrue(all(abs(abs(e["after"] - e["before"]) - sc["uniform_pts"]) < 0.11 for e in sc["uniform_examples"]))
 
 
 class SiteDataGovernor(SiteData):
@@ -358,6 +376,54 @@ class Template(unittest.TestCase):
         t = open("site/template.html").read()
         for bad in ("Talarico", "Paxton", "Hinojosa", "Abbott", ".talarico", ".paxton", "m24", "m18"):
             self.assertNotIn(bad, t, bad)
+
+
+class Sanity(unittest.TestCase):
+    """Bad-data guard between runs."""
+    @classmethod
+    def setUpClass(cls):
+        import sanity
+        cls.S = sanity
+        cls.base = sanity.snapshot()
+
+    def mutate(self, **changes):
+        import copy
+        cur = copy.deepcopy(self.base)
+        for k, v in changes.items():
+            cur["senate"][k] = v
+        return cur
+
+    def test_identical_run_passes(self):
+        self.assertEqual(self.S.check(self.base, self.base), [])
+
+    def test_first_run_has_nothing_to_compare(self):
+        self.assertEqual(self.S.check(None, self.base), [])
+
+    def test_poll_average_jump_blocks(self):
+        cur = self.mutate(poll_avg=self.base["senate"]["poll_avg"] + 4)
+        self.assertTrue(any("poll average" in p for p in self.S.check(self.base, cur)))
+
+    def test_poll_count_collapse_blocks(self):
+        cur = self.mutate(n_polls=int(self.base["senate"]["n_polls"] * 0.5))
+        self.assertTrue(any("poll count" in p for p in self.S.check(self.base, cur)))
+
+    def test_early_vote_drop_blocks(self):
+        prev = self.mutate(early_total=100_000)
+        cur = self.mutate(early_total=90_000)
+        self.assertTrue(any("early-vote" in p for p in self.S.check(prev, cur)))
+
+    def test_county_count_shrinking_blocks(self):
+        prev = self.mutate(counted={"Harris": 500_000}, mode="live")
+        cur = self.mutate(counted={"Harris": 400_000}, mode="live")
+        self.assertTrue(any("Harris" in p for p in self.S.check(prev, cur)))
+
+    def test_dead_market_blocks(self):
+        cur = self.mutate(markets={"Kalshi": 0.0, "Polymarket": 0.6})
+        self.assertTrue(any("Kalshi" in p for p in self.S.check(self.base, cur)))
+
+    def test_needle_jump_without_votes_blocks(self):
+        cur = self.mutate(needle=self.base["senate"]["needle"] - 0.3)
+        self.assertTrue(any("win chance" in p for p in self.S.check(self.base, cur)))
 
 
 class BuiltGovernorPage(BuiltPage):

@@ -195,9 +195,20 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
             v = votes * np.where(c.region.isin(regs), 1 + b_, 1)
             if (((share * v).sum() / v.sum()) > 0.5) != d_wins:
                 boost = float(b_); break
-        return dict(trailer=trailer, uniform_pts=float(abs(need) * 200),
-                    regions=[dict(name=g, pts=float(abs(x) * 200)) for g, x in region_moves.items()],   # margin points
-                    turnout_regions=regs, turnout_boost=boost)
+        sign = -1 if d_wins else 1                       # direction the trailer needs (+ = toward the Democrat)
+        m_now = (2 * share - 1) * 100
+        idx = {n: i for i, n in enumerate(c.county)}
+        moved = lambda names, pts: [dict(name=n, before=round(float(m_now[idx[n]]), 1),
+                                         after=round(float(m_now[idx[n]] + sign * pts), 1)) for n in names]
+        uni = float(abs(need) * 200)
+        biggest = lambda g, k=4: c[c.region == g].sort_values("exp_votes", ascending=False).county.head(k).tolist()
+        return dict(trailer=trailer, uniform_pts=uni,
+                    uniform_examples=moved(["Tarrant", "Collin", "Denton", "Harris"], uni),
+                    regions=[dict(name=g, pts=float(abs(x) * 200), counties=int((c.region == g).sum()),
+                                  examples=moved(biggest(g), float(abs(x) * 200)))
+                             for g, x in region_moves.items()],                                     # margin points
+                    turnout_regions=regs, turnout_boost=boost,
+                    turnout_extra=None if boost is None else int(boost * votes[c.region.isin(regs).values].sum()))
 
     scenarios = [dict(label="Today's forecast", share=float(np.median(ss)), **what_it_takes(c.exp_share.values, c.exp_votes.values))]
     for h in race["history"]:
@@ -205,20 +216,6 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
         c["_rate"] = c[f"{h['key']}_total"] / c[yr]
         sh, v = S.replay(c, f"{h['key']}_d2", "_rate")
         scenarios.append(dict(label=f"Votes exactly like {h['label']}", share=sh, **what_it_takes(c[f"{h['key']}_d2"].values, v.values)))
-
-    # Texas Senate polling errors on the margin (final poll average vs. result). The polls picked the
-    # winner each time; the miss is how much more Republican or Democratic the result was.
-    poll_m = (2 * center - 1) * 100
-    stress = [dict(label="The result matches the polls", detail=f"Polls today: {margin_label(key, poll_m, True)}",
-                   result=margin_label(key, poll_m, True), p=float(win.mean()))]
-    for year, polled, actual, shift in (("2024", "Cruz +4.0", "Cruz +8.5", -4.5), ("2020", "Cornyn +6.5", "Cornyn +9.6", -3.1),
-                                        ("2018", "Cruz +5.9", "Cruz +2.6", +3.3)):
-        S.RNG = np.random.default_rng(11)
-        p_ = float(S.simulate(c, center, n=20_000, bias=shift / 200)["win"].mean())
-        side = "Republican" if shift < 0 else "Democratic"
-        stress.append(dict(label=f"The result is {abs(shift):.1f} points more {side} than the polls, like {year}",
-                           detail=f"{year}: polls said {polled}, result was {actual}",
-                           result=margin_label(key, poll_m + shift, True), p=p_))
 
     regions = []
     for g in REGIONS:
@@ -230,9 +227,6 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
                             hb=float(2 * statewide(c[m], f"{hb}_d2", f"{hb}_total") - 1) * 100,
                             fc=float(np.median(2 * rs - 1) * 100)))
 
-    margins = (2 * ss - 1) * 100
-    edges = np.arange(-16, 17, 1.0)
-    hist, _ = np.histogram(np.clip(margins, -15.99, 15.99), bins=edges)
 
     counties = []
     for j, r in c.iterrows():
@@ -271,8 +265,8 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
                                 d=r.d, r=r.r, sponsor=sponsor(r.pollster),
                                 house=round(float(house.get(r.pollster, 0.0)), 1)) for _, r in used.head(15).iterrows()],
                    all=[dict(end=r.end.isoformat(), d=r.d, r=r.r, w=round(float(r.w), 3)) for _, r in used.iterrows()]),
-        markets=markets_all.get(key, []), early_vote=ev, regions=regions, scenarios=scenarios, stress=stress,
-        histogram=dict(edges=edges.tolist(), counts=hist.tolist()), history=history, counties=counties,
+        markets=markets_all.get(key, []), early_vote=ev, regions=regions, scenarios=scenarios, poll_history=race["poll_history"],
+        history=history, counties=counties,
         fetch=fetch_log, mail_history=load_json("data/mail_history.json"),
         site_url=load_json("data/site.json", {}).get("url"),
         skew=dict(mail=MAIL_SKEW, mail_default=MAIL_SKEW_DEFAULT, early=EV_SKEW), early=early,
