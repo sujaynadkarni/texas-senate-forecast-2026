@@ -412,7 +412,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |8%{{efn|Anna Bender with 3%; Sara Canady and Gulrez Khan 2%; John Adefope with 1%; Virgil Bierschwale with 0%}}
 |{{sdash}}
 |-
-|style="text-align:left;"|Quantus Insights (R)<ref>{{Cite web|url=https://quantusinsights.org/f/latest-poll-paxton-leads-in-texas-2026-republican-senate-primary#ddfaccf9-bede-412a-8ce9-6f9ddda07554|title=Latest Poll: Paxton Leads in Texas 2026 Republican Senate Primary|website=Quantus Insights|date=February 27, 2026|access-date=February 27, 2026}}</ref>
+|style="text-align:left;"|Quantus Insights<ref>{{Cite web|url=https://quantusinsights.org/f/latest-poll-paxton-leads-in-texas-2026-republican-senate-primary#ddfaccf9-bede-412a-8ce9-6f9ddda07554|title=Latest Poll: Paxton Leads in Texas 2026 Republican Senate Primary|website=Quantus Insights|date=February 27, 2026|access-date=February 27, 2026}}</ref>
 |February 25–26, 2026
 |939 (LV)
 |±{{nbsp}}3.1%
@@ -1244,7 +1244,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 ! Other
 ! Undecided
 |-
-| style="text-align:left;" |Quantus Insights (R)<ref>{{cite web |title=Quantus Survey: Paxton Holds Edge on Eve of Texas GOP Runoff |url=https://quantusinsights.org/f/quantus-survey-paxton-holds-edge-on-eve-of-texas-gop-runoff |website=Quantus Insights |date=May 25, 2026 |access-date=May 25, 2026}}</ref>
+| style="text-align:left;" |Quantus Insights<ref>{{cite web |title=Quantus Survey: Paxton Holds Edge on Eve of Texas GOP Runoff |url=https://quantusinsights.org/f/quantus-survey-paxton-holds-edge-on-eve-of-texas-gop-runoff |website=Quantus Insights |date=May 25, 2026 |access-date=May 25, 2026}}</ref>
 |May 21–23, 2026
 |1,018 (LV)
 |±{{nbsp}}3.5%
@@ -1328,7 +1328,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |{{sdash}}
 |11%
 |-
-| style="text-align:left;" |Quantus Insights (R)<ref>{{cite web|url=https://quantusinsights.org/f/latest-poll-texas-runoff-takes-shape|title=Latest Poll: Texas Runoff Takes Shape|website=Quantus Insights|date=March 24, 2026|access-date=March 24, 2026}}</ref>
+| style="text-align:left;" |Quantus Insights<ref>{{cite web|url=https://quantusinsights.org/f/latest-poll-texas-runoff-takes-shape|title=Latest Poll: Texas Runoff Takes Shape|website=Quantus Insights|date=March 24, 2026|access-date=March 24, 2026}}</ref>
 |March 21–23, 2026
 |1,218 (LV)
 |±{{nbsp}}2.8%
@@ -2965,6 +2965,7 @@ The election is taking place amidst a broader push by the Trump administration t
 '''Newspapers and media'''
 * ''[[Austin American-Statesman]]''<ref>{{cite web |title=For U.S. Senate, Texans deserve Talarico's service over Paxton's self-interest |url=https://www.statesman.com/opinion/editorials/article/us-senate-talarico-endorsement-22420989.php |website=Austin American-Statesman |date=October 5, 2026 |access-date=October 5, 2026 |language=en}}</ref>
 * [[Daily Kos]]<ref name="Kos">{{cite web |title=Daily Kos endorses James Talarico for US Senate in Texas |url=https://www.dailykos.com/stories/2026/3/5/2371655/-Daily-Kos-endorses-James-Talarico-for-US-Senate-in-Texas |website=Daily Kos |date=March 5, 2026 |access-date=March 6, 2026 |language=en}}</ref>
+* ''[[The Dallas Morning News]]''<ref>{{Cite web |last=Dallas Morning News Editorial |first= |date=2026-10-18 |title=We recommend for U.S. Senate election in Texas |url=https://www.dallasnews.com/opinion/we-recommend/article/texas-us-senate-james-talarico-ken-paxton-22468885.php |access-date=2026-10-19 |website=[[The Dallas Morning News]] |language=en}}</ref>
 * ''[[Houston Chronicle]]''<ref>{{Cite web |last=Board |first=Houston Chronicle Editorial |date=May 28, 2026 |title=Talarico for Senate: Texans deserve better than Ken Paxton's moral rot |url=https://www.houstonchronicle.com/opinion/endorsements/article/james-talarico-general-election-endorsement-paxton-22277380.php |access-date=May 28, 2026 |website=Houston Chronicle |language=en}}</ref>
 }}
 {{Endorsements box

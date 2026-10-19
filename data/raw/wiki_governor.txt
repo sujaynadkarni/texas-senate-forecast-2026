@@ -382,7 +382,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |}
 
 ===Results===
-[[File:2026 Texas gubernatorial Democratic primary election results map by county.svg|thumb|250px|Results by county:
+[[File:2026 Texas gubernatorial Democratic primary election results map by county.svg|thumb|310px|Results by county:
 {{legend|#0D0596|Hinojosa—90–100%}}
 {{legend|#3933E5|Hinojosa—80–90%}}
 {{legend|#584CDE|Hinojosa—70–80%}}
@@ -572,42 +572,42 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{party shading/Republican}} |'''Abbott +2.2%'''
 |-
 |[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas Governor|url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-governor-general-election/polling |access-date=September 27, 2026 |website=[[Decision Desk HQ]]}}</ref>
-|through October 11, 2026
-|October 14, 2026
-|{{party shading/Republican}} |'''47.8%'''
-|46.9%
-|5.3%
-|{{party shading/Republican}} |'''Abbott +0.9%'''
+|through October 16, 2026
+|October 19, 2026
+|{{party shading/Republican}} |'''49.3%'''
+|47.5%
+|3.2%
+|{{party shading/Republican}} |'''Abbott +1.8%'''
 |-
 |[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Governor Election |url=https://fiftyplusone.news/polls/governor/general/texas |website=[[FiftyPlusOne]] |access-date=September 27, 2026}}</ref>
-|through October 11, 2026
-|October 14, 2026
-|{{party shading/Republican}} |'''48.3%'''
-|46.1%
-|5.6%
-|{{party shading/Republican}} |'''Abbott +2.2%'''
+|through October 16, 2026
+|October 19, 2026
+|{{party shading/Republican}} |'''48.8%'''
+|46.7%
+|4.5%
+|{{party shading/Republican}} |'''Abbott +2.1%'''
 |-
 |[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 1, 2026 |website=[[RealClearPolitics]]}}</ref>
-|September 15 – October 11, 2026
-|October 14, 2026
-|{{party shading/Republican}} |'''48.6%'''
-|46.4%
-|5.0%
-|{{party shading/Republican}} |'''Abbott +2.2%'''
+|September 18 – October 16, 2026
+|October 19, 2026
+|{{party shading/Republican}} |'''48.8%'''
+|46.7%
+|4.5%
+|{{party shading/Republican}} |'''Abbott +2.1%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
 |through October 11, 2026
 |October 14, 2026
 |{{party shading/Republican}} |'''48.5%'''
-|46.2%
-|5.3%
-|{{party shading/Republican}} |'''Abbott +2.3%'''
+|46.3%
+|5.2%
+|{{party shading/Republican}} |'''Abbott +2.2%'''
 |-
 |colspan="3" |Average
-|{{party shading/Republican}} |'''48.4%'''
-|46.5%
-|5.1%
-|{{party shading/Republican}} |'''Abbott +1.9%'''
+|{{party shading/Republican}} |'''48.9%'''
+|46.8%
+|4.3%
+|{{party shading/Republican}} |'''Abbott +2.1%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"

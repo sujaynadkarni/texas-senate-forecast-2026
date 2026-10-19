@@ -1,33 +1,33 @@
 {
- "fetched": "2026-10-19T16:15:06+00:00",
+ "fetched": "2026-10-19T19:13:30+00:00",
  "day": 1,
  "date": "2026-10-19",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 19 11:14 AM",
-   "ballots_to_date": 12165,
+   "refreshed": "Mon Oct 19 02:13 PM",
+   "ballots_to_date": 23025,
    "hourly": [
     2220,
     2421,
     3101,
-    3533,
-    890,
-    0,
-    0,
-    0,
+    3532,
+    3644,
+    3737,
+    3550,
+    820,
     0,
     0,
     0,
     0,
     0
    ],
-   "hours_in": 5,
-   "today": 12165,
-   "completed_hours": 4,
-   "today_completed": 11275,
-   "through": "11 AM",
+   "hours_in": 8,
+   "today": 23025,
+   "completed_hours": 7,
+   "today_completed": 22205,
+   "through": "2 PM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       1407,
       9
      ],
-     "same_hours": 6664,
+     "same_hours": 14477,
      "full_day": 25337
     },
     "2024": {
@@ -64,7 +64,7 @@
       3717,
       585
      ],
-     "same_hours": 13702,
+     "same_hours": 26303,
      "full_day": 46639
     }
    }
@@ -72,28 +72,28 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 19 11:12 AM",
-   "ballots_to_date": 4445,
+   "refreshed": "Mon Oct 19 02:09 PM",
+   "ballots_to_date": 8803,
    "hourly": [
     0,
     1337,
     1389,
-    1414,
-    305,
-    0,
-    0,
-    0,
+    1413,
+    1538,
+    1410,
+    1500,
+    216,
     0,
     0,
     0,
     0,
     0
    ],
-   "hours_in": 5,
-   "today": 4445,
-   "completed_hours": 4,
-   "today_completed": 4140,
-   "through": "11 AM",
+   "hours_in": 8,
+   "today": 8803,
+   "completed_hours": 7,
+   "today_completed": 8587,
+   "through": "2 PM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       198,
       0
      ],
-     "same_hours": 4977,
+     "same_hours": 9919,
      "full_day": 16518
     }
    }
