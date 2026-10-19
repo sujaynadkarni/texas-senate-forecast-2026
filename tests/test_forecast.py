@@ -504,20 +504,24 @@ class LiveCounties(unittest.TestCase):
         self.assertEqual(len(names), 18)
         for r in L["rows"]:
             self.assertIn(r["name"], names)
-            self.assertGreater(r["today"], 0)                      # no zero rows (Bexar before it posts)
+            self.assertGreater(r["in_person"], 0)                  # no rows before a county has in-person votes
             self.assertIn(r["name"], KEY_COUNTIES[r["group"]])
-            self.assertEqual(set(r["full_day"]), {"2024", "2022", "2018"})
+            self.assertEqual(set(r["base"]), {"2024", "2022", "2018"})
+            self.assertEqual(r["ev"], r["in_person"] + r["mail"])   # cumulative = in person + mail
 
     def test_map_and_live_today_agree_for_every_live_county(self):
         for race in ("senate", "governor"):
             d = json.load(open(f"site/data_{race}.json"))
             e, rows = d["early"], d["live_turnout"]["rows"]
             for r in rows:
+                if r["name"] == "Rural Texas":
+                    continue
                 x = e["counties"][r["name"]]
-                self.assertEqual(x["today"], r["today"], r["name"])                       # same vote count
-                if r["full_day"]["2022"] and x["today22"]:
-                    self.assertEqual(x["today22"], r["full_day"]["2022"], r["name"])       # same 2022 baseline
-                self.assertIn(r["name"], e["live_counties"])
+                self.assertEqual(x["ev"], r["ev"], r["name"])                             # same total as the map's Overall
+                self.assertEqual(x["today"], r["today"], r["name"])
+                self.assertEqual(x["ev22_raw"] or None, r["base"]["2022"], r["name"])     # same 2022 baseline
+                if r["live"]:
+                    self.assertIn(r["name"], e["live_counties"])
 
     def test_archives_cover_the_comparison_days(self):
         for slug in ("travistx", "montgomerytx"):

@@ -245,7 +245,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <button role="tab" type="button" data-layer="y2024" aria-selected="false">__HB_LABEL__ result</button>
     </div>
     <div id="race-ev-mode" hidden><div class="seg ev-mode" role="radiogroup" aria-label="Which early votes">
-        <button type="button" data-m="today" aria-pressed="true">Today, in person</button><button type="button" data-m="mail" aria-pressed="false">Mail</button><button type="button" data-m="overall" aria-pressed="false">Overall</button>
+        <button type="button" data-m="overall" aria-pressed="true">Overall</button><button type="button" data-m="today" aria-pressed="false">Today, in person</button><button type="button" data-m="mail" aria-pressed="false">Mail</button>
       </div></div>
     <div class="map-wrap">
       <div style="min-width:0">
@@ -319,7 +319,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
   <div id="view-early" hidden>
     <section class="col-wide" id="live-sec" style="padding-top:22px">
       <div class="rule-top"><h2>Live today</h2>
-        <p class="section-dek" id="live-dek">Unofficial in-person counts straight from county websites, checked every 20 minutes, hours before the state's official totals. A county appears once it has posted today.</p></div>
+        <p class="section-dek" id="live-dek">Early votes so far in each key county, in person and by mail, compared with the same point in past elections. Today's in-person counts come straight from county websites, checked every 20 minutes, hours before the state's official totals.</p></div>
       <div class="tabs live-tabs" role="tablist" id="live-tabs">
         <button role="tab" type="button" data-g="all" aria-selected="true">All key counties</button>
         <button role="tab" type="button" data-g="dem" aria-selected="false"><i class="gdot dem"></i>Democratic</button>
@@ -343,7 +343,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <div class="rule-top"><h2>Where the ballots are coming from</h2>
         <p class="section-dek" id="ev-map-dek">Each county compared with the same day of early voting in 2022, in raw votes. Pick which votes to compare. Tap a county for its numbers.</p></div>
       <div class="seg ev-mode" role="radiogroup" aria-label="Which early votes">
-        <button type="button" data-m="today" aria-pressed="true">Today, in person</button><button type="button" data-m="mail" aria-pressed="false">Mail</button><button type="button" data-m="overall" aria-pressed="false">Overall</button>
+        <button type="button" data-m="overall" aria-pressed="true">Overall</button><button type="button" data-m="today" aria-pressed="false">Today, in person</button><button type="button" data-m="mail" aria-pressed="false">Mail</button>
       </div>
       <div class="map-wrap">
         <div style="min-width:0"><svg id="ev-map" class="county-map" role="img" aria-label="Map of early vote pace by county"></svg>
@@ -878,7 +878,7 @@ const EV = DATA.early;
 //   today   = today's in-person votes so far / 2022's in-person votes on the same day
 //   mail    = mail ballots returned so far / 2022's mail ballots at the same point
 //   overall = all early votes so far (in person + mail) / 2022's at the same point
-let evMode = "today";
+let evMode = "overall";
 const EV_MODE_TITLE = {
   today: `Today's in-person votes so far, as a share of the same day in 2022`,
   mail: "Mail ballots returned so far, as a share of 2022 at the same point",
@@ -983,19 +983,22 @@ function liveView() {
   const L = DATA.live_turnout;
   if (!L) { $("#live-sec").hidden = true; return; }
   const GNAME = { dem: "Democratic", battle: "Battleground", rep: "Republican" };
-  const share = (today, full) => full ? `<strong>${Math.round(today / full * 100)}%</strong><span class="sub">of ${fmtInt(full)}</span>` : `<span class="nr">–</span>`;
+  const share = (now, then) => then ? `<strong>${Math.round(now / then * 100)}%</strong><span class="sub">of ${fmtInt(then)}</span>` : `<span class="nr">–</span>`;
   const draw = (g) => {
     const rows = L.rows.filter((r) => g === "all" || r.group === g);
-    let h = `<thead><tr><th>County</th><th>Voted today</th><th>As of</th><th>% of 2024 day ${L.day}</th><th>% of 2022 day ${L.day}</th><th>% of 2018 day ${L.day}</th></tr></thead><tbody>`;
+    let h = `<thead><tr><th>County</th><th>Early votes so far</th><th>Voted today</th><th>vs. 2024</th><th>vs. 2022</th><th>vs. 2018</th></tr></thead><tbody>`;
     for (const r of rows) {
-      h += `<tr class="${r.group}"><td class="name">${r.name}<span class="sub">${GNAME[r.group]} · <a href="${r.url}" target="_blank" rel="noopener">source</a></span></td>
-        <td><strong>${fmtInt(r.today)}</strong></td><td>${(r.refreshed || "").replace(/^\w+ \w+ \d+ /, "")}</td>
-        <td>${share(r.today, r.full_day["2024"])}</td><td>${share(r.today, r.full_day["2022"])}</td><td>${share(r.today, r.full_day["2018"])}</td></tr>`;
+      const src = r.url ? ` · <a href="${r.url}" target="_blank" rel="noopener">source</a>` : r.counties ? ` · ${r.counties} counties` : "";
+      const asof = r.live && r.refreshed ? `<span class="sub">as of ${r.refreshed.replace(/^\w+ \w+ \d+ /, "").replace(/^0/, "")}</span>` : "";
+      h += `<tr class="${r.group}"><td class="name">${r.name}<span class="sub">${GNAME[r.group]}${src}</span></td>
+        <td><strong>${fmtInt(r.ev)}</strong><span class="sub">${fmtInt(r.in_person)} in person · ${fmtInt(r.mail)} mail</span></td>
+        <td>${r.today > 0 ? fmtInt(r.today) + asof : `<span class="nr">–</span>`}</td>
+        <td>${share(r.ev, r.base["2024"])}</td><td>${share(r.ev, r.base["2022"])}</td><td>${share(r.ev, r.base["2018"])}</td></tr>`;
     }
-    if (!rows.length) h += `<tr><td colspan="6" style="text-align:left;white-space:normal;color:var(--ink-3)">No ${GNAME[g] ? GNAME[g].toLowerCase() : "key"} county has posted today's numbers yet. Counties appear here as soon as they do.</td></tr>`;
+    if (!rows.length) h += `<tr><td colspan="6" style="text-align:left;white-space:normal;color:var(--ink-3)">No ${GNAME[g] ? GNAME[g].toLowerCase() : "key"} county has posted in-person numbers yet. Counties appear here as soon as they do.</td></tr>`;
     $("#live-table").innerHTML = h + "</tbody>";
     const waiting = (g === "all" ? Object.values(L.groups).flat() : L.groups[g]).filter((n) => !L.rows.some((r) => r.name === n));
-    $("#live-note").textContent = `"% of day ${L.day}" is today's in-person votes so far as a share of that county's whole day ${L.day} of early voting in that year. Not posted yet: ${waiting.join(", ")}. Last checked ${fmtDate(L.fetched)}.`;
+    $("#live-note").textContent = `Early votes so far = in-person plus mail ballots since early voting began, including today's unofficial county counts where the state hasn't posted yet. "vs. 2022" compares with the same point of early voting in 2022 (day ${L.day}). 2024 mail totals by county aren't available, so 2024 shows "–". ${waiting.length ? "Not posted yet: " + waiting.join(", ") + ". " : ""}Last checked ${fmtDate(L.fetched)}.`;
   };
   const tabs = [...document.querySelectorAll("#live-tabs button")];
   tabs.forEach((b) => b.addEventListener("click", () => { tabs.forEach((x) => x.setAttribute("aria-selected", x === b)); draw(b.dataset.g); }));

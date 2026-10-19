@@ -133,29 +133,37 @@ def nowcast(c, res, results):
                 complete_counties=int((frac >= 1.0).sum()), T=T, P=P, frac=frac)
 
 
-def live_data():
-    """County same-day turnout (unofficial) for the key counties, each compared with its whole same day of
-    early voting in 2024, 2022 and 2018. Only counties with numbers today are included."""
+def live_data(early, c):
+    """Key counties, cumulative early votes so far (in person + mail), from the same county numbers the rest of
+    the site uses (state counts plus county live counts for today). Compared with the same point of early voting
+    in 2022 and 2018. A county appears once its total includes in-person votes."""
     from races import KEY_COUNTIES
-    from early_vote import load_2022, load_2018
-    live = load_json("data/live.json")
-    if not live or not live.get("counties"):
+    live = load_json("data/live.json") or {}
+    if not early:
         return None
-    day = max(1, live.get("day", 1))
-    t22 = load_2022(); d22 = t22[t22.day == day].set_index("key")
-    d18 = load_2018().get(day, {})
+    E = early["counties"]
     group_of = {n: g for g, names in KEY_COUNTIES.items() for n in names}
     rows = []
-    for name, rec in live["counties"].items():
-        if rec.get("error") or not rec.get("today") or name not in group_of:
+    for name, g in group_of.items():
+        if name == "Rural Texas":
+            # only rural counties whose total already includes in-person votes, so the comparison is like for like
+            es = [E[n] for n in c.county[c.region == "Rural"] if n in E and E[n]["in_person"] > 0]
+            names = es
+            ev, ip = sum(x["ev"] for x in es), sum(x["in_person"] for x in es)
+            if ip <= 0:
+                continue
+            rows.append(dict(name=name, group=g, ev=ev, in_person=ip, mail=sum(x["mail"] for x in es),
+                             today=sum(x["today"] for x in es), live=False, counties=len(names),
+                             base={"2022": sum(x["ev22_raw"] for x in es), "2018": None, "2024": None}))
             continue
-        k = name.upper().replace(" ", "")
-        full = {"2024": (rec.get("compare", {}).get("2024") or {}).get("full_day"),
-                "2022": int(d22.loc[k].today_in_person) if k in d22.index else None,
-                "2018": int(d18[k]["today_in"]) if k in d18 else None}
-        rows.append(dict(name=name, group=group_of[name], today=rec["today"], refreshed=rec.get("refreshed"),
-                         source=rec.get("source"), url=rec.get("url"), full_day=full))
-    return dict(fetched=live["fetched"], day=day, groups=KEY_COUNTIES, rows=rows)
+        x = E.get(name)
+        if not x or x["in_person"] <= 0:
+            continue
+        lv = (live.get("counties") or {}).get(name, {})
+        rows.append(dict(name=name, group=g, ev=x["ev"], in_person=x["in_person"], mail=x["mail"], today=x["today"],
+                         live=x.get("live", False), refreshed=lv.get("refreshed") if x.get("live") else None,
+                         url=lv.get("url"), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
+    return dict(fetched=live.get("fetched"), day=early["day"], groups=KEY_COUNTIES, rows=rows)
 
 
 def run_race(key, now, turnout, results_all, markets_all, fetch_log):
@@ -294,7 +302,7 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
         history=history, counties=counties,
         fetch=fetch_log, mail_history=load_json("data/mail_history.json"),
         site_url=load_json("data/site.json", {}).get("url"),
-        skew=dict(mail=MAIL_SKEW, mail_default=MAIL_SKEW_DEFAULT, early=EV_SKEW), early=early, live_turnout=live_data(),
+        skew=dict(mail=MAIL_SKEW, mail_default=MAIL_SKEW_DEFAULT, early=EV_SKEW), early=early, live_turnout=live_data(early, c),
     )
     print(f"{key:<9} mode={mode}  needle={needle['p']*100:.1f}% {D}  polls={margin_label(key, (2*poll_avg-1)*100, True)}  "
           f"forecast median={margin_label(key, (2*np.median(ss)-1)*100, True)}")
