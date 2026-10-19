@@ -409,6 +409,11 @@ class BuiltPage(unittest.TestCase):
 
 class Template(unittest.TestCase):
     """The template must stay race-neutral: names come from races.py, fields are d/r."""
+    def test_no_mail_only_early_vote_fields(self):
+        # every early-vote number on the page must come from DATA.early (state + live), never the old mail-only field
+        t = open("site/template.html").read()
+        self.assertNotIn("c.ev)", t); self.assertNotIn("c.ev_index", t)
+
     def test_no_hard_coded_candidates_or_old_fields(self):
         t = open("site/template.html").read()
         for bad in ("Talarico", "Paxton", "Hinojosa", "Abbott", ".talarico", ".paxton", "m24", "m18"):

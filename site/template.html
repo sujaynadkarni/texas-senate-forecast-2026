@@ -696,7 +696,7 @@ function pick(name) {
     ["Registered voters", fmtInt(c.registered)],
   ];
   if (c.lines) rows.push(["__R__ favored below", fmtM(c.lines.r)], ["Race even at", fmtM(c.lines.even)], ["__D__ favored above", fmtM(c.lines.d)]);
-  if (c.ev != null) rows.push(["Early ballots so far", fmtInt(c.ev)]);
+  rows.push(...evRows(c));                        // follows the Today / Mail / Overall filter
   const oc = countedOf(c);
   if (hasCount(oc)) rows.push([simObs ? "Simulated margin" : "Counted margin", fmtM((oc.d - oc.r) / (oc.d + oc.r) * 100)], ["Share counted", pct(oc.frac)]);
   $("#county-body").innerHTML = `<h3>${c.name}</h3><div class="reg">${c.region}</div><dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
@@ -894,6 +894,17 @@ function evRatio(c, mode = evMode) {
 const evColor = (c) => { const p = evRatio(c); if (p == null) return css("--nodata");
   return p < 0.8 ? css("--slow-2") : p < 0.95 ? css("--slow-1") : p <= 1.05 ? css("--even") : p <= 1.2 ? css("--pace-2") : css("--pace-3"); };
 const ratioTxt = (x) => x == null ? "–" : Math.round(x * 100) + "% of 2022";
+// county card rows for the current filter (Today, in person / Mail / Overall)
+function evRows(c) {
+  const e = EV && EV.counties[c.name]; if (!e) return [];
+  if (evMode === "today") return [["Voted in person today", e.today ? fmtInt(e.today) : "Not posted yet"],
+    ["2022, same day (in person)", e.today22 ? fmtInt(e.today22) : "–"], ["Today vs. 2022", ratioTxt(evRatio(c))]];
+  if (evMode === "mail") return [["Mail ballots so far", fmtInt(e.mail)],
+    ["2022, same point (mail)", e.mail22 ? fmtInt(e.mail22) : "–"], ["Mail vs. 2022", ratioTxt(evRatio(c))]];
+  return [["All early votes so far", fmtInt(e.ev)], ["In person / mail", `${fmtInt(e.in_person)} / ${fmtInt(e.mail)}`],
+    ["2022, same point (all)", e.ev22_raw ? fmtInt(e.ev22_raw) : "–"], ["Overall vs. 2022", ratioTxt(evRatio(c))]];
+}
+let evSelected = "Harris";
 function setEvMode(m) {
   evMode = m;
   document.querySelectorAll(".ev-mode button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.m === m));
@@ -901,6 +912,8 @@ function setEvMode(m) {
   if ($("#ev-legend-title")) $("#ev-legend-title").textContent = EV_MODE_TITLE[m];
   if ($("#ev-legend")) $("#ev-legend").innerHTML = EV_LEG.map(([v, l]) => `<span class="sw"><i style="background:${css(v)}"></i>${l}</span>`).join("");
   if (layer === "pace") paint();
+  if (PAGE === "race" && typeof selected !== "undefined" && $("#county-body")) pick(selected);
+  if (PAGE === "early" && $("#ev-card") && $("#ev-card").innerHTML) evPick(evSelected);
 }
 document.querySelectorAll(".ev-mode button").forEach((b) => b.addEventListener("click", () => setEvMode(b.dataset.m)));
 const pctTxt = (x) => (x >= 1 ? "+" : "") + Math.round((x - 1) * 100) + "%";
@@ -954,9 +967,8 @@ function evPick(name) {
   const c = byName[name], e = EV.counties[name];
   document.querySelectorAll("#ev-map path").forEach((p) => p.classList.toggle("sel", p.dataset.name === name));
   const sp = document.querySelector(`#ev-map path[data-name="${CSS.escape(name)}"]`); if (sp) sp.parentNode.append(sp);
-  const rows = [["Ballots so far", fmtInt(e.ev)], ["In person", fmtInt(e.in_person)], ["By mail", fmtInt(e.mail)], ["% of registered", e.pct.toFixed(1) + "%"],
-    ["Voted in person today", EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : "Not posted yet"],
-    ["Today vs. 2022", ratioTxt(evRatio(c, "today"))], ["Mail vs. 2022", ratioTxt(evRatio(c, "mail"))], ["Overall vs. 2022", ratioTxt(evRatio(c, "overall"))],
+  evSelected = name;
+  const rows = [...evRows(c),
     [H[1].label + " result", fmtM(c.hb)], ["Forecast", fmtM(c.fc)]];
   if (EV.day >= 1 && !e.missing) rows.push(["Net votes so far (est.)", `${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtInt(Math.abs(e.est_net))}`]);
   $("#ev-card").innerHTML = `<label for="ev-pick" class="sans" style="font-size:12px;color:var(--ink-3);font-weight:600;text-transform:uppercase;letter-spacing:.05em">Find a county</label>
