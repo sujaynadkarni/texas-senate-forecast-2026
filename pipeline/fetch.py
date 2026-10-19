@@ -194,7 +194,9 @@ def fetch_results():
 
 def main():
     log = {}
-    for name, fn in (("polls", fetch_polls), ("markets", fetch_markets), ("turnout", fetch_turnout), ("results", fetch_results)):
+    from fetch_live import fetch_live
+    for name, fn in (("polls", fetch_polls), ("markets", fetch_markets), ("turnout", fetch_turnout), ("results", fetch_results),
+                     ("live", fetch_live)):
         try:
             log[name] = {"ok": True, "at": NOW, "detail": fn()}
         except Exception as e:

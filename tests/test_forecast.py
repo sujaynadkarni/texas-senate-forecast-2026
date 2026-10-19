@@ -463,6 +463,36 @@ class Sanity(unittest.TestCase):
         self.assertTrue(any("win chance" in p for p in self.S.check(self.base, cur)))
 
 
+class LiveCounties(unittest.TestCase):
+    """County live-turnout parsers, checked against saved copies of the county pages (Oct. 19, 2026)."""
+    @classmethod
+    def setUpClass(cls):
+        import fetch_live
+        cls.F = fetch_live
+
+    def test_electionlink_summary(self):
+        r = self.F.parse_summary(open("tests/fixtures/electionlink_summary.html").read())
+        self.assertEqual(r["ballots"], 10924)
+        self.assertIn("Oct 19", r["refreshed"])
+
+    def test_electionlink_hourly(self):
+        h = self.F.parse_hourly(open("tests/fixtures/electionlink_hourly.html").read())
+        self.assertEqual(len(h["10/19/2026"]), 13)
+        self.assertEqual(h["10/19/2026"][:4], [2220, 2421, 3101, 3182])
+
+    def test_bexar_dashboard(self):
+        b = self.F.parse_bexar(open("tests/fixtures/bexar_dashboard.html").read())
+        self.assertEqual(b["date"], "10/16/2026")
+        self.assertGreaterEqual(b["sites"], 50)
+
+    def test_archives_cover_the_comparison_days(self):
+        for slug in ("travistx", "montgomerytx"):
+            for yr in (2022, 2024):
+                a = json.load(open(f"data/raw/live_archive_{slug}_{yr}.json"))
+                self.assertIn(self.F.same_day(yr, 1), a)
+        self.assertEqual(sum(json.load(open("data/raw/live_archive_travistx_2022.json"))["10/24/2022"]), 25337)
+
+
 class BuiltGovernorPage(BuiltPage):
     page, title = "governor.html", "Texas Governor Forecast"
 

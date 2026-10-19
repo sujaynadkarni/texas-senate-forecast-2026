@@ -1,22 +1,27 @@
 {
  "polls": {
   "ok": true,
-  "at": "2026-10-19T15:51:45+00:00",
+  "at": "2026-10-19T16:00:48+00:00",
   "detail": "senate 60, governor 52 polls"
  },
  "markets": {
   "ok": true,
-  "at": "2026-10-19T15:51:45+00:00",
+  "at": "2026-10-19T16:00:48+00:00",
   "detail": "senate: Kalshi 0.62, Polymarket 0.62; governor: Kalshi 0.24, Polymarket 0.24"
  },
  "turnout": {
   "ok": true,
-  "at": "2026-10-19T15:51:45+00:00",
-  "detail": "10/18/2026: 54,237 early votes"
+  "at": "2026-10-19T16:00:48+00:00",
+  "detail": "10/19/2026: 54,248 early votes"
  },
  "results": {
   "ok": true,
-  "at": "2026-10-19T15:51:45+00:00",
+  "at": "2026-10-19T16:00:48+00:00",
   "detail": "votes counted: senate 0, governor 0"
+ },
+ "live": {
+  "ok": true,
+  "at": "2026-10-19T16:00:48+00:00",
+  "detail": "3 counties: Travis 11,235 today, Montgomery 4,065 today, Bexar 0 today"
  }
 }

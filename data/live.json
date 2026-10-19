@@ -1,0 +1,150 @@
+{
+ "fetched": "2026-10-19T16:00:48+00:00",
+ "day": 1,
+ "date": "2026-10-19",
+ "counties": {
+  "Travis": {
+   "source": "county live tracker (ElectionLink)",
+   "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
+   "refreshed": "Mon Oct 19 10:59 AM",
+   "ballots_to_date": 11235,
+   "hourly": [
+    2220,
+    2421,
+    3101,
+    3493,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 4,
+   "today": 11235,
+   "completed_hours": 4,
+   "today_completed": 11235,
+   "through": "11 AM",
+   "compare": {
+    "2022": {
+     "hourly": [
+      1114,
+      1269,
+      1888,
+      2393,
+      2669,
+      2641,
+      2503,
+      2511,
+      2493,
+      2276,
+      2164,
+      1407,
+      9
+     ],
+     "same_hours": 6664,
+     "full_day": 25337
+    },
+    "2024": {
+     "hourly": [
+      3116,
+      2951,
+      3686,
+      3949,
+      4380,
+      4209,
+      4012,
+      3956,
+      3945,
+      4016,
+      4117,
+      3717,
+      585
+     ],
+     "same_hours": 13702,
+     "full_day": 46639
+    }
+   }
+  },
+  "Montgomery": {
+   "source": "county live tracker (ElectionLink)",
+   "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
+   "refreshed": "Mon Oct 19 10:56 AM",
+   "ballots_to_date": 4065,
+   "hourly": [
+    0,
+    1337,
+    1389,
+    1339,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 4,
+   "today": 4065,
+   "completed_hours": 4,
+   "today_completed": 4065,
+   "through": "11 AM",
+   "compare": {
+    "2024": {
+     "hourly": [
+      0,
+      1609,
+      1755,
+      1613,
+      1673,
+      1561,
+      1708,
+      1712,
+      1788,
+      1753,
+      1148,
+      198,
+      0
+     ],
+     "same_hours": 4977,
+     "full_day": 16518
+    }
+   }
+  },
+  "Bexar": {
+   "source": "county early-vote dashboard",
+   "url": "https://earlyvotecountsdual.bexar.org",
+   "date": "10/16/2026",
+   "sites": 59,
+   "today": 0,
+   "ballots_to_date": 0,
+   "busiest": [
+    [
+     "Bexar County Elections Department",
+     0,
+     0,
+     0
+    ],
+    [
+     "Bexar County Justice Center",
+     0,
+     0,
+     0
+    ],
+    [
+     "Brookhollow Branch Library",
+     0,
+     0,
+     0
+    ]
+   ],
+   "hourly": null,
+   "compare": {}
+  }
+ }
+}

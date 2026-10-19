@@ -133,6 +133,24 @@ def nowcast(c, res, results):
                 complete_counties=int((frac >= 1.0).sum()), T=T, P=P, frac=frac)
 
 
+def live_data():
+    """County same-day turnout (unofficial), plus each county's full same day in 2022 from the state data."""
+    live = load_json("data/live.json")
+    if not live or not live.get("counties"):
+        return None
+    try:
+        from early_vote import load_2022
+        t22 = load_2022()
+        d = t22[t22.day == max(1, live.get("day", 1))].set_index("key")
+        for name, rec in live["counties"].items():
+            k = name.upper().replace(" ", "")
+            if k in d.index:
+                rec["state_2022_full_day"] = int(d.loc[k].today_in_person)
+    except Exception:
+        pass
+    return live
+
+
 def run_race(key, now, turnout, results_all, markets_all, fetch_log):
     race = RACES[key]
     D, R = race["d"], race["r"]
@@ -269,7 +287,7 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
         history=history, counties=counties,
         fetch=fetch_log, mail_history=load_json("data/mail_history.json"),
         site_url=load_json("data/site.json", {}).get("url"),
-        skew=dict(mail=MAIL_SKEW, mail_default=MAIL_SKEW_DEFAULT, early=EV_SKEW), early=early,
+        skew=dict(mail=MAIL_SKEW, mail_default=MAIL_SKEW_DEFAULT, early=EV_SKEW), early=early, live_turnout=live_data(),
     )
     print(f"{key:<9} mode={mode}  needle={needle['p']*100:.1f}% {D}  polls={margin_label(key, (2*poll_avg-1)*100, True)}  "
           f"forecast median={margin_label(key, (2*np.median(ss)-1)*100, True)}")

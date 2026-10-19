@@ -1,0 +1,117 @@
+"""Same-day ("live") early-vote turnout straight from county websites, before the state compiles it.
+
+Unofficial numbers. Counties covered so far:
+  Travis, Montgomery  ElectionLink live tracker: ballots so far + check-ins per hour, with the 2022 and
+                      2024 trackers archived for same-day, same-hour comparisons
+  Bexar               county early-vote dashboard: ballots per polling place for the latest date
+Writes data/live.json. Past-year trackers never change, so they are cached in data/raw/live_archive_*.json.
+"""
+import html, json, os, re, subprocess, sys
+from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
+
+NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
+TX = ZoneInfo("America/Chicago")
+EL = "https://updates.electionlink.net/widgets/{slug}/{election}/{page}"
+ELECTIONS = {2026: "2026-11-03", 2024: "2024-11-05", 2022: "2022-11-08"}
+EV_START = {2026: date(2026, 10, 19), 2024: date(2024, 10, 21), 2022: date(2022, 10, 24)}
+ELECTIONLINK = {"Travis": "travistx", "Montgomery": "montgomerytx"}
+BEXAR_URL = "https://earlyvotecountsdual.bexar.org"
+HOURS = ["7 AM", "8 AM", "9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6 PM", "7 PM+"]
+
+
+def get(url):
+    out = subprocess.run(["curl", "-sL", "-m", "40", "-A", "Mozilla/5.0 (tx-senate-forecast)", url],
+                         capture_output=True, check=True).stdout
+    return out.decode("utf-8", "ignore")
+
+
+def text_of(page):
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", "", page, flags=re.S)
+    t = html.unescape(re.sub(r"<[^>]+>", " | ", t))
+    return re.sub(r"(\s*\|\s*)+", " | ", t)
+
+
+def parse_summary(page):
+    """ElectionLink summary page -> ballots cast so far and when the county last refreshed it."""
+    t = text_of(page)
+    ballots = re.search(r"BALLOTS CAST \| ([\d,]+)", t)
+    refreshed = re.search(r"Last Refreshed: \| ([^|]+?) \|", t)
+    return dict(ballots=int(ballots.group(1).replace(",", "")) if ballots else None,
+                refreshed=refreshed.group(1).strip() if refreshed else None)
+
+
+def parse_hourly(page):
+    """ElectionLink check-ins-per-hour page -> {mm/dd/yyyy: [13 hourly counts, 7 a.m. to close]}"""
+    out = {}
+    for block in re.findall(r"rows = \[\];(.*?)data\.push\(\{\s*date: '([\d/]+)'", page, flags=re.S):
+        body, d = block
+        out[d] = [int(v) for _, v in re.findall(r"rows\.push\(\['([^']+)',(\d+)\]\)", body)]
+    return out
+
+
+def parse_bexar(page):
+    """Bexar early-vote dashboard -> date shown, ballots that date and to date (summed over polling places)."""
+    t = text_of(page)
+    d = re.search(r"BALLOTS CAST THIS DATE ([\d/]+)", t)
+    rows = re.findall(r"\| ([A-Z][^|]{2,80}?) \| ([\d,]+) \| ([\d,]+) \| ([\d,]+)(?= \|)", t)
+    n = lambda s: int(s.replace(",", ""))
+    sites = [(name.strip(), n(a), n(b), n(c)) for name, a, b, c in rows]
+    return dict(date=d.group(1) if d else None, sites=len(sites), today=sum(s[1] for s in sites),
+                to_date=sum(s[3] for s in sites), busiest=sorted(sites, key=lambda s: -s[1])[:3])
+
+
+def archive(county, slug, year):
+    path = f"data/raw/live_archive_{slug}_{year}.json"
+    if os.path.exists(path):
+        return json.load(open(path))
+    hourly = parse_hourly(get(EL.format(slug=slug, election=ELECTIONS[year], page="CheckinsPerHourGraph.html")))
+    if hourly:
+        json.dump(hourly, open(path, "w"))
+    return hourly
+
+
+def same_day(year, day_n):
+    return (EV_START[year] + timedelta(days=day_n - 1)).strftime("%m/%d/%Y")
+
+
+def fetch_live():
+    today = datetime.now(TX).date()
+    day_n = (today - EV_START[2026]).days + 1
+    out = {"fetched": NOW, "day": day_n, "date": today.isoformat(), "counties": {}}
+    if not 1 <= day_n <= 12:
+        out["note"] = "outside early voting"
+    for county, slug in ELECTIONLINK.items():
+        try:
+            summ = parse_summary(get(EL.format(slug=slug, election=ELECTIONS[2026], page="BallotTypeTurnout.html")))
+            hourly = parse_hourly(get(EL.format(slug=slug, election=ELECTIONS[2026], page="CheckinsPerHourGraph.html")))
+            now_h = hourly.get(today.strftime("%m/%d/%Y"), [])
+            hours_in = max([i + 1 for i, v in enumerate(now_h) if v > 0], default=0)
+            # compare completed hours only: the hour in progress would understate 2026
+            now_tx = datetime.now(TX)
+            completed = hours_in if (now_tx.date() != today or now_tx.hour >= 20) else min(hours_in, max(0, now_tx.hour - 7))
+            rec = dict(source="county live tracker (ElectionLink)", url=EL.format(slug=slug, election=ELECTIONS[2026], page="index.html"),
+                       refreshed=summ["refreshed"], ballots_to_date=summ["ballots"], hourly=now_h, hours_in=hours_in,
+                       today=sum(now_h), completed_hours=completed, today_completed=sum(now_h[:completed]),
+                       through=(HOURS[completed] if completed < len(HOURS) - 1 else "close") if completed else None, compare={})
+            for yr in (2022, 2024):
+                past = archive(county, slug, yr).get(same_day(yr, day_n), [])
+                if past and sum(past):
+                    rec["compare"][str(yr)] = dict(hourly=past, same_hours=sum(past[:completed]), full_day=sum(past))
+            out["counties"][county] = rec
+        except Exception as e:
+            out["counties"][county] = dict(error=f"{type(e).__name__}: {e}")
+    try:
+        b = parse_bexar(get(BEXAR_URL))
+        out["counties"]["Bexar"] = dict(source="county early-vote dashboard", url=BEXAR_URL, date=b["date"], sites=b["sites"],
+                                        today=b["today"] if b["date"] == today.strftime("%m/%d/%Y") else 0,
+                                        ballots_to_date=b["to_date"], busiest=b["busiest"], hourly=None, compare={})
+    except Exception as e:
+        out["counties"]["Bexar"] = dict(error=f"{type(e).__name__}: {e}")
+    json.dump(out, open("data/live.json", "w"), indent=1)
+    ok = [k for k, v in out["counties"].items() if "error" not in v]
+    return f"{len(ok)} counties: " + ", ".join(f"{k} {out['counties'][k].get('today', 0):,} today" for k in ok)
+
+
+if __name__ == "__main__":
+    print(fetch_live())

@@ -171,6 +171,13 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .county-map { width: 100%; max-width: 100%; height: auto; display: block; }
 .county-map path { stroke: #ffffff; stroke-width: .6; cursor: pointer; fill: var(--nodata); }
 .county-map path:hover, .county-map path.sel { stroke: var(--ink); stroke-width: 1.6; }
+.live-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 860px) { .live-grid { grid-template-columns: minmax(0, 1fr); } }
+.live-grid .card h3 { font-family: var(--sans); font-size: 17px; margin: 0; }
+.live-grid .big { font: 800 30px var(--sans); font-variant-numeric: tabular-nums; margin: 4px 0 2px; }
+.live-grid .cmp { display: grid; grid-template-columns: 1fr auto auto; gap: 4px 12px; font-size: 14px; margin-top: 10px; font-variant-numeric: tabular-nums; }
+.live-grid .cmp span:nth-child(3n+1) { color: var(--ink-2); }
+.live-grid .up { color: var(--ok); font-weight: 700; } .live-grid .down { color: var(--warn); font-weight: 700; }
 .caveats { font-size: 16px; display: grid; gap: 6px; padding-left: 20px; margin: 0; }
 .nr { color: var(--ink-3); font-style: italic; }
 .tip { position: fixed; z-index: 10; pointer-events: none; background: var(--paper); border: 1px solid var(--ink); box-shadow: 0 2px 8px rgba(0,0,0,.12); padding: 8px 10px; font: 13px/1.4 var(--sans); color: var(--ink); max-width: 240px; }
@@ -308,6 +315,13 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <h2 style="font-family:var(--serif);font-size:clamp(26px,5vw,34px);font-weight:700;line-height:1.15;margin-bottom:10px" id="ev-head">Early voting</h2>
       <p class="section-dek">Every day the state reports how many people voted in each county. We compare that with the same day of early voting in 2022, the last midterm, and estimate whom the mix of voters favors.</p>
       <div class="explain"><h2>The story so far</h2><ul id="ev-story"></ul></div>
+    </section>
+
+    <section class="col-wide" id="live-sec">
+      <div class="rule-top"><h2>Live today</h2>
+        <p class="section-dek" id="live-dek">Unofficial counts straight from county websites, updated every hour. They arrive hours before the state's official totals.</p></div>
+      <div class="live-grid" id="live"></div>
+      <p class="note">Same-hours comparisons use only completed hours, so a partly counted hour does not make 2026 look low. Unofficial; the state's numbers replace these once they are posted.</p>
     </section>
 
     <section class="col-wide">
@@ -946,11 +960,41 @@ function evPick(name) {
   $("#ev-pick").addEventListener("change", (ev) => evPick(ev.target.value));
 }
 
+/* ---------- live county turnout (unofficial) ---------- */
+function liveView() {
+  const L = DATA.live_turnout, box = $("#live");
+  if (PAGE !== "early") return;
+  if (!L || !L.counties || L.day < 1 || L.day > 12) { $("#live-sec").hidden = true; return; }
+  const lean = (n) => { const c = byName[n]; return c ? `${H[1].label}: ${fmtM(c.hb)}` : ""; };
+  const chg = (a, b) => { const r = a / b - 1; return `<span class="${r >= 0 ? "up" : "down"}">${r >= 0 ? "+" : ""}${Math.round(r * 100)}%</span>`; };
+  for (const [name, r] of Object.entries(L.counties)) {
+    const d = el("div", { class: "card" });
+    if (r.error) { d.innerHTML = `<h3>${name}</h3><p class="note">The county's live page could not be read this hour. Its numbers will appear once the state posts them.</p>`; box.append(d); continue; }
+    const rows = [];
+    if (r.completed_hours) {
+      for (const yr of ["2024", "2022"]) {
+        const c = r.compare[yr];
+        if (c && c.same_hours) rows.push([`${yr}, same hours`, fmtInt(c.same_hours), chg(r.today_completed, c.same_hours)]);
+      }
+    }
+    if (r.state_2022_full_day) rows.push(["2022, whole day", fmtInt(r.state_2022_full_day), ""]);
+    const sub = r.hourly ? `as of ${r.refreshed || "this hour"} · ${r.completed_hours ? `comparisons 7 a.m. to ${r.through}` : "first hour in progress"}`
+      : (r.today ? `today, from ${r.sites} polling places` : `the county has not posted today's numbers yet (last update: ${r.date || "–"})`);
+    d.innerHTML = `<h3>${name} County</h3><div class="reg" style="font:600 12px var(--sans);color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em">${lean(name)}</div>
+      <div class="big">${fmtInt(r.today || 0)}</div><div class="note" style="margin:0">voted in person today · ${sub}</div>
+      ${rows.length ? `<div class="cmp">${rows.map((x) => `<span>${x[0]}</span><span>${x[1]}</span><span>${x[2]}</span>`).join("")}</div>` : ""}
+      <p class="note" style="margin-top:8px"><a href="${r.url}" target="_blank" rel="noopener">County source</a></p>`;
+    box.append(d);
+  }
+  const fetched = new Date(L.fetched);
+  $("#live-dek").textContent = `Unofficial counts straight from county websites, checked every hour (last check ${fmtDate(L.fetched)}). They arrive hours before the state's official totals.`;
+}
+
 /* ---------- page tabs (#forecast / #early) ---------- */
 function showView() {
   const early = PAGE === "early";
   $("#view-forecast").hidden = early; $("#view-early").hidden = !early;
 }
 
-staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); showView();
+staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); liveView(); showView();
 </script>
