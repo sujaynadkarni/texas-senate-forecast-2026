@@ -19,11 +19,19 @@ REGIONS = ["Urban core", "Big suburbs", "Outer suburbs", "Hispanic South/West", 
 def load_2022():
     rows = json.load(open("data/raw/ev_daily_2022_tt.json"))
     df = pd.DataFrame(rows)
-    for col in ("reg_voters", "cum_in_person", "cum_by_mail", "cum_ev_total", "ev_2018", "voted_2018", "reg_voters_2018"):
+    for col in ("reg_voters", "today_in_person", "cum_in_person", "cum_by_mail", "cum_ev_total", "ev_2018", "voted_2018", "reg_voters_2018"):
         df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
     df["day"] = df["day"].astype(int)
     df["key"] = df.county.str.upper().str.replace(r"[^A-Z]", "", regex=True)
     return df
+
+
+def load_2018():
+    """30 largest counties, each day of 2018 early voting (Texas SOS daily reports)."""
+    try:
+        return {int(k): v for k, v in json.load(open("data/raw/ev_daily_2018_sos.json")).items()}
+    except (OSError, ValueError):
+        return {}
 
 
 def day_number(d):
@@ -51,6 +59,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     c["in26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[0]).astype(float)
     c["mail26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[1]).astype(float)
     c["ev26"] = c.in26 + c.mail26
+    c["today26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[2]).astype(float)
 
     # same point in 2022: day N (cumulative in-person + mail). Before early voting starts (day 0),
     # only mail exists, so compare with mail returned by the end of 2022's first day.
@@ -58,7 +67,35 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     b = t22[t22.day == base_day].set_index("key")
     final22 = t22[t22.day == EV_DAYS].set_index("key")
     c["reg22"] = c.key.map(b.reg_voters).fillna(0)
-    c["ev22"] = c.key.map(b.cum_by_mail if n == 0 else b.cum_ev_total).fillna(0)
+    # During the day most counties have not posted today's in-person votes yet. A county that has not
+    # reported today is compared with 2022 through the previous day, so partial days are not unfair.
+    if n == 0:
+        c["reported_today"] = True
+        c["ev22"] = c.key.map(b.cum_by_mail).fillna(0)
+    else:
+        today22 = c.key.map(b.today_in_person).fillna(0)
+        c["reported_today"] = (c.today26 > 0) | (today22 == 0)
+        prev = t22[t22.day == n - 1].set_index("key") if n >= 2 else None
+        ev22_prev = c.key.map(prev.cum_ev_total).fillna(0) if prev is not None else c.key.map(b.cum_by_mail).fillna(0)
+        c["ev22"] = np.where(c.reported_today, c.key.map(b.cum_ev_total).fillna(0), ev22_prev)
+        c["today22"] = today22
+    # 2018, same point (30 largest counties only)
+    t18 = load_2018()
+    c["ev18"], c["reg18_ev"] = np.nan, np.nan
+    if t18:
+        d18 = t18.get(base_day, {}); d18p = t18.get(n - 1, {}) if n >= 2 else {}
+        for j, k in zip(c.index, c.key):
+            if k not in d18:
+                continue
+            if n == 0:
+                v = d18[k]["cum_mail"]
+            elif c.reported_today[j]:
+                v = d18[k]["cum_total"]
+            else:
+                v = d18p[k]["cum_total"] if k in d18p else d18[k]["cum_mail"]
+            c.loc[j, "ev18"], c.loc[j, "reg18_ev"] = v, d18[k]["reg"]
+    c["at_2018_pace"] = c.ev18 / c.reg18_ev * c.reg26
+    c["pace18"] = c.ev26 / c.at_2018_pace
     c["ev22_final"] = c.key.map(final22.cum_ev_total).fillna(0)
     c["ev18_final"] = c.key.map(b.ev_2018).fillna(0)
     c["pct26"] = c.ev26 / c.reg26
@@ -112,9 +149,34 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         tot = sum(v[0] + v[1] for v in daily[dstr]["counties"].values())
         series26.append(dict(day=day_number(dd), date=dd.isoformat(), pct=float(tot / c.reg26.sum()), ballots=int(tot)))
 
+    top = c.ev18.notna() & rep
+    pace18_top = float(c.ev26[top].sum() / c.at_2018_pace[top].sum()) if top.any() else None
+    today = None
+    if n >= 1:
+        rt = (c.today26 > 0) & rep
+        t22_adj = (c.today22 * c.reg26 / c.reg22.replace(0, np.nan)).fillna(0)
+        today = dict(in_person=int(c.today26.sum()), counties=int((c.today26 > 0).sum()),
+                     vs22=float(c.today26[rt].sum() / t22_adj[rt].sum()) if rt.any() and t22_adj[rt].sum() > 0 else None,
+                     raw22=int(c.today22[rt].sum()), adj22=int(t22_adj[rt].sum()))
+
+    keys30 = set(t18.get(1, {}).keys()) if t18 else set()
+    in30 = c.key.isin(keys30)
+    series_top = dict(y2018=[dict(day=dd, pct=sum(v["cum_total"] for v in t18[dd].values()) / sum(v["reg"] for v in t18[dd].values()))
+                             for dd in sorted(t18)] if t18 else [],
+                      y2022=[dict(day=int(dd), pct=float(g[g.key.isin(keys30)].cum_ev_total.sum() / g[g.key.isin(keys30)].reg_voters.sum()))
+                             for dd, g in t22.groupby("day")],
+                      y2026=[dict(day=day_number(datetime.strptime(ds, "%m/%d/%Y").date()),
+                                  pct=float(sum(v[0] + v[1] for k, v in daily[ds]["counties"].items() if k in set(c.county[in30]))
+                                            / c.reg26[in30].sum())) for ds in dates] if in30.any() else [])
+
     counties = {}
     for _, r in c.iterrows():
         counties[r.county] = dict(ev=int(r.ev26), mail=int(r.mail26), in_person=int(r.in26), ev22=int(round(r.at_2022_pace)),
+                                  ev22_raw=int(r.ev22), today=int(r.today26), reported_today=bool(r.reported_today),
+                                  today22=int(r.today22) if "today22" in c and not pd.isna(r.today22) else None,
+                                  ev18=None if pd.isna(r.at_2018_pace) else int(round(r.at_2018_pace)),
+                                  ev18_raw=None if pd.isna(r.ev18) else int(r.ev18),
+                                  pace18=None if pd.isna(r.pace18) or r.missing else round(float(r.pace18), 3),
                                   pace=None if pd.isna(r.pace) else round(float(r.pace), 3), missing=bool(r.missing),
                                   est_net=int(round(r.est_net)), pct=round(float(r.pct26) * 100, 2),
                                   pct22=round(float(r.pct22) * 100, 2))
@@ -127,7 +189,8 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         projected_turnout=proj, final_2022_votes=int(c.gov22_total.sum()), final_2018_votes=int(c.sen18_total.sum()),
         ev_2022_final=int(c.ev22_final.sum()), ev_2018_final=int(c.ev18_final.sum()),
         missing=[x for x in c.sort_values("exp_votes", ascending=False).county[c.missing]][:12],
-        regions=region_rows(), series22=series22, series26=series26, counties=counties,
+        regions=region_rows(), series22=series22, series26=series26, series_top=series_top, counties=counties,
+        today=today, pace18_top=pace18_top, n_top=int(in30.sum()),
     )
     out["story"] = story(out, c, names)
     return out
@@ -164,6 +227,15 @@ def story(e, c, names=("Talarico", "Paxton")):
         if e["projected_turnout"]:
             L.append(f"<strong>At this pace, about {e['projected_turnout']/1e6:.1f} million Texans will vote</strong> "
                      f"(2022: {e['final_2022_votes']/1e6:.1f} million; 2018: {e['final_2018_votes']/1e6:.1f} million).")
+    if e.get("today") and e["today"]["counties"] < 254:
+        t = e["today"]
+        L.append(f"<strong>Today so far:</strong> {fmt(t['in_person'])} in-person votes from {t['counties']} of 254 counties. "
+                 + (f"In those counties that is {abs(t['vs22'] - 1) * 100:.0f}% {'more' if t['vs22'] >= 1 else 'fewer'} than the same day in 2022 "
+                    f"({fmt(t['in_person'])} vs. {fmt(t['adj22'])}, adjusted for registration). " if t["vs22"] else "")
+                 + "Counties that have not posted today are compared with 2022 through yesterday.")
+    if e.get("pace18_top"):
+        L.append(f"<strong>Against 2018,</strong> the last high-turnout midterm, the 30 largest counties are "
+                 f"{abs(e['pace18_top'] - 1) * 100:.0f}% {'ahead of' if e['pace18_top'] >= 1 else 'behind'} the same day.")
     if len(big):
         up = big.sort_values("pace", ascending=False).head(3)
         down = big.sort_values("pace").head(3)

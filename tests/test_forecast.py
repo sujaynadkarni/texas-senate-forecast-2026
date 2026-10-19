@@ -219,7 +219,7 @@ class EarlyVote(unittest.TestCase):
         for name, k, reg26, f in zip(self.c.county, key, self.c.reg26, factor):
             r = d3.loc[k]
             scale = reg26 / r.reg_voters * f
-            counties[name] = [int(r.cum_in_person * scale), int(r.cum_by_mail * scale), 0]
+            counties[name] = [int(r.cum_in_person * scale), int(r.cum_by_mail * scale), int(r.today_in_person * scale)]
         path = "data/ev_daily_2026.json"
         saved = open(path).read() if os.path.exists(path) else None
         try:
@@ -253,6 +253,43 @@ class EarlyVote(unittest.TestCase):
         e = self.run_fake(f)
         self.assertIn("Bexar", e["missing"])
         self.assertAlmostEqual(e["pace"], 1.0, delta=0.01)
+
+    def test_partial_day_is_compared_fairly(self):
+        # Harris has not posted today: its total is through yesterday, so compare with 2022 through day 2
+        t22 = self.EVm.load_2022()
+        d2 = t22[t22.day == 2].set_index("key")
+        f = np.ones(len(self.c))
+        e = self.run_fake(f)
+        h = e["counties"]["Harris"]
+        self.assertTrue(h["reported_today"])
+        path = "data/ev_daily_2026.json"
+        saved = open(path).read()
+        try:
+            fake = json.loads(json.dumps({"10/21/2026": {"final": False, "counties": {}}}))
+            r = d2.loc["HARRIS"]; scale = self.c.set_index("county").reg26["Harris"] / r.reg_voters
+            base = self.run_fake(f)
+            counties = {n: [v["in_person"], v["mail"], v["today"]] for n, v in base["counties"].items()}
+            counties["Harris"] = [int(r.cum_in_person * scale), int(r.cum_by_mail * scale), 0]
+            fake["10/21/2026"]["counties"] = counties
+            json.dump(fake, open(path, "w"))
+            e2 = self.EVm.analyze(self.c, E.MAIL_SKEW, E.MAIL_SKEW_DEFAULT, E.EV_SKEW)
+        finally:
+            open(path, "w").write(saved)
+        h2 = e2["counties"]["Harris"]
+        self.assertFalse(h2["reported_today"])
+        self.assertAlmostEqual(h2["pace"], 1.0, delta=0.02)          # through yesterday vs 2022 through day 2
+        self.assertEqual(e2["today"]["counties"], e["today"]["counties"] - 1)
+
+    def test_today_matches_2022_at_same_pace(self):
+        e = self.run_fake(np.ones(len(self.c)))
+        self.assertAlmostEqual(e["today"]["vs22"], 1.0, delta=0.02)
+
+    def test_2018_comparison_covers_30_largest(self):
+        e = self.run_fake(np.ones(len(self.c)))
+        self.assertEqual(e["n_top"], 30)
+        self.assertIsNotNone(e["counties"]["Harris"]["pace18"])
+        self.assertIsNone(e["counties"]["Loving"]["pace18"])
+        self.assertEqual(len(e["series_top"]["y2018"]), 12)
 
     def test_projection_near_2022_at_same_pace(self):
         e = self.run_fake(np.ones(len(self.c)))

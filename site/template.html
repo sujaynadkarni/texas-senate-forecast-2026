@@ -160,10 +160,11 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .pagetabs a { font: 700 15px var(--sans); color: var(--ink-3); text-decoration: none; padding: 10px 16px 9px; border-bottom: 4px solid transparent; margin-bottom: -1px; }
 .pagetabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--ink); }
 .pagetabs a:hover { color: var(--ink); }
-.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); }
 .stats > div { padding: 14px 12px; min-width: 0; }
 .stats > div + div { border-left: 1px solid var(--rule); }
-@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stats > div:nth-child(3) { border-left: 0; } .stats > div:nth-child(n+3) { border-top: 1px solid var(--rule); } }
+.stats > div:nth-child(4) { border-left: 0; } .stats > div:nth-child(n+4) { border-top: 1px solid var(--rule); }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stats > div:nth-child(4) { border-left: 1px solid var(--rule); } .stats > div:nth-child(odd) { border-left: 0; } .stats > div:nth-child(n+3) { border-top: 1px solid var(--rule); } }
 .stats .lab { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); font-weight: 700; }
 .stats .val { font-size: 26px; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1.2; margin-top: 2px; }
 .stats .sub { font-size: 12px; color: var(--ink-3); }
@@ -315,8 +316,8 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
     <section class="col-wide">
       <div class="rule-top"><h2>Turnout, day by day</h2>
-        <p class="section-dek">Share of registered voters who have voted early, compared with the same day of early voting in 2022.</p></div>
-      <svg class="chart" id="ev-chart" viewBox="0 0 720 260" role="img" aria-label="Early vote turnout by day, 2026 compared with 2022"></svg>
+        <p class="section-dek">Share of registered voters in the 30 largest counties who have voted early (in person and by mail), by day of early voting: 2026 against the 2018 and 2022 midterms. These counties cast about 80% of the vote; the state only published daily numbers for them in 2018.</p></div>
+      <svg class="chart" id="ev-chart" viewBox="0 0 720 260" role="img" aria-label="Early vote turnout by day in the 30 largest counties: 2026, 2022 and 2018"></svg>
     </section>
 
     <section class="col-wide">
@@ -706,7 +707,8 @@ function mapTip(c) {
 }
 function evTip(c) {
   const e = EV.counties[c.name];
-  const rows = e.missing ? [["Status", "Not reported yet"]] : [["Ballots so far", fmtInt(e.ev)], ["By mail", fmtInt(e.mail)], ["2022, same day", fmtInt(e.ev22)], ["Vs. 2022", e.pace != null ? pctTxt(e.pace) : "–"]];
+  const rows = e.missing ? [["Status", "Not reported yet"]] : [["Ballots so far", fmtInt(e.ev)], ["Today", EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : "not posted yet"],
+    ["2022, same day", fmtInt(e.ev22_raw)], ["Vs. 2022", e.pace != null ? pctTxt(e.pace) : "–"]].concat(e.pace18 != null ? [["Vs. 2018", pctTxt(e.pace18)]] : []);
   rows.push([H[1].label, fmtM(c.hb)]);
   return `<b>${c.name}</b>${tipRows(rows)}`;
 }
@@ -863,33 +865,38 @@ function earlyView() {
   const oLbl = (m) => !OC ? "" : Math.abs(m) < 0.05 ? "Even" : `${m > 0 ? OC.d : OC.r} +${Math.abs(m).toFixed(1)}`;
   const lean = EV.day >= 1 ? `${fmtM(EV.est_margin, true)}${OE ? `<div class="sub" style="font-size:14px;font-weight:700;color:var(--ink)">${oLbl(OE.est_margin)}</div>` : ""}` : "From day 1";
   if (EV.day >= 1 && OE) EV.story.splice(EV.story.length - 1, 0, `<strong>For governor,</strong> the same ballots work out to about <strong>${oLbl(OE.est_margin)}</strong>, using each county's expected governor vote.`);
+  const T = EV.today;
   const stats = [
     ["Ballots cast", fmtInt(EV.total), `${fmtInt(EV.in_person)} in person · ${fmtInt(EV.mail)} mail`],
-    ["Vs. same day in 2022", EV.day >= 1 ? pctTxt(EV.pace) : "–", EV.day >= 1 ? "after registration growth" : "compared from day 1"],
+    ["Voted in person today", T ? fmtInt(T.in_person) : "–", T ? `${T.counties} of 254 counties reported${T.vs22 ? ` · ${pctTxt(T.vs22)} vs. 2022` : ""}` : "in-person voting starts Oct. 19"],
+    ["Vs. same day in 2022", EV.day >= 1 ? pctTxt(EV.pace) : "–", EV.day >= 1 ? `${fmtInt(EV.total)} vs. ${fmtInt(EV.at_2022_pace)} · after registration growth` : "compared from day 1"],
+    ["Vs. same day in 2018", EV.day >= 1 && EV.pace18_top ? pctTxt(EV.pace18_top) : "–", "30 largest counties"],
     ["Estimated lean of ballots", lean, "Senate / governor · an estimate, not a count"],
     ["Turnout on this pace", EV.projected_turnout ? (EV.projected_turnout / 1e6).toFixed(1) + "M" : "–", `2022: ${(EV.final_2022_votes / 1e6).toFixed(1)}M · 2018: ${(EV.final_2018_votes / 1e6).toFixed(1)}M`],
   ];
   $("#ev-stats").innerHTML = stats.map(([l, v, s2]) => `<div><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s2}</div></div>`).join("");
 
-  // day-by-day chart
-  const s = $("#ev-chart"), W = 720, CH = 260, m = { l: 44, r: 90, t: 14, b: 30 };
-  const maxP = Math.max(...EV.series22.map((d) => d.pct), ...EV.series26.map((d) => d.pct)) * 1.1;
+  // day-by-day chart: same 30 counties in every year, so the lines are comparable
+  const ST = EV.series_top, s = $("#ev-chart"), W = 720, CH = 260, m = { l: 44, r: 70, t: 14, b: 30 };
+  const s26 = Object.values(ST.y2026.reduce((a, d) => { a[d.day] = d; return a; }, {})).sort((a, b) => a.day - b.day);
+  const maxP = Math.max(...ST.y2018.map((d) => d.pct), ...ST.y2022.map((d) => d.pct), ...s26.map((d) => d.pct)) * 1.1;
   const x = (d) => m.l + d / 12 * (W - m.l - m.r), y = (v) => CH - m.b - v / maxP * (CH - m.t - m.b);
-  for (let v = 0; v <= maxP; v += 0.05) {
+  for (let v = 0; v <= maxP; v += 0.1) {
     s.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: css("--rule"), "stroke-width": .7 }));
     const t = svgEl("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = Math.round(v * 100) + "%"; s.append(t);
   }
   for (let d = 0; d <= 12; d += 2) { const t = svgEl("text", { x: x(d), y: CH - 8, "text-anchor": "middle" }); t.textContent = d === 0 ? "Before" : "Day " + d; s.append(t); }
   const path = (pts) => "M" + pts.map((d) => `${x(d.day)},${y(d.pct)}`).join("L");
-  s.append(svgEl("path", { d: path(EV.series22), fill: "none", stroke: css("--ink-3"), "stroke-width": 2, "stroke-dasharray": "5 4" }));
-  const l22 = EV.series22[EV.series22.length - 1];
-  const t22 = svgEl("text", { x: x(l22.day) + 6, y: y(l22.pct) + 4, class: "lbl", style: `fill:${css("--ink-3")}` }); t22.textContent = "2022"; s.append(t22);
-  const pts26 = EV.series26.reduce((a, d) => { a[d.day] = d; return a; }, {});
-  const s26 = Object.values(pts26).sort((a, b) => a.day - b.day);
-  s.append(svgEl("path", { d: path(s26), fill: "none", stroke: css("--ink"), "stroke-width": 3 }));
-  const last = s26[s26.length - 1];
-  s.append(svgEl("circle", { cx: x(last.day), cy: y(last.pct), r: 5, fill: css("--ink") }));
-  const t26 = svgEl("text", { x: x(last.day) + 8, y: y(last.pct) - 6, class: "lbl" }); t26.textContent = "2026"; s.append(t26);
+  const line = (pts, color, dash, label, w) => {
+    if (!pts.length) return;
+    s.append(svgEl("path", { d: path(pts), fill: "none", stroke: color, "stroke-width": w, "stroke-dasharray": dash }));
+    const l = pts[pts.length - 1];
+    const t = svgEl("text", { x: x(l.day) + 8, y: y(l.pct) + 4, class: "lbl", style: `fill:${color}` }); t.textContent = label; s.append(t);
+  };
+  line(ST.y2018, css("--ink-3"), "2 4", "2018", 2);
+  line(ST.y2022, css("--ink-2"), "6 4", "2022", 2);
+  line(s26, css("--ink"), "", "2026", 3);
+  if (s26.length) { const l = s26[s26.length - 1]; s.append(svgEl("circle", { cx: x(l.day), cy: y(l.pct), r: 5, fill: css("--ink") })); }
 
   // map
   const map = $("#ev-map"); map.setAttribute("viewBox", PATHS.viewBox);
@@ -911,13 +918,15 @@ function earlyView() {
 
   // county table
   const rows = [...DATA.counties].sort((a, b) => b.exp_votes - a.exp_votes).slice(0, 40);
-  let h = `<thead><tr><th>County</th><th>Ballots</th><th>Mail</th><th>2022 same day</th><th>Vs. 2022</th><th>${H[1].label}</th><th>Senate net (est.)</th><th>Governor net (est.)</th></tr></thead><tbody>`;
+  let h = `<thead><tr><th>County</th><th>Ballots</th><th>Today</th><th>2022 same day</th><th>Vs. 2022</th><th>2018 same day</th><th>Vs. 2018</th><th>${H[1].label}</th><th>Senate net (est.)</th><th>Governor net (est.)</th></tr></thead><tbody>`;
   for (const c of rows) {
     const e = EV.counties[c.name];
     const vs = e.missing ? `<span class="nr">Not reported</span>` : e.pace != null ? `<strong>${pctTxt(e.pace)}</strong>` : "–";
     const net = e.missing || EV.day < 1 ? "–" : `<span class="${e.est_net >= 0 ? "t" : "p"}">${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtK(Math.abs(e.est_net))}</span>`;
     const on = OE && OE.counties[c.name], net2 = e.missing || EV.day < 1 || on == null ? "–" : `<span class="${on >= 0 ? "t" : "p"}">${on >= 0 ? OC.d : OC.r} +${fmtK(Math.abs(on))}</span>`;
-    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtInt(e.ev)}</td><td>${fmtInt(e.mail)}</td><td>${fmtInt(e.ev22)}</td><td>${vs}</td><td>${fmtM(c.hb)}</td><td>${net}</td><td>${net2}</td></tr>`;
+    const vs18 = e.missing ? "–" : e.pace18 != null ? `<strong>${pctTxt(e.pace18)}</strong>` : `<span class="nr">n/a</span>`;
+    const today = EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : `<span class="nr">not yet</span>`;
+    h += `<tr><td class="name">${c.name}<span class="sub">${c.region} · ${fmtInt(e.mail)} by mail</span></td><td>${fmtInt(e.ev)}</td><td>${today}</td><td>${fmtInt(e.ev22_raw)}</td><td>${vs}</td><td>${e.ev18_raw != null ? fmtInt(e.ev18_raw) : "–"}</td><td>${vs18}</td><td>${fmtM(c.hb)}</td><td>${net}</td><td>${net2}</td></tr>`;
   }
   $("#ev-table").innerHTML = h + "</tbody>";
 }
@@ -926,7 +935,9 @@ function evPick(name) {
   document.querySelectorAll("#ev-map path").forEach((p) => p.classList.toggle("sel", p.dataset.name === name));
   const sp = document.querySelector(`#ev-map path[data-name="${CSS.escape(name)}"]`); if (sp) sp.parentNode.append(sp);
   const rows = [["Ballots so far", fmtInt(e.ev)], ["In person", fmtInt(e.in_person)], ["By mail", fmtInt(e.mail)], ["% of registered", e.pct.toFixed(1) + "%"],
-    ["2022, same day", `${fmtInt(e.ev22)} (${e.pct22.toFixed(1)}%)`], ["Vs. 2022", e.missing ? "Not reported" : e.pace != null ? pctTxt(e.pace) : "–"],
+    ["Voted in person today", EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : "Not posted yet"],
+    ["2022, same day", `${fmtInt(e.ev22_raw)} (${e.pct22.toFixed(1)}%)`], ["Vs. 2022", e.missing ? "Not reported" : e.pace != null ? pctTxt(e.pace) : "–"],
+    ["2018, same day", e.ev18_raw != null ? fmtInt(e.ev18_raw) : "n/a (not a top-30 county)"], ["Vs. 2018", e.pace18 != null ? pctTxt(e.pace18) : "–"],
     [H[1].label + " result", fmtM(c.hb)], ["Forecast", fmtM(c.fc)]];
   if (EV.day >= 1 && !e.missing) rows.push(["Net votes so far (est.)", `${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtInt(Math.abs(e.est_net))}`]);
   $("#ev-card").innerHTML = `<label for="ev-pick" class="sans" style="font-size:12px;color:var(--ink-3);font-weight:600;text-transform:uppercase;letter-spacing:.05em">Find a county</label>

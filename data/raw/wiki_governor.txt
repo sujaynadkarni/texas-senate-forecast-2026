@@ -560,7 +560,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 ! Dates<br />updated
 ! style="width:100px;" |Greg Abbott (R)
 ! style="width:100px;" |Gina Hinojosa (D)
-! style="width:100px;" |Other/<br />Undecided{{Efn|Calculated by taking the difference of 100% and all other candidates combined.|name=|group=}}
+! style="width:100px;" |Other/<br />Undecided{{Efn|Calculated by taking the difference of 100% and all other candidates combined.}}
 ! Margin
 |-
 |[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Governor|url=https://www.270towin.com/2026-governor-polls/texas|website=[[270toWin]]|access-date=September 27, 2026}}</ref>
@@ -618,17 +618,29 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 ! Margin<br />{{nowrap|of error}}
 ! style="width:100px"| Greg<br />Abbott (R)
 ! style="width:100px"| Gina<br />Hinojosa (D)
+! style="width:100px"| Pat<br />Dixon (L)
 ! Other
 ! Undecided
 |-
 |style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{Cite web|url=https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/|title=CBS News poll shows a Texas toss-up with Talarico, Paxton in tight Senate race|first1=Anthony|last1=Salvanto|first2=Jennifer|last2=De Pinto|first3=Fred|last3=Backus|website=[[CBS News]] |date=October 18, 2026 |access-date=October 18, 2026}}</ref>
-|October 8-16, 2026
+|October 8–16, 2026
 |1,492 (LV)
 |±{{nbsp}}3.5%
 |{{Party shading/Republican}}|'''52%'''
 |48%
 |{{sdash}}
 |{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[University of Houston]]<ref>{{Cite web|url=https://www.uh.edu/hobby/texas2026/index.php |title=Texas Votes 2026 |website=[[University of Houston]] |date=October 19, 2026 |access-date=October 19, 2026}}</ref>
+|October 10–14, 2026
+|2,000 (LV)
+|±{{nbsp}}2.2%
+|{{Party shading/Republican}}|'''49%'''
+|46%
+|2%
+|{{sdash}}
+|3%
 |-
 | style="text-align: left;"|ActiVote<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-governor/ |title=Abbott Narrowly Ahead in Texas Governor Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
 |September 30 – October 14, 2026
@@ -638,6 +650,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |49%
 |{{sdash}}
 |{{sdash}}
+|{{sdash}}
 |-
 |style="text-align:left" rowspan="2"|[[Marist University]]<ref>{{cite web |title=Marist Poll of 1,196 Texas Registered Voters |url=https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_TX-NOS-and-Tables_202610131056%5Eal3j7.pdf |work=[[Marist University]] |access-date=October 14, 2026}}</ref>
 |rowspan="2"|October 8–11, 2026
@@ -645,6 +658,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.9%
 |{{party shading/Republican}}|'''49%'''
 |45%
+|{{sdash}}
 |2%{{efn|name=MaristOct|"Another party's candidate" with 1%; "No response" with 1%}}
 |3%
 |-
@@ -652,6 +666,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.3%
 |{{party shading/Republican}}|'''48%'''
 |47%
+|{{sdash}}
 |2%{{efn|name=MaristOct}}
 |3%
 |-
@@ -661,7 +676,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.5%
 |45%
 |{{Party shading/Democratic}}|'''47%'''
-|4%{{efn|name=Dixon4}}
+|4%
+|{{sdash}}
 |4%
 |-
 |style="text-align:left"|ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=Texas Poll: Talarico Maintains Small Lead Over Paxton |url=https://reconmr.com/wp-content/uploads/2026/10/TXP004-October-Press-Release.pdf |website=ReconMR |date=October 13, 2026 |access-date=October 13, 2026}}</ref>
@@ -670,6 +686,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.4%
 |{{party shading/Republican}}|'''48%'''
 |47%
+|{{sdash}}
 |2%
 |3%
 |-
@@ -679,6 +696,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.0%
 |47%
 |{{party shading/Democratic}}|'''48%'''
+|{{sdash}}
 |1%
 |5%
 |-
@@ -688,7 +706,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.3%
 |48%
 |{{Party shading/Democratic}}|'''49%'''
-|3%{{Efn|Pat Dixon (L) with 1%; "Someone else" with 2%}}
+|1%
+|2%{{Efn|"Someone else" with 2%}}
 |{{sdash}}
 |-
 |style="text-align:left"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: September 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-texas-poll-toplines.html |website=The New York Times |date=October 3, 2026 |access-date=October 3, 2026}}</ref>
@@ -697,6 +716,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.1%
 |46%
 |{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
 |{{sdash}}
 |5%
 |-
@@ -707,12 +727,14 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{party shading/Republican}}|'''52%'''
 |47%
 |{{sdash}}
+|{{sdash}}
 |1%
 |-
 |1,203 (RV)
 |±{{nbsp}}2.5%
 |{{party shading/Republican}}|'''50%'''
 |49%
+|{{sdash}}
 |{{sdash}}
 |1%
 |-
@@ -722,7 +744,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.5%
 |{{party shading/Republican}}|'''46%'''
 |44%
-|4%{{efn|name=Dixon4}}
+|4%
+|{{sdash}}
 |5%
 |-
 |style="text-align:left;"|[[UMass Lowell]]/[[YouGov]]<ref>{{Cite web |url=https://www.uml.edu/news/press-releases/2026/10092026-texas-poll.aspx |title=Texas poll: Paxton, Talarico tied in U.S. Senate race |work=[[UMass Lowell]] |date=October 8, 2026 |access-date=October 8, 2026}}</ref>
@@ -731,7 +754,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.5%
 |{{party shading/Republican}}|'''48%'''
 |44%
-|2%{{efn|Pat Dixon (L) with 1%; "Will not vote" with 1%}}
+|1%
+|1%{{efn|"Will not vote" with 1%}}
 |6%
 |-
 |rowspan="4" style="text-align:left;"|Big Data Poll<ref>{{cite web |title=Lone Star State Poll: Talarico, Paxton in Close Race for U.S. Senate in Texas |url=https://www.bigdatapoll.com/blog/lone-star-state-poll-talarico-paxton-in-close-race-us-senate-in-texas/ |work=Big Data Poll |date=September 27, 2026 |access-date=September 27, 2026}}</ref>
@@ -740,23 +764,27 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |rowspan="4"|±{{nbsp}}4.0%
 |{{party shading/Republican}}|'''49%'''{{efn|name=lean}}
 |44%
-|6%{{efn|Pat Dixon (L) with 6%}}
+|6%
+|{{sdash}}
 |{{sdash}}
 |-
 |{{party shading/Republican}}|'''47%'''
 |44%
-|4%{{efn|name="Dixon4"|Pat Dixon (L) with 4%}}
+|4%
+|{{sdash}}
 |5%
 |-
 |rowspan="2"|793 (RV)
 |{{party shading/Republican}}|'''48%'''{{efn|name=lean}}
 |44%
-|8%{{efn|Pat Dixon (L) with 8%}}
+|8%
+|{{sdash}}
 |{{sdash}}
 |-
 |{{party shading/Republican}}|'''46%'''
 |43%
-|4%{{efn|name="Dixon4"}}
+|4%
+|{{sdash}}
 |7%
 |-
 | style="text-align:left;"|Stratus Intelligence (R)<ref>{{cite web |title=TEXAS STATEWIDE 2026 GENERAL ELECTION SURVEY  |url=https://www.politico.com/f/?id=000001a0-e76b-d462-adb2-e7fba4200000 |work=[[Politico]] |access-date=September 28, 2026}}</ref>
@@ -766,6 +794,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{party shading/Republican}}|'''50%'''
 |45%
 |{{sdash}}
+|{{sdash}}
 |5%
 |-
 | style="text-align:left;"|Texas Public Opinion Research<ref>{{cite web |title=September Poll: Talarico Leads Paxton by Five Points; Abbott Leads Hinojosa by Four Points |url=https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election-662 |work=Texas Public Opinion Research |access-date=September 25, 2026}}</ref>
@@ -774,7 +803,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.6%
 |{{party shading/Republican}}|'''50%'''
 |46%
-|3%{{Efn|Pat Dixon (L) with 2%; "Would not vote in this race" with 1%}}
+|2%
+|1%{{Efn|"Would not vote in this race" with 1%}}
 |2%
 |-
 |style="text-align:left;"|[[Marist University]]<ref>{{cite web |title=Marist Poll of 1,139 Texas Registered Voters |url=https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_TX-NOS-and-Tables_202609221131.pdf |work=[[Marist University]] |access-date=September 22, 2026}}</ref>
@@ -783,6 +813,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.4%
 |46%
 |{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
 |1%
 |3%
 |-
@@ -792,7 +823,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}2.3%
 |{{party shading/Republican}}|'''49%'''
 |45%
-|2%{{Efn|name=Dixon2}}
+|2%
+|{{sdash}}
 |4%
 |-
 |style="text-align:left"|Emerson College<ref>{{cite web |title=Texas 2026 Poll: Talarico and Paxton in Dead Heat, Abbott Maintains Edge |url=https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/ |website=Emerson College Polling |access-date=September 17, 2026 |date=September 17, 2026}}</ref>
@@ -801,7 +833,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.0%
 |{{party shading/Republican}}|'''49%'''
 |46%
-|2%{{Efn|name=Dixon2|Pat Dixon (L) with 2%}}
+|2%
+|{{sdash}}
 |4%
 |-
 | style="text-align: left;"|SoCal Strategies (R)<ref>{{cite web|url=https://socalstrategies.substack.com/p/new-socal-strategies-poll-james-talarico|title=New SoCal Strategies Poll: James Talarico Takes the Lead in Texas|date=September 13, 2026|access-date=September 13, 2026|website=[[Substack]]}}</ref>
@@ -811,6 +844,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{party shading/Republican}}|'''52%'''
 |44%
 |{{sdash}}
+|{{sdash}}
 |3%
 |-
 |style="text-align:left"|ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=The ReconMR Texas Poll |url=https://reconmr.com/wp-content/uploads/2026/09/ReconMR-Texas-Poll-September-Release-Final.pdf |website=ReconMR |access-date=September 17, 2026 |date=September 17, 2026}}</ref>
@@ -819,6 +853,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.3%
 |45%
 |{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
 |2%
 |4%
 |-
@@ -828,7 +863,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.0%
 |{{party shading/Republican}}|'''48%'''
 |41%
-|3%{{efn|Jenn Mack Raphoon (I) with 2%; Pat Dixon (L) with 1%}}
+|1%
+|2%{{efn|Jenn Mack Raphoon (I) with 2%}}
 |8%
 |-
 | style="text-align: left;" |[[Univision]]/[[YouGov]]<ref>{{Cite web |url=https://www.univision.com/noticias/politica/poll-univision-texas-2026 |title=This Is What Texas Voters Think Looking Ahead to 2026 |website=[[Univision]] |date=September 9, 2026 |access-date=September 9, 2026}}</ref>
@@ -837,6 +873,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.6%
 |'''47%'''
 |'''47%'''
+|{{sdash}}
 |1%
 |5%
 |-
@@ -846,6 +883,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.3%
 |{{party shading/Republican}}|'''49%'''
 |46%
+|{{sdash}}
 |{{sdash}}
 |5%
 |-
@@ -857,9 +895,11 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |49%
 |{{sdash}}
 |{{sdash}}
+|{{sdash}}
 |-
 |{{party shading/Republican}}|'''47%'''
 |46%
+|{{sdash}}
 |{{sdash}}
 |7%
 |-
@@ -869,7 +909,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.3%
 |{{party shading/Republican}}|'''49%'''{{Efn|With voters who lean towards a given candidate}}
 |42%
-|3%{{Efn|Pat Dixon (L), Jenn Mack Raphoon (I) & "Would not vote in that race" with 1%}}
+|1%
+|2%{{Efn|Jenn Mack Raphoon (I) with 1%; "Would not vote in that race" with 1%}}
 |6%
 |-
 | style="text-align: left;"|[[University of Texas]]/Texas Politics Project<ref>{{Cite web|url=https://texaspolitics.utexas.edu/files/202608_POLL_TOPLINE-c5d4ba53.pdf|title=University of Texas / Texas Politics Project Poll – Texas Statewide Survey|work=[[University of Texas]]|date=August 25, 2026|access-date=August 25, 2026}}</ref>
@@ -878,7 +919,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}2.83%
 |{{party shading/Republican}}|'''45%'''
 |40%
-|5%{{Efn|Pat Dixon (L) with 3%; "Someone else" with 2%}}
+|3%
+|2%{{Efn|"Someone else" with 2%}}
 |10%
 |-
 |style="text-align:left;" |[[Emerson College]]<ref>{{Cite web|url=https://emersoncollegepolling.com/texas-2026-poll-paxton-and-talarico/|title=Texas 2026 Poll: Paxton and Talarico Deadlocked in U.S. Senate Race; Abbott Leads Hinojosa by Four Points |website=Emerson College Polling|date=August 13, 2026|access-date=August 13, 2026}}</ref>{{efn-ua|name=Nexstar}}
@@ -887,6 +929,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;3.0%
 |{{party shading/Republican}}|'''49%'''
 |45%
+|{{sdash}}
 |3%{{Efn|"Someone else" with 3%}}
 |4%
 |-
@@ -897,6 +940,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{Party shading/Republican}}|'''49%'''
 |48%
 |{{sdash}}
+|{{sdash}}
 |3%
 |-
 |style="text-align:left"|Wedgewood Polls (D)<ref>{{Cite web |url=https://drive.google.com/file/d/1t2mC4MFActxiBdx4ef_5crisXjD9xH7a/view |title=Texas 2026 General Election Survey U.S. Senate & Governor |work=Wedgewood Polls |access-date=August 1, 2026}}</ref>
@@ -905,6 +949,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.0%
 |{{Party shading/Republican}}|'''50%'''
 |44%
+|{{sdash}}
 |{{sdash}}
 |6%
 |-
@@ -915,6 +960,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{Party shading/Republican}}|'''49%'''
 |46%
 |{{sdash}}
+|{{sdash}}
 |5%
 |-
 | style="text-align: left;"|[[Texas A&M University]]/ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=Statewide Races: Remain Close, With Movement Toward Dems Since June |first=Lindsey |last=Hendren |url=https://reconmr.com/wp-content/uploads/2026/08/Texas-Pulse-August-Release-August-7-2026-Final.pdf |work=[[Texas A&M University]] and ReconMR|date=August 7, 2026 |access-date=August 7, 2026}}</ref>
@@ -923,6 +969,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}4.7%
 |{{Party shading/Republican}}|'''46%'''
 |45%
+|{{sdash}}
 |4%
 |5%
 |-
@@ -932,7 +979,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}2.8%
 |{{Party shading/Republican}}|'''49%'''
 |43%
-|3%{{Efn|name=Dixon3}}
+|3%
+|{{sdash}}
 |5%
 |-
 |style="text-align:left"|Beacon Research (D)/<br />Shaw & Co. Research (R)<ref>{{cite web |title=Fox News Poll: GOP divisions shape Texas Senate race |first=Victoria |last=Balara |url=https://www.foxnews.com/politics/fox-news-poll-gop-divisions-shape-texas-senate-race |website=[[Fox News]] |date=July 29, 2026 |access-date=July 29, 2026}}</ref>{{efn-ua|name=Fox|Poll conducted for [[Fox News]]}}
@@ -941,7 +989,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;3.0%
 |{{Party shading/Republican}}|'''50%'''
 |49%
-|–
+|{{sdash}}
+|{{sdash}}
 |1%
 |-
 | style="text-align: left;" |Texas Public Opinion Research<ref>{{cite web |title=Talarico leads Paxton by 5 points in new poll of Texas' U.S. Senate race |first=Gabby |last=Birenbaum |url=https://www.texastribune.org/2026/07/28/texas-senate-poll-james-talarico-ken-paxton-july-2026/ |website=[[The Texas Tribune]] |date=July 28, 2026 |access-date=July 28, 2026}}</ref>
@@ -950,6 +999,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±{{nbsp}}3.4%
 |{{party shading/Republican}}|'''45%'''
 |42%
+|{{sdash}}
 |{{sdash}}
 |13%
 |-
@@ -960,15 +1010,17 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |{{party shading/Republican}}|'''51%'''
 |44%
 |{{sdash}}
+|{{sdash}}
 |5%
 |-
 | style="text-align: left;"|SoCal Strategies(R)<ref>{{cite web |title=Ken Paxton Leads Narrow Texas Senate Race, SoCal Strategies Poll Finds |url=https://socalstrategies.substack.com/p/ken-paxton-leads-narrow-texas-senate |website=[[Substack]] |date=June 22, 2026 |access-date=June 22, 2026}}</ref>{{efn-ua|Poll sponsored by Red Eagle Politics, a conservative online content creator}}
 |June 21, 2026
 |800 (LV)
-|–
+|{{sdash}}
 |{{party shading/Republican}}|'''54%'''
 |42%
-|–
+|{{sdash}}
+|{{sdash}}
 |4%
 |-
 | style="text-align: left;"|[[University of Texas]]/Texas Politics Project<ref>{{Cite web|url=https://texaspolitics.utexas.edu/files/202606_POLL_TOPLINE-723970a4.pdf|title=University of Texas / Texas Politics Project Poll – Texas Statewide Survey|work=[[University of Texas]]|date=June 23, 2026|access-date=June 23, 2026}}</ref>
@@ -977,7 +1029,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.8%
 |{{party shading/Republican}}|'''47%'''
 |40%
-|3%{{Efn|"Someone else" with 2%; Pat Dixon (L) with 1%}}
+|1%
+|2%{{Efn|"Someone else" with 2%}}
 |10%
 |-
 | style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Republicans Lead Statewide, Senate Race Starts Close |url=https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close |website=Quantus Insights |date=June 5, 2026 |access-date=June 8, 2026}}</ref>
@@ -986,6 +1039,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;3.5%
 |{{party shading/Republican}}|'''49%'''
 |41%
+|{{sdash}}
 |3%
 |7%
 |-
@@ -995,6 +1049,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;4%
 |{{party shading/Republican}}|'''49%'''
 |43%
+|{{sdash}}
 |3%{{Efn|"Someone else" with 2%; "Wouldn't vote" with 1%}}
 |5%
 |-
@@ -1004,16 +1059,18 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.8%
 |{{party shading/Republican}}|'''46%'''
 |41%
-|3%{{Efn|"Would not vote in that race", Pat Dixon (L), and Jenn Mack Raphoon (I) with 1%}}
+|1%
+|2%{{Efn|Jenn Mack Raphoon (I) with 1%; "Would not vote in that race" with 1%}}
 |9%
 |-
 | style="text-align: left;" |[[Public Policy Polling]] (D)<ref>{{cite web |title=Texas Survey Results |url=https://static.politico.com/c0/7c/2c2db3c14c74946fa393d9e485cc/texas-gen-results-ppp-5-26-1.pdf |publisher=[[Public Policy Polling]] |access-date=May 27, 2026}}</ref>{{efn-ua|name=Rising|Poll commissioned by Lone Star Rising PAC, which supports [[James Talarico]]'s [[2026 United States Senate election in Texas|campaign for U.S. Senate]].<ref name="lone star rising">{{cite web |last1=Jones |first1=Garry |title=2026 Texas U.S. Senate State of the Race: Polling, Positive Environment, and Fundraising Advantage Show Time to Win in Texas is Now |url=https://www.politico.com/f/?id=0000019e-66fc-d83d-abbf-f6fe34100000 |publisher=Lone Star Rising PAC |date=May 27, 2026 |access-date=May 27, 2026}}</ref>}}
 |May 22–23, 2026
 |643 (RV)
-|–
+|{{sdash}}
 |{{party shading/Republican}}|'''48%'''
 |44%
-|–
+|{{sdash}}
+|{{sdash}}
 |8%
 |-
 |style="text-align:left;"|[[Texas Southern University]]/[[YouGov]]<ref>{{cite web |last1=Adams |first1=Michael O. |last2=Jones |first2=Mark P. |title=The November 2026 Elections in Texas: U.S. Senate, Governor & Lieutenant Governor |url=https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a0addffcba58d0751053542/1779097087749/TSUTexasNov2026.pdf |publisher=[[Texas Southern University]] |date=May 2026 |access-date=May 18, 2026}}</ref>
@@ -1022,7 +1079,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.8%
 |{{party shading/Republican}}|'''49%'''
 |43%
-|3%{{Efn|name=Dixon3|Pat Dixon (L) with 3%}}
+|3%
+|{{sdash}}
 |5%
 |-
 |style="text-align:left;"|Slingshot Strategies (D)<ref>{{cite web |title=New Poll: Talarico Leads Both Cornyn and Paxton in Texas Senate General Election |first=Caroline |last=Bankoff |url=https://www.texastribune.org/wp-content/uploads/2026/04/TPOR-April-2026-TXSEN-poll.pdf |work=Texas Public Opinion Research |access-date=April 29, 2026 |date=April 29, 2026}}</ref>{{Efn-ua|name=TPOR}}
@@ -1031,6 +1089,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;3.3%
 |{{party shading/Republican}}|'''48%'''
 |43%
+|{{sdash}}
 |2%{{Efn|"Would not vote in that race" with 2%}}
 |7%
 |-
@@ -1040,6 +1099,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.8%
 |{{party shading/Republican}}|'''44%'''
 |38%
+|{{sdash}}
 |5%{{efn|name="SE5"|"Someone else" with 5%}}
 |13%
 |-
@@ -1049,15 +1109,17 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;3.1%
 |{{party shading/Republican}}|'''49%'''
 |41%
-|–
+|{{sdash}}
+|{{sdash}}
 |10%
 |-
 | style="text-align: left;" |[[University of Texas]]/Texas Politics Project<ref name="TPP"/>
 |February 2–16, 2026
 |1,300 (RV)
 |±&nbsp;5.1%
-| {{party shading/Republican}} |'''45%'''
+|{{party shading/Republican}}|'''45%'''
 |35%
+|{{sdash}}
 |6%{{efn|"Someone else" with 6%}}
 |14%
 |-
@@ -1067,7 +1129,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;3.1%
 |{{party shading/Republican}}|'''46%'''
 |43%
-|6%{{efn|Pat Dixon (L) with 6%}}
+|6%
+|{{sdash}}
 |5%
 |-
 |style="text-align:left;"|[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026">{{Cite web|url=https://www.uh.edu/hobby/primary2026/state.pdf|title=Texas Primaries 2026|website=[[University of Houston]]|date=February 11, 2026|access-date=February 11, 2026}}</ref>
@@ -1076,7 +1139,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.5%
 |{{party shading/Republican}}|'''49%'''
 |42%
-|3%{{efn|Pat Dixon (L) with 3%}}
+|3%
+|{{sdash}}
 |6%
 |-
 |style="text-align:left;" |[[Emerson College]]<ref>{{Cite web|url=https://emersoncollegepolling.com/texas-2026-poll/|title=Texas 2026 Poll: Talarico Leads Crockett for Democratic Senate Nomination, Cornyn and Paxton Face Potential Runoff|website=Emerson College Polling|date=January 15, 2026|access-date=January 15, 2026}}</ref>{{efn-ua|name=Nexstar|Poll sponsored by [[Nexstar Media]]}}
@@ -1085,7 +1149,8 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 |±&nbsp;2.8%
 |{{party shading/Republican}}|'''50%'''
 |42%
-|–
+|{{sdash}}
+|{{sdash}}
 |8%
 |}
 
