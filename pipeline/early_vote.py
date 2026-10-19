@@ -42,6 +42,8 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share"):
     latest = dates[-1]
     d_latest = datetime.strptime(latest, "%m/%d/%Y").date()
     n = day_number(d_latest)
+    if sum(v[0] for v in daily[latest]["counties"].values()) == 0:
+        n = 0                       # no in-person votes yet: still the mail-only stretch before early voting
     t22 = load_2022()
     c = c.copy()
     c["key"] = c.county.str.upper().str.replace(r"[^A-Z]", "", regex=True)

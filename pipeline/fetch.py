@@ -6,6 +6,7 @@ Run from project root:  python3 pipeline/fetch.py
 """
 import base64, csv, json, re, subprocess, sys, traceback
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
 SOS = "https://goelect.txelections.civixapps.com/api-ivis-system/api"
@@ -105,7 +106,7 @@ def fetch_markets():
 def fetch_turnout():
     elections = sos_json(f"{SOS}/v1/getFile?type=EVR_ELECTION")["elections"]
     dates = [d["date"] for d in [e for e in elections if e["id"] == GENERAL_ID][0]["early_voting_dates"]]
-    today = datetime.now().strftime("%m/%d/%Y")
+    today = datetime.now(ZoneInfo("America/Chicago")).strftime("%m/%d/%Y")    # Texas date, not the server's
     latest = None
     for d in reversed([d for d in dates if datetime.strptime(d, "%m/%d/%Y") <= datetime.strptime(today, "%m/%d/%Y")]):
         try:

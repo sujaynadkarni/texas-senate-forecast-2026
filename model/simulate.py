@@ -4,12 +4,13 @@ Shares are Democratic two-party share (Talarico / (Talarico + Paxton)).
 Run from project root:  PYTHONPATH=model python3 model/simulate.py
 """
 import re, json, numpy as np, pandas as pd
-from datetime import date
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from common import load, statewide
 
 N_SIMS = 50_000
 RNG = np.random.default_rng(2026)
-AS_OF = date(2026, 10, 18)
+AS_OF = datetime.now(ZoneInfo("America/Chicago")).date()     # Texas time, also on GitHub's UTC servers
 REG_2026 = 19_041_684                       # Texas SOS, Oct 16 2026
 
 # ---- uncertainty settings (calibrated in calibrate.py / historical TX poll misses) -------------
