@@ -1,18 +1,20 @@
-"""Fetch live inputs: polls, prediction markets, early-vote turnout, election-night results.
+"""Fetch live inputs for every race in races.py: polls, prediction markets, early-vote turnout,
+election-night results.
 
 Each source writes its own file under data/. If a source fails, the previous file is kept
 and the failure is recorded in data/fetch_log.json so the site can show which data is stale.
-Run from project root:  python3 pipeline/fetch.py
+Run from project root:  PYTHONPATH=pipeline python3 pipeline/fetch.py
 """
 import base64, csv, json, re, subprocess, sys, traceback
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, "pipeline")
+from races import RACES
+
 NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
 SOS = "https://goelect.txelections.civixapps.com/api-ivis-system/api"
 GENERAL_ID = 53815
-
-
 NAME_FIX = {"Dewitt": "DeWitt", "Lasalle": "La Salle", "Mcculloch": "McCulloch", "Mclennan": "McLennan", "Mcmullen": "McMullen"}
 county_name = lambda n: NAME_FIX.get(n.title(), n.title())
 
@@ -31,20 +33,35 @@ def sos_json(url):
 
 # ---- polls -----------------------------------------------------------------------------------
 def fetch_polls():
-    raw = get("https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_election_in_Texas&action=raw")
-    open("data/raw/wiki_txsen.txt", "w").write(raw)
-    rows = parse_polls(raw)
-    if len(rows) < 20:
-        raise ValueError(f"only {len(rows)} polls parsed; page layout may have changed")
-    with open("data/polls.csv", "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=rows[0].keys()); w.writeheader(); w.writerows(rows)
-    return f"{len(rows)} polls"
+    out = []
+    for key, race in RACES.items():
+        raw = get(f"https://en.wikipedia.org/w/index.php?title={race['wiki']}&action=raw")
+        open(f"data/raw/wiki_{key}.txt", "w").write(raw)
+        rows = parse_polls(raw, race["d"], race["r"])
+        if len(rows) < 10:
+            raise ValueError(f"{key}: only {len(rows)} polls parsed; page layout may have changed")
+        with open(f"data/polls_{key}.csv", "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=rows[0].keys()); w.writeheader(); w.writerows(rows)
+        out.append(f"{key} {len(rows)}")
+    return ", ".join(out) + " polls"
 
 
-def parse_polls(txt):
+SAMPLE = re.compile(r"[\d,]+\s*\((LV|RV|A)\)")
+WIKI_MARKUP = re.compile(r"\{\{nbsp\}\}|\{\{sdash\}\}|'{2,3}")
+
+
+def parse_polls(txt, d_name, r_name):
+    """Head-to-head table in the General election section. Rows: pollster, dates, sample, MoE, then one
+    column per candidate in the order the table header lists them."""
     ge = txt.index("== General election ==")
-    start = txt.index("! Poll source", txt.index("=== Polling ===", ge))
+    pol = re.search(r"===\s*Polling\s*===", txt[ge:]).start() + ge
+    start = txt.index("! Poll source", pol)
     tbl = txt[start:txt.index("|}", start)]
+    header = tbl.split("\n|-")[0]
+    di, ri = header.find(d_name), header.find(r_name)
+    if di < 0 or ri < 0:
+        raise ValueError(f"candidate columns not found for {d_name}/{r_name}")
+    first, second = ("d", "r") if di < ri else ("r", "d")
     tbl = re.sub(r"<ref[^>]*/>", "", tbl)
     tbl = re.sub(r"<ref[^>]*>.*?</ref>", "", tbl, flags=re.S)
     tbl = re.sub(r"\{\{[Ee]fn[^}]*\}\}", "", tbl)
@@ -54,7 +71,7 @@ def parse_polls(txt):
         c = re.sub(r"\{\{[Pp]arty shading/\w+\}\}\s*\|", "", c)
         c = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", c)
         c = re.sub(r"<br\s*/?>|<!--.*?-->", " ", c)
-        c = re.sub(r"\{\{nbsp\}\}|\{\{sdash\}\}|'''|''", "", c)
+        c = WIKI_MARKUP.sub("", c)
         return re.sub(r"\s+", " ", c).strip()
 
     def pct(s):
@@ -64,45 +81,49 @@ def parse_polls(txt):
     for r in tbl.split("\n|-")[1:]:
         raw = [x for x in re.split(r"\n\|", "\n" + r.strip()) if x.strip()]
         cells = [clean(c) for c in raw]
-        if len(cells) == 8:
+        if len(cells) >= 7 and pct(cells[4]) is not None:                   # full row
             src, date = cells[0], cells[1]
             carry = {"src": src, "date": date} if "rowspan" in raw[0] else {}
-            sample, pax, tal = cells[2], cells[4], cells[5]
-        elif len(cells) == 6 and carry:
+            sample, a, b = cells[2], cells[4], cells[5]
+        elif carry and SAMPLE.search(cells[0]):                              # follow-up row of a rowspan: new sample (LV/RV)
             src, date = carry["src"], carry["date"]
-            sample, pax, tal = cells[0], cells[2], cells[3]
+            k = 2 if "±" in cells[1] else 1                                   # its own margin-of-error cell, or shared
+            if len(cells) < k + 2:
+                continue
+            sample, a, b = cells[0], cells[k], cells[k + 1]
         else:
             continue
-        p, t = pct(pax), pct(tal)
-        if p is None or t is None:
+        va, vb = pct(a), pct(b)
+        if va is None or vb is None:
             continue
+        vals = {first: va, second: vb}
         m = re.search(r"([\d,]+)\s*\((\w+)\)", sample)
         out.append(dict(pollster=src, dates=date, n=int(m.group(1).replace(",", "")) if m else "",
                         pop=m.group(2) if m else re.sub(r"[^A-Z]", "", sample),
-                        paxton=p, talarico=t, margin_D=round(t - p, 1)))
+                        d=vals["d"], r=vals["r"], margin_D=round(vals["d"] - vals["r"], 1)))
     return out
 
 
 # ---- prediction markets ----------------------------------------------------------------------
 def fetch_markets():
-    k = json.loads(get("https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=SENATETX-26"))["markets"]
-    kd = {m["yes_sub_title"]: m for m in k}
-    tal_k = float(kd["James Talarico"]["last_price_dollars"])
-    vol_k = sum(float(m["volume_fp"]) for m in k)
-    p = json.loads(get("https://gamma-api.polymarket.com/public-search?q=Texas%20Senate%20Election%20Winner&limit_per_type=10"))
-    ev = [e for e in p["events"] if e["title"] == "Texas Senate Election Winner"][0]
-    dem = [m for m in ev["markets"] if m["question"].startswith("Will the Democrats win")][0]
-    tal_p = float(json.loads(dem["outcomePrices"])[0])
-    out = {"fetched": NOW, "markets": [
-        {"source": "Kalshi", "talarico": tal_k, "paxton": round(1 - tal_k, 3), "volume_usd": round(vol_k),
-         "url": "https://kalshi.com/markets/senatetx/texas-senate-race"},
-        {"source": "Polymarket", "talarico": tal_p, "paxton": round(1 - tal_p, 3), "volume_usd": round(float(ev["volume"])),
-         "url": "https://polymarket.com/event/texas-senate-election-winner"}]}
+    out, summary = {"fetched": NOW}, []
+    for key, race in RACES.items():
+        k = json.loads(get(f"https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker={race['kalshi_event']}"))["markets"]
+        kd = {m["yes_sub_title"]: m for m in k}
+        d_k = float(kd[race["kalshi_d"]]["last_price_dollars"])
+        vol_k = sum(float(m["volume_fp"]) for m in k)
+        p = json.loads(get("https://gamma-api.polymarket.com/public-search?q=" + race["poly_event"].replace(" ", "%20") + "&limit_per_type=10"))
+        ev = [e for e in p["events"] if e["title"] == race["poly_event"]][0]
+        dem = [m for m in ev["markets"] if m["question"].startswith(race["poly_d_question"])][0]
+        d_p = float(json.loads(dem["outcomePrices"])[0])
+        out[key] = [dict(source="Kalshi", d=d_k, volume_usd=round(vol_k), url=race["kalshi_url"]),
+                    dict(source="Polymarket", d=d_p, volume_usd=round(float(ev["volume"])), url=race["poly_url"])]
+        summary.append(f"{key}: Kalshi {d_k:.2f}, Polymarket {d_p:.2f}")
     json.dump(out, open("data/markets.json", "w"), indent=1)
-    return f"Kalshi {tal_k:.2f}, Polymarket {tal_p:.2f}"
+    return "; ".join(summary)
 
 
-# ---- early-vote turnout ----------------------------------------------------------------------
+# ---- early-vote turnout (shared by all races) -------------------------------------------------
 def fetch_turnout():
     elections = sos_json(f"{SOS}/v1/getFile?type=EVR_ELECTION")["elections"]
     dates = [d["date"] for d in [e for e in elections if e["id"] == GENERAL_ID][0]["early_voting_dates"]]
@@ -140,7 +161,7 @@ def fetch_turnout():
                                                           c["in_person_votes_on_date"]] for c in jj["turnout_by_county"]}}
     json.dump(daily, open(daily_path, "w"))
     counties = {county_name(c["name"]): {"registered": c["registered_voters"], "in_person": c["total_in_person_votes_for_election"],
-                                    "mail": c["total_mail_votes_for_election"], "in_person_today": c["in_person_votes_on_date"]}
+                                         "mail": c["total_mail_votes_for_election"], "in_person_today": c["in_person_votes_on_date"]}
                 for c in j["turnout_by_county"]}
     out = {"fetched": NOW, "as_of_date": d, "state_updated": j.get("date_updated"), "counties": counties}
     json.dump(out, open("data/turnout.json", "w"))
@@ -151,19 +172,24 @@ def fetch_turnout():
 # ---- election-night results ------------------------------------------------------------------
 def fetch_results():
     j = sos_json(f"{SOS}/s3/enr/election/countyInfo/{GENERAL_ID}")
-    counties = {}
-    for c in j.values():
-        sen = [r for r in c["Races"].values() if r["N"].strip() == "U. S. SENATOR"]
-        if not sen:
-            continue
-        r = sen[0]
-        cand = {x["LN"]: x["V"] for x in r["C"].values()}
-        counties[county_name(c["N"])] = {"talarico": cand.get("TALARICO", 0), "paxton": cand.get("PAXTON", 0), "total": r.get("T", 0),
-                                    "precincts_reporting": r.get("PR", 0), "precincts_total": r.get("TP", 0)}
-    out = {"fetched": NOW, "counties": counties}
+    out, summary = {"fetched": NOW}, []
+    for key, race in RACES.items():
+        counties = {}
+        for c in j.values():
+            rr = [r for r in c["Races"].values() if r["N"].strip() == race["results_race"]]
+            if not rr:
+                continue
+            r = rr[0]
+            cand = {x["LN"]: x["V"] for x in r["C"].values()}
+            counties[county_name(c["N"])] = {"d": cand.get(race["results_d"], 0), "r": cand.get(race["results_r"], 0),
+                                             "total": r.get("T", 0), "precincts_reporting": r.get("PR", 0),
+                                             "precincts_total": r.get("TP", 0)}
+        if len(counties) < 254:
+            raise ValueError(f"{key}: results race found in only {len(counties)} counties")
+        out[key] = counties
+        summary.append(f"{key} {sum(c['total'] for c in counties.values()):,}")
     json.dump(out, open("data/results.json", "w"))
-    tot = sum(c["total"] for c in counties.values())
-    return f"{len(counties)} counties, {tot:,} votes counted"
+    return "votes counted: " + ", ".join(summary)
 
 
 def main():

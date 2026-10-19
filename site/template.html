@@ -1,7 +1,7 @@
-<title>Texas Senate Forecast</title>
+<title>__TITLE__</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="color-scheme" content="only light">
-<meta name="description" content="Live forecast for the 2026 Texas Senate race between James Talarico and Ken Paxton: win chance, county map, polls and early vote.">
+<meta name="description" content="Live forecast for the 2026 Texas __OFFICE_LC__ race between __D_FULL__ and __R_FULL__: win chance, county map, polls and early vote.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
@@ -157,7 +157,7 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 
 .pagetabs { display: flex; gap: 0; border-bottom: 1px solid var(--ink); margin-top: 22px; font-family: var(--sans); }
 .pagetabs a { font: 700 15px var(--sans); color: var(--ink-3); text-decoration: none; padding: 10px 16px 9px; border-bottom: 4px solid transparent; margin-bottom: -1px; }
-.pagetabs a[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.pagetabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--ink); }
 .pagetabs a:hover { color: var(--ink); }
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); }
 .stats > div { padding: 14px 12px; min-width: 0; }
@@ -184,28 +184,29 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
 <div class="wrap">
   <div class="col-wide mast">
-    <span>Texas Senate Forecast <span class="race">· U.S. Senate · Nov. 3, 2026</span></span>
+    <span>Texas 2026 Forecast <span class="race">· Senate and Governor · Nov. 3, 2026</span></span>
     <span class="status" id="status"><span class="dot"></span><span id="status-text"></span></span>
   </div>
 
   <header class="col hero">
-    <p class="kicker">Talarico (D) vs. Paxton (R)</p>
-    <h1 id="headline">Who will win the Texas Senate race?</h1>
+    <p class="kicker">__D__ (D) vs. __R__ (R)</p>
+    <h1 id="headline">Who will win?</h1>
     <p class="dek" id="dek"></p>
     <div class="byline" id="byline"></div>
     <div class="share" id="share-top"></div>
   </header>
 
-  <nav class="col-wide pagetabs" role="tablist" aria-label="Page sections">
-    <a href="#forecast" role="tab" id="tab-forecast" aria-selected="true">Forecast</a>
-    <a href="#early" role="tab" id="tab-early" aria-selected="false">Early voting</a>
+  <nav class="col-wide pagetabs" aria-label="Pages">
+    <a href="index.html" __CUR_SENATE__>Senate</a>
+    <a href="governor.html" __CUR_GOVERNOR__>Governor</a>
+    <a href="early.html" __CUR_EARLY__>Early voting</a>
   </nav>
 
   <div id="view-forecast">
   <div class="col needle-block" id="needle-block">
     <div class="needle-head">
-      <div class="cand"><div class="name t">James Talarico (D)</div><div class="pct t num" id="pct-t"></div><div class="sans hint-l" style="font-size:13px;color:var(--ink-3)">chance of winning</div></div>
-      <div class="cand right"><div class="name p">Ken Paxton (R)</div><div class="pct p num" id="pct-p"></div><div class="sans hint-l" style="font-size:13px;color:var(--ink-3)">chance of winning</div></div>
+      <div class="cand"><div class="name t">__D_FULL__ (D)</div><div class="pct t num" id="pct-t"></div><div class="sans hint-l" style="font-size:13px;color:var(--ink-3)">chance of winning</div></div>
+      <div class="cand right"><div class="name p">__R_FULL__ (R)</div><div class="pct p num" id="pct-p"></div><div class="sans hint-l" style="font-size:13px;color:var(--ink-3)">chance of winning</div></div>
     </div>
     <svg class="needle-svg" id="needle" viewBox="0 0 560 300" role="img" aria-labelledby="needle-title"><title id="needle-title">Forecast needle</title></svg>
     <p class="needle-caption" id="needle-caption"></p>
@@ -226,7 +227,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <button role="tab" type="button" data-layer="forecast" aria-selected="true">Forecast</button>
       <button role="tab" type="button" data-layer="pace" aria-selected="false">Early vote pace</button>
       <button role="tab" type="button" data-layer="results" aria-selected="false">Results</button>
-      <button role="tab" type="button" data-layer="y2024" aria-selected="false">2024 result</button>
+      <button role="tab" type="button" data-layer="y2024" aria-selected="false">__HB_LABEL__ result</button>
     </div>
     <div class="map-wrap">
       <div style="min-width:0">
@@ -245,10 +246,10 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
   <section class="col-wide">
     <div class="rule-top">
       <h2>Counties to watch</h2>
-      <p class="section-dek">What each county's margin would tell us about the statewide race. At the <strong>Even</strong> margin the race is a coin flip. Above <strong>Talarico favored</strong>, he has a 70% or better chance statewide; below <strong>Paxton favored</strong>, Paxton does.</p>
+      <p class="section-dek">What each county's margin would tell us about the statewide race. At the <strong>Even</strong> margin the race is a coin flip. Above <strong>__D__ favored</strong>, he has a 70% or better chance statewide; below <strong>__R__ favored</strong>, __R__ does.</p>
     </div>
     <div class="tbl-scroll"><table id="watch"></table></div>
-    <p class="note">T+5 means Talarico wins the county by 5 percentage points; P+5 means Paxton does. "Median voter" is how often the county holds the Texas voter in the middle of the pack, so as it goes, the state goes.</p>
+    <p class="note">T+5 means __D__ wins the county by 5 percentage points; P+5 means __R__ does. "Median voter" is how often the county holds the Texas voter in the middle of the pack, so as it goes, the state goes.</p>
   </section>
 
   <section class="col-wide">
@@ -257,7 +258,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
     <div class="stack">
       <div style="min-width:0"><svg class="chart" id="poll-chart" viewBox="0 0 480 260" style="max-width:720px" role="img" aria-label="Poll margins over time"></svg>
         <p class="note">Each dot is one poll's margin. The line is our weighted average: recent, larger and nonpartisan polls count more.</p>
-        <p class="note"><strong>Sponsored</strong> means a Republican or Democratic group paid for the poll, as labeled by The Texas Tribune; we give those polls less weight. <strong>Lean vs. avg.</strong> is how far that pollster's results run from other polls taken around the same time this year: R +2.0 means about 2 points better for Paxton than the average.</p></div>
+        <p class="note"><strong>Sponsored</strong> means a Republican or Democratic group paid for the poll, as labeled by The Texas Tribune; we give those polls less weight. <strong>Lean vs. avg.</strong> is how far that pollster's results run from other polls taken around the same time this year: R +2.0 means about 2 points better for __R__ than the average.</p></div>
       <div class="tbl-scroll" style="min-width:0"><table id="poll-table"></table></div>
     </div>
   </section>
@@ -271,7 +272,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
   <section class="col-wide">
     <div class="rule-top"><h2>What would change the result</h2>
-      <p class="section-dek">For today's forecast and for a repeat of 2018 or 2024 (each county's exact result and turnout rate, applied to 2026 registration): who wins, and what the other candidate would need.</p></div>
+      <p class="section-dek">For today's forecast and for a repeat of the __HA_LABEL__ or __HB_LABEL__ race (each county's exact result and turnout rate, applied to 2026 registration): who wins, and what the other candidate would need.</p></div>
     <div class="scen" id="scen"></div>
     <h3 class="sans" style="font-size:15px;margin:26px 0 8px">If the polls are wrong</h3>
     <div class="tbl-scroll"><table id="stress"></table></div>
@@ -281,6 +282,13 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
     <div class="rule-top"><h2>Where the votes are</h2>
       <p class="section-dek">The model groups counties that tend to move together.</p></div>
     <div class="tbl-scroll"><table id="regions"></table></div>
+  </section>
+
+  <section class="col-wide" id="split-sec">
+    <div class="rule-top"><h2>Split tickets: Senate vs. governor</h2>
+      <p class="section-dek" id="split-dek"></p></div>
+    <div class="tbl-scroll"><table id="split"></table></div>
+    <p class="note">Gap = forecast Senate margin minus forecast governor margin, both measured as Democrat minus Republican. A positive gap means the Democratic Senate candidate runs ahead of the Democratic governor candidate there.</p>
   </section>
 
   <section class="col">
@@ -328,7 +336,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
     <section class="col-wide">
       <div class="rule-top"><h2>The 40 largest counties</h2>
-        <p class="section-dek">Sorted by expected votes. "Net votes" is the estimated Talarico-minus-Paxton total among ballots already cast in that county.</p></div>
+        <p class="section-dek">Sorted by expected votes. "Net votes" is the estimated __D__-minus-__R__ total among ballots already cast in that county.</p></div>
       <div class="tbl-scroll"><table id="ev-table"></table></div>
     </section>
 
@@ -336,7 +344,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <div class="rule-top"><h2>How to read this</h2></div>
       <ul class="caveats">
         <li>Turnout shows where votes come from, not whom they are for. Texas has no party registration.</li>
-        <li>Higher turnout in a blue county helps Talarico only if the extra voters are Democrats, and higher turnout in a red county helps Paxton only if they are Republicans. Neither is guaranteed.</li>
+        <li>Higher turnout in a blue county helps __D__ only if the extra voters are Democrats, and higher turnout in a red county helps __R__ only if they are Republicans. Neither is guaranteed.</li>
         <li>Since 2020 many Republicans vote early instead of on Election Day, so a strong early vote in red counties may just be the same voters voting sooner.</li>
         <li>Mail ballots come from voters 65 and older, voters with disabilities and a few others, so they skew older.</li>
         <li>Counties report on their own schedules. A county with no numbers yet is marked "Not reported" and left out of comparisons.</li>
@@ -351,7 +359,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
     <h3>How this works</h3>
     <ul>
       <li>We run 50,000 simulated elections across all 254 counties. Each starts from the polling average, adds a statewide polling error (about 4.5 points on the margin, with fat tails), regional swings and county noise.</li>
-      <li>County patterns blend the 2018 and 2024 Senate results. Hispanic South and West Texas get double uncertainty after swinging about 9.5 points between those years.</li>
+      <li>County patterns blend the __HA_LABEL__ and __HB_LABEL__ results. Hispanic South and West Texas get double uncertainty after swinging about 9.5 points between those years.</li>
       <li>Turnout uses each county's 2018 turnout rate applied to 2026 registration from the Texas Secretary of State.</li>
       <li>On election night, counted votes from each county update the simulations, and the needle moves.</li>
       <li>Backtest: run as of 2018 and 2024 using only earlier data, the model favored the eventual winner both times, and the final margin fell inside its 80% range.</li>
@@ -370,15 +378,18 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
 <script>
 const DATA = /*__DATA__*/null;
+const PAGE = "__PAGE__";                      // "race" (Senate or Governor page) or "early"
+const C = DATA.cand, H = DATA.history_races;
+const OFFICE_LC = C.office === "Governor" ? "governor" : "Senate";
 const PATHS = /*__PATHS__*/null;
 
 const $ = (s) => document.querySelector(s);
 const pct = (x) => Math.round(x * 100) + "%";
-const fmtM = (m, long) => {                     // margin in points, + = Talarico
+const fmtM = (m, long) => {                     // margin in points, + = __D__
   if (m == null || isNaN(m)) return "–";
   const a = Math.abs(m).toFixed(1);
   if (Math.abs(m) < 0.05) return "Even";
-  return long ? (m > 0 ? "Talarico +" : "Paxton +") + a : (m > 0 ? "T+" : "P+") + a;
+  return long ? (m > 0 ? "__D__ +" : "__R__ +") + a : (m > 0 ? "__DI__+" : "__RI__+") + a;
 };
 const share2m = (s) => (2 * s - 1) * 100;
 const fmtK = (v) => v >= 1e6 ? (v / 1e6).toFixed(2) + "M" : v >= 1e3 ? Math.round(v / 1e3) + "K" : String(v);
@@ -392,6 +403,16 @@ const MODE = DATA.mode;
 
 /* ---------- header + status ---------- */
 function header() {
+  if (PAGE === "early") {
+    const e = DATA.early, n = e ? e.total : 0;
+    $("#status").dataset.mode = "early";
+    $("#status-text").textContent = e ? (e.day === 0 ? `Before in-person voting · ${fmtInt(n)} mail ballots` : `Day ${e.day} of 12 · ${fmtInt(n)} ballots`) : "Early voting";
+    $("#headline").textContent = "Early voting in Texas";
+    $("#dek").textContent = "Every county's early vote compared with the same day in 2022, and what the mix of voters suggests for the Senate and governor races.";
+    $("#byline").textContent = `Updated ${fmtDate(DATA.generated)}`;
+    document.querySelector(".hero .kicker").textContent = "Senate and governor";
+    return;
+  }
   const n = DATA.needle, f = DATA.forecast;
   const st = $("#status"); st.dataset.mode = MODE;
   const ev = DATA.early_vote;
@@ -402,15 +423,15 @@ function header() {
     final: "All counties reporting",
   }[MODE];
   $("#status-text").textContent = statusText;
-  const lead = n.p >= 0.5 ? "Talarico" : "Paxton";
+  const lead = n.p >= 0.5 ? "__D__" : "__R__";
   const lp = Math.max(n.p, 1 - n.p);
   const strength = lp >= 0.95 ? "very likely to win" : lp >= 0.75 ? "favored" : lp >= 0.6 ? "slightly favored" : "in a toss-up";
   $("#headline").textContent = MODE === "live" || MODE === "final"
     ? `${lead} is ${strength} as votes are counted`
-    : lp < 0.6 ? "The Texas Senate race is a toss-up" : `${lead} is ${strength} in the Texas Senate race`;
+    : lp < 0.6 ? `The Texas ${OFFICE_LC} race is a toss-up` : `${lead} is ${strength} in the Texas ${OFFICE_LC} race`;
   $("#dek").textContent = MODE === "live" || MODE === "final"
     ? `With about ${Math.round(DATA.live.expected_counted * 100)}% of the expected vote counted, our model gives ${lead} a ${pct(lp)} chance. The needle moves as each county reports.`
-    : `Our model gives ${lead} a ${pct(lp)} chance of winning, based on ${DATA.polls.n_used} recent polls, 254 counties and ${fmtInt(DATA.n_sims)} simulated elections. Prediction markets put it at ${DATA.markets.map((m) => pct(lead === "Talarico" ? m.talarico : m.paxton)).join(" and ")}.`;
+    : `Our model gives ${lead} a ${pct(lp)} chance of winning, based on ${DATA.polls.n_used} recent polls, 254 counties and ${fmtInt(DATA.n_sims)} simulated elections. Prediction markets put it at ${DATA.markets.map((m) => pct(lead === "__D__" ? m.d : 1 - m.d)).join(" and ")}.`;
   $("#byline").textContent = `Updated ${fmtDate(DATA.generated)}`;
 }
 
@@ -424,12 +445,13 @@ const ICONS = {
   link: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.9-3.9a3 3 0 0 1 4.2 4.2l-2.1 2.1a1 1 0 1 1-1.4-1.4l2.1-2.1a1 1 0 0 0-1.4-1.4L12 13.4a1 1 0 0 1-1.4 0zm2.8-2.8a1 1 0 0 1 0 1.4L9.5 15.9a3 3 0 0 1-4.2-4.2l2.1-2.1a1 1 0 1 1 1.4 1.4l-2.1 2.1a1 1 0 0 0 1.4 1.4L12 10.6a1 1 0 0 1 1.4 0z"/></svg>',
 };
 function shareText() {
-  const n = DATA.needle, lead = n.p >= 0.5 ? "Talarico" : "Paxton";
-  return `Texas Senate forecast: ${lead} ${pct(Math.max(n.p, 1 - n.p))} to win (${fmtM(share2m(n.median), true)}). County map, polls and live needle:`;
+  if (PAGE === "early" && DATA.early) return `Texas early vote tracker: ${fmtInt(DATA.early.total)} ballots so far, county by county vs. 2022:`;
+  const n = DATA.needle, lead = n.p >= 0.5 ? "__D__" : "__R__";
+  return `Texas ${OFFICE_LC} forecast: ${lead} ${pct(Math.max(n.p, 1 - n.p))} to win (${fmtM(share2m(n.median), true)}). County map, polls and live needle:`;
 }
 function share(target) {
   // a version tag makes X, Facebook and LinkedIn fetch a fresh preview card after each update
-  const url = DATA.site_url ? `${DATA.site_url}?v=${DATA.generated.replace(/\D/g, "").slice(0, 12)}` : location.href.split("#")[0];
+  const url = DATA.site_url ? `${DATA.site_url}__PAGE_FILE__?v=${DATA.generated.replace(/\D/g, "").slice(0, 12)}` : location.href.split("#")[0];
   const u = encodeURIComponent(url), t = encodeURIComponent(shareText());
   const links = [
     ["x", "Post on X", `https://twitter.com/intent/tweet?text=${t}&url=${u}`],
@@ -480,8 +502,8 @@ function drawNeedle() {
     const t = svgEl("text", { x, y: y + 4, "text-anchor": "middle", style: `font-size:10px;font-weight:600;fill:${p > .55 ? css("--dem-1") : p < .45 ? css("--rep-1") : css("--ink-2")}` });
     t.textContent = txt; s.append(t);
   }
-  const lt = svgEl("text", { x: 30, y: 292, "text-anchor": "start", style: `font-weight:700;font-size:12px;fill:${css("--dem")}` }); lt.textContent = "Talarico"; s.append(lt);
-  const rt = svgEl("text", { x: 530, y: 292, "text-anchor": "end", style: `font-weight:700;font-size:12px;fill:${css("--rep")}` }); rt.textContent = "Paxton"; s.append(rt);
+  const lt = svgEl("text", { x: 30, y: 292, "text-anchor": "start", style: `font-weight:700;font-size:12px;fill:${css("--dem")}` }); lt.textContent = "__D__"; s.append(lt);
+  const rt = svgEl("text", { x: 530, y: 292, "text-anchor": "end", style: `font-weight:700;font-size:12px;fill:${css("--rep")}` }); rt.textContent = "__R__"; s.append(rt);
   needle.line = svgEl("line", { x1: N.cx, y1: N.cy, x2: N.cx, y2: N.cy - 205, stroke: css("--ink"), "stroke-width": 3, "stroke-linecap": "round" });
   s.append(needle.line);
   s.append(svgEl("circle", { cx: N.cx, cy: N.cy, r: 9, fill: css("--ink") }));
@@ -526,7 +548,7 @@ const simObs = null;   // counted votes come only from the real election-night f
 function markets() {
   const box = $("#markets");
   const cells = [{ lab: "Our model", t: DATA.needle.p, sub: `${fmtInt(DATA.n_sims)} simulations` },
-    ...DATA.markets.map((m) => ({ lab: m.source, t: m.talarico, sub: `$${(m.volume_usd / 1e6).toFixed(1)}M traded`, url: m.url }))];
+    ...DATA.markets.map((m) => ({ lab: m.source, t: m.d, sub: `$${(m.volume_usd / 1e6).toFixed(1)}M traded`, url: m.url }))];
   for (const c of cells) {
     const d = el("div");
     d.innerHTML = `<div class="lab">${c.url ? `<a href="${c.url}" target="_blank" rel="noopener" style="color:inherit">${c.lab}</a>` : c.lab}</div>
@@ -540,57 +562,53 @@ function markets() {
 /* ---------- explanation ---------- */
 function explain() {
   const L = [], n = DATA.needle, f = DATA.forecast, ev = DATA.early_vote;
-  const lead = n.p >= .5 ? "Talarico" : "Paxton";
+  const lead = n.p >= .5 ? "__D__" : "__R__";
   const tar = byName.Tarrant, har = byName.Harris;
   if (MODE === "pre" || MODE === "early") {
     const tl = tar.lines, rural = DATA.counties.filter((c) => c.region === "Rural").reduce((a, c) => a + c.net, 0);
-    L.push(`<strong>The polls favor ${share2m(DATA.polls.average) >= 0 ? "Talarico" : "Paxton"}.</strong> The polling average is ${fmtM(share2m(DATA.polls.average), true)}, from ${DATA.polls.n_used} polls in the last 60 days. In 2024, Ted Cruz won this seat by 8.5 points.`);
-    const mk = DATA.markets.map((m) => `${m.source} ${pct(m.talarico)}`).join(", ");
-    L.push(`<strong>Our model and the betting markets disagree on how sure to be.</strong> We give Talarico ${pct(f.p)}; ${mk}. Texas polls missed toward Republicans in 2020 and 2024 and toward Democrats in 2018. A 2024-style miss would make it Talarico ${pct(DATA.stress[1].p)}, Paxton ${pct(1 - DATA.stress[1].p)}.`);
-    L.push(`<strong>Tarrant County is the bellwether.</strong> It holds the state's median voter in ${pct(tar.tipping)} of simulations. If Tarrant comes in near ${fmtM(tl.even)}, the race is a coin flip. Above ${fmtM(tl.tal)}, Talarico is favored; below ${fmtM(tl.pax)}, Paxton is.`);
-    L.push(`<strong>Two paths.</strong> Talarico's runs through big margins in Harris, Dallas, Bexar and Travis plus wins in Tarrant and Collin. Paxton's runs through rural Texas, where he is expected to net about ${fmtK(Math.abs(rural))} votes, and holding Collin and Denton.`);
-    if (ev) {
-      const big4 = ["Harris", "Dallas", "Bexar", "Travis"].map((x) => byName[x]);
-      const sEv = big4.reduce((a, c) => a + c.ev, 0) / ev.total, sExp = big4.reduce((a, c) => a + c.exp_votes, 0) / DATA.counties.reduce((a, c) => a + c.exp_votes, 0);
-      const missing = DATA.counties.filter((c) => c.exp_votes > 150000 && c.ev < 50).map((c) => c.name);
-      if (missing.length) L.push(`<strong>Some big counties have not posted mail counts yet:</strong> ${missing.join(", ")}. The statewide total will jump when they do, so compare with past years only after all counties report.`);
-      L.push(ev.mail_only
-        ? `<strong>Only mail ballots so far:</strong> ${fmtInt(ev.total)} returned statewide; in-person early voting starts Oct. 19. The four biggest counties have ${pct(sEv)} of these ballots vs. ${pct(sExp)} of the expected final vote, but mail voters are mostly 65 and older, so read this lightly.`
-        : `<strong>Early vote:</strong> ${fmtInt(ev.total)} ballots cast (${pct(ev.pct_of_expected)} of our expected final turnout). Harris, Dallas, Bexar and Travis are casting ${pct(sEv)} of early votes vs. ${pct(sExp)} of the expected final vote. ${sEv / sExp < 0.9 ? "That is behind pace for Talarico." : "That is on pace for Talarico."}`);
-    }
+    L.push(`<strong>The polls favor ${share2m(DATA.polls.average) >= 0 ? "__D__" : "__R__"}.</strong> The polling average is ${fmtM(share2m(DATA.polls.average), true)}, from ${DATA.polls.n_used} polls in the last 60 days. ${C.context}`);
+    const mk = DATA.markets.map((m) => `${m.source} ${pct(f.p >= .5 ? m.d : 1 - m.d)}`).join(", ");
+    const mAvg = DATA.markets.reduce((a, m) => a + m.d, 0) / Math.max(DATA.markets.length, 1);
+    const fav = f.p >= .5 ? "__D__" : "__R__", favP = Math.max(f.p, 1 - f.p), mFav = f.p >= .5 ? mAvg : 1 - mAvg;
+    L.push(Math.abs(f.p - mAvg) < 0.06
+      ? `<strong>Our model and the betting markets roughly agree.</strong> We give ${fav} ${pct(favP)}; ${mk}. A 2024-style polling miss toward Republicans would make it __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`
+      : `<strong>Our model is ${favP > mFav ? "more" : "less"} confident than the betting markets.</strong> We give ${fav} ${pct(favP)}; ${mk}. Texas polls missed toward Republicans in 2020 and 2024 and toward Democrats in 2018. A 2024-style miss would make it __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`);
+    L.push(`<strong>Tarrant County is the bellwether.</strong> It holds the state's median voter in ${pct(tar.tipping)} of simulations. If Tarrant comes in near ${fmtM(tl.even)}, the race is a coin flip. Above ${fmtM(tl.d)}, __D__ is favored; below ${fmtM(tl.r)}, __R__ is.`);
+    L.push(`<strong>Two paths.</strong> __D__'s runs through big margins in Harris, Dallas, Bexar and Travis plus wins in Tarrant and Collin. __R__'s runs through rural Texas, where he is expected to net about ${fmtK(Math.abs(rural))} votes, and holding Collin and Denton.`);
+    if (ev) L.push(`<strong>Early voting:</strong> ${fmtInt(ev.total)} ballots so far. Turnout does not move this forecast; see the <a href="early.html">Early voting</a> page for county-by-county turnout compared with 2022.`);
   } else {
     const lv = DATA.live;
     L.push(`<strong>${fmtInt(Math.round(lv.counted))} votes counted</strong>, about ${pct(lv.expected_counted)} of our expected turnout, in ${lv.reported_counties} counties.`);
     L.push(`The model now estimates a final margin of <strong>${fmtM(share2m(n.median), true)}</strong> and gives ${lead} a <strong>${pct(Math.max(n.p, 1 - n.p))}</strong> chance.`);
-    const watch = ["Tarrant", "Harris", "Collin", "Denton", "Dallas", "Bexar"].map((x) => byName[x]).filter((c) => c.counted && c.counted.t + c.counted.p > 0);
+    const watch = ["Tarrant", "Harris", "Collin", "Denton", "Dallas", "Bexar"].map((x) => byName[x]).filter((c) => c.counted && c.counted.d + c.counted.r > 0);
     for (const c of watch.slice(0, 4)) {
-      const m = (c.counted.t - c.counted.p) / (c.counted.t + c.counted.p) * 100;
+      const m = (c.counted.d - c.counted.r) / (c.counted.d + c.counted.r) * 100;
       const s = c.lines ? zone(c, m).sentence : "";
       L.push(`<strong>${c.name}:</strong> ${fmtM(m)} with ${Math.round(c.counted.frac * 100)}% counted, ${s}. Forecast was ${fmtM(c.fc)}.`);
     }
-    L.push("Early and mail votes are usually counted first. In Harris, mail ballots have recently leaned far more Democratic than the county overall, so Talarico may look stronger early than at the end.");
+    L.push("Early and mail votes are usually counted first. In Harris, mail ballots have recently leaned far more Democratic than the county overall, so __D__ may look stronger early than at the end.");
   }
   $("#explain-list").innerHTML = L.map((x) => `<li>${x}</li>`).join("");
 }
 
 /* ---------- map ---------- */
 const countedOf = (c) => simObs ? simObs[DATA.counties.indexOf(c)] : c.counted;
-const hasCount = (o) => o && o.t + o.p > 0;
+const hasCount = (o) => o && o.d + o.r > 0;
 let layer = "forecast", selected = "Tarrant";
 const probColor = (p) => p >= .95 ? css("--dem-1") : p >= .75 ? css("--dem-2") : p >= .55 ? css("--dem-3") : p > .45 ? css("--toss") : p > .25 ? css("--rep-3") : p > .05 ? css("--rep-2") : css("--rep-1");
 const marginColor = (m) => m >= 20 ? css("--dem-1") : m >= 8 ? css("--dem-2") : m > 0 ? css("--dem-3") : m === 0 ? css("--toss") : m > -8 ? css("--rep-3") : m > -20 ? css("--rep-2") : css("--rep-1");
 const paceColor = (x) => x == null ? css("--nodata") : x < .8 ? css("--pace-0") : x < 1 ? css("--pace-1") : x < 1.25 ? css("--pace-2") : css("--pace-3");
 const LEGENDS = {
-  forecast: ["Chance of carrying the county", [["--dem-1", "Talarico 95%+"], ["--dem-2", "75–95%"], ["--dem-3", "55–75%"], ["--toss", "Toss-up"], ["--rep-3", "55–75%"], ["--rep-2", "75–95%"], ["--rep-1", "Paxton 95%+"]]],
+  forecast: ["Chance of carrying the county", [["--dem-1", "__D__ 95%+"], ["--dem-2", "75–95%"], ["--dem-3", "55–75%"], ["--toss", "Toss-up"], ["--rep-3", "55–75%"], ["--rep-2", "75–95%"], ["--rep-1", "__R__ 95%+"]]],
   pace: ["Share of early votes vs. share of expected final vote", [["--pace-0", "Under 0.8×"], ["--pace-1", "0.8–1×"], ["--pace-2", "1–1.25×"], ["--pace-3", "Over 1.25×"], ["--nodata", "No votes yet"]]],
-  results: ["Margin in counted votes", [["--dem-1", "T+20"], ["--dem-2", "T+8–20"], ["--dem-3", "T+0–8"], ["--rep-3", "P+0–8"], ["--rep-2", "P+8–20"], ["--rep-1", "P+20"], ["--nodata", "Not reporting"]]],
-  y2024: ["2024 Senate: Allred (D) vs. Cruz (R)", [["--dem-1", "D+20"], ["--dem-2", "D+8–20"], ["--dem-3", "D+0–8"], ["--rep-3", "R+0–8"], ["--rep-2", "R+8–20"], ["--rep-1", "R+20"]]],
+  results: ["Margin in counted votes", [["--dem-1", "__DI__+20"], ["--dem-2", "__DI__+8–20"], ["--dem-3", "__DI__+0–8"], ["--rep-3", "__RI__+0–8"], ["--rep-2", "__RI__+8–20"], ["--rep-1", "__RI__+20"], ["--nodata", "Not reporting"]]],
+  y2024: [`${H[1].label}: ${H[1].who}`, [["--dem-1", "D+20"], ["--dem-2", "D+8–20"], ["--dem-3", "D+0–8"], ["--rep-3", "R+0–8"], ["--rep-2", "R+8–20"], ["--rep-1", "R+20"]]],
 };
 function fillFor(c) {
   if (layer === "forecast") return probColor(c.p);
   if (layer === "pace") return paceColor(c.ev ? c.ev_index : null);
-  if (layer === "results") { const o = countedOf(c); if (!hasCount(o)) return css("--nodata"); return marginColor((o.t - o.p) / (o.t + o.p) * 100); }
-  return marginColor(c.m24);
+  if (layer === "results") { const o = countedOf(c); if (!hasCount(o)) return css("--nodata"); return marginColor((o.d - o.r) / (o.d + o.r) * 100); }
+  return marginColor(c.hb);
 }
 function drawMap() {
   const s = $("#map"); s.setAttribute("viewBox", PATHS.viewBox);
@@ -604,7 +622,7 @@ function drawMap() {
   const sel = $("#county-pick");
   for (const c of [...DATA.counties].sort((a, b) => a.name.localeCompare(b.name))) sel.append(new Option(c.name, c.name));
   sel.addEventListener("change", () => pick(sel.value));
-  const results = DATA.counties.some((c) => c.counted && c.counted.t + c.counted.p > 0);
+  const results = DATA.counties.some((c) => c.counted && c.counted.d + c.counted.r > 0);
   const tabs = [...document.querySelectorAll("#tabs button")];
   for (const b of tabs) {
     if (b.dataset.layer === "results" && !results) { b.disabled = true; b.title = "Results appear after polls close on Nov. 3"; }
@@ -629,7 +647,7 @@ function paint() {
     forecast: "Shaded by each candidate's chance of carrying the county. Tap a county for details.",
     pace: "How much of the early vote each county is casting compared with its share of the expected final vote. Darker green means more early votes than expected.",
     results: simObs ? "Simulated counted votes. Gray counties have not reported yet in this simulated night." : "Counted votes so far. Gray counties have not reported.",
-    y2024: "How each county voted in the 2024 Senate race, which Ted Cruz won by 8.5 points.",
+    y2024: `How each county voted in the ${H[1].label} race (${H[1].who}). ${C.context}`,
   }[layer];
 }
 function pick(name) {
@@ -641,17 +659,17 @@ function pick(name) {
     ["Who carries it", carry(c.p)],
     ["Forecast margin", fmtM(c.fc)],
     ["80% range", `${fmtM(c.lo)} to ${fmtM(c.hi)}`],
-    ["2018 Senate", fmtM(c.m18)],
-    ["2024 Senate", fmtM(c.m24)],
+    [H[0].label, fmtM(c.ha)],
+    [H[1].label, fmtM(c.hb)],
     ["Expected votes", fmtK(c.exp_votes)],
     ["Registered voters", fmtInt(c.registered)],
   ];
-  if (c.lines) rows.push(["Paxton favored below", fmtM(c.lines.pax)], ["Race even at", fmtM(c.lines.even)], ["Talarico favored above", fmtM(c.lines.tal)]);
+  if (c.lines) rows.push(["__R__ favored below", fmtM(c.lines.r)], ["Race even at", fmtM(c.lines.even)], ["__D__ favored above", fmtM(c.lines.d)]);
   if (c.ev != null) rows.push(["Early ballots so far", fmtInt(c.ev)]);
   const oc = countedOf(c);
-  if (hasCount(oc)) rows.push([simObs ? "Simulated margin" : "Counted margin", fmtM((oc.t - oc.p) / (oc.t + oc.p) * 100)], ["Share counted", pct(oc.frac)]);
+  if (hasCount(oc)) rows.push([simObs ? "Simulated margin" : "Counted margin", fmtM((oc.d - oc.r) / (oc.d + oc.r) * 100)], ["Share counted", pct(oc.frac)]);
   $("#county-body").innerHTML = `<h3>${c.name}</h3><div class="reg">${c.region}</div><dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
-    <p class="hint">${c.tipping > .02 ? `Holds the state's median voter in ${pct(c.tipping)} of simulations.` : `Net votes expected: ${c.net >= 0 ? "Talarico" : "Paxton"} +${fmtK(Math.abs(c.net))}.`}</p>`;
+    <p class="hint">${c.tipping > .02 ? `Holds the state's median voter in ${pct(c.tipping)} of simulations.` : `Net votes expected: ${c.net >= 0 ? "__D__" : "__R__"} +${fmtK(Math.abs(c.net))}.`}</p>`;
 }
 
 /* ---------- hover box for the maps (mouse only; taps open the details card) ---------- */
@@ -670,44 +688,44 @@ function hoverTip(node, html) {
 }
 const tipRows = (rows) => rows.map(([k, v]) => `<div class="r"><span>${k}</span><span>${v}</span></div>`).join("");
 function mapTip(c) {
-  const rows = [["Forecast", fmtM(c.fc)], ["Expected to carry", carry(c.p)], ["2024 Senate", fmtM(c.m24)], ["Expected votes", fmtK(c.exp_votes)]];
+  const rows = [["Forecast", fmtM(c.fc)], ["Expected to carry", carry(c.p)], [H[1].label, fmtM(c.hb)], ["Expected votes", fmtK(c.exp_votes)]];
   const o = countedOf(c);
-  if (hasCount(o)) rows.unshift(["Counted so far", `${fmtM((o.t - o.p) / (o.t + o.p) * 100)} (${pct(o.frac)} in)`]);
+  if (hasCount(o)) rows.unshift(["Counted so far", `${fmtM((o.d - o.r) / (o.d + o.r) * 100)} (${pct(o.frac)} in)`]);
   if (layer === "pace" && c.ev != null) rows.push(["Early ballots", fmtInt(c.ev)]);
   return `<b>${c.name}</b>${tipRows(rows)}`;
 }
 function evTip(c) {
   const e = EV.counties[c.name];
   const rows = e.missing ? [["Status", "Not reported yet"]] : [["Ballots so far", fmtInt(e.ev)], ["By mail", fmtInt(e.mail)], ["2022, same day", fmtInt(e.ev22)], ["Vs. 2022", e.pace != null ? pctTxt(e.pace) : "–"]];
-  rows.push(["2024 Senate", fmtM(c.m24)]);
+  rows.push([H[1].label, fmtM(c.hb)]);
   return `<b>${c.name}</b>${tipRows(rows)}`;
 }
 
 /* ---------- neutral labels ---------- */
 // a county's counted margin vs. its lines -> which way it points for the statewide race
 function zone(c, m) {
-  if (m >= c.lines.tal) return { cls: "lt", label: "Leans Talarico", sentence: "a margin that points to Talarico statewide" };
-  if (m <= c.lines.pax) return { cls: "lp", label: "Leans Paxton", sentence: "a margin that points to Paxton statewide" };
+  if (c.lines.d != null && m >= c.lines.d) return { cls: "lt", label: "Leans __D__", sentence: "a margin that points to __D__ statewide" };
+  if (c.lines.r != null && m <= c.lines.r) return { cls: "lp", label: "Leans __R__", sentence: "a margin that points to __R__ statewide" };
   return { cls: "tu", label: "Toss-up", sentence: "a margin consistent with a toss-up statewide" };
 }
-const carry = (p) => p >= .5 ? `<span class="t">Talarico ${pct(p)}</span>` : `<span class="p">Paxton ${pct(1 - p)}</span>`;
+const carry = (p) => p >= .5 ? `<span class="t">__D__ ${pct(p)}</span>` : `<span class="p">__R__ ${pct(1 - p)}</span>`;
 
 /* ---------- watch table ---------- */
 function watch() {
   const names = ["Tarrant", "Harris", "Collin", "Denton", "Williamson", "Dallas", "Bexar", "Travis", "Fort Bend", "El Paso", "Hidalgo", "Nueces"];
   const live = MODE === "live" || MODE === "final" || !!simObs;
-  let h = `<thead><tr><th>County</th><th>2024</th><th>Forecast</th><th>Who carries it</th><th class="p">Paxton favored below</th><th>Even at</th><th class="t">Talarico favored above</th><th>Median voter</th><th>${live ? "Counted" : "Status"}</th></tr></thead><tbody>`;
+  let h = `<thead><tr><th>County</th><th>${H[1].short}</th><th>Forecast</th><th>Who carries it</th><th class="p">__R__ favored below</th><th>Even at</th><th class="t">__D__ favored above</th><th>Median voter</th><th>${live ? "Counted" : "Status"}</th></tr></thead><tbody>`;
   for (const n of names) {
     const c = byName[n]; if (!c || !c.lines) continue;
     let status = `<span class="pill wait">Awaiting votes</span>`;
     const oc = countedOf(c);
     if (hasCount(oc)) {
-      const m = (oc.t - oc.p) / (oc.t + oc.p) * 100;
+      const m = (oc.d - oc.r) / (oc.d + oc.r) * 100;
       const z = zone(c, m);
       status = `${fmtM(m)} <span class="pill ${z.cls}">${z.label}</span>`;
     }
-    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtM(c.m24)}</td><td><strong>${fmtM(c.fc)}</strong></td>
-      <td><span class="prob"><i style="width:${c.p * 100}%"></i></span>${carry(c.p)}</td><td>${fmtM(c.lines.pax)}</td><td>${fmtM(c.lines.even)}</td><td>${fmtM(c.lines.tal)}</td><td>${c.tipping >= .005 ? pct(c.tipping) : "–"}</td><td>${status}</td></tr>`;
+    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtM(c.hb)}</td><td><strong>${fmtM(c.fc)}</strong></td>
+      <td><span class="prob"><i style="width:${c.p * 100}%"></i></span>${carry(c.p)}</td><td>${fmtM(c.lines.r)}</td><td>${fmtM(c.lines.even)}</td><td>${fmtM(c.lines.d)}</td><td>${c.tipping >= .005 ? pct(c.tipping) : "–"}</td><td>${status}</td></tr>`;
   }
   $("#watch").innerHTML = h + "</tbody>";
   $("#watch").closest("section").querySelector(".section-dek").dataset.sim = simObs ? "1" : "";
@@ -718,13 +736,13 @@ function polls() {
   const P = DATA.polls;
   $("#polls-dek").innerHTML = `Weighted average: <strong>${fmtM(share2m(P.average), true)}</strong> (two-party), from ${P.n_used} polls in the last 60 days.`;
   const s = $("#poll-chart"), W = 480, H = 260, m = { l: 34, r: 12, t: 12, b: 26 };
-  const pts = P.all.map((d) => ({ t: new Date(d.end), m: d.t - d.p, w: d.w }));
+  const pts = P.all.map((d) => ({ t: new Date(d.end), m: d.d - d.r, w: d.w }));
   const t0 = Math.min(...pts.map((d) => d.t)), t1 = new Date(DATA.generated).getTime();
   const x = (t) => m.l + (t - t0) / (t1 - t0) * (W - m.l - m.r);
   const y = (v) => m.t + (10 - v) / 20 * (H - m.t - m.b);
   for (const v of [-10, -5, 0, 5, 10]) {
     s.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: css(v === 0 ? "--ink-3" : "--rule"), "stroke-width": v === 0 ? 1 : .7 }));
-    const t = svgEl("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "T+" : "P+") + Math.abs(v); s.append(t);
+    const t = svgEl("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "__DI__+" : "__RI__+") + Math.abs(v); s.append(t);
   }
   const months = new Set();
   for (let d = new Date(t0); d <= t1; d = new Date(d.getTime() + 864e5)) {
@@ -741,13 +759,13 @@ function polls() {
   s.append(svgEl("path", { d: "M" + line.map((p) => p.join(",")).join("L"), fill: "none", stroke: css("--ink"), "stroke-width": 2.2 }));
   const last = line[line.length - 1];
   if (last) { s.append(svgEl("circle", { cx: last[0], cy: last[1], r: 4, fill: css("--ink") })); }
-  let h = `<thead><tr><th>Pollster</th><th>Ended</th><th>Talarico</th><th>Paxton</th><th>Margin</th><th>Lean vs. avg.</th></tr></thead><tbody>`;
+  let h = `<thead><tr><th>Pollster</th><th>Ended</th><th>__D__</th><th>__R__</th><th>Margin</th><th>Lean vs. avg.</th></tr></thead><tbody>`;
   for (const r of P.recent.slice(0, 12)) {
     const d = new Date(r.end + "T12:00:00").toLocaleString("en-US", { month: "short", day: "numeric" });
     const name = r.pollster.replace(/\s*\((R|D)\)/g, "");
     const sp = r.sponsor === "Independent" ? "" : `<span class="spon ${r.sponsor === "Republican" ? "p" : r.sponsor === "Democratic" ? "t" : ""}">${r.sponsor}-sponsored</span>`;
     const lean = Math.abs(r.house) < 1 ? `<span style="color:var(--ink-3)">Near avg.</span>` : r.house > 0 ? `<span class="t">D +${r.house.toFixed(1)}</span>` : `<span class="p">R +${Math.abs(r.house).toFixed(1)}</span>`;
-    h += `<tr><td style="white-space:normal;min-width:150px">${name}<span class="sub" style="display:block;color:var(--ink-3);font-size:12px">${r.n ? fmtInt(r.n) + " " : ""}${r.pop.replace("TBA", "")} ${sp}</span></td><td>${d}</td><td class="t">${r.t}%</td><td class="p">${r.p}%</td><td><strong>${fmtM(r.t - r.p)}</strong></td><td>${lean}</td></tr>`;
+    h += `<tr><td style="white-space:normal;min-width:150px">${name}<span class="sub" style="display:block;color:var(--ink-3);font-size:12px">${r.n ? fmtInt(r.n) + " " : ""}${r.pop.replace("TBA", "")} ${sp}</span></td><td>${d}</td><td class="t">${r.d}%</td><td class="p">${r.r}%</td><td><strong>${fmtM(r.d - r.r)}</strong></td><td>${lean}</td></tr>`;
   }
   $("#poll-table").innerHTML = h + "</tbody>";
 }
@@ -764,11 +782,11 @@ function hist() {
   s.append(svgEl("line", { x1: x0, x2: x0, y1: m.t - 8, y2: HH - m.b, stroke: css("--ink"), "stroke-width": 1.2 }));
   for (const v of [-15, -10, -5, 0, 5, 10, 15]) {
     const xx = m.l + (v - H.edges[0]) / (H.edges[n] - H.edges[0]) * (W - m.l - m.r);
-    const t = svgEl("text", { x: xx, y: HH - 10, "text-anchor": "middle" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "T+" : "P+") + Math.abs(v); s.append(t);
+    const t = svgEl("text", { x: xx, y: HH - 10, "text-anchor": "middle" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "__DI__+" : "__RI__+") + Math.abs(v); s.append(t);
   }
-  const tw = svgEl("text", { x: x0 - 8, y: m.t - 10, "text-anchor": "end", class: "lbl", style: `fill:${css("--dem")}` }); tw.textContent = `← Talarico wins ${pct(DATA.forecast.p)}`; s.append(tw);
-  const pw = svgEl("text", { x: x0 + 8, y: m.t - 10, "text-anchor": "start", class: "lbl", style: `fill:${css("--rep")}` }); pw.textContent = `Paxton wins ${pct(1 - DATA.forecast.p)} →`; s.append(pw);
-  // flip: draw Talarico on the left to match the needle
+  const tw = svgEl("text", { x: x0 - 8, y: m.t - 10, "text-anchor": "end", class: "lbl", style: `fill:${css("--dem")}` }); tw.textContent = `← __D__ wins ${pct(DATA.forecast.p)}`; s.append(tw);
+  const pw = svgEl("text", { x: x0 + 8, y: m.t - 10, "text-anchor": "start", class: "lbl", style: `fill:${css("--rep")}` }); pw.textContent = `__R__ wins ${pct(1 - DATA.forecast.p)} →`; s.append(pw);
+  // flip: draw __D__ on the left to match the needle
   s.setAttribute("transform", "");
   $("#hist-dek").textContent = `The middle outcome is ${fmtM(share2m(DATA.forecast.median), true)}. In 80% of simulations the result lands between ${fmtM(share2m(DATA.forecast.lo), true)} and ${fmtM(share2m(DATA.forecast.hi), true)}.`;
 }
@@ -777,20 +795,20 @@ function hist() {
 function scenarios() {
   const box = $("#scen");
   for (const r of DATA.scenarios) {
-    const m = share2m(r.share), winner = m >= 0 ? "Talarico" : "Paxton";
+    const m = share2m(r.share), winner = m >= 0 ? "__D__" : "__R__";
     const d = el("div", { class: "card" });
     d.innerHTML = `<h3>${r.label}</h3><div class="big ${m >= 0 ? "t" : "p"}">${fmtM(m, true)}</div>
-      <p style="margin:0 0 6px;font-size:14px">For <strong class="${r.trailer === "Talarico" ? "t" : "p"}">${r.trailer}</strong> to win instead, he would need:</p>
+      <p style="margin:0 0 6px;font-size:14px">For <strong class="${r.trailer === "__D__" ? "t" : "p"}">${r.trailer}</strong> to win instead, he would need:</p>
       <ul><li>a ${r.uniform_pts.toFixed(1)}-point shift in his direction in every county, or</li>
       ${r.regions.map((g, i) => `<li>${g.name.toLowerCase()} alone to shift ${g.pts.toFixed(1)} points his way${i < r.regions.length - 1 || r.turnout_boost != null ? ", or" : "."}</li>`).join("")}
       ${r.turnout_boost != null ? `<li>turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} up ${Math.round(r.turnout_boost * 100)}%.</li></ul>` : `</ul><p class="note" style="margin-top:6px">Higher turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} alone would not be enough.</p>`}`;
     box.append(d);
   }
-  let h = `<thead><tr><th>Scenario</th><th class="t">Talarico</th><th class="p">Paxton</th></tr></thead><tbody>`;
+  let h = `<thead><tr><th>Scenario</th><th class="t">__D__</th><th class="p">__R__</th></tr></thead><tbody>`;
   for (const s of DATA.stress) h += `<tr><td style="white-space:normal">${s.label}</td><td><strong class="t">${pct(s.p)}</strong></td><td><strong class="p">${pct(1 - s.p)}</strong></td></tr>`;
   $("#stress").innerHTML = h + "</tbody>";
-  let r = `<thead><tr><th>Region</th><th>Counties</th><th>Share of vote</th><th>2018</th><th>2024</th><th>Forecast</th></tr></thead><tbody>`;
-  for (const g of DATA.regions) r += `<tr><td class="name">${g.name}</td><td>${g.counties}</td><td>${pct(g.vote_share)}</td><td>${fmtM(g.m18)}</td><td>${fmtM(g.m24)}</td><td><strong>${fmtM(g.fc)}</strong></td></tr>`;
+  let r = `<thead><tr><th>Region</th><th>Counties</th><th>Share of vote</th><th>${H[0].short}</th><th>${H[1].short}</th><th>Forecast</th></tr></thead><tbody>`;
+  for (const g of DATA.regions) r += `<tr><td class="name">${g.name}</td><td>${g.counties}</td><td>${pct(g.vote_share)}</td><td>${fmtM(g.ha)}</td><td>${fmtM(g.hb)}</td><td><strong>${fmtM(g.fc)}</strong></td></tr>`;
   $("#regions").innerHTML = r + "</tbody>";
   const M = DATA.mail_history;
   if (M) {
@@ -804,35 +822,57 @@ function scenarios() {
   $("#fetch-note").textContent = bad.length ? `Some sources could not be refreshed this time (${bad.join(", ")}); their last good data is shown.` : `All data sources refreshed ${fmtDate(DATA.generated)}.`;
 }
 
+/* ---------- split tickets (Senate vs. governor) ---------- */
+function splitTicket() {
+  const others = DATA.others || {};
+  const other = Object.values(others)[0];
+  if (!other) { $("#split-sec").hidden = true; return; }
+  const sen = C.office === "Governor" ? other : { cand: C, forecast: DATA.forecast, counties: Object.fromEntries(DATA.counties.map((c) => [c.name, c.fc])) };
+  const gov = C.office === "Governor" ? { cand: C, forecast: DATA.forecast, counties: Object.fromEntries(DATA.counties.map((c) => [c.name, c.fc])) } : other;
+  const lbl = (cand, m) => Math.abs(m) < 0.05 ? "Even" : `${m > 0 ? cand.d : cand.r} +${Math.abs(m).toFixed(1)}`;
+  const sm = share2m(sen.forecast.median), gm = share2m(gov.forecast.median), gap = sm - gm;
+  $("#split-dek").innerHTML = `Statewide we expect <strong>${lbl(sen.cand, sm)}</strong> for Senate and <strong>${lbl(gov.cand, gm)}</strong> for governor, a ${Math.abs(gap).toFixed(1)}-point gap. ` +
+    (gap > 0 ? `That means a meaningful number of ${gov.cand.r} voters are also expected to back ${sen.cand.d}. These counties have the biggest gaps.` : `That means a meaningful number of ${sen.cand.r} voters are also expected to back ${gov.cand.d}. These counties have the biggest gaps.`);
+  const rows = DATA.counties.filter((c) => c.exp_votes > 40000).map((c) => ({ c, s: sen.counties[c.name], g: gov.counties[c.name] }))
+    .map((x) => ({ ...x, gap: x.s - x.g, votes: Math.abs(x.s - x.g) / 100 * x.c.exp_votes })).sort((a, b) => b.votes - a.votes).slice(0, 12);
+  let h = `<thead><tr><th>County</th><th>Senate forecast</th><th>Governor forecast</th><th>Gap</th><th>Split voters (est.)</th></tr></thead><tbody>`;
+  for (const x of rows) h += `<tr><td class="name">${x.c.name}<span class="sub">${x.c.region}</span></td><td>${lbl(sen.cand, x.s)}</td><td>${lbl(gov.cand, x.g)}</td><td><strong>${(x.gap >= 0 ? "+" : "") + x.gap.toFixed(1)}</strong></td><td>${fmtK(Math.round(x.votes / 2))}</td></tr>`;
+  $("#split").innerHTML = h + "</tbody>";
+}
+
 /* ---------- early voting view ---------- */
 const EV = DATA.early;
 const evColor = (c) => { const e = EV && EV.counties[c.name]; if (!e || e.missing || e.pace == null) return css("--nodata");
   const p = e.pace; return p < 0.8 ? css("--slow-2") : p < 0.95 ? css("--slow-1") : p <= 1.05 ? css("--even") : p <= 1.2 ? css("--pace-2") : css("--pace-3"); };
 const pctTxt = (x) => (x >= 1 ? "+" : "") + Math.round((x - 1) * 100) + "%";
 function earlyView() {
+  if (PAGE !== "early") return;
   if (!EV) { $("#ev-story").innerHTML = "<li>Early voting numbers are not available yet.</li>"; return; }
   const asOf = new Date(EV.as_of).toLocaleDateString("en-US", { month: "long", day: "numeric" });
   $("#ev-kicker").textContent = EV.day === 0 ? `As of ${asOf} · Before in-person voting` : `As of ${asOf} · Day ${EV.day} of 12`;
   $("#ev-head").textContent = EV.day === 0 ? `${fmtInt(EV.total)} mail ballots are in` : `${fmtInt(EV.total)} Texans have voted early`;
   $("#ev-story").innerHTML = EV.story.map((x) => `<li>${x}</li>`).join("");
-  const lean = EV.day >= 1 ? fmtM(EV.est_margin, true) : "From day 1";
+  const OT = (Object.values(DATA.others || {})[0] || {}), OE = OT.early, OC = OT.cand;
+  const oLbl = (m) => !OC ? "" : Math.abs(m) < 0.05 ? "Even" : `${m > 0 ? OC.d : OC.r} +${Math.abs(m).toFixed(1)}`;
+  const lean = EV.day >= 1 ? `${fmtM(EV.est_margin, true)}${OE ? `<div class="sub" style="font-size:14px;font-weight:700;color:var(--ink)">${oLbl(OE.est_margin)}</div>` : ""}` : "From day 1";
+  if (EV.day >= 1 && OE) EV.story.splice(EV.story.length - 1, 0, `<strong>For governor,</strong> the same ballots work out to about <strong>${oLbl(OE.est_margin)}</strong>, using each county's expected governor vote.`);
   const stats = [
     ["Ballots cast", fmtInt(EV.total), `${fmtInt(EV.in_person)} in person · ${fmtInt(EV.mail)} mail`],
     ["Vs. same day in 2022", EV.day >= 1 ? pctTxt(EV.pace) : "–", EV.day >= 1 ? "after registration growth" : "compared from day 1"],
-    ["Estimated lean of ballots", lean, "an estimate, not a count"],
+    ["Estimated lean of ballots", lean, "Senate / governor · an estimate, not a count"],
     ["Turnout on this pace", EV.projected_turnout ? (EV.projected_turnout / 1e6).toFixed(1) + "M" : "–", `2022: ${(EV.final_2022_votes / 1e6).toFixed(1)}M · 2018: ${(EV.final_2018_votes / 1e6).toFixed(1)}M`],
   ];
   $("#ev-stats").innerHTML = stats.map(([l, v, s2]) => `<div><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s2}</div></div>`).join("");
 
   // day-by-day chart
-  const s = $("#ev-chart"), W = 720, H = 260, m = { l: 44, r: 90, t: 14, b: 30 };
+  const s = $("#ev-chart"), W = 720, CH = 260, m = { l: 44, r: 90, t: 14, b: 30 };
   const maxP = Math.max(...EV.series22.map((d) => d.pct), ...EV.series26.map((d) => d.pct)) * 1.1;
-  const x = (d) => m.l + d / 12 * (W - m.l - m.r), y = (v) => H - m.b - v / maxP * (H - m.t - m.b);
+  const x = (d) => m.l + d / 12 * (W - m.l - m.r), y = (v) => CH - m.b - v / maxP * (CH - m.t - m.b);
   for (let v = 0; v <= maxP; v += 0.05) {
     s.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: css("--rule"), "stroke-width": .7 }));
     const t = svgEl("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = Math.round(v * 100) + "%"; s.append(t);
   }
-  for (let d = 0; d <= 12; d += 2) { const t = svgEl("text", { x: x(d), y: H - 8, "text-anchor": "middle" }); t.textContent = d === 0 ? "Before" : "Day " + d; s.append(t); }
+  for (let d = 0; d <= 12; d += 2) { const t = svgEl("text", { x: x(d), y: CH - 8, "text-anchor": "middle" }); t.textContent = d === 0 ? "Before" : "Day " + d; s.append(t); }
   const path = (pts) => "M" + pts.map((d) => `${x(d.day)},${y(d.pct)}`).join("L");
   s.append(svgEl("path", { d: path(EV.series22), fill: "none", stroke: css("--ink-3"), "stroke-width": 2, "stroke-dasharray": "5 4" }));
   const l22 = EV.series22[EV.series22.length - 1];
@@ -864,12 +904,13 @@ function earlyView() {
 
   // county table
   const rows = [...DATA.counties].sort((a, b) => b.exp_votes - a.exp_votes).slice(0, 40);
-  let h = `<thead><tr><th>County</th><th>Ballots</th><th>Mail</th><th>2022 same day</th><th>Vs. 2022</th><th>2024 result</th><th>Net votes (est.)</th></tr></thead><tbody>`;
+  let h = `<thead><tr><th>County</th><th>Ballots</th><th>Mail</th><th>2022 same day</th><th>Vs. 2022</th><th>${H[1].label}</th><th>Senate net (est.)</th><th>Governor net (est.)</th></tr></thead><tbody>`;
   for (const c of rows) {
     const e = EV.counties[c.name];
     const vs = e.missing ? `<span class="nr">Not reported</span>` : e.pace != null ? `<strong>${pctTxt(e.pace)}</strong>` : "–";
-    const net = e.missing || EV.day < 1 ? "–" : `<span class="${e.est_net >= 0 ? "t" : "p"}">${e.est_net >= 0 ? "Talarico" : "Paxton"} +${fmtK(Math.abs(e.est_net))}</span>`;
-    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtInt(e.ev)}</td><td>${fmtInt(e.mail)}</td><td>${fmtInt(e.ev22)}</td><td>${vs}</td><td>${fmtM(c.m24)}</td><td>${net}</td></tr>`;
+    const net = e.missing || EV.day < 1 ? "–" : `<span class="${e.est_net >= 0 ? "t" : "p"}">${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtK(Math.abs(e.est_net))}</span>`;
+    const on = OE && OE.counties[c.name], net2 = e.missing || EV.day < 1 || on == null ? "–" : `<span class="${on >= 0 ? "t" : "p"}">${on >= 0 ? OC.d : OC.r} +${fmtK(Math.abs(on))}</span>`;
+    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtInt(e.ev)}</td><td>${fmtInt(e.mail)}</td><td>${fmtInt(e.ev22)}</td><td>${vs}</td><td>${fmtM(c.hb)}</td><td>${net}</td><td>${net2}</td></tr>`;
   }
   $("#ev-table").innerHTML = h + "</tbody>";
 }
@@ -879,8 +920,8 @@ function evPick(name) {
   const sp = document.querySelector(`#ev-map path[data-name="${CSS.escape(name)}"]`); if (sp) sp.parentNode.append(sp);
   const rows = [["Ballots so far", fmtInt(e.ev)], ["In person", fmtInt(e.in_person)], ["By mail", fmtInt(e.mail)], ["% of registered", e.pct.toFixed(1) + "%"],
     ["2022, same day", `${fmtInt(e.ev22)} (${e.pct22.toFixed(1)}%)`], ["Vs. 2022", e.missing ? "Not reported" : e.pace != null ? pctTxt(e.pace) : "–"],
-    ["2024 Senate result", fmtM(c.m24)], ["Forecast", fmtM(c.fc)]];
-  if (EV.day >= 1 && !e.missing) rows.push(["Net votes so far (est.)", `${e.est_net >= 0 ? "Talarico" : "Paxton"} +${fmtInt(Math.abs(e.est_net))}`]);
+    [H[1].label + " result", fmtM(c.hb)], ["Forecast", fmtM(c.fc)]];
+  if (EV.day >= 1 && !e.missing) rows.push(["Net votes so far (est.)", `${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtInt(Math.abs(e.est_net))}`]);
   $("#ev-card").innerHTML = `<label for="ev-pick" class="sans" style="font-size:12px;color:var(--ink-3);font-weight:600;text-transform:uppercase;letter-spacing:.05em">Find a county</label>
     <select id="ev-pick">${[...DATA.counties].sort((a, b) => a.name.localeCompare(b.name)).map((q) => `<option${q.name === name ? " selected" : ""}>${q.name}</option>`).join("")}</select>
     <h3>${name}</h3><div class="reg">${c.region}</div><dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`;
@@ -889,11 +930,9 @@ function evPick(name) {
 
 /* ---------- page tabs (#forecast / #early) ---------- */
 function showView() {
-  const early = location.hash === "#early";
+  const early = PAGE === "early";
   $("#view-forecast").hidden = early; $("#view-early").hidden = !early;
-  $("#tab-forecast").setAttribute("aria-selected", !early); $("#tab-early").setAttribute("aria-selected", early);
 }
-addEventListener("hashchange", showView);
 
-header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); hist(); scenarios(); earlyView(); showView();
+header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); hist(); scenarios(); splitTicket(); earlyView(); showView();
 </script>

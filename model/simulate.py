@@ -45,7 +45,7 @@ def poll_average(polls):
     p["lv"] = p["pop"].str.contains("LV")
     p = p.sort_values("lv", ascending=False).drop_duplicates(["pollster", "dates"])
     p = p[p.age <= 60]
-    p["d2"] = p.talarico / (p.talarico + p.paxton)
+    p["d2"] = p.d / (p.d + p.r)                    # Democrat's two-party share
     n = p.n.fillna(800).clip(upper=2000)
     partisan = p.pollster.str.contains(r"\((?:R|D)\)")
     # each pollster's repeated polls share weight so one firm can't dominate
@@ -55,12 +55,12 @@ def poll_average(polls):
 
 
 # ---- county baseline ------------------------------------------------------------------------
-def build(c):
-    s18 = statewide(c, "sen18_d2", "sen18_total")
-    s24 = statewide(c, "sen24_d2", "sen24_total")
-    c["rel18"] = c.sen18_d2 - s18               # county lean relative to state
-    c["rel24"] = c.sen24_d2 - s24
-    c["rel_blend"] = 0.5 * c.rel18 + 0.5 * c.rel24
+def build(c, bases=("sen18", "sen24")):
+    """bases: two past races whose county pattern (lean relative to the state) is blended 50/50."""
+    a, b = bases
+    c["rel_a"] = c[f"{a}_d2"] - statewide(c, f"{a}_d2", f"{a}_total")       # county lean relative to state
+    c["rel_b"] = c[f"{b}_d2"] - statewide(c, f"{b}_d2", f"{b}_total")
+    c["rel_blend"] = 0.5 * c.rel_a + 0.5 * c.rel_b
     # 2026 primary signal: change in Dem share of primary voters vs 2018, region relative to state
     st = lambda col, y: (c[col] * (c[f"dem_primary{y}"] + c[f"rep_primary{y}"])).groupby(c.region).sum() / \
                         (c[f"dem_primary{y}"] + c[f"rep_primary{y}"]).groupby(c.region).sum()
@@ -146,162 +146,3 @@ def needed_core_turnout(c, share_col, rate_col, regions=("Urban core",)):
 def fmt_m(x):  # two-party share -> margin label
     m = (2 * x - 1) * 100
     return f"Talarico +{m:.1f}" if m >= 0 else f"Paxton +{-m:.1f}"
-
-
-def main():
-    c = load()
-    c, reg_shift = build(c)
-    polls = pd.read_csv("data/polls.csv")
-    avg, used = poll_average(polls)
-    markets = pd.DataFrame(json.load(open("data/markets.json"))["markets"]).assign(notes=lambda d: d.volume_usd.map(lambda v: f"${v/1e6:.1f}M traded"))
-    out = {}
-
-    # --- main simulation
-    res = simulate(c, avg)
-    p_win = res["win"].mean()
-    c["p_talarico"] = (res["share"] > 0.5).mean(0)
-    c["exp_share"] = res["share"].mean(0)
-    c["exp_votes_sim"] = res["votes"].mean(0)
-    c["exp_net_D"] = ((2 * res["share"] - 1) * res["votes"]).mean(0)
-    w, l = res["win"], ~res["win"]
-    c["share_if_T_wins"] = res["share"][w].mean(0)
-    c["share_if_P_wins"] = res["share"][l].mean(0)
-    sub = RNG.choice(N_SIMS, 10_000, replace=False)
-    tp = tipping_point(res["share"][sub], res["votes"][sub])
-    c["tipping_pct"] = np.bincount(tp, minlength=len(c)) / len(sub)
-    # leverage: net votes moved by a 1-pt swing in that county
-    c["votes_per_pt"] = c.exp_votes_sim * 0.02
-
-    # --- stress tests
-    stress = {
-        "Polls miss toward Paxton like 2024 (R+4.5 margin)": simulate(c, avg, bias=-0.0225)["win"].mean(),
-        "Polls miss toward Paxton like 2020 (R+3.1 margin)": simulate(c, avg, bias=-0.0155)["win"].mean(),
-        "Polls miss toward Talarico like 2018 (D+3.3 margin)": simulate(c, avg, bias=+0.0165)["win"].mean(),
-        "County pattern = pure 2018": simulate(c, avg, pattern="rel18")["win"].mean(),
-        "County pattern = pure 2024": simulate(c, avg, pattern="rel24")["win"].mean(),
-        "South Texas snaps back halfway to 2018 (+4.7 pts)": simulate(c, avg, extra_region_shift={"Hispanic South/West": 0.047})["win"].mean(),
-    }
-
-    # --- replays: vote exactly like 2018 / 2024
-    replays = {}
-    for label, sc, rc_votes, rc_reg in (("2018 (Cruz vs O'Rourke)", "sen18_d2", "sen18_total", "reg18"),
-                                         ("2024 (Cruz vs Allred)", "sen24_d2", "sen24_total", "reg24"),
-                                         ("2022 AG (Paxton vs Garza)", "ag22_d2", "ag22_total", "reg22")):
-        c["_rate"] = c[rc_votes] / c[rc_reg]
-        sh, v = replay(c, sc, "_rate")
-        replays[label] = dict(
-            share=sh, votes=float(v.sum()),
-            uniform=needed_uniform_swing(c, sc, v),
-            region={r: needed_region_swing(c, sc, v, r) for r in ["Urban core", "Big suburbs", "Hispanic South/West", "Outer suburbs"]},
-            core_turnout=needed_core_turnout(c, sc, "_rate"),
-            core_sub_turnout=needed_core_turnout(c, sc, "_rate", ("Urban core", "Big suburbs")))
-
-    # --- what the winning simulations look like, by region
-    reg_rows = []
-    for r in ["Urban core", "Big suburbs", "Outer suburbs", "Hispanic South/West", "Mid-size metros", "Rural"]:
-        m = (c.region == r).values
-        sv = res["votes"][:, m]; ss = res["share"][:, m]
-        rs = (ss * sv).sum(1) / sv.sum(1)
-        reg_rows.append(dict(region=r, counties=int(m.sum()), vote_pct=sv.sum(1).mean() / res["votes"].sum(1).mean(),
-                             s18=statewide(c[m], "sen18_d2", "sen18_total"), s24=statewide(c[m], "sen24_d2", "sen24_total"),
-                             exp=rs.mean(), if_T=rs[w].mean(), if_P=rs[l].mean(), prim_shift=reg_shift[r]))
-
-    c.to_csv("results/county_forecast.csv", index=False)
-    report(c, avg, used, markets, p_win, res, stress, replays, reg_rows)
-
-
-def report(c, avg, used, markets, p_win, res, stress, replays, reg_rows):
-    L = []
-    P = L.append
-    P("TEXAS SENATE 2026: TALARICO (D) vs PAXTON (R)")
-    P(f"Model run {AS_OF}, {N_SIMS:,} simulations, 254 counties. Election Nov 3, 2026.\n")
-    P("=" * 78)
-    P("1. MARKETS")
-    for _, m in markets.iterrows():
-        P(f"   {m.source:<11} Talarico {m.talarico*100:.0f}%   Paxton {m.paxton*100:.0f}%   ({m.notes})")
-    P("\n2. POLLS")
-    P(f"   Model poll average (two-party): Talarico {avg*100:.1f}% / Paxton {(1-avg)*100:.1f}%  ->  {fmt_m(avg)}")
-    P(f"   ({len(used)} polls in last 60 days, weighted by recency [14-day half-life], sample size;")
-    P("    partisan-sponsored polls down-weighted, repeat pollsters share weight)")
-    P("   Most recent 10:")
-    for _, r in used.head(10).iterrows():
-        P(f"     {r.end:%b %d}  {r.pollster[:38]:<38} {r['pop']:<3} T {r.talarico:.0f}  P {r.paxton:.0f}  ({'T' if r.margin_D>=0 else 'P'}+{abs(r.margin_D):.0f})")
-    P("\n" + "=" * 78)
-    P("3. MODEL RESULT")
-    ss = res["state_share"]
-    P(f"   Talarico wins {p_win*100:.1f}% of simulations   |   Paxton wins {(1-p_win)*100:.1f}%")
-    P(f"   Median outcome: {fmt_m(np.median(ss))}")
-    P(f"   80% range: {fmt_m(np.percentile(ss,10))}  to  {fmt_m(np.percentile(ss,90))}")
-    tv = res["votes"].sum(1)
-    P(f"   Expected turnout: {tv.mean()/1e6:.2f}M votes (80% range {np.percentile(tv,10)/1e6:.2f}M-{np.percentile(tv,90)/1e6:.2f}M)")
-    P("\n   Stress tests (Talarico win %):")
-    for k, v in stress.items(): P(f"     {k:<55} {v*100:5.1f}%")
-
-    P("\n" + "=" * 78)
-    P("4. COUNTY MAP DATA (probability Talarico carries each county)")
-    bins = [(0, .05, "Safe Paxton (>95%)"), (.05, .25, "Likely Paxton"), (.25, .45, "Lean Paxton"),
-            (.45, .55, "Toss-up"), (.55, .75, "Lean Talarico"), (.75, .95, "Likely Talarico"), (.95, 1.01, "Safe Talarico (>95%)")]
-    for lo, hi, lab in bins:
-        m = (c.p_talarico >= lo) & (c.p_talarico < hi)
-        names = c[m].sort_values("exp_votes_sim", ascending=False).county.tolist()
-        P(f"   {lab:<22} {m.sum():>3} counties, {c[m].exp_votes_sim.sum()/c.exp_votes_sim.sum()*100:4.1f}% of votes: "
-          + ", ".join(names[:12]) + (" ..." if len(names) > 12 else ""))
-    P("\n   Largest 25 counties:")
-    P(f"     {'County':<12}{'Region':<21}{'2018':>10}{'2024':>10}{'Forecast':>13}{'P(T wins)':>11}{'Exp votes':>11}")
-    for _, r in c.sort_values("exp_votes_sim", ascending=False).head(25).iterrows():
-        P(f"     {r.county:<12}{r.region:<21}{fmt_m(r.sen18_d2).replace('Talarico','D').replace('Paxton','R'):>10}"
-          f"{fmt_m(r.sen24_d2).replace('Talarico','D').replace('Paxton','R'):>10}"
-          f"{fmt_m(r.exp_share).replace('Talarico','T').replace('Paxton','P'):>13}{r.p_talarico*100:>10.0f}%{r.exp_votes_sim/1e3:>10.0f}K")
-
-    P("\n" + "=" * 78)
-    P("5. KEY COUNTIES")
-    P("   a) Vote banks - expected net votes:")
-    top_d = c.sort_values("exp_net_D", ascending=False).head(8)
-    top_r = c.sort_values("exp_net_D").head(8)
-    P("      Talarico: " + ", ".join(f"{r.county} +{r.exp_net_D/1e3:.0f}K" for _, r in top_d.iterrows()))
-    P("      Paxton:   " + ", ".join(f"{r.county} +{-r.exp_net_D/1e3:.0f}K" for _, r in top_r.iterrows()))
-    rural = c[c.region == "Rural"].exp_net_D.sum()
-    P(f"      (Paxton's 173 rural counties together: +{-rural/1e3:.0f}K net)")
-    P("   b) Battlegrounds - counties with 15-85% chance either way, by size:")
-    bg = c[(c.p_talarico > .15) & (c.p_talarico < .85)].sort_values("exp_votes_sim", ascending=False).head(12)
-    for _, r in bg.iterrows():
-        P(f"      {r.county:<12} P(T wins) {r.p_talarico*100:3.0f}%   forecast {fmt_m(r.exp_share):<14} {r.exp_votes_sim/1e3:5.0f}K votes   1pt swing = {r.votes_per_pt/1e3:.1f}K net votes")
-    P("   c) Tipping-point counties (hold the median Texas voter: as they go, the state goes; % of sims):")
-    for _, r in c.sort_values("tipping_pct", ascending=False).head(8).iterrows():
-        P(f"      {r.county:<12} {r.tipping_pct*100:4.1f}%   ({r.region})")
-
-    P("\n" + "=" * 78)
-    P("6. IF TEXAS VOTES LIKE 2018 OR 2024 (exact county shares + turnout rates, 2026 registration)")
-    for k, v in replays.items():
-        P(f"\n   {k}: {fmt_m(v['share'])}   (~{v['votes']/1e6:.1f}M votes)  -> {'Talarico' if v['share']>0.5 else 'Paxton'} wins")
-        P(f"     To flip it, Talarico needs:")
-        P(f"       - a uniform swing of {v['uniform']*100:+.1f} pts in every county ({v['uniform']*200:+.1f} on margin), OR")
-        for r, x in v["region"].items():
-            P(f"       - {r} alone to move {x*100:+.1f} pts", )
-        ct = v["core_turnout"]; cst = v["core_sub_turnout"]
-        P(f"       - OR urban-core turnout up {ct*100:.0f}% (nothing else changes)" if ct is not None else "       - urban-core turnout alone can't do it")
-        P(f"       - OR urban-core + big-suburb turnout up {cst*100:.0f}%" if cst is not None else "")
-
-    P("\n" + "=" * 78)
-    P("7. WHAT WINNING LOOKS LIKE, BY REGION (Talarico two-party share)")
-    P(f"   {'Region':<21}{'Cnty':>5}{'Vote%':>7}{'2018':>8}{'2024':>8}{'Forecast':>10}{'T wins':>9}{'P wins':>9}{'Primary sig':>13}")
-    for r in reg_rows:
-        P(f"   {r['region']:<21}{r['counties']:>5}{r['vote_pct']*100:>6.1f}%{r['s18']*100:>7.1f}%{r['s24']*100:>7.1f}%"
-          f"{r['exp']*100:>9.1f}%{r['if_T']*100:>8.1f}%{r['if_P']*100:>8.1f}%{r['prim_shift']*100:>+12.1f}")
-    P("   'Primary sig' = change since 2022 in the region's Dem share of primary voters, relative to the state.")
-
-    P("\n" + "=" * 78)
-    P("8. ASSUMPTIONS & LIMITS")
-    P("   - Statewide center = poll average; poll error SD 4.5 pts on margin, fat-tailed (Texas misses 2018-24: 3-4.5 pts).")
-    P("   - County pattern = 50/50 blend of 2018 and 2024 Senate results relative to the state; regions drift together.")
-    P("   - Region noise 2-2.2 pts (4 pts for Hispanic South/West, which swung ~9.5 pts 2018->2024); county noise 1.8 pts.")
-    P("   - Turnout = 2018 county turnout rates x Oct 2026 registration (19.04M), +/-7% statewide, +/-5% by region.")
-    P(f"   - 2026 primary turnout nudges regions ({PRIMARY_SIGNAL_WEIGHT:.0%} weight). SD-9 special (D+31 swing) not used directly.")
-    P("   - Early vote turnout: in-person voting starts Oct 19; not yet in the model.")
-    P("   - Third parties ignored (two-party shares).")
-    open("results/forecast.txt", "w").write("\n".join(L))
-    print("\n".join(L))
-
-
-if __name__ == "__main__":
-    main()

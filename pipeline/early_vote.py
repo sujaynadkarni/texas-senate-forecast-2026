@@ -1,5 +1,5 @@
 """Early-vote analysis: where ballots are coming from, how that compares with the same day in 2022,
-and what the mix implies for Talarico vs. Paxton.
+and what the mix implies for each race.
 
 Turnout files say how many people voted in each county, never whom they voted for. The partisan
 read is an estimate: each county's ballots are assumed to split like the county is forecast to vote,
@@ -30,7 +30,7 @@ def day_number(d):
     return max(0, (d - EV_START[2026]).days + 1)
 
 
-def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share"):
+def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("Talarico", "Paxton")):
     """c: county frame with county, region, reg26, exp_votes, gov22_total, and the forecast share column."""
     try:
         daily = json.load(open("data/ev_daily_2026.json"))
@@ -73,7 +73,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share"):
     ms = np.array([mail_skew.get(x, mail_default) for x in c.county])
     s_mail, s_in = np.clip(s + ms, .02, .98), np.clip(s + ev_skew, .02, .98)
     c["est_T"] = c.mail26 * s_mail + c.in26 * s_in
-    c["est_net"] = 2 * c.est_T - c.ev26                                   # Talarico minus Paxton
+    c["est_net"] = 2 * c.est_T - c.ev26                                   # Democrat minus Republican
     # the same number of ballots, spread across counties the way 2022 was at this point
     rep = ~c.missing
     tot_rep = c.ev26[rep].sum()
@@ -129,15 +129,16 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share"):
         missing=[x for x in c.sort_values("exp_votes", ascending=False).county[c.missing]][:12],
         regions=region_rows(), series22=series22, series26=series26, counties=counties,
     )
-    out["story"] = story(out, c)
+    out["story"] = story(out, c, names)
     return out
 
 
-def story(e, c):
+def story(e, c, names=("Talarico", "Paxton")):
     """Plain-language read of the early vote, generated from the numbers."""
     L = []
     fmt = lambda v: f"{v:,.0f}"
-    lead = lambda m: ("Talarico" if m >= 0 else "Paxton") + f" +{abs(m):.1f}"
+    D, R = names
+    lead = lambda m: (D if m >= 0 else R) + f" +{abs(m):.1f}"
     big = c[~c.missing & (c.exp_votes > 150000)].copy()
     if e["day"] == 0:
         # before in-person voting only mail exists and many counties have not posted: stick to plain facts
@@ -172,17 +173,17 @@ def story(e, c):
     regs = {r["name"]: r for r in e["regions"]}
     u, rural = regs["Urban core"], regs["Rural"]
     if u["pace"] and rural["pace"]:
-        better = "Talarico" if u["pace"] > rural["pace"] else "Paxton"
+        better = "Democrats" if u["pace"] > rural["pace"] else "Republicans"
         L.append(f"<strong>The four big blue counties are at {u['pace']*100:.0f}% of their 2022 pace; rural Texas is at {rural['pace']*100:.0f}%.</strong> "
                  f"That gap favors {better}.")
     L.append(f"<strong>What it means:</strong> if each county's ballots split the way the county is expected to vote "
              f"(with mail leaning Democratic), the early vote so far is about <strong>{lead(e['est_margin'])}</strong>. "
              f"Spread across counties the way 2022 was, the same ballots would be about {lead(e['est_margin'] - e['mix_effect_pts'])}, "
-             f"so this year's mix is {abs(e['mix_effect_pts']):.1f} points {'better for Talarico' if e['mix_effect_pts'] >= 0 else 'better for Paxton'} "
+             f"so this year's mix is {abs(e['mix_effect_pts']):.1f} points {'better for ' + D if e['mix_effect_pts'] >= 0 else 'better for ' + R} "
              f"(roughly {fmt(abs(e['mix_effect_votes']))} net votes).")
     if e["missing"]:
         L.append(f"<strong>Not reported yet:</strong> {', '.join(e['missing'][:6])}{' and others' if len(e['missing']) > 6 else ''}. "
                  f"These are left out of the comparisons until they post numbers.")
-    L.append("Early votes lean Democratic in Texas cities and mail ballots lean Democratic in Harris, so an early Talarico lead is expected "
+    L.append("Early votes lean Democratic in Texas cities and mail ballots lean Democratic in Harris, so an early Democratic lead is expected "
              "and shrinks once Election Day votes are added. Turnout shows where votes come from, not whom they are for.")
     return L

@@ -7,6 +7,7 @@ import simulate as S
 from common import load, statewide
 import export as E
 import fetch as F
+from races import RACES
 
 
 class HistoricalData(unittest.TestCase):
@@ -37,18 +38,30 @@ class HistoricalData(unittest.TestCase):
 
 
 class Polls(unittest.TestCase):
-    def test_parser_on_saved_page(self):
-        rows = F.parse_polls(open("data/raw/wiki_txsen.txt").read())
-        self.assertGreaterEqual(len(rows), 50)
-        for r in rows:
-            self.assertTrue(30 <= r["talarico"] <= 65 and 30 <= r["paxton"] <= 65, r)
+    def test_parser_on_saved_pages(self):
+        for key, race in RACES.items():
+            rows = F.parse_polls(open(f"data/raw/wiki_{key}.txt").read(), race["d"], race["r"])
+            self.assertGreaterEqual(len(rows), 40, key)
+            for r in rows:
+                self.assertTrue(30 <= r["d"] <= 65 and 30 <= r["r"] <= 65, (key, r))
+
+    def test_rowspan_rows_keep_their_own_numbers(self):
+        rows = F.parse_polls(open("data/raw/wiki_senate.txt").read(), "Talarico", "Paxton")
+        bd = {(r["pop"], r["d"], r["r"]) for r in rows if r["pollster"] == "Big Data Poll"}
+        self.assertEqual(bd, {("LV", 47.0, 45.0), ("RV", 46.0, 44.0)})
+
+    def test_columns_follow_the_header(self):
+        rows = F.parse_polls(open("data/raw/wiki_governor.txt").read(), "Hinojosa", "Abbott")
+        cbs = [r for r in rows if r["pollster"].startswith("CBS News")][0]
+        self.assertEqual((cbs["d"], cbs["r"]), (48.0, 52.0))           # Abbott 52, Hinojosa 48
 
     def test_average_is_sane(self):
-        avg, used = S.poll_average(pd.read_csv("data/polls.csv"))
-        self.assertTrue(0.44 < avg < 0.56)
-        self.assertGreaterEqual(len(used), 10)
-        self.assertTrue((used.age >= 0).all(), "a poll is dated in the future")
-        self.assertTrue((used.age <= 60).all())
+        for key in RACES:
+            avg, used = S.poll_average(pd.read_csv(f"data/polls_{key}.csv"))
+            self.assertTrue(0.44 < avg < 0.56, key)
+            self.assertGreaterEqual(len(used), 10)
+            self.assertTrue((used.age >= 0).all(), "a poll is dated in the future")
+            self.assertTrue((used.age <= 60).all())
 
 
 class Model(unittest.TestCase):
@@ -81,6 +94,13 @@ class Model(unittest.TestCase):
         self.assertGreater(p["Travis"], 0.99)
         self.assertLess(p["Montgomery"], 0.01)
         self.assertTrue(0.3 < p["Tarrant"] <= 1.0)
+
+    def test_governor_pattern_uses_governor_races(self):
+        c, _ = S.build(load(), bases=RACES["governor"]["bases"])
+        c["_rate"] = c.gov22_total / c.reg22
+        share, _ = S.replay(c, "gov22_d2", "_rate")
+        self.assertAlmostEqual((1 - 2 * share) * 100, 10.9, delta=0.8)   # Abbott +10.9 in 2022
+        self.assertFalse(np.allclose(c.rel_blend, self.c.rel_blend))
 
     def test_replay_2018_matches_history(self):
         self.c["_rate"] = self.c.sen18_total / self.c.reg18
@@ -127,12 +147,12 @@ class Nowcast(unittest.TestCase):
         for j, name in enumerate(self.c.county):
             v = self.res["votes"][sim, j] * frac
             s = self.res["share"][sim, j]
-            out[name] = dict(talarico=int(v * s), paxton=int(v * (1 - s)), total=int(v),
+            out[name] = dict(d=int(v * s), r=int(v * (1 - s)), total=int(v),
                              precincts_reporting=int(frac * 100), precincts_total=100)
         return out
 
     def test_no_votes_means_no_update(self):
-        empty = {n: dict(talarico=0, paxton=0, total=0, precincts_reporting=0, precincts_total=100) for n in self.c.county}
+        empty = {n: dict(d=0, r=0, total=0, precincts_reporting=0, precincts_total=100) for n in self.c.county}
         self.assertIsNone(E.nowcast(self.c, self.res, empty))
 
     def test_full_count_converges_to_truth(self):
@@ -168,14 +188,14 @@ class EarlyBias(unittest.TestCase):
 
 class Pollsters(unittest.TestCase):
     def test_sponsor_labels(self):
-        house, sponsor = E.pollster_leans(pd.read_csv("data/polls.csv"))
+        house, sponsor = E.pollster_leans(pd.read_csv("data/polls_senate.csv"))
         self.assertEqual(sponsor("InsiderAdvantage (R)"), "Republican")
         self.assertEqual(sponsor("Texas Public Opinion Research (D)"), "Democratic")
         self.assertEqual(sponsor("Fabrizio Ward (R)/ Impact Research (D)"), "Bipartisan")
         self.assertEqual(sponsor("Emerson College"), "Independent")
 
     def test_house_effects_bounded_and_centered(self):
-        house, _ = E.pollster_leans(pd.read_csv("data/polls.csv"))
+        house, _ = E.pollster_leans(pd.read_csv("data/polls_senate.csv"))
         v = np.array(list(house.values()))
         self.assertTrue((abs(v) < 6).all())
         self.assertLess(abs(v.mean()), 1.0)
@@ -242,13 +262,15 @@ class EarlyVote(unittest.TestCase):
 
 
 class SiteData(unittest.TestCase):
+    race = "senate"
+
     @classmethod
     def setUpClass(cls):
-        cls.d = json.load(open("site/data.json"))
+        cls.d = json.load(open(f"site/data_{cls.race}.json"))
         cls.paths = json.load(open("data/tx_paths.json"))
 
     def test_schema(self):
-        for k in ("generated", "mode", "needle", "forecast", "polls", "markets", "counties", "early", "histogram", "replays", "stress"):
+        for k in ("race", "cand", "generated", "mode", "needle", "forecast", "polls", "markets", "counties", "early", "histogram", "scenarios", "stress", "others"):
             self.assertIn(k, self.d)
         self.assertIn(self.d["mode"], ("pre", "early", "live", "final"))
         self.assertEqual(len(self.d["counties"]), 254)
@@ -263,7 +285,17 @@ class SiteData(unittest.TestCase):
     def test_markets_present(self):
         self.assertEqual({m["source"] for m in self.d["markets"]}, {"Kalshi", "Polymarket"})
         for m in self.d["markets"]:
-            self.assertTrue(0 < m["talarico"] < 1)
+            self.assertTrue(0 < m["d"] < 1)
+
+    def test_names_match_race(self):
+        self.assertEqual(self.d["cand"]["d"], RACES[self.race]["d"])
+        self.assertEqual(self.d["race"], self.race)
+
+    def test_lines_are_ordered(self):
+        for c in self.d["counties"]:
+            L = c.get("lines")
+            if L and None not in L.values():
+                self.assertLessEqual(L["r"], L["even"]); self.assertLessEqual(L["even"], L["d"])
 
     def test_turnout_names_match(self):
         if os.path.exists("data/turnout.json"):
@@ -276,17 +308,26 @@ class SiteData(unittest.TestCase):
             self.assertEqual(self.d["early_vote"]["total"], sum(v["in_person"] + v["mail"] for v in feed.values()))
 
 
+class SiteDataGovernor(SiteData):
+    race = "governor"
+
+
 class BuiltPage(unittest.TestCase):
+    page, title = "index.html", "Texas Senate Forecast"
+
     @classmethod
     def setUpClass(cls):
-        cls.html = open("build/index.html").read()
+        cls.html = open(f"build/{cls.page}").read()
 
     def test_placeholders_replaced(self):
         self.assertNotIn("/*__DATA__*/", self.html)
         self.assertNotIn("/*__PATHS__*/", self.html)
 
     def test_title_first(self):
-        self.assertTrue(self.html.startswith("<title>Texas Senate Forecast</title>"))
+        self.assertTrue(self.html.startswith(f"<title>{self.title}</title>"))
+
+    def test_no_unfilled_placeholders(self):
+        self.assertIsNone(re.search(r"__[A-Z_]+__", self.html))
 
     def test_light_only(self):
         self.assertNotIn("prefers-color-scheme: dark", self.html)
@@ -311,11 +352,32 @@ class BuiltPage(unittest.TestCase):
         self.assertEqual(r.returncode, 0, r.stderr)
 
 
+class Template(unittest.TestCase):
+    """The template must stay race-neutral: names come from races.py, fields are d/r."""
+    def test_no_hard_coded_candidates_or_old_fields(self):
+        t = open("site/template.html").read()
+        for bad in ("Talarico", "Paxton", "Hinojosa", "Abbott", ".talarico", ".paxton", "m24", "m18"):
+            self.assertNotIn(bad, t, bad)
+
+
+class BuiltGovernorPage(BuiltPage):
+    page, title = "governor.html", "Texas Governor Forecast"
+
+    def test_uses_governor_names(self):
+        self.assertIn("Hinojosa", self.html); self.assertIn('"race":"governor"', self.html)
+
+
+class BuiltEarlyPage(BuiltPage):
+    page, title = "early.html", "Texas Early Vote Tracker"
+
+
 class PublicSite(unittest.TestCase):
-    """The GitHub Pages version: full document, social preview tags, preview image."""
+    """The GitHub Pages version: full documents, social preview tags, preview images."""
+    page, card = "index.html", "share_senate.png"
+
     @classmethod
     def setUpClass(cls):
-        cls.html = open("public/index.html").read()
+        cls.html = open(f"public/{cls.page}").read()
 
     def test_full_document(self):
         self.assertTrue(self.html.startswith("<!doctype html>"))
@@ -329,7 +391,16 @@ class PublicSite(unittest.TestCase):
 
     def test_share_image(self):
         from PIL import Image
-        self.assertEqual(Image.open("public/share.png").size, (1200, 630))
+        self.assertEqual(Image.open(f"public/{self.card}").size, (1200, 630))
+        self.assertIn(self.card, self.html)
+
+
+class PublicGovernor(PublicSite):
+    page, card = "governor.html", "share_governor.png"
+
+
+class PublicEarly(PublicSite):
+    page, card = "early.html", "share_early.png"
 
 
 if __name__ == "__main__":
