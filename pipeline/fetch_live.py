@@ -4,6 +4,7 @@ Unofficial numbers. Counties covered so far:
   Travis, Montgomery  ElectionLink live tracker: ballots so far + check-ins per hour, with the 2022 and
                       2024 trackers archived for same-day, same-hour comparisons
   Bexar               county early-vote dashboard: ballots per polling place for the latest date
+  Dallas              county vote-center map (ArcGIS): today's ballots at each of ~500 vote centers
 Writes data/live.json. Past-year trackers never change, so they are cached in data/raw/live_archive_*.json.
 """
 import html, json, os, re, subprocess, sys
@@ -17,6 +18,8 @@ ELECTIONS = {2026: "2026-11-03", 2024: "2024-11-05", 2022: "2022-11-08"}
 EV_START = {2026: date(2026, 10, 19), 2024: date(2024, 10, 21), 2022: date(2022, 10, 24)}
 ELECTIONLINK = {"Travis": "travistx", "Montgomery": "montgomerytx"}
 BEXAR_URL = "https://earlyvotecountsdual.bexar.org"
+DALLAS_LAYER = "https://services3.arcgis.com/zqe2kwz79KUqUvxC/arcgis/rest/services/Vote_Center_Finder_view/FeatureServer/4"
+DALLAS_MAP = "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting"
 HOURS = ["7 AM", "8 AM", "9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6 PM", "7 PM+"]
 
 
@@ -59,6 +62,16 @@ def parse_bexar(page):
     sites = [(name.strip(), n(a), n(b), n(c)) for name, a, b, c in rows]
     return dict(date=d.group(1) if d else None, sites=len(sites), today=sum(s[1] for s in sites),
                 to_date=sum(s[3] for s in sites), busiest=sorted(sites, key=lambda s: -s[1])[:3])
+
+
+def parse_dallas(features, last_edit_ms):
+    """Dallas vote-center layer -> today's ballots (C_Daily_Tot) and to date (C_Tot_Vts), summed over centers."""
+    num = lambda v: int(float(v)) if v not in (None, "") and str(v).replace(".", "", 1).isdigit() else 0
+    rows = [f["attributes"] for f in features]
+    refreshed = (datetime.fromtimestamp(last_edit_ms / 1000, TX).strftime("%a %b %-d %-I:%M %p") if last_edit_ms else None)
+    return dict(today=sum(num(r.get("C_Daily_Tot")) for r in rows), to_date=sum(num(r.get("C_Tot_Vts")) for r in rows),
+                sites=sum(1 for r in rows if num(r.get("C_Daily_Tot")) > 0), refreshed=refreshed,
+                busiest=sorted(((r.get("L_Poll_NM"), num(r.get("C_Daily_Tot"))) for r in rows), key=lambda x: -x[1])[:3])
 
 
 def archive(county, slug, year):
@@ -108,6 +121,15 @@ def fetch_live():
                                         ballots_to_date=b["to_date"], busiest=b["busiest"], hourly=None, compare={})
     except Exception as e:
         out["counties"]["Bexar"] = dict(error=f"{type(e).__name__}: {e}")
+    try:
+        q = json.loads(get(DALLAS_LAYER + "/query?where=1%3D1&outFields=L_Poll_NM,C_Daily_Tot,C_Tot_Vts&returnGeometry=false&f=json"))
+        info = json.loads(get(DALLAS_LAYER + "?f=json"))
+        d = parse_dallas(q["features"], (info.get("editingInfo") or {}).get("lastEditDate"))
+        out["counties"]["Dallas"] = dict(source="county vote-center map (ArcGIS)", url=DALLAS_MAP, refreshed=d["refreshed"],
+                                         today=d["today"], ballots_to_date=d["to_date"], sites=d["sites"], busiest=d["busiest"],
+                                         hourly=None, compare={})
+    except Exception as e:
+        out["counties"]["Dallas"] = dict(error=f"{type(e).__name__}: {e}")
     json.dump(out, open("data/live.json", "w"), indent=1)
     ok = [k for k, v in out["counties"].items() if "error" not in v]
     return f"{len(ok)} counties: " + ", ".join(f"{k} {out['counties'][k].get('today', 0):,} today" for k in ok)

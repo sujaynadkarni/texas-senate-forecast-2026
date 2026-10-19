@@ -485,6 +485,13 @@ class LiveCounties(unittest.TestCase):
         self.assertEqual(b["date"], "10/16/2026")
         self.assertGreaterEqual(b["sites"], 50)
 
+    def test_dallas_vote_centers(self):
+        f = json.load(open("tests/fixtures/dallas_vote_centers.json"))["features"]
+        d = self.F.parse_dallas(f, 1792437124142)
+        self.assertEqual(d["today"], 44378)
+        self.assertGreater(d["sites"], 50)
+        self.assertTrue(d["refreshed"].startswith("Mon Oct 19"))
+
     def test_archives_cover_the_comparison_days(self):
         for slug in ("travistx", "montgomerytx"):
             for yr in (2022, 2024):

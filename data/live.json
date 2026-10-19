@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-19T19:13:30+00:00",
+ "fetched": "2026-10-19T19:28:17+00:00",
  "day": 1,
  "date": "2026-10-19",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 19 02:13 PM",
-   "ballots_to_date": 23025,
+   "refreshed": "Mon Oct 19 02:23 PM",
+   "ballots_to_date": 23672,
    "hourly": [
     2220,
     2421,
@@ -15,8 +15,8 @@
     3532,
     3644,
     3737,
-    3550,
-    820,
+    3549,
+    1468,
     0,
     0,
     0,
@@ -24,9 +24,9 @@
     0
    ],
    "hours_in": 8,
-   "today": 23025,
+   "today": 23672,
    "completed_hours": 7,
-   "today_completed": 22205,
+   "today_completed": 22204,
    "through": "2 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 19 02:09 PM",
-   "ballots_to_date": 8803,
+   "refreshed": "Mon Oct 19 02:24 PM",
+   "ballots_to_date": 9160,
    "hourly": [
     0,
     1337,
@@ -82,7 +82,7 @@
     1538,
     1410,
     1500,
-    216,
+    573,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 8,
-   "today": 8803,
+   "today": 9160,
    "completed_hours": 7,
    "today_completed": 8587,
    "through": "2 PM",
@@ -141,6 +141,30 @@
      0,
      0,
      0
+    ]
+   ],
+   "hourly": null,
+   "compare": {}
+  },
+  "Dallas": {
+   "source": "county vote-center map (ArcGIS)",
+   "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
+   "refreshed": "Mon Oct 19 2:23 PM",
+   "today": 44378,
+   "ballots_to_date": 44378,
+   "sites": 84,
+   "busiest": [
+    [
+     "Fretz Park Library",
+     1664
+    ],
+    [
+     "Oak Lawn Branch Library",
+     1453
+    ],
+    [
+     "Disciple Central Comm Church",
+     1357
     ]
    ],
    "hourly": null,

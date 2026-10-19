@@ -978,8 +978,9 @@ function liveView() {
       }
     }
     if (r.state_2022_full_day) rows.push(["2022, whole day", fmtInt(r.state_2022_full_day), ""]);
+    if (r.state_2018_full_day) rows.push(["2018, whole day", fmtInt(r.state_2018_full_day), ""]);
     const sub = r.hourly ? `as of ${r.refreshed || "this hour"} · ${r.completed_hours ? `comparisons 7 a.m. to ${r.through}` : "first hour in progress"}`
-      : (r.today ? `today, from ${r.sites} polling places` : `the county has not posted today's numbers yet (last update: ${r.date || "–"})`);
+      : (r.today ? `as of ${r.refreshed || "this hour"} · from ${r.sites} polling places` : `the county has not posted today's numbers yet (last update: ${r.date || r.refreshed || "–"})`);
     d.innerHTML = `<h3>${name} County</h3><div class="reg" style="font:600 12px var(--sans);color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em">${lean(name)}</div>
       <div class="big">${fmtInt(r.today || 0)}</div><div class="note" style="margin:0">voted in person today · ${sub}</div>
       ${rows.length ? `<div class="cmp">${rows.map((x) => `<span>${x[0]}</span><span>${x[1]}</span><span>${x[2]}</span>`).join("")}</div>` : ""}

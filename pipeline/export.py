@@ -146,6 +146,12 @@ def live_data():
             k = name.upper().replace(" ", "")
             if k in d.index:
                 rec["state_2022_full_day"] = int(d.loc[k].today_in_person)
+        from early_vote import load_2018
+        d18 = load_2018().get(max(1, live.get("day", 1)), {})
+        for name, rec in live["counties"].items():
+            k = name.upper().replace(" ", "")
+            if k in d18:
+                rec["state_2018_full_day"] = int(d18[k]["today_in"])
     except Exception:
         pass
     return live
