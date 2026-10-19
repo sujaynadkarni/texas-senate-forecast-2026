@@ -1,11 +1,11 @@
 {
- "fetched": "2026-10-19T03:40:03+00:00",
+ "fetched": "2026-10-19T03:41:16+00:00",
  "markets": [
   {
    "source": "Kalshi",
    "talarico": 0.62,
    "paxton": 0.38,
-   "volume_usd": 30214356,
+   "volume_usd": 30214518,
    "url": "https://kalshi.com/markets/senatetx/texas-senate-race"
   },
   {
