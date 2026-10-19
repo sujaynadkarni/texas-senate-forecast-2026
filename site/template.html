@@ -274,7 +274,8 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
     <div class="rule-top"><h2>What would change the result</h2>
       <p class="section-dek">For today's forecast and for a repeat of the __HA_LABEL__ or __HB_LABEL__ race (each county's exact result and turnout rate, applied to 2026 registration): who wins, and what the other candidate would need.</p></div>
     <div class="scen" id="scen"></div>
-    <h3 class="sans" style="font-size:15px;margin:26px 0 8px">If the polls are wrong</h3>
+    <h3 class="sans" style="font-size:15px;margin:26px 0 4px">If the polls are off</h3>
+    <p class="note" style="margin:0 0 8px">Texas polls picked the winner in 2018, 2020 and 2024, but the margin was off by 3 to 4.5 points each time. These rows show what a miss of the same size would do this year.</p>
     <div class="tbl-scroll"><table id="stress"></table></div>
   </section>
 
@@ -571,8 +572,8 @@ function explain() {
     const mAvg = DATA.markets.reduce((a, m) => a + m.d, 0) / Math.max(DATA.markets.length, 1);
     const fav = f.p >= .5 ? "__D__" : "__R__", favP = Math.max(f.p, 1 - f.p), mFav = f.p >= .5 ? mAvg : 1 - mAvg;
     L.push(Math.abs(f.p - mAvg) < 0.06
-      ? `<strong>Our model and the betting markets roughly agree.</strong> We give ${fav} ${pct(favP)}; ${mk}. A 2024-style polling miss toward Republicans would make it __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`
-      : `<strong>Our model is ${favP > mFav ? "more" : "less"} confident than the betting markets.</strong> We give ${fav} ${pct(favP)}; ${mk}. Texas polls missed toward Republicans in 2020 and 2024 and toward Democrats in 2018. A 2024-style miss would make it __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`);
+      ? `<strong>Our model and the betting markets roughly agree.</strong> We give ${fav} ${pct(favP)}; ${mk}. If Republicans beat the polls by 4.5 points again, as in 2024, it would be __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`
+      : `<strong>Our model is ${favP > mFav ? "more" : "less"} confident than the betting markets.</strong> We give ${fav} ${pct(favP)}; ${mk}. In 2020 and 2024 Republicans beat their Texas polls by 3 to 4.5 points; in 2018 Democrats did. A 2024-size miss toward Republicans would make it __D__ ${pct(DATA.stress[1].p)}, __R__ ${pct(1 - DATA.stress[1].p)}.`);
     L.push(`<strong>Tarrant County is the bellwether.</strong> It holds the state's median voter in ${pct(tar.tipping)} of simulations. If Tarrant comes in near ${fmtM(tl.even)}, the race is a coin flip. Above ${fmtM(tl.d)}, __D__ is favored; below ${fmtM(tl.r)}, __R__ is.`);
     L.push(`<strong>Two paths.</strong> __D__'s runs through big margins in Harris, Dallas, Bexar and Travis plus wins in Tarrant and Collin. __R__'s runs through rural Texas, where he is expected to net about ${fmtK(Math.abs(rural))} votes, and holding Collin and Denton.`);
     if (ev) L.push(`<strong>Early voting:</strong> ${fmtInt(ev.total)} ballots so far. Turnout does not move this forecast; see the <a href="early.html">Early voting</a> page for county-by-county turnout compared with 2022.`);
@@ -804,8 +805,8 @@ function scenarios() {
       ${r.turnout_boost != null ? `<li>turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} up ${Math.round(r.turnout_boost * 100)}%.</li></ul>` : `</ul><p class="note" style="margin-top:6px">Higher turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} alone would not be enough.</p>`}`;
     box.append(d);
   }
-  let h = `<thead><tr><th>Scenario</th><th class="t">__D__</th><th class="p">__R__</th></tr></thead><tbody>`;
-  for (const s of DATA.stress) h += `<tr><td style="white-space:normal">${s.label}</td><td><strong class="t">${pct(s.p)}</strong></td><td><strong class="p">${pct(1 - s.p)}</strong></td></tr>`;
+  let h = `<thead><tr><th>Scenario</th><th>Likely result</th><th class="t">__D__</th><th class="p">__R__</th></tr></thead><tbody>`;
+  for (const s of DATA.stress) h += `<tr><td style="white-space:normal">${s.label}<span class="sub">${s.detail || ""}</span></td><td>${s.result || "–"}</td><td><strong class="t">${pct(s.p)}</strong></td><td><strong class="p">${pct(1 - s.p)}</strong></td></tr>`;
   $("#stress").innerHTML = h + "</tbody>";
   let r = `<thead><tr><th>Region</th><th>Counties</th><th>Share of vote</th><th>${H[0].short}</th><th>${H[1].short}</th><th>Forecast</th></tr></thead><tbody>`;
   for (const g of DATA.regions) r += `<tr><td class="name">${g.name}</td><td>${g.counties}</td><td>${pct(g.vote_share)}</td><td>${fmtM(g.ha)}</td><td>${fmtM(g.hb)}</td><td><strong>${fmtM(g.fc)}</strong></td></tr>`;

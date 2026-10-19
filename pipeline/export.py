@@ -206,12 +206,19 @@ def run_race(key, now, turnout, results_all, markets_all, fetch_log):
         sh, v = S.replay(c, f"{h['key']}_d2", "_rate")
         scenarios.append(dict(label=f"Votes exactly like {h['label']}", share=sh, **what_it_takes(c[f"{h['key']}_d2"].values, v.values)))
 
-    stress = [dict(label="Polls are right on average", p=float(win.mean()))]
-    for label, kw in ((f"Polls miss toward {R} like 2024", dict(bias=-0.0225)),
-                      (f"Polls miss toward {R} like 2020", dict(bias=-0.0155)),
-                      (f"Polls miss toward {D} like 2018", dict(bias=+0.0165))):
+    # Texas Senate polling errors on the margin (final poll average vs. result). The polls picked the
+    # winner each time; the miss is how much more Republican or Democratic the result was.
+    poll_m = (2 * center - 1) * 100
+    stress = [dict(label="The result matches the polls", detail=f"Polls today: {margin_label(key, poll_m, True)}",
+                   result=margin_label(key, poll_m, True), p=float(win.mean()))]
+    for year, polled, actual, shift in (("2024", "Cruz +4.0", "Cruz +8.5", -4.5), ("2020", "Cornyn +6.5", "Cornyn +9.6", -3.1),
+                                        ("2018", "Cruz +5.9", "Cruz +2.6", +3.3)):
         S.RNG = np.random.default_rng(11)
-        stress.append(dict(label=label, p=float(S.simulate(c, center, n=20_000, **kw)["win"].mean())))
+        p_ = float(S.simulate(c, center, n=20_000, bias=shift / 200)["win"].mean())
+        side = "Republican" if shift < 0 else "Democratic"
+        stress.append(dict(label=f"The result is {abs(shift):.1f} points more {side} than the polls, like {year}",
+                           detail=f"{year}: polls said {polled}, result was {actual}",
+                           result=margin_label(key, poll_m + shift, True), p=p_))
 
     regions = []
     for g in REGIONS:
