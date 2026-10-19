@@ -3084,7 +3084,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 ! Poll source{{Efn|Party affiliation labels according to ''[[The Texas Tribune]]''}}
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
-! Margin<br />of error
+! Margin<br />{{nowrap|of error}}
 ! style="width:100px;"| Ken<br />Paxton (R)
 ! style="width:100px;"| James<br />Talarico (D)
 ! style="width:100px;"| Ted<br />Brown (L)
