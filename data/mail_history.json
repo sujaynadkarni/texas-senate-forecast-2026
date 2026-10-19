@@ -1,0 +1,7 @@
+{"source": "Harris County Clerk official canvass PDFs (appfiles.harrisvotes.com/harrisvotes/prd/Data/{1118,1120,1122,1124}/cumulative.pdf)",
+ "harris": [
+  {"year": 2018, "race": "Senate: Cruz vs O'Rourke", "mail_votes": 96827, "mail_margin_D": 8.1, "county_margin_D": 16.8},
+  {"year": 2020, "race": "Senate: Cornyn vs Hegar", "mail_votes": 175597, "mail_margin_D": 21.4, "county_margin_D": 8.5},
+  {"year": 2022, "race": "Governor: Abbott vs O'Rourke", "mail_votes": 60323, "mail_margin_D": 25.8, "county_margin_D": 9.6},
+  {"year": 2024, "race": "Senate: Cruz vs Allred", "mail_votes": 62757, "mail_margin_D": 41.0, "county_margin_D": 11.3}
+ ]}

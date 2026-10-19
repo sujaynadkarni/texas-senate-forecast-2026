@@ -1,0 +1,2812 @@
+{{Short description|none}} <!-- "none" is preferred when the title is already sufficiently detailed; see [[WP:SDNONE]] -->
+
+{{distinguish|2020 Texas State Senate election}}
+{{Use mdy dates|date=March 2020}}{{use American English|date=November 2020}}
+
+{{Infobox election
+| election_name = 2020 United States Senate election in Texas
+| country = Texas
+| type = presidential
+| ongoing = no
+| previous_election = 2014 United States Senate election in Texas
+| previous_year = 2014
+| next_election = 2026 United States Senate election in Texas
+| next_year = 2026
+| turnout = 65.73%<ref>{{Cite web|date=November 2020|title=Official Canvass Report – 2020 November 3rd General Election|url=https://results.texas-election.com/static/data/Reports/44144/OfficialCanvassReport.pdf?v=1606267966787|work=Texas Secretary of State}}</ref> {{increase}} 32.6%
+| election_date = November 3, 2020
+| image1 = File:John Cornyn (cropped).jpg
+| nominee1 = '''[[John Cornyn]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''5,962,983'''
+| percentage1 = '''53.51%'''
+| image2 = File:MJHegar (3x4).jpg
+| image_size = 150x150px
+| nominee2 = [[M. J. Hegar]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 4,889,384
+| percentage2 = 43.87%
+| title = U.S. Senator
+| before_election = [[John Cornyn]]
+| before_party = Republican Party (United States)
+| after_election = [[John Cornyn]]
+| after_party = Republican Party (United States)
+| map = {{switcher |[[File:2020 United States Senate election in Texas results map by county.svg|310px]] |County results |[[File:2020 United States Senate election in Texas results map by congressional district.svg|310px]] |Congressional district results| [[File:Texas 2020 sen.svg|310px]] |Precinct results |default=1}}
+| map_caption = '''Cornyn:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}<br />
+'''Hegar:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} {{legend0|#3933E5|80–90%}} {{legend0|#0D0596|>90%}}<br />{{legend0|#909090|No data}}
+}} 
+{{Elections in Texas sidebar}}
+The '''2020 United States Senate election in Texas''' was held on November 3, 2020, to elect a member to the [[United States Senate]] to represent the [[Texas|State of Texas]], concurrently with the [[2020 United States presidential election|2020 U.S. presidential election]], [[2020 United States Senate elections|elections]] to the United States Senate in other states, [[2020 United States House of Representatives elections|elections]] to the [[United States House of Representatives]], and various [[2020 United States elections|state and local elections]]. Incumbent [[Republican Party (United States)|Republican]] Senator [[John Cornyn]] won a fourth term against [[Democratic Party (United States)|Democratic]] nominee [[MJ Hegar]] by 9.6%.
+
+Prior to the election, most news organizations projected this race as "Lean Republican", and was not expected to be as competitive as the contest for [[2018 United States Senate election in Texas|Texas's other Senate seat two years prior]], when Republican incumbent [[Ted Cruz]] defeated Democrat [[Beto O'Rourke]] by a 2.6% margin. Nonetheless, John Cornyn won in what was his worst performance out of his four elections for the U.S. Senate, while MJ Hegar's 43.9% marked the highest vote share of any of Cornyn's Democratic challengers. Despite this being Cornyn's worst performance percentage-wise, he more than doubled his 2014 vote count and received what was then the most raw votes for a Republican U.S. Senate candidate in the history of the United States; this record was later surpassed by [[Steve Garvey]] in California in [[2024 United States Senate election in California|2024]].
+
+Cornyn outperformed President [[Donald Trump]] [[2020 United States presidential election in Texas|in the state]] by about 4%, and was able to carry two counties won by [[Joe Biden]] ([[Tarrant County, Texas|Tarrant]] and [[Williamson County, Texas|Williamson]]). While Cornyn did better than Trump in the [[Texas Triangle]], contributing to his over performance, Hegar slightly outperformed Biden in the heavily Hispanic [[Lower Rio Grande Valley|Rio Grande Valley]], and was able to carry one Trump county ([[Zapata County, Texas|Zapata]]), though Hegar herself vastly underperformed previous Democratic margins in the region.
+
+==Republican primary==
+
+===Candidates===
+
+====Nominee====
+* [[John Cornyn]], incumbent U.S. senator<ref>{{cite web|url=https://www.texastribune.org/2017/09/24/cornyn-says-hes-backing-cruz-re-election/|title=John Cornyn says he's supporting Ted Cruz for re-election in 2018|work=[[The Texas Tribune]]|first=Svitek|last=Patrick|date=September 24, 2017|access-date=September 24, 2017}}</ref>
+
+====Eliminated in the primary====
+* Virgil Bierschwale, U.S. Navy veteran, software developer, realtor<ref>{{cite web |last1=Moritz |first1=John C. |title=Texas elections 2020: Democratic and Republican primary field takes shape |url=https://www.caller.com/story/news/local/texas/state-bureau/2019/12/09/texas-elections-democratic-and-republican-primary-field-takes-shape/2629164001/ |website=Corpus Christi Caller Times |access-date=December 12, 2019 |date=December 9, 2019}}</ref>
+* [[John Anthony Castro]], tax consultant, author, businessman, entrepreneur<ref>{{Cite web|url=https://docquery.fec.gov/cgi-bin/forms/C00728097/1364445/|title=Form 1 for Castro Senatorial Campaign Committee|website=docquery.fec.gov|access-date=November 21, 2019}}</ref><ref>{{Cite web|url=https://johncastro.com/|title=Home {{!}} Castro for Senate|website=johncastro.com|language=en|access-date=February 28, 2020}}</ref><ref>{{Cite web|url=https://ballotpedia.org/John_Castro|title=John Castro|website=Ballotpedia|language=en|access-date=February 28, 2020}}</ref><ref>{{Cite web|url=https://www.wbap.com/2020/02/25/chris-salcedo-show-us-senate-race-john-anthony-castro-running-against-cornyn/|title=Chris Salcedo Show: US Senate Race – John Anthony Castro Running Against Cornyn|date=February 25, 2020|website=News Talk WBAP-AM|language=en-US|access-date=February 28, 2020}}</ref><ref>{{Cite web|url=https://www.uhclthesignal.com/wordpress/2020/01/23/qa-texas-primary-republican-candidates-for-us-senate/|title=Q&A: Texas primary Republican candidates for US Senate|website=UHCL The Signal|language=en-US|access-date=February 28, 2020}}</ref>
+* Dwayne Stovall, bridge construction contractor, businessman<ref>{{Cite web|url=https://www.amarillopioneer.com/blog/2019/8/20/stovall-to-challenge-cornyn-in-2020-republican-primary|title=Stovall to Challenge Cornyn in 2020 Republican Primary|website=The Amarillo Pioneer|date=August 20, 2019 |language=en-US|access-date=August 20, 2019}}</ref>
+* Mark Yancey, businessman, Attacca International Executive, former owner of the [[Dallas Wings]] basketball team<ref>{{cite web |last1=Singer |first1=Jeff |title=Daily Kos Elections Live Digest: 9/26 |url=https://www.dailykos.com/stories/2019/9/26/1886787/-Daily-Kos-Elections-Live-Digest-9-26 |website=Daily Kos |access-date=September 26, 2019 |date=September 26, 2019}}</ref><ref>{{Cite web|url=https://www.houstonchronicle.com/news/politics/texas/article/Dallas-investor-challenges-Sen-John-Cornyn-in-14470910.php|title=Dallas investor challenges Sen. John Cornyn in Republican primary|date=September 26, 2019|website=HoustonChronicle.com|language=en-US|access-date=October 7, 2019}}</ref>
+
+====Declined====
+* [[Pat Fallon]], state senator<ref>{{Cite web|url=https://www.texastribune.org/2019/10/10/state-sen-pat-fallon-decides-against-primary-challenge-john-cornyn/|title=State Sen. Pat Fallon decides against primary challenge to Cornyn|last=Svitek|first=Patrick|date=October 10, 2019|website=The Texas Tribune|language=en|access-date=October 11, 2019}}</ref>
+* [[Dan Patrick (politician)|Dan Patrick]], [[lieutenant governor of Texas]]<ref name="Cruz">{{cite news|last1=Recio|first1=Maria|title=Cruz endorses Cornyn for 2020 Senate run|url=https://www.statesman.com/news/20181207/cruz-endorses-cornyn-for-2020-senate-run|newspaper=Austin American-Statesman|date=December 7, 2018|access-date=December 7, 2018}}</ref> (endorsed John Cornyn)<ref name="Patrick">{{cite news|last1=Silver|first1=Johnathan|title=Dan Patrick endorses John Cornyn after speculation he'd challenge him|url=https://www.statesman.com/news/20181211/dan-patrick-endorses-john-cornyn-after-speculation-hed-challenge-him|newspaper=Austin American-Statesman|date=December 11, 2018|access-date=December 11, 2018}}</ref>
+* [[Allen West (politician)|Allen West]], former U.S. representative for [[Florida's 22nd congressional district]]<ref>{{Cite web|url=https://www.amarillopioneer.com/blog/2019/6/18/west-to-announce-political-future|title=West to Announce Political Future|website=The Amarillo Pioneer|date=June 18, 2019 |language=en-US|access-date=November 22, 2019}}</ref> (running for state party chair)<ref>{{Cite web|url=https://www.texastribune.org/2019/08/15/texas-republican-party-allen-west/|title=Allen West launches bid for Texas GOP chair|last=Pollock|first=Cassandra|date=August 16, 2019|website=The Texas Tribune|language=en|access-date=November 22, 2019}}</ref>
+
+===Endorsements===
+{{Endorsements box
+| title = John Cornyn
+| list =
+
+'''U.S. senators'''
+* [[Ted Cruz]], U.S. senator from Texas<ref name="Cruz"/>
+
+'''Statewide officials'''
+* [[Dan Patrick (politician)|Dan Patrick]], [[lieutenant governor of Texas]]<ref name="Patrick"/>
+}}
+
+===Polling===
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear|name="Key"}}
+! Margin<br />of error
+! style="width:75px;"| Virgil<br />Bierschwale
+! style="width:75px;"| John<br />Anthony<br />Castro
+! style="width:75px;"| John<br />Cornyn
+! style="width:75px;"| Dwayne<br />Stovall
+! style="width:75px;"| Mark<br />Yancey
+! Undecided
+|-
+|style="text-align:left;"|[[University of Texas at St Tyler|University of Texas at Tyler]]/[[Dallas News]]<ref>[https://projects.fivethirtyeight.com/polls/20200202_TX_2.pdf University of Texas at St Tyler/Dallas News] {{Webarchive|url=https://web.archive.org/web/20200202134933/https://projects.fivethirtyeight.com/polls/20200202_TX_2.pdf |date=February 2, 2020 }}</ref>
+| January 21–30, 2020
+| 445 (LV)
+| ±&nbsp;4.65%
+| <1%
+| 5%
+| {{party shading/Republican}}|'''62%'''
+| 3%
+| 1%
+| 30%
+|-
+|style="text-align:left;"|[[Data for Progress]]<ref name="Data for Progress">[http://filesforprogress.org/datasets/2020/1/texas/dfp-tx-likely-voters-jan-2020.pdf Data for Progress]</ref>{{efn-ua|Data for Progress had endorsed the [[Elizabeth Warren 2020 presidential campaign]] prior to the sampling period}}
+| January 16–21, 2020
+| 687 (LV)
+| –
+| 1%
+| 0%
+| {{party shading/Republican}}|'''75%'''
+| 2%
+| 1%
+| 22%
+|}
+
+===Results===
+[[File:2020 United States Senate Republican primary election in Texas results map by county.svg|thumb|300px|Results by county:
+{{collapsible list
+| title = Cornyn|{{legend|#C21B18|Cornyn—80–90%}}|{{legend|#D72F30|Cornyn—70–80%}}|{{legend|#D75D5D|Cornyn—60–70%}}|{{legend|#E27F7F|Cornyn—50–60%}}
+}}
+]]
+
+{{Election box begin no change
+| title = Republican primary results<ref name="PrimaryNight"/>
+}}
+{{Election box winning candidate with party link no change
+| candidate =  [[John Cornyn]] (incumbent)
+| party = Republican Party (United States)
+| votes = 1,470,669
+| percentage = 76.04%
+}}
+{{Election box candidate with party link no change
+| candidate = Dwayne Stovall
+| party = Republican Party (United States)
+| votes = 231,104
+| percentage = 11.95%
+}}
+{{Election box candidate with party link no change
+| candidate = Mark Yancey
+| party = Republican Party (United States)
+| votes = 124,864
+| percentage = 6.46%
+}}
+{{Election box candidate with party link no change
+| candidate = John Anthony Castro
+| party = Republican Party (United States)
+| votes = 86,916
+| percentage = 4.49%
+}}
+{{Election box candidate with party link no change
+| candidate = Virgil Bierschwale
+| party = Republican Party (United States)
+| votes = 20,494
+| percentage = 1.06%
+}}
+{{Election box total no change
+| votes = 1,934,047
+| percentage = 100.0%
+}}
+{{Election box end}}
+
+==Democratic primary==
+===Candidates===
+====Nominee====
+* [[MJ Hegar]], retired [[Major (United States)|United States Air Force major]], businesswoman, author, teacher, and Democratic Party nominee for [[Texas's 31st congressional district]] in [[2018 United States House of Representatives elections in Texas#District 31|2018]]<ref name="Hegar">{{cite news|last1=Svitek|first1=Patrick|title=MJ Hegar, former congressional candidate, says she's running to challenge U.S. Sen. John Cornyn|url=https://www.texastribune.org/2019/04/23/mj-hegar-enters-race-challenge-john-cornyn-texas-2020/|publisher=The Texas Tribune|date=April 23, 2019|access-date=April 23, 2019}}</ref>
+
+====Eliminated in the runoff====
+* [[Royce West]], state senator, former [[List of presidents pro tempore of the Texas Senate|president pro tempore]] of the [[Texas Senate]], attorney<ref>{{Cite web|url=https://www.amarillopioneer.com/blog/2019/7/18/houston-city-councilwoman-to-challenge-cornyn|title=Houston City Councilwoman to Challenge Cornyn|website=The Amarillo Pioneer|date=July 18, 2019 |language=en-US|access-date=July 18, 2019}}</ref><ref>{{Cite web | url=https://www.texastribune.org/2019/07/22/texas-royce-west-john-cornyn-senate-primary/ | title=State Sen. Royce West enters Democratic primary to challenge John Cornyn| date=July 22, 2019}}</ref>
+
+====Eliminated in the primary====
+* [[Chris Bell (politician)|Chris Bell]], former U.S. representative for [[Texas's 25th congressional district]], nominee for [[governor of Texas]] in [[2006 Texas gubernatorial election|2006]], candidate for [[List of mayors of Houston|mayor of Houston]] in [[2015 Houston mayoral election|2015]]<ref>{{Cite web | url=https://www.texastribune.org/2019/07/03/democrat-chris-bell-plans-run-us-senate-bid-against-john-cornyn/ |title = Democrat Chris Bell plans to run for U.S. Senate|date = July 3, 2019}}</ref>
+* Michael Cooper, pastor and candidate for [[lieutenant governor of Texas]] in 2018<ref name="Edwards">{{cite web|last1=Svitek|first1=Patrick|title=Houston City Council Member Amanda Edwards looking at Cornyn challenge|url=https://www.texastribune.org/theblast/2019/03/08/|publisher=The Blast|date=March 8, 2019|access-date=March 8, 2019}}</ref>
+* [[Amanda Edwards]], [[Houston City Council|Houston city councillor]]<ref>{{Cite web|url=https://www.texastribune.org/2019/07/18/amanda-edwards-houston-council-member-challenge-senator-john-cornyn/|title=Houston councilwoman Amanda Edwards jumps into Democratic primary in hopes of unseating Republican U.S. Sen. John Cornyn|last1=Svitekfirst1=Patrick|first2=Abby|last2=Livingston|date=July 18, 2019|website=The Texas Tribune|language=en|access-date=July 18, 2019}}</ref>
+* Jack Daniel Foster Jr., educator<ref>{{Cite web|url=https://www.fec.gov/|title=Browse Candidates for Senate|website=FEC.gov|language=en|access-date=October 26, 2019}}</ref>
+* Annie "Mamá" Garcia, attorney, small-business owner, and non-profit founder<ref>{{Cite web |url=https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do|title=Candidate Information|website=candidate.texas-election.com|access-date=December 8, 2019}}</ref>
+* Victor Hugo Harris, [[United States Army Reserve|U.S. Army Reserve]] [[Colonel (United States)|colonel]]<ref>{{Cite web|url=https://www.fec.gov/|title=Harris, Victor Hugo – Candidate overview|website=FEC.gov|language=en|access-date=October 26, 2019}}</ref><ref name="harris">{{cite web |last1=Goudeau |first1=Ashley |title=Texas This Week: Victor Harris, candidate for U.S. Senate |url=https://www.kvue.com/article/news/politics/texas-this-week/texas-this-week-victor-harris-senate-candidate/269-8955367a-523c-4b54-9d87-55fc2c51973a |website=KVUE |date=January 26, 2020 |access-date=February 17, 2020}}</ref>
+* Sema Hernandez, organizer for the [[Poor People's Campaign: A National Call for a Moral Revival|Poor People's Campaign]] and candidate for the U.S. Senate in [[2018 United States Senate election in Texas|2018]]<ref>{{cite web |url=https://www.crowdpac.com/campaigns/388237/sema-hernandez |title=Sema for Texas|access-date=September 13, 2018}}</ref>
+* D. R. Hunter, retiree<ref>{{Cite web|url=https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do|title=Candidate Information|website=candidate.texas-election.com|access-date=December 9, 2019}}</ref>
+* Adrian Ocegueda, financial analyst and candidate for governor of Texas in [[2018 Texas gubernatorial election|2018]]<ref name="Hegar"/>
+* [[Cristina Tzintzún Ramirez]], labor organizer and author<ref>{{Cite web|url=https://www.texastribune.org/2019/08/12/latina-organizer-enters-democratic-primary-challenge-john-cornyn/|title=Latina organizer Cristina Tzintzún Ramirez enters Democratic primary to challenge Cornyn|last=Svitek|first=Patrick|date=August 12, 2019|website=The Texas Tribune|language=en|access-date=August 12, 2019}}</ref>
+
+====Withdrawn====
+* John B. Love III, [[Midland, Texas|Midland]] city councillor<ref>{{cite web |last1=Doreen |first1=Stewart |title=Councilman John Love III to run for US Senate |url=https://www.mrt.com/news/article/Councilman-John-Love-III-to-run-for-US-Senate-14474213.php |website=Midland Reporter-Telegram |access-date=September 28, 2019 |ref=John Love III |date=September 27, 2019}}</ref><ref>{{Cite web |date=December 6, 2019 |access-date=December 7, 2019 |url=https://marfapublicradio.org/blog/john-love-iii-drops-out-of-the-2020-texas-u-s-senate-race/ |title=John Love III Drops Out Of The 2020 Texas U.S. Senate Race |last=Borden |first=Mitch |work=Marfa Public Radio}}</ref>
+* Hunter Darrel Reece<ref>{{cite web |url=https://www.fec.gov/data/committee/C00730259/?cycle=2020 |work=FEC |access-date=July 11, 2020 |date=June 30, 2020 |title=Darrel Reece Hunter}}</ref>
+* David Selig<ref>{{cite web |url=https://www.fec.gov/data/candidate/S0TX00456/?cycle=2020&election_full=true |work=FEC |access-date=July 11, 2020 |date=June 30, 2020 |title=Selig, David}}</ref>
+
+====Declined====
+* [[Joaquin Castro|Joaquín Castro]], incumbent U.S. representative for [[Texas's 20th congressional district]]<ref>{{cite web|url=http://www.texastribune.org/2019/05/01/joaquin-castro-john-cornyn-us-senate-seat-texas/|title=Joaquin Castro won't challenge John Cornyn for U.S. Senate seat|work=[[The Texas Tribune]]|last1=Livingston|first1=Abby|last2=Svitek|first2=Patrick|date=May 1, 2019|access-date=May 1, 2019}}</ref>
+* [[Julian Castro|Julián Castro]], former [[United States Secretary of Housing and Urban Development]], former [[List of mayors of San Antonio|mayor of San Antonio]] and former [[2020 United States presidential election|2020]] [[President of the United States|presidential]] [[Julian Castro 2020 presidential campaign|candidate]]<ref>{{cite news |last=Morgan |first=Don |title=Julian Castro says he will not run for Senate if he ends his Presidential campaign |url=https://www.ktsa.com/julian-castro-says-he-will-not-run-for-senate-if-he-ends-his-presidential-campaign/ |access-date=January 21, 2020 |work=KTSA news |date=September 30, 2019}}</ref>
+* [[Beto O'Rourke]], former U.S. representative for [[Texas's 16th congressional district]], nominee for the U.S. Senate in [[2018 United States Senate election in Texas|2018]] and former [[2020 United States presidential election|2020]] [[President of the United States|presidential]] [[Beto O'Rourke 2020 presidential campaign|candidate]]<ref>{{Cite web|url=https://www.texastribune.org/2019/11/04/beto-orourkes-out-still-casts-shadow-2020-texas-elections/ |title=Analysis: Beto O'Rourke's out, but he still casts a shadow on the 2020 Texas elections |date=November 4, 2019 |last=Ramsey |first=Ross |website=[[The Texas Tribune]]}}</ref>
+
+===Endorsements===
+{{Endorsements box
+|title=MJ Hegar
+|list=
+'''Federal officials'''
+* [[Tammy Duckworth]], U.S. senator from Illinois and former U.S. representative (IL-08) (2013–2017) and U.S. assistant secretary of veterans affairs (2009–2011)<ref name="auto">{{cite web|url=https://www.dailykos.com/stories/2019/4/30/1854339/-TX-Sen-Sen-Tammy-Duckworth-D-IL-Helps-Fellow-Veteran-MJ-Hegar-D-Beat-John-Cornyn-R|title=TX-Sen: Sen. Tammy Duckworth (D. IL) Helps Fellow Veteran MJ Hegar (D) Beat John Cornyn (R)|work=Daily Kos}}</ref>
+* [[Veronica Escobar]], U.S. representative from ([[Texas's 16th congressional district]])<ref name="TexasTrib">{{cite web|url=https://www.texastribune.org/2020/05/13/texas-democrat-senate-runoff/ |access-date=2020-07-05 |date=2020-05-13 |title=Cascade of endorsements animates Texas' Democratic U.S. Senate runoff, which coronavirus has upended |first1=Patrick |last1=Svitek}}</ref>
+* [[Elizabeth Warren]], U.S. senator from Massachusetts and [[2020 Democratic Party presidential primaries|2020]] Democratic presidential candidate<ref name="Elizabeth Warren">{{cite web|last1=Burdyk|first1=Zach|title=Warren announces slate of endorsements including Wendy Davis and Cornyn challenger Hegar|url=https://thehill.com/homenews/campaign/498497-warren-announces-slate-of-endorsements-including-wendy-davis-and-cornyn|website=thehill.com|publisher=The Hill|access-date=May 19, 2020|date=May 19, 2020}}</ref>
+
+'''Newspapers'''
+* ''[[Austin American-Statesman]]''<ref name="statesman.com">{{cite web |url=https://www.statesman.com/opinion/20200214/endorsement-hegar-in-dem-primary-for-us-senate|website=Austin Statesman |title=Endorsement: Hegar in Dem primary for U.S. Senate|access-date=February 14, 2020}}</ref>
+
+'''Organizations'''
+* [[Democratic Senatorial Campaign Committee|DSCC]]<ref name="Texas Tribune">{{cite web| last1=Svitek| first1=Patrick| title=Democratic Senatorial Campaign Committee endorses MJ Hegar in crowded U.S. Senate primary| url=https://www.texastribune.org/2019/12/16/dscc-endorses-mj-hegar-crowded-primary-challenge-john-cornyn/|publisher=Texas Tribune| date=December 16, 2019}}</ref>
+* [[EMILY's List]]<ref name="TexasTrib"/>
+* [[End Citizens United]]<ref name="Svitek">{{cite web|last=Svitek|first=Patrick|url=https://endcitizensunited.org/in-the-news/texas-tribune-end-citizens-united-endorses-mj-hegar-john-cornyn/|title=Texas Tribune: End Citizens United endorses MJ Hegar against John Cornyn|work=[[End Citizens United]]|date=May 22, 2019|access-date=June 3, 2019}}</ref>
+* [[Everytown for Gun Safety]] Action Fund<ref name="auto1">{{Cite web|url=https://momsdemandaction.org/everytown-for-gun-safety-action-fund-endorses-mj-hegar-for-u-s-senate-in-texas/|title=Everytown For Gun Safety Action Fund Endorses MJ Hegar For U.S. Senate in Texas|date=June 9, 2020|website=Moms Demand Action}}</ref>
+* [[Giffords]]<ref name="live-giffords-org.pantheonsite.io">{{cite web |last1=Giffords |first1=Gabrielle |title=Giffords Endorses MJ Hegar for Senate in Texas |url=https://live-giffords-org.pantheonsite.io/press-release/2020/02/mj-hegar-endorsement/ |website=Giffords |language=en |date=February 6, 2020 }}{{Dead link|date=January 2022 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+* [[Planned Parenthood Action Fund]]<ref name="TexasTrib"/>
+* [[NARAL Pro-Choice America]]<ref name="TexasTrib"/>
+}}
+{{Endorsements box
+| title = Cristina Tzintzún Ramirez (''eliminated'')
+| list =
+'''Federal officials'''
+* [[Joaquin Castro]], U.S. representative ([[Texas's 20th congressional district|TX-20]])<ref>{{cite web |url=https://www.texastribune.org/2020/02/18/joaquin-castro-endorses-cristina-tzintzun-ramirez-crowded-us-senate/|website=Texas Tribune |title=Joaquin Castro endorses Cristina Tzintzún Ramirez in crowded primary to challenge John Cornyn|date=February 18, 2020|access-date=February 18, 2020}}</ref>
+* [[Alexandria Ocasio-Cortez]], U.S. representative ([[New York's 14th congressional district|NY-14]])<ref>{{cite web |url=https://www.nytimes.com/2020/02/21/us/politics/ocasio-cortez-builds-progressive-campaign-arm-to-challenge-democrats.html|website=New York Times |title=Ocasio-Cortez Builds Progressive Campaign Arm to Challenge Democrats|date=February 18, 2020|access-date=February 21, 2020}}</ref>
+'''Labor unions'''
+* [[Communications Workers of America]] District 6<ref>{{cite web| title=CWA Endorses Cristina Tzintzún Ramirez for U.S. Senate| url=https://actionnetwork.org/petitions/cwa-endorses-cristina-tzintzun-ramirez-for-us-senate/|publisher= CWA| access-date=January 30, 2020}}</ref>
+'''Newspapers'''
+* ''[[The Austin Chronicle|Austin Chronicle]]''<ref>{{cite news|url=https://www.austinchronicle.com/news/2020-02-14/chronicle-endorsements-for-the-march-3-primary-election/|date=February 14, 2020 |title=Chronicle Endorsements for the March 3 Primary Election|author=Chronicle Editorial Board}}</ref>
+* ''[[The Daily Texan|Daily Texan]]''<ref>{{cite news|url=https://thedailytexan.com/2020/03/01/the-daily-texan-endorses-for-tomorrows-primary-elections|date=March 2, 2020 |title=The Daily Texan endorses for tomorrow's primary elections|author=Daily Texan Editorial Board}}</ref>
+'''Organizations'''
+* [[Working Families Party]]<ref>{{cite web| title=Our 2020 Endorsements| url=https://workingfamilies.org/our-2020-endorsements/|publisher= Working Families| access-date=January 4, 2020}}</ref>
+
+'''Individuals'''
+* [[Alec Baldwin]], actor<ref>{{Cite journal|url=https://www.sacurrent.com/the-daily/archives/2020/02/10/alec-baldwin-throws-support-behind-cristina-tzintzun-ramirez-as-she-vies-to-take-on-john-cornyn|title=Alec Baldwin Throws Support Behind Cristina Tzintzún Ramirez as She Vies to Take on John Cornyn|journal=San Antonio Current|first=Sanford|last=Nowlin|date=February 10, 2020|access-date=February 21, 2020|archive-date=February 21, 2020|archive-url=https://web.archive.org/web/20200221212635/https://www.sacurrent.com/the-daily/archives/2020/02/10/alec-baldwin-throws-support-behind-cristina-tzintzun-ramirez-as-she-vies-to-take-on-john-cornyn|url-status=dead}}</ref>
+}}
+{{Endorsements box
+| title = Royce West (''eliminated'')
+| list =
+'''Federal officials'''
+* [[Chris Bell (politician)|Chris Bell]], Democratic candidate in the 2020 U.S. Senate election in Texas and former [[United States House of Representatives|U.S. representative]] ([[Texas's 25th congressional district|TX-25]]) (2003–2005)<ref name="TexasTrib"/>
+* [[Eddie Bernice Johnson]], [[United States House of Representatives|U.S. representative]] ([[Texas's 30th congressional district|TX-30]])<ref name="houstonchronicle.com">{{cite web |url=https://www.houstonchronicle.com/news/politics/texas/article/Royce-West-joins-Democrats-vying-to-challenge-14113495.php |website=HoustonChronicle.com |title=Longtime state Sen. Royce West joins Democrats vying to challenge Cornyn |access-date=September 23, 2019|date=July 22, 2019 }}</ref>
+* [[Ron Kirk]], former [[United States Trade Representative|U.S. trade representative]] (2009–2013), [[mayor of Dallas]] (1995–2002), and [[Texas secretary of state]] (1994–1995)<ref name="RoyceEndorsements1">{{cite web |url=https://roycewest.com/endorsements/|title=Endorsements|access-date=February 9, 2020}}</ref>
+* [[Carol Moseley Braun]], former [[List of ambassadors of the United States to New Zealand|U.S. ambassador to New Zealand and Samoa]] (1999–2001) and U.S. Senator (IL) (1993–1999)<ref>{{Cite web|url=https://northdallasgazette.com/2020/04/20/royce-west-receives-endorsement-of-ambassador-moseley-braun-in-texas-us-senate-race/|title=Royce West receives endorsement of Ambassador Moseley-Braun in Texas US Senate Race|date=April 20, 2020}}</ref>
+* [[Maxine Waters]], [[United States House of Representatives|U.S. representative]] ([[California's 43rd congressional district|CA-43]])<ref>{{Cite web|url=https://texasmetronews.com/3739/congresswoman-maxine-waters-endorses-royce-west-for-u-s-senate-press-release/|title=Congresswoman Maxine Waters Endorses Royce West for U.S. Senate (press release)|website=Texas Metro News|date=May 21, 2020}}</ref>
+'''State officials'''
+* [[Rhetta Bowers]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Sheryl Cole]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Nicole Collier]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Gina Hinojosa]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Celia Israel]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Jarvis Johnson]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Nathan M. Johnson|Nathan Johnson]], [[Texas Senate|state senator]]<ref name="RoyceEndorsements1"/>
+* [[Jose Menendez]], [[Texas Senate|state senator]]<ref name="RoyceEndorsements1"/>
+* [[Evelina Ortega]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Morris Overstreet]], former [[Texas Court of Criminal Appeals]] judge (1991–1999)<ref name="RoyceEndorsements1"/>
+* [[Toni Rose (politician)|Toni Rose]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Shawn Thierry]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[John Turner (Texas politician)|John Turner]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+* [[Armando Walle]], [[Texas House of Representatives|state representative]]<ref name="RoyceEndorsements1"/>
+
+'''Local officials'''
+* [[Amanda Edwards]], Democratic candidate in the 2020 U.S. Senate election in Texas and former [[Houston City Council]] member (2016–2020)<ref>{{Cite web|url=https://www.dallasnews.com/news/politics/2020/05/05/progressive-group-endorses-royce-west-for-us-senate-while-pete-buttigieg-backs-mj-hegar/|title=Updated: Former Houston city council member Amanda Edwards backs Royce West for U.S. Senate|date=May 8, 2020|website=Dallas News}}</ref>
+* [[Sylvester Turner]], [[mayor of Houston]] and former [[Texas House of Representatives|state representative]] (1989–2016)<ref name="dallasnews.com">{{cite web |url=https://www.dallasnews.com/news/politics/2020/01/28/houston-mayor-sylvester-turner-backs-dallas-democrat-royce-west-for-senate/|website=Dallas Morning News |title=Houston Mayor Sylvester Turner backs Dallas Democrat Royce West for Senate|date=January 28, 2020 |access-date=February 10, 2020}}</ref>
+
+'''Organizations'''
+* [[American Federation of Teachers]] Texas Chapter<ref>{{Cite web|url=https://northdallasgazette.com/2020/04/24/royce-west-endorsed-by-texas-american-federation-of-teachers-in-us-senate-race/|title=Royce West endorsed by Texas American Federation of Teachers in US Senate Race|date=April 24, 2020}}</ref>
+* [[Communications Workers of America]] (''originally endorsed Cristina Tzintzún Ramirez'')<ref name="TexasTrib"/>
+* [[Congressional Black Caucus]] (CBC) PAC<ref name="TexasTrib"/>
+* [[Democracy for America]]<ref name="RoyceEndorsements1"/>
+* [[Working Families Party]] (''originally endorsed Cristina Tzintzún Ramirez'')<ref>{{Cite tweet |user=TXWFP |number=1278345249849565190 |title=Endorsement Alert}}</ref>
+
+'''Newspapers'''
+* ''[[The Austin Chronicle|Austin Chronicle]]'' (''originally endorsed Cristina Tzintzún Ramirez'')<ref name="Austin Chronicle Runoff">{{cite web |title=We recommend Royce West in the Democratic runoff for US Senate [Editorial]|url=https://www.austinchronicle.com/news/2020-06-26/chronicle-endorsements |date=June 26, 2020 |website=The Austin Chronicle|language=en}}</ref>
+* ''[[Dallas Morning News]]'' (''co-endorsed with Amanda Edwards'')<ref name="DMNPrimary">{{cite web |url=https://www.dallasnews.com/opinion/editorials/2020/02/09/in-the-democratic-primary-for-us-senate-we-recommend-amanda-edwards-or-royce-west |website=Dallas Morning News |title=In the Democratic primary for U.S. Senate, we recommend two strong contenders [Editorial]|date=February 9, 2020}}</ref><ref name="DMNRunoff">{{cite web |title=Early voting starts today for the July 14 primary runoffs. Here's what you need to know [Editorial]|url=https://www.dallasnews.com/opinion/we-recommend/2020/06/29/early-voting-starts-today-for-the-july-14-primary-runoffs-heres-what-you-need-to-know |date=June 29, 2020 |website=Dallas Morning News|language=en}}</ref>
+* ''[[Fort Worth Star-Telegram]]''<ref name="star-telegram.com">{{cite web |url=https://www.star-telegram.com/opinion/editorials/article240301576.html|website=Fort Worth Star-Telegram|title=We recommend this Texas Democrat as best bet to take on John Cornyn for Senate|access-date=February 16, 2020}}</ref><ref name="FTstar-telegram.com">{{cite web |url=https://www.star-telegram.com/opinion/editorials/article243879797.html|website=Fort Worth Star-Telegram|title=Star-Telegram recommendations in TX primary runoff elections|date=June 30, 2020}}</ref>
+* ''[[Houston Chronicle]]''<ref name="Board">{{cite web|url=https://www.houstonchronicle.com/opinion/editorials/article/We-recommend-Royce-West-in-the-Democratic-primary-15074984.php|title=We recommend Royce West in the Democratic primary for U.S. Senate [Editorial]|date=February 21, 2020|website=Houston Chronicle|language=en}}</ref><ref name="San Antonio Express-News Editorial Board republished Houston Chronicle Editorial">{{cite news |title=We recommend the following candidates in Texas' March 3 primaries [Editorial]|url=https://www.expressnews.com/opinion/editorials/article/Texas-primaries-vote-recommendations-endorsements-15063098.php |work=[[San Antonio Express-News]] |author=San Antonio Express-News Editorial Board republished Houston Chronicle Editorial |date=February 21, 2020}}</ref><ref name="Houston Chronicle Editorial Runoff">{{cite web |title=We recommend Royce West in the Democratic runoff for US Senate [Editorial]|url=https://www.houstonchronicle.com/opinion/editorials/article/Editorial-We-recommend-Royce-West-in-the-15370466.php |date=June 27, 2020 |website=Houston Chronicle|language=en}}</ref><ref name="San Antonio Express-News Editorial Board republished Houston Chronicle Editorial runoff">{{cite news |title=We recommend Royce West in the Democratic runoff for US Senate [Editorial]|url=https://www.expressnews.com/opinion/editorials/article/Editorial-We-recommend-Royce-West-in-the-15370466.php |work=[[San Antonio Express-News]] |author=San Antonio Express-News Editorial Board republished Houston Chronicle Runoff Editorial |date=June 27, 2020}}</ref>
+'''Individuals'''
+* [[Cristina Tzintzún Ramirez]], Democratic candidate in the 2020 U.S. Senate election in Texas<ref>{{cite web|url=https://www.texastribune.org/2020/03/09/royce-west-wins-cristina-tzintzun-ramirezs-endorsement-over-mj-hegar/ |title=Cristina Tzintzún Ramirez endorses Royce West over MJ Hegar in Democratic primary runoff for U.S. Senate |date=2020-03-09 |access-date=2020-07-06 |first1=Patrick|last1=Svitek |website=texastribune.org}}</ref>
+}}
+{{Endorsements box
+| title = Amanda Edwards (''eliminated'')
+| list =
+'''Newspapers'''
+* ''[[The Beaumont Enterprise|Beaumont Enterprise]]''<ref>{{cite news|url=https://www.beaumontenterprise.com/opinions/editorials/article/ENTERPRISE-EDITORIAL-Endorsements-listed-for-15057676.php|date=February 16, 2020 |title=Enterprise Editorial: Endorsements listed for March primary|work=The Beaumont Enterprise|author=Enterprise Editorial Board}}</ref>
+* ''[[The Dallas Morning News|Dallas Morning News]]'' (''co-endorsed with Royce West'')<ref name="DMNPrimary"/>
+* ''[[San Antonio Express-News]]''<ref>{{cite news|url=https://www.expressnews.com/opinion/editorials/article/Editorial-Senate-race-with-Cornyn-and-Edwards-15054925.php|date=February 13, 2020 |title=Editorial: Senate race with Cornyn and Edwards would rivet|work=San Antonio Express-News|author=Express-News Editorial Board}}</ref>
+
+'''Organizations'''
+* [[Stonewall Democrats]] of Dallas<ref>{{Cite web|url=https://dallasvoice.com/stonewall-dallas-releases-list-of-endorsed-candidates/|title=Stonewall Dallas releases list of endorsed candidates|date=February 13, 2020}}</ref>
+
+'''Individuals'''
+* [[Tina Knowles|Tina Knowles-Lawson]], businesswoman and fashion designer<ref>{{cite web |title=Using the power of people, Amanda Edwards seeks to jump from Houston City Council to U.S. Senate |date=December 31, 2019 |url=https://www.dallasnews.com/news/politics/2019/12/31/using-the-power-of-people-amanda-edwards-seeks-to-jump-from-houston-city-council-to-us-senate/ |access-date=February 16, 2020}}</ref>
+}}
+
+===First round===
+
+==== Debates ====
+{| class="wikitable"
+! rowspan="2" |Host<br />network
+! rowspan="2" |Date
+! rowspan="2" |Link(s)
+! colspan="12" |Participants
+|-
+!MJ<br />Hegar
+!Royce<br />West
+!Cristina<br />Tzintzún<br />Ramirez
+!Annie<br />Garcia
+!Amanda Edwards
+!Chris Bell
+!Sema<br />Hernandez
+!Michael<br />Cooper
+!Victor Hugo<br />Harris
+!Adrian<br />Ocegueda
+!Jack Daniel<br />Foster Jr.
+!D. R.<br />Hunter
+|-
+| align="center" |[[KHOU|KHOU-11]]
+| align="center" |February 18, 2020
+| align="center" |<ref>{{Cite web|date=February 18, 2020|title=Texas Democratic Senate candidate debate|website=[[YouTube]]|url=https://www.youtube.com/watch?v=edDFo4yZCi0}}</ref>
+| align="center" |Present
+| align="center" |Present
+|Present
+|Present
+|Present
+|Present
+|Present
+|Present
+|Present
+|Present
+|Present
+|Absent
+|}
+
+====Polling====
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear|name="Key"}}
+! Margin<br />of error
+! Colin<br />Allred
+! Chris<br />Bell
+! Joaquín<br />Castro
+! Wendy<br />Davis
+! Amanda<br />Edwards
+! Annie<br />Garcia
+! MJ<br />Hegar
+! Sema<br />Hernandez
+! Beto<br />O'Rourke
+! Cristina<br />Ramirez
+! Royce<br />West
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[NBC News]]/[[Marist Poll|Marist]]<ref name="NBC News/Marist">[http://maristpoll.marist.edu/wp-content/uploads/2020/02/NBC-News_Marist-Poll-TX-NOS-and-Tables_2002281546.pdf NBC News/Marist]</ref>
+| February 23–27, 2020
+| 556 (LV)
+| ±&nbsp;5.3%
+| –
+| 5%
+| –
+| –
+| 7%
+| –
+| {{party shading/Democratic}}|'''16%'''
+| 5%
+| –
+| {{party shading/Democratic}}|'''9%'''
+| 8%
+| 5%{{efn|Michael Cooper with 4%; "other" with 1%}}
+| {{party shading/Undecided}}|'''34%'''
+|-
+| style="text-align:left;"|[[YouGov]]/[[University of Texas]]/[[Texas Tribune]]<ref>[https://www.texastribune.org/2020/02/17/mj-hegar-leads-democratic-us-senate-candidates-texas-poll-finds/ YouGov/University of Texas/Texas Tribune]</ref>
+| January 31 – February 9, 2020
+| 575 (LV){{efn|Additional data sourced from FiveThirtyEight|name="538.com"}}
+| ±&nbsp;4.09%
+| –
+| 7%
+| –
+| –
+| 6%
+| 5%
+| {{party shading/Democratic}}|'''22%'''
+| 5%
+| –
+| {{party shading/Democratic}}|'''9%'''
+| 6%
+| {{party shading/Other}}|'''40%'''{{efn|The five remaining candidates or "someone else" with 34%; refused with 6%}}
+| –
+|-
+| style="text-align:left;"|[[University of Texas at Tyler]]/[[Dallas News]]<ref>[https://projects.fivethirtyeight.com/polls/20200202_TX_2.pdf University of Texas at Tyler/Dallas News] {{Webarchive|url=https://web.archive.org/web/20200202134933/https://projects.fivethirtyeight.com/polls/20200202_TX_2.pdf |date=February 2, 2020 }}</ref>
+| January 21–30, 2020
+| 414 (LV)
+| ±&nbsp;4.8%
+| –
+| 5%
+| –
+| –
+| 4%
+| {{party shading/Democratic}}|'''6%'''
+| {{party shading/Democratic}}|'''9%'''
+| 4%
+| –
+| 4%
+| {{party shading/Democratic}}|'''6%'''
+| 12%{{efn|Michael Cooper, Jack Daniel Foster Jr. and Victor Hugo Harris with 3%; D. R. Hunter with 2%; Adrian Ocegueda with 1%}}
+| {{party shading/Undecided}}|'''52%'''
+|-
+| style="text-align:left;"|[[Data for Progress]]<ref name="filesforprogress.org">[http://filesforprogress.org/datasets/2020/1/texas/dfp-tx-dem-primary-jan-2020.pdf Data for Progress]</ref>[https://www.politico.com/newsletters/morning-score/2020/01/30/what-is-the-club-for-growth-up-to-784864]{{efn-ua|Data for Progress has endorsed the [[Elizabeth Warren 2020 presidential campaign]]|name="DataForProgress"}}
+| January 16–21, 2020
+| 684 (LV)
+| ±&nbsp;6.5%
+| –
+| 8%
+| –
+| –
+| 3%
+| 4%
+| {{party shading/Democratic}}|'''18%'''
+| 3%
+| –
+| {{party shading/Democratic}}|'''13%'''
+| 12%
+| 4%{{efn|Michael Cooper with 2%; Victor Hugo Harris and Adrian Ocegueda with 1%; Jack Daniel Foster Jr., D. R. Hunter, and "not voting" with 0%}}
+| {{party shading/Undecided}}|'''34%'''{{efn|Leaning towards no one candidate, but not leaning towards not voting}}
+|-
+| style="text-align:left;"|[[Texas Lyceum]]<ref>[https://www.texaslyceum.org/assets/docs/Poll/2020/2020%20Texas%20Lyceum%20Poll%20Results.pdf Texas Lyceum]</ref>
+| January 10–19, 2020
+| 401 (LV)
+| ±&nbsp;4.89%
+| –
+| 5%
+| –
+| –
+| 6%
+| 4%
+| {{party shading/Democratic}}|'''11%'''
+| 5%
+| –
+| 7%
+| {{party shading/Democratic}}|'''8%'''
+| 35%{{efn|Michael Cooper and Victor Hugo Harris with 5%; Adrian Ocegueda with 2%; Jack Daniel Foster Jr. and D. R. Hunter with 0%; other with 6%; none of the above with 17%}}
+| {{party shading/Undecided}}|'''19%'''
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| December 9, 2019
+| colspan="15"| Filing deadline, by which Allred had not declared his candidacy
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| December 6, 2019
+| colspan="15" | Annie Garcia announces her candidacy
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| December 5, 2019
+| colspan="15" | O'Rourke announces he will not run after end of presidential campaign<ref>{{cite web |url=https://www.texastribune.org/2019/12/05/beto-orourke-knocks-down-senate-speculation-filing-deadline-nears/ |work=Texas Tribune |access-date=August 29, 2020 |date=December 5, 2019 |first1=Patrick |last1=Svitek |title=Beto O'Rourke repeats he's not running for Senate despite continued speculation |first2=Abby |last2=Livingston}}</ref>
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D">[http://democraticpolicyinstitute.com/wp-content/uploads/2019/12/12.2.19-Texas-Senate-Poll-Beto-v-Cornyn.pdf Beacon Research (D)]</ref>
+| November 9–21, 2019
+| 408 (LV)
+| –
+| –
+| 4%
+| –
+| –
+| –
+| –
+| 6%
+| 6%
+|{{party shading/Democratic}}|'''58%'''
+| –
+| 13%
+| –
+| –
+|-
+| style="text-align:left;"|[[University of Texas at Tyler]]<ref>{{Cite web |url=https://www.uttyler.edu/politicalscience/files/november2019toplines.pdf#page=4 |title=University of Texas at Tyler |access-date=November 20, 2019 |archive-date=July 1, 2020 |archive-url=https://web.archive.org/web/20200701072827/https://www.uttyler.edu/politicalscience/files/november2019toplines.pdf#page=4 |url-status=dead }}</ref>
+| November 5–14, 2019
+| 427 (RV)
+| ±&nbsp;4.7%
+| –
+| 7%
+| –
+| –
+| 8%
+| –
+| {{party shading/Democratic}}|'''9%'''
+| –
+| –
+| {{party shading/Democratic}}|'''9%'''
+| 8%
+| 7%
+| {{party shading/Undecided}}|'''52%'''
+|-
+| style="text-align:left;"|[[University of Texas]]/[[Texas Tribune]]<ref name="University of Texas/Texas Tribune">[https://static.texastribune.org/media/files/309e8c44813c49523be2834e50f0033e/ut-tt-2019-11-summary-mon.pdf?_ga=2.165910714.563905974.1572856170-4130984515.1525876196#page=7 University of Texas/Texas Tribune]</ref>
+| October 18–29, 2019
+| 541 (RV)
+| ±&nbsp;4.21%
+| –
+| 3%
+| –
+| –
+| 0%
+| –
+| {{party shading/Democratic}}|'''12%'''
+| {{party shading/Democratic}}|'''6%'''
+| –
+| 4%
+| 5%
+| 13%{{efn|Michael Cooper with 4%; Jack Daniel Foster Jr. with 2%; Adrian Ocegueda with 1%; "someone else" with 6%}}
+| {{party shading/Undecided}}|'''57%'''
+|-
+| style="text-align:left;"|[[University of Texas]]/[[Texas Tribune]]<ref name="University of Texas/Texas Tribune"/>
+| August 29 – September 8, 2019
+| 550 (RV)
+| ±&nbsp;4.17%
+| –
+| 2%
+| –
+| –
+| 2%
+| –
+| {{party shading/Democratic}}|'''11%'''
+| 3%
+| –
+| 3%
+| {{party shading/Democratic}}|'''5%'''
+| 2%{{efn|Michael Cooper with 2%}}
+| {{party shading/Undecided}}|'''66%'''
+|-
+| style="text-align:left;"|[[Ragnar Research]]<ref name="rr01">[https://www.ragnarresearch.com/Inforgraphic_pages/Infographics/Democratic_Primary_TX%20STW_Memo_v1.0_190910.pdf Ragnar Research] {{Webarchive|url=https://web.archive.org/web/20190911182452/https://www.ragnarresearch.com/Inforgraphic_pages/Infographics/Democratic_Primary_TX%20STW_Memo_v1.0_190910.pdf |date=September 11, 2019 }}</ref>
+| September 3–5, 2019
+| 600 (LV)
+| ±&nbsp;3.9%
+| –
+| 9%
+| –
+| –
+| {{party shading/Democratic}}|'''10%'''
+| –
+| {{party shading/Democratic}}|'''12%'''
+| –
+| –
+| {{party shading/Democratic}}|'''10%'''
+| {{party shading/Democratic}}|'''10%'''
+| –
+| {{party shading/Undecided}}|'''49%'''
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| August 12, 2019
+| colspan="15" | Ramirez announces her candidacy
+|-
+| style="text-align:left;"|[[Emerson College]]/[[Dallas Morning News]]<ref>[http://emersonpolling.com/2019/08/06/dallas-morning-news-emerson-poll-biden-leads-orourke-in-texas-presidential-primary-race-against-sen-john-cornyn-wide-open/ Emerson College/Dallas Morning News] {{Webarchive|url=https://web.archive.org/web/20200523143854/http://emersonpolling.com/2019/08/06/dallas-morning-news-emerson-poll-biden-leads-orourke-in-texas-presidential-primary-race-against-sen-john-cornyn-wide-open/ |date=May 23, 2020 }}</ref>
+| August 1–3, 2019
+| 400 (LV)
+| ±&nbsp;4.9%
+| –
+| 6.6%
+| –
+| –
+| –
+| 5.2%
+| {{party shading/Democratic}}|'''9.9%'''
+| –
+| –
+| –
+| 7.9%
+| {{party shading/Other}}|'''19.1%'''{{efn|"Someone else" with 19.1%}}
+| {{party shading/Undecided}}|'''51.1%'''
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| July 22, 2019
+| colspan="15" | West announces his candidacy and Davis announces a 2020 House bid, confirming she will not run for US Senate
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| July 18, 2019
+| colspan="15" | Edwards announces her candidacy
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| July 3, 2019
+| colspan="15" | Bell announces his candidacy
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| May 1, 2019
+| colspan="15" | Joaquín Castro announces he will not run
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;"|
+| style="border-right-style:hidden;"| April 23, 2019
+| colspan="15" | Hegar announces her candidacy
+|-
+| style="text-align:left;"|[[Change Research]]<ref>[https://docsend.com/view/8fe8hjg Change Research]</ref>
+| April 18–22, 2019
+| 1,578 (LV)
+| ±&nbsp;2.5%
+| 6%{{efn|With voters who lean towards a given candidate|name="lean"}}
+| –
+| {{party shading/Democratic}}|'''56%'''
+| –
+| 1%
+| –
+| 4%
+| –
+| –
+| –
+| 3%
+| 31%{{efn|Veronica Escobar with 5%; Sylvia Garcia, Clay Jenkins, Sri Preston Kulkarni and Kim Olson with 3%; Rafael Anchia and Lizzie Pannell Fletcher with 1%; Mark Strama with 0%; would not vote with 12%}}
+| –
+|-
+| style="text-align:left;"|[[Public Policy Polling|Public Policy Polling (D)]]<ref>{{Deprecated archive|url=https://archive.today/20190308054355/https://twitter.com/patricksvitek/status/1103879725552791552|title=Public Policy Polling (D)}}</ref>{{efn-ua|Poll sponsored by Democracy Toolbox|name="DemToolbox"}}
+| March 5–7, 2019
+| 608 (LV)
+| ±&nbsp;4.0%
+| –
+| –
+|{{party shading/Democratic}}|'''42%'''
+|19%
+| –
+| –
+| 4%
+| 2%
+| –
+| –
+| –
+| 4%{{efn|Michael Cooper with 4%}}
+| {{party shading/Undecided}}|'''29%'''
+|}
+
+====Results====
+[[File:2020 United States Senate Democratic primary election in Texas results map by county.svg|thumb|300px|Initial round results by county:
+{{collapsible list
+|title=Hegar
+|{{legend|#6674DE|Hegar—60–70%}}
+|{{legend|#7996E2|Hegar—50–60%}}
+|{{legend|#A5B0FF|Hegar—40–50%}}
+|{{legend|#BDD3FF|Hegar—30–40%}}
+|{{legend|#DFEEFF|Hegar—20–30%}}
+|{{legend|#EBF2FF|Hegar—<20%}}
+}}
+{{collapsible list
+|title=Tie
+|{{legend|#999999|Tie}}
+}}
+{{collapsible list
+|title=West
+|{{legend|#D2F7D2|West—<20%}}
+|{{legend|#C0F0C0|West—20–30%}}
+|{{legend|#AAE5AA|West—30–40%}}
+|{{legend|#87DE87|West—40–50%}}
+}}
+{{collapsible list
+|title=Ramirez
+|{{legend|#FFF8DD|Ramirez—<20%}}
+|{{legend|#FFF5CC|Ramirez—20–30%}}
+|{{legend|#FFEEAA|Ramirez—30–40%}}
+|{{legend|#FFE680|Ramirez—40–50%}}
+|{{legend|#FFDC43|Ramirez—50–60%}}
+}}
+{{collapsible list
+|title=Garcia
+|{{legend|#ffd5f6|Garcia—<20%}}
+|{{legend|#ffaaee|Garcia—20–30%}}
+|{{legend|#ff80e5|Garcia—30–40%}}
+|{{legend|#b31d59|Garcia—100%}}
+}}
+{{collapsible list
+|title=Edwards
+|{{legend|#e5d5ff|Edwards—<20%}}
+|{{legend|#ccaaff|Edwards—20–30%}}
+|{{legend|#b380ff|Edwards—30–40%}}
+}}
+{{collapsible list
+|title=Bell
+|{{legend|#ffffd5|Bell—<20%}}
+|{{legend|#ffffaa|Bell—20–30%}}
+|{{legend|#ffff80|Bell—30–40%}}
+|{{legend|#ffff55|Bell—40–50%}}
+}}
+{{collapsible list
+|title=Hernandez
+|{{legend|#d5ffd5|Hernandez—<20%}}
+|{{legend|#aaffaa|Hernandez—20–30%}}
+|{{legend|#80ff80|Hernandez—30–40%}}
+}}
+{{collapsible list
+|title=Cooper
+|{{legend|#d5f6ff|Cooper—<20%}}
+|{{legend|#aaeeff|Cooper—20–30%}}
+}}
+]]
+
+{{Election box begin no change
+| title = Democratic primary results<ref name="PrimaryNight">{{cite web |title=Texas Official Election Results|url=https://results.texas-election.com/races|website=results.texas-election.com |publisher=Texas Secretary of State |access-date=15 July 2020}}</ref>
+}}
+{{Election box winning candidate with party link no change
+| candidate = [[MJ Hegar]]
+| party = Democratic Party (United States)
+| votes = 417,160
+| percentage = 22.31%
+}}
+{{Election box winning candidate with party link no change
+| candidate = [[Royce West]]
+| party = Democratic Party (United States)
+| votes = 274,074
+| percentage = 14.66%
+}}
+{{Election box candidate with party link no change
+| candidate = [[Cristina Tzintzún Ramirez]]
+| party = Democratic Party (United States)
+| votes = 246,659
+| percentage = 13.19%
+}}
+{{Election box candidate with party link no change
+| candidate = Annie "Mamá" Garcia
+| party = Democratic Party (United States)
+| votes = 191,900
+| percentage = 10.27%
+}}
+{{Election box candidate with party link no change
+| candidate = [[Amanda Edwards (politician)|Amanda Edwards]]
+| party = Democratic Party (United States)
+| votes = 189,624
+| percentage = 10.14%
+}}
+{{Election box candidate with party link no change
+| candidate = [[Chris Bell (politician)|Chris Bell]]
+| party = Democratic Party (United States)
+| votes = 159,751
+| percentage = 8.55%
+}}
+{{Election box candidate with party link no change
+| candidate = Sema Hernandez
+| party = Democratic Party (United States)
+| votes = 137,892
+| percentage = 7.38%
+}}
+{{Election box candidate with party link no change
+| candidate = Michael Cooper
+| party = Democratic Party (United States)
+| votes = 92,463
+| percentage = 4.95%
+}}
+{{Election box candidate with party link no change
+| candidate = Victor Hugo Harris
+| party = Democratic Party (United States)
+| votes = 59,710
+| percentage = 3.19%
+}}
+{{Election box candidate with party link no change
+| candidate = Adrian Ocegueda
+| party = Democratic Party (United States)
+| votes = 41,566
+| percentage = 2.22%
+}}
+{{Election box candidate with party link no change
+| candidate = Jack Daniel Foster Jr.
+| party = Democratic Party (United States)
+| votes = 31,718
+| percentage = 1.70%
+}}
+{{Election box candidate with party link no change
+| candidate = D. R. Hunter
+| party = Democratic Party (United States)
+| votes = 26,902
+| percentage = 1.44%
+}}
+{{Election box total no change
+| votes = 1,869,419
+| percentage = 100.0%
+}}
+{{Election box end}}
+
+===Runoff===
+
+====Polling====
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! MJ<br />Hegar
+! Royce<br />West
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[TargetPoint]]<ref>[https://drive.google.com/file/d/1pCF0FwCNMxDfnezhTaXTmKJZSkYIJGvj/view TargetPoint]</ref>{{efn-ua|name="Cornyn"|Poll conducted for John Cornyn.}}
+| July 8, 2020
+| 830 (LV)
+| ±&nbsp;3.2%
+| {{party shading/Democratic}}|'''39%'''
+| 35%
+| –
+| 26%
+|-
+|style="text-align:left;"|[[Dallas Morning News]]/[[University of Texas at Tyler]]<ref name="projects.fivethirtyeight.com">[https://web.archive.org/web/20200712121714/https://projects.fivethirtyeight.com/polls/20200712_TX.pdf Dallas Morning News/University of Texas at Tyler]</ref>
+|June 29 – July 7, 2020
+|829 (LV)
+|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''35%'''
+|22%
+|11%
+|32%
+|-
+| style="text-align:left;"|[[Dallas Morning News]]/[[University of Texas at Tyler]]<ref name="ReferenceA">[https://web.archive.org/web/20200503085827/https://projects.fivethirtyeight.com/polls/20200502_TX.pdf Dallas Morning News/University of Texas at Tyler]</ref>
+| April 18–27, 2020
+| 447 (RV)
+| ±&nbsp;4.6%
+| {{party shading/Democratic}}|'''32%'''
+| 16%
+| 7%
+| {{party shading/Undecided}}|'''44%'''
+|-
+| style="text-align:left;"|[[Data for Progress]]<ref name="filesforprogress.org"/>[https://www.politico.com/newsletters/morning-score/2020/01/30/what-is-the-club-for-growth-up-to-784864]{{efn-ua|name="DataForProgress"}}
+| January 16–21, 2020
+| 684 (LV)
+| ±&nbsp;6.5%
+| {{party shading/Democratic}}|'''48%'''
+| 19%
+| –
+| 33%
+|-
+| style="text-align:left;"|[[Ragnar Research]]<ref name="rr01"/>
+| September 3–5, 2019
+| 600 (LV)
+| ±&nbsp;3.9%
+| {{party shading/Democratic}}|'''26%'''
+| 24%
+| –
+| {{party shading/Undecided}}|'''50%'''
+|}
+
+==== Debates ====
+{| class="wikitable"
+! rowspan="2" |Host<br />network
+! rowspan="2" |Date
+! rowspan="2" |Link(s)
+! colspan="2" |Participants
+|-
+!MJ<br />Hegar
+!Royce<br />West
+|-
+| align="center" |[[KXAN-TV]]
+| align="center" |June 6, 2020
+| align="center" |<ref name=":0">{{Cite web|date=June 6, 2020|title=Democratic Senate runoff debate between Royce West & MJ Hegar|url=https://www.youtube.com/watch?v=Lz-NVADx8d8|website=www.youtube.com}}</ref>
+| align="center" |Present
+| align="center" |Present
+|-
+|[[KVUE (Texas)|KVUE]]
+|June 29, 2020
+| align="center" |<ref>{{Cite web|date=June 29, 2020|title=U.S. Senate Democratic Primary Runoff Debate {{!}} KVUE|url=https://www.youtube.com/watch?v=bSvCWGyPuaM|website=www.youtube.com|language=en}}</ref>
+|Present
+|Present
+|}
+{{collapse top|1=<span style="font-size:88%;">Hypothetical polling</span>|left=yes|bg=#B0CEFF;line-height:135%;|border=none}}
+'''with MJ Hegar and Chris Bell'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! MJ<br />Hegar
+! Chris<br />Bell
+! Undecided
+|-
+| style="text-align:left;"|[[Ragnar Research]]<ref name="rr01"/>
+| September 3–5, 2019
+| 600 (LV)
+| ±&nbsp;3.9%
+| {{party shading/Democratic}}|'''28%'''
+| 21%
+| {{party shading/Undecided}}|'''50%'''
+|}
+
+'''with MJ Hegar and Amanda Edwards'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! MJ<br />Hegar
+! Amanda<br />Edwards
+! Undecided
+|-
+| style="text-align:left;"|[[Data for Progress]]<ref name="filesforprogress.org"/>[https://www.politico.com/newsletters/morning-score/2020/01/30/what-is-the-club-for-growth-up-to-784864]{{efn-ua|name="DataForProgress"}}
+| January 16–21, 2020
+| 684 (LV)
+| ±&nbsp;6.5%
+| '''42%'''
+| 16%
+| '''42%'''
+|}
+
+'''with MJ Hegar and Cristina Tzintzún Ramirez'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! MJ<br />Hegar
+! Cristina<br />Ramirez
+! Undecided
+|-
+| style="text-align:left;"|[[Data for Progress]]<ref name="filesforprogress.org"/>[https://www.politico.com/newsletters/morning-score/2020/01/30/what-is-the-club-for-growth-up-to-784864]{{efn-ua|name="DataForProgress"}}
+| January 16–21, 2020
+| 684 (LV)
+| ±&nbsp;6.5%
+| 32%
+| {{party shading/Democratic}}|'''33%'''
+| {{party shading/Undecided}}|'''35%'''
+|}
+{{collapse bottom}}
+
+====Results====
+{{align|right|{{Switcher
+| [[File:Texas U.S. Senate Democratic primary runoff, 2020.svg|300px]]
+| Runoff results by county 
+| [[File:TX 2020 US Senate Dem Primary Runoff Results By Precinct.svg|300px]]
+| Runoff results by precinct<br>{{collapsible list |title=Legend | {{col-start}}
+{{col-2}}
+'''Hegar'''
+{{legend|#7996e2|Hegar—50–60%}}
+{{legend|#6674de|Hegar—60–70%}}
+{{legend|#584cde|Hegar—70–80%}}
+{{legend|#1e1dbe|Hegar—80–90%}}
+{{legend|#0d0596|Hegar—>90%}}
+'''Tie'''
+{{legend|#6FB1A3|Tie}}
+{{col-2}}
+'''West'''
+{{legend|#5fd35f|West—50–60%}}
+{{legend|#37c837|West—60–70%}}
+{{legend|#2ca02c|West—70–80%}}
+{{legend|#217821|West—80–90%}}
+{{legend|#165016|West—>90%}}
+'''No vote'''
+{{legend|#656565ff|No vote}}
+{{col-end}} }} }} }}
+
+{{Election box begin no change
+| title = Democratic primary runoff results<ref name="PrimaryNight"/>
+}}
+{{Election box winning candidate with party link no change
+| candidate = [[MJ Hegar]]
+| party = Democratic Party (United States)
+| votes = 502,516
+| percentage = 52.24%
+}}
+{{Election box candidate with party link no change
+| candidate = [[Royce West]]
+| party = Democratic Party (United States)
+| votes = 459,457
+| percentage = 47.76%
+}}
+{{Election box total no change
+| votes = 961,973
+| percentage = 100.0%
+}}
+{{Election box end}}
+{{clear|right}}
+
+==Other candidates==
+
+===Libertarian Party===
+
+====Candidates====
+
+=====Nominee=====
+* Kerry McKennon, [[Libertarian Party (United States)|Libertarian]] nominee for lieutenant governor of Texas in [[2018 Texas elections|2018]]<ref>{{Cite web|url=https://www.amarillopioneer.com/blog/2019/11/4/mckennon-promoting-liberty-in-2020-senate-bid|title=McKennon Promoting Liberty in 2020 Senate Bid|website=The Amarillo Pioneer|date=November 4, 2019 |language=en-US|access-date=November 5, 2019}}</ref><ref>{{cite web |title=McKennon to Lead Top of Texas Libertarian Ticket in 2020 |url=https://www.amarillopioneer.com/blog/2020/8/4/mckennon-to-lead-top-of-texas-libertarian-ticket-in-2020 |website=The Amarillo Pioneer |access-date=September 8, 2020 |date=August 4, 2020}}</ref>
+
+=====Withdrawn=====
+* Wes Benedict, former national executive director of the [[Libertarian Party (United States)|Libertarian Party]]<ref>{{cite web |title=Libertarian Benedict Withdraws from U.S. Senate Race |url=https://www.amarillopioneer.com/blog/2020/7/30/libertarian-benedict-withdraws-from-us-senate-race |website=The Amarillo Pioneer |access-date=September 8, 2020 |date=July 30, 2020}}</ref>
+* Rhett Rosenquest Smith, Libertarian nominee for the Precinct 2 Bexar County justice of the peace in 2020 and Libertarian nominee for Texas's 11th congressional district in [[2018 United States House of Representatives elections in Texas#District 11|2018]]<ref>{{cite web |url=https://ballotpedia.org/Rhett_Rosenquest_Smith |title=Rhett Rosenquest Smith |work=Ballotpedia |access-date=July 5, 2020}}</ref>
+
+===Green Party===
+
+====Nominee====
+* David B. Collins, info tech trainer and Green nominee for U.S. Senate in [[2012 United States Senate election in Texas|2012]]<ref name=opensecrets/><ref name=TX2020/>
+
+===People Over Politics Party===
+
+====Withdrawn====
+* Cedric Jefferson<ref name=opensecrets/><ref name="TX2020">{{Cite web |title=Candidate Information |url=https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do |website=candidate.texas-election.com |access-date=September 16, 2020 |date=September 15, 2020}}</ref>
+
+===Human Rights Party===
+
+====Withdrawn====
+* James Brumley<ref name=opensecrets/><ref name=TX2020/>
+
+===Independents===
+
+====Declared====
+* Ricardo Turullols-Bonilla, retired teacher and candidate for [[Austin, Texas|Austin]] city council in 2014 (as a write-in candidate)<ref>{{Cite web|url=https://www.austinchronicle.com/news/2019-08-23/former-city-council-candidate-runs-for-u-s-senate-nobel-peace-prize/|title=Former City Council Candidate Runs for U.S. Senate, Nobel Peace Prize|last=King|first=Michael|website=www.austinchronicle.com|language=en-US|access-date=November 5, 2019|date=August 23, 2019}}</ref><ref name=TX2020/>
+
+====Withdrawn====
+* Tim Smith<ref name=opensecrets/><ref name=TX2020/>
+* Arjun Srinivasan<ref name=opensecrets>{{cite web |url=https://www.opensecrets.org/races/summary?cycle=2020&id=TXS1 |work=Open Secrets |access-date=May 15, 2020 |title=Texas Senate 2020 Race}}</ref><ref name=TX2020/>
+* Krisjiannis Vittato, teacher and ex-filmmaker<ref>{{cite web |access-date=May 17, 2020 |work=Politics1 |url=https://politics1.com/tx.htm |title=Texas}}</ref><ref name=TX2020/>
+
+==General election==
+===Debate===
+{| class="wikitable sortable"
+! rowspan="2" |Host
+! rowspan="2" |Date & time
+! rowspan="2" |Link(s)
+! colspan="2" |Participants
+|-
+!John Cornyn (R)
+!MJ Hegar (D)
+|-
+| align="center" |Texas State History Museum
+| align="center" |October 9, 2020<br />6:55pm MDT
+| align="center" |<ref>{{Cite web|title=US Senate Debate in Texas: John Cornyn and MJ Hegar|url=https://www.kxan.com/texas-senate-debate/|date=2020-10-09|website=KXAN-TV}}</ref>
+|{{Yes|Present}}
+|{{Yes|Present}}
+|}
+
+===Predictions===
+{| class="wikitable" style="text-align:center"
+!Source
+!Ranking
+!As of
+|-
+| align="left" |[[Daily Kos]]<ref name="Daily Kos">{{Cite web |url=https://elections.dailykos.com/app/elections/2020/office/senate | website=Daily Kos Elections|title=2020 Senate Race Ratings | access-date=March 13, 2021}}</ref>
+|{{USRaceRating|Lean|R}}
+| October 30, 2020
+|-
+| align=left | [[The Cook Political Report]]<ref name="Cook PR">{{cite web | title=2020 Senate Race Ratings for October 29, 2020 | url=https://cookpolitical.com/ratings/senate-race-ratings/230641 |website=The Cook Political Report | access-date=March 11, 2021}}</ref>
+| {{USRaceRating|Lean|R}}
+|October 29, 2020
+|-
+| align=left | [[Inside Elections]]<ref name="Inside Elections">{{cite web | title=2020 Senate Ratings | url=https://www.insideelections.com/ratings/senate/2020-senate-ratings-october-28-2020 | work=Senate Ratings | publisher=The Rothenberg Political Report | access-date=March 11, 2021}}</ref>
+| {{USRaceRating|Lean|R}}
+|October 28, 2020
+|-
+| align="left" |[[FiveThirtyEight|538]]<ref>{{Cite web | last1=Silver | first1=Nate | title=Forecasting the race for the Senate | url=https://projects.fivethirtyeight.com/2020-election-forecast/senate/ | archive-url=https://web.archive.org/web/20200918120501/https://projects.fivethirtyeight.com/2020-election-forecast/senate/ | url-status=dead | archive-date=September 18, 2020 | website=[[FiveThirtyEight]] | access-date=September 18, 2020 | date=September 18, 2020}}</ref>
+|{{USRaceRating|Likely|R}}
+|November 2, 2020
+|-
+| align="left" |[[RealClearPolitics|RCP]]<ref name="RCP">{{cite web |url= https://www.realclearpolitics.com/epolls/2020/senate/2020_elections_senate_map.html|title=Battle for the Senate 2020|date=October 23, 2020 |publisher=[[RealClearPolitics|RCP]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|October 23, 2020
+|-
+| align="left" |[[Decision desk|DDHQ]]<ref name="DDHQ">{{Cite web |date=September 2, 2020 |title=2020 Senate Elections Model|url= https://forecast.decisiondeskhq.com/senate|access-date=September 2, 2020 |publisher=[[Decision desk|Decision Desk HQ]]}}</ref>
+|{{USRaceRating|Likely|R}}
+|November 3, 2020
+|-
+| align="left" |[[Politico]]<ref name="Politico">{{Cite web |url= https://www.politico.com/2020-election/race-forecasts-and-predictions/senate/ |title=2020 Election Forecast|date=November 19, 2019 |publisher=[[Politico]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2020
+|-
+| align=left | [[Sabato's Crystal Ball]]<ref name="Sabato's Crystal Ball">{{cite web | title=2020 Senate race ratings | url=https://centerforpolitics.org/crystalball/2020-senate/ | website=Sabato's Crystal Ball | access-date=March 12, 2021}}</ref>
+|{{USRaceRating|Lean|R}}
+| November 2, 2020
+|-
+| align="left" |[[The Economist|Economist]]<ref>{{Cite web |date=November 2, 2020 |title=Forecasting the US elections |url=https://projects.economist.com/us-2020-forecast/senate |access-date=March 13, 2021 |publisher=[[The Economist]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2020
+|}
+
+===Post-primary endorsements===
+{{Endorsements box
+| title = John Cornyn (R)
+| list =
+
+'''U.S. presidents'''
+* [[Donald Trump]], 45th [[president of the United States]] (2017–2021)<ref name="CornynSupportersPage">{{Cite web |url=https://www.johncornyn.com/supporters/ |title= Supporters |access-date=September 30, 2020 |website=John Cornyn for Senate}}</ref>
+
+'''U.S. representatives'''
+* [[Brian Babin]], U.S. representative from [[TX-36]] (2015–present)<ref name="CornynSupportersPage" />
+
+'''State and local officials'''
+* [[Richard Cortez (politician)|Richard Cortez]], [[county judge]] of [[Hidalgo County, Texas]] (2019–present), former mayor of [[McAllen, Texas]] (2005–2013)<ref name="SouthTexasCornynEndorsements">{{Cite web |url=https://www.johncornyn.com/more-than-100-south-texas-leaders-endorse-senator-john-cornyn-for-reelection/ |title= More Than 100 South Texas Leaders Endorse Senator John Cornyn for Reelection |access-date=September 30, 2020 |website=John Cornyn for Senate|date= September 26, 2020 }}</ref>
+* [[Jim Darling]], mayor of [[McAllen, Texas]] (2013–present)<ref name="SouthTexasCornynEndorsements" />
+* [[Pete Saenz]], mayor of [[Laredo, Texas]] (2014–present)<ref name="SouthTexasCornynEndorsements"/>
+
+'''Newspapers'''
+* ''[[Dallas Morning News]]''<ref name="DMN General Endorsement">{{cite web |url=https://www.dallasnews.com/opinion/editorials/2020/10/11/in-the-us-senate-election-in-texas-here-is-our-recommendation/|website=Dallas Morning News |title=In the U.S. Senate election in Texas, here is our recommendation|date=October 11, 2020 |access-date=October 11, 2020}}</ref>
+
+'''Organizations'''
+* [[Texas Alliance for Life]]<ref name="CornynSupportersPage" />
+* [[Texas Farm Bureau]]<ref name="CornynSupportersPage" />
+* [[United States Chamber of Commerce]]<ref name="CornynSupportersPage" />
+}}
+
+{{Endorsements box
+| title= MJ Hegar (D)
+| list=
+'''U.S. presidents'''
+* [[Barack Obama]], 44th [[president of the United States]] (2009–2017), [[United States Senate|U.S. senator]] from [[Illinois]] (2005–2008)<ref>{{cite web |title=Second Wave of 2020 Endorsements |url=https://obama.medium.com/second-wave-of-2020-endorsements-981712d97a32 |website=Medium|date=September 25, 2020 }}</ref>
+
+'''Federal officials'''
+* [[Colin Allred]], U.S. representative ([[Texas's 32nd congressional district|TX-32]])<ref name="Hegar Endorsements">{{cite web|title=Endorsements|url=https://mjfortexas.com/endorsements/|archive-url=https://web.archive.org/web/20200403082241/https://mjfortexas.com/endorsements/|url-status=usurped|archive-date=April 3, 2020|website=mjfortexas.com}}</ref>
+* [[Joaquin Castro]], U.S. representative ([[Texas's 20th congressional district|TX-20]])<ref name="Hegar Endorsements"/>
+* [[Kirsten Gillibrand]], U.S. senator (NY), former [[2020 Democratic Party presidential primaries|2020]] Democratic presidential candidate, and former U.S. representative (NY-20) (2007–2009)<ref>{{cite web|url=https://medium.com/@getots/off-the-sidelines-pac-is-committed-to-electing-more-women-to-congress-and-supporting-allies-who-ea7ba8951085|title=Off the Sidelines Endorsed Candidates|author=Kirsten Gillibrand|date=February 5, 2020}}</ref>
+* [[Deb Haaland]], U.S. representative ([[New Mexico's 1st congressional district|NM-01]])<ref name="Hegar Endorsements"/>
+
+'''State officials'''
+* [[Cesar Blanco]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[John Bucy III]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[Art Fierro]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[Mary González]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[Vikki Goodwin]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[Armando Martinez (Texas politician)|Armando Martinez]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[Ina Minjarez]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[Joe Moody (politician)|Joe Moody]], [[Texas House of Representatives|speaker pro tempore]]<ref name="Hegar Endorsements"/>
+* [[Christina Morales]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+* [[James Talarico]], [[Texas House of Representatives|state representative]]<ref name="Hegar Endorsements"/>
+
+'''Local officials'''
+* [[Steve Adler (politician)|Steve Adler]], [[Mayor of Austin|mayor of Austin, TX]] (2016–present)<ref name="Hegar Endorsements"/>
+* [[Annise Parker]], former [[mayor of Houston]] (2010–2016)<ref name="Hegar Endorsements"/>
+* [[Letitia Plummer]], [[Houston City Council]] member (2020–present)<ref name="Hegar Endorsements"/>
+* [[Justin Rodriguez]], [[Bexar County]] commissioner, former state representative<ref name="Hegar Endorsements"/>
+
+'''Newspapers'''
+* ''[[Austin Chronicle]]''<ref>{{Cite news |author=Editorial Board |date=2020-10-11 |title=Chronicle Endorsements for the November General Election |language=en |work=austinchronicle.com |url=https://www.austinchronicle.com/news/2020-10-02/chronicle-endorsements-for-the-november-general-election}}</ref>
+* ''[[El Paso Times]]''<ref>{{cite news|title=Opinion: Here are our recommendations in federal races|work=El Paso Times|date=October 25, 2020|url=https://www.elpasotimes.com/story/opinion/2020/10/25/2020-election-el-paso-times-joe-biden-hegar-veronica-escobar/3734629001/}}</ref>
+* ''[[Houston Chronicle]]''<ref name="houstonchronicle.com endorsement">{{cite web |url=https://www.houstonchronicle.com/opinion/editorials/article/MJ-Hegar-John-Cornyn-US-Senate-endorsement-houston-15633490.php|website=Houston Chronicle |title=Editorial: We recommend MJ Hegar for US Senate|date=October 9, 2020 |access-date=October 9, 2020}}</ref>
+
+'''Organizations'''
+* [[Brady Campaign|Brady PAC]]<ref>{{cite web|last=King|first=Michael|url=https://www.austinchronicle.com/daily/news/2020-03-20/brady-pac-endorses-mj-hegar-for-senate/|title=Brady PAC Endorses MJ Hegar for Senate|work=[[The Austin Chronicle]]|date=March 20, 2020}}</ref>
+* [[High School Democrats of America]]<ref>{{Cite web|url=https://hsdems.org/texasfocus|title=Texas Focus|website=High School Democrats of America|access-date=September 3, 2020|archive-date=September 13, 2020|archive-url=https://web.archive.org/web/20200913094057/https://hsdems.org/texasfocus|url-status=dead}}</ref>
+* [[Houston GLBT Political Caucus]]<ref>{{Cite web|url=https://pac.thecaucus.org/endorsements/|title=Endorsements|website=Houston GLBT Political Caucus}}</ref>
+* [[Human Rights Campaign]]<ref>{{cite web| last1=Acosta| first1=Lucas|title= Human Rights Campaign Announces Pro-Equality Leaders for U.S. Senate|url=https://www.hrc.org/news/human-rights-campaign-announces-pro-equality-leaders-for-u-s-senate|website=Human Rights Campaign|date=July 15, 2020}}</ref>
+* [[J Street PAC]]<ref>{{cite web |title=JStreetPAC Candidates |url=https://donate.jstreetpac.org/candidate-directory/ |website=JStreetPAC |access-date=July 15, 2020 |archive-date=May 2, 2018 |archive-url=https://web.archive.org/web/20180502152638/https://donate.jstreetpac.org/candidate-directory/ |url-status=dead }}</ref>
+* [[Jewish Democratic Council of America]]<ref>{{Cite web|url=https://jewishdems.org/2020-endorsements/|title=2020 Endorsements|access-date=September 1, 2020|archive-date=July 26, 2020|archive-url=https://web.archive.org/web/20200726080707/https://jewishdems.org/2020-endorsements/|url-status=dead}}</ref>
+* [[League of Conservation Voters]] Action Fund<ref>{{cite web|title=LCV Action Fund Endorses MJ Hegar for Senate|url=https://www.lcv.org/article/lcv-action-fund-endorses-mj-hegar-senate/|website=League of Conservation Voters|date=August 3, 2020}}</ref>
+* [[Sierra Club]]<ref>{{cite web |title=Sierra Club #ClimateVoter Guide: Endorsements |url=https://www.sierraclubindependentaction.org/endorsements|website=Sierra Club |date=March 19, 2021|language=en}}</ref>
+* [[VoteVets.org]]<ref>{{cite web|title=MJ Hegar for Senate|url=https://www.votevets.org/candidates/mj-hegar-for-senate|website=VoteVets.org|access-date=September 1, 2020|archive-date=September 13, 2020|archive-url=https://web.archive.org/web/20200913085703/https://www.votevets.org/candidates/mj-hegar-for-senate|url-status=dead}}</ref>
+'''Unions'''
+* [[American Federation of Teachers]]<ref>{{cite web |url=https://www.texasaft.org/action/elections/texas-aft-endorses-mj-hegar-for-u-s-senate/ |title= Texas AFT endorses MJ Hegar for U.S. Senate |date=August 21, 2020 |publisher=Texas AFT}}</ref>
+* [[Communications Workers of America]]<ref name="Hegar Endorsements"/>
+* [[Transport Workers Union of America]]<ref name="LightAndChampion">{{cite web| title=Texas AFL-CIO Endorses MJ Hegar For U.S. Senate| url=https://www.lightandchampion.com/news-center-news/texas-afl-cio-endorses-mj-hegar-us-senate| publisher=Center Light and Champion| date=May 6, 2020| access-date=September 1, 2020| archive-date=October 20, 2020| archive-url=https://web.archive.org/web/20201020200919/https://www.lightandchampion.com/news-center-news/texas-afl-cio-endorses-mj-hegar-us-senate| url-status=dead}}</ref>
+* [[United Auto Workers]]<ref>{{cite web |title=Texas – Official UAW Endorsements |url=http://uawendorsements.org/map/texas/ |website=uawendorsements.org |publisher=United Automobile Workers}}</ref>
+* [[United Steelworkers]]<ref name="LightAndChampion"/>
+}}
+
+===Polling===
+
+====Graphical summary====
+{{Chart|definition=Opinion polling for the 2020 United States Senate election in Texas.chart|data=Opinion polling for the 2020 United States Senate election in Texas.tab|width=950px}}
+
+====Aggregate polls====
+{|class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
+!Source of poll aggregation
+!Dates administered
+!Dates updated
+!John Cornyn{{nbsp}}(R)
+!MJ Hegar{{nbsp}}(D)
+!Other/<br/>Undecided{{Efn|Calculated by taking the difference of 100% and all other candidates combined.}}
+!Margin
+|-
+|[[270 To Win]]<ref>[https://www.270towin.com/2020-senate-polls/texas/ 270 To Win]</ref>
+|November 2, 2020
+|November 3, 2020
+|{{party shading/Republican}}|'''48.6%'''
+|43.4%
+|8.0%
+|{{party shading/Republican}}|{{hs|5.2}}'''Cornyn +5.2'''
+|-
+|[[Real Clear Politics]]<ref>[https://www.realclearpolitics.com/epolls/2020/senate/tx/texas_senate_cornyn_vs_hegar-7047.html Real Clear Politics]</ref>
+|October 31, 2020
+|November 3, 2020
+|{{party shading/Republican}}|'''49.0%'''
+|42.5%
+|8.5%
+|{{party shading/Republican}}|{{hs|6.5}}'''Cornyn +6.5'''
+|}
+
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn{{nbsp}}(R)
+! style="width:100px;"| MJ<br />Hegar{{nbsp}}(D)
+! Other
+! Undecided
+|-
+|style="text-align:left;"|[[Swayable]]<ref>[https://www.swayable.com/polls/2020-11-02-large.html Swayable] {{Webarchive|url=https://web.archive.org/web/20201113073344/https://www.swayable.com/polls/2020-11-02-large.html |date=November 13, 2020 }}</ref>
+|October 27 – November 1, 2020
+|1,042 (LV)
+|±&nbsp;4%
+|{{party shading/Republican}}|'''56.5%'''
+|43.5%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Data For Progress]]<ref>[https://filesforprogress.org/datasets/2020/11/2020-election-polls/toplines/dfp_tx_11.1.20.pdf Data For Progress]</ref>
+|October 27 – November 1, 2020
+|926 (LV)
+|±{{nbsp}}3.2%
+|{{party shading/Republican}}|'''50%'''
+|47%
+|3%{{efn|Turullols-Bonilla (I) with 2%; McKennon (L) with 1%; "Other candidate or write-in" with 0%}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>[https://emersonpolling.reportablenews.com/pr/super-poll-sunday-democrats-within-striking-distance-in-key-southern-states Emerson College]</ref>
+|October 29–31, 2020
+|763 (LV)
+|±{{nbsp}}3.5%
+|{{party shading/Republican}}|'''51%'''{{efn|name="lean"}}
+|47%
+|2%{{efn|"Someone else" with 2%}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="Morning Consult">{{Cite web |url=https://morningconsult.com/form/2020-u-s-election-tracker/ |title=Morning Consult |access-date=October 13, 2020 |archive-date=January 24, 2021 |archive-url=https://web.archive.org/web/20210124160052/https://morningconsult.com/form/2020-u-s-election-tracker/ |url-status=dead }}</ref>
+|October 22–31, 2020
+|3,267 (LV)
+|±&nbsp;2%
+|{{party shading/Republican}}|'''47%'''
+|43%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Gravis Marketing]]<ref>[https://gravismarketing.com/texas-poll/ Gravis Marketing]</ref>
+|October 27–28, 2020
+|670 (LV)
+|±&nbsp;3.8%
+|{{party shading/Republican}}|'''49%'''
+|43%
+|{{sdash}}
+|8%
+|-
+|rowspan=3 style="text-align:left;"|[[RMG Research]]/[[PoliticalIQ]]<ref>[http://politicaliq.com/2020/10/30/tx-senate-cornyn-r-48-hegar-d-42/ RMG Research/PoliticalIQ] {{Webarchive|url=https://web.archive.org/web/20201031154504/http://politicaliq.com/2020/10/30/tx-senate-cornyn-r-48-hegar-d-42/ |date=October 31, 2020 }}</ref>
+|rowspan=3|October 27–28, 2020
+|rowspan=3|800 (LV)
+|rowspan=3|±&nbsp;3.5%
+|{{party shading/Republican}}|'''48%'''{{efn|Standard VI response}}
+|42%
+| 2%
+| 8%
+|-
+|{{party shading/Republican}}|'''46%'''{{efn|Results generated with high Democratic turnout model}}
+|44%
+| 2%
+| 8%
+|-
+|{{party shading/Republican}}|'''49%'''{{efn|Results generated with high Republican turnout model}}
+|41%
+| 2%
+| 8%
+|-
+|style="text-align:left;"|[[Swayable]]<ref>{{Cite web |url=https://www.swayable.com/polls/2020-10-28.html |title=Swayable |access-date=October 30, 2020 |archive-date=November 27, 2020 |archive-url=https://web.archive.org/web/20201127000641/https://www.swayable.com/polls/2020-10-28.html |url-status=dead }}</ref>
+|October 23–26, 2020
+|492 (LV)
+|±{{nbsp}}6%
+|{{party shading/Republican}}|'''52%'''
+|48%
+|{{sdash}}
+|{{sdash}}
+|-
+| style="text-align:left;"|[[YouGov]]/[[UMass Lowell]]<ref>[https://www.uml.edu/docs/2020-Texas-Oct-Topline_tcm18-331627.pdf YouGov/UMass Lowell]</ref>
+| October 20–26, 2020
+| 873 (LV)
+| ±&nbsp;4.2%
+| {{party shading/Republican}}|'''49%'''
+| 44%
+| 2%{{efn|Did not vote with 2%; "Another candidate" with 0%}}
+| 5%
+|-
+|style="text-align:left;"|[[Data for Progress|Data for Progress (D)]]<ref>[https://filesforprogress.org/memos/2020-senate-project/week-6/dfp_psp_tx_10.26.pdf Data for Progress (D)]</ref>
+|October 22–25, 2020
+|1,018 (LV)
+|±&nbsp;3.1%
+|{{party shading/Republican}}|'''48%'''
+|46%
+|2%{{efn|McKennon (L) and Turullols-Bonilla (I) with 1%; "Other candidate or write-in" with 0%}}
+|3%
+|-
+|style="text-align:left;"|[[Siena College]]/[[NYT Upshot]]<ref>[https://int.nyt.com/data/documenttools/tx102020-crosstabs-1/a1e2440aa9de6f2e/full.pdf Siena College/NYT Upshot]</ref>
+|October 20–25, 2020
+|802 (LV)
+|±&nbsp;3.8%
+|{{party shading/Republican}}|'''48%'''
+|38%
+|6%{{efn|McKennon (L) with 4%; "Someone else" and would not vote with 1%}}
+|8%{{efn|Includes "Refused"|name="Refused"}}
+|-
+|style="text-align:left;"|[[Univision]]/[[University of Houston]]/[[Latino Decisions]]/[[North Star Opinion Research|Latino<br />Decisions/North Star Opinion Research]]<ref>[https://st1.uvnimg.com/33/8f/ed1016da4a5fb16ec7e34cd5568a/univision-crosstabs-october-final.pdf Univision/University of Houston/Latino<br />Decisions/North Star Opinion Research]</ref>
+|October 17–25, 2020
+|758 (RV)
+|±{{nbsp}}3.56%
+|{{party shading/Republican}}|'''45%'''
+|40%
+|7%{{efn|"Someone else" with 4%; would not vote with 3%}}
+|8%
+|-
+|style="text-align:left;"|[[Citizen Data]]<ref>[https://github.com/GetCitizenData/VoteByMail/blob/master/VoteByMail-Texas/Modeling/October/Corrected%20Texas%20VBM%20Toplines%2010_29_20.pdf Citizen Data]</ref>
+|October 17–20, 2020
+|1,000 (LV)
+|±&nbsp;3%
+|'''41%'''
+|'''41%'''
+|4%
+|15%
+|-
+|style="text-align:left;"|[[YouGov]]/[[University of Houston]]<ref>[https://uh.edu/hobby/election2020/ YouGov/University of Houston]</ref>
+|October 13–20, 2020
+|1,000 (LV)
+|±&nbsp;3.1%
+| {{party shading/Republican}}|'''49%'''
+| 42%
+| 4%{{efn|McKennon (L) with 3%; Collins (G) with 1%|name="ML3CG1"}}
+| 6%
+|-
+|style="text-align:left;"|[[University of Texas at Tyler]]/[[Dallas Morning News]]<ref>{{Cite web |url=https://www.uttyler.edu/politicalscience/files/oct2020-lv-codebook-dmn-uttyler-poll.pdf |title=University of Texas at Tyler/Dallas Morning News |access-date=October 25, 2020 |archive-date=October 26, 2020 |archive-url=https://web.archive.org/web/20201026110934/https://www.uttyler.edu/politicalscience/files/oct2020-lv-codebook-dmn-uttyler-poll.pdf |url-status=dead }}</ref>
+|October 13–20, 2020
+|925 (LV)
+|±&nbsp;3.2%
+|{{party shading/Republican}}|'''42%'''
+|34%
+|5%{{efn|McKennon (L) with 3%; Collins (G) with 2%}}
+|18%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="Morning Consult"/>
+|October 11–20, 2020
+|3,347 (LV)
+|±&nbsp;1.7%
+|{{party shading/Republican}}|'''46%'''
+|41%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Cygnal (consulting firm)|Cygnal]]<ref name="Cygnal">[https://www.cygn.al/cygnal-poll-cornyn-leads-hegar-by-eight-points/ Cygnal]</ref>
+| October 18–19, 2020
+| 600 (LV)
+| ±&nbsp;4%
+| {{party shading/Republican}}|'''49%'''
+| 41%
+| 4%{{efn|name="ML3CG1"}}
+| 7%
+|-
+|style="text-align:left;"|[[Quinnipiac University]]<ref>[https://poll.qu.edu/pennsylvania/release-detail?ReleaseID=3680 Quinnipiac University]</ref>
+| October 16–19, 2020
+| 1,145 (LV)
+| ±&nbsp;2.9%
+| {{party shading/Republican}}|'''49%'''
+| 43%
+| 1%{{efn|"Someone else" with 1%}}
+| 7%
+|-
+|style="text-align:left;"|[[Data for Progress|Data for Progress (D)]]<ref>[https://filesforprogress.org/memos/2020-senate-project/week-5/toplines/tx.pdf Data for Progress (D)]</ref>
+| October 15–18, 2020
+| 933 (LV)
+| ±&nbsp;3.2%
+| {{party shading/Republican}}|'''44%'''{{efn|name="lean"}}
+| 41%
+| 3%{{efn|McKennon (L) with 2%; Turullols-Bonilla (I) with 1%; "Other candidate or write-in" with 0%}}
+| 12%
+|-
+|style="text-align:left;"|[[Public Policy Polling]]<ref>[https://www.publicpolicypolling.com/wp-content/uploads/2020/10/TexasSenatePollOctober2020-1.pdf Public Policy Polling]</ref>
+|October 14–15, 2020
+|712 (V)
+|{{sdash}}
+|{{party shading/Republican}}|'''49%'''
+|46%
+|{{sdash}}
+|5%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref>{{Cite web |url=https://morningconsult.com/form/2020-u-s-election-tracker/#section-5 |title=Morning Consult |access-date=October 13, 2020 |archive-date=January 24, 2021 |archive-url=https://web.archive.org/web/20210124160052/https://morningconsult.com/form/2020-u-s-election-tracker/#section-5 |url-status=dead }}</ref>[https://morningconsult.com/2020/10/13/texas-senate-polling-john-cornyn-mj-hegar/]
+|October 2–11, 2020
+|3,455 (LV)
+|±&nbsp;1.7%
+|{{party shading/Republican}}|'''47%'''{{efn|Overlapping sample with the previous Morning Consult poll, but more information available regarding sample size|name="overlap"}}
+|38%
+|{{sdash}}
+|12%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com">[https://assets.morningconsult.com/wp-uploads/2020/10/12174946/201012_Texas-Polling_FULLWIDTH.png Morning Consult]</ref>
+|September 29 – October 8, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''47%'''{{efn|Overlapping sample with the previous and subsequent Morning Consult polls, but more information available regarding sampling period}}
+|38%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|September 21–30, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''46%'''
+|39%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Civiqs]]/[[Daily Kos]]<ref>[https://civiqs.com/documents/Civiqs_DailyKos_TX_banner_book_2020_10_cm5k3s.pdf Civiqs/Daily Kos]</ref>
+|October 3–6, 2020
+|895 (LV)
+|±&nbsp;3.4%
+|{{party shading/Republican}}|'''47%'''
+|46%
+|3%{{efn|McKennon (L) with 2%; Collins (G) with 1%; "Someone else" with 0%}}
+|4%
+|-
+|style="text-align:left;"|[[Data For Progress|Data For Progress (D)]]<ref>[https://filesforprogress.org/memos/2020-senate-project/week-3/TX.pdf Data For Progress (D)]</ref>
+|September 30 – October 5, 2020
+|1,949 (LV)
+|±&nbsp;2.2%
+|{{party shading/Republican}}|'''45%'''
+|42%
+|3%{{efn|McKennon (L) with 2%; Turullols-Bonilla (I) with 1%}}
+|11%
+|-
+|style="text-align:left;"|[[YouGov]]/[[University of Texas]]/[[Texas Tribune]]<ref>[https://www.texastribune.org/2020/10/09/texas-poll-donald-trump-joe-biden/ YouGov/University of Texas/Texas Tribune]</ref>
+|September 25 – October 4, 2020
+|908 (LV)
+|±&nbsp;3.25%
+|{{party shading/Republican}}|'''50%'''
+|42%
+|5%{{efn|McKennon (L) with 3%; "Someone else" with 2%}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[YouGov]]/[[UMass Lowell]]<ref>[https://www.uml.edu/docs/2020-Texas-Sept-Topline_tcm18-330588.pdf YouGov/UMass Lowell]</ref>
+|September 18–25, 2020
+|882 (LV)
+|±&nbsp;4.3%
+|{{party shading/Republican}}|'''50%'''
+|40%
+|1%{{efn|"Another candidate" with 1%}}
+|9%
+|-
+|style="text-align:left;"|[[Siena College]]/[[NYT Upshot]]<ref>[https://int.nyt.com/data/documenttools/ga-ia-tx-crosstabs/ca61e64eaef883ac/full.pdf Siena College/NYT Upshot]</ref>
+|September 16–22, 2020
+|653 (LV)
+|±&nbsp;4.3%
+|{{party shading/Republican}}|'''43%'''
+|37%
+|6%{{efn|McKennon (L) with 4%; would not vote with 2%; "someone else" with 0%}}
+|14%{{efn|name="Refused"}}
+|-
+|style="text-align:left;"|[[Data For Progress]]<ref name="ReferenceB">[https://filesforprogress.org/memos/student-debt-project-electoral.pdf Data For Progress]</ref>{{efn-ua|Poll sponsored by the Defend Students Action Fund.}}
+|September 15–22, 2020
+|726 (LV)
+|±&nbsp;3.6%
+|{{party shading/Republican}}|'''40%'''
+|38%
+|{{sdash}}
+|22%
+|-
+|style="text-align:left;"|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/oh/oh09242020_bgfx53.pdf Quinnipiac University]</ref>
+|September 17–21, 2020
+|1,078 (LV)
+|±&nbsp;3.0%
+|{{party shading/Republican}}|'''50%'''
+|42%
+|{{sdash}}
+|7%
+|-
+| style="text-align:left;"|[[Morning Consult]]<ref>[https://morningconsult.com/2020/09/22/majority-makers-south-carolina-senate-harrison-graham/ Morning Consult]</ref>
+| September 11–20, 2020
+| 2,616 (LV)
+| ±{{nbsp}}(2% – 7%)
+| {{party shading/Republican}}|'''45%'''{{efn|name="overlap"}}
+| 39%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[YouGov]]/[[CBS]]<ref>[https://drive.google.com/file/d/1ZsMPYa9d2L2vg4YYk-DFcwlXosTMmMYP/view YouGov/CBS]</ref>
+|September 15–18, 2020
+|1,129 (LV)
+|±&nbsp;3.5%
+|{{party shading/Republican}}|'''46%'''
+|41%
+|3%{{efn|"Someone else" with 3%}}
+|10%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref>[https://morningconsult.com/2020/10/13/senate-graham-harrison-supreme-court-polling/ Morning Consult]</ref>
+|September 8–17, 2020
+|2,555 (LV){{efn|name="538.com"}}
+|±{{nbsp}}(2% – 4%)
+|{{party shading/Republican}}|'''45%'''{{efn|name="overlap"}}
+|38%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|September 2–11, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''45%'''
+|38%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Public Policy Polling|Public Policy Polling (D)]]<ref>[https://giffords.org/wp-content/uploads/2020/09/TexasResults1.pdf Public Policy Polling (D)]</ref>{{efn-ua|Giffords endorsed Hegar to this poll's sampling period}}
+|September 1–2, 2020
+|743 (V)
+|{{sdash}}
+|{{party shading/Republican}}|'''44%'''
+|40%
+|{{sdash}}
+|15%
+|-
+| rowspan=2 style="text-align:left;"|[[University of Texas at Tyler]]/[[Dallas Morning News]]<ref>[https://www.scribd.com/document/474962250/DMN-UTTyler-2020-Poll-Codebook-2 University of Texas at Tyler/Dallas Morning News]</ref>
+|rowspan=2| August 28 – September 2, 2020
+|897 (LV)
+|±&nbsp;3.3%
+|{{party shading/Republican}}|'''39%'''
+|28%
+|5%{{efn|McDermott (L) with 3%; Collins (G) with 2%}}
+|28%
+|-
+|1,141 (RV)
+|±&nbsp;2.9%
+|{{party shading/Republican}}|'''34%'''
+|24%
+|6%{{efn|Collins (G) and McDermott (L) with 3%}}
+|{{party shading/Undecided}}|'''36%'''
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|August 23 – September 1, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''46%'''
+|37%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Tyson Group]]<ref>[https://consumerenergyalliance.org/cms/wp-content/uploads/2020/09/CEA-TEXAS-Track.pdf Tyson Group]</ref>{{efn-ua|name=consumer|Poll sponsored for The Consumer Energy Alliance which is a pro-Keystone XL lobbying group.}}
+|August 20–25, 2020
+| 906 (LV)
+| ±&nbsp;3%
+|{{party shading/Republican}}|'''44%'''
+|42%
+|{{sdash}}
+|11%
+|-
+|style="text-align:left;"|[[Data for Progress|Data for Progress (D)]]<ref>[https://filesforprogress.org/datasets/2020/9/dfp_tx_survey_key_findings_sept4.pdf Data for Progress (D)]</ref>{{efn-ua|Poll conducted for the Texas Youth Power Alliance.}}
+|August 20–25, 2020
+|2,295 (LV)
+|±{{nbsp}}2.0%
+|{{party shading/Republican}}|'''46%'''
+|40%
+|{{sdash}}
+|15%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|August 13–22, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''44%'''
+|39%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[YouGov]]/[[Texas Hispanic Policy Foundation]]/[[Rice University's Baker Institute]]<ref>[https://www.txhpf.org/wp-content/uploads/2020/08/THPFFinalAug17.pdf YouGov/Texas Hispanic Policy Foundation/Rice University's Baker Institute]</ref>
+|August 4–13, 2020
+|892 (LV)
+|±&nbsp;3.3%
+|{{party shading/Republican}}|'''44%'''
+|37%
+|5%{{efn|McDermont (L) with 4%; Collins (G) with 1%}}
+|8%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|August 3–12, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''44%'''
+|38%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref>[https://morningconsult.com/2020/08/04/senate-presidential-polling-alabama-kentucky-sc-texas/ Morning Consult]</ref>
+|July 24 – August 2, 2020
+|2,576 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''44%'''{{efn|name="overlap"}}
+|38%
+|4%{{efn|"Someone else" with 4%}}
+|14%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|July 23 – August 1, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''44%'''
+|38%
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Global Strategy Group|Global Strategy Group (D)]]<ref>[https://www.politico.com/f/?id=00000173-b621-d8c4-a7f7-f76173a60000 Global Strategy Group (D)]</ref>{{efn-ua|Poll conducted for Latino Decisions.}}
+|July 25–29, 2020
+|700 (LV)
+|±&nbsp;3.7%
+|{{party shading/Republican}}|'''44%'''
+|43%
+|{{sdash}}
+|13%
+|-
+|style="text-align:left;"|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx07222020_tfmd13.pdf Quinnipiac University]</ref>
+|July 16–20, 2020
+|880 (RV)
+|±&nbsp;3.3%
+|{{party shading/Republican}}|'''47%'''
+|38%
+|3%{{efn|"Someone else" with 1%; would not vote with 2%}}
+|13%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="assets.morningconsult.com"/>
+|July 13–22, 2020
+|~2,700 (LV)
+|±&nbsp;2.0%
+|'''40%'''
+|'''40%'''
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left;"|[[Spry Strategies|Spry Strategies (R)]]<ref>[https://americanprinciplesproject.org/wp-content/uploads/2020/07/APP.Texas_.pdf Spry Strategies (R)]</ref>{{efn-ua|This poll's sponsor is the American Principles Project, a 501 that supports the Republican Party.}}
+|July 16–20, 2020
+|750 (LV)
+|±&nbsp;3.5%
+|{{party shading/Republican}}|'''47%'''
+|37%
+|14%{{efn|"Another candidate" with 14%}}
+|2%
+|-
+|style="text-align:left;"|[[YouGov]]/[[CBS]]<ref>[https://drive.google.com/file/d/18HFC79lmRr1KVcbrUysfJd6XpLZxZxaP/view YouGov/CBS]</ref>
+|July 7–10, 2020
+|1,179 (LV)
+|±&nbsp;3.4%
+|{{party shading/Republican}}|'''44%'''
+|36%
+|5%{{efn|"Someone else" with 4%; would not vote with 1%}}
+|15%
+|-
+|style="text-align:left;"|[[Dallas Morning News]]/[[University of Texas at Tyler]]<ref name="projects.fivethirtyeight.com"/>
+|June 29 – July 7, 2020
+|1,677 (LV)
+|±&nbsp;2.4%
+|{{party shading/Republican}}|'''42%'''
+|29%
+|5%
+|22%
+|-
+|style="text-align:left;"|[[Public Policy Polling]]<ref>[https://www.publicpolicypolling.com/wp-content/uploads/2020/07/TXToplines7220.pdf Public Policy Polling]</ref>
+|June 24–25, 2020
+|729 (RV)
+| ±&nbsp;3.6%
+|{{party shading/Republican}}|'''42%'''
+|35%
+|{{sdash}}
+|23%
+|-
+| style="text-align:left;"|[[FOX News]]<ref name="FOX News">[https://static.foxnews.com/foxnews.com/content/uploads/2020/06/Fox_June-20-23-2020_Complete_Texas_Topline_June-25-Release.pdf FOX News]</ref>
+| June 20–23, 2020
+| 1,001 (RV)
+| ±&nbsp;3.0%
+| {{party shading/Republican}}|'''46%'''
+| 36%
+| 6%{{efn|"Other" and would not vote with 3%|name="OWNV3"}}
+| 12%
+|-
+| style="text-align:left;"|[[Dallas Morning News]]/[[University of Texas at Tyler]]<ref name="ReferenceA"/>
+| April 18–27, 2020
+| 1,183 (RV)
+| ±&nbsp;2.9%
+| {{party shading/Republican}}|'''37%'''
+| 24%
+| 6%
+| 34%
+|-
+| style="text-align:left;"|[[NBC News]]/[[Marist Poll|Marist]]<ref name="NBC News/Marist"/>
+| February 23–27, 2020
+| 2,409 (RV)
+| ±&nbsp;2.5%
+| {{party shading/Republican}}|'''49%'''
+| 41%
+| 1%
+| 10%
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D"/>
+| November 9–21, 2019
+| 601 (RV)
+|{{sdash}}
+| {{party shading/Republican}}|'''44%'''
+| 30%
+|{{sdash}}
+| 26%
+|-
+| style="text-align:left;"|[[Emerson College]]<ref>[https://emersonpolling.reportablenews.com/pr/2020-texas-biden-and-beto-in-dead-heat-in-democratic-primary Emerson College]</ref>
+| April 25–28, 2019
+| 799 (RV)
+| ±&nbsp;3.4%
+| {{party shading/Republican}}| '''29%'''
+| 12%
+| 16%{{efn|"Someone else" with 16%}}
+| {{party shading/Undecided}}| '''44%'''
+|}
+
+<!-- = = = don't edit the line below = = = -->
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+'''with Royce West'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn (R)
+! style="width:100px;"| Royce<br />West (D)
+! Other
+! Undecided
+|-
+|style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>[https://drive.google.com/file/d/18HFC79lmRr1KVcbrUysfJd6XpLZxZxaP/view CBS News/YouGov]</ref>
+|July 7–10, 2020
+|1,182 (LV)
+|±&nbsp;3.4%
+|{{party shading/Republican}}|'''43%'''
+|37%
+|4%{{efn|"Someone else" with 3%; would not vote with 1%}}
+|15%
+|-
+|style="text-align:left;"|[[Dallas Morning News]]/[[University of Texas at Tyler]]<ref name="projects.fivethirtyeight.com"/>
+|June 29 – July 7, 2020
+|1,677 (LV)
+|±&nbsp;2.4%
+|{{party shading/Republican}}|'''43%'''
+|28%
+|6%
+|23%
+|-
+| style="text-align:left;"|[[FOX News]]<ref name="FOX News"/>
+| June 20–23, 2020
+| 1,001 (RV)
+| ±&nbsp;3.0%
+| {{party shading/Republican}}|'''47%'''
+| 37%
+| 6%{{efn|name="OWNV3"}}
+| 11%
+|-
+| style="text-align:left;"|[[Dallas Morning News]]/[[University of Texas at Tyler]]<ref name="ReferenceA"/>
+| April 18–27, 2020
+| 1,183 (RV)
+| ±&nbsp;2.85%
+| {{party shading/Republican}}|'''35%'''
+| 24%
+| 7%
+| 34%
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D"/>
+| November 9–21, 2019
+| 601 (RV)
+|{{sdash}}
+| {{party shading/Republican}}|'''45%'''
+| 33%
+|{{sdash}}
+| 22%
+|}
+
+'''with Chris Bell'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn (R)
+! style="width:100px;"| Chris<br />Bell (D)
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D"/>
+| November 9–21, 2019
+| 601 (RV)
+|{{sdash}}
+| {{party shading/Republican}}|'''45%'''
+| 30%
+|{{sdash}}
+| 25%
+|}
+
+'''with Sema Hernandez'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn (R)
+! style="width:100px;"| Sema<br />Hernandez (D)
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D"/>
+| November 9–21, 2019
+| 601 (RV)
+|{{sdash}}
+| {{party shading/Republican}}|'''45%'''
+| 29%
+|{{sdash}}
+| 26%
+|}
+
+'''with Beto O'Rourke'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn (R)
+! style="width:100px;"| Beto<br />O'Rourke (D)
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D"/>
+| November 9–21, 2019
+| 601 (RV)
+|{{sdash}}
+| {{party shading/Republican}}|'''46%'''
+| 42%
+|{{sdash}}
+| 12%
+|-
+| style="text-align:left;"|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx02282019_tbvn26.pdf Quinnipiac University]</ref>
+| February 20–25, 2019
+| 1,222 (RV)
+| ±&nbsp;3.4%
+| '''46%'''
+| '''46%'''
+| 1%
+| 6%
+|-
+| style="text-align:left;"|[[Public Policy Polling|Public Policy Polling (D)]]<ref>{{Deprecated archive|url=https://archive.today/20190215212835/https://twitter.com/PatrickSvitek/status/1096513104677097472|title=Public Policy Polling (D)}}</ref>{{efn-ua|name="DemToolbox"}}
+| February 13–14, 2019
+| 743 (RV)
+| ±&nbsp;3.6%
+| {{party shading/Republican}}| '''47%'''
+| 45%
+|{{sdash}}
+| 8%
+|-
+| style="text-align:left;"|[[Atlantic Media & Research|Atlantic Media & Research (R)]]<ref>[http://politicselections.com/new-poll-beto-not-liked-in-texas/ Atlantic Media & Research (R)]</ref>{{efn-ua|Poll sponsored by Courageous Conservatives PAC|name="CCPAC"}}
+| January 5–11, 2019
+| 504 (LV)
+| ±&nbsp;4.4%
+| {{party shading/Republican}}| '''50%'''
+| 37%
+|{{sdash}}
+|{{sdash}}
+|}
+
+'''with generic Democrat'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn (R)
+! style="width:100px;"| Generic<br />Democrat (D)
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[Univision]]/[[University of Houston|UH]]<ref>[https://st1.uvnimg.com/ac/23/c0b90672493cbe07ae750f9b79c9/finalunivisionpolling-tx-weighted.pdf Univision/UH]</ref>
+| February 21–26, 2020
+| 1,004 (RV)
+| ±&nbsp;3.4%
+| {{party shading/Republican}}|'''43%'''
+| 41%
+|{{sdash}}
+| 16%
+|-
+| style="text-align:left;"|[[Data for Progress]]<ref name="Data for Progress"/>
+| January 16–21, 2020
+| 1,486 (LV)
+|{{sdash}}
+|{{party shading/Republican}}|'''50%'''
+|42%
+|2%{{efn|Would not vote with 2%}}
+|7%
+|-
+| style="text-align:left;"|[[Beacon Research|Beacon Research (D)]]<ref name="Beacon Research D"/>
+| November 9–21, 2019
+| 601 (RV)
+|{{sdash}}
+| {{party shading/Republican}}|'''46%'''
+| 44%
+|{{sdash}}
+| 10%
+|-
+| style="text-align:left;"|[[Univision]]/[[University of Houston|UH]]<ref>[https://static.univision.com/especiales/noticias/infografias/2019/encuesta-septiembre/univision_national_texas_poll.pdf Univision/UH]</ref>
+| August 1 – September 6, 2019
+| 1,004 (RV)
+| ±&nbsp;3.4%
+| {{party shading/Republican}}|'''41%'''
+| 40%
+|{{sdash}}
+| 19%
+|}
+
+'''with generic Opponent'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| John<br />Cornyn (R)
+! style="width:100px;"| Generic<br />Opponent
+! Other
+! Undecided
+|-
+| style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac]]<ref>[https://poll.qu.edu/texas/release-detail?ReleaseID=3640 Quinnipiac]</ref>
+| September 4–9, 2019
+| 1,410 (RV)
+| ±&nbsp;3.1%
+|{{sdash}}
+| 23%
+| {{party shading/Other}}|'''35%'''{{efn|"Would definitely not vote for Cornyn" with 35%}}
+| {{party shading/Undecided}}|'''43%'''{{efn|"Would consider voting for Cornyn" with 30%; "Don't know/no answer" with 13%}}
+|}
+
+'''with generic Republican and generic Democrat'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| Generic<br />Republican (R)
+! style="width:100px;"| Generic<br />Democrat (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Cygnal (consulting firm)|Cygnal]]<ref name="Cygnal"/>
+| October 18–19, 2020
+| 600 (LV)
+| ±&nbsp;4%
+| {{party shading/Republican}}|'''50%'''
+| 43%
+| 7%
+|-
+|style="text-align:left;"|[[Data For Progress]]<ref name="ReferenceB"/>{{efn-ua|Poll sponsored by the Defend Students Action Fund.}}
+|September 15–22, 2020
+|726 (LV)
+|±&nbsp;3.6%
+|{{party shading/Republican}}|'''46%'''
+|41%
+|13%
+|-
+| style="text-align:left;"|[[Public Policy Polling]]<ref>[https://progresstexas.org/sites/default/files/June%202020%20Progress%20Texas-PPP%20Poll.pdf Public Policy Polling]</ref>
+| June 18–19, 2020
+| 907 (V)
+| ±&nbsp;3%
+| {{party shading/Republican}}|'''47%'''
+| 45%
+| 8%
+|}
+{{hidden end}}
+
+=== Results ===
+{{Election box begin
+| title=2020 United States Senate election in Texas<ref>{{cite web |title=Texas Election Results – US Senate Official Results |url=https://results.texas-election.com/contestdetails?officeID=1003&officeName=U.%20S.%20%20SENATOR&officeType=FEDERAL%20OFFICES&from=race |website=Texas Secretary of State |access-date=November 26, 2020}}</ref>}}
+{{Election box winning candidate with party link
+ | party      = Republican Party (United States)
+ | candidate  = [[John Cornyn]] (incumbent)
+ | votes      = 5,962,983
+ | percentage = 53.51%
+ | change = -8.05%
+}}
+{{Election box candidate with party link|party=Democratic Party (United States)|candidate=[[MJ Hegar]]|votes=4,889,384|percentage=43.87%|change=+9.51%}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Kerry McKennon|votes=209,722|percentage=1.88%|change=-1.00%}}
+{{Election box candidate with party link|party=Green Party (United States)|candidate=David Collins|votes=81,893|percentage=0.73%|change=-0.45%}}
+{{Election box candidate with party link|party=Independent|candidate=Ricardo Turullols-Bonilla (write-in)|votes=678|percentage=0.01%|change=N/A}}
+{{Election box total
+ | votes      = 11,144,660
+ | percentage = 100.0%
+}}
+{{Election box hold with party link no swing
+ | winner     = Republican Party (United States)
+}}
+{{Election box end}}
+
+====By county====
+{{collapse top|1=<span style="font-size:88%;">By county</span>|left=yes|bg=#B0CEFF;line-height:135%;|border=none}}
+{| class="wikitable sortable"
+|+ style=line-height:1.5|Legend
+|- {{Party shading/Republican}}
+| colspan="2" | Counties won by [[John Cornyn|Cornyn]]
+|- {{Party shading/Democratic}}
+| colspan="2" | Counties won by [[MJ Hegar|Hegar]]
+|}
+<div style="overflow:auto">
+{| class="wikitable sortable" style="text-align: right;"
+|+ 2020 U.S. Senate election results by Texas county
+|-
+! rowspan=2 | County
+! colspan="2" | Cornyn<br />Republican
+! colspan="2" | Hegar<br />Democratic
+! colspan="2" | McKennon<br />Libertarian
+! colspan="2" | Collins<br />Green
+! colspan="2" | Turullols-Bonilla<br /> (write-in)<br />Independent
+! colspan="2" | Margin
+! rowspan="2" data-sort-type="number" | Total<br />votes
+|-
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Anderson County, Texas|Anderson]]||14,943||78.35%||3,792||19.88%||249||1.31%||88||0.46%||0||0.00%||11,151||58.45%||19,072
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Andrews County, Texas|Andrews]]||4,894||84.38%||779||13.43%||107||1.84%||20||0.34%||0||0.00%||4,115||70.95%||5,800
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Angelina County, Texas|Angelina]]||24,962||72.66%||8,771||25.53%||461||1.34%||161||0.47%||0||0.00%||16,191||47.13%||34,355
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Aransas County, Texas|Aransas]]||9,189||75.54%||2,729||22.44%||178||1.46%||68||0.56%||0||0.00%||6,460||53.10%||12,164
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Archer County, Texas|Archer]]||4,178||88.44%||467||9.89%||65||1.38%||14||0.30%||0||0.00%||3,711||78.55%||4,724
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Armstrong County, Texas|Armstrong]]||1,025||93.27%||64||5.82%||5||0.45%||5||0.45%||0||0.00%||961||87.45%||1,099
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Atascosa County, Texas|Atascosa]]||11,906||66.53%||5,588||31.22%||258||1.44%||142||0.79%||2||0.01%||6,318||35.31%||17,896
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Austin County, Texas|Austin]]||11,454||79.10%||2,752||19.00%||215||1.48%||57||0.39%||3||0.02%||8,702||60.10%||14,481
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bailey County, Texas|Bailey]]||1,400||76.84%||383||21.02%||28||1.54%||11||0.60%||0||0.00%||1,017||55.82%||1,822
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bandera County, Texas|Bandera]]||9,957||79.42%||2,291||18.27%||234||1.87%||55||0.44%||0||0.00%||7,666||61.15%||12,537
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bastrop County, Texas|Bastrop]]||20,468||56.07%||15,071||41.28%||757||2.07%||208||0.57%||2||0.01%||5,397||14.79%||36,506
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Baylor County, Texas|Baylor]]||1,462||87.13%||177||10.55%||30||1.79%||9||0.54%||0||0.00%||1,285||76.58%||1,678
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bee County, Texas|Bee]]||5,713||63.09%||3,103||34.27%||171||1.89%||58||0.64%||10||0.11%||2,610||28.82%||9,055
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bell County, Texas|Bell]]||68,934||54.36%||54,413||42.91%||2,725||2.15%||727||0.57%||5||0.00%||14,521||11.45%||126,804
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Bexar County, Texas|Bexar]]||320,095||42.51%||411,328||54.63%||15,205||2.02%||6,307||0.84%||52||0.01%||-91,233||-12.12%||752,987
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Blanco County, Texas|Blanco]]||5,457||73.66%||1,816||24.51%||105||1.42%||30||0.40%||0||0.00%||3,641||49.15%||7,408
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Borden County, Texas|Borden]]||390||94.89%||18||4.38%||1||0.24%||2||0.49%||0||0.00%||372||90.51%||411
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bosque County, Texas|Bosque]]||7,367||81.50%||1,490||16.48%||121||1.34%||60||0.66%||1||0.01%||5,877||65.02%||9,039
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bowie County, Texas|Bowie]]||26,908||70.94%||10,406||27.43%||474||1.25%||143||0.38%||0||0.00%||16,502||43.51%||37,931
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brazoria County, Texas|Brazoria]]||90,705||59.14%||58,759||38.31%||3,019||1.97%||879||0.57%||5||0.00%||31,946||20.83%||153,367
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brazos County, Texas|Brazos]]||49,346||58.63%||32,098||38.14%||2,243||2.67%||462||0.55%||12||0.01%||17,248||20.49%||84,161
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brewster County, Texas|Brewster]]||2,453||51.40%||2,167||45.41%||113||2.37%||35||0.73%||4||0.08%||286||5.99%||4,772
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Briscoe County, Texas|Briscoe]]||625||87.41%||79||11.05%||6||0.84%||5||0.70%||0||0.00%||546||76.36%||715
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Brooks County, Texas|Brooks]]||859||36.46%||1,425||60.48%||39||1.66%||33||1.40%||0||0.00%||-566||-24.02%||2,356
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brown County, Texas|Brown]]||13,482||85.57%||1,965||12.47%||250||1.59%||58||0.37%||0||0.00%||11,517||73.10%||15,755
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Burleson County, Texas|Burleson]]||6,596||77.70%||1,709||20.13%||142||1.67%||42||0.49%||0||0.00%||4,887||57.57%||8,489
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Burnet County, Texas|Burnet]]||18,687||76.15%||5,323||21.69%||438||1.78%||92||0.37%||0||0.00%||13,364||54.46%||24,540
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Caldwell County, Texas|Caldwell]]||8,044||54.06%||6,449||43.34%||272||1.83%||103||0.69%||12||0.08%||1,595||10.72%||14,880
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Calhoun County, Texas|Calhoun]]||5,531||71.41%||2,092||27.01%||100||1.29%||22||0.28%||0||0.00%||3,439||44.40%||7,745
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Callahan County, Texas|Callahan]]||5,892||87.69%||680||10.12%||106||1.58%||41||0.61%||0||0.00%||5,212||77.57%||6,719
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Cameron County, Texas|Cameron]]||46,482||41.79%||61,508||55.30%||1,797||1.62%||1,433||1.29%||3||0.00%||-15,026||-13.51%||111,223
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Camp County, Texas|Camp]]||3,597||71.43%||1,359||26.99%||57||1.13%||22||0.44%||1||0.02%||2,238||44.44%||5,036
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Carson County, Texas|Carson]]||2,756||88.53%||286||9.19%||63||2.02%||5||0.16%||3||0.10%||2,470||79.34%||3,113
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cass County, Texas|Cass]]||10,796||78.16%||2,672||19.34%||153||1.11%||192||1.39%||0||0.00%||8,124||58.82%||13,813
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Castro County, Texas|Castro]]||1,572||77.02%||432||21.17%||24||1.18%||13||0.64%||0||0.00%||1,140||55.85%||2,041
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Chambers County, Texas|Chambers]]||17,037||79.79%||3,786||17.73%||419||1.96%||111||0.52%||0||0.00%||13,251||62.06%||21,353
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cherokee County, Texas|Cherokee]]||14,945||77.31%||4,058||20.99%||269||1.39%||59||0.31||0||0.00%||10,887||56.32%||19,331
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Childress County, Texas|Childress]]||1,936||85.70%||283||12.53%||29||1.28%||11||0.49%||0||0.00%||1,653||73.17%||2,259
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Clay County, Texas|Clay]]||4,958||87.01%||632||11.09%||69||1.21%||27||0.47%||12||0.21%||4,326||75.92%||5,698
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cochran County, Texas|Cochran]]||765||78.22%||183||18.71%||22||2.25%||8||0.82%||0||0.00%||582||59.51%||978
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Coke County, Texas|Coke]]||1,557||88.77%||171||9.75%||23||1.31%||3||0.17%||0||0.00%||1,386||79.02%||1,754
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Coleman County, Texas|Coleman]]||3,586||88.22%||426||10.48%||37||0.91%||16||0.39%||0||0.00%||3,160||77.74%||4,065
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Collin County, Texas|Collin]]||263,074||54.66%||207,005||43.01%||8,495||1.76%||2,721||0.57%||11||0.00%||56,069||11.65%||481,306
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Collingsworth County, Texas|Collingsworth]]||1,032||86.58%||145||12.16%||10||0.84%||4||0.34%||1||0.08%||887||74.42%||1,192
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Colorado County, Texas|Colorado]]||7,367||74.49%||2,362||23.88%||116||1.17%||43||0.43%||2||0.02%||5,005||50.61%||9,890
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Comal County, Texas|Comal]]||63,545||71.99%||22,552||25.55%||1,753||1.99%||418||0.47%||2||0.00%||40,993||46.44%||88,270
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Comanche County, Texas|Comanche]]||5,053||84.16%||831||13.84%||90||1.50%||30||0.50%||0||0.00%||4,222||70.32%||6,004
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Concho County, Texas|Concho]]||1,029||82.52%||193||15.48%||20||1.60%||5||0.40%||0||0.00%||836||67.04%||1,247
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cooke County, Texas|Cooke]]||15,516||82.20%||2,999||15.89%||277||1.47%||85||0.45%||0||0.00%||12,517||66.31%||18,877
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Coryell County, Texas|Coryell]]||15,372||66.12%||7,118||30.62%||609||2.62%||149||0.64%||1||0.00%||8,254||35.50%||23,249
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cottle County, Texas|Cottle]]||534||81.40%||110||16.77%||7||1.07%||5||0.76%||0||0.00%||424||64.63%||656
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Crane County, Texas|Crane]]||1,213||82.01%||229||15.48%||24||1.62%||13||0.88%||0||0.00%||984||66.53%||1,479
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Crockett County, Texas|Crockett]]||1,146||76.76%||314||21.03%||21||1.41%||12||0.80%||0||0.00%||832||55.73%||1,493
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Crosby County, Texas|Crosby]]||1,356||72.09%||486||25.84%||25||1.33%||14||0.74%||0||0.00%||870||46.25%||1,881
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Culberson County, Texas|Culberson]]||367||47.17%||385||49.49%||19||2.44%||6||0.77%||1||0.13%||-18||-2.32%||778
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dallam County, Texas|Dallam]]||1,369||85.83%||200||12.54%||21||1.32%||5||0.31%||0||0.00%||1,169||73.29%||1,595
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Dallas County, Texas|Dallas]]||330,851||36.13%||560,603||61.22%||15,905||1.74%||8,282||0.90%||20||0.00%||-229,752||-25.09%||915,661
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dawson County, Texas|Dawson]]||2,827||77.64%||738||20.27%||60||1.65%||14||0.38%||2||0.05%||2,089||57.37%||3,641
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Deaf Smith County, Texas|Deaf Smith]]||3,273||72.20%||1,151||25.39%||73||1.61%||36||0.79%||0||0.00%||2,122||46.81%||4,533
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Delta County, Texas|Delta]]||2,111||83.31%||370||14.60%||31||1.22%||22||0.87%||0||0.00%||1,741||68.71%||2,534
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Denton County, Texas|Denton]]||231,025||55.91%||170,984||41.38%||8,553||2.07%||2,627||0.64%||22||0.01%||60,041||14.53%||413,211
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dewitt County, Texas|Dewitt]]||6,399||81.13%||1,384||17.55%||84||1.07%||20||0.25%||0||0.00%||5,015||63.58%||7,887
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dickens County, Texas|Dickens]]||808||84.34%||133||13.88%||13||1.36%||4||0.42%||0||0.00%||675||70.46%||958
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Dimmit County, Texas|Dimmit]]||1,274||36.74%||2,122||61.19%||39||1.12%||30||0.87%||3||0.09%||-848||-24.45%||3,468
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Donley County, Texas|Donley]]||1,418||87.26%||181||11.14%||22||1.35%||4||0.25%||0||0.00%||1,237||76.12%||1,625
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Duval County, Texas|Duval]]||1,787||40.44%||2,458||55.62%||97||2.20%||77||1.74%||0||0.00%||-671||-15.18%||4,419
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Eastland County, Texas|Eastland]]||7,015||86.72%||910||11.25%||131||1.62%||31||0.38%||2||0.02%||6,105||75.47%||8,089
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ector County, Texas|Ector]]||31,711||72.78%||10,682||24.52%||902||2.07%||277||0.64%||0 ||0.00%||21,029||48.26%||43,572
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Edwards County, Texas|Edwards]]||824||83.57%||144||14.60%||14||1.42%||3||0.30%||1||0.10%||680||68.97%||986
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[El Paso County, Texas|El Paso]]||80,021||30.87%||164,931||63.62%||8,248||3.18%||6,036||2.33%||14||0.01%||-84,910||-32.75%||259,250
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ellis County, Texas|Ellis]]||57,078||67.12%||25,780||30.32%||1,589||1.87%||585||0.69%||7||0.01%||31,298||36.80%||85,039
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Erath County, Texas|Erath]]||13,564||81.18%||2,707||16.20%||335||2.01%||102||0.61%||0||0.00%||10,857||64.98%||16,708
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Falls County, Texas|Falls]]||4,157||68.84%||1,787||29.59%||76||1.26%||19||0.31%||0||0.00%||2,370||39.25%||6,039
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Fannin County, Texas|Fannin]]||11,836||80.25%||2,559||17.35%||273||1.85%||80||0.54%||1||0.01%||9,277||62.90%||14,749
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Fayette County, Texas|Fayette]]||10,056||78.17%||2,634||20.48%||129||1.00%||45||0.35%||0||0.00%||7,422||57.69%||12,864
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Fisher County, Texas|Fisher]]||1,418||78.60%||351||19.46%||28||1.55%||7||0.39%||0||0.00%||1,067||59.14%||1,804
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Floyd County, Texas|Floyd]]||1,554||78.09%||397||19.95%||29||1.46%||10||0.50%||0||0.00%||1,157||58.14%||1,990
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Foard County, Texas|Foard]]||404||77.84%||107||20.62%||7||1.35%||1||0.19%||0||0.00%||297||57.22%||519
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Fort Bend County, Texas|Fort Bend]]||160,977||46.33%||178,984||51.52%||5,359||1.54%||2,112||0.61%||7||0.00%||-18,007||-5.19%||347,439
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Franklin County, Texas|Franklin]]||4,114||83.25%||753||15.24%||63||1.27%||12||0.24%||0||0.00%||3,361||68.01%||4,942
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Freestone County, Texas|Freestone]]||6,838||79.91%||1,553||18.15%||116||1.36%||50||0.58%||0||0.00%||5,285||61.76%||8,557
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Frio County, Texas|Frio]]||2,489||50.58%||2,283||46.39%||71||1.44%||78||1.59%||0||0.00%||206||4.19%||4,921
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gaines County, Texas|Gaines]]||5,118||88.85%||548||9.51%||76||1.32%||18||0.31%||0||0.00%||4,570||79.34%||5,760
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Galveston County, Texas|Galveston]]||94,317||61.49%||55,094||35.92%||3,003||1.96%||969||0.63%||3||0.00%||39,223||25.57%||153,386
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Garza County, Texas|Garza]]||1,374||84.97%||225||13.91%||11||0.68%||7||0.43%||0||0.00%||1,149||71.06%||1,617
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gillespie County, Texas|Gillespie]]||12,543||79.49%||2,996||18.99%||200||1.27%||39||0.25%||1||0.01%||9,547||60.50%||15,779
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Glasscock County, Texas|Glasscock]]||603||93.34%||35||5.42%||5||0.77%||3||0.46%||0||0.00%||568||87.92%||646
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Goliad County, Texas|Goliad]]||3,000||76.75%||840||21.49%||43||1.10%||14||0.36%||12||0.31%||2,160||55.26%||3,909
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gonzales County, Texas|Gonzales]]||5,617||74.59%||1,782||23.66%||89||1.18%||42||0.56%||1||0.01%||3,835||50.93%||7,531
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gray County, Texas|Gray]]||6,705||87.21%||774||10.07%||167||2.17%||42||0.55%||0||0.00%||5,931||77.14%||7,688
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Grayson County, Texas|Grayson]]||43,735||74.16%||13,938||23.63%||1,008||1.71%||293||0.50%||0||0.00%||29,797||50.53%||58,974
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gregg County, Texas|Gregg]]||32,467||68.37%||14,025||29.54%||787||1.66%||204||0.43%||1||0.00%||18,442||38.83%||47,484
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Grimes County, Texas|Grimes]]||9,338||76.07%||2,678||21.82%||199||1.62%||60||0.49%||0||0.00%||6,660||54.25%||12,275
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Guadalupe County, Texas|Guadalupe]]||48,308||62.75%||26,697||34.68%||1,545||2.01%||428||0.56%||3||0.00%||21,611||28.07%||76,981
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hale County, Texas|Hale]]||6,999||74.65%||2,155||22.98%||155||1.65%||67||0.71%||0 ||0.00%||4,844||51.67%||9,376
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hall County, Texas|Hall]]||967||84.82%||156||13.68%||7||0.61%||10||0.88%||0||0.00%||811||71.14%||1,140
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hamilton County, Texas|Hamilton]]||3,574||83.23%||594||13.83%||63||1.47%||45||1.05%||18||0.42%||2,288||53.28%||4,294
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hansford County, Texas|Hansford]]||1,844||90.93%||158||7.79%||21||1.04%||5||0.25%||0||0.00%||1,686||83.14%||2,028
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hardeman County, Texas|Hardeman]]||1,313||84.44%||232||14.92%||9||0.58%||1||0.06%||0||0.00%||1,081||69.52%||1,555
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hardin County, Texas|Hardin]]||23,516||85.87%||3,388||12.37%||393||1.44%||87||0.32%||0||0.00%||20,128||73.50%||27,384
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Harris County, Texas|Harris]]||718,228||44.49%||854,158||52.90%||29,217||1.81%||12,889||0.80%||33||0.00%||-135,930||-8.41%||1,614,525
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Harrison County, Texas|Harrison]]||21,231||72.25%||7,612||25.91%||440||1.50%||101||0.34%||1||0.00%||13,619||46.34%||29,384
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hartley County, Texas|Hartley]]||1,859||89.72%||176||8.49%||27||1.30%||10||0.48%||0||0.00%||1,683||81.23%||2,072
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Haskell County, Texas|Haskell]]||1,808||82.82%||347||15.90%||15||0.69%||13||0.60%||0||0.00%||1,461||66.92%||2,183
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Hays County, Texas|Hays]]||49,539||45.64%||55,597||51.22%||2,595||2.39%||814||0.75%||1||0.00%||-6,058||-5.58%||108,546
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hemphill County, Texas|Hemphill]]||1,465||86.53%||197||11.64%||22||1.30%||9||0.53%||0||0.00%||1,268||74.89%||1,693
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Henderson County, Texas|Henderson]]||28,717||79.56%||6,672||18.48%||526||1.46%||180||0.50%||1||0.00%||22,045||61.08%||36,096
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Hidalgo County, Texas|Hidalgo]]||84,284||40.23%||116,962||55.83%||5,072||2.42%||3,119||1.49%||46||0.02%||-32,678||-15.60%||209,483
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hill County, Texas|Hill]]||11,845||79.89%||2,688||18.13%||196||1.32%||98||0.66%||0||0.00%||9,157||61.76%||14,827
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hockley County, Texas|Hockley]]||6,449||80.73%||1,384||17.33%||124||1.55%||28||0.35%||3||0.04%||5,065||63.40%||7,988
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hood County, Texas|Hood]]||26,253||81.58%||5,228||16.25%||509||1.58%||189||0.59%||2||0.01%||21,025||65.33%||32,181
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hopkins County, Texas|Hopkins]]||12,497||79.87%||2,833||18.11%||236||1.51%||81||0.52%||0||0.00%||6,761||43.21%||15,647
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Houston County, Texas|Houston]]||6,984||74.82%||2,230||23.89%||92||0.99%||28||0.30%||0||0.00%||4,754||50.93%||9,334
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Howard County, Texas|Howard]]||7,854||78.14%||1,959||19.49%||193||1.92%||45||0.45%||0||0.00%||5,895||58.65%||10,051
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hudspeth County, Texas|Hudspeth]]||680||61.76%||383||34.79%||22||2.00%||15||1.36%||1||0.09%||297||26.97%||1,101
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hunt County, Texas|Hunt]]||28,888||75.91%||8,319||21.86%||628||1.65%||223||0.59%||0||0.00%||20,569||54.05%||38,058
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hutchinson County, Texas|Hutchinson]]||7,575||87.14%||900||10.35%||178||2.05%||36||0.41%||4||0.05%||6,675||76.79%||8,693
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Irion County, Texas|Irion]]||760||86.36%||111||12.61%||9||1.02%||0||0.41%||0||0.05%||649||73.75%||880
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jack County, Texas|Jack]]||3,322||89.78%||319||8.62%||41||1.11%||17||0.46%||1||0.03%||3,003||81.16%||3,700
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jackson County, Texas|Jackson]]||5,167||81.90%||1,021||16.18%||81||1.28%||26||0.41%||14||0.22%||4,146||65.72%||6,309
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jasper County, Texas|Jasper]]||12,312||80.01%||2,851||18.53%||180||1.17%||42||0.27%||4||0.03%||9,461||61.48%||15,389
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jeff Davis County, Texas|Jeff Davis]]||767||59.64%||483||37.56%||30||2.33%||6||0.47%||0||0.00%||284||22.08%||1,286
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jefferson County, Texas|Jefferson]]||46,928||50.50%||44,112||47.47%||1,418||1.53%||464||0.50%||4||0.00%||2,816||3.03%||92,926
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Jim Hogg County, Texas|Jim Hogg]]||652||33.89%||1,136||61.61%||30||1.63%||26||1.41%||0||0.00%||-484||-27.72%||1,844
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jim Wells County, Texas|Jim Wells]]||6,957||52.47%||6,025||45.44%||170||1.28%||108||0.81%||0||0.00%||932||7.03%||13,260
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Johnson County, Texas|Johnson]]||54,403||76.13%||15,474||21.65%||1,217||1.70%||369||0.52%||0||0.00%||38,929||54.48%||71,463
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jones County, Texas|Jones]]||5,546||83.76%||967||14.61%||81||1.22%||27||0.41%||0||0.00%||4,579||69.15%||6,621
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Karnes County, Texas|Karnes]]||3,833||75.32%||1,178||23.15%||58||1.14%||20||0.39%||0||0.00%||2,655||52.17%||5,089
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kaufman County, Texas|Kaufman]]||37,649||66.67%||17,507||31.00%||961||1.70%||352||0.62%||2||0.00%||20,142||35.67%||56,471
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kendall County, Texas|Kendall]]||20,584||77.99%||5,335||20.21%||374||1.42%||99||0.38%||0||0.00%||15,249||57.78%||26,392
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kenedy County, Texas|Kenedy]]||107||63.31%||57||33.73%||4||2.37%||1||0.59%||0||0.00%||50||29.58%||169
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kent County, Texas|Kent]]||386||86.74%||53||11.91%||4||0.90%||2||0.45%||0||0.00%||333||74.83%||445
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kerr County, Texas|Kerr]]||21,022||76.32%||5,946||21.59%||446||1.62%||128||0.46%||1||0.00%||15,076||54.73%||27,543
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kimble County, Texas|Kimble]]||1,962||87.08%||254||11.27%||28||1.24%||9||0.40%||0||0.00%||1,708||75.81%||2,253
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[King County, Texas|King]]||149||96.75%||5||3.25%||0||0.00%||0||0.00%||0||0.00%||144||93.50%||154
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kinney County, Texas|Kinney]]||1,070||70.95%||395||26.19%||25||1.58%||13||0.86%||5||0.33%||675||44.76%||1,508
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kleberg County, Texas|Kleberg]]||5,374||50.19%||5,067||47.32%||183||1.71%||84||0.78%||0||0.00%||307||2.87%||10,708
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Knox County, Texas|Knox]]||1,147||80.15%||263||18.38%||15||1.05%||5||0.35%||1||0.07%||884||61.77%||1,431
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lamar County, Texas|Lamar]]||16,476||77.85%||4,295||20.29%||279||1.32%||101||0.48%||14||0.07%||12,181||57.56%||21,165
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lamb County, Texas|Lamb]]||3,469||79.38%||802||18.35%||75||1.72%||22||0.50%||2||0.05%||2,667||61.03%||4,370
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lampasas County, Texas|Lampasas]]||8,102||78.43%||1,978||19.15%||189||1.83%||61||0.59%||0||0.07%||6,124||59.28%||10,330
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[La Salle County, Texas|La Salle]]||1,082||50.40%||1,005||46.81%||30||1.40%||29||1.35%||1||0.05%||77||3.59%||2,147
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lavaca County, Texas|Lavaca]]||8,599||85.66%||1,305||13.00%||109||1.09%||23||0.23%||2||0.02%||7,294||72.66%||10,038
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lee County, Texas|Lee]]||6,211||77.32%||1,689||21.03%||96||1.20%||36||0.45%||0||0.07%||4,522||56.29%||8,032
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Leon County, Texas|Leon]]||7,421||86.37%||1,028||11.96%||102||1.19%||41||0.48%||0||0.00%||6,393||74.41%||8,592
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Liberty County, Texas|Liberty]]||22,743||78.40%||5,662||19.52%||477||1.64%||127||0.44%||0||0.00%||17,081||58.88%||29,009
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Limestone County, Texas|Limestone]]||6,656||74.23%||2,112||23.55%||122||1.36%||77||0.86%||0||0.00%||4,544||50.68%||8,967
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lipscomb County, Texas|Lipscomb]]||1,181||89.20%||117||8.84%||25||1.89%||1||0.08%||0||0.00%||1,064||80.36%||1,324
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Live Oak County, Texas|Live Oak]]||4,122||82.75%||790||15.86%||55||1.10%||14||0.28%||0||0.00%||3,332||66.89%||4,981
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Llano County, Texas|Llano]]||10,047||79.76%||2,331||18.51%||171||1.36%||47||0.37%||0||0.00%||7,716||61.25%||12,596
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Loving County, Texas|Loving]]||58||89.23%||5||7.69%||2||3.08%||0||0.28%||0||0.00%||53||81.54%||65
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lubbock County, Texas|Lubbock]]||79,459||66.49%||36,319||30.39%||3,018||2.53%||702||0.59%||6||0.01%||43,140||36.10%||119,504
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lynn County, Texas|Lynn]]||1,817||80.29%||411||18.16%||25||1.10%||10||0.44%||0||0.00%||1,406||62.13%||2,263
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Madison County, Texas|Madison]]||4,118||78.84%||1,030||19.72%||61||1.17%||14||0.27%||0||0.00%||3,088||59.12%||5,223
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Marion County, Texas|Marion]]||3,380||71.04%||1,276||26.82%||85||1.79%||17||0.36%||0||0.00%||2,104||44.22%||4,758
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Martin County, Texas|Martin]]||1,811||85.75%||263||12.45%||27||1.28%||11||0.52%||0||0.00%||1,548||73.30%||2,112
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Mason County, Texas|Mason]]||1,980||80.65%||443||18.04%||25||1.02%||7||0.29%||0||0.00%||1,537||62.61%||2,455
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Matagorda County, Texas|Matagorda]]||9,647||71.55%||3,551||26.34%||222||1.65%||62||0.46%||0||0.00%||6,096||45.21%||13,482
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Maverick County, Texas|Maverick]]||5,708||39.95%||7,956||55.68%||269||1.88%||349||2.44%||7||0.05%||-2,248||-15.73%||14,289
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[McCulloch County, Texas|McCulloch]]||2,843||83.99%||460||13.59%||63||1.86%||19||0.56%||0||0.00%||2,383||70.40%||3,385
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[McLennan County, Texas|McLennan]]||60,036||62.45%||33,439||34.79%||2,015||2.10%||636||0.66%||3||0.00%||26,597||27.66%||96,129
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[McMullen County, Texas|McMullen]]||454||90.80%||43||8.60%||2||0.40%||1||0.20%||0||0.00%||411||82.20%||500
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Medina County, Texas|Medina]]||15,594||70.21%||6,207||27.94%||313||1.41%||96||0.43%||2||0.01%||9,387||42.27%||22,212
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Menard County, Texas|Menard]]||797||79.70%||189||18.90%||10||1.00%||4||0.10%||0||0.00%||608||60.80%||1,000
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Midland County, Texas|Midland]]||45,733||78.14%||11,417||19.51%||1,162||1.99%||216||0.37%||0||0.00%||34,316||58.63%||58,528
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Milam County, Texas|Milam]]||7,759||75.10%||2,382||23.06%||136||1.32%||54||0.52%||0||0.00%||5,377||52.04%||10,331
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Mills County, Texas|Mills]]||2,196||88.30%||252||10.13%||30||1.21%||9||0.36%||0||0.00%||1,944||78.17%||2,487
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Mitchell County, Texas|Mitchell]]||2,129||83.82%||359||14.13%||40||1.57%||12||0.47%||0||0.00%||1,770||69.69%||2,540
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Montague County, Texas|Montague]]||8,526||87.37%||1,051||10.77%||135||1.38%||47||0.48%||0||0.00%||7,475||76.60%||9,759
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Montgomery County, Texas|Montgomery]]||194,528||72.36%||68,254||25.39%||4,844||1.80%||1,208||0.45%||4||0.00%||126,274||46.97%||268,838
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Moore County, Texas|Moore]]||4,314||79.20%||999||18.34%||102||1.87%||32||0.59%||0||0.00%||3,315||60.86%||5,447
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Morris County, Texas|Morris]]||3,753||68.47%||1,639||29.90%||66||1.20%||21||0.38%||2||0.04%||2,114||38.57%||5,481
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Motley County, Texas|Motley]]||591||92.63%||44||6.90%||3||0.47%||0||0.00%||0||0.00%||547||85.73%||638
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Nacogdoches County, Texas|Nacogdoches]]||17,370||65.55%||8,487||32.03%||476||1.80%||163||0.62%||3||0.01%||8,883||33.52%||26,499
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Navarro County, Texas|Navarro]]||13,701||72.26%||4,821||25.42%||315||1.66%||125||0.66%||0||0.00%||8,880||46.84%||18,962
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Newton County, Texas|Newton]]||4,784||79.51%||1,163||19.33%||47||0.78%||23||0.38%||0||0.00%||3,621||60.18%||6,017
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Nolan County, Texas|Nolan]]||4,102||77.67%||1,077||20.39%||84||1.59%||18||0.34%||0||0.00%||3,025||57.28%||5,281
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Nueces County, Texas|Nueces]]||64,558||51.52%||57,180||45.63%||2,564||2.05%||997||0.80%||15||0.01%||7,378||5.89%||125,314
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ochiltree County, Texas|Ochiltree]]||2,783||89.60%||278||8.95%||36||1.16%||8||0.26%||1||0.03%||2,505||80.65%||3,106
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Oldham County, Texas|Oldham]]||908||91.16%||74||7.43%||9||0.90%||5||0.50%||0||0.00%||834||83.73%||996
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Orange County, Texas|Orange]]||28,720||80.46%||6,249||17.51%||572||1.60%||140||0.39%||12||0.03%||22,471||62.95%||35,693
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Palo Pinto County, Texas|Palo Pinto]]||9,999||81.11%||2,028||16.45%||231||1.87%||70||0.57%||0||0.00%||7,971||64.66%||12,328
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Panola County, Texas|Panola]]||9,145||80.91%||2,015||17.83%||109||0.96%||30||0.27%||4||0.04%||7,130||63.08%||11,303
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Parker County, Texas|Parker]]||61,705||81.71%||11,919||15.78%||468||0.62%||5||0.01%||0||0.00%||49,786||65.93%||75,520
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Parmer County, Texas|Parmer]]||2,132||81.16%||454||17.28%||28||1.07%||13||0.49%||0||0.00%||1,678||63.88%||2,627
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Pecos County, Texas|Pecos]]||3,081||67.43%||1,376||30.12%||79||1.73%||32||0.70%||1||0.02%||1,705||37.31%||4,569
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Polk County, Texas|Polk]]||17,735||75.37%||5,237||22.26%||426||1.81%||133||0.57%||0||0.00%||12,498||53.11%||23,531
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Potter County, Texas|Potter]]||22,683||69.08%||9,168||27.92%||738||2.25%||247||0.75%||0||0.00%||13,515||41.16%||32,836
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Presidio County, Texas|Presidio]]||651||31.13%||1,374||65.71%||29||1.39%||37||1.77%||0||0.00%||-723||-34.58%||2,091
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Rains County, Texas|Rains]]||5,060||85.00%||789||13.25%||81||1.36%||26||0.44%||0||0.00%||4,271||71.75%||5,956
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Randall County, Texas|Randall]]||51,116||79.47%||11,618||18.06%||1,348||2.10%||234||0.36%||6||0.01%||39,498||61.41%||64,322
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Reagan County, Texas|Reagan]]||893||83.54%||154||14.41%||13||1.22%||9||0.84%||0||0.00%||739||69.13%||1,069
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Real County, Texas|Real]]||1,626||83.86%||286||14.75%||19||0.98%||8||0.41%||0||0.00%||1,340||69.11%||1,939
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Red River County, Texas|Red River]]||4,452||77.67%||1,191||20.78%||58||1.01%||31||0.54%||0||0.00%||3,261||56.89%||5,732
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Reeves County, Texas|Reeves]]||1,983||57.71%||1,337||38.91%||73||2.12%||43||1.25%||0||0.00%||646||18.80%||3,436
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Refugio County, Texas|Refugio]]||2,073||65.33%||1,023||32.24%||52||1.64%||24||0.476||1||0.03%||1,050||33.09%||3,173
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Roberts County, Texas|Roberts]]||526||96.51%||15||2.75%||4||0.73%||0||0.00%||0||0.00%||511||93.76%||545
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Robertson County, Texas|Robertson]]||5,590||69.97%||2,244||28.09%||118||1.48%||36||0.45%||1||0.01%||3,346||41.88%||7,989
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Rockwall County, Texas|Rockwall]]||37,584||69.88%||15,009||27.91%||932||1.73%||257||0.48%||0||0.00%||22,575||41.97%||53,782
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Runnels County, Texas|Runnels]]||3,722||86.00%||515||11.90%||66||1.52%||25||0.58%||0||0.00%||3,207||74.10%||4,328
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Rusk County, Texas|Rusk]]||16,367||77.28%||4,455||21.03%||277||1.31%||78||0.37%||2||0.01%||11,912||56.25%||21,179
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sabine County, Texas|Sabine]]||4,678||86.04%||688||12.65%||46||0.85%||23||0.42%||2||0.04%||3,990||73.39%||5,437
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Augustine County, Texas|San Augustine]]||2,898||74.75%||928||23.94%||39||1.01%||12||0.31%||0||0.00%||1,970||50.81%||3,877
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Jacinto County, Texas|San Jacinto]]||9,808||79.33%||2,268||18.35%||224||1.81%||63||0.51%||0||0.00%||7,540||60.98%||12,363
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Patricio County, Texas|San Patricio]]||16,174||63.89%||8,484||33.51%||487||1.92%||161||0.64%||0||0.00%||7,690||30.38%||25,316
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Saba County, Texas|San Saba]]||2,218||88.72%||270||10.80%||9||0.36%||3||0.12%||0||0.00%||1,948||77.92%||2,500
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Schleicher County, Texas|Schleicher]]||927||81.89%||191||16.87%||10||0.88%||4||0.35%||0||0.00%||736||65.02%||1,132
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Scurry County, Texas|Scurry]]||4,870||84.01%||805||13.89%||89||1.54%||32||0.55%||1||0.02%||4,065||70.12%||5,797
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Shackelford County, Texas|Shackelford]]||1,475||91.79%||115||7.16%||14||0.87%||3||0.19%||0||0.00%||1,360||84.63%||1,607
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Shelby County, Texas|Shelby]]||7,868||78.74%||2,022||20.24%||75||0.75%||27||0.27%||0||0.00%||5,846||58.50%||9,992
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sherman County, Texas|Sherman]]||889||90.07%||88||8.92%||7||0.71%||2||0.20%||1||0.10%||801||81.15%||987
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Smith County, Texas|Smith]]||69,574||69.65%||28,385||28.42%||1,484||1.49%||443||0.44%||1||0.00%||41,189||41.23%||99,887
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Somervell County, Texas|Somervell]]||4,103||83.37%||712||14.47%||78||1.59%||27||0.55%||1||0.02%||3,391||68.90%||4,921
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Starr County, Texas|Starr]]||5,845||39.62%||8,161||55.33%||357||2.42%||387||2.62%||1||0.01%||-2,316||-15.71%||14,751
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Stephens County, Texas|Stephens]]||3,312||88.67%||374||10.01%||32||0.86%||17||0.46%||0||0.00%||2,938||78.66%||3,735
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sterling County, Texas|Sterling]]||567||91.30%||47||7.55%||2||0.32%||5||0.81%||0||0.00%||520||83.75%||621
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Stonewall County, Texas|Stonewall]]||586||82.07%||122||17.09%||3||0.42%||3||0.42%||0||0.00%||464||64.98%||714
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sutton County, Texas|Sutton]]||1,204||78.74%||305||19.95%||10||0.65%||10||0.65%||0||0.00%||899||58.79%||1,529
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Swisher County, Texas|Swisher]]||1,795||77.40%||464||20.01%||44||1.90%||15||0.65%||1||0.04%||1,331||57.39%||2,319
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Tarrant County, Texas|Tarrant]]||423,117||51.09%||382,408||46.18%||16,443||1.99%||6,130||0.74%||18||0.00%||40,709||4.91%||828,116
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Taylor County, Texas|Taylor]]||39,887||73.21%||13,704||25.15%||1,209||2.22%||309||0.57%||4||0.01%||26,183||48.06%||54,483
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Terrell County, Texas|Terrell]]||324||72.00%||116||25.78%||5||1.11%||3||0.67%||2||0.44%||208||46.22%||450
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Terry County, Texas|Terry]]||2,731||77.50%||714||20.26%||63||1.79%||16||0.45%||0||0.00%||2,017||57.24%||3,524
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Throckmorton County, Texas|Throckmorton]]||788||90.16%||76||8.70%||7||0.80%||3||0.34%||0||0.00%||712||81.46%||874
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Titus County, Texas|Titus]]||7,426||71.57%||2,748||26.48%||152||1.46%||50||0.48%||0||0.00%||4,678||45.09%||10,376
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Tom Green County, Texas|Tom Green]]||32,340||72.15%||11,371||25.37%||876||1.95%||234||0.52%||2||0.00%||20,969||46.78%||44,823
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Travis County, Texas|Travis]]||175,860||29.28%||408,528||68.02%||12,006||2.00%||4,191||0.70%||24||0.00%||-232,668||-38.74%||600,609
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Trinity County, Texas|Trinity]]||5,445||79.93%||1,258||18.47%||79||1.16%||30||0.44%||0||0.00%||4,187||61.46%||6,812
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Tyler County, Texas|Tyler]]||7,916||83.13%||1,400||14.70%||154||1.62%||53||0.56%||0||0.00%||6,516||68.43%||9,523
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Upshur County, Texas|Upshur]]||15,470||82.94%||2,804||15.03%||320||1.72%||55||0.29%||4||0.02%||12,666||67.91%||18,653
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Upton County, Texas|Upton]]||1,147||85.85%||160||11.98%||18||1.35%||11||0.82%||0||0.00%||987||73.87%||1,336
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Uvalde County, Texas|Uvalde]]||5,968||59.19%||3,821||37.90%||192||1.90%||99||0.98%||2||0.02%||2,147||21.29%||10,082
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Val Verde County, Texas|Val Verde]]||8,103||54.14%||6,430||42.96%||252||1.68%||170||1.14%||13||0.09%||1,673||11.18%||14,968
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Van Zandt County, Texas|Van Zandt]]||22,010||85.37%||3,374||13.09%||282||1.09%||107||0.42%||9||0.03%||18,636||72.28%||25,782
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Victoria County, Texas|Victoria]]||23,144||68.69%||9,834||29.19%||524||1.56%||172||0.51%||18||0.05%||13,310||39.50%||33,692
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Walker County, Texas|Walker]]||15,480||65.94%||7,414||31.58%||449||1.91%||133||0.57%||1||0.00%||8,066||34.36%||23,477
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Waller County, Texas|Waller]]||14,219||63.31%||7,725||34.40%||394||1.75%||120||0.53%||0||0.00%||6,494||28.91%||22,458
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ward County, Texas|Ward]]||3,138||79.62%||725||18.40%||61||1.55%||16||0.41%||1||0.03%||2,413||61.22%||3,941
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Washington County, Texas|Washington]]||12,988||75.16%||4,017||23.25%||223||1.29%||51||0.30%||1||0.01%||8,971||51.91%||17,280
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Webb County, Texas|Webb]]||23,153||34.87%||40,822||61.49%||1,246||1.88%||1,103||1.66%||69||0.10%||-17,669||-26.62%||66,393
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wharton County, Texas|Wharton]]||11,832||71.19%||4,513||27.15%||204||1.23%||70||0.42%||2||0.01%||7,319||44.04%||16,621
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wheeler County, Texas|Wheeler]]||2,079||91.14%||165||7.23%||26||1.14%||11||0.48%||0||0.00%||1,914||83.91%||2,281
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wichita County, Texas|Wichita]]||31,626||69.84%||12,399||27.38%||997||2.20%||259||0.57%||0||0.00%||19,227||42.46%||45,281
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wilbarger County, Texas|Wilbarger]]||3,473||78.59%||874||19.78%||54||1.22%||18||0.41%||0||0.00%||2,599||58.81%||4,419
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Willacy County, Texas|Willacy]]||2,183||41.27%||2,968||56.12%||85||1.61%||53||1.00%||0||0.00%||-785||-14.85%||5,289
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Williamson County, Texas|Williamson]]||142,391||50.17%||133,783||47.14%||6,123||2.16%||1,492||0.53%||18||0.01%||8,608||3.03%||283,807
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wilson County, Texas|Wilson]]||18,327||74.21%||5,943||24.06%||309||1.25%||118||0.48%||0||0.00%||12,384||50.15%||24,697
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Winkler County, Texas|Winkler]]||1,714||81.77%||338||16.13%||30||1.43%||12||0.57%||2||0.10%||1,376||65.64%||2,096
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wise County, Texas|Wise]]||26,630||83.22%||4,644||14.51%||563||1.76%||162||0.51%||0||0.00%||21,986||68.71%||31,999
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wood County, Texas|Wood]]||18,757||83.48%||3,318||14.77%||306||1.36%||87||0.39%||2||0.01%||15,439||68.71%||22,470
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Yoakum County, Texas|Yoakum]]||2,153||82.84%||387||14.89%||38||1.46%||21||0.81%||0||0.00%||1,766||67.95%||2,599
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Young County, Texas|Young]]||6,996||86.27%||967||11.93%||120||1.48%||26||0.32%||0||0.00%||6,029||74.34%||8,109
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Zapata County, Texas|Zapata]]||1,454||43.06%||1,821||53.92%||52||1.54%||50||1.48%||0||0.00%||-367||-10.86%||3,377
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Zavala County, Texas|Zavala]]||1,232||30.85%||2,633||65.92%||72||1.80%||57||1.43%||0||0.00%||-1,401||-35.07%||3,994
+|-
+!Total
+| style="padding:0" |'''5,962,983'''
+|'''53.51%'''|| style="padding:0" |'''4,889,384'''
+|'''43.87%'''|| style="padding:0" |'''209,722'''
+|'''1.88%'''|| style="padding:0" |'''81,893'''
+|'''0.73%'''|| style="padding:0" |'''678'''
+|'''0.01%'''|| style="padding:0" |'''1,073,599'''
+|'''9.64%'''|| style="padding:0" |'''11,144,660'''
+|-
+!
+! colspan="2" | Cornyn<br />Republican
+! colspan="2" | Hegar<br />Democratic
+! colspan="2" | McKennon<br />Libertarian
+! colspan="2" | Collins<br />Green
+! colspan="2" | Turullols-Bonilla <br />(write-in)<br />Independent
+! colspan="2" | Margin
+! Total<br />votes
+|}
+</div>
+'''Counties that flipped from Democratic to Republican'''
+* [[Frio County, Texas|Frio]] (largest municipality: [[Pearsall, Texas|Pearsall]])
+* [[Jim Wells County, Texas|Jim Wells]] (largest municipality: [[Alice, Texas|Alice]])
+'''Counties that flipped from Republican to Democratic'''
+* [[Bexar County, Texas|Bexar]] (largest municipality: [[San Antonio]])
+* [[Culberson County, Texas|Culberson]] (largest municipality: [[Van Horn, Texas|Van Horn]])
+* [[Fort Bend County, Texas|Fort Bend]] (largest municipality: [[Sugar Land, Texas|Sugar Land]])
+* [[Harris County, Texas|Harris]] (largest municipality: [[Houston]])
+* [[Hays County, Texas|Hays]] (largest municipality: [[San Marcos, Texas|San Marcos]])
+{{collapse bottom}}
+
+{{align|right|{{Switcher| [[File:2020 TX Senate Swing.svg|300px]] | Margin swing by county
+| [[File:2020 TX Senate Trend.svg|300px]] | Trend by county
+<br />{{collapsible list | title = Legend
+|{{legend|#00a1c8|Democratic — >15%}}
+|{{legend|#00bdec|Democratic — +12.5–15%}}
+|{{legend|#09ceff|Democratic — +10−12.5%}}
+|{{legend|#4bdbff|Democratic — +7.5–10%}}
+|{{legend|#77e3ff|Democratic — +5−7.5%}}
+|{{legend|#aaeeff|Democratic — +2.5−5%}}
+|{{legend|#d5f6ff|Democratic — +0−2.5%}}
+|{{legend|#ffd5d5|Republican — +0−2.5%}}
+|{{legend|#ffaaaa|Republican — +2.5−5%}}
+|{{legend|#ff8080|Republican — +5−7.5%}}
+|{{legend|#ff5555|Republican — +7.5–10%}}
+|{{legend|#ff2a2a|Republican — +10−12.5%}}
+|{{legend|#ff0000|Republican — +12.5–15%}}
+|{{legend|#d40000|Republican — >15%}}}}|
+[[File:County flips in the 2020 TX senate election.svg|300px]]|County flips<br>{{collapsible list| title = Legend| {{col-start}}
+{{col-2}}
+'''Democratic'''
+{{legend|#92c5de|Hold}}
+{{legend|#0671b0|Flip}}
+{{col-2}}
+'''Republican'''
+{{legend|#f48882|Hold}}
+{{legend|#ca0120|Flip}}
+{{col-end}}}}}}}}
+
+====By congressional district====
+Cornyn won 24 out of 36 congressional districts, including one that elected a Democrat.<ref>{{Cite web|url=https://davesredistricting.org/maps#viewmap::19b1b774-7706-485b-a21a-896bbcbddbba|title=DRA 2020|website=Daves Redistricting|accessdate=August 18, 2024}}</ref>
+{| class="wikitable sortable"
+
+! District
+! Cornyn
+! Hegar
+! Representative
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|1|1st}}
+| '''72%'''
+| 26%
+| {{party shading/Republican}}|[[Louie Gohmert]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|2|2nd}}
+| '''52%'''
+| 46%
+| {{party shading/Republican}}|[[Dan Crenshaw]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|3|3rd}}
+| '''53%'''
+| 45%
+| {{party shading/Republican}}|[[Van Taylor]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|4|4th}}
+|rowspan=2|'''75%'''
+|rowspan=2|23%
+| Vacant
+|- align=center
+| {{party shading/Republican}}|[[Pat Fallon]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|5|5th}}
+| '''62%'''
+| 36%
+| {{party shading/Republican}}|[[Lance Gooden]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|6|6th}}
+| '''52%'''
+| 45%
+| {{party shading/Republican}}|[[Ron Wright (politician)|Ron Wright]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|7|7th}}
+| 48.6%
+| '''49.2%'''
+| {{party shading/Democratic}}|[[Lizzie Fletcher]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|8|8th}}
+| '''72%'''
+| 26%
+| {{party shading/Republican}}|[[Kevin Brady]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|9|9th}}
+| 24%
+| '''73%'''
+| {{party shading/Democratic}}|[[Al Green (politician)|Al Green]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|10|10th}}
+| '''52%'''
+| 46%
+| {{party shading/Republican}}|[[Michael McCaul]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|11|11th}}
+| rowspan=2|'''79%'''
+| rowspan=2|19%
+| {{party shading/Republican}}|[[Mike Conaway]]
+|- align=center
+| {{party shading/Republican}}|[[August Pfluger]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|12|12th}}
+| '''62%'''
+| 35%
+| {{party shading/Republican}}|[[Kay Granger]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|13|13th}}
+| rowspan=2|'''79%'''
+| rowspan=2|18%
+| {{party shading/Republican}}|[[Mac Thornberry]]
+|- align=center
+| {{party shading/Republican}}|[[Ronny Jackson]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|14|14th}}
+| '''60%'''
+| 38%
+| {{party shading/Republican}}|[[Randy Weber]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|15|15th}}
+| '''49%'''
+| 48%
+| {{party shading/Democratic}}|[[Vicente Gonzalez (American politician)|Vicente Gonzalez]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|16|16th}}
+| 31%
+| '''63%'''
+| {{party shading/Democratic}}|[[Veronica Escobar]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|17|17th}}
+| rowspan=2|'''56%'''
+| rowspan=2|41%
+| {{party shading/Republican}}|[[Bill Flores]]
+|- align=center
+| {{party shading/Republican}}|[[Pete Sessions]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|18|18th}}
+| 24%
+| '''73%'''
+| {{party shading/Democratic}}|[[Sheila Jackson Lee]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|19|19th}}
+| '''73%'''
+| 24%
+| {{party shading/Republican}}|[[Jodey Arrington]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|20|20th}}
+| 37%
+| '''60%'''
+| {{party shading/Democratic}}|[[Joaquín Castro]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|21|21st}}
+| '''53%'''
+| 44%
+| {{party shading/Republican}}|[[Chip Roy]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|22|22nd}}
+| rowspan=2|'''52%'''
+| rowspan=2|46%
+| {{party shading/Republican}}|[[Pete Olson]]
+|- align=center
+| {{party shading/Republican}}|[[Troy Nehls]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|23|23rd}}
+| rowspan=2|'''51%'''
+| rowspan=2|46%
+| {{party shading/Republican}}|[[Will Hurd]]
+|- align=center
+| {{party shading/Republican}}|[[Tony Gonzales]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|24|24th}}
+| rowspan=2|'''50%'''
+| rowspan=2|48%
+| {{party shading/Republican}}|[[Kenny Marchant]]
+|- align=center
+| {{party shading/Republican}}|[[Beth Van Duyne]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|25|25th}}
+| '''56%'''
+| 42%
+| {{party shading/Republican}}|[[Roger Williams (Texas politician)|Roger Williams]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|26|26th}}
+| '''59%'''
+| 39%
+| {{party shading/Republican}}|[[Michael C. Burgess|Michael Burgess]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|27|27th}}
+| '''62%'''
+| 36%
+| {{party shading/Republican}}|[[Michael Cloud]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|28|28th}}
+| 46%
+| '''51%'''
+| {{party shading/Democratic}}|[[Henry Cuellar]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|29|29th}}
+| 33%
+| '''64%'''
+| {{party shading/Democratic}}|[[Sylvia Garcia]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|30|30th}}
+| 20%
+| '''77%'''
+| {{party shading/Democratic}}|[[Eddie Bernice Johnson]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|31|31st}}
+| '''52%'''
+| 45%
+| {{party shading/Republican}}|[[John Carter (Texas politician)|John Carter]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|32|32nd}}
+| 48%
+| '''50%'''
+| {{party shading/Democratic}}|[[Colin Allred]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|33|33rd}}
+| 26%
+| '''70%'''
+| {{party shading/Democratic}}|[[Marc Veasey]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|34|34th}}
+| 46%
+| '''51%'''
+| {{party shading/Democratic}}|[[Filemon Vela Jr.]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|35|35th}}
+| 32%
+| '''65%'''
+| {{party shading/Democratic}}|[[Lloyd Doggett]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|36|36th}}
+| '''72%'''
+| 26%
+| {{party shading/Republican}}|[[Brian Babin]]
+|- align=center
+|}
+
+==See also==
+* [[2020 Texas elections]]
+
+==Notes==
+'''Partisan clients'''<br />
+{{notelist-ua}}
+'''Additional candidates and voter samples'''<br />
+{{notelist}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{citation |url=https://www.nytimes.com/2020/09/13/us/politics/Voting-rights-Florida-Wisconsin-Texas.html |work=New York Times |title=Big Voting Decisions in Florida, Wisconsin, Texas: What They Mean for November |quote=Both parties are waging legal battles around the country over who gets to vote and how |author1=Nick Corasaniti |author2= [[Stephanie Saul]] |author3= Patricia Mazzei |date=September 13, 2020 |archive-url=https://web.archive.org/web/20200913113352/https://www.nytimes.com/2020/09/13/us/politics/Voting-rights-Florida-Wisconsin-Texas.html |archive-date= September 13, 2020 }}
+* {{citation |title=The Senate seats most likely to flip parties in November |author=Amber Phillips |date= October 9, 2020 |url=https://www.washingtonpost.com/politics/2020/10/09/senate-seats-most-likely-flip-parties-november/ |work= Washingtonpost.com }}
+
+==External links==
+* [http://www.sos.state.tx.us/elections/index.shtml Elections Division] at the [[Texas Secretary of State]] official website
+* {{Ballotpedia|Texas|Texas}}
+* {{citation |author= Government Documents Round Table of the American Library Association |work=Voting & Elections Toolkits |url= https://godort.libguides.com/votingtoolkit/texas |title= Texas }}
+* {{citation |work=[[Vote.org]] |location=Oakland, CA |url= https://www.vote.org/state/texas/ |title= Texas: Election Tools, Deadlines, Dates, Rules, and Links }}
+* {{citation |url= https://guides.lib.utexas.edu/vote |title= Voting and Elections |author= [[University of Texas at Austin|University of Texas Libraries]] |work=Research Guides }}
+* {{cite web |title= League of Women Voters of Texas |url= https://my.lwv.org/texas }} (state affiliate of the U.S. [[League of Women Voters]])
+* {{citation |url=https://www.followthemoney.org/at-a-glance?y=2020&s=TX |title= Texas 2019 & 2020 Elections |work=[[OpenSecrets]] |author1= National Institute on Money in Politics |author2=Campaign Finance Institute }}
+
+'''Official campaign websites'''
+* [https://www.johncornyn.com/ John Cornyn (R) for Senate]
+* {{usurped|1=[https://web.archive.org/web/20190501024007/https://www.mjfortexas.com/ MJ Hegar (D) for Senate]}}
+* [https://www.mckennon2020.com/ Kerry McKennon (L) for Senate] {{Webarchive|url=https://web.archive.org/web/20191016232258/https://www.mckennon2020.com/ |date=October 16, 2019 }}
+* [http://ric4senatetx.org/ Ricardo Turullols-Bonilla (I) for Senate] {{Webarchive|url=https://web.archive.org/web/20200816230804/http://ric4senatetx.org/ |date=August 16, 2020 }}
+
+{{2020 United States elections}}
+{{Elections in Texas footer}}
+
+[[Category:United States Senate elections in Texas|2020]]
+[[Category:2020 United States Senate elections|Texas]]
+[[Category:2020 Texas elections|United States Senate]]
+[[Category:John Cornyn]]

@@ -1,0 +1,14 @@
+
+== 2018: pattern sen14+pres16, final poll avg Rep +5.9  ->  actual Rep +2.6
+   P(Dem wins) = 7.6%   median Rep +5.9   80% range Rep +11.1 .. Rep +0.7   actual inside 80% range: True
+   County winners called correctly: 251/254   (counties >20K votes: 52/54)
+   County margin error, statewide miss removed: weighted mean abs 4.7 pts, big counties 3.7 pts
+   Biggest county misses (+ = model too Dem): Orange +16.3, Webb +16.2, Harrison +14.3, Hardin +14.1, Jefferson +13.3
+   Counties inside their own 80% interval (after statewide miss removed): 37%
+
+== 2024: pattern sen18+sen20, final poll avg Rep +4.2  ->  actual Rep +8.6
+   P(Dem wins) = 14.2%   median Rep +4.2   80% range Rep +9.5 .. Dem +1.0   actual inside 80% range: True
+   County winners called correctly: 243/254   (counties >20K votes: 68/70)
+   County margin error, statewide miss removed: weighted mean abs 3.9 pts, big counties 3.9 pts
+   Biggest county misses (+ = model too Dem): Webb +24.6, El Paso +19.5, Hidalgo +18.7, Kaufman -16.5, Cameron +13.7
+   Counties inside their own 80% interval (after statewide miss removed): 93%

@@ -1,0 +1,159 @@
+TEXAS SENATE 2026: TALARICO (D) vs PAXTON (R)
+Model run 2026-10-18, 50,000 simulations, 254 counties. Election Nov 3, 2026.
+
+==============================================================================
+1. MARKETS
+   Kalshi      Talarico 62%   Paxton 38%   ($30.1M traded)
+   Polymarket  Talarico 62%   Paxton 38%   ($4.1M traded)
+
+2. POLLS
+   Model poll average (two-party): Talarico 51.3% / Paxton 48.7%  ->  Talarico +2.5
+   (30 polls in last 60 days, weighted by recency [14-day half-life], sample size;
+    partisan-sponsored polls down-weighted, repeat pollsters share weight)
+   Most recent 10:
+     Oct 16  CBS News/YouGov                        LV  T 51  P 49  (T+2)
+     Oct 14  ActiVote                               LV  T 52  P 48  (T+4)
+     Oct 14  InsiderAdvantage (R)                   LV  T 48  P 49  (P+1)
+     Oct 11  Marist University                      TBALV T 47  P 45  (T+2)
+     Oct 11  Quantus Insights                       LV  T 47  P 47  (T+0)
+     Oct 08  Trafalgar Group (R)                    LV  T 47  P 44  (T+3)
+     Oct 08  ReconMR/Siena University               LV  T 48  P 44  (T+4)
+     Oct 05  YouGov                                 LV  T 50  P 44  (T+6)
+     Oct 05  University of Texas/Texas Politics Pro LV  T 50  P 47  (T+3)
+     Sep 30  New York Times/Siena University        LV  T 51  P 45  (T+6)
+
+==============================================================================
+3. MODEL RESULT
+   Talarico wins 74.3% of simulations   |   Paxton wins 25.7%
+   Median outcome: Talarico +2.5
+   80% range: Paxton +2.7  to  Talarico +7.7
+   Expected turnout: 10.14M votes (80% range 9.17M-11.10M)
+
+   Stress tests (Talarico win %):
+     Polls miss toward Paxton like 2024 (R+4.5 margin)        29.8%
+     Polls miss toward Paxton like 2020 (R+3.1 margin)        43.7%
+     Polls miss toward Talarico like 2018 (D+3.3 margin)      92.1%
+     County pattern = pure 2018                               74.4%
+     County pattern = pure 2024                               74.3%
+     South Texas snaps back halfway to 2018 (+4.7 pts)        74.1%
+
+==============================================================================
+4. COUNTY MAP DATA (probability Talarico carries each county)
+   Safe Paxton (>95%)     214 counties, 30.5% of votes: Montgomery, Galveston, Lubbock, Smith, Comal, Ellis, McLennan, Parker, Guadalupe, Johnson, Kaufman, Randall ...
+   Likely Paxton            4 counties,  2.3% of votes: Brazoria, Brazos, Uvalde, Reeves
+   Lean Paxton              3 counties,  1.6% of votes: Bell, Bastrop, Caldwell
+   Toss-up                  2 counties,  4.0% of votes: Denton, Val Verde
+   Lean Talarico            7 counties,  6.1% of votes: Collin, Nueces, Jim Wells, Kleberg, Frio, Brewster, La Salle
+   Likely Talarico          4 counties,  7.5% of votes: Tarrant, Jefferson, Zapata, Culberson
+   Safe Talarico (>95%)    20 counties, 48.0% of votes: Harris, Dallas, Bexar, Travis, Fort Bend, Williamson, El Paso, Hidalgo, Hays, Cameron, Webb, Maverick ...
+
+   Largest 25 counties:
+     County      Region                     2018      2024     Forecast  P(T wins)  Exp votes
+     Harris      Urban core              D +16.8   D +11.7      T +22.0       100%      1425K
+     Dallas      Urban core              D +33.3   D +29.1      T +39.0       100%       818K
+     Tarrant     Big suburbs              D +0.7    D +0.2       T +9.3        92%       681K
+     Bexar       Urban core              D +20.0   D +16.5      T +26.0       100%       657K
+     Travis      Urban core              D +50.2   D +44.3      T +55.0       100%       582K
+     Collin      Big suburbs              R +6.2    R +5.4       T +3.1        68%       486K
+     Denton      Big suburbs              R +8.2    R +8.5       T +0.5        53%       398K
+     Fort Bend   Big suburbs             D +12.2    D +7.8      T +18.9       100%       345K
+     Williamson  Big suburbs              D +2.9    D +1.6      T +11.1        95%       294K
+     Montgomery  Outer suburbs           R +45.7   R +42.2      P +35.7         0%       278K
+     El Paso     Hispanic South/West     D +49.7   D +20.8      T +39.9       100%       236K
+     Hidalgo     Hispanic South/West     D +38.4    D +6.8      T +27.3       100%       195K
+     Brazoria    Outer suburbs           R +18.5   R +14.7       P +8.4        11%       141K
+     Galveston   Outer suburbs           R +20.0   R +23.2      P +13.4         3%       134K
+     Hays        Big suburbs             D +15.6   D +10.7      T +22.0       100%       120K
+     Bell        Mid-size metros         R +10.5   R +11.9       P +3.4        31%       110K
+     Lubbock     Mid-size metros         R +29.4   R +38.0      P +25.8         0%       107K
+     Nueces      Hispanic South/West      D +1.5    R +5.6       T +2.7        61%       100K
+     Smith       Mid-size metros         R +39.7   R +42.7      P +33.4         0%        94K
+     Comal       Outer suburbs           R +44.7   R +42.2      P +35.3         0%        93K
+     Cameron     Hispanic South/West     D +26.1    D +4.4      T +20.0        98%        92K
+     Ellis       Outer suburbs           R +36.4   R +26.2      P +23.1         0%        89K
+     McLennan    Mid-size metros         R +23.4   R +27.0      P +17.4         1%        88K
+     Brazos      Mid-size metros         R +12.7   R +21.7       P +9.3         9%        84K
+     Parker      Outer suburbs           R +63.1   R +63.2      P +54.9         0%        80K
+
+==============================================================================
+5. KEY COUNTIES
+   a) Vote banks - expected net votes:
+      Talarico: Travis +321K, Dallas +319K, Harris +314K, Bexar +171K, El Paso +94K, Fort Bend +65K, Tarrant +63K, Hidalgo +53K
+      Paxton:   Montgomery +99K, Parker +44K, Comal +33K, Smith +31K, Johnson +30K, Randall +29K, Lubbock +28K, Midland +25K
+      (Paxton's 173 rural counties together: +573K net)
+   b) Battlegrounds - counties with 15-85% chance either way, by size:
+      Collin       P(T wins)  68%   forecast Talarico +3.1    486K votes   1pt swing = 9.7K net votes
+      Denton       P(T wins)  53%   forecast Talarico +0.5    398K votes   1pt swing = 8.0K net votes
+      Bell         P(T wins)  31%   forecast Paxton +3.4      110K votes   1pt swing = 2.2K net votes
+      Nueces       P(T wins)  61%   forecast Talarico +2.7    100K votes   1pt swing = 2.0K net votes
+      Jefferson    P(T wins)  79%   forecast Talarico +5.6     75K votes   1pt swing = 1.5K net votes
+      Bastrop      P(T wins)  26%   forecast Paxton +4.3       38K votes   1pt swing = 0.8K net votes
+      Caldwell     P(T wins)  34%   forecast Paxton +2.9       14K votes   1pt swing = 0.3K net votes
+      Val Verde    P(T wins)  46%   forecast Paxton +0.9       13K votes   1pt swing = 0.3K net votes
+      Jim Wells    P(T wins)  72%   forecast Talarico +5.4     10K votes   1pt swing = 0.2K net votes
+      Kleberg      P(T wins)  69%   forecast Talarico +4.7      9K votes   1pt swing = 0.2K net votes
+      Frio         P(T wins)  67%   forecast Talarico +4.2      4K votes   1pt swing = 0.1K net votes
+      Brewster     P(T wins)  73%   forecast Talarico +4.2      4K votes   1pt swing = 0.1K net votes
+   c) Tipping-point counties (hold the median Texas voter: as they go, the state goes; % of sims):
+      Tarrant      67.9%   (Big suburbs)
+      Collin        7.8%   (Big suburbs)
+      Williamson    7.5%   (Big suburbs)
+      Harris        4.6%   (Urban core)
+      Denton        2.1%   (Big suburbs)
+      Nueces        1.9%   (Hispanic South/West)
+      Jefferson     1.8%   (Mid-size metros)
+      Fort Bend     1.7%   (Big suburbs)
+
+==============================================================================
+6. IF TEXAS VOTES LIKE 2018 OR 2024 (exact county shares + turnout rates, 2026 registration)
+
+   2018 (Cruz vs O'Rourke): Paxton +3.0   (~10.1M votes)  -> Paxton wins
+     To flip it, Talarico needs:
+       - a uniform swing of +1.5 pts in every county (+3.0 on margin), OR
+       - Urban core alone to move +4.4 pts
+       - Big suburbs alone to move +6.6 pts
+       - Hispanic South/West alone to move +18.8 pts
+       - Outer suburbs alone to move +11.3 pts
+       - OR urban-core turnout up 33% (nothing else changes)
+       - OR urban-core + big-suburb turnout up 32%
+
+   2024 (Cruz vs Allred): Paxton +8.7   (~11.5M votes)  -> Paxton wins
+     To flip it, Talarico needs:
+       - a uniform swing of +4.4 pts in every county (+8.7 on margin), OR
+       - Urban core alone to move +13.3 pts
+       - Big suburbs alone to move +19.4 pts
+       - Hispanic South/West alone to move +54.1 pts
+       - Outer suburbs alone to move +31.3 pts
+       - urban-core turnout alone can't do it
+
+
+   2022 AG (Paxton vs Garza): Paxton +10.2   (~8.6M votes)  -> Paxton wins
+     To flip it, Talarico needs:
+       - a uniform swing of +5.1 pts in every county (+10.2 on margin), OR
+       - Urban core alone to move +15.3 pts
+       - Big suburbs alone to move +22.4 pts
+       - Hispanic South/West alone to move +67.7 pts
+       - Outer suburbs alone to move +36.6 pts
+       - urban-core turnout alone can't do it
+
+
+==============================================================================
+7. WHAT WINNING LOOKS LIKE, BY REGION (Talarico two-party share)
+   Region                Cnty  Vote%    2018    2024  Forecast   T wins   P wins  Primary sig
+   Urban core               4  34.3%   63.4%   60.8%     66.1%    67.0%    63.5%        -1.2
+   Big suburbs              6  22.9%   50.2%   49.7%     54.4%    55.3%    51.8%        +2.4
+   Outer suburbs           18  13.4%   30.6%   31.5%     35.0%    35.9%    32.4%        +0.3
+   Hispanic South/West     33   8.0%   65.1%   52.5%     61.5%    62.5%    58.9%       -11.4
+   Mid-size metros         20  10.4%   33.4%   31.5%     36.5%    37.4%    33.8%        -1.0
+   Rural                  173  11.0%   22.0%   20.6%     24.3%    25.2%    21.7%        -8.0
+   'Primary sig' = change since 2022 in the region's Dem share of primary voters, relative to the state.
+
+==============================================================================
+8. ASSUMPTIONS & LIMITS
+   - Statewide center = poll average; poll error SD 4.5 pts on margin, fat-tailed (Texas misses 2018-24: 3-4.5 pts).
+   - County pattern = 50/50 blend of 2018 and 2024 Senate results relative to the state; regions drift together.
+   - Region noise 2-2.2 pts (4 pts for Hispanic South/West, which swung ~9.5 pts 2018->2024); county noise 1.8 pts.
+   - Turnout = 2018 county turnout rates x Oct 2026 registration (19.04M), +/-7% statewide, +/-5% by region.
+   - 2026 primary turnout nudges regions (15% weight). SD-9 special (D+31 swing) not used directly.
+   - Early vote turnout: in-person voting starts Oct 19; not yet in the model.
+   - Third parties ignored (two-party shares).

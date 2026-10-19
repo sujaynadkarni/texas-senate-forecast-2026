@@ -1,0 +1,60 @@
+name: Refresh forecast
+
+on:
+  schedule:
+    # Early voting (Oct 19-30, Central Daylight Time): 8 a.m. and 8 p.m. Central
+    - cron: "0 13 * * *"
+    - cron: "0 1 * * *"
+    # Election night, Nov 3 (Central Standard Time): every 10 minutes from 7 p.m. to 1 a.m. Central
+    - cron: "*/10 1-7 4 11 *"
+  workflow_dispatch:        # "Run workflow" button on GitHub
+  push:
+    branches: [main]
+
+permissions:
+  contents: write           # save each day's data back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # fetch -> model -> build -> 40+ regression tests; exits non-zero (and nothing is published) if any test fails
+      - name: Refresh and test
+        run: ./refresh.sh
+
+      - name: Save today's data
+        run: |
+          git config user.name "forecast-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "Data refresh $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

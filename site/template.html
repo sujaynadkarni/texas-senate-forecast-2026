@@ -1,0 +1,899 @@
+<title>Texas Senate Forecast</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="color-scheme" content="only light">
+<meta name="description" content="Live forecast for the 2026 Texas Senate race between James Talarico and Ken Paxton: win chance, county map, polls and early vote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+<style>
+/* Layout: one 680px reading column (newspaper live-forecast page), widening to 1000px for the map and tables. Light only, by request. */
+:root {
+  --paper: #ffffff;
+  --ink: #121212;
+  --ink-2: #4d4d4d;
+  --ink-3: #757575;
+  --rule: #dcdcdc;
+  --wash: #f6f6f4;
+  --dem: #1f63c4;
+  --dem-1: #2d68bf; --dem-2: #6f9bd6; --dem-3: #b7cdec;
+  --rep: #cf3a30;
+  --rep-1: #c9463c; --rep-2: #e48c80; --rep-3: #f3c6be;
+  --toss: #e8e0cf;
+  --pace-0: #f1efe9; --pace-1: #cfe3dc; --pace-2: #8cc0ae; --pace-3: #3f8f78;
+  --slow-2: #d9a066; --slow-1: #efd2b0; --even: #ecebe6;
+  --nodata: #ececec;
+  --ok: #2f7d4f; --warn: #b7791f; --bad: #b4332a;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+  --narrow: 680px;
+  --wide: 1000px;
+  color-scheme: only light;           /* light page only: also stops phones' automatic dark mode */
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--serif); font-size: 18px; line-height: 1.55; margin: 0; }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px; }
+.col { max-width: var(--narrow); margin-inline: auto; }
+.col-wide { max-width: var(--wide); margin-inline: auto; }
+a { color: var(--ink); }
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--dem); outline-offset: 2px; }
+.sans { font-family: var(--sans); }
+.num { font-variant-numeric: tabular-nums; }
+.t { color: var(--dem); } .p { color: var(--rep); }
+
+/* masthead */
+.mast { border-bottom: 1px solid var(--ink); padding-block: 14px 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; font-family: var(--sans); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; font-weight: 700; }
+.mast .race { color: var(--ink-2); font-weight: 600; }
+.status { display: inline-flex; align-items: center; gap: 8px; font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--ink-2); }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-3); }
+.status[data-mode="live"] .dot { background: var(--rep); animation: pulse 1.6s infinite; }
+.status[data-mode="early"] .dot { background: var(--pace-3); }
+@keyframes pulse { 50% { opacity: .35; } }
+
+header.hero { padding-block: 28px 8px; }
+.kicker { font-family: var(--sans); font-size: 13px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-2); margin: 0 0 8px; }
+h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(30px, 6vw, 46px); line-height: 1.08; letter-spacing: -.01em; margin: 0 0 12px; text-wrap: balance; }
+.dek { font-size: 19px; color: var(--ink-2); margin: 0 0 14px; text-wrap: pretty; }
+.byline { font-family: var(--sans); font-size: 13px; color: var(--ink-3); }
+
+/* share */
+.share { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 16px 0; }
+.share a, .share button { font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; min-height: 34px; }
+.share a:hover, .share button:hover { border-color: var(--ink); }
+.share svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* needle */
+.needle-block { padding-block: 26px 10px; border-top: 1px solid var(--rule); margin-top: 22px; }
+.needle-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; }
+.cand { font-family: var(--sans); }
+.cand .name { font-size: 15px; font-weight: 700; }
+.cand .pct { font-size: clamp(34px, 7vw, 48px); font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+.cand.right { text-align: right; }
+.needle-svg { width: 100%; max-width: 560px; display: block; margin: 4px auto 0; }
+.needle-svg text { font-family: var(--sans); fill: var(--ink-2); font-size: 11px; }
+.needle-caption { font-family: var(--sans); font-size: 14px; color: var(--ink-2); text-align: center; margin: 2px 0 0; }
+.needle-caption strong { color: var(--ink); }
+.motion, .sim-link { font-family: var(--sans); font-size: 13px; color: var(--ink-2); background: none; border: 0; text-decoration: underline; cursor: pointer; padding: 6px 4px; }
+.sim-bar { display: flex; justify-content: center; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 14px; }
+.sim-btn { font: 700 14px var(--sans); color: var(--paper); background: var(--ink); border: 1px solid var(--ink); border-radius: 3px; padding: 10px 18px; cursor: pointer; min-height: 40px; }
+.sim-btn:hover { background: var(--ink-2); }
+.sim-status { margin-top: 12px; border: 1px solid var(--rule); border-left: 3px solid var(--warn); padding: 10px 14px; font-family: var(--sans); font-size: 14px; color: var(--ink-2); display: grid; gap: 4px; }
+.sim-status .tag { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--warn); }
+.sim-status .meter { height: 6px; background: var(--wash); border-radius: 3px; overflow: hidden; margin-top: 4px; }
+.sim-status .meter i { display: block; height: 100%; background: var(--ink-2); }
+.needle-svg.idle .needle-arc { opacity: .55; }
+.markets { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 22px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); }
+.markets > div { padding: 12px 10px; min-width: 0; }
+.markets > div + div { border-left: 1px solid var(--rule); }
+.markets .lab { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); font-weight: 600; }
+.markets .val { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.markets .sub { font-size: 12px; color: var(--ink-3); }
+.bar2 { height: 6px; display: flex; margin-top: 6px; border-radius: 3px; overflow: hidden; }
+.bar2 span:first-child { background: var(--dem); } .bar2 span:last-child { background: var(--rep); }
+
+/* sections */
+section { padding-block: 34px 0; }
+h2 { font-family: var(--sans); font-size: 22px; font-weight: 800; letter-spacing: -.005em; margin: 0 0 6px; text-wrap: balance; }
+.section-dek { font-size: 17px; color: var(--ink-2); margin: 0 0 16px; }
+.note { font-family: var(--sans); font-size: 13px; color: var(--ink-3); margin-top: 10px; line-height: 1.5; }
+.rule-top { border-top: 1px solid var(--ink); padding-top: 14px; }
+
+/* explanation */
+.explain { background: var(--wash); padding: 18px 20px; border-left: 3px solid var(--ink); }
+.explain h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .06em; }
+.explain ul { margin: 8px 0 0; padding-left: 20px; display: grid; gap: 8px; }
+.explain li { font-size: 17px; }
+
+/* map */
+.map-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 24px; align-items: start; }
+@media (max-width: 820px) { .map-wrap { grid-template-columns: minmax(0, 1fr); } }
+.tabs { display: flex; flex-wrap: wrap; gap: 0; border-bottom: 1px solid var(--rule); margin-bottom: 12px; font-family: var(--sans); }
+.tabs button { font: 600 14px var(--sans); color: var(--ink-3); background: none; border: 0; border-bottom: 3px solid transparent; padding: 8px 12px 7px; cursor: pointer; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.tabs button:disabled { opacity: .45; cursor: default; }
+#map { width: 100%; max-width: 100%; height: auto; display: block; }
+#map path { stroke: #ffffff; stroke-width: .6; cursor: pointer; fill: var(--nodata); }
+#map path:hover, #map path.sel { stroke: var(--ink); stroke-width: 1.6; }
+#map path.sel { paint-order: stroke; }
+.legend { display: flex; flex-wrap: wrap; gap: 2px; font-family: var(--sans); font-size: 11px; color: var(--ink-2); margin-top: 10px; }
+.legend .sw { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1 1 60px; }
+.legend .sw i { height: 10px; display: block; }
+.legend-title { font-family: var(--sans); font-size: 12px; font-weight: 700; color: var(--ink-2); margin-top: 10px; }
+.card { border: 1px solid var(--rule); padding: 14px 16px; font-family: var(--sans); font-size: 14px; min-width: 0; }
+.card h3 { font-family: var(--serif); font-size: 22px; margin: 0 0 2px; }
+.card .reg { color: var(--ink-3); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; margin-bottom: 10px; }
+.kv { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-variant-numeric: tabular-nums; }
+.kv dt { color: var(--ink-2); } .kv dd { margin: 0; font-weight: 600; text-align: right; }
+.card select { width: 100%; font: 14px var(--sans); padding: 7px 8px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); margin-bottom: 12px; }
+.card .hint { color: var(--ink-3); font-size: 13px; margin: 10px 0 0; }
+
+/* tables */
+.tbl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 14px; font-variant-numeric: tabular-nums; }
+th { text-align: right; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); font-weight: 700; border-bottom: 1px solid var(--ink); padding: 6px 8px; white-space: nowrap; }
+td { text-align: right; padding: 8px; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; padding-left: 0; }
+td.name { font-weight: 700; }
+td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px; }
+.pill { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; }
+.spon { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; margin-left: 4px; }
+.pill.lt { color: var(--dem); } .pill.lp { color: var(--rep); } .pill.tu { color: var(--ink-2); }
+.pill.ok { color: var(--ok); } .pill.warn { color: var(--warn); } .pill.bad { color: var(--bad); } .pill.wait { color: var(--ink-3); }
+.prob { display: inline-block; width: 64px; height: 8px; background: var(--rep-3); vertical-align: middle; margin-right: 6px; position: relative; }
+.prob i { position: absolute; inset: 0 auto 0 0; background: var(--dem-2); }
+
+/* charts */
+.chart { width: 100%; max-width: 100%; height: auto; display: block; }
+.chart text { font-family: var(--sans); font-size: 11px; fill: var(--ink-3); }
+.chart .lbl { fill: var(--ink); font-weight: 700; font-size: 12px; }
+.stack { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
+@media (max-width: 760px) { .two { grid-template-columns: minmax(0, 1fr); } }
+
+.scen { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 860px) { .scen { grid-template-columns: minmax(0, 1fr); } }
+.scen .card h3 { font-family: var(--sans); font-size: 15px; }
+.scen .big { font-family: var(--sans); font-size: 26px; font-weight: 800; margin: 4px 0 8px; }
+.scen ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+
+.pagetabs { display: flex; gap: 0; border-bottom: 1px solid var(--ink); margin-top: 22px; font-family: var(--sans); }
+.pagetabs a { font: 700 15px var(--sans); color: var(--ink-3); text-decoration: none; padding: 10px 16px 9px; border-bottom: 4px solid transparent; margin-bottom: -1px; }
+.pagetabs a[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.pagetabs a:hover { color: var(--ink); }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); }
+.stats > div { padding: 14px 12px; min-width: 0; }
+.stats > div + div { border-left: 1px solid var(--rule); }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stats > div:nth-child(3) { border-left: 0; } .stats > div:nth-child(n+3) { border-top: 1px solid var(--rule); } }
+.stats .lab { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); font-weight: 700; }
+.stats .val { font-size: 26px; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1.2; margin-top: 2px; }
+.stats .sub { font-size: 12px; color: var(--ink-3); }
+.county-map { width: 100%; max-width: 100%; height: auto; display: block; }
+.county-map path { stroke: #ffffff; stroke-width: .6; cursor: pointer; fill: var(--nodata); }
+.county-map path:hover, .county-map path.sel { stroke: var(--ink); stroke-width: 1.6; }
+.caveats { font-size: 16px; display: grid; gap: 6px; padding-left: 20px; margin: 0; }
+.nr { color: var(--ink-3); font-style: italic; }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--paper); border: 1px solid var(--ink); box-shadow: 0 2px 8px rgba(0,0,0,.12); padding: 8px 10px; font: 13px/1.4 var(--sans); color: var(--ink); max-width: 240px; }
+.tip b { display: block; font-size: 15px; margin-bottom: 2px; }
+.tip .r { display: flex; justify-content: space-between; gap: 14px; font-variant-numeric: tabular-nums; }
+.tip .r span:first-child { color: var(--ink-3); }
+footer { margin-top: 40px; border-top: 1px solid var(--ink); padding-top: 16px; font-family: var(--sans); font-size: 13px; color: var(--ink-2); }
+footer h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; margin: 16px 0 6px; }
+footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--paper); font: 600 14px var(--sans); padding: 10px 16px; border-radius: 4px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <div class="col-wide mast">
+    <span>Texas Senate Forecast <span class="race">· U.S. Senate · Nov. 3, 2026</span></span>
+    <span class="status" id="status"><span class="dot"></span><span id="status-text"></span></span>
+  </div>
+
+  <header class="col hero">
+    <p class="kicker">Talarico (D) vs. Paxton (R)</p>
+    <h1 id="headline">Who will win the Texas Senate race?</h1>
+    <p class="dek" id="dek"></p>
+    <div class="byline" id="byline"></div>
+    <div class="share" id="share-top"></div>
+  </header>
+
+  <nav class="col-wide pagetabs" role="tablist" aria-label="Page sections">
+    <a href="#forecast" role="tab" id="tab-forecast" aria-selected="true">Forecast</a>
+    <a href="#early" role="tab" id="tab-early" aria-selected="false">Early voting</a>
+  </nav>
+
+  <div id="view-forecast">
+  <div class="col needle-block" id="needle-block">
+    <div class="needle-head">
+      <div class="cand"><div class="name t">James Talarico (D)</div><div class="pct t num" id="pct-t"></div><div class="sans hint-l" style="font-size:13px;color:var(--ink-3)">chance of winning</div></div>
+      <div class="cand right"><div class="name p">Ken Paxton (R)</div><div class="pct p num" id="pct-p"></div><div class="sans hint-l" style="font-size:13px;color:var(--ink-3)">chance of winning</div></div>
+    </div>
+    <svg class="needle-svg" id="needle" viewBox="0 0 560 300" role="img" aria-labelledby="needle-title"><title id="needle-title">Forecast needle</title></svg>
+    <p class="needle-caption" id="needle-caption"></p>
+    <div class="sim-bar"><button class="motion" id="motion" type="button" hidden>Pause needle motion</button></div>
+    <div class="markets" id="markets"></div>
+  </div>
+
+  <section class="col">
+    <div class="explain" id="explain"><h2>What we know right now</h2><ul id="explain-list"></ul></div>
+  </section>
+
+  <section class="col-wide">
+    <div class="rule-top">
+      <h2>The county map</h2>
+      <p class="section-dek" id="map-dek">Shaded by each candidate's chance of carrying the county. Tap a county for details.</p>
+    </div>
+    <div class="tabs" role="tablist" id="tabs">
+      <button role="tab" type="button" data-layer="forecast" aria-selected="true">Forecast</button>
+      <button role="tab" type="button" data-layer="pace" aria-selected="false">Early vote pace</button>
+      <button role="tab" type="button" data-layer="results" aria-selected="false">Results</button>
+      <button role="tab" type="button" data-layer="y2024" aria-selected="false">2024 result</button>
+    </div>
+    <div class="map-wrap">
+      <div style="min-width:0">
+        <svg id="map" role="img" aria-label="Map of Texas counties"></svg>
+        <div class="legend-title" id="legend-title"></div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <aside class="card" id="county-card">
+        <label for="county-pick" class="sans" style="font-size:12px;color:var(--ink-3);font-weight:600;text-transform:uppercase;letter-spacing:.05em">Find a county</label>
+        <select id="county-pick"></select>
+        <div id="county-body"></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="col-wide">
+    <div class="rule-top">
+      <h2>Counties to watch</h2>
+      <p class="section-dek">What each county's margin would tell us about the statewide race. At the <strong>Even</strong> margin the race is a coin flip. Above <strong>Talarico favored</strong>, he has a 70% or better chance statewide; below <strong>Paxton favored</strong>, Paxton does.</p>
+    </div>
+    <div class="tbl-scroll"><table id="watch"></table></div>
+    <p class="note">T+5 means Talarico wins the county by 5 percentage points; P+5 means Paxton does. "Median voter" is how often the county holds the Texas voter in the middle of the pack, so as it goes, the state goes.</p>
+  </section>
+
+  <section class="col-wide">
+    <div class="rule-top"><h2>The polls</h2>
+      <p class="section-dek" id="polls-dek"></p></div>
+    <div class="stack">
+      <div style="min-width:0"><svg class="chart" id="poll-chart" viewBox="0 0 480 260" style="max-width:720px" role="img" aria-label="Poll margins over time"></svg>
+        <p class="note">Each dot is one poll's margin. The line is our weighted average: recent, larger and nonpartisan polls count more.</p>
+        <p class="note"><strong>Sponsored</strong> means a Republican or Democratic group paid for the poll, as labeled by The Texas Tribune; we give those polls less weight. <strong>Lean vs. avg.</strong> is how far that pollster's results run from other polls taken around the same time this year: R +2.0 means about 2 points better for Paxton than the average.</p></div>
+      <div class="tbl-scroll" style="min-width:0"><table id="poll-table"></table></div>
+    </div>
+  </section>
+
+  <section class="col-wide">
+    <div class="rule-top"><h2>50,000 versions of election night</h2>
+      <p class="section-dek" id="hist-dek"></p></div>
+    <svg class="chart" id="hist" viewBox="0 0 960 230" role="img" aria-label="Distribution of simulated outcomes"></svg>
+    <p class="note">Each bar counts simulations ending at that statewide margin. Polls in Texas have missed by 3 to 4.5 points in each of the last three Senate races, so the spread is wide.</p>
+  </section>
+
+  <section class="col-wide">
+    <div class="rule-top"><h2>What would change the result</h2>
+      <p class="section-dek">For today's forecast and for a repeat of 2018 or 2024 (each county's exact result and turnout rate, applied to 2026 registration): who wins, and what the other candidate would need.</p></div>
+    <div class="scen" id="scen"></div>
+    <h3 class="sans" style="font-size:15px;margin:26px 0 8px">If the polls are wrong</h3>
+    <div class="tbl-scroll"><table id="stress"></table></div>
+  </section>
+
+  <section class="col-wide">
+    <div class="rule-top"><h2>Where the votes are</h2>
+      <p class="section-dek">The model groups counties that tend to move together.</p></div>
+    <div class="tbl-scroll"><table id="regions"></table></div>
+  </section>
+
+  <section class="col">
+    <div class="rule-top"><h2>Reading the early mail vote</h2>
+      <p class="section-dek">Texas lets only voters 65 and older, voters with disabilities and a few others vote by mail. Mail ballots used to lean Republican. In Harris County they now lean heavily Democratic.</p></div>
+    <div class="tbl-scroll"><table id="mail"></table></div>
+    <p class="note">Source: Harris County Clerk official canvass reports. Turnout counts show how many people voted, never whom they voted for; candidate totals stay sealed until polls close at 7 p.m. on Nov. 3.</p>
+  </section>
+
+  </div>
+
+  <div id="view-early" hidden>
+    <section class="col" style="padding-top:22px">
+      <p class="kicker" id="ev-kicker"></p>
+      <h2 style="font-family:var(--serif);font-size:clamp(26px,5vw,34px);font-weight:700;line-height:1.15;margin-bottom:10px" id="ev-head">Early voting</h2>
+      <p class="section-dek">Every day the state reports how many people voted in each county. We compare that with the same day of early voting in 2022, the last midterm, and estimate whom the mix of voters favors.</p>
+      <div class="explain"><h2>The story so far</h2><ul id="ev-story"></ul></div>
+    </section>
+
+    <section class="col-wide">
+      <div class="stats" id="ev-stats"></div>
+    </section>
+
+    <section class="col-wide">
+      <div class="rule-top"><h2>Turnout, day by day</h2>
+        <p class="section-dek">Share of registered voters who have voted early, compared with the same day of early voting in 2022.</p></div>
+      <svg class="chart" id="ev-chart" viewBox="0 0 720 260" role="img" aria-label="Early vote turnout by day, 2026 compared with 2022"></svg>
+    </section>
+
+    <section class="col-wide">
+      <div class="rule-top"><h2>Where the ballots are coming from</h2>
+        <p class="section-dek" id="ev-map-dek">Each county's early vote compared with its 2022 pace on the same day. Tap a county for its numbers.</p></div>
+      <div class="map-wrap">
+        <div style="min-width:0"><svg id="ev-map" class="county-map" role="img" aria-label="Map of early vote pace by county"></svg>
+          <div class="legend-title">Early vote vs. same day in 2022</div><div class="legend" id="ev-legend"></div></div>
+        <aside class="card" id="ev-card"></aside>
+      </div>
+    </section>
+
+    <section class="col-wide">
+      <div class="rule-top"><h2>By region</h2>
+        <p class="section-dek">"Lean of ballots" assumes each county's voters split the way the county is expected to vote, with mail ballots leaning further Democratic. It is an estimate, not a count.</p></div>
+      <div class="tbl-scroll"><table id="ev-regions"></table></div>
+    </section>
+
+    <section class="col-wide">
+      <div class="rule-top"><h2>The 40 largest counties</h2>
+        <p class="section-dek">Sorted by expected votes. "Net votes" is the estimated Talarico-minus-Paxton total among ballots already cast in that county.</p></div>
+      <div class="tbl-scroll"><table id="ev-table"></table></div>
+    </section>
+
+    <section class="col">
+      <div class="rule-top"><h2>How to read this</h2></div>
+      <ul class="caveats">
+        <li>Turnout shows where votes come from, not whom they are for. Texas has no party registration.</li>
+        <li>Higher turnout in a blue county helps Talarico only if the extra voters are Democrats, and higher turnout in a red county helps Paxton only if they are Republicans. Neither is guaranteed.</li>
+        <li>Since 2020 many Republicans vote early instead of on Election Day, so a strong early vote in red counties may just be the same voters voting sooner.</li>
+        <li>Mail ballots come from voters 65 and older, voters with disabilities and a few others, so they skew older.</li>
+        <li>Counties report on their own schedules. A county with no numbers yet is marked "Not reported" and left out of comparisons.</li>
+        <li>The early vote does not move the forecast needle. The needle moves on counted votes on Nov. 3.</li>
+      </ul>
+      <p class="note">2022 comparison: Texas Secretary of State data as compiled by The Texas Tribune's 2022 early voting tracker. 2026: Texas Secretary of State daily early voting reports.</p>
+    </section>
+  </div>
+
+  <footer class="col-wide">
+    <div class="share" id="share-bottom"></div>
+    <h3>How this works</h3>
+    <ul>
+      <li>We run 50,000 simulated elections across all 254 counties. Each starts from the polling average, adds a statewide polling error (about 4.5 points on the margin, with fat tails), regional swings and county noise.</li>
+      <li>County patterns blend the 2018 and 2024 Senate results. Hispanic South and West Texas get double uncertainty after swinging about 9.5 points between those years.</li>
+      <li>Turnout uses each county's 2018 turnout rate applied to 2026 registration from the Texas Secretary of State.</li>
+      <li>On election night, counted votes from each county update the simulations, and the needle moves.</li>
+      <li>Backtest: run as of 2018 and 2024 using only earlier data, the model favored the eventual winner both times, and the final margin fell inside its 80% range.</li>
+    </ul>
+    <h3>Sources</h3>
+    <ul>
+      <li>Results history: Texas Legislative Council. Turnout, registration and election-night counts: Texas Secretary of State.</li>
+      <li>Polls: compiled from public releases listed on Wikipedia. Markets: Kalshi and Polymarket public prices.</li>
+    </ul>
+    <p id="fetch-note" style="margin-top:14px"></p>
+    <p style="color:var(--ink-3)">This is an independent statistical forecast, not affiliated with any campaign, party or news organization. A 74% chance means the other side wins about one time in four.</p>
+  </footer>
+</div>
+<div class="toast" id="toast" hidden></div>
+<div class="tip" id="tip" hidden role="tooltip"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const PATHS = /*__PATHS__*/null;
+
+const $ = (s) => document.querySelector(s);
+const pct = (x) => Math.round(x * 100) + "%";
+const fmtM = (m, long) => {                     // margin in points, + = Talarico
+  if (m == null || isNaN(m)) return "–";
+  const a = Math.abs(m).toFixed(1);
+  if (Math.abs(m) < 0.05) return "Even";
+  return long ? (m > 0 ? "Talarico +" : "Paxton +") + a : (m > 0 ? "T+" : "P+") + a;
+};
+const share2m = (s) => (2 * s - 1) * 100;
+const fmtK = (v) => v >= 1e6 ? (v / 1e6).toFixed(2) + "M" : v >= 1e3 ? Math.round(v / 1e3) + "K" : String(v);
+const fmtInt = (v) => v.toLocaleString("en-US");
+const fmtDate = (iso) => new Date(iso).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZone: "America/Chicago", timeZoneName: "short" });
+const el = (tag, attrs = {}, html = "") => { const e = document.createElementNS(tag === "svg" || attrs._svg ? "http://www.w3.org/2000/svg" : "http://www.w3.org/1999/xhtml", tag); for (const [k, v] of Object.entries(attrs)) if (k !== "_svg") e.setAttribute(k, v); if (html) e.innerHTML = html; return e; };
+const svgEl = (tag, attrs = {}) => el(tag, { ...attrs, _svg: 1 });
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const byName = Object.fromEntries(DATA.counties.map((c) => [c.name, c]));
+const MODE = DATA.mode;
+
+/* ---------- header + status ---------- */
+function header() {
+  const n = DATA.needle, f = DATA.forecast;
+  const st = $("#status"); st.dataset.mode = MODE;
+  const ev = DATA.early_vote;
+  const statusText = {
+    pre: "Forecast · voting has not started",
+    early: ev ? `Early voting · ${fmtInt(ev.total)} ballots in` : "Early voting",
+    live: `Live · ${Math.round((DATA.live?.expected_counted || 0) * 100)}% of expected vote counted`,
+    final: "All counties reporting",
+  }[MODE];
+  $("#status-text").textContent = statusText;
+  const lead = n.p >= 0.5 ? "Talarico" : "Paxton";
+  const lp = Math.max(n.p, 1 - n.p);
+  const strength = lp >= 0.95 ? "very likely to win" : lp >= 0.75 ? "favored" : lp >= 0.6 ? "slightly favored" : "in a toss-up";
+  $("#headline").textContent = MODE === "live" || MODE === "final"
+    ? `${lead} is ${strength} as votes are counted`
+    : lp < 0.6 ? "The Texas Senate race is a toss-up" : `${lead} is ${strength} in the Texas Senate race`;
+  $("#dek").textContent = MODE === "live" || MODE === "final"
+    ? `With about ${Math.round(DATA.live.expected_counted * 100)}% of the expected vote counted, our model gives ${lead} a ${pct(lp)} chance. The needle moves as each county reports.`
+    : `Our model gives ${lead} a ${pct(lp)} chance of winning, based on ${DATA.polls.n_used} recent polls, 254 counties and ${fmtInt(DATA.n_sims)} simulated elections. Prediction markets put it at ${DATA.markets.map((m) => pct(lead === "Talarico" ? m.talarico : m.paxton)).join(" and ")}.`;
+  $("#byline").textContent = `Updated ${fmtDate(DATA.generated)}`;
+}
+
+/* ---------- share ---------- */
+const ICONS = {
+  x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.8l-5.3-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.8 6.3L18.9 2zm-1.2 18h1.9L7.4 3.9H5.4L17.7 20z"/></svg>',
+  fb: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8V6c0-.9.2-1.4 1.6-1.4H18V1h-3.4C10.9 1 10 3.3 10 6.2V8H7v3.6h3V23h4V11.6h3.4L18 8h-4z"/></svg>',
+  li: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3V9.75zm7 0h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.85h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75v5.29H10V9.75z"/></svg>',
+  rd: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.1a2.2 2.2 0 0 0-3.7-1.6 10.8 10.8 0 0 0-5.7-1.8l1-4.6 3.2.7a1.6 1.6 0 1 0 .2-1l-3.6-.8a.5.5 0 0 0-.6.4l-1.1 5.2a10.8 10.8 0 0 0-5.8 1.8 2.2 2.2 0 1 0-2.4 3.6 4.3 4.3 0 0 0 0 .6c0 3.3 3.8 6 8.5 6s8.5-2.7 8.5-6a4.3 4.3 0 0 0 0-.6 2.2 2.2 0 0 0 1.5-1.9zM7.2 13.6a1.6 1.6 0 1 1 1.6 1.6 1.6 1.6 0 0 1-1.6-1.6zm8.9 4.3a5.6 5.6 0 0 1-4.1 1.3 5.6 5.6 0 0 1-4.1-1.3.4.4 0 0 1 .6-.6 4.8 4.8 0 0 0 3.5 1 4.8 4.8 0 0 0 3.5-1 .4.4 0 1 1 .6.6zm-.3-2.7a1.6 1.6 0 1 1 1.6-1.6 1.6 1.6 0 0 1-1.6 1.6z"/></svg>',
+  wa: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6a.6.6 0 0 0 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.4 13.4 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM12 0a12 12 0 0 0-10.3 18L0 24l6.2-1.6A12 12 0 1 0 12 0z"/></svg>',
+  link: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.9-3.9a3 3 0 0 1 4.2 4.2l-2.1 2.1a1 1 0 1 1-1.4-1.4l2.1-2.1a1 1 0 0 0-1.4-1.4L12 13.4a1 1 0 0 1-1.4 0zm2.8-2.8a1 1 0 0 1 0 1.4L9.5 15.9a3 3 0 0 1-4.2-4.2l2.1-2.1a1 1 0 1 1 1.4 1.4l-2.1 2.1a1 1 0 0 0 1.4 1.4L12 10.6a1 1 0 0 1 1.4 0z"/></svg>',
+};
+function shareText() {
+  const n = DATA.needle, lead = n.p >= 0.5 ? "Talarico" : "Paxton";
+  return `Texas Senate forecast: ${lead} ${pct(Math.max(n.p, 1 - n.p))} to win (${fmtM(share2m(n.median), true)}). County map, polls and live needle:`;
+}
+function share(target) {
+  // a version tag makes X, Facebook and LinkedIn fetch a fresh preview card after each update
+  const url = DATA.site_url ? `${DATA.site_url}?v=${DATA.generated.replace(/\D/g, "").slice(0, 12)}` : location.href.split("#")[0];
+  const u = encodeURIComponent(url), t = encodeURIComponent(shareText());
+  const links = [
+    ["x", "Post on X", `https://twitter.com/intent/tweet?text=${t}&url=${u}`],
+    ["fb", "Facebook", `https://www.facebook.com/sharer/sharer.php?u=${u}`],
+    ["li", "LinkedIn", `https://www.linkedin.com/sharing/share-offsite/?url=${u}`],
+    ["rd", "Reddit", `https://www.reddit.com/submit?url=${u}&title=${t}`],
+    ["wa", "WhatsApp", `https://wa.me/?text=${t}%20${u}`],
+  ];
+  const box = $(target);
+  for (const [k, label, href] of links) {
+    const a = el("a", { href, target: "_blank", rel: "noopener", "aria-label": `Share on ${label}` }, ICONS[k] + label);
+    box.append(a);
+  }
+  const b = el("button", { type: "button" }, ICONS.link + "Copy link");
+  b.addEventListener("click", () => {
+    const text = `${shareText()} ${url}`;
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => toast("Link copied")).catch(() => toast("Copy this link: " + url));
+    else toast("Copy this link: " + url);
+  });
+  box.append(b);
+}
+function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), 2600); }
+
+/* ---------- needle ---------- */
+// Before any votes are counted the needle rests at the center. It moves only on counted votes:
+// real ones on election night, or simulated ones when a reader runs the simulator.
+const N = { cx: 280, cy: 262 };
+function needleXY(p, r) { const a = Math.PI * p; return [N.cx + r * Math.cos(a), N.cy - r * Math.sin(a)]; }
+function arcPath(p0, p1, r0, r1) {
+  const [x0, y0] = needleXY(p0, r1), [x1, y1] = needleXY(p1, r1), [x2, y2] = needleXY(p1, r0), [x3, y3] = needleXY(p0, r0);
+  return `M${x0},${y0}A${r1},${r1} 0 0 ${p1 > p0 ? 0 : 1} ${x1},${y1}L${x2},${y2}A${r0},${r0} 0 0 ${p1 > p0 ? 1 : 0} ${x3},${y3}Z`;
+}
+const hasVotes = MODE === "live" || MODE === "final";
+const needle = { shown: DATA.forecast.p, target: hasVotes ? DATA.needle.p : 0.5, width: 0, moving: hasVotes, paused: false, line: null };
+function drawNeedle() {
+  const s = $("#needle");
+  const g = svgEl("g", { class: "needle-arc" }); s.append(g);
+  const bands = [[0, .05, "--rep-1"], [.05, .25, "--rep-2"], [.25, .4, "--rep-3"], [.4, .6, "--toss"], [.6, .75, "--dem-3"], [.75, .95, "--dem-2"], [.95, 1, "--dem-1"]];
+  for (const [a, b, c] of bands) g.append(svgEl("path", { d: arcPath(a, b, 150, 220), fill: css(c) }));
+  for (const p of [0, .25, .5, .75, 1]) {
+    const [x0, y0] = needleXY(p, 222), [x1, y1] = needleXY(p, 232);
+    s.append(svgEl("line", { x1: x0, y1: y0, x2: x1, y2: y1, stroke: css("--ink-3"), "stroke-width": 1 }));
+    const [tx, ty] = needleXY(p, 248);
+    const t = svgEl("text", { x: tx, y: ty + 4, "text-anchor": "middle" }); t.textContent = p === .5 ? "50%" : Math.round(Math.max(p, 1 - p) * 100) + "%"; s.append(t);
+  }
+  for (const [p, txt] of [[.85, "Likely"], [.675, "Leans"], [.5, "Toss-up"], [.325, "Leans"], [.15, "Likely"]]) {
+    const [x, y] = needleXY(p, 185);
+    const t = svgEl("text", { x, y: y + 4, "text-anchor": "middle", style: `font-size:10px;font-weight:600;fill:${p > .55 ? css("--dem-1") : p < .45 ? css("--rep-1") : css("--ink-2")}` });
+    t.textContent = txt; s.append(t);
+  }
+  const lt = svgEl("text", { x: 30, y: 292, "text-anchor": "start", style: `font-weight:700;font-size:12px;fill:${css("--dem")}` }); lt.textContent = "Talarico"; s.append(lt);
+  const rt = svgEl("text", { x: 530, y: 292, "text-anchor": "end", style: `font-weight:700;font-size:12px;fill:${css("--rep")}` }); rt.textContent = "Paxton"; s.append(rt);
+  needle.line = svgEl("line", { x1: N.cx, y1: N.cy, x2: N.cx, y2: N.cy - 205, stroke: css("--ink"), "stroke-width": 3, "stroke-linecap": "round" });
+  s.append(needle.line);
+  s.append(svgEl("circle", { cx: N.cx, cy: N.cy, r: 9, fill: css("--ink") }));
+  s.append(svgEl("circle", { cx: N.cx, cy: N.cy, r: 3.5, fill: css("--paper") }));
+  $("#motion").addEventListener("click", () => { needle.paused = !needle.paused; $("#motion").textContent = needle.paused ? "Resume needle motion" : "Pause needle motion"; });
+  showNeedle(hasVotes ? DATA.needle : null);
+  requestAnimationFrame(tick);
+}
+// est: {p, median, lo, hi} from counted votes, or null when nothing is counted yet
+function showNeedle(est, label) {
+  const f = DATA.forecast;
+  s_idle(!est);
+  if (!est) {
+    needle.target = f.p; needle.moving = false;
+    $("#pct-t").textContent = pct(f.p); $("#pct-p").textContent = pct(1 - f.p);
+    document.querySelectorAll(".cand .hint-l").forEach((e) => (e.textContent = "chance of winning"));
+    $("#needle-caption").innerHTML = `Expected margin: <strong>${fmtM(share2m(f.median), true)}</strong> · 80% range ${fmtM(share2m(f.lo), true)} to ${fmtM(share2m(f.hi), true)}<br>The needle shows our forecast today. On Nov. 3 it goes live and moves as each county's votes are counted.`;
+    $("#motion").hidden = true;
+    return;
+  }
+  needle.target = est.p; needle.moving = true;
+  needle.width = Math.min(0.05, Math.max(0.004, Math.abs(share2m(est.hi) - share2m(est.lo)) / 500));
+  $("#pct-t").textContent = pct(est.p); $("#pct-p").textContent = pct(1 - est.p);
+  document.querySelectorAll(".cand .hint-l").forEach((e) => (e.textContent = label || "chance of winning"));
+  $("#needle-caption").innerHTML = `Estimated final margin: <strong>${fmtM(share2m(est.median), true)}</strong> · 80% range ${fmtM(share2m(est.lo), true)} to ${fmtM(share2m(est.hi), true)}`;
+  $("#motion").hidden = matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+function s_idle() {}
+function setNeedle(p) { const [x, y] = needleXY(Math.min(.995, Math.max(.005, p)), 205); needle.line.setAttribute("x2", x); needle.line.setAttribute("y2", y); }
+let jit = 0, lastJ = 0;
+function tick(ts) {
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (needle.moving && !needle.paused && !reduce && ts - lastJ > 110) { jit += (Math.random() - 0.5) * needle.width; jit *= 0.8; lastJ = ts; }
+  if (!needle.moving || needle.paused || reduce) jit *= 0.85;
+  needle.shown += (needle.target - needle.shown) * (reduce ? 1 : 0.07);
+  setNeedle(needle.shown + jit);
+  requestAnimationFrame(tick);
+}
+
+const simObs = null;   // counted votes come only from the real election-night feed
+
+function markets() {
+  const box = $("#markets");
+  const cells = [{ lab: "Our model", t: DATA.needle.p, sub: `${fmtInt(DATA.n_sims)} simulations` },
+    ...DATA.markets.map((m) => ({ lab: m.source, t: m.talarico, sub: `$${(m.volume_usd / 1e6).toFixed(1)}M traded`, url: m.url }))];
+  for (const c of cells) {
+    const d = el("div");
+    d.innerHTML = `<div class="lab">${c.url ? `<a href="${c.url}" target="_blank" rel="noopener" style="color:inherit">${c.lab}</a>` : c.lab}</div>
+      <div class="val"><span class="t">${pct(c.t)}</span> <span style="color:var(--ink-3);font-weight:400">/</span> <span class="p">${pct(1 - c.t)}</span></div>
+      <div class="bar2"><span style="width:${c.t * 100}%"></span><span style="width:${(1 - c.t) * 100}%"></span></div>
+      <div class="sub">${c.sub}</div>`;
+    box.append(d);
+  }
+}
+
+/* ---------- explanation ---------- */
+function explain() {
+  const L = [], n = DATA.needle, f = DATA.forecast, ev = DATA.early_vote;
+  const lead = n.p >= .5 ? "Talarico" : "Paxton";
+  const tar = byName.Tarrant, har = byName.Harris;
+  if (MODE === "pre" || MODE === "early") {
+    const tl = tar.lines, rural = DATA.counties.filter((c) => c.region === "Rural").reduce((a, c) => a + c.net, 0);
+    L.push(`<strong>The polls favor ${share2m(DATA.polls.average) >= 0 ? "Talarico" : "Paxton"}.</strong> The polling average is ${fmtM(share2m(DATA.polls.average), true)}, from ${DATA.polls.n_used} polls in the last 60 days. In 2024, Ted Cruz won this seat by 8.5 points.`);
+    const mk = DATA.markets.map((m) => `${m.source} ${pct(m.talarico)}`).join(", ");
+    L.push(`<strong>Our model and the betting markets disagree on how sure to be.</strong> We give Talarico ${pct(f.p)}; ${mk}. Texas polls missed toward Republicans in 2020 and 2024 and toward Democrats in 2018. A 2024-style miss would make it Talarico ${pct(DATA.stress[1].p)}, Paxton ${pct(1 - DATA.stress[1].p)}.`);
+    L.push(`<strong>Tarrant County is the bellwether.</strong> It holds the state's median voter in ${pct(tar.tipping)} of simulations. If Tarrant comes in near ${fmtM(tl.even)}, the race is a coin flip. Above ${fmtM(tl.tal)}, Talarico is favored; below ${fmtM(tl.pax)}, Paxton is.`);
+    L.push(`<strong>Two paths.</strong> Talarico's runs through big margins in Harris, Dallas, Bexar and Travis plus wins in Tarrant and Collin. Paxton's runs through rural Texas, where he is expected to net about ${fmtK(Math.abs(rural))} votes, and holding Collin and Denton.`);
+    if (ev) {
+      const big4 = ["Harris", "Dallas", "Bexar", "Travis"].map((x) => byName[x]);
+      const sEv = big4.reduce((a, c) => a + c.ev, 0) / ev.total, sExp = big4.reduce((a, c) => a + c.exp_votes, 0) / DATA.counties.reduce((a, c) => a + c.exp_votes, 0);
+      const missing = DATA.counties.filter((c) => c.exp_votes > 150000 && c.ev < 50).map((c) => c.name);
+      if (missing.length) L.push(`<strong>Some big counties have not posted mail counts yet:</strong> ${missing.join(", ")}. The statewide total will jump when they do, so compare with past years only after all counties report.`);
+      L.push(ev.mail_only
+        ? `<strong>Only mail ballots so far:</strong> ${fmtInt(ev.total)} returned statewide; in-person early voting starts Oct. 19. The four biggest counties have ${pct(sEv)} of these ballots vs. ${pct(sExp)} of the expected final vote, but mail voters are mostly 65 and older, so read this lightly.`
+        : `<strong>Early vote:</strong> ${fmtInt(ev.total)} ballots cast (${pct(ev.pct_of_expected)} of our expected final turnout). Harris, Dallas, Bexar and Travis are casting ${pct(sEv)} of early votes vs. ${pct(sExp)} of the expected final vote. ${sEv / sExp < 0.9 ? "That is behind pace for Talarico." : "That is on pace for Talarico."}`);
+    }
+  } else {
+    const lv = DATA.live;
+    L.push(`<strong>${fmtInt(Math.round(lv.counted))} votes counted</strong>, about ${pct(lv.expected_counted)} of our expected turnout, in ${lv.reported_counties} counties.`);
+    L.push(`The model now estimates a final margin of <strong>${fmtM(share2m(n.median), true)}</strong> and gives ${lead} a <strong>${pct(Math.max(n.p, 1 - n.p))}</strong> chance.`);
+    const watch = ["Tarrant", "Harris", "Collin", "Denton", "Dallas", "Bexar"].map((x) => byName[x]).filter((c) => c.counted && c.counted.t + c.counted.p > 0);
+    for (const c of watch.slice(0, 4)) {
+      const m = (c.counted.t - c.counted.p) / (c.counted.t + c.counted.p) * 100;
+      const s = c.lines ? zone(c, m).sentence : "";
+      L.push(`<strong>${c.name}:</strong> ${fmtM(m)} with ${Math.round(c.counted.frac * 100)}% counted, ${s}. Forecast was ${fmtM(c.fc)}.`);
+    }
+    L.push("Early and mail votes are usually counted first. In Harris, mail ballots have recently leaned far more Democratic than the county overall, so Talarico may look stronger early than at the end.");
+  }
+  $("#explain-list").innerHTML = L.map((x) => `<li>${x}</li>`).join("");
+}
+
+/* ---------- map ---------- */
+const countedOf = (c) => simObs ? simObs[DATA.counties.indexOf(c)] : c.counted;
+const hasCount = (o) => o && o.t + o.p > 0;
+let layer = "forecast", selected = "Tarrant";
+const probColor = (p) => p >= .95 ? css("--dem-1") : p >= .75 ? css("--dem-2") : p >= .55 ? css("--dem-3") : p > .45 ? css("--toss") : p > .25 ? css("--rep-3") : p > .05 ? css("--rep-2") : css("--rep-1");
+const marginColor = (m) => m >= 20 ? css("--dem-1") : m >= 8 ? css("--dem-2") : m > 0 ? css("--dem-3") : m === 0 ? css("--toss") : m > -8 ? css("--rep-3") : m > -20 ? css("--rep-2") : css("--rep-1");
+const paceColor = (x) => x == null ? css("--nodata") : x < .8 ? css("--pace-0") : x < 1 ? css("--pace-1") : x < 1.25 ? css("--pace-2") : css("--pace-3");
+const LEGENDS = {
+  forecast: ["Chance of carrying the county", [["--dem-1", "Talarico 95%+"], ["--dem-2", "75–95%"], ["--dem-3", "55–75%"], ["--toss", "Toss-up"], ["--rep-3", "55–75%"], ["--rep-2", "75–95%"], ["--rep-1", "Paxton 95%+"]]],
+  pace: ["Share of early votes vs. share of expected final vote", [["--pace-0", "Under 0.8×"], ["--pace-1", "0.8–1×"], ["--pace-2", "1–1.25×"], ["--pace-3", "Over 1.25×"], ["--nodata", "No votes yet"]]],
+  results: ["Margin in counted votes", [["--dem-1", "T+20"], ["--dem-2", "T+8–20"], ["--dem-3", "T+0–8"], ["--rep-3", "P+0–8"], ["--rep-2", "P+8–20"], ["--rep-1", "P+20"], ["--nodata", "Not reporting"]]],
+  y2024: ["2024 Senate: Allred (D) vs. Cruz (R)", [["--dem-1", "D+20"], ["--dem-2", "D+8–20"], ["--dem-3", "D+0–8"], ["--rep-3", "R+0–8"], ["--rep-2", "R+8–20"], ["--rep-1", "R+20"]]],
+};
+function fillFor(c) {
+  if (layer === "forecast") return probColor(c.p);
+  if (layer === "pace") return paceColor(c.ev ? c.ev_index : null);
+  if (layer === "results") { const o = countedOf(c); if (!hasCount(o)) return css("--nodata"); return marginColor((o.t - o.p) / (o.t + o.p) * 100); }
+  return marginColor(c.m24);
+}
+function drawMap() {
+  const s = $("#map"); s.setAttribute("viewBox", PATHS.viewBox);
+  for (const [fips, g] of Object.entries(PATHS.counties)) {
+    const c = DATA.counties.find((x) => x.fips === fips) || byName[g.name];
+    const p = svgEl("path", { d: g.d, "data-name": c.name, "aria-label": c.name });
+    p.addEventListener("click", () => pick(c.name));
+    hoverTip(p, () => mapTip(c));
+    s.append(p);
+  }
+  const sel = $("#county-pick");
+  for (const c of [...DATA.counties].sort((a, b) => a.name.localeCompare(b.name))) sel.append(new Option(c.name, c.name));
+  sel.addEventListener("change", () => pick(sel.value));
+  const results = DATA.counties.some((c) => c.counted && c.counted.t + c.counted.p > 0);
+  const tabs = [...document.querySelectorAll("#tabs button")];
+  for (const b of tabs) {
+    if (b.dataset.layer === "results" && !results) { b.disabled = true; b.title = "Results appear after polls close on Nov. 3"; }
+    if (b.dataset.layer === "pace" && !DATA.early_vote) { b.disabled = true; }
+    b.addEventListener("click", () => { if (b.disabled) return; setLayer(b.dataset.layer); });
+  }
+  setLayer(results ? "results" : "forecast", results); pick(selected);
+}
+function setLayer(name, enableResults) {
+  const tabs = [...document.querySelectorAll("#tabs button")];
+  const rb = tabs.find((b) => b.dataset.layer === "results");
+  if (enableResults) { rb.disabled = false; rb.title = ""; }
+  else if (!simObs && !DATA.counties.some((c) => hasCount(c.counted))) { rb.disabled = true; rb.title = "Results appear after polls close on Nov. 3"; }
+  layer = name; tabs.forEach((x) => x.setAttribute("aria-selected", x.dataset.layer === name)); paint();
+}
+function paint() {
+  document.querySelectorAll("#map path").forEach((p) => { p.style.fill = fillFor(byName[p.dataset.name]); });
+  const [title, items] = LEGENDS[layer];
+  $("#legend-title").textContent = title;
+  $("#legend").innerHTML = items.map(([v, l]) => `<span class="sw"><i style="background:${css(v)}"></i>${l}</span>`).join("");
+  $("#map-dek").textContent = {
+    forecast: "Shaded by each candidate's chance of carrying the county. Tap a county for details.",
+    pace: "How much of the early vote each county is casting compared with its share of the expected final vote. Darker green means more early votes than expected.",
+    results: simObs ? "Simulated counted votes. Gray counties have not reported yet in this simulated night." : "Counted votes so far. Gray counties have not reported.",
+    y2024: "How each county voted in the 2024 Senate race, which Ted Cruz won by 8.5 points.",
+  }[layer];
+}
+function pick(name) {
+  selected = name; const c = byName[name];
+  document.querySelectorAll("#map path").forEach((p) => p.classList.toggle("sel", p.dataset.name === name));
+  const selPath = document.querySelector(`#map path[data-name="${CSS.escape(name)}"]`); if (selPath) selPath.parentNode.append(selPath);
+  $("#county-pick").value = name;
+  const rows = [
+    ["Who carries it", carry(c.p)],
+    ["Forecast margin", fmtM(c.fc)],
+    ["80% range", `${fmtM(c.lo)} to ${fmtM(c.hi)}`],
+    ["2018 Senate", fmtM(c.m18)],
+    ["2024 Senate", fmtM(c.m24)],
+    ["Expected votes", fmtK(c.exp_votes)],
+    ["Registered voters", fmtInt(c.registered)],
+  ];
+  if (c.lines) rows.push(["Paxton favored below", fmtM(c.lines.pax)], ["Race even at", fmtM(c.lines.even)], ["Talarico favored above", fmtM(c.lines.tal)]);
+  if (c.ev != null) rows.push(["Early ballots so far", fmtInt(c.ev)]);
+  const oc = countedOf(c);
+  if (hasCount(oc)) rows.push([simObs ? "Simulated margin" : "Counted margin", fmtM((oc.t - oc.p) / (oc.t + oc.p) * 100)], ["Share counted", pct(oc.frac)]);
+  $("#county-body").innerHTML = `<h3>${c.name}</h3><div class="reg">${c.region}</div><dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
+    <p class="hint">${c.tipping > .02 ? `Holds the state's median voter in ${pct(c.tipping)} of simulations.` : `Net votes expected: ${c.net >= 0 ? "Talarico" : "Paxton"} +${fmtK(Math.abs(c.net))}.`}</p>`;
+}
+
+/* ---------- hover box for the maps (mouse only; taps open the details card) ---------- */
+function hoverTip(node, html) {
+  const tip = $("#tip");
+  node.addEventListener("pointerenter", (e) => { if (e.pointerType !== "mouse") return; tip.innerHTML = html(); tip.hidden = false; });
+  node.addEventListener("pointermove", (e) => {
+    if (e.pointerType !== "mouse") return;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    const x = e.clientX + 14 + w > innerWidth - 8 ? e.clientX - w - 14 : e.clientX + 14;
+    const y = e.clientY + 14 + h > innerHeight - 8 ? e.clientY - h - 14 : e.clientY + 14;
+    tip.style.left = Math.max(8, Math.min(x, innerWidth - w - 8)) + "px";
+    tip.style.top = Math.max(8, Math.min(y, innerHeight - h - 8)) + "px";
+  });
+  node.addEventListener("pointerleave", () => (tip.hidden = true));
+}
+const tipRows = (rows) => rows.map(([k, v]) => `<div class="r"><span>${k}</span><span>${v}</span></div>`).join("");
+function mapTip(c) {
+  const rows = [["Forecast", fmtM(c.fc)], ["Expected to carry", carry(c.p)], ["2024 Senate", fmtM(c.m24)], ["Expected votes", fmtK(c.exp_votes)]];
+  const o = countedOf(c);
+  if (hasCount(o)) rows.unshift(["Counted so far", `${fmtM((o.t - o.p) / (o.t + o.p) * 100)} (${pct(o.frac)} in)`]);
+  if (layer === "pace" && c.ev != null) rows.push(["Early ballots", fmtInt(c.ev)]);
+  return `<b>${c.name}</b>${tipRows(rows)}`;
+}
+function evTip(c) {
+  const e = EV.counties[c.name];
+  const rows = e.missing ? [["Status", "Not reported yet"]] : [["Ballots so far", fmtInt(e.ev)], ["By mail", fmtInt(e.mail)], ["2022, same day", fmtInt(e.ev22)], ["Vs. 2022", e.pace != null ? pctTxt(e.pace) : "–"]];
+  rows.push(["2024 Senate", fmtM(c.m24)]);
+  return `<b>${c.name}</b>${tipRows(rows)}`;
+}
+
+/* ---------- neutral labels ---------- */
+// a county's counted margin vs. its lines -> which way it points for the statewide race
+function zone(c, m) {
+  if (m >= c.lines.tal) return { cls: "lt", label: "Leans Talarico", sentence: "a margin that points to Talarico statewide" };
+  if (m <= c.lines.pax) return { cls: "lp", label: "Leans Paxton", sentence: "a margin that points to Paxton statewide" };
+  return { cls: "tu", label: "Toss-up", sentence: "a margin consistent with a toss-up statewide" };
+}
+const carry = (p) => p >= .5 ? `<span class="t">Talarico ${pct(p)}</span>` : `<span class="p">Paxton ${pct(1 - p)}</span>`;
+
+/* ---------- watch table ---------- */
+function watch() {
+  const names = ["Tarrant", "Harris", "Collin", "Denton", "Williamson", "Dallas", "Bexar", "Travis", "Fort Bend", "El Paso", "Hidalgo", "Nueces"];
+  const live = MODE === "live" || MODE === "final" || !!simObs;
+  let h = `<thead><tr><th>County</th><th>2024</th><th>Forecast</th><th>Who carries it</th><th class="p">Paxton favored below</th><th>Even at</th><th class="t">Talarico favored above</th><th>Median voter</th><th>${live ? "Counted" : "Status"}</th></tr></thead><tbody>`;
+  for (const n of names) {
+    const c = byName[n]; if (!c || !c.lines) continue;
+    let status = `<span class="pill wait">Awaiting votes</span>`;
+    const oc = countedOf(c);
+    if (hasCount(oc)) {
+      const m = (oc.t - oc.p) / (oc.t + oc.p) * 100;
+      const z = zone(c, m);
+      status = `${fmtM(m)} <span class="pill ${z.cls}">${z.label}</span>`;
+    }
+    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtM(c.m24)}</td><td><strong>${fmtM(c.fc)}</strong></td>
+      <td><span class="prob"><i style="width:${c.p * 100}%"></i></span>${carry(c.p)}</td><td>${fmtM(c.lines.pax)}</td><td>${fmtM(c.lines.even)}</td><td>${fmtM(c.lines.tal)}</td><td>${c.tipping >= .005 ? pct(c.tipping) : "–"}</td><td>${status}</td></tr>`;
+  }
+  $("#watch").innerHTML = h + "</tbody>";
+  $("#watch").closest("section").querySelector(".section-dek").dataset.sim = simObs ? "1" : "";
+}
+
+/* ---------- polls ---------- */
+function polls() {
+  const P = DATA.polls;
+  $("#polls-dek").innerHTML = `Weighted average: <strong>${fmtM(share2m(P.average), true)}</strong> (two-party), from ${P.n_used} polls in the last 60 days.`;
+  const s = $("#poll-chart"), W = 480, H = 260, m = { l: 34, r: 12, t: 12, b: 26 };
+  const pts = P.all.map((d) => ({ t: new Date(d.end), m: d.t - d.p, w: d.w }));
+  const t0 = Math.min(...pts.map((d) => d.t)), t1 = new Date(DATA.generated).getTime();
+  const x = (t) => m.l + (t - t0) / (t1 - t0) * (W - m.l - m.r);
+  const y = (v) => m.t + (10 - v) / 20 * (H - m.t - m.b);
+  for (const v of [-10, -5, 0, 5, 10]) {
+    s.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: css(v === 0 ? "--ink-3" : "--rule"), "stroke-width": v === 0 ? 1 : .7 }));
+    const t = svgEl("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "T+" : "P+") + Math.abs(v); s.append(t);
+  }
+  const months = new Set();
+  for (let d = new Date(t0); d <= t1; d = new Date(d.getTime() + 864e5)) {
+    if (d.getDate() === 1 || +d === t0) { const k = d.toLocaleString("en-US", { month: "short" }); if (!months.has(k)) { months.add(k); const t = svgEl("text", { x: x(+d), y: H - 8, "text-anchor": "middle" }); t.textContent = k; s.append(t); } }
+  }
+  for (const d of pts) s.append(svgEl("circle", { cx: x(+d.t), cy: y(Math.max(-10, Math.min(10, d.m))), r: 2.5 + Math.min(3, d.w * 0.06), fill: d.m >= 0 ? css("--dem-2") : css("--rep-2"), "fill-opacity": .75 }));
+  // rolling weighted average, 14-day half-life, evaluated weekly
+  const line = [];
+  for (let t = t0 + 7 * 864e5; t <= t1; t += 2 * 864e5) {
+    let sw = 0, sm = 0;
+    for (const d of pts) { if (+d.t > t) continue; const w = Math.pow(.5, (t - d.t) / (14 * 864e5)); sw += w; sm += w * d.m; }
+    if (sw > 0) line.push([x(t), y(sm / sw)]);
+  }
+  s.append(svgEl("path", { d: "M" + line.map((p) => p.join(",")).join("L"), fill: "none", stroke: css("--ink"), "stroke-width": 2.2 }));
+  const last = line[line.length - 1];
+  if (last) { s.append(svgEl("circle", { cx: last[0], cy: last[1], r: 4, fill: css("--ink") })); }
+  let h = `<thead><tr><th>Pollster</th><th>Ended</th><th>Talarico</th><th>Paxton</th><th>Margin</th><th>Lean vs. avg.</th></tr></thead><tbody>`;
+  for (const r of P.recent.slice(0, 12)) {
+    const d = new Date(r.end + "T12:00:00").toLocaleString("en-US", { month: "short", day: "numeric" });
+    const name = r.pollster.replace(/\s*\((R|D)\)/g, "");
+    const sp = r.sponsor === "Independent" ? "" : `<span class="spon ${r.sponsor === "Republican" ? "p" : r.sponsor === "Democratic" ? "t" : ""}">${r.sponsor}-sponsored</span>`;
+    const lean = Math.abs(r.house) < 1 ? `<span style="color:var(--ink-3)">Near avg.</span>` : r.house > 0 ? `<span class="t">D +${r.house.toFixed(1)}</span>` : `<span class="p">R +${Math.abs(r.house).toFixed(1)}</span>`;
+    h += `<tr><td style="white-space:normal;min-width:150px">${name}<span class="sub" style="display:block;color:var(--ink-3);font-size:12px">${r.n ? fmtInt(r.n) + " " : ""}${r.pop.replace("TBA", "")} ${sp}</span></td><td>${d}</td><td class="t">${r.t}%</td><td class="p">${r.p}%</td><td><strong>${fmtM(r.t - r.p)}</strong></td><td>${lean}</td></tr>`;
+  }
+  $("#poll-table").innerHTML = h + "</tbody>";
+}
+
+/* ---------- histogram ---------- */
+function hist() {
+  const H = DATA.histogram, s = $("#hist"), W = 960, HH = 230, m = { l: 10, r: 10, t: 24, b: 30 };
+  const max = Math.max(...H.counts), n = H.counts.length, bw = (W - m.l - m.r) / n;
+  H.counts.forEach((c, i) => {
+    const lo = H.edges[i], mid = lo + .5, h = c / max * (HH - m.t - m.b);
+    s.append(svgEl("rect", { x: m.l + i * bw + 1, y: HH - m.b - h, width: bw - 2, height: h, fill: mid > 0 ? css("--dem-2") : css("--rep-2") }));
+  });
+  const x0 = m.l + (0 - H.edges[0]) / (H.edges[n] - H.edges[0]) * (W - m.l - m.r);
+  s.append(svgEl("line", { x1: x0, x2: x0, y1: m.t - 8, y2: HH - m.b, stroke: css("--ink"), "stroke-width": 1.2 }));
+  for (const v of [-15, -10, -5, 0, 5, 10, 15]) {
+    const xx = m.l + (v - H.edges[0]) / (H.edges[n] - H.edges[0]) * (W - m.l - m.r);
+    const t = svgEl("text", { x: xx, y: HH - 10, "text-anchor": "middle" }); t.textContent = v === 0 ? "Even" : (v > 0 ? "T+" : "P+") + Math.abs(v); s.append(t);
+  }
+  const tw = svgEl("text", { x: x0 - 8, y: m.t - 10, "text-anchor": "end", class: "lbl", style: `fill:${css("--dem")}` }); tw.textContent = `← Talarico wins ${pct(DATA.forecast.p)}`; s.append(tw);
+  const pw = svgEl("text", { x: x0 + 8, y: m.t - 10, "text-anchor": "start", class: "lbl", style: `fill:${css("--rep")}` }); pw.textContent = `Paxton wins ${pct(1 - DATA.forecast.p)} →`; s.append(pw);
+  // flip: draw Talarico on the left to match the needle
+  s.setAttribute("transform", "");
+  $("#hist-dek").textContent = `The middle outcome is ${fmtM(share2m(DATA.forecast.median), true)}. In 80% of simulations the result lands between ${fmtM(share2m(DATA.forecast.lo), true)} and ${fmtM(share2m(DATA.forecast.hi), true)}.`;
+}
+
+/* ---------- scenarios, stress, regions, mail ---------- */
+function scenarios() {
+  const box = $("#scen");
+  for (const r of DATA.scenarios) {
+    const m = share2m(r.share), winner = m >= 0 ? "Talarico" : "Paxton";
+    const d = el("div", { class: "card" });
+    d.innerHTML = `<h3>${r.label}</h3><div class="big ${m >= 0 ? "t" : "p"}">${fmtM(m, true)}</div>
+      <p style="margin:0 0 6px;font-size:14px">For <strong class="${r.trailer === "Talarico" ? "t" : "p"}">${r.trailer}</strong> to win instead, he would need:</p>
+      <ul><li>a ${r.uniform_pts.toFixed(1)}-point shift in his direction in every county, or</li>
+      ${r.regions.map((g, i) => `<li>${g.name.toLowerCase()} alone to shift ${g.pts.toFixed(1)} points his way${i < r.regions.length - 1 || r.turnout_boost != null ? ", or" : "."}</li>`).join("")}
+      ${r.turnout_boost != null ? `<li>turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} up ${Math.round(r.turnout_boost * 100)}%.</li></ul>` : `</ul><p class="note" style="margin-top:6px">Higher turnout in ${r.turnout_regions.map((x) => x.toLowerCase()).join(" and ")} alone would not be enough.</p>`}`;
+    box.append(d);
+  }
+  let h = `<thead><tr><th>Scenario</th><th class="t">Talarico</th><th class="p">Paxton</th></tr></thead><tbody>`;
+  for (const s of DATA.stress) h += `<tr><td style="white-space:normal">${s.label}</td><td><strong class="t">${pct(s.p)}</strong></td><td><strong class="p">${pct(1 - s.p)}</strong></td></tr>`;
+  $("#stress").innerHTML = h + "</tbody>";
+  let r = `<thead><tr><th>Region</th><th>Counties</th><th>Share of vote</th><th>2018</th><th>2024</th><th>Forecast</th></tr></thead><tbody>`;
+  for (const g of DATA.regions) r += `<tr><td class="name">${g.name}</td><td>${g.counties}</td><td>${pct(g.vote_share)}</td><td>${fmtM(g.m18)}</td><td>${fmtM(g.m24)}</td><td><strong>${fmtM(g.fc)}</strong></td></tr>`;
+  $("#regions").innerHTML = r + "</tbody>";
+  const M = DATA.mail_history;
+  if (M) {
+    let t = `<thead><tr><th>Harris County</th><th>Mail ballots</th><th>Mail margin</th><th>Whole county</th></tr></thead><tbody>`;
+    for (const x of M.harris) t += `<tr><td style="white-space:normal">${x.year}<span class="sub">${x.race}</span></td><td>${fmtInt(x.mail_votes)}</td><td><strong>${fmtM(x.mail_margin_D)}</strong></td><td>${fmtM(x.county_margin_D)}</td></tr>`;
+    const hv = byName.Harris;
+    if (DATA.early_vote) t += `<tr><td>2026 so far</td><td><strong>${fmtInt(hv.ev)}</strong></td><td colspan="2" style="text-align:left;color:var(--ink-3)">Sealed until Nov. 3</td></tr>`;
+    $("#mail").innerHTML = t.replaceAll(">T+", ">D+").replaceAll(">P+", ">R+") + "</tbody>";
+  }
+  const bad = Object.entries(DATA.fetch || {}).filter(([, v]) => !v.ok).map(([k]) => k);
+  $("#fetch-note").textContent = bad.length ? `Some sources could not be refreshed this time (${bad.join(", ")}); their last good data is shown.` : `All data sources refreshed ${fmtDate(DATA.generated)}.`;
+}
+
+/* ---------- early voting view ---------- */
+const EV = DATA.early;
+const evColor = (c) => { const e = EV && EV.counties[c.name]; if (!e || e.missing || e.pace == null) return css("--nodata");
+  const p = e.pace; return p < 0.8 ? css("--slow-2") : p < 0.95 ? css("--slow-1") : p <= 1.05 ? css("--even") : p <= 1.2 ? css("--pace-2") : css("--pace-3"); };
+const pctTxt = (x) => (x >= 1 ? "+" : "") + Math.round((x - 1) * 100) + "%";
+function earlyView() {
+  if (!EV) { $("#ev-story").innerHTML = "<li>Early voting numbers are not available yet.</li>"; return; }
+  const asOf = new Date(EV.as_of).toLocaleDateString("en-US", { month: "long", day: "numeric" });
+  $("#ev-kicker").textContent = EV.day === 0 ? `As of ${asOf} · Before in-person voting` : `As of ${asOf} · Day ${EV.day} of 12`;
+  $("#ev-head").textContent = EV.day === 0 ? `${fmtInt(EV.total)} mail ballots are in` : `${fmtInt(EV.total)} Texans have voted early`;
+  $("#ev-story").innerHTML = EV.story.map((x) => `<li>${x}</li>`).join("");
+  const lean = EV.day >= 1 ? fmtM(EV.est_margin, true) : "From day 1";
+  const stats = [
+    ["Ballots cast", fmtInt(EV.total), `${fmtInt(EV.in_person)} in person · ${fmtInt(EV.mail)} mail`],
+    ["Vs. same day in 2022", EV.day >= 1 ? pctTxt(EV.pace) : "–", EV.day >= 1 ? "after registration growth" : "compared from day 1"],
+    ["Estimated lean of ballots", lean, "an estimate, not a count"],
+    ["Turnout on this pace", EV.projected_turnout ? (EV.projected_turnout / 1e6).toFixed(1) + "M" : "–", `2022: ${(EV.final_2022_votes / 1e6).toFixed(1)}M · 2018: ${(EV.final_2018_votes / 1e6).toFixed(1)}M`],
+  ];
+  $("#ev-stats").innerHTML = stats.map(([l, v, s2]) => `<div><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s2}</div></div>`).join("");
+
+  // day-by-day chart
+  const s = $("#ev-chart"), W = 720, H = 260, m = { l: 44, r: 90, t: 14, b: 30 };
+  const maxP = Math.max(...EV.series22.map((d) => d.pct), ...EV.series26.map((d) => d.pct)) * 1.1;
+  const x = (d) => m.l + d / 12 * (W - m.l - m.r), y = (v) => H - m.b - v / maxP * (H - m.t - m.b);
+  for (let v = 0; v <= maxP; v += 0.05) {
+    s.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: css("--rule"), "stroke-width": .7 }));
+    const t = svgEl("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = Math.round(v * 100) + "%"; s.append(t);
+  }
+  for (let d = 0; d <= 12; d += 2) { const t = svgEl("text", { x: x(d), y: H - 8, "text-anchor": "middle" }); t.textContent = d === 0 ? "Before" : "Day " + d; s.append(t); }
+  const path = (pts) => "M" + pts.map((d) => `${x(d.day)},${y(d.pct)}`).join("L");
+  s.append(svgEl("path", { d: path(EV.series22), fill: "none", stroke: css("--ink-3"), "stroke-width": 2, "stroke-dasharray": "5 4" }));
+  const l22 = EV.series22[EV.series22.length - 1];
+  const t22 = svgEl("text", { x: x(l22.day) + 6, y: y(l22.pct) + 4, class: "lbl", style: `fill:${css("--ink-3")}` }); t22.textContent = "2022"; s.append(t22);
+  const pts26 = EV.series26.reduce((a, d) => { a[d.day] = d; return a; }, {});
+  const s26 = Object.values(pts26).sort((a, b) => a.day - b.day);
+  s.append(svgEl("path", { d: path(s26), fill: "none", stroke: css("--ink"), "stroke-width": 3 }));
+  const last = s26[s26.length - 1];
+  s.append(svgEl("circle", { cx: x(last.day), cy: y(last.pct), r: 5, fill: css("--ink") }));
+  const t26 = svgEl("text", { x: x(last.day) + 8, y: y(last.pct) - 6, class: "lbl" }); t26.textContent = "2026"; s.append(t26);
+
+  // map
+  const map = $("#ev-map"); map.setAttribute("viewBox", PATHS.viewBox);
+  for (const [fips, g] of Object.entries(PATHS.counties)) {
+    const c = DATA.counties.find((q) => q.fips === fips);
+    const p = svgEl("path", { d: g.d, "data-name": c.name, "aria-label": c.name }); p.style.fill = evColor(c);
+    p.addEventListener("click", () => evPick(c.name)); map.append(p);
+    hoverTip(p, () => evTip(c));
+  }
+  const leg = [["--slow-2", "20%+ behind"], ["--slow-1", "5–20% behind"], ["--even", "Within 5%"], ["--pace-2", "5–20% ahead"], ["--pace-3", "20%+ ahead"], ["--nodata", "Not reported"]];
+  $("#ev-legend").innerHTML = leg.map(([v, l]) => `<span class="sw"><i style="background:${css(v)}"></i>${l}</span>`).join("");
+  if (EV.day === 0) $("#ev-map-dek").textContent = "Before in-person voting, only mail ballots exist, so this compares mail returns with 2022's first day. Tap a county for its numbers.";
+  evPick("Harris");
+
+  // regions
+  let r = `<thead><tr><th>Region</th><th>Ballots</th><th>At 2022 pace</th><th>Vs. 2022</th><th>Share of early vote</th><th>Lean of ballots</th></tr></thead><tbody>`;
+  for (const g of EV.regions) r += `<tr><td class="name">${g.name}</td><td>${fmtInt(g.ev)}</td><td>${fmtInt(g.at_2022_pace)}</td><td><strong>${g.pace != null ? pctTxt(g.pace) : "–"}</strong></td><td>${pct(g.share_of_ev)}</td><td>${EV.day >= 1 && g.est_margin != null ? fmtM(g.est_margin) : "–"}</td></tr>`;
+  $("#ev-regions").innerHTML = r + "</tbody>";
+
+  // county table
+  const rows = [...DATA.counties].sort((a, b) => b.exp_votes - a.exp_votes).slice(0, 40);
+  let h = `<thead><tr><th>County</th><th>Ballots</th><th>Mail</th><th>2022 same day</th><th>Vs. 2022</th><th>2024 result</th><th>Net votes (est.)</th></tr></thead><tbody>`;
+  for (const c of rows) {
+    const e = EV.counties[c.name];
+    const vs = e.missing ? `<span class="nr">Not reported</span>` : e.pace != null ? `<strong>${pctTxt(e.pace)}</strong>` : "–";
+    const net = e.missing || EV.day < 1 ? "–" : `<span class="${e.est_net >= 0 ? "t" : "p"}">${e.est_net >= 0 ? "Talarico" : "Paxton"} +${fmtK(Math.abs(e.est_net))}</span>`;
+    h += `<tr><td class="name">${c.name}<span class="sub">${c.region}</span></td><td>${fmtInt(e.ev)}</td><td>${fmtInt(e.mail)}</td><td>${fmtInt(e.ev22)}</td><td>${vs}</td><td>${fmtM(c.m24)}</td><td>${net}</td></tr>`;
+  }
+  $("#ev-table").innerHTML = h + "</tbody>";
+}
+function evPick(name) {
+  const c = byName[name], e = EV.counties[name];
+  document.querySelectorAll("#ev-map path").forEach((p) => p.classList.toggle("sel", p.dataset.name === name));
+  const sp = document.querySelector(`#ev-map path[data-name="${CSS.escape(name)}"]`); if (sp) sp.parentNode.append(sp);
+  const rows = [["Ballots so far", fmtInt(e.ev)], ["In person", fmtInt(e.in_person)], ["By mail", fmtInt(e.mail)], ["% of registered", e.pct.toFixed(1) + "%"],
+    ["2022, same day", `${fmtInt(e.ev22)} (${e.pct22.toFixed(1)}%)`], ["Vs. 2022", e.missing ? "Not reported" : e.pace != null ? pctTxt(e.pace) : "–"],
+    ["2024 Senate result", fmtM(c.m24)], ["Forecast", fmtM(c.fc)]];
+  if (EV.day >= 1 && !e.missing) rows.push(["Net votes so far (est.)", `${e.est_net >= 0 ? "Talarico" : "Paxton"} +${fmtInt(Math.abs(e.est_net))}`]);
+  $("#ev-card").innerHTML = `<label for="ev-pick" class="sans" style="font-size:12px;color:var(--ink-3);font-weight:600;text-transform:uppercase;letter-spacing:.05em">Find a county</label>
+    <select id="ev-pick">${[...DATA.counties].sort((a, b) => a.name.localeCompare(b.name)).map((q) => `<option${q.name === name ? " selected" : ""}>${q.name}</option>`).join("")}</select>
+    <h3>${name}</h3><div class="reg">${c.region}</div><dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`;
+  $("#ev-pick").addEventListener("change", (ev) => evPick(ev.target.value));
+}
+
+/* ---------- page tabs (#forecast / #early) ---------- */
+function showView() {
+  const early = location.hash === "#early";
+  $("#view-forecast").hidden = early; $("#view-early").hidden = !early;
+  $("#tab-forecast").setAttribute("aria-selected", !early); $("#tab-early").setAttribute("aria-selected", early);
+}
+addEventListener("hashchange", showView);
+
+header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); hist(); scenarios(); earlyView(); showView();
+</script>

@@ -1,0 +1,2096 @@
+{{Short description|none}}
+{{Use American English|date=October 2018}}
+{{Use mdy dates|date=September 2018}}
+{{For|related races|2018 United States Senate elections}}
+{{Distinguish|2018 Texas Senate election}}
+{{Infobox election
+| election_name = 2018 United States Senate election in Texas
+| country = Texas
+| type = presidential
+| ongoing = no
+| previous_election = 2012 United States Senate election in Texas
+| previous_year = 2012
+| next_election = 2024 United States Senate election in Texas
+| next_year = 2024
+| election_date = November 6, 2018
+| turnout = 53.01% {{decrease}} (of registered voters)<br />42.07% {{decrease}} (of voting age population)<ref>{{Cite web |url=https://www.sos.state.tx.us/elections/historical/70-92.shtml |title=Turnout and Voter Registration Figures (1970-current)}}</ref>
+| image_size = 150x150px
+| image1 = Ted Cruz official 116th portrait (cropped).jpg
+| nominee1 = '''[[Ted Cruz]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''4,260,553'''
+| percentage1 = '''50.89%'''
+| image2 = Beto O'Rourke April 2019.jpg
+| nominee2 = [[Beto O'Rourke]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 4,045,632
+| percentage2 = 48.33%
+| title = U.S. senator
+| before_election = [[Ted Cruz]]
+| before_party = Republican Party (United States)
+| after_election = [[Ted Cruz]]
+| after_party = Republican Party (United States)
+| map_image = {{switcher |[[File:2018 United States Senate election in Texas results map by county.svg|310px]] |County results |[[File:2018 United States Senate election in Texas results map by congressional district.svg|310px]] |Congressional district results |[[File:2018 US Senate Election in Texas by precinct.svg|310px]] |Precinct results}}
+| map_caption = '''Cruz:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#c21b18|80–90%}} {{legend0|#a80000|>90%}}<br />'''O'Rourke:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} {{legend0|#3933e5|80–90%}}{{legend0|#0D0596|>90%}}<br /> '''Tie:''' {{legend0|#D2B1D9|40–50%}} {{legend0|#AE8BB1|50%}} {{legend0|#808080|No data}}
+}}{{Elections in Texas sidebar}}
+
+The '''2018 United States Senate election in Texas''' was held on November 6, 2018, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Republican Party (United States)|Republican]] incumbent [[Ted Cruz]] won re-election to a second term, defeating [[Democratic Party (United States)|Democratic]] Congressman [[Beto O'Rourke]]. The primary was held on March 6, 2018, the first primary of the 2018 season.<ref>{{cite web|title=Texas 2018 General Election|url=https://www.thegreenpapers.com/G18/TX|website=The Green Papers|access-date=December 10, 2017}}</ref>
+
+No Democrat has won a general election for statewide office in Texas since [[Bob Bullock]] was reelected as lieutenant governor in 1994, with election forecasters declaring it a safe Republican seat at the beginning of the 2018 cycle.<ref>{{cite web|url=https://www.texasobserver.org/meet-the-merry-band-of-texas-democrats-running-for-statewide-office/|title=Meet the Merry Band of Texas Democrats Running for Statewide Office|last=Miller|first=Justin|date=June 6, 2018|publisher=Texas Observer|access-date=September 28, 2018}}</ref> However, O'Rourke gradually closed the gap.<ref>{{cite web|url=https://fivethirtyeight.com/features/how-much-trouble-is-ted-cruz-really-in/|archive-url=https://web.archive.org/web/20180831152924/https://fivethirtyeight.com/features/how-much-trouble-is-ted-cruz-really-in/|url-status=dead|archive-date=August 31, 2018|title=How Much Trouble Is Ted Cruz Really In?|last=Mehta|first=Dhrumil|date=August 31, 2018|publisher=538|access-date=September 28, 2018}}</ref> Leading up to the election, the race was considered unexpectedly competitive.<ref>{{cite web|url=https://www.vox.com/2018/9/12/17841716/ted-cruz-beto-orourke-senate-midterm|title=Ted Cruz's surprisingly competitive battle against Beto O'Rourke, explained|last=Golshan|first=Tara|date=September 12, 2018|publisher=Vox|access-date=September 28, 2018}}</ref>
+
+On Election Day, Cruz defeated O'Rourke<ref>{{Cite news |url=https://www.cbsnews.com/live-news/texas-senate-race-beto-orourke-ted-cruz-election-results-polls-vote-count-2018-11-06-live-updates/ |title=Ted Cruz wins Texas Senate race, fending off challenge from Beto O'Rourke |date=2018-11-06 |work=CBS News |access-date=2018-11-07 |language=en}}</ref> by a margin of just under 215,000 votes, or 2.6 percent; this was the closest U.S. Senate race in Texas since [[1978 United States Senate election in Texas|1978]].<ref>{{Cite web|url=https://www.houstonchronicle.com/news/politics/texas/article/Ted-Cruz-s-margin-of-victory-over-Beto-13448497.php|title=Ted Cruz's margin of victory over Beto O'Rourke was even slimmer than we thought - HoustonChronicle.com|date=December 6, 2018|website=www.houstonchronicle.com}}</ref>
+
+==Background==
+{{Main|Politics of Texas}}
+In 2012, after a stunning upset victory in the Republican primary, then-Solicitor General of Texas [[Ted Cruz]] defeated former member of the Texas House of Representatives [[Paul Sadler]] by a 16-point margin (56%–40%). Texas has not elected a Democratic senator since 1988. As conservatives began turning to the [[Republican Party (United States)|Republican Party]] in once strongly Democratic areas, Democratic voters in the state were largely based in the [[Hispanic and Latino Americans|majority-Hispanic]] communities in [[South Texas|Southern Texas]] and in populous metropolitan cities, such as [[Houston]], [[Austin, Texas|Austin]], [[San Antonio]], and [[Dallas]], as well as the heavily Hispanic city of [[El Paso]] on the state's western tip, which O'Rourke represented in the U.S. House.
+
+Since 1990, Texas has voted for Republican statewide candidates in nearly all elections, whether it be presidential, gubernatorial, or senatorial, often by large margins. In 1998, Governor [[George W. Bush]] won re-election by 37 points over his Democratic challenger, [[Garry Mauro]]. In 2000, Governor Bush won Texas by 21 points over Vice President [[Al Gore]]. In 2004, President Bush won Texas over Senator [[John Kerry]] by 23 points, winning rural areas by landslide margins, capturing urban zones, and coming very close to winning the [[Hispanics and Latinos in Texas|Latino]] vote (49% to Kerry's 50%). Democrat [[Barack Obama]] lost by 7.27 percentage points in 2008 against [[John McCain]], and 15.8 points in 2012, against [[Mitt Romney]], respectively. In 2016, [[Donald Trump]] defeated Democrat [[Hillary Clinton]] by a 9-point margin, demonstrating a possible shift away from the Safe Republican status it had held for over a decade. This has led Democrats to begin targeting Texas as a potential future swing state. It should also be noted that Ted Cruz defeated Donald Trump in the Texas Republican primary for U.S. president in 2016.
+
+As of June 2018, Senator Cruz held a 49%–44% approval rating among Texans in a state Donald Trump won by 9 points against Hillary Clinton in 2016. Among groups that tend to affiliate themselves more with the [[Democratic Party (United States)|Democratic Party]], Senator Cruz held a 29% approval rating among Hispanics, 37% among women, and 42% among college-educated voters.<ref>{{cite web|url=https://morningconsult.com/2018/04/12/americas-most-and-least-popular-senators/|title=America's Most and Least Popular Senators|work=[[Morning Consult]]|last=Easley|first=Cameron|date=April 12, 2018|access-date=June 30, 2018}}</ref>
+
+==Republican primary==
+===Candidates===
+====Nominee====
+* [[Ted Cruz]], incumbent U.S. senator and former [[Ted Cruz 2016 presidential campaign|candidate]] for president in [[2016 United States presidential election|2016]]<ref name=cruzfiles>{{cite news|url=https://www.washingtonpost.com/news/post-politics/wp/2016/05/11/ted-cruz-files-to-run-for-reelection-in-2018/|title=Ted Cruz files to run for reelection to the Senate in 2018|newspaper=[[The Washington Post]]|last=Sullivan|first=Sean|date=May 11, 2016|access-date=July 25, 2016}}</ref>
+
+====Eliminated in primary====
+* Stefano de Stefano, attorney<ref name="Chron">{{cite web|url=https://www.chron.com/news/politics/article/Houston-energy-lawyer-to-challenge-Cruz-in-2018-11299374.php|title=Houston energy lawyer to challenge Cruz in 2018 Texas Republican primary|work=[[Houston Chronicle]]|last=Diaz|first=Kevin|date=July 19, 2017|access-date=July 19, 2017}}</ref>
+*Bruce Jacobson, television producer<ref>{{cite web|url=https://www.dallasnews.com/news/elections/2017/11/16/christian-tv-producer-north-richland-hills-will-challenge-sen-ted-cruz-gop-primary|last=Wang|first=Jackie|date=November 16, 2017|title=Christian TV producer challenging Sen. Ted Cruz in GOP primary|work=[[Dallas Morning News]]|access-date=November 16, 2017}}</ref>
+* Mary Miller, CPA<ref>{{Cite news|url=http://www.star-telegram.com/news/politics-government/election/article188979339.html|title=Deadline for 2018 primary ballot: Monday. Here's who is already in the race|work=[[Fort Worth Star-Telegram]]|last=Tinsley|first=Anna M.|date=December 9, 2017|access-date=December 11, 2017}}</ref>
+* Geraldine Sam, former mayor of [[La Marque, Texas|La Marque]]<ref>{{cite web|url=http://www.star-telegram.com/news/politics-government/election/article184168366.html|title=2018 Election: First day of filing begins with a rush of candidates|work=[[Fort Worth Star-Telegram]]|last=Tinsley|first=Anna M.|date=November 11, 2017|access-date=November 15, 2017}}</ref><ref>{{cite web|url=https://www.amarillopioneer.com/blog/2017/11/15/geraldine-sam-to-run-for-senate|title=Geraldine Sam to Run for Senate|work=The Amarillo Pioneer|last=Warren|first=Thomas|date=November 15, 2017|access-date=November 20, 2017}}</ref>
+
+====Failed to qualify====
+* Thomas Dillingham, businessman<ref>{{Cite news|url=http://www.star-telegram.com/news/local/community/fort-worth/article187347883.html|title=Former Birdville schools employee joins GOP race to unseat Sen. Ted Cruz|work=[[Fort Worth Star-Telegram]]|last=Smith|first=Diane|date=November 30, 2017|access-date=December 1, 2017}}</ref>
+
+====Withdrew====
+* Dan McQueen, former mayor of [[Corpus Christi, Texas|Corpus Christi]]<ref>{{cite web|last=Woolbright|first=Matt|date=August 9, 2017|title= EXCLUSIVE: Former mayor Dan McQueen announces U.S. Senate bid|publisher=[[Corpus Christi Caller-Times|Caller-Times]]|access-date=August 10, 2017|url=http://www.caller.com/story/news/local/2017/08/09/exclusive-former-mayor-dan-mcqueen-announces-u-s-senate-bid/554184001/}}</ref><ref name="McQueen drops out">{{cite web|url=http://www.caller.com/story/news/politics/2017/11/17/former-corpus-christi-mayor-dan-mcqueen-drops-out-senate-race/874476001/|title=Former Corpus Christi mayor Dan McQueen drops out of Senate race|work=[[Corpus Christi Caller-Times]]|last=Dearman|first=Eleanor|date=November 17, 2017|access-date=November 20, 2017}}</ref>
+
+====Declined====
+* [[George P. Bush]], [[Commissioner of the General Land Office|Texas land commissioner]] and grandson of former President [[George H. W. Bush]] ''([[2018 Texas elections#Commissioner of the General Land Office|ran for re-election]])''<ref name="mraju1">{{cite news|last1=Raju|first1=Manu|title=Following RNC speech, Cruz critics urge McCaul to mount primary challenge|url=http://www.cnn.com/2016/08/08/politics/ted-cruz-michael-mccaul-primary-challenge/index.html|access-date=August 9, 2016|publisher=CNN|date=August 8, 2016}}</ref><ref>{{cite news|url=https://www.washingtonpost.com/national/apnewsbreak-george-p-bush-seeking-re-election-in-texas/2017/06/19/bb0c1498-54ad-11e7-840b-512026319da7_story.html|archive-url=https://web.archive.org/web/20170619065601/https://www.washingtonpost.com/national/apnewsbreak-george-p-bush-seeking-re-election-in-texas/2017/06/19/bb0c1498-54ad-11e7-840b-512026319da7_story.html|url-status=dead|archive-date=June 19, 2017|title=George P Bush seeks re-election as Texas land commissioner|newspaper=[[The Washington Post]]|last=Weissert|first=Will|date=June 19, 2017|access-date=June 19, 2017}}</ref>
+* [[Michael McCaul]], U.S. representative from {{ushr|TX|10}} ''([[2018 United States House of Representatives elections in Texas#District 10|ran for re-election]])''<ref>{{cite web|url=https://www.huffingtonpost.com/entry/ted-cruz-donald-trump-speech_us_57a89d49e4b056bad2162e9e?section=&|publisher=Ryan Grim & Igor Bobic, The Huffington Post|access-date=August 9, 2016|title=Ted Cruz May Get The Last Laugh If Donald Trump Implodes|date=August 8, 2016}}</ref><ref>{{cite web|url=https://www.texastribune.org/2017/04/21/cruz-has-52m-start-re-election-race/|title=Ted Cruz reports $5.2 million total ahead of re-election campaign|work=[[The Texas Tribune]]|last=Svitek|first=Patrick|date=April 21, 2017|access-date=May 1, 2017}}</ref><ref name="Chron"/>
+* [[Dan Patrick (politician)|Dan Patrick]], [[lieutenant governor of Texas]] ''([[2018 Texas lieutenant gubernatorial election|ran for re-election]])''<ref>{{cite web|url=http://trailblazersblog.dallasnews.com/2016/05/lt-gov-dan-patrick-i-am-not-running-for-u-s-senate.html/|title=Lt. Gov. Dan Patrick: I am not running for U.S. Senate|work=[[The Dallas Morning News]]|last=Grissom|first=Brandi|date=May 4, 2016|access-date=July 25, 2016|archive-url=https://web.archive.org/web/20160709104910/http://trailblazersblog.dallasnews.com/2016/05/lt-gov-dan-patrick-i-am-not-running-for-u-s-senate.html/|archive-date=July 9, 2016|url-status=dead}}</ref><ref name=plotprimary/>
+* [[Rick Perry]], [[United States Secretary of Energy|secretary of energy]], former [[governor of Texas]] and candidate for president in [[2012 United States presidential election|2012]] and 2016<ref>{{cite web | url=https://www.texastribune.org/2016/08/30/rick-perry-dancing-stars-and-running-senate/ | title=Rick Perry Talks "Dancing With The Stars," Senate Speculation | work=Texas Tribune | date=August 31, 2016 | access-date=September 3, 2016 | author=Livingston, Abby}}</ref>
+* [[Katrina Pierson]], national spokesperson for the [[Donald Trump 2016 presidential campaign|Donald Trump's presidential campaign in 2016]] and candidate for House district [[Texas's 32nd congressional district|TX-32]] in [[2014 United States House of Representatives elections in Texas#District 32|2014]]<ref name=plotprimary>{{cite web|url=https://thehill.com/blogs/ballot-box/senate-races/288719-roger-stone-alex-jones-plot-primary-challenge-to-cruz/|title=Roger Stone, Alex Jones plot primary challenge to Cruz|work=[[The Hill (newspaper)|The Hill]]|last=Easley|first=Jonathan|date=July 21, 2016|access-date=July 25, 2016}}</ref>
+
+===Endorsements===
+{{Endorsements box
+| title = Bruce Jacobson
+| list =
+'''Individuals'''
+*Dan McQueen, former mayor of [[Corpus Christi, Texas|Corpus Christi]] and former candidate for this seat<ref name="McQueen drops out"/>
+}}
+{{Endorsements box
+| title = Stefano de Stefano
+| list =
+'''Newspapers'''
+*''[[The Bryan-College Station Eagle]]''<ref>{{Cite web|url=https://www.theeagle.com/opinion/editorials/eagle-recommendations-for-u-s-senate-house-of-representatives/article_f7ec9d94-53ca-5371-bae0-278684dff559.html|title=Eagle recommendations for U.S. Senate, House of Representatives|first=Eagle Editorial|last=Board|website=The Eagle|date=February 21, 2018 }}</ref>
+*''[[Corpus Christi Caller Times]]''<ref>{{Cite web|url=https://www.caller.com/story/opinion/editorials/2018/02/19/caller-times-corpus-christi-election-endorsements-2018-against-these-please-vote-texas-primary/351449002/|title=Texas Primary Election 2018: Caller-Times endorsements|website=Corpus Christi Caller-Times}}</ref>
+*''[[The Dallas Morning News]]''<ref>{{Cite news|url=https://www.dallasnews.com/opinion/editorials/2018/02/16/recommend-stefano-de-stefano-ted-cruz-gop-primary-us-senate|title=We recommend Stefano de Stefano over Ted Cruz in the GOP primary for U.S. Senate|date=February 16, 2018|work=The Dallas Morning News|access-date=February 16, 2018|archive-url=https://web.archive.org/web/20180217042051/https://www.dallasnews.com/opinion/editorials/2018/02/16/recommend-stefano-de-stefano-ted-cruz-gop-primary-us-senate|archive-date=February 17, 2018|url-status=live}}</ref>
+}}
+
+===Polling===
+{| class="wikitable" style="font-size:90%;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:75px;"| Ted<br />Cruz
+! style="width:75px;"| Stefano<br />de Stefano
+! style="width:75px;"| Bruce<br />Jacobson
+! style="width:75px;"| Mary<br />Miller
+! style="width:75px;"| Geraldine<br />Sam
+! Undecided
+|-
+|[[Dixie Strategies]]<ref name="Dixie Strategies">[https://www.cbsnews.com/dfw/news/texas-democrats-undecided-abbott-cruz-safe/ Dixie Strategies]</ref>
+| align="center"| February 22–23, 2018
+| align="center"| –
+| align="center"| ± 4.7%
+| {{party shading/Republican}} align="center"| '''73%'''
+| align="center"| 1%
+| align="center"| 2%
+| align="center"| 2%
+| align="center"| 1%
+| align="center"| 21%
+|-
+|[[University of Texas]]<ref name="University of Texas">[https://static.texastribune.org/media/documents/ut-tt-2018-02-summary-1.pdf University of Texas]</ref>
+| align="center"| February 1–12, 2018
+| align="center"| 612
+| align="center"| ± 5.3%
+| {{party shading/Republican}} align="center"| '''91%'''
+| align="center"| 1%
+| align="center"| 3%
+| align="center"| 3%
+| align="center"| 2%
+| align="center"| –
+|}
+
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+{| class="wikitable"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:75px;"| Ted<br />Cruz
+! style="width:75px;"| Michael<br />McCaul
+! Other
+! Undecided
+|-
+|[[Dixie Strategies]]<ref>[https://www.cbsnews.com/dfw/news/trump-leads-clinton-gains-in-latest-texas-ktvt-cbs-11-dixie-strategies-poll/ Dixie Strategies]</ref>
+| align=center| September 29 – October 1, 2016
+| align=center| 321
+| align=center| ± 3.5%
+| {{party shading/Republican}} align=center| '''52%'''
+| align=center| 12%
+| align=center| 7%
+| {{party shading/Undecided}} align=center| '''29%'''
+|-
+|[[Public Policy Polling]]<ref name="Public Policy Polling">[http://www.publicpolicypolling.com/pdf/2015/PPP_Release_TX_81716.pdf Public Policy Polling]</ref>
+| align=center| August 12–14, 2016
+| align=center| 522
+| align=center| –
+| {{party shading/Republican}} align=center| '''51%'''
+| align=center| 19%
+| align=center| –
+| {{party shading/Undecided}} align=center| '''31%'''
+|}
+{| class="wikitable"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:75px;"| Ted<br />Cruz
+! style="width:75px;"| George P.<br />Bush
+! Other
+! Undecided
+|-
+|[[Dixie Strategies]]<ref name="cbsnews.com">[https://www.cbsnews.com/dfw/news/texans-dont-like-cruz-in-ktvt-cbs-11dixie-strategies-poll/ Dixie Strategies]</ref>
+| align=center| August 8–9, 2016
+| align=center| 448
+| align=center| –
+| {{party shading/Republican}} align=center| '''40%'''
+| align=center| 21%
+| align=center| 12%
+| align=center| 27%
+|}
+
+{| class="wikitable"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:75px;"| Ted<br />Cruz
+! style="width:75px;"| Dan<br />Patrick
+! Other
+! Undecided
+|-
+|[[Public Policy Polling]]<ref name="Public Policy Polling"/>
+| align=center| August 12–14, 2016
+| align=center| 522
+| align=center| –
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 27%
+| align=center| –
+| align=center| 24%
+|-
+|[[Dixie Strategies]]<ref name="cbsnews.com"/>
+| align=center| August 8–9, 2016
+| align=center| 448
+| align=center| –
+| {{party shading/Republican}} align=center| '''38%'''
+| align=center| 23%
+| align=center| 15%
+| align=center| 24%
+|}
+
+{| class="wikitable"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:75px;"| Ted<br />Cruz
+! style="width:75px;"| Rick<br />Perry
+! Undecided
+|-
+|[[Public Policy Polling]]<ref name="Public Policy Polling"/>
+| align=center| August 12–14, 2016
+| align=center| 522
+| align=center| –
+| align=center| 37%
+| {{party shading/Republican}} align=center| '''46%'''
+| align=center| 18%
+|}
+{{hidden end}}
+
+=== Results ===
+[[File:2018 United States Senate Republican primary election in Texas results map by county.svg|thumb|300px|County results of the Republican primary
+{{collapsible list
+|title={{legend|#D72F30|Cruz}}
+|{{legend|#D72F30|[[Ted Cruz|Cruz]]—>90%}}
+|{{legend|#C21B18|Cruz—80–90%}}
+|{{legend|#D72F30|Cruz—70–80%}}
+}}
+{{legend|#808080|No votes}}
+]]
+
+{{Election box begin no change
+| title = Republican primary results<ref name="United States Senate Republican primary election in Texas, 2018">{{cite web|title=United States Senate Republican primary election in Texas, 2018|url=https://elections.sos.state.tx.us/elchist325_state.htm}}</ref>
+}}
+{{Election box winning candidate with party link no change
+| candidate  = Ted Cruz (incumbent)
+| party      = Republican Party (United States)
+| votes      = 1,322,724
+| percentage = 85.36%
+}}
+{{Election box candidate with party link no change
+| candidate  = Mary Miller
+| party      = Republican Party (United States)
+| votes      = 94,715
+| percentage = 6.11%
+}}
+{{Election box candidate with party link no change
+| candidate  = Bruce Jacobson Jr.
+| party      = Republican Party (United States)
+| votes      = 64,791
+| percentage = 4.18%
+}}
+{{Election box candidate with party link no change
+| candidate  = Stefano de Stefano
+| party      = Republican Party (United States)
+| votes      = 44,456
+| percentage = 2.87%
+}}
+{{Election box candidate with party link no change
+| candidate  = Geraldine Sam
+| party      = Republican Party (United States)
+| votes      = 22,887
+| percentage = 1.48%
+}}
+{{Election box total no change
+| votes      = 1,549,573
+| percentage = 100%
+}}
+{{Election box end}}
+
+==Democratic primary==
+
+===Candidates===
+
+====Nominee====
+* [[Beto O'Rourke]], [[United States House of Representatives|U.S. representative]] from {{ushr|TX|16}}<ref>{{cite web|url=https://www.texastribune.org/2017/01/06/orourke-very-likely-challenge-cruz-2018/|title=Rep. Beto O'Rourke "very likely" to run for Sen. Ted Cruz's seat in 2018|first=Abby|last=Livingston|date=January 6, 2017}}</ref><ref name="Beto for Texas 1">{{cite web | url=http://www.houstonchronicle.com/news/politics/article/Beto-O-Rourke-to-challenge-Ted-Cruz-in-Texas-11036228.php?t=b4eb45d765438d9cbb | title=Beto O'Rourke to challenge Ted Cruz in Texas' 2018 Senate race | work=Houston Chronicle | date=March 29, 2017 | access-date=March 29, 2017 | author=Bill Lambrecht and Kevin Diaz}}</ref><ref name="Beto for Texas 2">{{cite web|url=https://www.wsj.com/articles/democratic-congressman-launches-longshot-senate-challenge-to-ted-cruz-1490976301|title=Democratic Congressman Beto O'Rourke Launches Longshot Senate Challenge to Ted Cruz|author=Reid J. Epstein|date=March 31, 2017|work=[[The Wall Street Journal]]}}</ref>
+
+====Eliminated in primary====
+*Sema Hernandez, activist and organizer for the [[Poor People's Campaign: A National Call for a Moral Revival|Poor People's Campaign]], baseball coach and small business owner<ref>{{cite web|url=http://abc13.com/politics/local-coach-to-run-against-ted-cruz-in-senate-race/2323954/|title=Local baseball coach to run against Ted Cruz in Senate race|work=[[KTRK-TV]]|date=August 18, 2017|access-date=August 21, 2017}}</ref>
+*Edward Kimbrough<ref>{{cite web|url=http://offthekuff.com/wp/?p=83748|title=Filing news: Jerry's back|work=[[Off the Kuff]]|last=Kuffner|first=Charles|date=December 9, 2017|access-date=December 11, 2017}}</ref>
+
+====Declined====
+* [[Joaquin Castro]], [[United States House of Representatives|U.S. representative]] from {{ushr|TX|20}} ''([[2018 United States House of Representatives elections in Texas#District 20|ran for re-election]])''<ref name="wapocastro">{{cite news | url=https://www.washingtonpost.com/news/post-politics/wp/2017/05/01/joaquin-castro-decides-not-to-run-against-ted-cruz-in-2018/ | title=Joaquin Castro decides not to run against Ted Cruz in 2018 — at least for now | newspaper=Washington Post | date=May 1, 2017 | access-date=May 1, 2017 | author=O'Keefe, Ed}}{{dead link|date=June 2021|bot=medic}}{{cbignore|bot=medic}}</ref>
+* [[Julian Castro]], former [[U.S. Secretary of Housing and Urban Development|U.S. secretary of housing and urban development]] and mayor of San Antonio<ref name="txtribunecastro">{{cite web | url=https://www.texastribune.org/2016/07/26/joaquin-castro-considers-texas-senate-run-cruz/ | title=Joaquin Castro Causes New Stir as He Considers Senate Run | work=Texas Tribune | date=July 26, 2016 | access-date=September 3, 2016 | author=Svitek, Patrick}}</ref>
+* [[Wendy Davis (politician)|Wendy Davis]], former state senator and nominee for governor in [[2014 Texas gubernatorial election|2014]]<ref>{{cite web | url=https://www.texastribune.org/2016/07/29/wendy-davis-democratic-national-convention/ | title=Wendy Davis Draws Starstruck Fans at Democratic National Convention | work=Texas Tribune | access-date=September 3, 2016 | author=Livingston, Abby| date=July 29, 2016 }}</ref>
+
+===Endorsements===
+{{Endorsements box
+| title = Beto O'Rourke
+| list =
+'''Newspapers'''
+* ''[[The Dallas Morning News]]''<ref name="dallasnews.com">{{cite web|url=https://www.dallasnews.com/opinion/editorials/2018/02/04/recommend-beto-orourke-democratic-primary-us-senate|title=We recommend Beto O'Rourke in the Democratic primary for U.S. Senate|date=February 4, 2018}}</ref>
+* ''[[Houston Chronicle]]''<ref name="houstonchronicle.com">{{cite web|url=https://www.houstonchronicle.com/opinion/recommendations/article/Democratic-endorsement-2018-Houston-Chronicle-12624002.php|title=Houston Chronicle editorial board Democratic primary endorsement list|date=February 19, 2018}}</ref>
+
+'''Organizations'''
+* [[End Citizens United]]<ref name="Beto rating">{{cite web|url=https://votesmart.org/candidate/evaluations/78533/beto-orourke#.WqKAY0xFxPY|title=The Voter's Self Defense System|website=Vote Smart}}</ref>
+* [[Equality Texas]]<ref name="Beto rating"/>
+* [[Houston GLBT Political Caucus]]<ref>{{cite web|url=http://www.thecaucus.org/endorsements/|title=Endorsements|date=July 8, 2017}}</ref>
+* [[J Street PAC]]<ref name="Beto rating"/>
+* [[League of Conservation Voters]]<ref name="Beto rating"/>
+* [[MoveOn.org]] Political Action<ref name="Beto rating"/>
+* [[National Education Association]]<ref name="Beto rating"/>
+* [[Stonewall Democrats of Dallas]]<ref name="stonewalldemocratsofdallas.org">{{cite web|url=http://www.stonewalldemocratsofdallas.org/endorsements|title=Stonewall Democrats of Dallas - Voting / Endorsements|website=www.stonewalldemocratsofdallas.org}}</ref>
+* [[Stonewall Democrats of San Antonio]]<ref name="stonewallsanantonio.org">{{cite web|url=http://www.stonewallsanantonio.org/index.php/about-sdsa/endorsements/180-sdsa-endorsements-democratic-primary-election-march-6-2018|title=Stonewall Democrats of San Antonio|website=www.stonewallsanantonio.org|date=April 5, 2023 }}</ref>
+* Texas [[AFL-CIO]]<ref name="Beto rating"/>
+}}
+{{Endorsements box
+| title = Sema Hernandez
+| list =
+'''Individuals'''
+* [[Lee Camp (comedian)|Lee Camp]], host of ''Redacted Tonight''<ref>{{cite web|url=https://twitter.com/LeeCamp/status/940258833036914689|title=Lee Camp [Redacted] on Twitter}}</ref>
+}}
+
+===Polling===
+{| class="wikitable" style="font-size:90%;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:75px;"| Sema<br />Hernandez
+! style="width:75px;"| Edward<br />Kimbrough
+! style="width:75px;"| Beto<br />O'Rourke
+! Undecided
+|-
+|[[Dixie Strategies]]<ref name="Dixie Strategies"/>
+| align="center"| February 22–23, 2018 
+| align="center"| –
+| align="center"| ± 5.7%
+| align="center"| 6%
+| align="center"| 4%
+| {{party shading/Democratic}} align="center"| '''38%'''
+| {{party shading/Undecided}} align="center"| '''53%'''
+|-
+|[[University of Texas]]<ref name="University of Texas"/>
+| align="center"| February 1–12, 2018
+| align="center"| 453
+| align="center"| ± 7.4%
+| align="center"| 19%
+| align="center"| 8%
+| {{party shading/Democratic}} align="center"| '''73%'''
+| align="center"| –
+|}
+
+=== Results ===
+[[File:Democratic primary for Class 1 United States Senate in Texas, 2018.svg|thumb|300px|County results of the Democratic primary
+{{collapsible list
+|title={{legend|#86b6f2|O'Rourke}}
+|{{legend|#002b84|[[w:Beto O'Rourke|O'Rourke]]—>90%}}
+|{{legend|#0645b4|O'Rourke—80–90%}}
+|{{legend|#1666cb|O'Rourke—70–80%}}
+|{{legend|#4389e3|O'Rourke—60–70%}}
+|{{legend|#86b6f2|O'Rourke—50–60%}}
+|{{legend|#b9d7ff|O'Rourke—40–50%}}
+|{{legend|#d3e7ff|O'Rourke—<40%}}
+|{{legend|#AA87DE|Kimbrough / O'Rourke—50%}}
+}}
+{{collapsible list
+|title={{legend|#EEAAFF|O'Rourke/Hernandez tie}}
+|{{legend|#EEAAFF|O'Rourke/Hernandez tie—<50%}}
+}}
+{{collapsible list
+|title={{legend|#AA87DE|O'Rourke/Kimbrough tie}}
+|{{legend|#AA87DE|O'Rourke/Kimbrough tie—50%}}
+}}
+{{collapsible list
+|title={{legend|#e27f90|Hernandez}}
+|{{legend|#800000|Hernandez—>90%}}
+|{{legend|#aa0000|Hernandez—80–90%}}
+|{{legend|#d40000|Hernandez—70–80%}}
+|{{legend|#cc2f4a|Hernandez—60–70%}}
+|{{legend|#e27f90|Hernandez—50–60%}}
+|{{legend|#f2b3be|Hernandez—40–50%}}
+|{{legend|#ffccd0|Hernandez—<40%}}
+}}
+{{collapsible list
+|title={{legend|#ff9955|Kimbrough}}
+|{{legend|#ffccaa|Kimbrough—<40%}}
+|{{legend|#ffb380|Kimbrough—40–50%}}
+|{{legend|#ff9955|Kimbrough—50–60%}}
+|{{legend|#ff7f2a|Kimbrough—60–70%}}
+|{{legend|#ff6600|Kimbrough—70–80%}}
+|{{legend|#d45500|Kimbrough—80–90%}}
+|{{legend|#aa4400|Kimbrough—>90%}}
+}}
+]]
+
+{{Election box begin no change
+| title = Democratic primary results<ref name="United States Senate Democratic primary election in Texas, 2018">{{cite web|title=United States Senate Democratic primary election in Texas, 2018|url=https://elections.sos.state.tx.us/elchist324_state.htm}}</ref>
+}}
+{{Election box winning candidate with party link no change
+| candidate  = [[Beto O'Rourke]]
+| party      = Democratic Party (United States)
+| votes      = 644,632
+| percentage = 61.81%
+}}
+{{Election box candidate with party link no change
+| candidate  = Sema Hernandez
+| party      = Democratic Party (United States)
+| votes      = 247,424
+| percentage = 23.72%
+}}
+{{Election box candidate with party link no change
+| candidate  = Edward Kimbrough
+| party      = Democratic Party (United States)
+| votes      = 150,858
+| percentage = 14.47%
+}}
+{{Election box total no change
+| votes      = 1,042,914
+| percentage = 100%
+}}
+{{Election box end}}
+
+==Libertarian nomination==
+
+===Candidates===
+
+====Nominated====
+* Neal Dikeman, businessman<ref>{{cite web|url=https://www.fec.gov/data/candidate/S8TX00418/|title=DIKEMAN, NEAL MONROE - Candidate overview - FEC.gov|website=FEC.gov}}</ref><ref>{{cite web|url=https://www.amarillopioneer.com/blog/2018/4/18/cruz-leads-orourke-in-new-senate-poll|title=Cruz Leads O'Rourke in New Senate Poll|date=April 18, 2018 }}</ref>
+
+==General election==
+
+=== Predictions ===
+{| class="wikitable" style="text-align:center"
+|-
+!Source
+!Ranking
+!As of
+|-
+|[[The Cook Political Report]]<ref>{{cite web|url=https://cookpolitical.com/ratings/senate-race-ratings/187540|title=2018 Senate Race Ratings for October 26, 2018|website=The Cook Political Report|access-date=March 13, 2021}}</ref>
+| {{USRaceRating|Tossup}}
+|October 26, 2018
+|-
+|[[Inside Elections]]<ref>{{cite web|url=https://www.insideelections.com/ratings/senate/2018-senate-ratings-november-1-2018|title=2018 Senate Ratings|website=The Rothenberg Political Report|access-date=March 13, 2021}}</ref>
+| {{USRaceRating|Likely|R}}
+|November 1, 2018
+|-
+|[[Sabato's Crystal Ball]]<ref>{{Cite web|url=http://www.centerforpolitics.org/crystalball/2018-senate/|title=Larry J. Sabato's Crystal Ball » 2018 Senate|website=www.centerforpolitics.org|language=en-US|access-date=2018-08-18}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 5, 2018
+
+|-
+|[[CNN]]<ref>{{cite web|url=https://edition.cnn.com/election/2018/key-races/senate|title=Key Races: Senate|access-date=July 15, 2018}}</ref>
+| style="background:#fcc" |{{sort|100|Lean R}}
+|October 5, 2018
+|-
+|[[RealClearPolitics]]<ref>{{cite web|url=https://www.realclearpolitics.com/epolls/2018/senate/2018_elections_senate_map.html|title=Battle for the Senate 2018|access-date=July 15, 2018}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 5, 2018
+|-
+|[[Daily Kos]]<ref>{{cite web|url=https://www.dailykos.com/stories/2018/6/4/1769407/-Daily-Kos-Elections-2018-race-ratings|title=Daily Kos Elections 2018 race ratings|website=[[Daily Kos]]|date=June 5, 2018}}</ref>
+| style="background:#fcc" |{{sort|100|Lean R}}
+|October 5, 2018
+|-
+|[[Fox News]]<ref>{{cite web|url=http://www.foxnews.com/politics/midterms-2018.html|title=2018 Senate Power Rankings|website=[[Fox News]] |access-date=July 10, 2018}}</ref>{{efn|The Fox News Midterm Power Rankings uniquely does not contain a category for Safe/Solid races}}
+| style="background:#fcc" |{{sort|100|Lean R}}
+|October 30, 2018
+|}
+'''Notes'''<br />
+{{notelist}}
+
+=== Debates ===
+*[https://www.c-span.org/video/?451689-1/senator-ted-cruz-rep-beto-orourke-face-texas-senate-debate Complete video of debate], September 21, 2018
+*[https://www.c-span.org/video/?452966-1/texas-senate-debate Complete video of debate], October 16, 2018
+
+=== Endorsements ===
+{{Endorsements box
+| title = Ted Cruz (R)
+| colwidth=60 
+| list =
+'''U.S. executive branch officials''' 
+* [[Donald Trump]], [[president of the United States]] (2017–present)<ref>{{Cite news |title=Trump to campaign for former rival Ted Cruz, with Texas Senate race too close for comfort for GOP |url=https://www.cbsnews.com/news/trump-to-campaign-for-ted-cruz-texas-senate-race-against-beto-orourke/ |archive-url=https://web.archive.org/web/20250818105217/https://www.cbsnews.com/news/trump-to-campaign-for-ted-cruz-texas-senate-race-against-beto-orourke/ |archive-date=August 18, 2025 |access-date=2026-09-07 |language=en-US |url-status=live }}</ref>
+
+'''U.S. senators'''
+* [[John Cornyn]], [[Texas]] (2002–present)<ref>{{cite web|url=https://www.texastribune.org/2017/09/24/cornyn-says-hes-backing-cruz-re-election/|title=John Cornyn says he's supporting Ted Cruz for re-election in 2018|first=Patrick|last=Svitek|date=September 24, 2017}}</ref>
+
+'''State officials'''
+* [[Greg Abbott]], [[governor of Texas]]<ref>{{cite web|url=https://www.gregabbott.com/governor-abbott-endorses-ted-cruz-u-s-senate/|title=Governor Abbott Endorses Ted Cruz for U.S. Senate - Greg Abbott|date=March 30, 2017}}</ref>
+* [[George P. Bush]], [[Texas General Land Office|land commissioner of Texas]]<ref>{{cite web|url=https://twitter.com/georgepbush/status/1043290781912653824|title=Senator @TedCruz was the clear winner tonight. Looking forward to a GOP #victory in November.|work=Twitter|author=George P. Bush}}</ref>
+* [[Wayne Christian]], [[Texas Railroad Commissioner|Texas railroad commissioner]]<ref>{{cite tweet |user=ChristianForTX |number=1052370178808385536 |date=October 16, 2018 |title=Robert “Beto” O’Rourke supports socialized medicine, @tedcruz supports the free market, more options, and allowing consumers to purchase affordable insurance across state lines. #ChooseCruz #txsen}}</ref>
+* [[Ryan Sitton]], [[Texas Railroad Commissioner|Texas railroad commissioner]]<ref>{{cite web|url=https://twitter.com/RyanSitton/status/1053656913618128898|title=Texas has a choice to make and I #ChooseCruz because @tedcruz has Texas booming while @betoorourke will take our state backwards. WATCH and RETWEET! #KeepTexasRed #TexasDebate|work=Twitter|author=Ryan Sitton}}</ref>
+
+'''Texas state senators'''
+* [[Konni Burton]], state senator (10th district)<ref>{{cite tweet |user=KonniBurton |number=1008793089325060096 |date=June 18, 2018 |title=😎😎😎 #CruzCrew}}</ref>
+* [[Charles Perry (Texas politician)|Charles Perry]], state senator (28th district)<ref>{{cite web|title=Sen. Ted Cruz came to Lubbock after winning his debate for a campaign rally. There was a huge crowd and I had the honor of introducing him. I cannot imagine having the far-left Robert Francis "Beto" O'Rourke representing West Texas in Washington. We must get out the vote!|work=Twitter|author=Sen. Charles Perry|url=https://twitter.com/electcharles/status/1043936808478945280}}</ref>
+
+'''Texas state representatives'''
+* [[Cecil Bell Jr.]], state representative (3rd district)<ref>{{cite tweet |user=CBellJr |number=1031735635764281344 |date=August 20, 2018 |title=Honored to be in attendance at McKinzie’s BBQ in Conroe with Sen. Ted Cruz, Congressman Kevin Brady, and a host of others. What a great crowd!}}</ref>
+* [[Jeff Leach (politician)|Jeff Leach]], state representative (67th district)<ref>{{cite tweet |user=leachfortexas |number=1034469457568165888 |date=August 28, 2018 |title=The momentum is building!!  Proud to welcome @GregAbbott_TX & @tedcruz to Collin County for our #Victory2018 Labor Day Kickoff!  You won’t want to miss this - get your tix today! @KenPaxtonTX @VanTaylorTX @AngelaPaxtonTX @Scott_SanfordTX @MattShaheen @candynoble #KeepTexasStrong}}</ref>
+* [[Matt Rinaldi]], state representative (115th district)<ref>{{cite tweet |user=TexasCruzer |number=991449260079149056 |date=May 1, 2018 |title=In tow with Rafael Cruz visiting the #RGV and McAllen!  #ToughAsTexas #WeCruzN}}</ref>
+* [[Jonathan Stickland]], state representative (92nd district)<ref>{{cite tweet |user=RepStickland |number=1032838187226472448 |date=August 23, 2018 |title=Looks like @BetoORourke ‘s comments on the NFL have gone viral. What should go viral are his absolutely insane liberal positions on late term abortion, anti #2a & failed Obamacare for all. He’s wrong for Texas. #txlege #CruzCrew @tedcruz}}</ref>
+*[[Valoree Swanson]], state representative (150th district)
+
+'''Local officeholders'''
+* Tracy Murphree, sheriff of [[Denton County, Texas|Denton County]] since 2017 and former [[Texas Ranger Division|Texas Ranger]]<ref>{{cite web|url=https://www.tedcruz.org/press-releases/ninety-six-texas-county-sheriffs-endorse-ted-cruz/|title=Ninety-Six Texas County Sheriffs Endorse Ted Cruz|website=tedcruz.org|date=October 2018|access-date=October 12, 2018|archive-date=October 12, 2018|archive-url=https://web.archive.org/web/20181012134744/https://www.tedcruz.org/press-releases/ninety-six-texas-county-sheriffs-endorse-ted-cruz/|url-status=dead}}</ref>
+
+'''Individuals'''
+* [[Diamond and Silk]], social media personalities and political activists<ref>{{cite tweet |user=DiamondandSilk|number=1033035390624702464 |date=August 24, 2018 |title=Keep Texas Red.  Vote for Senator @tedcruz.}}</ref>
+* Joe Gamaldi, president of the Houston Police Officers Union (HPOU)<ref name="hstzcr">{{cite web|url=https://www.tedcruz.org/press-releases/current-and-immediate-past-houston-police-officers-union-presidents-endorse-senator-ted-cruz-for-re-election/|title=Current and Immediate Past Houston Police Officers' Union Presidents Endorse Senator Ted Cruz for Re-Election|work=Ted Cruz for Senate|date=October 4, 2018|access-date=October 8, 2018|archive-date=October 9, 2018|archive-url=https://web.archive.org/web/20181009052656/https://www.tedcruz.org/press-releases/current-and-immediate-past-houston-police-officers-union-presidents-endorse-senator-ted-cruz-for-re-election/|url-status=dead}}</ref>
+* [[Sean Hannity]], conservative talk radio host and television host of ''[[Hannity]]'' on [[Fox News]]<ref>{{cite web|title=Sean Hannity Endorses Ted Cruz [AUDIO]|url=https://thepolitistick.com/sean-hannity-endorses-ted-cruz-audio/|work=The PolitiStick|author=MATTHEW K. BURKE|date=July 20, 2017|access-date=October 1, 2018|archive-date=October 1, 2018|archive-url=https://web.archive.org/web/20181001104030/https://thepolitistick.com/sean-hannity-endorses-ted-cruz-audio/|url-status=dead}}</ref>
+* Ray Hunt, past HPOU president<ref name="hstzcr"/>
+* [[Laura Ingraham]], television and radio talk show host<ref>{{cite tweet |user=IngrahamAngle |number=1050774665386479616 |date=October 12, 2018 |title=Texas—can you really be bought? Vote @tedcruz}}</ref>
+* [[Mark Levin]], radio personality and author<ref>{{cite tweet |user=marklevinshow |number=986682425899192320 |date=April 18, 2018 |title=Tight race in Texas? I don't know if this poll is right, but time to rally for Cruz regardless, folks}}</ref>
+* [[Donald Trump Jr.]], executive director of [[The Trump Organization]] and eldest child of President [[Donald Trump]]<ref>{{cite tweet |user=PatrickSvitek |number=1042543336018591746 |date=September 19, 2018 |title=.@TedCruz and @DonaldJTrumpJr to do rally and fundraiser in Wichita Falls on Oct. 3, per local state rep @RepJamesFrank: https://www.facebook.com/repjamesfrank/posts/1811472588950466?__xts__[0]=68.ARAz0b7kTwEcjp_8QHOL4xtbZB8e8nrhxiYgXnSnpozaY3NrhmznUIxBq92Z5i7PilQO3LBTbRcKobwc75UFz-3PjGyDOE-smtY0b9Wut7Yk150wPPiCvyIWmKt2NN_RR4O8wWfSs5DWCy8S1IEh4s4YacWU-2YadgVJWEthLQ-opMfic2m5aw&__tn__=-R … #txsen #txlege}}</ref>
+* [[James Woods]], actor<ref>{{cite tweet |user=RealJamesWoods |number=1049315515963981824 |date=October 8, 2018 |title=All the more reason to vote. Crush “Beto,” unless you want more Sheldon Whitehouses and Cory Bookers.   #TedCruz #VoteRed2018}}</ref>
+
+'''Labor unions'''
+* San Antonio Police Officers Association<ref>{{cite web|url=https://sapoa.org/press-release/sapoa-endorses-senator-ted-cruz/|title=SAPOA Endorses Senator Ted Cruz For Re-Election|work=SAPOA|date=October 2, 2018}}</ref>
+
+'''Organizations'''
+* Campaign for Working Families<ref>{{cite web|title=2018 Candidate Endorsements|author=Campaign for Working Families|url=http://www.cwfpac.com/2018-candidate-endorsements|access-date=April 10, 2018|archive-url=https://web.archive.org/web/20180410201738/http://www.cwfpac.com/2018-candidate-endorsements|archive-date=April 10, 2018|url-status=dead}}</ref>
+* [[Citizens Against Government Waste]]<ref>{{cite web|url=http://ccagwpac.org/ccagw-pac-endorses-sen-ted-cruz-10-texas-house-candidates/|title=CCAGW PAC Endorses Sen. Ted Cruz, 10 Texas House Candidates|work=CCAGW PAC|date=September 25, 2018|archive-url=https://web.archive.org/web/20181009052647/http://ccagwpac.org/ccagw-pac-endorses-sen-ted-cruz-10-texas-house-candidates/|archive-date=October 9, 2018|url-status=live}}</ref>
+* [[Club for Growth]]<ref>{{cite news|url=https://www.clubforgrowth.org/press-release/club-for-growth-pac-endorses-ted-cruz-for-u-s-senate/|title=Club for Growth PAC Endorses Ted Cruz for U.S. Senate|work=Club for Growth|date=June 18, 2018}}</ref>
+* [[Empower Texans]]<ref name=empower>{{cite web|title=2018 Primary Endorsements|author=Empower Texans|url=https://empowertexans.com/2018-primary-endorsements/|access-date=February 19, 2018|archive-date=February 27, 2018|archive-url=https://web.archive.org/web/20180227090854/https://empowertexans.com/2018-primary-endorsements/|url-status=dead}}</ref>
+* [[NRA Political Victory Fund]]<ref>{{cite web |title=NRA-PVF {{!}} NRA Endorses Ted Cruz for Re-election in U.S. Senate |url=https://www.nrapvf.org/articles/20180919/nra-endorses-ted-cruz-for-re-election-in-us-senate |website=nrapvf-org |publisher=NRA-PVF |archive-url=https://web.archive.org/web/20181124224403/https://www.nrapvf.org/articles/20180919/nra-endorses-ted-cruz-for-re-election-in-us-senate |archive-date=November 24, 2018 |language=en-US |date=September 19, 2018 |url-status=live}}</ref>
+* [[Senate Conservatives Fund]]<ref>{{cite web|url=https://www.senateconservatives.com/races|title=Races — Senate Conservatives|website=www.senateconservatives.com|access-date=April 9, 2017|archive-url=https://web.archive.org/web/20170605112417/https://www.senateconservatives.com/races|archive-date=June 5, 2017|url-status=dead}}</ref>
+* [[Tea Party Patriots]]<ref>{{cite news|url=https://www.teapartypatriots.org/news/citizens-fund-endorses-ted-cruz-for-senate-in-texas/|title=Citizens Fund Endorses Ted Cruz for Senate in Texas|work=Tea Party Patriots Citizens Fund|date=February 28, 2018|access-date=April 16, 2018|archive-date=April 17, 2018|archive-url=https://web.archive.org/web/20180417105511/https://www.teapartypatriots.org/news/citizens-fund-endorses-ted-cruz-for-senate-in-texas/|url-status=dead}}</ref>
+}}
+{{Endorsements box
+| title = Beto O'Rourke (D)
+| colwidth=60 
+| list =
+'''U.S. executive branch officials'''
+* [[John O. Brennan]], 5th director of the Central Intelligence Agency (2013–2017)<ref>{{cite web|title=Brennan endorses O'Rourke in Texas|url=https://thehill.com/homenews/campaign/414469-john-brennan-endorses-beto-orourke-in-texas-senate-race/|website=The Hill|date=November 2, 2018}}</ref>
+* [[Julian Castro]], 16th U.S. secretary of housing and urban development (2014–2017)<ref name="auto">{{cite web|title=Julián and Joaquín Castro to campaign with O'Rourke in Texas|work=Twitter|author=The Hill|url=https://twitter.com/thehill/status/1042843617541451778}}</ref>
+
+'''U.S. senators'''
+* [[Cory Booker]], U.S. senator from New Jersey<ref>{{cite tweet |user=CoryBooker |number=1038454769239695360 |date=September 8, 2018|title=In Texas to campaign for @BetoORourke and others. So proud to have just finished a rally in Houston for @Lizzie4Congress a seat that is critical in flipping The House and having a check on Trump’s power. Consider giving to her: }}</ref>
+* [[Catherine Cortez Masto]], U.S. senator from Nevada<ref>{{cite web|title=TX-Sen: Sen. Catherine Cortez Masto (D. NV) Helps Beto O'Rourke (D) Pull Off A Doug Jones-Style Win|url=https://www.dailykos.com/stories/2017/12/28/1728305/-TX-Sen-Sen-Catherine-Cortez-Masto-D-NV-Helps-Beto-O-Rourke-D-Pull-Off-A-Doug-Jones-Style-Win|website=Daily Kos|date=December 28, 2017}}</ref>
+* [[Dick Durbin]], U.S. senator from Illinois and [[Senate minority whip]]<ref>{{cite web|title=AZ, NV & TX-Sen: Sen. Dick Durbin (D. IL) Helps These Democrats In The West Flip The Senate|url=https://www.dailykos.com/stories/2018/3/29/1753011/-AZ-NV-TX-Sen-Sen-Dick-Durbin-D-IL-Helps-These-Democrats-In-The-West-Flip-The-Senate|website=Daily Kos|date=March 29, 2018}}</ref>
+* [[Kirsten Gillibrand]], U.S. senator from New York<ref>{{cite web|url=https://twitter.com/SenGillibrand/status/1048969968539394048|title=Every dollar you give before Nov. 6 goes a long way in making sure Dems can flip seats in the Senate and fight this administration's dangerous agenda. Donate what you can to help @BetoORourke, @kyrstensinema and @RosenforNevada win in tough red states|work=Twitter|author=Kirsten Gillibrand}}</ref>
+* [[Kamala Harris]], U.S. senator from California<ref>{{cite news |title=TX-Sen: Sen. Kamala Harris (D. CA) Goes All in To Help Beto O'Rourke (D) Defeat Ted Cruz (R) |url=https://www.dailykos.com/story/2018/8/4/1785878/-TX-Sen-Sen-Kamala-Harris-D-CA-Goes-All-in-To-Help-Beto-O-Rourke-D-Defeat-Ted-Cruz-R |work=Daily Kos |date=August 4, 2018}}</ref>
+* [[Maggie Hassan]], U.S. senator from New Hampshire<ref>{{cite web |title=TX-Sen: Sen. Maggie Hassan (D. NH) Helps Beto O'Rourke (D) Win His Close Race Against Ted Cruz (R) |url=https://www.dailykos.com/story/2018/5/21/1766105/-TX-Sen-Sen-Maggie-Hassan-D-NH-Helps-Beto-O-Rourke-D-Win-His-Close-Race-Against-Ted-Cruz-R |website=Daily Kos |date=May 21, 2018}}</ref>
+* [[Chris Murphy]], U.S. senator from Connecticut<ref>{{cite tweet |user=ChrisMurphyCT |number=992461807376912384 |date=May 4, 2018|title=.@BetoORourke is running against Ted Cruz in Texas. The gun lobby spent $518,272 on Cruz last year, but Beto is running his entire campaign on small donations from people like you. Chip in to help Beto here: }}</ref>
+* [[Patty Murray]], U.S. senator from Washington<ref>{{cite web|title=TX, NV & AZ-Sen: Sen. Patty Murray (D. WA) Helps Democrats Make Big Gains In The West|url=https://www.dailykos.com/stories/2017/12/26/1727811/-TX-NV-AZ-Sen-Sen-Patty-Murray-D-WA-Helps-Democrats-Make-Big-Gains-In-The-West|website=Daily Kos|date=December 26, 2017}}</ref>
+* [[Chuck Schumer]], U.S. senator from New York and [[Senate minority leader]]<ref name="Houston fundraiser with New York Democrat Chuck Schumer rankles some Texans">{{cite web|last1=Livingston|first1=Abby|title=Houston fundraiser with New York Democrat Chuck Schumer rankles some Texans|url=https://www.texastribune.org/2018/01/26/republicans-pile-charles-schumer-over-harvey/|website=The Texas Tribune|access-date=May 4, 2018|language=en|date=January 26, 2018}}</ref>
+* [[Elizabeth Warren]], U.S. senator from Massachusetts<ref>{{cite tweet |user=PatrickSvitek|author=Patrick Svitek |number=988569958127939584 |date=April 23, 2018|title=Elizabeth Warren sends fundraising email for @BetoORourke: https://www.dailykos.com/stories/2018/4/23/1759385/-TX-Sen-Sen-Elizabeth-Warren-D-MA-Goes-All-In-To-Help-Beto-O-Rourke-D-Defeat-Ted-Cruz-R … https://secure.actblue.com/donate/ew-beto?refcode=20180423em1v1s1 … #txsen}}</ref>
+
+'''U.S. representatives'''
+* [[Joaquín Castro]], U.S. representative (TX-20th district)<ref name="auto"/>
+* [[Lloyd Doggett]], U.S. representative (TX-35th district))<ref>{{cite tweet |user=LloydDoggettTX|number=1054530037049901056|date=October 22, 2018|title=Texans believe in a hopeful vision for the future, but Trump and Ted Cruz only provide fear and anger. During early voting, support Democrats like Beto who advocate for meaningful solutions on healthcare, immigration, social programs & economic opportunity.}}</ref>
+* [[Tulsi Gabbard]], U.S. representative (HI-2nd district))<ref>{{cite tweet |user=BetoORourke|number=1055551080342405121|date=October 25, 2018|title=It’s been amazing watching my friend @betoorourke visit every county in Texas—Beto is proudly powered by people, not PACs or special interests. Go Beto!}}</ref>
+* [[Eddie Bernice Johnson]], U.S. representative (TX-30th district)<ref>{{cite tweet |user=BetoORourke|number=1005929496766279682 |date=June 10, 2018|title=Great being joined by Congresswoman Eddie Bernice Johnson and everyone who came out.}}</ref>
+* [[Joe Kennedy III]], U.S. representative (MA-4th district)<ref>{{cite web|url=http://politics.blog.mystatesman.com/2017/09/11/massachusetts-congressman-joe-kennedy-the-future-of-the-democratic-party-is-in-texas/|title=Massachusetts Congressman Joe Kennedy: 'The future of the Democratic Party is in Texas.' - First Reading|access-date=September 27, 2017|archive-date=September 28, 2017|archive-url=https://web.archive.org/web/20170928055815/http://politics.blog.mystatesman.com/2017/09/11/massachusetts-congressman-joe-kennedy-the-future-of-the-democratic-party-is-in-texas/|url-status=dead}}</ref>
+* [[Ted Lieu]], U.S. representative (CA-33rd district)<ref>{{cite web|url=https://twitter.com/tedlieu/status/1042482503980703744|title=Ted Lieu on Twitter|website=twitter.com|access-date=September 24, 2018}}</ref>
+* [[Marc Veasey]], U.S. representative (TX-33rd district)<ref>{{cite tweet |user=MarcVeasey|number=999801040273801216 |date=May 24, 2018|title=Look who I found at the Dallas unity event this evening... our next Senator from the state of Texas @BetoORourke!}}</ref>
+
+'''Texas state senators'''
+*[[Wendy Davis (politician)|Wendy Davis]], former state senator (D-10th district) and [[2014 Texas gubernatorial election|2014]] Democratic nominee for governor of Texas<ref>{{cite tweet |user=WendyDavis|number=1033711215149821952 |date=August 26, 2018|title=.⁦@BetoORourke⁩ is as authentic as it gets. Every day he’s speaking to what true TX values embody-that every voice matters & that everyone merits opportunity. You’ve seen that viral video. Now read this excellent article. Bye-bye ⁦@tedcruz⁩}}</ref>
+
+'''Texas state representatives'''
+*[[Chris Turner (Texas politician)|Chris Turner]], state representative (101st district) and chair of the Texas House Democratic Caucus<ref>{{cite tweet |user=ChrisGTurner|number=1029856609139212288 |date=August 15, 2018|title=Great to catch up with our next U.S. Senator, @BetoORourke yesterday. And yes, we’re in our official candidate uniforms. 😂 #txlege.}}</ref>
+
+'''Local officeholders'''
+* [[Lupe Valdez]], former sheriff of [[Dallas County, Texas|Dallas County]] and [[2018 Texas gubernatorial election|2018]] Democratic nominee for governor of Texas<ref>{{cite tweet |user=LupeValdez|number=1043307291741696000 |date=September 21, 2018 |title=We’re with you, @BetoORourke.}}</ref>
+* [[Jenny Wilson (politician)|Jenny Wilson]], Salt Lake County councilwoman and candidate for U.S. Senate in Utah in [[2018 United States Senate election in Utah|2018]]<ref>{{cite tweet |author=Wilson, Jenny|author-link=Jenny Wilson (politician)|user=JennyWilsonUT|number=918576255838011392|date=October 12, 2017|title=Thank you, Aaron! I'd love to join @BetoORourke in Washington next year. It's time for fresh voices.|link=https://twitter.com/JennyWilsonUT/status/918576255838011392|access-date=February 17, 2018|archive-url=https://web.archive.org/web/20180217073148/https://twitter.com/JennyWilsonUT/status/918576255838011392|archive-date=February 17, 2018|url-status=live}}</ref>
+
+'''Individuals'''
+* [[Judd Apatow]], film director<ref>{{cite web|title=Let's raise some money for Beto! 9-27 at @LargoLosAngeles Let's raise some money for @whenweallvote on 9-20!|url=https://twitter.com/JuddApatow/status/1039690085648588800|website=twitter.com|access-date=October 19, 2018}}</ref>
+* [[Bun B]], rapper<ref>{{cite web|url=https://twitter.com/BunBTrillOG/status/1046841772037623808|title=Come and be a part of making a change in Texas! Join me and @arianfoster as we help people get registered to vote and let them hear from the man himself @betoorourke about why he should be your senator! |work=Twitter|author=Bun B}}</ref>
+* [[Kevin Bacon]], actor<ref>{{cite web|url=https://twitter.com/kevinbacon/status/1032248741321953280|title=Kevin Bacon on Twitter}}</ref>
+* [[Leon Bridges]], singer<ref>{{cite web|url=https://twitter.com/leonbridges/status/1042460589770108928|title=Leon Bridges on Twitter|website=twitter.com|access-date=September 24, 2018}}</ref>
+* [[Connie Britton]], actress<ref name="Hollywood"/>
+* [[Win Butler]], musician<ref>{{Cite web|url=https://abc13.com/4403647/|title=Rep. Beto O'Rourke voter registration rally featuring star power guests draws thousands|date=October 9, 2018|website=ABC13 Houston}}</ref>
+* Scott Campbell, executive director of Elton John AIDS Foundation<ref name="townandcountrymag.com">{{cite web|url=https://www.townandcountrymag.com/society/politics/a22554864/beto-orourke-interview-texas-senate/|title=Why So Many People Are Betting on Beto O'Rourke|date=July 26, 2018}}</ref>
+* [[Jim Carrey]], actor and comedian<ref>{{cite tweet|user=JimCarrey|number=1059309649642512384|date=November 4, 2018|title=Go Beto! Go Democrats! Vote like there’s no tomorrow. Let’s make this Tuesday like the end of every great vampire movie. Pull back the curtains and let the sunshine turn all those bloodsuckers to dust.|access-date=November 8, 2018}}</ref>
+* [[Kevin Conroy]], voice actor<ref>{{cite tweet|user=RealKevinConroy|number=1047556242397388800|date=October 3, 2018|title=Go Beto!|access-date=November 8, 2019}}</ref>
+* [[Ellen DeGeneres]], comedian and television host<ref>{{cite web|title=Beto O'Rourke, Ellen DeGeneres trade praise as Senate hopeful appears on her show|url=https://www.dallasnews.com/news/politics/2018/09/05/beto-orourke-visits-ellen-degeneres-cementing-senate-campaigns-hollywood-status|website=www.dallasnews.com|date=September 5, 2018}}</ref> 
+* [[Tate Donovan]], actor and film director<ref name="Hollywood"/>
+* [[Anthony Fantano]], music critic, video producer, journalist, and creator of ''The Needle Drop''<ref>{{cite tweet|user=theneedledrop|number=1042287950355202048|title=@BetoORourke good luck!|date=September 19, 2018|first=Anthony|last=Fantano|access-date=September 21, 2018}}</ref>
+* [[Jason Flom]], chief executive officer of [[Lava Records]]<ref name="Celebrity"/>
+* [[Arian Foster]], former NFL running back<ref>{{cite web|url=https://www.facebook.com/betoorourke/videos/1005461029625146/|title=Beto O'Rourke|website=www.facebook.com}}</ref>
+* [[Vicente Fox]], 55th [[president of Mexico]]<ref>{{Cite web|url=https://thehill.com/blogs/blog-briefing-room/news/412169-vicente-fox-endorses-beto-orourke-in-texas-senate-race/|title=Vicente Fox endorses Beto O'Rourke in Texas Senate race|work=[[The Hill (newspaper)|The Hill]]|date=October 18, 2018|access-date=October 19, 2018}}</ref>
+* [[Jim Gianopulos]], chairman and chief executive officer of [[Paramount Pictures]]<ref name="Hollywood"/>
+* [[Shakey Graves]], singer<ref>{{cite web|url=https://www.facebook.com/events/344872066076881/|title=Turn Out for Texas - Rally with Bun B and Arian Foster|website=www.facebook.com}}</ref>
+* [[Jonathan Groff]], actor and singer<ref name="Celebrity">{{cite web|title=Celebrities who are supporting Democrat Beto O'Rourke for Senate|url=https://www.msn.com/en-us/news/politics/celebrities-who-are-supporting-democrat-beto-orourke-for-senate/ar-AAvvgJg|website=www.msn.com|access-date=October 19, 2018|archive-url=https://web.archive.org/web/20181020011521/https://www.msn.com/en-us/news/politics/celebrities-who-are-supporting-democrat-beto-orourke-for-senate/ar-AAvvgJg|archive-date=October 20, 2018|url-status=dead}}</ref>
+* [[Jake Gyllenhaal]], actor<ref>{{cite web|url=https://www.resetera.com/threads/jake-gyllenhaal-announces-edorsement-of-beto-orourke-and-other-democrats-on-his-facebook-page.79166/#post-14627268|title=Jake Gyllenhaal announces edorsement of Beto O'Rourke and other democrats on his Facebook page|date=November 5, 2018 }}</ref>
+* [[Chelsea Handler]], comedian and actress<ref>{{cite tweet |user=chelseahandler |number=975400635611754497 |date=March 18, 2018 |title=I got to hear @BetoORourke speak last night and it was great to hear a candidate who cares about working families, women, immigrantion, and all while not taking money from corporate behemoths. We need elected officials who are not for sale. Go, Texas. Go, @BetoORourke}}</ref>
+* [[Steve Hely]], writer<ref name="Celebrity"/>
+* [[John Iadarola]], host of ''[[The Young Turks]]''<ref>{{cite web|url=https://twitter.com/johniadarola/status/981177110965334024|title=John Iadarola on Twitter}}</ref>
+* [[LeBron James]], NBA player<ref>{{cite web|url=https://edition.cnn.com/2018/08/23/politics/beto-orourke-anthem-protests-lebron-james-star-athletes/index.html|title=Beto O'Rourke's defense of anthem protests draws support from prominent athletes}}</ref>
+* [[Rian Johnson]], film director<ref name="Hollywood"/>
+* Kelly Jones, ex-wife of [[Alex Jones]]<ref>{{cite web|url=https://twitter.com/RealKellyJones/status/1048691243218350081|title=Kelly Jones on Twitter}}</ref>
+* [[Ana Kasparian]], host of ''[[The Young Turks]]''<ref>{{cite web|url=https://www.youtube.com/watch?v=izDcLgFFWaQ&t=0s&list=LLPoqSwadNtbsXIKpDkPcVUQ&index=3|title=Ted Cruz Whines About Being Ugly|last=The Young Turks|date=September 17, 2018|access-date=September 24, 2018|via=YouTube}}</ref>
+* [[Stephen King]], author<ref>{{cite web|url=https://www.latimes.com/books/la-et-jc-stephen-king-ted-cruz-20180716-story.html|title=Stephen King and Ted Cruz feud on Twitter|first=Michael|last=Schaub|website=[[Los Angeles Times]]|date=July 16, 2018}}</ref>
+* [[Pat Klous]], actress<ref name="Hollywood"/>
+* [[Beyoncé Knowles]], singer<ref>{{cite web|url=https://www.cbsnews.com/news/beyonce-is-for-beto-orourke-texas-senate-race-2018-midterm-elections/|title=Beyoncé is for Beto O'Rourke in 2018 midterm elections|work=CBS News|date=November 6, 2018 }}</ref>
+* [[John Leguizamo]], actor<ref>{{cite tweet |user=JohnLeguizamo |number=975143426122567680 |date=March 17, 2018 |title=I just gave to Beto O'Rourke}}</ref>
+* [[Lawrence Lessig]], academic, attorney, and political activist<ref>{{cite web|url=https://medium.com/@lessig/beto-for-senate-e3e61b5dc833|title=Beto for Senate|last=Lessig|date=March 31, 2017}}</ref>
+* William Li, [[Ralph Lauren Corporation]] global brand president<ref name="townandcountrymag.com"/>
+* [[Eva Longoria]], actress<ref>{{cite web|url=https://twitter.com/EvaLongoria/status/1049524915626332160|title=Calling all my fellow Texans! Tomorrow is the last day to register to vote! Make a difference this November: Get out there and VOTE y'all! @BetoORourke|work=Twitter|author=Eva Longoria}}</ref>
+* [[Phil Lord and Christopher Miller|Phil Lord]], film director<ref name="Hollywood"/>
+* [[Bill Maher]], comedian and political commentator<ref>{{cite web|url=https://www.youtube.com/watch?time_continue=656&v=CFn04RRqazc|title=Beto O'Rourke - Real Time with Bill Maher (HBO)|last=Real Time with Bill Maher|date=March 16, 2018|via=YouTube}}</ref>
+* [[Stephanie March]], actress<ref name="townandcountrymag.com"/>
+* [[Craig Mazin]], screenwriter<ref>{{cite web|url=https://mobile.twitter.com/clmazin/status/941730604835409920|title=Twitter|website=mobile.twitter.com}}</ref>
+* [[Alyssa Milano]], actress and activist<ref>{{cite web|url=https://twitter.com/Alyssa_Milano/status/1054423453183369216|title=FYI, @tedcruz. These people camped out to #votewithbeto to protect their healthcare.|work=Twitter|author=Alyssa Milano}}</ref>
+* [[David Mixner]], civil rights activist<ref name="townandcountrymag.com"/>
+* [[Willie Nelson]], singer and activist<ref>{{cite magazine|url=https://www.rollingstone.com/politics/politics-news/willie-nelson-beto-orourke-723418/|title=Willie Nelson Will Headline a Rally for Beto O'Rourke|first=Joseph|last=Hudak|magazine=[[Rolling Stone]] |date=September 12, 2018}}</ref>
+* [[Thao Nguyen]], singer-songwriter<ref name="Hollywood"/>
+* [[Alexandria Ocasio-Cortez]], Democratic nominee for [[New York's 14th congressional district]]<ref>{{cite web|url=https://twitter.com/Ocasio2018/status/1035194838231261184|title=Alexandria Ocasio-Cortez on Twitter}}</ref>
+* [[Bob Odenkirk]], actor<ref name="Hollywood"/>
+* [[Rosie O'Donnell]], comedian and actress<ref>{{cite web|title=Rosie O'Donnell 'maxed out' in support of Beto O'Rourke|url=https://www.kvia.com/news/politics/rosie-odonnell-maxed-out-in-support-of-beto-orourke/524431827|website=www.kvia.com}}</ref>
+* [[Richard Painter]], [[University of Minnesota Twin Cities]] law professor, former George W. Bush White House ethics lawyer and candidate for the U.S. Senate in Minnesota in [[United States Senate special election in Minnesota, 2018|2018]]<ref>{{cite web|title=Just two weeks ago, Ted Cruz celebrated gun violence with the NRA. What should Texas do with him? Ask @BetoORourke|url=https://twitter.com/RWPUSA/status/997594238840909829|website=twitter.com|access-date=May 21, 2018}}</ref> 
+* [[David Pakman]], political commentator<ref>{{cite web|url=https://www.youtube.com/watch?v=9iAZfbomMUc|title=Beto O'Rourke is No Progressive Hero, But He's Better Than Ted Cruz|last=David Pakman Show|date=March 7, 2018|via=YouTube}}</ref>
+* [[Sarah Jessica Parker]], actress<ref>{{cite news| title=Actress Sarah Jessica Parker steps out for Beto O'Rourke |author=Madlin Mekelburg |date=May 9, 2018|url=https://www.elpasotimes.com/story/news/politics/elections/2018/05/09/sarah-jessica-parker-supports-beto-orourke/592719002/ |access-date=May 10, 2017}}</ref>
+* [[Ron Perlman]], actor<ref>{{cite tweet |user=perlmutations |number=1033436791876018177 |date=August 25, 2018 |title=He is a leader we have ALL been waiting for...authentic and American to the core.}}</ref>
+* [[Aubrey Plaza]], actress<ref name="Hollywood"/>
+* [[Gregg Popovich]], head coach of the [[San Antonio Spurs]]<ref>{{cite web|url=https://thehill.com/homenews/campaign/414735-gregg-popovich-endorses-beto-orourke-in-texas-senate-race/|title=Gregg Popovich endorses Beto O'Rourke in Texas senate race|first=Aris|last=Folley|date=November 3, 2018|work=[[The Hill (newspaper)|The Hill]]}}</ref>
+* [[Alan Rosenberg]], screen actor<ref name="Hollywood"/>
+* [[Rick Rosenthal]], film producer<ref name="Hollywood"/>
+* [[Tom Rothman]], chairman of [[Sony Pictures Entertainment Motion Picture Group]]<ref name="Hollywood"/>
+* [[Paul Rudd]], actor<ref name="townandcountrymag.com"/>
+* [[Mark Ruffalo]], actor<ref>{{cite web|title=America needs more politicians like @BetoORourke, who will be a representative for ALL people in Texas.|url=https://twitter.com/MarkRuffalo/status/1053283533677125632|website=twitter.com|access-date=October 19, 2018}}</ref>
+* [[Steve Schmidt]], Republican political strategist, campaign manager of [[John McCain]]'s [[John McCain 2008 presidential campaign|2008 presidential campaign]]<ref>{{cite tweet |user=SteveSchmidtSES |number=988315665525227521 |date=April 23, 2018 |title=Thinking about Ted Cruz's slobbering Paean to Trump and the closeness of his race to the exciting and decent Beto O'Rourke one thing should be clear to Texans. If Ted Cruz won't protect the backs of his Dad and wife he won't have your back. I think Sam Houston would be for Beto!}}</ref>
+* [[Amy Schumer]], actress<ref>{{cite web|url=https://twitter.com/amyschumer/status/1054523400092352515|title=News|work=Twitter|author=Amy Schumer}}</ref>
+* [[Travis Scott]], rapper<ref>{{cite web|url=https://www.stereogum.com/2020619/travis-scott-beto-orourke-houston/news/|title=Travis Scott Campaigns For Beto O'Rourke In Houston: Watch|date=October 28, 2018}}</ref>
+* [[Amy Siskind]], activist and writer<ref>{{cite tweet|user=Amy_Siskind|number=1049354160657891328|title=END Mitch McConnell’s reign of terror.  Donate/volunteer for these close senate races: Jacky Rosen, NV Phil Bredesen, TN Claire McCaskill, MO Bill Nelson, FL Joe Donnelly, IN Heidi Heitkamp, ND Beto O’Rourke, TX Kyrsten Sinema, AZ Tammy Baldwin, WI|date=October 8, 2018|first=Amy|last=Siskind|access-date=October 20, 2018}}</ref>
+* [[Nancy Stephens]], actress<ref name="Hollywood">{{cite web|title=Beto O'Rourke, Seeking to Oust Ted Cruz, Returns to L.A. for Fundraiser|url=https://variety.com/2018/politics/news/beto-o-rourke-hollywood-ted-cruz-1202869032/|website=www.variety.com|date=July 9, 2018}}</ref>
+* [[Tara Strong]], voice actress and activist<ref>{{cite web|url =https://twitter.com/tarastrong/status/1042538691950862337|title=#LETSGOBETO|work=Twitter|author=Tara Strong}}</ref>
+* [[Michael Urie]], actor<ref name="townandcountrymag.com"/>
+* [[Cenk Uygur]], host of ''[[The Young Turks]]''<ref>{{cite web|last1=Hannah|first1=Collin|title=Justice Democrats' Vetting Process Hinders Progressive Candidates|url=http://truthagainstthemachine.com/justice-democrats-vetting-process-hinders-progressive-candidates/|archive-url=https://web.archive.org/web/20200911125206/http://truthagainstthemachine.com/justice-democrats-vetting-process-hinders-progressive-candidates/|url-status=dead|archive-date=September 11, 2020|website=truthagainstthemachine.com|date=November 15, 2017}}</ref>
+* [[Shea Whigham]], actor<ref name="Celebrity"/>
+* Andrew White, businessman; son of former Texas Governor [[Mark White (Texas politician)|Mark White]]; candidate for the [[2018 Texas gubernatorial election|2018 gubernatorial]] Democratic nomination<ref>{{cite web |url=https://www.reddit.com/r/TexasPolitics/comments/865ywb/i_am_andrew_white_startup_guy_investor_hurricane/dw40ty2/ |title=I am Andrew White - startup guy, investor, Hurricane Harvey boat rescue captain. Now Democratic candidate for Governor of Texas. AMA |last=White |first=Andrew |date=March 22, 2018 |website=Reddit |access-date=March 22, 2018}}</ref>
+
+'''Labor unions'''
+* [[American Federation of Government Employees]]<ref>{{cite web|last1=Employees|first1=American Federation of Government|title=AFGE Endorses Rep. Beto O'Rourke of Texas for Senate|url=https://www.prnewswire.com/news-releases/afge-endorses-rep-beto-orourke-of-texas-for-senate-300620452.html|website=www.prnewswire.com|language=en|date=March 27, 2018}}</ref>
+* [[National Education Association]]<ref>{{cite web|title=NEA Fund - Recommended Candidates|url=https://www.neafund.org/Home/Candidates|website=www.neafund.org|access-date=April 4, 2018|archive-date=August 1, 2018|archive-url=https://web.archive.org/web/20180801095844/https://www.neafund.org/Home/Candidates|url-status=dead}}</ref>
+* [[National Nurses United]]<ref>{{cite web|title=National Nurses United Endorses Beto O'Rourke in Texas U.S. Senate Race|url=https://www.commondreams.org/newswire/2018/10/08/national-nurses-united-endorses-beto-orourke-texas-us-senate-race|website=www.commondreams.org}}</ref>
+* Texas Gulf Coast Area Labor Federation<ref>{{Cite web|url=https://www.gcaflcio.org/system/files/brazoria.back_.mailer.2018primary.pdf|title=Your Working Families Voting Guide Labor Endorsed|access-date=April 4, 2018|archive-date=April 4, 2018|archive-url=https://web.archive.org/web/20180404201116/https://www.gcaflcio.org/system/files/brazoria.back_.mailer.2018primary.pdf|url-status=dead}}</ref>
+* Texas State [[AFL-CIO]]<ref>{{cite web|last1=Levy|first1=Rick|title=TEXAS AFL-CIO COPE ENDORSES O'ROURKE FOR U.S. SENATE|url=https://www.texasaflcio.org/news/texas-afl-cio-cope-endorses-o-rourke-us-senate|website=Texas AFL-CIO|language=en|date=February 16, 2018}}</ref>
+* [[Texas State Teachers Association]]<ref>{{cite web|last1=Robison|first1=Clay|title=O'Rourke Endorsement - TSTA 18|url=http://www.tsta18.org/o-rourke-endorsement|website=www.tsta18.org|date=February 18, 2018|access-date=April 4, 2018|archive-url=https://web.archive.org/web/20180404200927/http://www.tsta18.org/o-rourke-endorsement|archive-date=April 4, 2018|url-status=dead}}</ref>
+*TSAFF-Texas State Association of Firefighters 
+* [[United Automobile Workers]]<ref>{{cite web |title=Texas – Official UAW Endorsements |url=http://uawendorsements.org/map/texas/ |website=uawendorsements.org |publisher=United Automobile Workers}}</ref>
+
+'''Organizations'''
+* [[Council for a Livable World]]<ref>{{cite web|title=TX-Sen: Council For A Livable World Endorses Beto O'Rourke (D) In The Race To Unseat Ted Cruz (R)|url=https://www.dailykos.com/stories/2018/4/18/1758219/-TX-Sen-Council-For-A-Livable-World-Endorses-Beto-O-Rourke-D-In-The-Race-To-Unseat-Ted-Cruz-R|website=Daily Kos|date=April 18, 2018}}</ref><ref>{{cite web|title=2018 Council-endorsed Senate Candidates - Council for a Livable World|url=https://livableworld.org/meet-the-candidates/senate-candidates/|website=Council for a Livable World}}</ref>
+*[[End Citizens United]]<ref>{{cite news |title=Well-funded anti-Citizens United group backs O'Rourke in Senate challenge against Cruz |author=Jamie Lovegrove |date=June 26, 2017 |url=https://www.dallasnews.com/news/politics/2017/06/26/funded-anti-citizens-united-group-backs-orourke-senate-challenge-cruz |access-date=June 27, 2017 |archive-date=July 15, 2018 |archive-url=https://web.archive.org/web/20180715235957/https://www.dallasnews.com/news/politics/2017/06/26/funded-anti-citizens-united-group-backs-orourke-senate-challenge-cruz |url-status=dead }}</ref>
+* [[Equality Texas]]<ref>{{cite web|title=Queer the Vote, Y'all!|url=https://www.equalitytexas.org/our-programs/queer-the-vote-yall/|website=Equality Texas|language=en|access-date=April 8, 2018|archive-date=April 8, 2018|archive-url=https://web.archive.org/web/20180408210032/https://www.equalitytexas.org/our-programs/queer-the-vote-yall/|url-status=dead}}</ref>
+* Feminist Majority Political Action Committee<ref>{{cite web|url=https://feministmajoritypac.org/candidates/beto-orourke/|title=Beto O'Rourke – Feminist Majority PAC|website=feministmajoritypac.org}}</ref>
+* [[Houston LGBT Political Caucus]]<ref>{{cite web|title=Endorsements|url=http://www.thecaucus.org/endorsements/|website=Houston GLBT Political Caucus|date=July 8, 2017}}</ref>
+* [[Human Rights Campaign]]<ref>{{cite web|last1=Morrow|first1=Nick|title=HRC Endorses Beto O'Rourke for U.S. Senator from Texas {{!}} Human Rights Campaign|url=https://www.hrc.org/blog/hrc-endorses-beto-orourke-for-u.s.-senator-from-texas|website=Human Rights Campaign|language=en|date=April 11, 2018|access-date=April 12, 2018|archive-date=August 3, 2020|archive-url=https://web.archive.org/web/20200803175843/https://www.hrc.org/blog/hrc-endorses-beto-orourke-for-u.s.-senator-from-texas|url-status=dead}}</ref>
+*[[J Street (advocacy group)|J Street]]<ref>{{cite web|title=Five Reasons Why It's Time for Ted Cruz to Go|url=http://jstreet.org/five-reasons-time-ted-cruz-go/#.Wjnr-iMwhok|website=J Street: The Political Home for Pro-Israel, Pro-Peace Americans|date=August 9, 2017}}</ref>
+* Jolt Texas<ref>{{cite tweet|user=jolt_texas|number=990695452629663744|date=April 29, 2018|title=We're proud to announce that Jolt endorses @BetoORourke for U.S. Senate & @randrewwhite for Texas Governor}}</ref>
+* [[League of Conservation Voters]] Action Fund<ref>{{cite web|title=LCV Action Fund Endorses Beto O'Rourke for U.S. Senate - League of Conservation Voters|url=https://www.lcv.org/article/lcv-action-fund-endorses-beto-orourke-u-s-senate/|website=League of Conservation Voters|date=December 11, 2017}}</ref>
+* [[MoveOn.org]]<ref>{{cite web|last1=Stewart|first1=Brian|title=MoveOn Members in Texas Endorse Beto O'Rourke for U.S. Senate, Vowing to Defeat Ted Cruz|url=https://front.moveon.org/moveon-members-in-texas-endorse-beto-orourke-for-u-s-senate-vowing-to-defeat-ted-cruz/#.WsRDPSMwhok|website=MoveOn.Org, Democracy In Action|date=December 14, 2017}}</ref>
+* [[NARAL Pro-Choice America]]<ref>{{cite web|last1=Hogue|first1=Ilyse|title=NARAL Pro-Choice America PAC Endorses Beto O'Rourke for Senate in Texas - NARAL Pro-Choice America|url=https://www.prochoiceamerica.org/2018/04/30/naral-pro-choice-america-beto-orourke-for-senate-in-texas/|website=NARAL Pro-Choice America|date=April 30, 2018|access-date=May 1, 2018|archive-date=December 16, 2018|archive-url=https://web.archive.org/web/20181216044927/https://www.prochoiceamerica.org/2018/04/30/naral-pro-choice-america-beto-orourke-for-senate-in-texas/|url-status=dead}}</ref>
+* [[National Organization for the Reform of Marijuana Laws]] PAC<ref>{{cite web|last1=Altieri|first1=Erik|last2=Finkel|first2=Jax|title=NORML PAC Endorses Beto O'Rourke for Senate|url=http://blog.norml.org/2018/05/01/norml-pac-endorses-beto-orourke-for-senate/|website=NORML Blog, Marijuana Law Reform|date=May 1, 2018}}</ref>
+* [[Our Revolution]]<ref>{{cite web|title=Meet the candidate - Beto O'Rourke|url=https://ourrevolution.com/candidates/beto-orourke/|website=Our Revolution|date=November 2, 2018|access-date=November 2, 2018|archive-date=August 17, 2019|archive-url=https://web.archive.org/web/20190817133234/https://ourrevolution.com/candidates/beto-orourke/|url-status=dead}}</ref>
+* [[Population Connection]]<ref>{{cite web|title=Population Connection Action Fund Endorsements|url=https://www.populationconnectionaction.org/2018-endorsements/|website=Population Connection|access-date=October 27, 2018|archive-date=April 5, 2018|archive-url=https://web.archive.org/web/20180405074336/http://www.populationconnectionaction.org/2018-endorsements/|url-status=dead}}</ref>
+* Progress Texas<ref>{{cite web|last1=Espinoza|first1=Ed|title=Statewide Endorsements|url=http://progresstexas.org/blog/statewide-endorsements|website=progresstexas.org|language=en|date=February 16, 2018}}</ref>
+* [[Progressive Change Campaign Committee]]<ref>{{cite web|title=TX-Sen: With Joaquin Castro (D) Out, PCCC Doubles Down To Help Beto O'Rourke (D) Beat Ted Cruz (R)|url=https://www.dailykos.com/stories/2017/5/2/1658309/-TX-Sen-With-Joaquin-Castro-D-Out-PCCC-Doubles-Down-To-Help-Beto-O-Rourke-D-Beat-Ted-Cruz-R|website=Daily Kos|date=May 2, 2017}}</ref>
+* [[Sierra Club]]<ref>{{cite web|url=https://content.sierraclub.org/voterguide/endorsements|title=Sierra Club #ClimateVoter Guide: Endorsements|access-date=August 28, 2018|archive-date=June 12, 2018|archive-url=https://web.archive.org/web/20180612140245/https://content.sierraclub.org/voterguide/endorsements|url-status=dead}}</ref>
+* [[Stonewall Democrats of Dallas]]<ref>{{cite web|title=Stonewall Democrats of Dallas - Voting / Endorsements|url=http://www.stonewalldemocratsofdallas.org/endorsements|website=www.stonewalldemocratsofdallas.org}}</ref>
+* [[Stonewall Democrats of San Antonio]]<ref>{{cite web|title=Stonewall Democrats of San Antonio|url=http://www.stonewallsanantonio.org/index.php/about-sdsa/endorsements|website=www.stonewallsanantonio.org|language=en-gb|date=February 28, 2018}}</ref>
+
+'''Newspapers'''
+* ''[[The Austin Chronicle]]''<ref>{{cite web|title=Chronicle Endorsements: County, Statewide, and Federal Races|url=https://www.austinchronicle.com/news/2018-10-19/chronicle-endorsements-county-statewide-and-federal-races/|website=www.austinchronicle.com|date=October 19, 2018}}</ref>
+* ''[[Corpus Christi Caller-Times]]''<ref>{{cite web|title=Texas midterm elections 2018: Corpus Christi Caller-Times endorsements|url=https://www.caller.com/story/opinion/2018/10/19/texas-midterm-elections-2018-corpus-christi-caller-times-endorsements/1663741002/|website=www.caller.com|date=October 19, 2018}}</ref>
+* ''[[Dallas Morning News]]''<ref>{{cite web|title=We recommend Beto O'Rourke for U.S. Senate|url=https://www.dallasnews.com/opinion/editorials/2018/10/25/recommend-beto-orourke-us-senate|website=www.dallasnews.com|date=October 25, 2018}}</ref>
+* ''[[El Paso Times]]''<ref>{{cite web|title=Texas needs more bipartisanship: We endorse Beto O'Rourke for US Senate|url=https://www.elpasotimes.com/story/opinion/2018/10/21/texas-needs-more-bipartisanship-we-endorse-beto-orourke-senate/1712587002/|website=www.elpasotimes.com|date=October 21, 2018}}</ref>
+* ''[[Fort Worth Star-Telegram]]''<ref>{{cite web|title=For U.S. Senate: Electing Beto O'Rourke is good business|url=https://www.star-telegram.com/opinion/editorials/article220649100.html|website=www.star-telegram.com|date=October 26, 2018}}</ref>
+* ''[[Houston Chronicle]]''<ref>{{cite web|title=For U.S. Senate: Beto O'Rourke|url=https://www.houstonchronicle.com/opinion/recommendations/article/Senate-Beto-ORourke-Ted-Cruz-2018-endorsement-13320986.php|website=www.houstonchronicle.com|date=October 19, 2018}}</ref>
+* ''[[Longview News-Journal]]''<ref>{{cite web|title=We endorse: Beto O'Rourke is best choice for Texas senator|url=https://www.news-journal.com/opinion/we-endorse-beto-o-rourke-is-best-choice-for-texas/article_bed9f780-d264-11e8-be49-e364ea29dad8.html|website=www.news-journal.com/|date=October 18, 2018}}</ref>
+* ''[[San Antonio Express-News]]''<ref>{{cite web|title=O'Rourke for U.S. Senate|url=https://www.mysanantonio.com/opinion/editorials/article/O-Rourke-for-U-S-Senate-13321785.php
+|website=www.mysanantonio.com|date=October 20, 2018}}</ref>
+}}
+
+=== Fundraising ===
+In the third quarter of 2018, O'Rourke raised $38.1 million. This was the largest quarterly total raised by a U.S. Senate candidate<ref>{{Cite web|url=https://www.cnn.com/2018/10/12/politics/beto-orourke-fundraising-record-third-quarter/index.html|title=Beto O'Rourke smashes record, raises $38.1 million in three months|author=David Wright|website=CNN}}</ref> until [[Jaime Harrison]] raised $57 million in the third quarter of 2020 in the [[2020 United States Senate election in South Carolina|South Carolina election]].<ref>{{cite news |last=Arkin |first=James |date=October 11, 2020 |title=Jaime Harrison shatters Senate fundraising record for South Carolina race |url=https://www.politico.com/news/2020/10/11/jaime-harrison-shatters-senate-fundraising-record-for-south-carolina-race-428541 |work=[[POLITICO]] |access-date=October 11, 2020}}</ref> Cruz and O'Rourke combined to raise a record-setting total of $126 million during the 2018 campaign.<ref>{{Cite web|url=https://www.chron.com/news/politics/texas/article/Ted-Cruz-vs-Beto-O-Rourke-campaign-nearly-hit-13449838.php|title=Ted Cruz vs. Beto O'Rourke campaign nearly hit $115M|date=December 7, 2018|website=[[Houston Chronicle]]}}</ref><ref name=FEC/>
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of December 31, 2018
+|- style="text-align:center;"
+!Candidate (party)
+!Total receipts
+!Total disbursements
+!Cash on hand
+|-
+| {{party shading/Republican}}|Ted Cruz (R)
+| {{party shading/Republican}} align="right" |$45,668,718
+| {{party shading/Republican}} align="right" |$45,990,176
+| {{party shading/Republican}} align="right" |$157,959
+|-
+| {{party shading/Democratic}}|Beto O'Rourke (D)
+| {{party shading/Democratic}} align="right" |$80,344,836
+| {{party shading/Democratic}} align="right" |$80,458,720
+| {{party shading/Democratic}} align="right" |$284,816
+|-
+| {{party shading/Libertarian}}|Neal Dikeman (L)
+| {{party shading/Libertarian}} align="right" |$33,732
+| {{party shading/Libertarian}} align="right" |$33,398
+| {{party shading/Libertarian}} align="right" |$333
+|-
+! colspan="4" |<small>Source: Federal Election Commission<ref name=FEC>{{cite web |url=https://www.fec.gov/data/elections/senate/TX/2018/ |title=2018 Election United States Senate - Texas |author=<!--Not stated--> |date=December 31, 2018 |website=[[Federal Election Commission]] |access-date=October 11, 2020}}</ref></small>
+|}
+
+=== Polling ===
+[[File:Polling for the 2018 Senate election in Texas.png|center|frameless|700x700px]]
+
+{| class="wikitable" style="font-size:90%;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:100px;"| Ted<br />Cruz (R)
+! style="width:100px;"| Beto<br />O'Rourke (D)
+! style="width:100px;"| Neal<br />Dikeman (L)
+! Other
+! Undecided
+|-
+|[[Trafalgar Group|Trafalgar Group (R)]]<ref>[https://drive.google.com/file/d/18h31Oi90C0teXatPo1CQgpuKnee-MscF/view Trafalgar Group (R)]</ref>
+| align=center| November 3–5, 2018
+| align=center| 2,135
+| align=center| ± 2.1%
+| {{party shading/Republican}} align=center| '''52%'''
+| align=center| 43%
+| align=center| –
+| align=center| 1%
+| align=center| 4%
+|-
+|[[Change Research|Change Research (D-Reason to Believe PAC)]]<ref>{{Deprecated archive|url=https://archive.today/20181103152432/https://twitter.com/ChangePolls/status/1058740322530820097|title=Change Research (D-Reason to Believe PAC)}}</ref>
+| align=center| November 1–2, 2018
+| align=center| 1,211
+| align=center| –
+| align=center| '''49%'''
+| align=center| '''49%'''
+| align=center| 1%
+| align=center| –
+| align=center| –
+|-
+|[[Emerson College]]<ref>[https://www.emerson.edu/news-events/emerson-college-today/emerson-poll-west-virginia-senate-race-tightens-texas-senate-race-remains-close-republicans-look-hold-three-house-seats-wv Emerson College]</ref>
+| align=center| October 28–30, 2018
+| align=center| 781
+| align=center| ± 3.7%
+| {{party shading/Republican}} align=center| '''50%'''
+| align=center| 47%
+| align=center| 1%
+| align=center| –
+| align=center| 2%
+|-
+|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx10292018_tjfp53.pdf Quinnipiac University]</ref>
+| align=center| October 22–28, 2018
+| align=center| 1,078
+| align=center| ± 3.5%
+| {{party shading/Republican}} align=center| '''51%'''
+| align=center| 46%
+| align=center| –
+| align=center| 1%
+| align=center| 3%
+|-
+| rowspan=2|[[University of Texas Tyler]]<ref>[https://bloximages.newyork1.vip.townnews.com/tylerpaper.com/content/tncms/assets/v3/editorial/e/29/e297f08c-dcaa-11e8-b037-17b94feb3d05/5bd904b1d541b.pdf.pdf University of Texas Tyler]</ref>
+| rowspan=2 align=center| October 15–28, 2018
+| align=center| 905 LV
+| align=center| –
+| {{party shading/Republican}} align=center| '''47%'''
+| align=center| 43%
+| align=center| –
+| align=center| 4%
+| align=center| 6%
+|-
+| align=center| 1,033 RV
+| align=center| ± 3.0%
+| {{party shading/Republican}} align=center| '''47%'''
+| align=center| 42%
+| align=center| –
+| align=center| 4%
+| align=center| 8%
+|-
+|[[Dixie Strategies]]<ref>[https://www.cbsnews.com/dfw/news/cruz-abbott-pull-ahead-in-latest-poll/ Dixie Strategies]</ref>
+| align=center| October 25–26, 2018
+| align=center| 588
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''52%'''
+| align=center| 42%
+| align=center| –
+| align=center| –
+| align=center| 5%
+|-
+|[[GBA Strategies|GBA Strategies (D-End Citizens United)]]<ref>[http://endcitizensunited.org/wp-content/uploads/2018/10/ECUTX18m1-102318-1.pdf GBA Strategies (D-End Citizens United)]</ref>
+| align=center| October 18–21, 2018
+| align=center| 1,000
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''50%'''
+| align=center| 46%
+| align=center| 2%
+| align=center| –
+| align=center| 2%
+|-
+|[[University of Texas]]/[[YouGov]]<ref>[https://www.texastribune.org/2018/10/26/ut-tt-poll-ted-cruz-leads-beto-orourke-texas-senate/ University of Texas/YouGov]</ref>
+| align=center| October 15–21, 2018
+| align=center| 927
+| align=center| ± 3.2%
+| {{party shading/Republican}} align=center| '''51%'''
+| align=center| 45%
+| align=center| 2%
+| align=center| 2%
+| align=center| –
+|-
+|[[Ipsos]]<ref>[https://fingfx.thomsonreuters.com/gfx/rngs/USA-ELECTION/010080D20RG/index.html Ipsos]</ref>
+| align=center| October 12–18, 2018
+| align=center| 1,298
+| align=center| ± 3.2%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 44%
+| align=center| –
+| align=center| 3%
+| align=center| 1%
+|-
+|[[Tulchin Research|Tulchin Research (D-MoveOn)]]<ref>[https://drive.google.com/file/d/19yHyxK1LbyEJQOKl34jHL3Wy8iZvTU62/view Tulchin Research (D-MoveOn)]</ref>
+| align=center| October 10–14, 2018
+| align=center| 600
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 45%
+| align=center| 3%
+| align=center| –
+| align=center| 3%
+|-
+| rowspan=2|[[CNN]]/[[SSRS (research company)|SSRS]]<ref>[http://cdn.cnn.com/cnn/2018/images/10/16/rel1_tx.pdf CNN/SSRS]</ref>
+| rowspan=2 align=center| October 9–13, 2018
+| align=center| 716 LV
+| align=center| ± 4.5%
+| {{party shading/Republican}} align=center| '''52%'''
+| align=center| 45%
+| align=center| –
+| align=center| 0%
+| align=center| 2%
+|-
+| align=center| 862 RV
+| align=center| ± 4.1%
+| {{party shading/Republican}} align=center| '''50%'''
+| align=center| 45%
+| align=center| –
+| align=center| 0%
+| align=center| 3%
+|-
+|[[WPA Intelligence|WPA Intelligence (R-Club for Growth)]]<ref>[https://www.clubforgrowth.org/wp-content/uploads/2018/10/CFGA_TXSEN_Survey_Memo_181014.pdf WPA Intelligence (R-Club for Growth)]</ref>
+| align=center| October 8–13, 2018
+| align=center| 801
+| align=center| ± 3.5%
+| {{party shading/Republican}} align=center| '''52%'''
+| align=center| 43%
+| align=center| 1%
+| align=center| –
+| align=center| 4%
+|-
+|[[NYT Upshot]]/[[Siena College]]<ref>[https://www.nytimes.com/interactive/2018/upshot/elections-poll-txsen-2.html NYT Upshot/Siena College]</ref>
+| align=center| October 8–11, 2018
+| align=center| 800
+| align=center| ± 3.6%
+| {{party shading/Republican}} align=center| '''51%'''
+| align=center| 43%
+| align=center| 1%
+| align=center| –
+| align=center| 5%
+|-
+|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx10112018_tyrf29.pdf Quinnipiac University]</ref>
+| align=center| October 3–9, 2018
+| align=center| 730
+| align=center| ± 4.4%
+| {{party shading/Republican}} align=center| '''54%'''
+| align=center| 45%
+| align=center| –
+| align=center| 0%
+| align=center| 2%
+|-
+|[[YouGov]]<ref>[https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/0f3cqnuscn/cbs_20181007_TX_final.pdf YouGov]</ref>
+| align=center| October 2–5, 2018
+| align=center| 881
+| align=center| –
+| {{party shading/Republican}} align=center| '''50%'''
+| align=center| 44%
+| align=center| –
+| align=center| 2%
+| align=center| 4%
+|-
+|[[Emerson College]]<ref>[https://www.emerson.edu/news-events/emerson-college-today/emerson-e-poll-cruz-extends-texas-us-senate-race-abbott-cruises-governor-race Emerson College]</ref>
+| align=center| October 1–5, 2018
+| align=center| 500
+| align=center| ± 4.5%
+| {{party shading/Republican}} align=center| '''47%'''
+| align=center| 42%
+| align=center| –
+| align=center| 3%
+| align=center| 8%
+|-
+|[[Public Policy Polling|Public Policy Polling (D-Protect Our Care)]]<ref>[https://www.protectourcare.org/wp-content/uploads/2018/09/Texas-Protect-Our-Care-Sept-18-2-Results.pdf Public Policy Polling (D-Protect Our Care)]</ref>
+| align=center| September 19–20, 2018
+| align=center| 613
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''48%'''
+| align=center| 45%
+| align=center| –
+| align=center| –
+| align=center| 8%
+|-
+|[[Public Policy Polling|Public Policy Polling (D-End Citizens United)]]<ref>[http://endcitizensunited.org/wp-content/uploads/2018/09/Texas-Results.pdf Public Policy Polling (D-End Citizens United)]</ref>
+| align=center| September 19–20, 2018
+| align=center| 603
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 46%
+| align=center| –
+| align=center| –
+| align=center| 5%
+|-
+|[[Vox Populi Polling]]<ref>{{cite web |title=Vox Populi Polling |work=poppolling.com |url=https://poppolling.com/wp-content/uploads/2018/09/TX-Statewide-Survey-Toplines-Sept.-2018.pdf |archive-url=https://web.archive.org/web/20180920225616/https://poppolling.com/wp-content/uploads/2018/09/TX-Statewide-Survey-Toplines-Sept.-2018.pdf |archive-date=September 20, 2018 |url-status=usurped}}</ref>
+| align=center| September 16–18, 2018
+| align=center| 508
+| align=center| ± 4.4%
+| align=center| '''50%'''
+| align=center| '''50%'''
+| align=center| –
+| align=center| –
+| align=center| –
+|-
+|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx09182018_tpfn20.pdf Quinnipiac University]</ref>
+| align=center| September 11–17, 2018
+| align=center| 807
+| align=center| ± 4.1%
+| {{party shading/Republican}} align=center| '''54%'''
+| align=center| 45%
+| align=center| –
+| align=center| 0%
+| align=center| 1%
+|-
+|[[Chism Strategies|Chism Strategies (D-Reform Austin)]]<ref>[https://www.reformaustin.org/2018/09/21/tx-poll-cruz-holds-close-lead-in-senate-race/ Chism Strategies (D-Reform Austin)]</ref>
+| align=center| September 11–12, 2018
+| align=center| 1,161
+| align=center| ± 3.0%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 45%
+| align=center| –
+| align=center| –
+| align=center| 5%
+|-
+|[[Ipsos]]<ref>[https://www.ipsos.com/en-us/news-polls/election-data-CA-FL-TX-NV-AZ Ipsos]</ref>
+| align=center| September 6–14, 2018
+| align=center| 992
+| align=center| ± 4.0%
+| align=center| 45%
+| {{party shading/Democratic}} align=center| '''47%'''
+| align=center| –
+| align=center| 3%
+| align=center| 5%
+|-
+|[[Crosswind Media & Public Relations]]<ref>[https://crosswindpr.com/texas-poll-shows-beto-orourke-gaining-ground-as-ted-cruz-hangs-on-to-a-slim-3-lead/ Crosswind Media & Public Relations]</ref>
+| align=center| September 6–9, 2018
+| align=center| 800
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''47%'''
+| align=center| 44%
+| align=center| –
+| align=center| –
+| align=center| –
+|-
+|[[Dixie Strategies]]<ref>[https://www.cbsnews.com/dfw/news/cruz-clings-to-small-lead-in-texas/ Dixie Strategies]</ref>
+| align=center| September 6–7, 2018
+| align=center| 519
+| align=center| ± 4.3%
+| {{party shading/Republican}} align=center| '''46%'''
+| align=center| 42%
+| align=center| 1%
+| align=center| –
+| align=center| 11%
+|-
+|[[Emerson College]]<ref>[https://web.archive.org/web/20180911144253/https://www.emerson.edu/sites/default/files/Files/Academics/ecp-tx-aug2018-pr.pdf Emerson College]</ref>
+| align=center| August 22–25, 2018
+| align=center| 550
+| align=center| ± 4.4%
+| {{party shading/Republican}} align=center| '''38%'''
+| align=center| 37%
+| align=center| –
+| align=center| 4%
+| align=center| 21%
+|-
+|[[NBC News]]/[[Marist Poll|Marist]]<ref>[http://maristpoll.marist.edu/wp-content/uploads/2018/08/NBC-News_Marist-Poll_Texas-Nature-of-the-Sample-and-Tables_August-2018_1808201203.pdf NBC News/Marist]</ref>
+| align=center| August 12–16, 2018
+| align=center| 759
+| align=center| ± 3.8%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 45%
+| align=center| –
+| align=center| 1%
+| align=center| 6%
+|-
+|[[Civiqs]]<ref>[https://www.ourcampaigns.com/RaceDetail.html?RaceID=784898&ShowAllMUPoll=Y Civiqs]</ref>{{efn|Additional data sourced from FiveThirtyEight}}
+| align=center| August 8–11, 2018
+| align=center| –{{efn|Not yet released}}
+| align=center| –
+| align=center| 47%
+| {{party shading/Democratic}} align=center| '''48%'''
+| align=center| –
+| align=center| –
+| align=center| –
+|-
+|[[Public Policy Polling|Public Policy Polling (D-End Citizens United)]]<ref>[http://endcitizensunited.org/wp-content/uploads/2018/08/TX-Aug-18-Memo.pdf Public Policy Polling (D-End Citizens United)]</ref>
+| align=center| August 1–2, 2018
+| align=center| 797
+| align=center| ± 3.5%
+| {{party shading/Republican}} align=center| '''46%'''
+| align=center| 42%
+| align=center| –
+| align=center| –
+| align=center| –
+|-
+|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx08012018_tecd19.pdf Quinnipiac University]</ref>
+| align=center| July 26–31, 2018
+| align=center| 1,118
+| align=center| ± 3.5%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 43%
+| align=center| –
+| align=center| 0%
+| align=center| 6%
+|-
+| rowspan=2|[[Texas Lyceum]]<ref>[https://web.archive.org/web/20180801190600/https://www.texaslyceum.org/resources/Poll%202018/Day%202/Day%202%202018%20Texas%20Lyceum%20Toplines%20(2).pdf Texas Lyceum]</ref>
+| rowspan=2 align=center| July 9–26, 2018
+| align=center| 441 LV
+| align=center| ± 4.7%
+| {{party shading/Republican}} align=center| '''41%'''
+| align=center| 39%
+| align=center| 1%
+| align=center| –
+| align=center| 19%
+|-
+| align=center| 806 RV
+| align=center| ± 3.5%
+| {{party shading/Republican}} align=center| '''36%'''
+| align=center| 34%
+| align=center| 3%
+| align=center| –
+| align=center| 24%
+|-
+|[[Gravis Marketing]]<ref>[https://www.scribd.com/document/383517600/Texas-2c-July-8-2c-2018 Gravis Marketing]</ref>
+| align=center| July 3–7, 2018
+| align=center| 602
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''51%'''
+| align=center| 42%
+| align=center| –
+| align=center| –
+| align=center| 7%
+|-
+| rowspan=2|[[YouGov]]<ref>[https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/q1xl43robk/cbs_20180624_TX.pdf YouGov]</ref>
+| rowspan=2 align=center| June 19–22, 2018
+| align=center| 821 LV
+| align=center| –
+| {{party shading/Republican}} align=center| '''50%'''
+| align=center| 40%
+| align=center| –
+| align=center| 3%
+| align=center| 7%
+|-
+| align=center| 1,025 RV
+| align=center| ± 3.6%
+| {{party shading/Republican}} align=center| '''44%'''
+| align=center| 36%
+| align=center| –
+| align=center| 3%
+| align=center| 13%
+|-
+|[[University of Texas]]/[[YouGov]]<ref>[https://www.texastribune.org/2018/06/25/ted-cruz-beto-orourke-poll-5-points-texas-senate-race-uttt/ University of Texas/YouGov]</ref>
+| align=center| June 8–17, 2018
+| align=center| 1,200
+| align=center| ± 2.8%
+| {{party shading/Republican}} align=center| '''41%'''
+| align=center| 36%
+| align=center| 2%
+| align=center| 3%
+| align=center| 17%
+|-
+|[[GQR Research|GQR Research (D-End Citizens United)]]<ref>[https://www.scribd.com/document/381866643/TX-Sen-Greenberg-Quinlan-Rosner-Research-D-for-End-Citizens-United-June-2018 GQR Research (D-End Citizens United)]</ref>
+| align=center| May 29 – June 5, 2018
+| align=center| 1,000
+| align=center| ± 3.1%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 43%
+| align=center| –
+| align=center| –
+| align=center| 8%
+|-
+|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx05302018_twbn13.pdf Quinnipiac University]</ref>
+| align=center| May 23–29, 2018
+| align=center| 961
+| align=center| ± 3.8%
+| {{party shading/Republican}} align=center| '''50%'''
+| align=center| 39%
+| align=center| –
+| align=center| 0%
+| align=center| 9%
+|-
+|[[Baselice & Associates|Baselice & Associates (R-TLRPAC)]]<ref>[https://www.scribd.com/document/383286248/TLRPAC-Texas-Statewide-Voter-Survey-Memo Baselice & Associates (R-TLRPAC)]</ref>
+| align=center| May 21–28, 2018
+| align=center| 601
+| align=center| ± 4.1%
+| {{party shading/Republican}} align=center| '''48%'''
+| align=center| 36%
+| align=center| 3%
+| align=center| 1%
+| align=center| 11%
+|-
+|[[Public Policy Polling|Public Policy Polling (D-Giffords)]]<ref>[https://www.scribd.com/document/381154820/PPP-poll-of-TX-SEN-for-Giffords Public Policy Polling (D-Giffords)]</ref>
+| align=center| May 21–22, 2018
+| align=center| 861
+| align=center| ± 3.3%
+| {{party shading/Republican}} align=center| '''48%'''
+| align=center| 42%
+| align=center| –
+| align=center| –
+| align=center| 10%
+|-
+|[[JMC Analytics|JMC Analytics (R-Red Metrics Group)]]<ref>[http://winwithjmc.com/wp-content/uploads/2018/05/Texas-Executive-Summary.pdf JMC Analytics (R-Red Metrics Group)]</ref>
+| align=center| May 19–21, 2018
+| align=center| 575
+| align=center| ± 4.1%
+| {{party shading/Republican}} align=center| '''47%'''
+| align=center| 40%
+| align=center| –
+| align=center| 6%<ref>Jonathan Jenkins (I) 6%</ref>
+| align=center| 7%
+|-
+|[[Quinnipiac University]]<ref>[https://poll.qu.edu/images/polling/tx/tx04182018_tjnp18.pdf Quinnipiac University]</ref>
+| align=center| April 12–17, 2018
+| align=center| 1,029
+| align=center| ± 3.6%
+| {{party shading/Republican}} align=center| '''47%'''
+| align=center| 44%
+| align=center| –
+| align=center| 1%
+| align=center| 8%
+|-
+|[[Public Policy Polling|Public Policy Polling (D-End Citizens United)]]<ref>[https://www.scribd.com/document/369899608/TX-Sen-PPP-for-End-Citizens-United-Jan-2018 Public Policy Polling (D-End Citizens United)]</ref>
+| align=center| January 17–18, 2018
+| align=center| 757
+| align=center| ± 3.6%
+| {{party shading/Republican}} align=center| '''45%'''
+| align=center| 37%
+| align=center| –
+| align=center| –
+| align=center| 18%
+|-
+|[[WPA Intelligence|WPA Intelligence (R-Cruz)]]<ref>[http://www.houstonchronicle.com/news/politics/article/GOP-study-Ted-Cruz-begins-2018-Senate-race-with-12467377.php WPA Intelligence (R-Cruz)]</ref>
+| align=center| December 12–14, 2017
+| align=center| 600
+| align=center| ± 4.0%
+| {{party shading/Republican}} align=center| '''52%'''
+| align=center| 34%
+| align=center| –
+| align=center| 1%
+| align=center| 13%
+|-
+|[[Texas Lyceum]]<ref name="Texas Lyceum">[https://web.archive.org/web/20170420050125/http://www.texaslyceum.org/resources/Pictures/2017%20Topline%20Results.pdf Texas Lyceum]</ref>
+| align=center| April 3–9, 2017
+| align=center| 1,000
+| align=center| ± 3.1%
+| align=center| '''30%'''
+| align=center| '''30%'''
+| align=center| –
+| align=center| 3%
+| {{party shading/Undecided}} align=center| '''37%'''
+|}
+
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+{| class="wikitable"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:100px;"| Ted<br />Cruz (R)
+! style="width:100px;"| Joaquin<br />Castro (D)
+! Other
+! Undecided
+|-
+|[[Texas Lyceum]]<ref name="Texas Lyceum"/>
+| align=center| April 3–9, 2017
+| align=center| 1,000
+| align=center| ± 3.1%
+| align=center| 31%
+| {{party shading/Democratic}} align=center| '''35%'''
+| align=center| 3%
+| align=center| 31%
+|-
+|[[Public Policy Polling]]<ref name="Public Policy Polling"/>
+| align=center| August 12–14, 2016
+| align=center| 944
+| align=center| ± 3.2%
+| {{party shading/Republican}} align=center| '''48%'''
+| align=center| 36%
+| align=center| –
+| align=center| 16%
+|-
+|[[Dixie Strategies]]<ref name="cbsnews.com"/>
+| align=center| August 8–9, 2016
+| align=center| 1,018
+| align=center| ± 3.1%
+| {{party shading/Republican}} align=center| '''32%'''
+| align=center| 31%
+| align=center| 14%
+| align=center| 23%
+|}
+
+{| class="wikitable"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size
+! Margin<br />of error
+! style="width:100px;"| Ted<br />Cruz (R)
+! style="width:100px;"| Wendy<br />Davis (D)
+! Undecided
+|-
+|[[Public Policy Polling]]<ref name="Public Policy Polling"/>
+| align=center| August 12–14, 2016
+| align=center| 944
+| align=center| ± 3.2%
+| {{party shading/Republican}} align=center| '''49%'''
+| align=center| 37%
+| align=center| 14%
+|}
+{{hidden end}}
+
+===Results===
+On November 6, 2018, Ted Cruz defeated Beto O'Rourke. However, O'Rourke performed unexpectedly well, outperforming pre-election polling.<ref>{{cite news|url=https://abcnews.go.com/Politics/ted-cruz-thwarts-challenge-democratic-insurgent-beto-orourke/story?id=58854838|title=Ted Cruz thwarts challenge from Democratic insurgent Beto O'Rourke in tight Senate race, ABC News projects|work=ABC News|date=November 7, 2018|access-date=November 7, 2018}}</ref> In addition, O'Rourke flipped numerous counties that Donald Trump carried in 2016, including [[Williamson County, Texas|Williamson]] (includes [[Round Rock, Texas|Round Rock]] and [[Georgetown, Texas|Georgetown]]), historically conservative [[Tarrant County, Texas|Tarrant]] (includes [[Fort Worth, Texas|Fort Worth]] and suburbs within the [[DFW metroplex]]), [[Jefferson County, Texas|Jefferson]] (includes [[Beaumont, Texas|Beaumont]] and [[Port Arthur, Texas|Port Arthur]]), [[Nueces County, Texas|Nueces]] (includes [[Corpus Christi, Texas|Corpus Christi]]), sparsely populated [[Brewster County, Texas|Brewster]] (includes [[Big Bend National Park]]), and [[Hays County, Texas|Hays]] (includes [[San Marcos, Texas|San Marcos]]). Cruz won only one county that voted for Hillary Clinton in 2016, sparsely populated [[Kenedy County, Texas|Kenedy]] (coastal region south of [[Corpus Christi, Texas|Corpus Christi]]).
+
+{{Election box begin | title=2018 United States Senate election in Texas<ref>{{cite web|title=2018 General Election |url=https://elections.sos.state.tx.us/elchist331_race832.htm|publisher=Texas Secretary of State|access-date=December 5, 2018}}</ref>}}
+{{Election box winning candidate with party link
+ | party      = Republican Party (United States)
+ | candidate  = [[Ted Cruz]] (incumbent)
+ | votes      = 4,260,553
+ | percentage = 50.89%
+ | change     = −5.57%
+}}
+{{Election box candidate with party link
+ | party      = Democratic Party (United States)
+ | candidate  = [[Beto O'Rourke]]
+ | votes      = 4,045,632
+ | percentage = 48.33%
+ | change     = +7.71%
+}}
+{{Election box candidate with party link
+ | party      = Libertarian Party (United States)
+ | candidate  = Neal Dikeman 
+ | votes      = 65,470
+ | percentage = 0.78%
+ | change     = −1.28%
+}}
+{{Election box total
+ | votes      = 8,371,655
+ | percentage = 100%
+ | change     = N/A
+}}
+{{Election box hold with party link no swing
+| winner = Republican Party (United States)
+}}
+{{Election box end}}
+
+====By county====
+{| class="wikitable sortable"
+|+ style=line-height:1.5|Legend
+|- {{Party shading/Republican}}
+| colspan="2" | Counties won by [[Ted Cruz|Cruz]]
+|- {{Party shading/Democratic}}
+| colspan="2" | Counties won by [[Beto O'Rourke|O'Rourke]]
+|}
+<div style="overflow:auto">
+{| class="wikitable sortable" style="text-align: right;"
+|+ 2018 U.S. Senate election results by Texas county
+|-
+! rowspan=2 | County
+! colspan="2" | Cruz<br />Republican
+! colspan="2" | O'Rourke<br />Democratic
+! colspan="2" | Dikeman<br />Libertarian
+! colspan="2" | Margin
+! rowspan="2" data-sort-type="number" | Total<br />votes
+|-
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Anderson County, Texas|Anderson]]||'''11,335'''||'''76.92%'''||3,307||22.44%||94||0.64%||8,028||54.48%||14,736
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Andrews County, Texas|Andrews]]||'''3,338'''||'''80.80%'''||776||18.78%||17||0.41%||2,562||62.02%||4,131
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Angelina County, Texas|Angelina]]||'''19,166'''||'''72.46%'''||7,130||26.96%||153||0.58%||12,036||45.51%||26,449
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Aransas County, Texas|Aransas]]||'''6,677'''||'''74.35%'''||2,247||25.02%||56||0.62%||4,430||49.33%||8,980
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Archer County, Texas|Archer]]||'''3,208'''||'''89.06%'''||376||10.44%||18||0.50%||2,832||78.62%||3,602
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Armstrong County, Texas|Armstrong]]||'''819'''||'''91.10%'''||74||8.23%||6||0.67%||745||82.87%||899
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Atascosa County, Texas|Atascosa]]||'''7,753'''||'''63.53%'''||4,332||35.50%||119||0.98%||3,421||28.03%||12,204
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Austin County, Texas|Austin]]||'''8,722'''||'''78.95%'''||2,241||20.29%||84||0.76%||6,481||58.67%||11,047
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bailey County, Texas|Bailey]]||'''1,204'''||'''74.50%'''||405||25.06%||7||0.43%||799||49.44%||1,616
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bandera County, Texas|Bandera]]||'''7,643'''||'''79.75%'''||1,865||19.46%||76||0.79%||5,778||60.29%||9,584
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bastrop County, Texas|Bastrop]]||'''15,067'''||'''54.87%'''||12,082||44.00%||312||1.14%||2,985||10.87%||27,461
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Baylor County, Texas|Baylor]]||'''1,070'''||'''86.64%'''||156||12.63%||9||0.73%||914||74.01%||1,235
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bee County, Texas|Bee]]||'''4,342'''||'''60.16%'''||2,811||38.95%||64||0.89%||1,531||21.21%||7,217
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bell County, Texas|Bell]]||'''47,437'''||'''54.79%'''||38,417||44.37%||723||0.84%||9,020||10.42%||86,577
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Bexar County, Texas|Bexar]]||217,600||39.59%||'''326,946'''||'''59.49%'''||5,024||0.91%||109,346||19.90%||549,570
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Blanco County, Texas|Blanco]]||'''4,181'''||'''71.99%'''||1,570||27.03%||57||0.98%||2,611||44.96%||5,808
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Borden County, Texas|Borden]]||'''320'''||'''93.29%'''||22||6.41%||1||0.29%||298||86.88%||343
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bosque County, Texas|Bosque]]||'''5,718'''||'''79.92%'''||1,374||19.20%||63||0.88%||4,344||60.71%||7,155
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Bowie County, Texas|Bowie]]||'''20,157'''||'''71.17%'''||7,982||28.18%||182||0.64%||12,175||42.99%||28,321
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brazoria County, Texas|Brazoria]]||'''65,693'''||'''58.78%'''||45,228||40.47%||832||0.74%||20,465||18.31%||111,753
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brazos County, Texas|Brazos]]||'''35,971'''||'''55.78%'''||27,876||43.23%||640||0.99%||8,095||12.55%||64,487
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Brewster County, Texas|Brewster]]||1,879||45.99%||'''2,147'''||'''52.55%'''||60||1.47%||268||6.56%||4,086
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Briscoe County, Texas|Briscoe]]||'''553'''||'''88.62%'''||69||11.06%||2||0.32%||484||77.56%||624
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Brooks County, Texas|Brooks]]||543||28.24%||'''1,376'''||'''71.55%'''||4||0.21%||833||43.32%||1,923
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Brown County, Texas|Brown]]||'''10,391'''||'''85.65%'''||1,670||13.77%||71||0.59%||8,721||71.88%||12,132
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Burleson County, Texas|Burleson]]||'''5,079'''||'''77.53%'''||1,427||21.78%||45||0.69%||3,652||55.75%||6,551
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Burnet County, Texas|Burnet]]||'''13,859'''||'''74.95%'''||4,444||24.03%||187||1.01%||9,415||50.92%||18,490
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Caldwell County, Texas|Caldwell]]||'''6,147'''||'''53.54%'''||5,227||45.53%||107||0.93%||920||8.01%||11,481
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Calhoun County, Texas|Calhoun]]||'''4,198'''||'''68.61%'''||1,874||30.63%||47||0.77%||2,324||37.98%||6,119
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Callahan County, Texas|Callahan]]||'''4,373'''||'''87.06%'''||610||12.14%||40||0.80%||3,763||74.92%||5,023
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Cameron County, Texas|Cameron]]||28,574||36.67%||'''48,770'''||'''62.60%'''||568||0.73%||20,196||25.92%||77,912
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Camp County, Texas|Camp]]||'''2,749'''||'''70.63%'''||1,119||28.75%||24||0.62%||1,630||41.88%||3,892
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Carson County, Texas|Carson]]||'''2,192'''||'''89.14%'''||245||9.96%||22||0.89%||1,947||79.18%||2,459
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cass County, Texas|Cass]]||'''8,148'''||'''79.75%'''||2,024||19.81%||45||0.44%||6,124||59.94%||10,217
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Castro County, Texas|Castro]]||'''1,219'''||'''75.11%'''||394||24.28%||10||0.62%||825||50.83%||1,623
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Chambers County, Texas|Chambers]]||'''12,146'''||'''80.01%'''||2,926||19.27%||109||0.72%||9,220||60.73%||15,181
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cherokee County, Texas|Cherokee]]||'''11,631'''||'''77.85%'''||3,207||21.46%||103||0.69%||8,424||56.38%||14,941
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Childress County, Texas|Childress]]||'''1,526'''||'''86.21%'''||236||13.33%||8||0.45%||1,290||72.88%||1,770
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Clay County, Texas|Clay]]||'''3,710'''||'''86.52%'''||547||12.76%||31||0.72%||3,163||73.76%||4,288
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cochran County, Texas|Cochran]]||'''541'''||'''78.86%'''||140||20.41%||5||0.73%||401||58.45%||686
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Coke County, Texas|Coke]]||'''1,150'''||'''88.67%'''||137||10.56%||10||0.77%||1,013||78.10%||1,297
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Coleman County, Texas|Coleman]]||'''2,759'''||'''88.26%'''||351||11.23%||16||0.51%||2,408||77.03%||3,126
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Collin County, Texas|Collin]]||'''187,425'''||'''52.65%'''||165,614||46.53%||2,927||0.82%||21,631||6.12%||355,966
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Collingsworth County, Texas|Collingsworth]]||'''810'''||'''87.28%'''||113||12.18%||5||0.54%||697||75.11%||928
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Colorado County, Texas|Colorado]]||'''5,779'''||'''75.67%'''||1,825||23.90%||33||0.43%||3,954||51.77%||7,637
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Comal County, Texas|Comal]]||'''44,079'''||'''71.68%'''||16,830||27.37%||586||0.95%||27,249||44.31%||61,495
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Comanche County, Texas|Comanche]]||'''3,799'''||'''82.41%'''||781||16.94%||30||0.65%||3,018||65.47%||4,610
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Concho County, Texas|Concho]]||'''803'''||'''81.94%'''||163||16.63%||14||1.43%||640||65.31%||980
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cooke County, Texas|Cooke]]||'''11,879'''||'''81.70%'''||2,550||17.54%||111||0.76%||9,329||64.16%||14,540
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Coryell County, Texas|Coryell]]||'''10,626'''||'''66.99%'''||5,067||31.94%||170||1.07%||5,559||35.04%||15,863
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Cottle County, Texas|Cottle]]||'''458'''||'''82.23%'''||97||17.41%||2||0.36%||361||64.81%||557
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Crane County, Texas|Crane]]||'''836'''||'''79.24%'''||213||20.19%||6||0.57%||623||59.05%||1,055
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Crockett County, Texas|Crockett]]||'''928'''||'''72.73%'''||340||26.65%||8||0.63%||588||46.08%||1,276
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Crosby County, Texas|Crosby]]||'''978'''||'''68.78%'''||437||30.73%||7||0.49%||541||38.05%||1,422
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Culberson County, Texas|Culberson]]||297||35.91%||'''521'''||'''63.00%'''||9||1.09%||224||27.09%||827
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dallam County, Texas|Dallam]]||'''970'''||'''87.00%'''||139||12.47%||6||0.54%||831||74.53%||1,115
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Dallas County, Texas|Dallas]]||241,126||33.13%||'''481,395'''||'''66.14%'''||5,368||0.74%||240,269||33.01%||727,889
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dawson County, Texas|Dawson]]||'''2,192'''||'''72.70%'''||811||26.90%||12||0.40%||1,381||45.80%||3,015
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Deaf Smith County, Texas|Deaf Smith]]||'''2,680'''||'''70.99%'''||1,067||28.26%||28||0.74%||1,613||42.73%||3,775
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Delta County, Texas|Delta]]||'''1,562'''||'''80.85%'''||354||18.32%||16||0.83%||1,208||62.53%||1,932
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Denton County, Texas|Denton]]||'''158,744'''||'''53.67%'''||134,649||45.52%||2,409||0.81%||24,095||8.15%||295,802
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dewitt County, Texas|Dewitt]]||'''4,974'''||'''81.13%'''||1,128||18.40%||29||0.47%||3,846||62.73%||6,131
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Dickens County, Texas|Dickens]]||'''635'''||'''84.22%'''||113||14.99%||6||0.80%||522||69.23%||754
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Dimmit County, Texas|Dimmit]]||840||29.03%||'''2,042'''||'''70.56%'''||12||0.41%||1,202||41.53%||2,894
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Donley County, Texas|Donley]]||'''1,110'''||'''86.79%'''||161||12.59%||8||0.63%||949||74.20%||1,279
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Duval County, Texas|Duval]]||1,330||32.34%||'''2,765'''||'''67.23%'''||18||0.44%||1,435||34.89%||4,113
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Eastland County, Texas|Eastland]]||'''5,377'''||'''86.66%'''||800||12.89%||28||0.45%||4,577||73.76%||6,205
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ector County, Texas|Ector]]||'''20,996'''||'''68.90%'''||9,230||30.29%||248||0.81%||11,766||38.61%||30,474
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Edwards County, Texas|Edwards]]||'''604'''||'''79.79%'''||145||19.15%||8||1.06%||459||60.63%||757
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ellis County, Texas|Ellis]]||'''41,022'''||'''67.71%'''||19,106||31.53%||461||0.76%||21,916||36.17%||60,589
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[El Paso County, Texas|El Paso]]||50,943||25.02%||'''151,482'''||'''74.40%'''||1,189||0.58%||100,539||49.38%||203,614
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Erath County, Texas|Erath]]||'''10,055'''||'''79.64%'''||2,486||19.69%||84||0.66%||7,569||59.95%||12,625
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Falls County, Texas|Falls]]||'''3,215'''||'''68.70%'''||1,445||30.88%||20||0.43%||1,770||37.82%||4,680
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Fannin County, Texas|Fannin]]||'''8,569'''||'''79.71%'''||2,107||19.60%||74||0.69%||6,462||60.11%||10,750
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Fayette County, Texas|Fayette]]||'''8,228'''||'''78.52%'''||2,198||20.98%||53||0.51%||6,030||57.54%||10,479
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Fisher County, Texas|Fisher]]||'''1,139'''||'''76.24%'''||340||22.76%||15||1.00%||799||53.48%||1,494
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Floyd County, Texas|Floyd]]||'''1,394'''||'''74.19%'''||476||25.33%||9||0.48%||918||48.86%||1,879
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Foard County, Texas|Foard]]||'''321'''||'''73.79%'''||113||25.98%||1||0.23%||208||47.82%||435
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Fort Bend County, Texas|Fort Bend]]||111,423||43.62%||'''142,399'''||'''55.75%'''||1,616||0.63%||30,976||12.13%||255,438
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Franklin County, Texas|Franklin]]||'''3,300'''||'''83.04%'''||639||16.08%||35||0.88%||2,661||66.96%||3,974
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Freestone County, Texas|Freestone]]||'''5,243'''||'''79.90%'''||1,279||19.49%||40||0.61%||3,964||60.41%||6,562
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Frio County, Texas|Frio]]||1,636||44.46%||'''2,016'''||'''54.78%'''||28||0.76%||380||10.33%||3,680
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gaines County, Texas|Gaines]]||'''3,317'''||'''86.18%'''||513||13.33%||19||0.49%||2,804||72.85%||3,849
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Galveston County, Texas|Galveston]]||'''67,641'''||'''59.53%'''||45,065||39.66%||916||0.81%||22,576||19.87%||113,622
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Garza County, Texas|Garza]]||'''1,068'''||'''82.98%'''||203||15.77%||16||1.24%||865||67.21%||1,287
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gillespie County, Texas|Gillespie]]||'''9,890'''||'''78.85%'''||2,572||20.51%||81||0.65%||7,318||58.34%||12,543
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Glasscock County, Texas|Glasscock]]||'''513'''||'''92.60%'''||37||6.68%||4||0.72%||476||85.92%||554
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Goliad County, Texas|Goliad]]||'''2,326'''||'''75.72%'''||717||23.34%||29||0.94%||1,609||52.38%||3,072
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gonzales County, Texas|Gonzales]]||'''4,173'''||'''74.19%'''||1,421||25.26%||31||0.55%||2,752||48.92%||5,625
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gray County, Texas|Gray]]||'''5,246'''||'''88.90%'''||615||10.42%||40||0.68%||4,631||78.48%||5,901
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Grayson County, Texas|Grayson]]||'''31,655'''||'''73.37%'''||11,157||25.86%||332||0.77%||20,498||47.51%||43,144
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Gregg County, Texas|Gregg]]||'''24,569'''||'''68.37%'''||11,133||30.98%||234||0.65%||13,436||37.39%||35,936
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Grimes County, Texas|Grimes]]||'''6,499'''||'''75.51%'''||2,037||23.67%||71||0.82%||4,462||51.84%||8,607
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Guadalupe County, Texas|Guadalupe]]||'''33,938'''||'''62.19%'''||20,079||36.79%||554||1.02%||13,859||25.40%||54,571
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hale County, Texas|Hale]]||'''5,360'''||'''72.51%'''||1,970||26.65%||62||0.84%||3,390||45.86%||7,392
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hall County, Texas|Hall]]||'''807'''||'''83.11%'''||161||16.58%||3||0.31%||646||66.53%||971
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hamilton County, Texas|Hamilton]]||'''2,795'''||'''83.93%'''||507||15.23%||28||0.84%||2,288||68.71%||3,330
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hansford County, Texas|Hansford]]||'''1,552'''||'''90.76%'''||138||8.07%||20||1.17%||1,414||82.69%||1,710
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hardeman County, Texas|Hardeman]]||'''973'''||'''83.73%'''||185||15.92%||4||0.34%||788||67.81%||1,162
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hardin County, Texas|Hardin]]||'''17,391'''||'''86.53%'''||2,636||13.12%||71||0.35%||14,755||73.42%||20,098
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Harris County, Texas|Harris]]||498,902||41.31%||'''700,200'''||'''57.98%'''||8,652||0.72%||201,298||16.67%||1,207,754
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Harrison County, Texas|Harrison]]||'''16,226'''||'''71.82%'''||6,245||27.64%||122||0.54%||9,981||44.18%||22,593
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hartley County, Texas|Hartley]]||'''1,467'''||'''90.33%'''||153||9.42%||4||0.25%||1,314||80.91%||1,624
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Haskell County, Texas|Haskell]]||'''1,362'''||'''81.36%'''||302||18.04%||10||0.60%||1,060||63.32%||1,674
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Hays County, Texas|Hays]]||33,308||41.77%||'''45,584'''||'''57.16%'''||854||1.07%||12,276||15.39%||79,746
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hemphill County, Texas|Hemphill]]||'''1,209'''||'''87.93%'''||157||11.42%||9||0.65%||1,052||76.51%||1,375
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Henderson County, Texas|Henderson]]||'''20,891'''||'''78.80%'''||5,415||20.43%||205||0.77%||15,476||58.38%||26,511
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Hidalgo County, Texas|Hidalgo]]||46,505||30.64%||'''104,416'''||'''68.81%'''||834||0.55%||57,911||38.16%||151,755
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hill County, Texas|Hill]]||'''8,927'''||'''78.08%'''||2,443||21.37%||63||0.55%||6,484||56.71%||11,433
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hockley County, Texas|Hockley]]||'''4,844'''||'''79.49%'''||1,211||19.87%||39||0.64%||3,633||59.62%||6,094
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hood County, Texas|Hood]]||'''20,090'''||'''80.34%'''||4,720||18.88%||195||0.78%||15,370||61.47%||25,005
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hopkins County, Texas|Hopkins]]||'''9,306'''||'''78.07%'''||2,545||21.35%||69||0.58%||6,761||56.72%||11,920
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Houston County, Texas|Houston]]||'''5,552'''||'''75.43%'''||1,772||24.08%||36||0.49%||3,780||51.36%||7,360
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Howard County, Texas|Howard]]||'''5,651'''||'''76.32%'''||1,693||22.87%||60||0.81%||3,958||53.46%||7,404
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hudspeth County, Texas|Hudspeth]]||'''509'''||'''54.56%'''||407||43.62%||17||1.82%||102||10.93%||933
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hunt County, Texas|Hunt]]||'''21,115'''||'''74.12%'''||7,151||25.10%||222||0.78%||13,964||49.02%||28,488
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Hutchinson County, Texas|Hutchinson]]||'''5,854'''||'''88.14%'''||753||11.34%||35||0.53%||5,101||76.80%||6,642
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Irion County, Texas|Irion]]||'''636'''||'''86.18%'''||96||13.01%||6||0.81%||540||73.17%||738
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jack County, Texas|Jack]]||'''2,498'''||'''88.80%'''||296||10.52%||19||0.68%||2,202||78.28%||2,813
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jackson County, Texas|Jackson]]||'''3,991'''||'''82.46%'''||832||17.19%||17||0.35%||3,159||65.27%||4,840
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jasper County, Texas|Jasper]]||'''9,504'''||'''80.32%'''||2,282||19.29%||47||0.40%||7,222||61.03%||11,833
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jeff Davis County, Texas|Jeff Davis]]||'''683'''||'''58.03%'''||466||39.59%||28||2.38%||217||18.44%||1,177
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Jefferson County, Texas|Jefferson]]||36,731||49.48%||'''37,128'''||'''50.01%'''||380||0.51%||397||0.53%||74,239
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Jim Hogg County, Texas|Jim Hogg]]||410||27.74%||'''1,060'''||'''71.72%'''||8||0.54%||650||43.98%||1,478
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Jim Wells County, Texas|Jim Wells]]||4,520||45.66%||'''5,331'''||'''53.85%'''||49||0.49%||811||8.19%||9,900
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Johnson County, Texas|Johnson]]||'''39,571'''||'''75.47%'''||12,411||23.67%||454||0.87%||27,160||51.80%||52,436
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Jones County, Texas|Jones]]||'''4,115'''||'''82.56%'''||832||16.69%||37||0.74%||3,283||65.87%||4,984
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Karnes County, Texas|Karnes]]||'''2,900'''||'''70.12%'''||1,203||29.09%||33||0.80%||1,697||41.03%||4,136
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kaufman County, Texas|Kaufman]]||'''26,118'''||'''68.07%'''||12,002||31.28%||252||0.66%||14,116||36.79%||38,372
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kendall County, Texas|Kendall]]||'''15,292'''||'''77.25%'''||4,340||21.92%||164||0.83%||10,952||55.32%||19,796
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kenedy County, Texas|Kenedy]]||'''100'''||'''55.56%'''||77||42.78%||3||1.67%||23||12.78%||180
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kent County, Texas|Kent]]||'''288'''||'''85.46%'''||44||13.06%||5||1.48%||244||72.40%||337
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kerr County, Texas|Kerr]]||'''16,822'''||'''75.76%'''||5,198||23.41%||185||0.83%||11,624||52.35%||22,205
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kimble County, Texas|Kimble]]||'''1,495'''||'''87.73%'''||195||11.44%||14||0.82%||1,300||76.29%||1,704
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[King County, Texas|King]]||'''124'''||'''94.66%'''||6||4.58%||1||0.76%||118||90.08%||131
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Kinney County, Texas|Kinney]]||'''827'''||'''68.97%'''||358||29.86%||14||1.17%||469||39.12%||1,199
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Kleberg County, Texas|Kleberg]]||4,081||47.48%||'''4,456'''||'''51.84%'''||59||0.69%||375||4.36%||8,596
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Knox County, Texas|Knox]]||'''855'''||'''78.23%'''||229||20.95%||9||0.82%||626||57.27%||1,093
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lamar County, Texas|Lamar]]||'''12,711'''||'''76.72%'''||3,731||22.52%||126||0.76%||8,980||54.20%||16,568
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lamb County, Texas|Lamb]]||'''2,741'''||'''79.29%'''||699||20.22%||17||0.49%||2,042||59.07%||3,457
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lampasas County, Texas|Lampasas]]||'''5,836'''||'''78.13%'''||1,569||21.00%||65||0.87%||4,267||57.12%||7,470
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[La Salle County, Texas|La Salle]]||673||45.20%||'''813'''||'''54.60%'''||3||0.20%||140||9.40%||1,489
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lavaca County, Texas|Lavaca]]||'''6,688'''||'''86.44%'''||1,019||13.17%||30||0.39%||5,669||73.27%||7,737
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lee County, Texas|Lee]]||'''4,487'''||'''76.74%'''||1,322||22.61%||38||0.65%||3,165||54.13%||5,847
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Leon County, Texas|Leon]]||'''5,711'''||'''86.67%'''||855||12.98%||23||0.35%||4,856||73.70%||6,589
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Liberty County, Texas|Liberty]]||'''16,041'''||'''77.96%'''||4,421||21.49%||114||0.55%||11,620||56.47%||20,576
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Limestone County, Texas|Limestone]]||'''5,211'''||'''75.35%'''||1,672||24.18%||33||0.48%||3,539||51.17%||6,916
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lipscomb County, Texas|Lipscomb]]||'''942'''||'''88.28%'''||116||10.87%||9||0.84%||826||77.41%||1,067
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Live Oak County, Texas|Live Oak]]||'''3,029'''||'''82.96%'''||601||16.46%||21||0.58%||2,428||66.50%||3,651
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Llano County, Texas|Llano]]||'''7,954'''||'''78.33%'''||2,124||20.92%||76||0.75%||5,830||57.42%||10,154
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Loving County, Texas|Loving]]||'''47'''||'''87.04%'''||6||11.11%||1||1.85%||41||75.93%||54
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lubbock County, Texas|Lubbock]]||'''58,780'''||'''64.19%'''||32,068||35.02%||731||0.80%||26,712||29.17%||91,579
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Lynn County, Texas|Lynn]]||'''1,369'''||'''80.67%'''||323||19.03%||5||0.29%||1,046||61.64%||1,697
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[McCulloch County, Texas|McCulloch]]||'''2,245'''||'''84.05%'''||400||14.98%||26||0.97%||1,845||69.08%||2,671
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[McLennan County, Texas|McLennan]]||'''45,855'''||'''61.24%'''||28,452||38.00%||568||0.76%||17,403||23.24%||74,875
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[McMullen County, Texas|McMullen]]||'''387'''||'''90.00%'''||41||9.53%||2||0.47%||346||80.47%||430
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Madison County, Texas|Madison]]||'''3,033'''||'''79.17%'''||780||20.36%||18||0.47%||2,253||58.81%||3,831
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Marion County, Texas|Marion]]||'''2,448'''||'''70.00%'''||1,018||29.11%||31||0.89%||1,430||40.89%||3,497
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Martin County, Texas|Martin]]||'''1,297'''||'''83.46%'''||243||15.64%||14||0.90%||1,054||67.82%||1,554
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Mason County, Texas|Mason]]||'''1,560'''||'''79.31%'''||402||20.44%||5||0.25%||1,158||58.87%||1,967
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Matagorda County, Texas|Matagorda]]||'''7,330'''||'''70.10%'''||3,049||29.16%||78||0.75%||4,281||40.94%||10,457
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Maverick County, Texas|Maverick]]||2,951||27.38%||'''7,727'''||'''71.71%'''||98||0.91%||4,776||44.32%||10,776
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Medina County, Texas|Medina]]||'''11,444'''||'''70.73%'''||4,621||28.56%||114||0.70%||6,823||42.17%||16,179
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Menard County, Texas|Menard]]||'''632'''||'''80.72%'''||145||18.52%||6||0.77%||487||62.20%||783
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Midland County, Texas|Midland]]||'''32,867'''||'''76.51%'''||9,723||22.64%||365||0.85%||23,144||53.88%||42,955
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Milam County, Texas|Milam]]||'''5,922'''||'''74.15%'''||1,997||25.00%||68||0.85%||3,925||49.14%||7,987
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Mills County, Texas|Mills]]||'''1,764'''||'''88.02%'''||229||11.43%||11||0.55%||1,535||76.60%||2,004
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Mitchell County, Texas|Mitchell]]||'''1,585'''||'''82.85%'''||323||16.88%||5||0.26%||1,262||65.97%||1,913
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Montague County, Texas|Montague]]||'''6,424'''||'''86.57%'''||941||12.68%||56||0.75%||5,483||73.88%||7,421
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Montgomery County, Texas|Montgomery]]||'''137,395'''||'''72.28%'''||51,268||26.97%||1,433||0.75%||86,127||45.31%||190,096
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Moore County, Texas|Moore]]||'''3,248'''||'''80.00%'''||787||19.38%||25||0.62%||2,461||60.62%||4,060
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Morris County, Texas|Morris]]||'''2,953'''||'''69.74%'''||1,260||29.76%||21||0.50%||1,693||39.99%||4,234
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Motley County, Texas|Motley]]||'''483'''||'''91.65%'''||40||7.59%||4||0.76%||443||84.06%||527
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Nacogdoches County, Texas|Nacogdoches]]||'''13,775'''||'''63.68%'''||7,732||35.74%||126||0.58%||6,043||27.93%||21,633
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Navarro County, Texas|Navarro]]||'''10,391'''||'''72.08%'''||3,918||27.18%||107||0.74%||6,473||44.90%||14,416
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Newton County, Texas|Newton]]||'''3,660'''||'''78.27%'''||993||21.24%||23||0.49%||2,667||57.04%||4,676
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Nolan County, Texas|Nolan]]||'''3,120'''||'''76.58%'''||928||22.78%||26||0.64%||2,192||53.80%||4,074
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Nueces County, Texas|Nueces]]||45,956||48.85%||'''47,392'''||'''50.38%'''||719||0.76%||1,436||1.53%||94,067
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ochiltree County, Texas|Ochiltree]]||'''2,160'''||'''89.44%'''||230||9.52%||25||1.04%||1,930||79.92%||2,415
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Oldham County, Texas|Oldham]]||'''732'''||'''89.71%'''||82||10.05%||2||0.25%||650||79.66%||816
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Orange County, Texas|Orange]]||'''21,164'''||'''80.37%'''||5,050||19.18%||118||0.45%||16,114||61.20%||26,332
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Palo Pinto County, Texas|Palo Pinto]]||'''7,547'''||'''80.03%'''||1,837||19.48%||46||0.49%||5,710||60.55%||9,430
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Panola County, Texas|Panola]]||'''7,120'''||'''81.38%'''||1,598||18.26%||31||0.35%||5,522||63.12%||8,749
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Parker County, Texas|Parker]]||'''44,071'''||'''80.87%'''||9,956||18.27%||468||0.86%||34,115||62.60%||54,495
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Parmer County, Texas|Parmer]]||'''1,675'''||'''81.43%'''||372||18.08%||10||0.49%||1,303||63.34%||2,057
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Pecos County, Texas|Pecos]]||'''2,161'''||'''61.39%'''||1,339||38.04%||20||0.57%||822||23.35%||3,520
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Polk County, Texas|Polk]]||'''12,794'''||'''76.38%'''||3,850||22.99%||106||0.63%||8,944||53.40%||16,750
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Potter County, Texas|Potter]]||'''16,689'''||'''68.33%'''||7,521||30.79%||214||0.88%||9,168||37.54%||24,424
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Presidio County, Texas|Presidio]]||436||26.15%||'''1,221'''||'''73.25%'''||10||0.60%||785||47.09%||1,667
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Rains County, Texas|Rains]]||'''3,702'''||'''84.02%'''||681||15.46%||23||0.52%||3,021||68.57%||4,406
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Randall County, Texas|Randall]]||'''38,479'''||'''79.41%'''||9,613||19.84%||363||0.75%||28,866||59.57%||48,455
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Reagan County, Texas|Reagan]]||'''692'''||'''82.97%'''||136||16.31%||6||0.72%||556||66.67%||834
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Real County, Texas|Real]]||'''1,311'''||'''83.82%'''||245||15.66%||8||0.51%||1,066||68.16%||1,564
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Red River County, Texas|Red River]]||'''3,427'''||'''77.57%'''||973||22.02%||18||0.41%||2,454||55.55%||4,418
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Reeves County, Texas|Reeves]]||1,128||47.04%||'''1,255'''||'''52.34%'''||15||0.63%||127||5.30%||2,398
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Refugio County, Texas|Refugio]]||'''1,636'''||'''65.65%'''||847||33.99%||9||0.36%||789||31.66%||2,492
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Roberts County, Texas|Roberts]]||'''441'''||'''95.87%'''||19||4.13%||0||0.00%||422||91.74%||460
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Robertson County, Texas|Robertson]]||'''4,295'''||'''68.52%'''||1,942||30.98%||31||0.49%||2,353||37.54%||6,268
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Rockwall County, Texas|Rockwall]]||'''26,615'''||'''68.77%'''||11,754||30.37%||330||0.85%||14,861||38.40%||38,699
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Runnels County, Texas|Runnels]]||'''2,842'''||'''87.88%'''||385||11.90%||7||0.22%||2,457||75.97%||3,234
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Rusk County, Texas|Rusk]]||'''12,597'''||'''77.37%'''||3,609||22.17%||76||0.47%||8,988||55.20%||16,282
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sabine County, Texas|Sabine]]||'''3,456'''||'''87.12%'''||496||12.50%||15||0.38%||2,960||74.62%||3,967
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Augustine County, Texas|San Augustine]]||'''2,266'''||'''75.13%'''||734||24.34%||16||0.53%||1,532||50.80%||3,016
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Jacinto County, Texas|San Jacinto]]||'''7,499'''||'''80.30%'''||1,785||19.11%||55||0.59%||5,714||61.18%||9,339
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Patricio County, Texas|San Patricio]]||'''11,335'''||'''62.22%'''||6,777||37.20%||107||0.59%||4,558||25.02%||18,219
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[San Saba County, Texas|San Saba]]||'''1,811'''||'''87.53%'''||247||11.94%||11||0.53%||1,564||75.59%||2,069
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Schleicher County, Texas|Schleicher]]||'''735'''||'''77.21%'''||209||21.95%||8||0.84%||526||55.25%||952
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Scurry County, Texas|Scurry]]||'''3,705'''||'''84.92%'''||642||14.71%||16||0.37%||3,063||70.20%||4,363
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Shackelford County, Texas|Shackelford]]||'''1,174'''||'''91.65%'''||103||8.04%||4||0.31%||1,071||83.61%||1,281
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Shelby County, Texas|Shelby]]||'''6,008'''||'''79.46%'''||1,521||20.12%||32||0.42%||4,487||59.34%||7,561
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sherman County, Texas|Sherman]]||'''692'''||'''84.18%'''||87||10.58%||43||5.23%||605||73.60%||822
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Smith County, Texas|Smith]]||'''53,760'''||'''69.46%'''||23,182||29.95%||458||0.59%||30,578||39.51%||77,400
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Somervell County, Texas|Somervell]]||'''3,033'''||'''82.17%'''||633||17.15%||25||0.68%||2,400||65.02%||3,691
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Starr County, Texas|Starr]]||2,443||22.65%||'''8,273'''||'''76.72%'''||68||0.63%||5,830||54.06%||10,784
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Stephens County, Texas|Stephens]]||'''2,631'''||'''88.65%'''||324||10.92%||13||0.44%||2,307||77.73%||2,968
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sterling County, Texas|Sterling]]||'''442'''||'''90.95%'''||44||9.05%||0||0.00%||398||81.89%||486
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Stonewall County, Texas|Stonewall]]||'''497'''||'''80.94%'''||112||18.24%||5||0.81%||385||62.70%||614
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Sutton County, Texas|Sutton]]||'''934'''||'''77.45%'''||265||21.97%||7||0.58%||669||55.47%||1,206
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Swisher County, Texas|Swisher]]||'''1,461'''||'''77.10%'''||420||22.16%||14||0.74%||1,041||54.93%||1,895
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Tarrant County, Texas|Tarrant]]||309,189||49.24%||'''313,497'''||'''49.93%'''||5,208||0.83%||4,308||0.69%||627,894
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Taylor County, Texas|Taylor]]||'''29,811'''||'''73.32%'''||10,489||25.80%||357||0.88%||19,322||47.52%||40,657
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Terrell County, Texas|Terrell]]||'''323'''||'''69.16%'''||139||29.76%||5||1.07%||184||39.40%||467
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Terry County, Texas|Terry]]||'''2,169'''||'''77.11%'''||629||22.36%||15||0.53%||1,540||54.75%||2,813
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Throckmorton County, Texas|Throckmorton]]||'''617'''||'''87.77%'''||77||10.95%||9||1.28%||540||76.81%||703
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Titus County, Texas|Titus]]||'''5,685'''||'''71.02%'''||2,265||28.29%||55||0.69%||3,420||42.72%||8,005
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Tom Green County, Texas|Tom Green]]||'''24,648'''||'''71.18%'''||9,690||27.98%||292||0.84%||14,958||43.19%||34,630
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Travis County, Texas|Travis]]||119,278||24.63%||'''359,772'''||'''74.30%'''||5,154||1.06%||240,494||49.67%||484,204
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Trinity County, Texas|Trinity]]||'''4,146'''||'''80.12%'''||998||19.29%||31||0.60%||3,148||60.83%||5,175
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Tyler County, Texas|Tyler]]||'''5,919'''||'''82.91%'''||1,185||16.60%||35||0.49%||4,734||66.31%||7,139
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Upshur County, Texas|Upshur]]||'''11,529'''||'''82.44%'''||2,364||16.91%||91||0.65%||9,165||65.54%||13,984
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Upton County, Texas|Upton]]||'''854'''||'''82.83%'''||169||16.39%||8||0.78%||685||66.44%||1,031
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Uvalde County, Texas|Uvalde]]||'''4,348'''||'''54.80%'''||3,528||44.46%||59||0.74%||820||10.33%||7,935
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Val Verde County, Texas|Val Verde]]||5,345||46.87%||'''5,955'''||'''52.21%'''||105||0.92%||610||5.35%||11,405
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Van Zandt County, Texas|Van Zandt]]||'''15,182'''||'''84.66%'''||2,634||14.69%||116||0.65%||12,548||69.98%||17,932
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Victoria County, Texas|Victoria]]||'''19,005'''||'''69.85%'''||8,046||29.57%||157||0.58%||10,959||40.28%||27,208
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Walker County, Texas|Walker]]||'''11,535'''||'''64.61%'''||6,186||34.65%||132||0.74%||5,349||29.96%||17,853
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Waller County, Texas|Waller]]||'''10,167'''||'''61.24%'''||6,335||38.16%||101||0.61%||3,832||23.08%||16,603
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Ward County, Texas|Ward]]||'''2,096'''||'''71.78%'''||800||27.40%||24||0.82%||1,296||44.38%||2,920
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Washington County, Texas|Washington]]||'''10,134'''||'''75.11%'''||3,263||24.18%||95||0.70%||6,871||50.93%||13,492
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Webb County, Texas|Webb]]||13,814||27.97%||'''35,159'''||'''71.20%'''||408||0.83%||21,345||43.23%||49,381
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wharton County, Texas|Wharton]]||'''9,094'''||'''70.27%'''||3,793||29.31%||55||0.42%||5,301||40.96%||12,942
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wheeler County, Texas|Wheeler]]||'''1,679'''||'''92.76%'''||125||6.91%||6||0.33%||1,554||85.86%||1,810
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wichita County, Texas|Wichita]]||'''23,648'''||'''69.72%'''||9,971||29.40%||299||0.88%||13,677||40.32%||33,918
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wilbarger County, Texas|Wilbarger]]||'''2,639'''||'''76.74%'''||776||22.56%||24||0.70%||1,863||54.17%||3,439
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Willacy County, Texas|Willacy]]||1,527||35.31%||'''2,773'''||'''64.12%'''||25||0.58%||1,246||28.81%||4,325
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Williamson County, Texas|Williamson]]||99,857||47.96%||'''105,850'''||'''50.84%'''||2,514||1.21%||5,993||2.88%||208,221
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wilson County, Texas|Wilson]]||'''13,025'''||'''73.51%'''||4,567||25.77%||127||0.72%||8,458||47.73%||17,719
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Winkler County, Texas|Winkler]]||'''1,123'''||'''77.18%'''||321||22.06%||11||0.76%||802||55.12%||1,455
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wise County, Texas|Wise]]||'''19,023'''||'''82.29%'''||3,915||16.94%||179||0.77%||15,108||65.35%||23,117
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Wood County, Texas|Wood]]||'''13,987'''||'''83.55%'''||2,635||15.74%||118||0.70%||11,352||67.81%||16,740
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Yoakum County, Texas|Yoakum]]||'''1,558'''||'''81.87%'''||335||17.60%||10||0.53%||1,223||64.27%||1,903
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Young County, Texas|Young]]||'''5,543'''||'''86.54%'''||821||12.82%||41||0.64%||4,722||73.72%||6,405
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Zapata County, Texas|Zapata]]||821||36.93%||'''1,392'''||'''62.62%'''||10||0.45%||571||25.69%||2,223
+|- {{Party shading/Democratic}}
+| style="white-space:nowrap;text-align:center;" |[[Zavala County, Texas|Zavala]]||589||20.19%||'''2,313'''||'''79.29%'''||15||0.51%||1,724||59.10%||2,917
+|-
+!Total
+| style="padding:0" |'''4,260,553'''
+|'''50.89%'''|| style="padding:0" |'''4,045,632'''
+|'''48.33%'''|| style="padding:0" |'''65,470'''
+|'''0.78%'''|| style="padding:0" |'''214,921'''
+|'''2.57%'''|| style="padding:0" |'''8,371,655'''
+|-
+!
+! colspan="2" | Cruz<br />Republican
+! colspan="2" | O'Rourke<br />Democratic
+! colspan="2" | Dikeman<br />Libertarian
+! colspan="2" | Margin
+! Total<br />votes
+|}
+</div>
+
+{{align|right|{{Switcher
+|[[File:Texas counties shift 2012-2018 senate.svg|300px]]|Shift by county
+|[[File:Texas counties trend 2012-2018 senate.svg|300px]]|Trend by county
+{{collapsible list | title = Legend
+|{{legend|#d40000|Republican — >15%}}
+|{{legend|#ff0000|Republican — +12.5−15%}}
+|{{legend|#ff2a2a|Republican — +10−12.5%}}
+|{{legend|#ff5555|Republican — +7.5−10%}}
+|{{legend|#ff8080|Republican — +5−7.5%}}
+|{{legend|#ffaaaa|Republican — +2.5−5%}}
+|{{legend|#ffd5d5|Republican — +0−2.5%}}
+|{{legend|#d5f6ff|Democratic — +0−2.5%}}
+|{{legend|#aaeeff|Democratic — +2.5−5%}}
+|{{legend|#77e3ff|Democratic — +5−7.5%}}
+|{{legend|#4bdbff|Democratic — +7.5-10%}}
+|{{legend|#09ceff|Democratic — +10−12.5%}}
+|{{legend|#00bdec|Democratic — +12.5−15%}}
+|{{legend|#00a1c8|Democratic — >15%}}}}|
+[[File:County flips in the 2018 TX senate election.svg|300px]]|County flips<br>{{collapsible list| title = Legend| {{col-start}}
+{{col-2}}
+'''Democratic'''
+{{legend|#92c5de|Hold}}
+{{legend|#0671b0|Flip}}
+{{col-2}}
+'''Republican'''
+{{legend|#f48882|Hold}}
+{{col-end}}}}}}}}
+
+'''Counties that flipped from Republican to Democratic'''
+* [[Brewster County, Texas|Brewster]] (largest municipality: [[Alpine, Texas|Alpine]])
+* [[Fort Bend County, Texas|Fort Bend]] (largest municipality: [[Sugar Land, Texas|Sugar Land]])
+* [[Harris County, Texas|Harris]] (largest municipality: [[Houston]])
+* [[Hays County, Texas|Hays]] (largest municipality: [[San Marcos, Texas|San Marcos]])
+* [[Nueces County, Texas|Nueces]] (largest municipality: [[Corpus Christi, Texas|Corpus Christi]])
+* [[Tarrant County, Texas|Tarrant]] (largest municipality: [[Fort Worth, Texas|Fort Worth]])
+* [[Williamson County, Texas|Williamson]] (largest municipality: [[Round Rock, Texas|Round Rock]])
+
+====By congressional district====
+Cruz won 20 of 36 congressional districts; O'Rourke won the other 16, including three held by Republicans.<ref>{{Cite web |title=DRA 2020 |url=https://davesredistricting.org/maps |access-date=2025-08-29 |website=Daves Redistricting |language=en}}</ref>
+{| class="wikitable sortable"
+
+! District
+! Cruz
+! O'Rourke
+! Representative
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|1|1st}}
+| '''72%'''
+| 28%
+| {{party shading/Republican}}|[[Louie Gohmert]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|2|2nd}}
+| rowspan=2|'''50%'''
+| rowspan=2|49%
+| {{party shading/Republican}}|[[Ted Poe]]
+|- align=center
+| {{party shading/Republican}}|[[Dan Crenshaw]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|3|3rd}}
+| rowspan=2|'''51%'''
+| rowspan=2|48%
+| {{party shading/Republican}}|[[Sam Johnson]]
+|- align=center
+| {{party shading/Republican}}|[[Van Taylor]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|4|4th}}
+| '''74%'''
+| 25%
+| {{party shading/Republican}}|[[John Ratcliffe (American politician)|John Ratcliffe]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|5|5th}}
+| rowspan=2|'''60%'''
+| rowspan=2|39%
+| {{party shading/Republican}}|[[Jeb Hensarling]]
+|- align=center
+| {{party shading/Republican}}|[[Lance Gooden]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|6|6th}}
+| rowspan=2|'''51%'''
+| rowspan=2|48%
+| {{party shading/Republican}}|[[Joe Barton]]
+|- align=center
+| {{party shading/Republican}}|[[Ron Wright (politician)|Ron Wright]]
+|- align=center
+! rowspan=2 {{party shading/Democratic}}|{{ushr|Texas|7|7th}}
+| rowspan=2| 46%
+| rowspan=2|'''53%'''
+| {{party shading/Republican}}|[[John Culberson]]
+|- align=center
+| {{party shading/Democratic}}|[[Lizzie Fletcher]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|8|8th}}
+| '''71%'''
+| 28%
+| {{party shading/Republican}}|[[Kevin Brady]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|9|9th}}
+| 19%
+| '''81%'''
+| {{party shading/Democratic}}|[[Al Green (politician)|Al Green]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|10|10th}}
+| 49%
+| '''50%'''
+| {{party shading/Republican}}|[[Michael McCaul]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|11|11th}}
+| '''78%'''
+| 22%
+| {{party shading/Republican}}|[[Mike Conaway]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|12|12th}}
+| '''60%'''
+| 39%
+| {{party shading/Republican}}|[[Kay Granger]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|13|13th}}
+| '''79%'''
+| 20%
+| {{party shading/Republican}}|[[Mac Thornberry]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|14|14th}}
+| '''58%'''
+| 41%
+| {{party shading/Republican}}|[[Randy Weber]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|15|15th}}
+| 42%
+| '''57%'''
+| {{party shading/Democratic}}|[[Vicente Gonzalez (American politician)|Vicente Gonzalez]]
+|- align=center
+! rowspan=2 {{party shading/Democratic}}|{{ushr|Texas|16|16th}}
+| rowspan=2| 26%
+| rowspan=2| '''74%'''
+| {{party shading/Democratic}}|[[Beto O'Rourke]]
+|- align=center
+| {{party shading/Democratic}}|[[Veronica Escobar]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|17|17th}}
+| '''54%'''
+| 45%
+| {{party shading/Republican}}|[[Bill Flores]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|18|18th}}
+| 20%
+| '''79%'''
+| {{party shading/Democratic}}|[[Sheila Jackson Lee]]
+|- align=center
+!{{party shading/Republican}}|{{ushr|Texas|19|19th}}
+| '''72%'''
+| 28%
+| {{party shading/Republican}}|[[Jodey Arrington]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|20|20th}}
+| 33%
+| '''66%'''
+| {{party shading/Democratic}}|[[Joaquín Castro]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Texas|21|21st}}
+| rowspan=2| '''50%'''
+| rowspan=2| 49%
+| {{party shading/Republican}}|[[Lamar Smith]]
+|- align=center
+| {{party shading/Republican}}|[[Chip Roy]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|22|22nd}}
+| '''50%'''
+| 49%
+| {{party shading/Republican}}|[[Pete Olson]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|23|23rd}}
+| 47%
+| '''52%'''
+| {{party shading/Republican}}|[[Will Hurd]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|24|24th}}
+| 48%
+| '''51%'''
+| {{party shading/Republican}}|[[Kenny Marchant]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|25|25th}}
+| '''52%'''
+| 47%
+| {{party shading/Republican}}|[[Roger Williams (Texas politician)|Roger Williams]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|26|26th}}
+| '''57%'''
+| 42%
+| {{party shading/Republican}}|[[Michael C. Burgess|Michael Burgess]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|27|27th}}
+| '''60%'''
+| 39%
+| {{party shading/Republican}}|[[Michael Cloud]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|28|28th}}
+| 41%
+| '''59%'''
+| {{party shading/Democratic}}|[[Henry Cuellar]]
+|- align=center
+! rowspan=2 {{party shading/Democratic}}|{{ushr|Texas|29|29th}}
+| rowspan=2| 25%
+| rowspan=2|'''74%'''
+| {{party shading/Democratic}}|[[Gene Green]]
+|- align=center
+| {{party shading/Democratic}}|[[Sylvia Garcia]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|30|30th}}
+| 18%
+| '''82%'''
+| {{party shading/Democratic}}|[[Eddie Bernice Johnson]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|31|31st}}
+| '''51%'''
+| 48%
+| {{party shading/Republican}}|[[John Carter (Texas politician)|John Carter]]
+|- align=center
+! rowspan=2 {{party shading/Democratic}}|{{ushr|Texas|32|32nd}}
+| rowspan=2| 44%
+| rowspan=2|'''55%'''
+| {{party shading/Republican}}|[[Pete Sessions]]
+|- align=center
+| {{party shading/Democratic}}|[[Colin Allred]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|33|33rd}}
+| 22%
+| '''77%'''
+| {{party shading/Democratic}}|[[Marc Veasey]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|34|34th}}
+| 42%
+| '''58%'''
+| {{party shading/Democratic}}|[[Filemon Vela Jr.]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|35|35th}}
+| 27%
+| '''72%'''
+| {{party shading/Democratic}}|[[Lloyd Doggett]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|36|36th}}
+| '''71%'''
+| 28%
+| {{party shading/Republican}}|[[Brian Babin]]
+|- align=center
+|}
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{reflist}}
+
+== External links ==
+*[https://votesmart.org/election/2018/C/TX/2018-congressional Candidates] at [[Vote Smart]]
+*[https://ballotpedia.org/United_States_Senate_election_in_Texas,_2018 Candidates] at [[Ballotpedia]]
+*[https://www.fec.gov/data/elections/senate/TX/2018/ Campaign finance] at [[Federal Election Commission|FEC]]
+*[https://www.opensecrets.org/races/summary?cycle=2018&id=TXS2 Campaign finance] at [[OpenSecrets]]
+
+'''Official campaign websites'''
+*[https://www.tedcruz.org/ Ted Cruz (R) for Senate]
+*[https://www.nealdikeman.com/ Neal Dikeman (L) for Senate]
+*[https://web.archive.org/web/20180421233041/https://www.bob-mcneil-for-senate.vote/ Bob McNeil (Am. Citizen)]
+*[https://betofortexas.com/ Beto O'Rourke (D) for Senate]
+
+{{2018 United States elections}}
+{{Elections in Texas footer}}
+
+[[Category:Ted Cruz]]
+[[Category:Beto O'Rourke]]
+[[Category:2018 Texas elections|United States Senate]]
+[[Category:2018 United States Senate elections|Texas]]
+[[Category:United States Senate elections in Texas|2018]]
+[[Category:2018 in Texas]]
+[[Category:November 2018 in the United States]]
