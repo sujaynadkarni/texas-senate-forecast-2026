@@ -34,6 +34,13 @@ def load_2018():
         return {}
 
 
+def load_live():
+    try:
+        return json.load(open("data/live.json"))
+    except (OSError, ValueError):
+        return None
+
+
 def day_number(d):
     return max(0, (d - EV_START[2026]).days + 1)
 
@@ -50,16 +57,33 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     latest = dates[-1]
     d_latest = datetime.strptime(latest, "%m/%d/%Y").date()
     n = day_number(d_latest)
-    if sum(v[0] for v in daily[latest]["counties"].values()) == 0:
-        n = 0                       # no in-person votes yet: still the mail-only stretch before early voting
     t22 = load_2022()
     c = c.copy()
     c["key"] = c.county.str.upper().str.replace(r"[^A-Z]", "", regex=True)
     cur = daily[latest]["counties"]
     c["in26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[0]).astype(float)
     c["mail26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[1]).astype(float)
-    c["ev26"] = c.in26 + c.mail26
     c["today26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[2]).astype(float)
+    # One set of numbers for the whole site: where the state has not posted today's in-person votes for a
+    # county but the county's own live tracker has, use the county's count (unofficial) for today.
+    c["live"] = False
+    live = load_live()
+    if live:
+        live_day = datetime.strptime(live["date"], "%Y-%m-%d").date()
+        if live_day >= d_latest:
+            if live_day > d_latest:                      # the state has no file for today yet
+                c["today26"] = 0.0
+                n = day_number(live_day)
+            for name, rec in live["counties"].items():
+                m = c.county == name
+                if rec.get("error") or not rec.get("today") or not m.any() or float(c.loc[m, "today26"].iloc[0]) > 0:
+                    continue
+                c.loc[m, "in26"] = c.loc[m, "in26"] + rec["today"]
+                c.loc[m, "today26"] = float(rec["today"])
+                c.loc[m, "live"] = True
+    c["ev26"] = c.in26 + c.mail26
+    if c.in26.sum() == 0:
+        n = 0                       # no in-person votes yet: still the mail-only stretch before early voting
 
     # same point in 2022: day N (cumulative in-person + mail). Before early voting starts (day 0),
     # only mail exists, so compare with mail returned by the end of 2022's first day.
@@ -72,6 +96,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     if n == 0:
         c["reported_today"] = True
         c["ev22"] = c.key.map(b.cum_by_mail).fillna(0)
+        c["mail22"] = c["ev22"]
     else:
         today22 = c.key.map(b.today_in_person).fillna(0)
         c["reported_today"] = (c.today26 > 0) | (today22 == 0)
@@ -79,6 +104,8 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         ev22_prev = c.key.map(prev.cum_ev_total).fillna(0) if prev is not None else c.key.map(b.cum_by_mail).fillna(0)
         c["ev22"] = np.where(c.reported_today, c.key.map(b.cum_ev_total).fillna(0), ev22_prev)
         c["today22"] = today22
+        mail_prev = c.key.map(prev.cum_by_mail).fillna(0) if prev is not None else c.key.map(b.cum_by_mail).fillna(0)
+        c["mail22"] = np.where(c.reported_today, c.key.map(b.cum_by_mail).fillna(0), mail_prev)
     # 2018, same point (30 largest counties only)
     t18 = load_2018()
     c["ev18"], c["reg18_ev"] = np.nan, np.nan
@@ -172,8 +199,9 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     counties = {}
     for _, r in c.iterrows():
         counties[r.county] = dict(ev=int(r.ev26), mail=int(r.mail26), in_person=int(r.in26), ev22=int(round(r.at_2022_pace)),
-                                  ev22_raw=int(r.ev22), today=int(r.today26), reported_today=bool(r.reported_today),
+                                  ev22_raw=int(r.ev22), today=int(r.today26), reported_today=bool(r.reported_today), live=bool(r.live),
                                   today22=int(r.today22) if "today22" in c and not pd.isna(r.today22) else None,
+                                  mail22=int(r.mail22),
                                   ev18=None if pd.isna(r.at_2018_pace) else int(round(r.at_2018_pace)),
                                   ev18_raw=None if pd.isna(r.ev18) else int(r.ev18),
                                   pace18=None if pd.isna(r.pace18) or r.missing else round(float(r.pace18), 3),
@@ -190,7 +218,8 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         ev_2022_final=int(c.ev22_final.sum()), ev_2018_final=int(c.ev18_final.sum()),
         missing=[x for x in c.sort_values("exp_votes", ascending=False).county[c.missing]][:12],
         regions=region_rows(), series22=series22, series26=series26, series_top=series_top, counties=counties,
-        today=today, pace18_top=pace18_top, n_top=int(in30.sum()),
+        today=today, pace18_top=pace18_top, n_top=int(in30.sum()), live_counties=[x for x in c.county[c.live]],
+        state_in_person=int((c.in26 - np.where(c.live, c.today26, 0)).sum()),     # official state numbers only
     )
     out["story"] = story(out, c, names)
     return out

@@ -50,6 +50,14 @@ RACES = {
 }
 
 
+# Counties that matter to both parties, by the role they play (Rural Texas = the 173 rural counties combined).
+KEY_COUNTIES = {
+    "dem": ["Harris", "Dallas", "Bexar", "Travis", "El Paso"],
+    "battle": ["Tarrant", "Collin", "Denton", "Williamson", "Fort Bend", "Hidalgo"],
+    "rep": ["Montgomery", "Parker", "Comal", "Smith", "Johnson", "Lubbock", "Rural Texas"],
+}
+
+
 def margin_label(race, m, long=False):
     """+ = Democrat. 'Talarico +2.5' (long) or 'T+2.5'."""
     c = RACES[race]

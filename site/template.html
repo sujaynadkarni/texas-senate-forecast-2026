@@ -22,6 +22,7 @@
   --pace-0: #f1efe9; --pace-1: #cfe3dc; --pace-2: #8cc0ae; --pace-3: #3f8f78;
   --slow-2: #d9a066; --slow-1: #efd2b0; --even: #ecebe6;
   --nodata: #ececec;
+  --battle: #7b4fa3;
   --ok: #2f7d4f; --warn: #b7791f; --bad: #b4332a;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
@@ -171,13 +172,16 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .county-map { width: 100%; max-width: 100%; height: auto; display: block; }
 .county-map path { stroke: #ffffff; stroke-width: .6; cursor: pointer; fill: var(--nodata); }
 .county-map path:hover, .county-map path.sel { stroke: var(--ink); stroke-width: 1.6; }
-.live-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-@media (max-width: 860px) { .live-grid { grid-template-columns: minmax(0, 1fr); } }
-.live-grid .card h3 { font-family: var(--sans); font-size: 17px; margin: 0; }
-.live-grid .big { font: 800 30px var(--sans); font-variant-numeric: tabular-nums; margin: 4px 0 2px; }
-.live-grid .cmp { display: grid; grid-template-columns: 1fr auto auto; gap: 4px 12px; font-size: 14px; margin-top: 10px; font-variant-numeric: tabular-nums; }
-.live-grid .cmp span:nth-child(3n+1) { color: var(--ink-2); }
-.live-grid .up { color: var(--ok); font-weight: 700; } .live-grid .down { color: var(--warn); font-weight: 700; }
+.ev-total { font: 600 18px var(--sans); color: var(--ink-2); margin: 0; border-top: 1px solid var(--ink); padding-top: 14px; }
+.ev-total strong { font-size: 26px; font-weight: 800; color: var(--ink); font-variant-numeric: tabular-nums; margin-left: 6px; }
+.seg { display: inline-flex; border: 1px solid var(--ink); border-radius: 4px; overflow: hidden; margin: 4px 0 12px; font-family: var(--sans); }
+.seg button { font: 600 13px var(--sans); background: var(--paper); color: var(--ink); border: 0; padding: 7px 12px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--ink); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.gdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.gdot.dem { background: var(--dem); } .gdot.battle { background: var(--battle); } .gdot.rep { background: var(--rep); }
+#live-table td.name { border-left: 4px solid transparent; padding-left: 10px; }
+#live-table tr.dem td.name { border-left-color: var(--dem); } #live-table tr.battle td.name { border-left-color: var(--battle); } #live-table tr.rep td.name { border-left-color: var(--rep); }
 .caveats { font-size: 16px; display: grid; gap: 6px; padding-left: 20px; margin: 0; }
 .nr { color: var(--ink-3); font-style: italic; }
 .tip { position: fixed; z-index: 10; pointer-events: none; background: var(--paper); border: 1px solid var(--ink); box-shadow: 0 2px 8px rgba(0,0,0,.12); padding: 8px 10px; font: 13px/1.4 var(--sans); color: var(--ink); max-width: 240px; }
@@ -240,6 +244,9 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <button role="tab" type="button" data-layer="results" aria-selected="false">Results</button>
       <button role="tab" type="button" data-layer="y2024" aria-selected="false">__HB_LABEL__ result</button>
     </div>
+    <div id="race-ev-mode" hidden><div class="seg ev-mode" role="radiogroup" aria-label="Which early votes">
+        <button type="button" data-m="today" aria-pressed="true">Today, in person</button><button type="button" data-m="mail" aria-pressed="false">Mail</button><button type="button" data-m="overall" aria-pressed="false">Overall</button>
+      </div></div>
     <div class="map-wrap">
       <div style="min-width:0">
         <svg id="map" role="img" aria-label="Map of Texas counties"></svg>
@@ -310,25 +317,23 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
   </div>
 
   <div id="view-early" hidden>
-    <section class="col" style="padding-top:22px">
-      <p class="kicker" id="ev-kicker"></p>
-      <h2 style="font-family:var(--serif);font-size:clamp(26px,5vw,34px);font-weight:700;line-height:1.15;margin-bottom:10px" id="ev-head">Early voting</h2>
-      <p class="section-dek">Every day the state reports how many people voted in each county. We compare that with the same day of early voting in 2022, the last midterm, and estimate whom the mix of voters favors.</p>
-      <div class="explain"><h2>The story so far</h2><ul id="ev-story"></ul></div>
-    </section>
-
-    <section class="col-wide" id="live-sec">
+    <section class="col-wide" id="live-sec" style="padding-top:22px">
       <div class="rule-top"><h2>Live today</h2>
-        <p class="section-dek" id="live-dek">Unofficial counts straight from county websites, updated every hour. They arrive hours before the state's official totals.</p></div>
-      <div class="live-grid" id="live"></div>
-      <p class="note">Same-hours comparisons use only completed hours, so a partly counted hour does not make 2026 look low. Unofficial; the state's numbers replace these once they are posted.</p>
+        <p class="section-dek" id="live-dek">Unofficial in-person counts straight from county websites, checked every hour, hours before the state's official totals. A county appears once it has posted today.</p></div>
+      <div class="tabs live-tabs" role="tablist" id="live-tabs">
+        <button role="tab" type="button" data-g="all" aria-selected="true">All key counties</button>
+        <button role="tab" type="button" data-g="dem" aria-selected="false"><i class="gdot dem"></i>Democratic</button>
+        <button role="tab" type="button" data-g="battle" aria-selected="false"><i class="gdot battle"></i>Battleground</button>
+        <button role="tab" type="button" data-g="rep" aria-selected="false"><i class="gdot rep"></i>Republican</button>
+      </div>
+      <div class="tbl-scroll"><table id="live-table"></table></div>
+      <p class="note" id="live-note"></p>
+    </section>
+    <section class="col-wide">
+      <p class="ev-total" id="ev-total"></p>
     </section>
 
-    <section class="col-wide">
-      <div class="stats" id="ev-stats"></div>
-    </section>
-
-    <section class="col-wide">
+    <section hidden id="ev-chart-sec" class="col-wide">
       <div class="rule-top"><h2>Turnout, day by day</h2>
         <p class="section-dek">Share of registered voters in the 30 largest counties who have voted early (in person and by mail), by day of early voting: 2026 against the 2018 and 2022 midterms. These counties cast about 80% of the vote; the state only published daily numbers for them in 2018.</p></div>
       <svg class="chart" id="ev-chart" viewBox="0 0 720 260" role="img" aria-label="Early vote turnout by day in the 30 largest counties: 2026, 2022 and 2018"></svg>
@@ -336,25 +341,23 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
     <section class="col-wide">
       <div class="rule-top"><h2>Where the ballots are coming from</h2>
-        <p class="section-dek" id="ev-map-dek">Each county's early vote compared with its 2022 pace on the same day. Tap a county for its numbers.</p></div>
+        <p class="section-dek" id="ev-map-dek">Each county compared with the same day of early voting in 2022, in raw votes. Pick which votes to compare. Tap a county for its numbers.</p></div>
+      <div class="seg ev-mode" role="radiogroup" aria-label="Which early votes">
+        <button type="button" data-m="today" aria-pressed="true">Today, in person</button><button type="button" data-m="mail" aria-pressed="false">Mail</button><button type="button" data-m="overall" aria-pressed="false">Overall</button>
+      </div>
       <div class="map-wrap">
         <div style="min-width:0"><svg id="ev-map" class="county-map" role="img" aria-label="Map of early vote pace by county"></svg>
-          <div class="legend-title">Early vote vs. same day in 2022</div><div class="legend" id="ev-legend"></div></div>
+          <div class="legend-title" id="ev-legend-title"></div><div class="legend" id="ev-legend"></div></div>
         <aside class="card" id="ev-card"></aside>
       </div>
     </section>
 
-    <section class="col-wide">
+    <section id="ev-region-sec" class="col-wide">
       <div class="rule-top"><h2>By region</h2>
         <p class="section-dek">"Lean of ballots" assumes each county's voters split the way the county is expected to vote, with mail ballots leaning further Democratic. It is an estimate, not a count.</p></div>
       <div class="tbl-scroll"><table id="ev-regions"></table></div>
     </section>
 
-    <section class="col-wide">
-      <div class="rule-top"><h2>The 40 largest counties</h2>
-        <p class="section-dek">Sorted by expected votes. "Net votes" is the estimated __D__-minus-__R__ total among ballots already cast in that county.</p></div>
-      <div class="tbl-scroll"><table id="ev-table"></table></div>
-    </section>
 
     <section class="col">
       <div class="rule-top"><h2>How to read this</h2></div>
@@ -372,6 +375,7 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
 
   <footer class="col-wide">
     <div class="share" id="share-bottom"></div>
+    <p style="font-weight:700;font-size:15px;margin-top:16px"><a href="methodology.html">Sources and methodology →</a></p>
     <h3>How this works</h3>
     <ul>
       <li>We run 50,000 simulated elections across all 254 counties. Each starts from the polling average, adds a statewide polling error (about 4.5 points on the margin, with fat tails), regional swings and county noise.</li>
@@ -625,13 +629,13 @@ const marginColor = (m) => m >= 20 ? css("--dem-1") : m >= 8 ? css("--dem-2") : 
 const paceColor = (x) => x == null ? css("--nodata") : x < .8 ? css("--pace-0") : x < 1 ? css("--pace-1") : x < 1.25 ? css("--pace-2") : css("--pace-3");
 const LEGENDS = {
   forecast: ["Chance of carrying the county", [["--dem-1", "__D__ 95%+"], ["--dem-2", "75–95%"], ["--dem-3", "55–75%"], ["--toss", "Toss-up"], ["--rep-3", "55–75%"], ["--rep-2", "75–95%"], ["--rep-1", "__R__ 95%+"]]],
-  pace: ["Share of early votes vs. share of expected final vote", [["--pace-0", "Under 0.8×"], ["--pace-1", "0.8–1×"], ["--pace-2", "1–1.25×"], ["--pace-3", "Over 1.25×"], ["--nodata", "No votes yet"]]],
+  pace: ["Early vote vs. same day in 2022", [["--slow-2", "20%+ behind"], ["--slow-1", "5–20% behind"], ["--even", "Within 5%"], ["--pace-2", "5–20% ahead"], ["--pace-3", "20%+ ahead"], ["--nodata", "Not reported yet"]]],
   results: ["Margin in counted votes", [["--dem-1", "__DI__+20"], ["--dem-2", "__DI__+8–20"], ["--dem-3", "__DI__+0–8"], ["--rep-3", "__RI__+0–8"], ["--rep-2", "__RI__+8–20"], ["--rep-1", "__RI__+20"], ["--nodata", "Not reporting"]]],
   y2024: [`${H[1].label}: ${H[1].who}`, [["--dem-1", "D+20"], ["--dem-2", "D+8–20"], ["--dem-3", "D+0–8"], ["--rep-3", "R+0–8"], ["--rep-2", "R+8–20"], ["--rep-1", "R+20"]]],
 };
 function fillFor(c) {
   if (layer === "forecast") return probColor(c.p);
-  if (layer === "pace") return paceColor(c.ev ? c.ev_index : null);
+  if (layer === "pace") return evColor(c);          // same county-vs-2022 pace as the Early voting page
   if (layer === "results") { const o = countedOf(c); if (!hasCount(o)) return css("--nodata"); return marginColor((o.d - o.r) / (o.d + o.r) * 100); }
   return marginColor(c.hb);
 }
@@ -661,16 +665,18 @@ function setLayer(name, enableResults) {
   const rb = tabs.find((b) => b.dataset.layer === "results");
   if (enableResults) { rb.disabled = false; rb.title = ""; }
   else if (!simObs && !DATA.counties.some((c) => hasCount(c.counted))) { rb.disabled = true; rb.title = "Results appear after polls close on Nov. 3"; }
-  layer = name; tabs.forEach((x) => x.setAttribute("aria-selected", x.dataset.layer === name)); paint();
+  layer = name; tabs.forEach((x) => x.setAttribute("aria-selected", x.dataset.layer === name));
+  if ($("#race-ev-mode")) $("#race-ev-mode").hidden = name !== "pace";
+  paint();
 }
 function paint() {
   document.querySelectorAll("#map path").forEach((p) => { p.style.fill = fillFor(byName[p.dataset.name]); });
-  const [title, items] = LEGENDS[layer];
+  const [title, items] = layer === "pace" ? [EV_MODE_TITLE[evMode], EV_LEG] : LEGENDS[layer];
   $("#legend-title").textContent = title;
   $("#legend").innerHTML = items.map(([v, l]) => `<span class="sw"><i style="background:${css(v)}"></i>${l}</span>`).join("");
   $("#map-dek").textContent = {
     forecast: "Shaded by each candidate's chance of carrying the county. Tap a county for details.",
-    pace: "How much of the early vote each county is casting compared with its share of the expected final vote. Darker green means more early votes than expected.",
+    pace: "The same numbers as the Early voting page: each county against the same day of early voting in 2022, in raw votes. Gray counties have not posted yet.",
     results: simObs ? "Simulated counted votes. Gray counties have not reported yet in this simulated night." : "Counted votes so far. Gray counties have not reported.",
     y2024: `How each county voted in the ${H[1].label} race (${H[1].who}). ${C.context}`,
   }[layer];
@@ -716,13 +722,16 @@ function mapTip(c) {
   const rows = [["Forecast", fmtM(c.fc)], ["Expected to carry", carry(c.p)], [H[1].label, fmtM(c.hb)], ["Expected votes", fmtK(c.exp_votes)]];
   const o = countedOf(c);
   if (hasCount(o)) rows.unshift(["Counted so far", `${fmtM((o.d - o.r) / (o.d + o.r) * 100)} (${pct(o.frac)} in)`]);
-  if (layer === "pace" && c.ev != null) rows.push(["Early ballots", fmtInt(c.ev)]);
+  if (layer === "pace" && EV && EV.counties[c.name]) {
+    const e = EV.counties[c.name];
+    rows.push(["Voted in person today", e.today ? fmtInt(e.today) : "not posted yet"], ["Mail ballots", fmtInt(e.mail)], [{ today: "Today", mail: "Mail", overall: "Overall" }[evMode] + " vs. 2022", ratioTxt(evRatio(c))]);
+  }
   return `<b>${c.name}</b>${tipRows(rows)}`;
 }
 function evTip(c) {
   const e = EV.counties[c.name];
-  const rows = e.missing ? [["Status", "Not reported yet"]] : [["Ballots so far", fmtInt(e.ev)], ["Today", EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : "not posted yet"],
-    ["2022, same day", fmtInt(e.ev22_raw)], ["Vs. 2022", e.pace != null ? pctTxt(e.pace) : "–"]].concat(e.pace18 != null ? [["Vs. 2018", pctTxt(e.pace18)]] : []);
+  const rows = [["Voted in person today", e.today ? fmtInt(e.today) : "not posted yet"], ["Today vs. 2022", ratioTxt(evRatio(c, "today"))],
+    ["Mail ballots", fmtInt(e.mail)], ["Mail vs. 2022", ratioTxt(evRatio(c, "mail"))], ["Overall vs. 2022", ratioTxt(evRatio(c, "overall"))]];
   rows.push([H[1].label, fmtM(c.hb)]);
   return `<b>${c.name}</b>${tipRows(rows)}`;
 }
@@ -865,30 +874,40 @@ function splitTicket() {
 
 /* ---------- early voting view ---------- */
 const EV = DATA.early;
-const evColor = (c) => { const e = EV && EV.counties[c.name]; if (!e || e.missing || e.pace == null) return css("--nodata");
-  const p = e.pace; return p < 0.8 ? css("--slow-2") : p < 0.95 ? css("--slow-1") : p <= 1.05 ? css("--even") : p <= 1.2 ? css("--pace-2") : css("--pace-3"); };
+// One definition everywhere (Live today, both maps, tooltips): raw counts against the same day of 2022.
+//   today   = today's in-person votes so far / 2022's in-person votes on the same day
+//   mail    = mail ballots returned so far / 2022's mail ballots at the same point
+//   overall = all early votes so far (in person + mail) / 2022's at the same point
+let evMode = "today";
+const EV_MODE_TITLE = {
+  today: `Today's in-person votes so far, as a share of the same day in 2022`,
+  mail: "Mail ballots returned so far, as a share of 2022 at the same point",
+  overall: "All early votes so far (in person + mail), as a share of 2022 at the same point",
+};
+const EV_LEG = [["--slow-2", "Under 80%"], ["--slow-1", "80–95%"], ["--even", "95–105%"], ["--pace-2", "105–120%"], ["--pace-3", "Over 120%"], ["--nodata", "Not posted yet"]];
+function evRatio(c, mode = evMode) {
+  const e = EV && EV.counties[c.name]; if (!e) return null;
+  if (mode === "today") return e.today > 0 && e.today22 ? e.today / e.today22 : null;
+  if (mode === "mail") return e.mail > 0 && e.mail22 ? e.mail / e.mail22 : null;
+  return e.ev > 0 && e.ev22_raw ? e.ev / e.ev22_raw : null;
+}
+const evColor = (c) => { const p = evRatio(c); if (p == null) return css("--nodata");
+  return p < 0.8 ? css("--slow-2") : p < 0.95 ? css("--slow-1") : p <= 1.05 ? css("--even") : p <= 1.2 ? css("--pace-2") : css("--pace-3"); };
+const ratioTxt = (x) => x == null ? "–" : Math.round(x * 100) + "% of 2022";
+function setEvMode(m) {
+  evMode = m;
+  document.querySelectorAll(".ev-mode button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.m === m));
+  document.querySelectorAll("#ev-map path").forEach((p) => { p.style.fill = evColor(byName[p.dataset.name]); });
+  if ($("#ev-legend-title")) $("#ev-legend-title").textContent = EV_MODE_TITLE[m];
+  if ($("#ev-legend")) $("#ev-legend").innerHTML = EV_LEG.map(([v, l]) => `<span class="sw"><i style="background:${css(v)}"></i>${l}</span>`).join("");
+  if (layer === "pace") paint();
+}
+document.querySelectorAll(".ev-mode button").forEach((b) => b.addEventListener("click", () => setEvMode(b.dataset.m)));
 const pctTxt = (x) => (x >= 1 ? "+" : "") + Math.round((x - 1) * 100) + "%";
 function earlyView() {
   if (PAGE !== "early") return;
-  if (!EV) { $("#ev-story").innerHTML = "<li>Early voting numbers are not available yet.</li>"; return; }
-  const asOf = new Date(EV.as_of).toLocaleDateString("en-US", { month: "long", day: "numeric" });
-  $("#ev-kicker").textContent = EV.day === 0 ? `As of ${asOf} · Before in-person voting` : `As of ${asOf} · Day ${EV.day} of 12`;
-  $("#ev-head").textContent = EV.day === 0 ? `${fmtInt(EV.total)} mail ballots are in` : `${fmtInt(EV.total)} Texans have voted early`;
-  $("#ev-story").innerHTML = EV.story.map((x) => `<li>${x}</li>`).join("");
-  const OT = (Object.values(DATA.others || {})[0] || {}), OE = OT.early, OC = OT.cand;
-  const oLbl = (m) => !OC ? "" : Math.abs(m) < 0.05 ? "Even" : `${m > 0 ? OC.d : OC.r} +${Math.abs(m).toFixed(1)}`;
-  const lean = EV.day >= 1 ? `${fmtM(EV.est_margin, true)}${OE ? `<div class="sub" style="font-size:14px;font-weight:700;color:var(--ink)">${oLbl(OE.est_margin)}</div>` : ""}` : "From day 1";
-  if (EV.day >= 1 && OE) EV.story.splice(EV.story.length - 1, 0, `<strong>For governor,</strong> the same ballots work out to about <strong>${oLbl(OE.est_margin)}</strong>, using each county's expected governor vote.`);
-  const T = EV.today;
-  const stats = [
-    ["Ballots cast", fmtInt(EV.total), `${fmtInt(EV.in_person)} in person · ${fmtInt(EV.mail)} mail`],
-    ["Voted in person today", T ? fmtInt(T.in_person) : "–", T ? `${T.counties} of 254 counties reported${T.vs22 ? ` · ${pctTxt(T.vs22)} vs. 2022` : ""}` : "in-person voting starts Oct. 19"],
-    ["Vs. same day in 2022", EV.day >= 1 ? pctTxt(EV.pace) : "–", EV.day >= 1 ? `${fmtInt(EV.total)} vs. ${fmtInt(EV.at_2022_pace)} · after registration growth` : "compared from day 1"],
-    ["Vs. same day in 2018", EV.day >= 1 && EV.pace18_top ? pctTxt(EV.pace18_top) : "–", "30 largest counties"],
-    ["Estimated lean of ballots", lean, "Senate / governor · an estimate, not a count"],
-    ["Turnout on this pace", EV.projected_turnout ? (EV.projected_turnout / 1e6).toFixed(1) + "M" : "–", `2022: ${(EV.final_2022_votes / 1e6).toFixed(1)}M · 2018: ${(EV.final_2018_votes / 1e6).toFixed(1)}M`],
-  ];
-  $("#ev-stats").innerHTML = stats.map(([l, v, s2]) => `<div><div class="lab">${l}</div><div class="val">${v}</div><div class="sub">${s2}</div></div>`).join("");
+  if (!EV) { $("#ev-total").textContent = "Early voting numbers are not available yet."; return; }
+  $("#ev-total").innerHTML = `Ballots cast so far:<strong>${fmtInt(EV.total)}</strong>`;
 
   // day-by-day chart: same 30 counties in every year, so the lines are comparable
   const ST = EV.series_top, s = $("#ev-chart"), W = 720, CH = 260, m = { l: 44, r: 70, t: 14, b: 30 };
@@ -920,29 +939,16 @@ function earlyView() {
     p.addEventListener("click", () => evPick(c.name)); map.append(p);
     hoverTip(p, () => evTip(c));
   }
-  const leg = [["--slow-2", "20%+ behind"], ["--slow-1", "5–20% behind"], ["--even", "Within 5%"], ["--pace-2", "5–20% ahead"], ["--pace-3", "20%+ ahead"], ["--nodata", "Not reported"]];
-  $("#ev-legend").innerHTML = leg.map(([v, l]) => `<span class="sw"><i style="background:${css(v)}"></i>${l}</span>`).join("");
-  if (EV.day === 0) $("#ev-map-dek").textContent = "Before in-person voting, only mail ballots exist, so this compares mail returns with 2022's first day. Tap a county for its numbers.";
+  setEvMode(evMode);
   evPick("Harris");
 
-  // regions
+  // regions: only meaningful once in-person votes are in (mail ballots alone are a small, older slice)
+  $("#ev-region-sec").hidden = !(EV.state_in_person > EV.mail);       // wait for the state's own in-person numbers
   let r = `<thead><tr><th>Region</th><th>Ballots</th><th>At 2022 pace</th><th>Vs. 2022</th><th>Share of early vote</th><th>Lean of ballots</th></tr></thead><tbody>`;
   for (const g of EV.regions) r += `<tr><td class="name">${g.name}</td><td>${fmtInt(g.ev)}</td><td>${fmtInt(g.at_2022_pace)}</td><td><strong>${g.pace != null ? pctTxt(g.pace) : "–"}</strong></td><td>${pct(g.share_of_ev)}</td><td>${EV.day >= 1 && g.est_margin != null ? fmtM(g.est_margin) : "–"}</td></tr>`;
   $("#ev-regions").innerHTML = r + "</tbody>";
 
-  // county table
-  const rows = [...DATA.counties].sort((a, b) => b.exp_votes - a.exp_votes).slice(0, 40);
-  let h = `<thead><tr><th>County</th><th>Ballots</th><th>Today</th><th>2022 same day</th><th>Vs. 2022</th><th>2018 same day</th><th>Vs. 2018</th><th>${H[1].label}</th><th>Senate net (est.)</th><th>Governor net (est.)</th></tr></thead><tbody>`;
-  for (const c of rows) {
-    const e = EV.counties[c.name];
-    const vs = e.missing ? `<span class="nr">Not reported</span>` : e.pace != null ? `<strong>${pctTxt(e.pace)}</strong>` : "–";
-    const net = e.missing || EV.day < 1 ? "–" : `<span class="${e.est_net >= 0 ? "t" : "p"}">${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtK(Math.abs(e.est_net))}</span>`;
-    const on = OE && OE.counties[c.name], net2 = e.missing || EV.day < 1 || on == null ? "–" : `<span class="${on >= 0 ? "t" : "p"}">${on >= 0 ? OC.d : OC.r} +${fmtK(Math.abs(on))}</span>`;
-    const vs18 = e.missing ? "–" : e.pace18 != null ? `<strong>${pctTxt(e.pace18)}</strong>` : `<span class="nr">n/a</span>`;
-    const today = EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : `<span class="nr">not yet</span>`;
-    h += `<tr><td class="name">${c.name}<span class="sub">${c.region} · ${fmtInt(e.mail)} by mail</span></td><td>${fmtInt(e.ev)}</td><td>${today}</td><td>${fmtInt(e.ev22_raw)}</td><td>${vs}</td><td>${e.ev18_raw != null ? fmtInt(e.ev18_raw) : "–"}</td><td>${vs18}</td><td>${fmtM(c.hb)}</td><td>${net}</td><td>${net2}</td></tr>`;
-  }
-  $("#ev-table").innerHTML = h + "</tbody>";
+
 }
 function evPick(name) {
   const c = byName[name], e = EV.counties[name];
@@ -950,8 +956,7 @@ function evPick(name) {
   const sp = document.querySelector(`#ev-map path[data-name="${CSS.escape(name)}"]`); if (sp) sp.parentNode.append(sp);
   const rows = [["Ballots so far", fmtInt(e.ev)], ["In person", fmtInt(e.in_person)], ["By mail", fmtInt(e.mail)], ["% of registered", e.pct.toFixed(1) + "%"],
     ["Voted in person today", EV.day < 1 ? "–" : e.reported_today && e.today ? fmtInt(e.today) : "Not posted yet"],
-    ["2022, same day", `${fmtInt(e.ev22_raw)} (${e.pct22.toFixed(1)}%)`], ["Vs. 2022", e.missing ? "Not reported" : e.pace != null ? pctTxt(e.pace) : "–"],
-    ["2018, same day", e.ev18_raw != null ? fmtInt(e.ev18_raw) : "n/a (not a top-30 county)"], ["Vs. 2018", e.pace18 != null ? pctTxt(e.pace18) : "–"],
+    ["Today vs. 2022", ratioTxt(evRatio(c, "today"))], ["Mail vs. 2022", ratioTxt(evRatio(c, "mail"))], ["Overall vs. 2022", ratioTxt(evRatio(c, "overall"))],
     [H[1].label + " result", fmtM(c.hb)], ["Forecast", fmtM(c.fc)]];
   if (EV.day >= 1 && !e.missing) rows.push(["Net votes so far (est.)", `${e.est_net >= 0 ? "__D__" : "__R__"} +${fmtInt(Math.abs(e.est_net))}`]);
   $("#ev-card").innerHTML = `<label for="ev-pick" class="sans" style="font-size:12px;color:var(--ink-3);font-weight:600;text-transform:uppercase;letter-spacing:.05em">Find a county</label>
@@ -962,33 +967,27 @@ function evPick(name) {
 
 /* ---------- live county turnout (unofficial) ---------- */
 function liveView() {
-  const L = DATA.live_turnout, box = $("#live");
   if (PAGE !== "early") return;
-  if (!L || !L.counties || L.day < 1 || L.day > 12) { $("#live-sec").hidden = true; return; }
-  const lean = (n) => { const c = byName[n]; return c ? `${H[1].label}: ${fmtM(c.hb)}` : ""; };
-  const chg = (a, b) => { const r = a / b - 1; return `<span class="${r >= 0 ? "up" : "down"}">${r >= 0 ? "+" : ""}${Math.round(r * 100)}%</span>`; };
-  for (const [name, r] of Object.entries(L.counties)) {
-    const d = el("div", { class: "card" });
-    if (r.error) { d.innerHTML = `<h3>${name}</h3><p class="note">The county's live page could not be read this hour. Its numbers will appear once the state posts them.</p>`; box.append(d); continue; }
-    const rows = [];
-    if (r.completed_hours) {
-      for (const yr of ["2024", "2022"]) {
-        const c = r.compare[yr];
-        if (c && c.same_hours) rows.push([`${yr}, same hours`, fmtInt(c.same_hours), chg(r.today_completed, c.same_hours)]);
-      }
+  const L = DATA.live_turnout;
+  if (!L) { $("#live-sec").hidden = true; return; }
+  const GNAME = { dem: "Democratic", battle: "Battleground", rep: "Republican" };
+  const share = (today, full) => full ? `<strong>${Math.round(today / full * 100)}%</strong><span class="sub">of ${fmtInt(full)}</span>` : `<span class="nr">–</span>`;
+  const draw = (g) => {
+    const rows = L.rows.filter((r) => g === "all" || r.group === g);
+    let h = `<thead><tr><th>County</th><th>Voted today</th><th>As of</th><th>% of 2024 day ${L.day}</th><th>% of 2022 day ${L.day}</th><th>% of 2018 day ${L.day}</th></tr></thead><tbody>`;
+    for (const r of rows) {
+      h += `<tr class="${r.group}"><td class="name">${r.name}<span class="sub">${GNAME[r.group]} · <a href="${r.url}" target="_blank" rel="noopener">source</a></span></td>
+        <td><strong>${fmtInt(r.today)}</strong></td><td>${(r.refreshed || "").replace(/^\w+ \w+ \d+ /, "")}</td>
+        <td>${share(r.today, r.full_day["2024"])}</td><td>${share(r.today, r.full_day["2022"])}</td><td>${share(r.today, r.full_day["2018"])}</td></tr>`;
     }
-    if (r.state_2022_full_day) rows.push(["2022, whole day", fmtInt(r.state_2022_full_day), ""]);
-    if (r.state_2018_full_day) rows.push(["2018, whole day", fmtInt(r.state_2018_full_day), ""]);
-    const sub = r.hourly ? `as of ${r.refreshed || "this hour"} · ${r.completed_hours ? `comparisons 7 a.m. to ${r.through}` : "first hour in progress"}`
-      : (r.today ? `as of ${r.refreshed || "this hour"} · from ${r.sites} polling places` : `the county has not posted today's numbers yet (last update: ${r.date || r.refreshed || "–"})`);
-    d.innerHTML = `<h3>${name} County</h3><div class="reg" style="font:600 12px var(--sans);color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em">${lean(name)}</div>
-      <div class="big">${fmtInt(r.today || 0)}</div><div class="note" style="margin:0">voted in person today · ${sub}</div>
-      ${rows.length ? `<div class="cmp">${rows.map((x) => `<span>${x[0]}</span><span>${x[1]}</span><span>${x[2]}</span>`).join("")}</div>` : ""}
-      <p class="note" style="margin-top:8px"><a href="${r.url}" target="_blank" rel="noopener">County source</a></p>`;
-    box.append(d);
-  }
-  const fetched = new Date(L.fetched);
-  $("#live-dek").textContent = `Unofficial counts straight from county websites, checked every hour (last check ${fmtDate(L.fetched)}). They arrive hours before the state's official totals.`;
+    if (!rows.length) h += `<tr><td colspan="6" style="text-align:left;white-space:normal;color:var(--ink-3)">No ${GNAME[g] ? GNAME[g].toLowerCase() : "key"} county has posted today's numbers yet. Counties appear here as soon as they do.</td></tr>`;
+    $("#live-table").innerHTML = h + "</tbody>";
+    const waiting = (g === "all" ? Object.values(L.groups).flat() : L.groups[g]).filter((n) => !L.rows.some((r) => r.name === n));
+    $("#live-note").textContent = `"% of day ${L.day}" is today's in-person votes so far as a share of that county's whole day ${L.day} of early voting in that year. Not posted yet: ${waiting.join(", ")}. Last checked ${fmtDate(L.fetched)}.`;
+  };
+  const tabs = [...document.querySelectorAll("#live-tabs button")];
+  tabs.forEach((b) => b.addEventListener("click", () => { tabs.forEach((x) => x.setAttribute("aria-selected", x === b)); draw(b.dataset.g); }));
+  draw("all");
 }
 
 /* ---------- page tabs (#forecast / #early) ---------- */

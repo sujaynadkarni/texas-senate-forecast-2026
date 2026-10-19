@@ -134,27 +134,28 @@ def nowcast(c, res, results):
 
 
 def live_data():
-    """County same-day turnout (unofficial), plus each county's full same day in 2022 from the state data."""
+    """County same-day turnout (unofficial) for the key counties, each compared with its whole same day of
+    early voting in 2024, 2022 and 2018. Only counties with numbers today are included."""
+    from races import KEY_COUNTIES
+    from early_vote import load_2022, load_2018
     live = load_json("data/live.json")
     if not live or not live.get("counties"):
         return None
-    try:
-        from early_vote import load_2022
-        t22 = load_2022()
-        d = t22[t22.day == max(1, live.get("day", 1))].set_index("key")
-        for name, rec in live["counties"].items():
-            k = name.upper().replace(" ", "")
-            if k in d.index:
-                rec["state_2022_full_day"] = int(d.loc[k].today_in_person)
-        from early_vote import load_2018
-        d18 = load_2018().get(max(1, live.get("day", 1)), {})
-        for name, rec in live["counties"].items():
-            k = name.upper().replace(" ", "")
-            if k in d18:
-                rec["state_2018_full_day"] = int(d18[k]["today_in"])
-    except Exception:
-        pass
-    return live
+    day = max(1, live.get("day", 1))
+    t22 = load_2022(); d22 = t22[t22.day == day].set_index("key")
+    d18 = load_2018().get(day, {})
+    group_of = {n: g for g, names in KEY_COUNTIES.items() for n in names}
+    rows = []
+    for name, rec in live["counties"].items():
+        if rec.get("error") or not rec.get("today") or name not in group_of:
+            continue
+        k = name.upper().replace(" ", "")
+        full = {"2024": (rec.get("compare", {}).get("2024") or {}).get("full_day"),
+                "2022": int(d22.loc[k].today_in_person) if k in d22.index else None,
+                "2018": int(d18[k]["today_in"]) if k in d18 else None}
+        rows.append(dict(name=name, group=group_of[name], today=rec["today"], refreshed=rec.get("refreshed"),
+                         source=rec.get("source"), url=rec.get("url"), full_day=full))
+    return dict(fetched=live["fetched"], day=day, groups=KEY_COUNTIES, rows=rows)
 
 
 def run_race(key, now, turnout, results_all, markets_all, fetch_log):

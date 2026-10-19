@@ -492,6 +492,28 @@ class LiveCounties(unittest.TestCase):
         self.assertGreater(d["sites"], 50)
         self.assertTrue(d["refreshed"].startswith("Mon Oct 19"))
 
+    def test_live_today_only_key_counties_with_numbers(self):
+        from races import KEY_COUNTIES
+        L = json.load(open("site/data_senate.json"))["live_turnout"]
+        names = {n for g in KEY_COUNTIES.values() for n in g}
+        self.assertEqual(len(names), 18)
+        for r in L["rows"]:
+            self.assertIn(r["name"], names)
+            self.assertGreater(r["today"], 0)                      # no zero rows (Bexar before it posts)
+            self.assertIn(r["name"], KEY_COUNTIES[r["group"]])
+            self.assertEqual(set(r["full_day"]), {"2024", "2022", "2018"})
+
+    def test_map_and_live_today_agree_for_every_live_county(self):
+        for race in ("senate", "governor"):
+            d = json.load(open(f"site/data_{race}.json"))
+            e, rows = d["early"], d["live_turnout"]["rows"]
+            for r in rows:
+                x = e["counties"][r["name"]]
+                self.assertEqual(x["today"], r["today"], r["name"])                       # same vote count
+                if r["full_day"]["2022"] and x["today22"]:
+                    self.assertEqual(x["today22"], r["full_day"]["2022"], r["name"])       # same 2022 baseline
+                self.assertIn(r["name"], e["live_counties"])
+
     def test_archives_cover_the_comparison_days(self):
         for slug in ("travistx", "montgomerytx"):
             for yr in (2022, 2024):
@@ -533,6 +555,13 @@ class PublicSite(unittest.TestCase):
         from PIL import Image
         self.assertEqual(Image.open(f"public/{self.card}").size, (1200, 630))
         self.assertIn(self.card, self.html)
+
+
+class Methodology(unittest.TestCase):
+    def test_page_published_and_linked(self):
+        self.assertTrue(open("public/methodology.html").read().startswith("<!doctype html>"))
+        for page in ("index.html", "governor.html", "early.html"):
+            self.assertIn('href="methodology.html"', open(f"public/{page}").read(), page)
 
 
 class PublicGovernor(PublicSite):

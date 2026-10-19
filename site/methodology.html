@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="only light">
+<title>Sources and methodology · Texas 2026 Forecast</title>
+<meta name="description" content="Where every number on the Texas 2026 Forecast comes from, and how the forecast and early-vote comparisons are calculated.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">
+<style>
+:root { --paper: #ffffff; --ink: #121212; --ink-2: #4d4d4d; --ink-3: #757575; --rule: #dcdcdc; --wash: #f6f6f4;
+  --serif: "Source Serif 4", Georgia, serif; --sans: "Libre Franklin", "Helvetica Neue", Arial, sans-serif; color-scheme: only light;
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.6 var(--serif); }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+.mast { border-bottom: 1px solid var(--ink); padding-block: 14px 10px; font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.mast a { color: var(--ink); text-decoration: none; }
+h1 { font-weight: 700; font-size: clamp(30px, 6vw, 42px); line-height: 1.1; margin: 28px 0 10px; text-wrap: balance; }
+h2 { font: 800 22px var(--sans); margin: 40px 0 8px; border-top: 1px solid var(--ink); padding-top: 14px; }
+h3 { font: 700 17px var(--sans); margin: 24px 0 4px; }
+p, li { text-wrap: pretty; }
+ul { padding-left: 22px; }
+li { margin-bottom: 6px; }
+.dek { color: var(--ink-2); font-size: 19px; }
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font: 14px/1.45 var(--sans); }
+th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); border-bottom: 1px solid var(--ink); padding: 6px 8px 6px 0; }
+td { border-bottom: 1px solid var(--rule); padding: 8px 8px 8px 0; vertical-align: top; }
+td:first-child { font-weight: 700; width: 30%; }
+a { color: var(--ink); }
+.note { background: var(--wash); border-left: 3px solid var(--ink); padding: 12px 16px; font: 15px/1.5 var(--sans); }
+footer { margin-top: 48px; border-top: 1px solid var(--ink); padding-top: 14px; font: 13px var(--sans); color: var(--ink-2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast"><a href="index.html">Texas 2026 Forecast</a><span><a href="index.html">Senate</a> · <a href="governor.html">Governor</a> · <a href="early.html">Early voting</a></span></div>
+
+  <h1>Sources and methodology</h1>
+  <p class="dek">Where every number on this site comes from, and how we turn it into a forecast. This is an independent statistical project, not affiliated with any campaign, party or news organization.</p>
+
+  <h2>Sources</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Data</th><th>Source</th><th>Used for</th></tr></thead>
+    <tbody>
+      <tr><td>Past election results by county, 2014–2024</td><td><a href="https://data.capitol.texas.gov/" target="_blank" rel="noopener">Texas Legislative Council</a></td><td>County patterns, backtests, past-result maps</td></tr>
+      <tr><td>Voter registration, daily early-vote turnout, election-night results, 2026 primary results</td><td><a href="https://goelect.txelections.civixapps.com/ivis-evr-ui/" target="_blank" rel="noopener">Texas Secretary of State</a></td><td>Turnout, early-vote comparisons, the live needle on Nov. 3</td></tr>
+      <tr><td>2026 polls</td><td>Public poll releases, as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas" target="_blank" rel="noopener">Senate</a> and <a href="https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election" target="_blank" rel="noopener">governor</a> race pages</td><td>The polling average at the center of the forecast</td></tr>
+      <tr><td>Betting-market odds</td><td><a href="https://kalshi.com" target="_blank" rel="noopener">Kalshi</a> and <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a> public prices</td><td>Shown for comparison only; not used in the model</td></tr>
+      <tr><td>2022 early voting, every county, every day</td><td>Texas Secretary of State data, as compiled by <a href="https://www.texastribune.org/2022/10/28/texas-2022-election-turnout-tracker/" target="_blank" rel="noopener">The Texas Tribune's 2022 tracker</a></td><td>"Same day in 2022" comparisons</td></tr>
+      <tr><td>2018 early voting, 30 largest counties, every day</td><td><a href="https://www.sos.texas.gov/elections/earlyvoting/2018/oct22.shtml" target="_blank" rel="noopener">Texas Secretary of State 2018 daily reports</a></td><td>"Same day in 2018" comparisons</td></tr>
+      <tr><td>Same-day (live) in-person turnout</td><td>Travis and Montgomery county live trackers (ElectionLink, including their 2022 and 2024 archives); Dallas County's vote-center map; Bexar County's early-vote dashboard</td><td>Live today; unofficial until the state posts its numbers</td></tr>
+      <tr><td>Mail ballot history</td><td>Harris County Clerk official canvass reports, 2018–2024</td><td>How mail ballots lean when they are counted first on election night</td></tr>
+      <tr><td>Past poll averages</td><td>538, RealClearPolitics, 270toWin, Decision Desk HQ; our own average of October polls for 2018, when none was published</td><td>"How accurate have Texas polls been?"</td></tr>
+      <tr><td>County shapes</td><td>U.S. Census Bureau, via <a href="https://github.com/topojson/us-atlas" target="_blank" rel="noopener">us-atlas</a></td><td>All maps</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>How the forecast works</h2>
+  <h3>1. Start from the polls</h3>
+  <p>We average every head-to-head poll from the last 60 days. Recent polls count more (a poll loses half its weight every 14 days), larger polls count a little more, and polls paid for by a party or campaign count less. If one pollster releases several polls, those polls share their weight so a single firm cannot dominate.</p>
+  <h3>2. Measure how wrong polls can be</h3>
+  <p>Texas polls have picked the winner in every recent race, but the final margin has been off by 2 to 5 points, and not always in the same direction. We let the true result differ from the polls by about that much, with a small chance of a bigger miss.</p>
+  <h3>3. Spread the statewide number across 254 counties</h3>
+  <p>Each county's lean relative to the state comes from past races for the same office: the 2018 and 2024 Senate races for Senate, and the 2018 and 2022 governor races for governor. Counties are grouped into six regions (big cities, big suburbs, outer suburbs, South and West Texas, mid-size cities, rural) that tend to move together, so a region can swing more or less than the state. 2026 primary turnout nudges each region slightly.</p>
+  <h3>4. Estimate turnout</h3>
+  <p>Each county's expected turnout is its 2018 turnout rate (the last high-energy midterm) applied to 2026 registration, with random variation by county, region and state.</p>
+  <h3>5. Run 50,000 elections</h3>
+  <p>Each simulated election draws a polling miss, regional swings, county noise and turnout, then adds up every county's votes. A candidate's chance of winning is the share of the 50,000 simulations they win. "74%" means the candidate wins about 3 times in 4, not that they get 74% of the vote.</p>
+  <h3>6. Check it against the past</h3>
+  <p>Run as if it were 2018 and 2024, using only data available then, the model favored the eventual winner both times, the actual margin fell inside its 80% range both times, and it picked the right winner in 251 of 254 counties in 2018 and 243 of 254 in 2024. Two backtests are not proof, but they show the model is not badly off.</p>
+
+  <h2>Election night</h2>
+  <p>Before votes are counted, the needle shows the forecast. On Nov. 3 it updates every 10 minutes from the state's county-by-county results. Each simulated election is scored against the votes counted so far; simulations that match the count count more, and the needle moves to the share of matching simulations each candidate wins.</p>
+  <p>Mail ballots and early votes are usually counted first and lean Democratic in Texas cities. We expect that and correct for it, so an early lead in the first results does not move the needle more than it should.</p>
+
+  <h2>Early voting</h2>
+  <ul>
+    <li><strong>Turnout, not votes.</strong> Counties and the state report how many people voted, never whom they voted for. Candidate totals stay sealed until polls close on Nov. 3.</li>
+    <li><strong>Live today</strong> uses each county's own website during the day. A county appears only once it has posted numbers for today. These counts are unofficial; the state's numbers replace them once posted.</li>
+    <li><strong>Comparisons are raw vote counts</strong> against the same day of early voting in past years: "142% of 2022 day 1" means 42% more in-person votes so far today than in that county's whole first day in 2022.</li>
+    <li><strong>The map filter</strong> shows today's in-person votes, mail ballots, or both together, each against the same point in 2022, using the same numbers as Live today.</li>
+    <li><strong>Key counties</strong> are grouped by the role they play: Democratic vote banks, battlegrounds, and Republican vote banks.</li>
+  </ul>
+
+  <h2>Assumptions and limits</h2>
+  <ul>
+    <li>Mail ballots in Harris County ran about 30 points bluer than the county in 2024. Outside Harris we assume a smaller lean (about 12 points on the margin); we have no county records to check it.</li>
+    <li>There are no published 2018 poll averages for these races, so the 2018 rows in the poll-accuracy table are our own averages of October polls.</li>
+    <li>For 2024, we have day-by-day county early-vote numbers only for counties with archived live trackers.</li>
+    <li>Third-party candidates are left out; all margins are between the two major candidates.</li>
+    <li>Two backtests are a small sample. Every election forecast faces this, because elections are rare.</li>
+  </ul>
+
+  <h2>Updates and checks</h2>
+  <p>The site refreshes automatically: every hour from 8 a.m. to 10 p.m. Central during early voting, three times a day otherwise, and every 10 minutes on election night. Each refresh runs a set of automated tests and sanity checks (for example, a poll average that jumps unrealistically or a county count that goes down). If any check fails, nothing is published and the site keeps its last good version.</p>
+
+  <footer>Texas 2026 Forecast · <a href="index.html">Senate</a> · <a href="governor.html">Governor</a> · <a href="early.html">Early voting</a></footer>
+</div>
+</body>
+</html>

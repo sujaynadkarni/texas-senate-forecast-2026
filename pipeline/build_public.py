@@ -61,3 +61,5 @@ for fname, title, desc, card in PAGES:
     open(f"public/{fname}", "w").write(head + page + "\n</body>\n</html>\n")
     print(f"public/{fname} {os.path.getsize(f'public/{fname}')/1024:.0f} KB")
 open("public/.nojekyll", "w").write("")
+open("public/methodology.html", "w").write(open("site/methodology.html").read())
+print("public/methodology.html")
