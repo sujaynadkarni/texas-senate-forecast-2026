@@ -61,6 +61,7 @@ jobs:
           SANITY_OVERRIDE: ${{ inputs.override_sanity && '1' || '' }}
 
       - name: Save today's data
+        continue-on-error: true   # a failed save (another run pushed first) must not stop the site from publishing
         run: |
           git config user.name "forecast-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -68,7 +69,7 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Data refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
           # the primary-layer job also commits; rebase onto it instead of failing the publish
-          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 10; done
+          for i in 1 2 3; do git pull --rebase --autostash -q origin main && git push && exit 0; sleep 10; done
           exit 1
 
       - uses: actions/configure-pages@v5
