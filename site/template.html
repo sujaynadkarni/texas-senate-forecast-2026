@@ -180,6 +180,17 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .gdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
 .gdot.dem { background: var(--dem); } .gdot.battle { background: var(--battle); } .gdot.rep { background: var(--rep); }
+.gdot.lean-rep { background: var(--rep-3); } .gdot.none { background: #b9b9b4; }
+.meters { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 8px 0 6px; }
+.meter h4 { font: 700 15px var(--sans); margin: 0 0 2px; }
+.meter .val { font: 800 22px var(--sans); margin: 0 0 6px; }
+.meter svg { width: 100%; height: auto; display: block; }
+.tilt-read { font-size: 18px; margin: 14px 0 22px; }
+.prim-bar { display: flex; height: 34px; border-radius: 3px; overflow: hidden; margin: 10px 0 8px; }
+.prim-bar span { display: block; min-width: 2px; }
+.prim-key { display: flex; flex-wrap: wrap; gap: 6px 22px; font: 15px var(--sans); }
+.prim-key strong { font-size: 20px; margin-right: 4px; }
+#tilt-sec h3 { font: 800 19px var(--sans); margin: 34px 0 4px; }
 #live-table td.name { border-left: 4px solid transparent; padding-left: 10px; }
 #live-table tr.dem td.name { border-left-color: var(--dem); } #live-table tr.battle td.name { border-left-color: var(--battle); } #live-table tr.rep td.name { border-left-color: var(--rep); }
 .caveats { font-size: 16px; display: grid; gap: 6px; padding-left: 20px; margin: 0; }
@@ -328,6 +339,21 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       </div>
       <div class="tbl-scroll"><table id="live-table"></table></div>
       <p class="note" id="live-note"></p>
+    </section>
+    <section class="col-wide" id="tilt-sec" hidden>
+      <div class="rule-top"><h2>Who's turning out</h2>
+        <p class="section-dek">Every county, grouped by how it voted for president in 2024, compared with the same point of early voting in 2022. Counties whose numbers aren't complete yet are left out on both sides.</p></div>
+      <div class="tbl-scroll"><table id="tilt-groups"></table></div>
+      <p class="tilt-read" id="tilt-read"></p>
+      <h3>Turnout effect</h3>
+      <p class="section-dek">If every county votes the way our forecast expects, how much would this turnout pattern move the margin? This is separate from the forecast: it doesn't move the main needle.</p>
+      <div class="meters" id="tilt-meters"></div>
+      <p class="note" id="tilt-note"></p>
+      <h3>Early voters by 2026 primary</h3>
+      <p class="section-dek">Of the people who have voted early so far, how many voted early or by mail in the March 2026 Democratic or Republican primary.</p>
+      <div class="prim-bar" id="prim-bar"></div>
+      <div class="prim-key" id="prim-key"></div>
+      <p class="note" id="prim-note"></p>
     </section>
     <section class="col-wide">
       <p class="ev-total" id="ev-total"></p>
@@ -977,6 +1003,61 @@ function evPick(name) {
   $("#ev-pick").addEventListener("change", (ev) => evPick(ev.target.value));
 }
 
+/* ---------- who's turning out: 2024-result groups, turnout effect meters, 2026 primary mix ---------- */
+function tiltView() {
+  if (PAGE !== "early" || !EV || !EV.groups) return;
+  const G = EV.groups, rows = G.rows.filter((r) => r.ev22 > 0);
+  if (!rows.length) return;
+  $("#tilt-sec").hidden = false;
+  const p0 = (x) => x == null ? "–" : Math.round(x * 100) + "%";
+  const p1 = (x) => x == null ? "–" : (x * 100).toFixed(1) + "%";
+  let h = `<thead><tr><th>2024 result</th><th>Counties compared</th><th>Early votes so far</th><th>vs. 2022</th><th>Share of early votes</th></tr></thead><tbody>`;
+  for (const r of G.rows) {
+    h += `<tr><td class="name"><i class="gdot ${r.cls}"></i>${r.name}</td><td>${r.compared} of ${r.counties}</td><td>${fmtInt(r.ev)}</td>
+      <td><strong>${p0(r.pace)}</strong><span class="sub">of ${fmtInt(r.ev22)}</span></td>
+      <td><strong>${p1(r.share)}</strong><span class="sub">${p1(r.share22)} in 2022</span></td></tr>`;
+  }
+  $("#tilt-groups").innerHTML = h + "</tbody>";
+  const by = (cls) => G.rows.find((r) => r.cls === cls);
+  const d = by("dem"), r = by("rep");
+  if (d && r && d.pace && r.pace) {
+    const diff = Math.round((d.pace - r.pace) * 100);
+    const lead = Math.abs(diff) < 5 ? "Turnout is rising about evenly in Harris and Trump counties"
+      : diff > 0 ? `Counties Harris won are outpacing counties Trump won by 20+`
+      : `Counties Trump won by 20+ are outpacing counties Harris won`;
+    $("#tilt-read").innerHTML = `<strong>${lead}:</strong> ${p0(d.pace)} vs. ${p0(r.pace)} of their 2022 early vote at this point. Harris counties are ${p1(d.share)} of early votes so far, compared with ${p1(d.share22)} at this point in 2022.`;
+  }
+  // meters: Republican to the left, Democrat to the right, as on the needle
+  const T = EV.turnout_effects || {};
+  const meter = (e) => {
+    const v = e.points, x = 160 + Math.max(-5, Math.min(5, v)) / 5 * 140;
+    const who = Math.abs(v) < 0.25 ? "No real effect" : `${Math.abs(v).toFixed(1)} pts toward ${v > 0 ? e.cand.d : e.cand.r}`;
+    const ticks = [-4, -2, 0, 2, 4].map((t) => `<line x1="${160 + t / 5 * 140}" x2="${160 + t / 5 * 140}" y1="${t ? 26 : 20}" y2="38" stroke="${t ? "#9a9a95" : "#121212"}" stroke-width="${t ? 1 : 1.5}"/>
+      <text x="${160 + t / 5 * 140}" y="52" text-anchor="middle" font-size="11" fill="#757575">${t ? Math.abs(t) : "0"}</text>`).join("");
+    return `<div class="meter"><h4>${e.cand.office}: ${e.cand.r} vs. ${e.cand.d}</h4><p class="val" style="color:${Math.abs(v) < 0.25 ? "var(--ink)" : v > 0 ? "var(--dem)" : "var(--rep)"}">${who}</p>
+      <svg viewBox="0 0 320 76" role="img" aria-label="${e.cand.office} turnout effect: ${who}">
+        <rect x="20" y="28" width="140" height="8" fill="var(--rep-3)"/><rect x="160" y="28" width="140" height="8" fill="var(--dem-3)"/>${ticks}
+        <circle cx="${x}" cy="32" r="8" fill="${v > 0 ? "var(--dem)" : "var(--rep)"}" stroke="#fff" stroke-width="2"/>
+        <text x="20" y="72" font-size="12" fill="var(--rep)" font-weight="700">← ${e.cand.r}</text>
+        <text x="300" y="72" font-size="12" fill="var(--dem)" font-weight="700" text-anchor="end">${e.cand.d} →</text></svg></div>`;
+  };
+  const effs = ["senate", "governor"].map((k) => T[k]).filter(Boolean);
+  $("#tilt-meters").innerHTML = effs.map(meter).join("");
+  if (effs.length) {
+    const e = effs[0];
+    $("#tilt-note").textContent = `How it works: each county's turnout so far, compared with 2022 at the same point, is applied to our forecast of how that county votes. Based on counties that are ${Math.round(e.coverage * 100)}% of the expected vote; counties not posted yet${G.not_posted.length ? " (" + G.not_posted.slice(0, 5).join(", ") + ")" : ""} are assumed to keep the statewide pace. Turnout says where votes come from, not whom they are for, and many Republicans now vote early rather than on Election Day.`;
+  }
+  // 2026 primary mix
+  const P = EV.primary;
+  if (!P) { $("#prim-bar").closest("section").querySelectorAll("#prim-bar,#prim-key,#prim-note").forEach((x) => x.hidden = true); return; }
+  const parts = [["dem", "Democratic primary", "var(--dem)"], ["rep", "Republican primary", "var(--rep)"], ["both", "Both", "var(--battle)"], ["none", "No 2026 primary here", "#b9b9b4"]];
+  $("#prim-bar").innerHTML = parts.map(([k, , col]) => `<span style="width:${P.share[k] * 100}%;background:${col}"></span>`).join("");
+  $("#prim-key").innerHTML = parts.filter(([k]) => k !== "both" || P.share.both >= 0.005)
+    .map(([k, lab, col]) => `<span><i class="gdot" style="background:${col}"></i><strong>${p1(P.share[k])}</strong>${lab}</span>`).join("");
+  const pe = P.primary_early_voters;
+  $("#prim-note").textContent = `Based on ${fmtInt(P.voters)} early voters in the ${P.counties_used} counties whose voter lists are in (state lists through ${P.through}). Not in yet: ${P.not_in.join(", ")}. The state's free lists cover only the 2026 primaries and only people who voted early or by mail in them, so primary-day voters count as "No 2026 primary here." More people voted early in the Democratic primary than the Republican one (${fmtInt(pe.dem)} vs. ${fmtInt(pe.rep)}), which lifts the Democratic share. Primary voters are a clue to party, not votes.`;
+}
+
 /* ---------- live county turnout (unofficial) ---------- */
 function liveView() {
   if (PAGE !== "early") return;
@@ -992,7 +1073,7 @@ function liveView() {
       const asof = r.live && r.refreshed ? `<span class="sub">as of ${r.refreshed.replace(/^\w+ \w+ \d+ /, "").replace(/^0/, "")}</span>` : "";
       h += `<tr class="${r.group}"><td class="name">${r.name}<span class="sub">${GNAME[r.group]}${src}</span></td>
         <td><strong>${fmtInt(r.ev)}</strong><span class="sub">${fmtInt(r.in_person)} in person · ${fmtInt(r.mail)} mail</span></td>
-        <td>${r.today > 0 ? fmtInt(r.today) + asof : `<span class="nr">–</span>`}</td>
+        <td>${r.today > 0 ? fmtInt(r.today) + asof : `<span class="nr">–</span>`}${r.report && !(r.today > 0) ? `<span class="sub">county report, through yesterday</span>` : ""}</td>
         <td>${share(r.ev, r.base["2024"])}</td><td>${share(r.ev, r.base["2022"])}</td><td>${share(r.ev, r.base["2018"])}</td></tr>`;
     }
     if (!rows.length) h += `<tr><td colspan="6" style="text-align:left;white-space:normal;color:var(--ink-3)">No ${GNAME[g] ? GNAME[g].toLowerCase() : "key"} county has posted in-person numbers yet. Counties appear here as soon as they do.</td></tr>`;
@@ -1011,5 +1092,5 @@ function showView() {
   $("#view-forecast").hidden = early; $("#view-early").hidden = !early;
 }
 
-staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); liveView(); showView();
+staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); liveView(); tiltView(); showView();
 </script>

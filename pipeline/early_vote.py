@@ -45,6 +45,76 @@ def day_number(d):
     return max(0, (d - EV_START[2026]).days + 1)
 
 
+def turnout_groups(c):
+    """Counties grouped by the 2024 presidential result: early votes so far vs. the same point in 2022.
+    Only counties whose 2026 numbers are complete are compared, on both sides."""
+    if "ev26" not in c or c.ev26.sum() == 0:
+        return None
+    m24 = (c.pres24_D - c.pres24_R) / c.pres24_total * 100
+    ok = ~c.missing & (c.ev22 > 0)
+    bands = [("Trump by 20+", -999, -20, "rep"), ("Trump by less than 20", -20, 0, "lean-rep"),
+             ("Harris won", 0, 999, "dem")]
+    t26, t22 = c.ev26[ok].sum(), c.ev22[ok].sum()
+    rows = []
+    for name, lo, hi, cls in bands:
+        m = ok & (m24 >= lo) & (m24 < hi)
+        e26, e22 = float(c.ev26[m].sum()), float(c.ev22[m].sum())
+        rows.append(dict(name=name, cls=cls, counties=int(((m24 >= lo) & (m24 < hi)).sum()), compared=int(m.sum()),
+                         ev=int(e26), ev22=int(e22), pace=e26 / e22 if e22 else None,
+                         share=e26 / t26 if t26 else None, share22=e22 / t22 if t22 else None))
+    return dict(rows=rows, pace=float(t26 / t22) if t22 else None, compared=int(ok.sum()),
+                not_posted=[n for n in c.sort_values("exp_votes", ascending=False).county[c.missing]][:8])
+
+
+def turnout_effect(c, share_col):
+    """How the turnout so far would move the forecast margin if every county keeps voting the way the forecast
+    expects and keeps its turnout pace relative to 2022. Positive = toward the Democrat. The main forecast and
+    needle do not use this."""
+    if "ev26" not in c or c.ev26.sum() == 0:
+        return None
+    ok = ~c.missing & (c.ev22 > 0) & (c.ev26 > 0)
+    if c.ev22[ok].sum() == 0:
+        return None
+    state_pace = c.ev26[ok].sum() / c.ev22[ok].sum()
+    rel = (c.ev26 / c.ev22.where(c.ev22 > 0, 1)) / state_pace
+    rel = 1 + (rel - 1) * c.ev22 / (c.ev22 + 2000)          # small counties: a few hundred votes say little
+    rel = rel.where(ok, 1.0).clip(0.5, 2.0)                  # counties not posted yet: assume the state pace
+    v0, share = c.exp_votes.values.astype(float), c[share_col].values
+    v1 = v0 * rel.values
+    m0 = ((2 * share - 1) * v0).sum() / v0.sum() * 100
+    m1 = ((2 * share - 1) * v1).sum() / v1.sum() * 100
+    return dict(points=round(float(m1 - m0), 2), forecast_margin=round(float(m0), 2), with_turnout=round(float(m1), 2),
+                coverage=float(c.exp_votes[ok].sum() / c.exp_votes.sum()))
+
+
+def primary_mix(c):
+    """Early voters by 2026 primary (pipeline/primary_layer.py), only counties whose voter lists are mostly in:
+    at least 75% of the state's official count for the county (lists trail the counts by a day or so), and the
+    county's count itself not flagged incomplete."""
+    try:
+        pl = json.load(open("data/primary_layer.json"))
+    except (OSError, ValueError):
+        return None
+    tot = dict(voters=0, dem=0, rep=0, both=0, none=0)
+    used, counties = 0, {}
+    for _, r in c.iterrows():
+        x = pl["counties"].get(r.county)
+        official = r.ev26 - (r.today26 if r.live else 0)          # state count, without today's live county numbers
+        if not x or r.missing or official <= 0 or x["voters"] < 0.75 * official:
+            continue
+        used += 1
+        counties[r.county] = x
+        for k in tot:
+            tot[k] += x[k]
+    if not tot["voters"]:
+        return None
+    share = {k: tot[k] / tot["voters"] for k in ("dem", "rep", "both", "none")}
+    not_in = [n for n in c.sort_values("exp_votes", ascending=False).county if n not in counties][:6]
+    return dict(fetched=pl["fetched"], through=pl["through"], counties_used=used, voters=tot["voters"], share=share, not_in=not_in,
+                lean=(share["dem"] - share["rep"]) * 100, primary_early_voters=pl["primary_early_voters"],
+                counties=counties)
+
+
 def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("Talarico", "Paxton")):
     """c: county frame with county, region, reg26, exp_votes, gov22_total, and the forecast share column."""
     try:
@@ -66,6 +136,23 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     c["today26"] = c.county.map(lambda x: cur.get(x, [0, 0, 0])[2]).astype(float)
     # One set of numbers for the whole site: where the state has not posted today's in-person votes for a
     # county but the county's own live tracker has, use the county's count (unofficial) for today.
+    # Official county reports that are ahead of the state's file (Tarrant's morning PDF): use them where the
+    # state's in-person count for that county is lower.
+    c["report"] = False
+    try:
+        reports = json.load(open("data/county_reports.json"))["counties"]
+    except (OSError, ValueError, KeyError):
+        reports = {}
+    for name, rec in reports.items():
+        m = c.county == name
+        if rec.get("error") or not rec.get("through") or not m.any() or rec["in_person"] <= float(c.loc[m, "in26"].iloc[0]):
+            continue
+        through = datetime.strptime(rec["through"], "%m/%d/%Y").date()
+        if through > d_latest:
+            continue                                  # the state's file is behind the report's day; wait for it
+        c.loc[m, "in26"] = float(rec["in_person"])
+        c.loc[m, "today26"] = float(rec["last_day"]) if through == d_latest else 0.0
+        c.loc[m, "report"] = True
     c["live"] = False
     live = load_live()
     if live:
@@ -212,7 +299,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                                   ev18=None if pd.isna(r.at_2018_pace) else int(round(r.at_2018_pace)),
                                   ev18_raw=None if pd.isna(r.ev18) else int(r.ev18),
                                   pace18=None if pd.isna(r.pace18) or r.missing else round(float(r.pace18), 3),
-                                  pace=None if pd.isna(r.pace) else round(float(r.pace), 3), missing=bool(r.missing),
+                                  pace=None if pd.isna(r.pace) else round(float(r.pace), 3), missing=bool(r.missing), report=bool(r.report),
                                   est_net=int(round(r.est_net)), pct=round(float(r.pct26) * 100, 2),
                                   pct22=round(float(r.pct22) * 100, 2))
     out = dict(
@@ -228,6 +315,9 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         today=today, pace18_top=pace18_top, n_top=int(in30.sum()), live_counties=[x for x in c.county[c.live]],
         state_in_person=int((c.in26 - np.where(c.live, c.today26, 0)).sum()),     # official state numbers only
     )
+    out["groups"] = turnout_groups(c)
+    out["turnout_effect"] = turnout_effect(c, share_col)
+    out["primary"] = primary_mix(c)
     out["story"] = story(out, c, names)
     return out
 

@@ -509,6 +509,21 @@ class LiveCounties(unittest.TestCase):
             self.assertEqual(set(r["base"]), {"2024", "2022", "2018"})
             self.assertEqual(r["ev"], r["in_person"] + r["mail"])   # cumulative = in person + mail
 
+    def test_tarrant_report_parser(self):
+        from county_reports import parse_tarrant
+        txt = ("November 3, 2026 - Joint General and Special Elections\nEarly Voting In Person Totals\nPage 1 of 1\n"
+               "October 21, 2026\n 8:00:41AM\nTotal 10/19 10/20\nTotal 98,812 50,409 48,403\nACTIV 3,100 1,618 1,482\n")
+        self.assertEqual(parse_tarrant(txt), (98812, "10/20", 48403, "October 21, 2026 8:00:41AM"))
+        with self.assertRaises(ValueError):
+            parse_tarrant("Total 10/19 10/20\nTotal 98,812 50,409\n")     # a missing day column must not pass
+
+    def test_county_report_fills_incomplete_state_count(self):
+        rep = json.load(open("data/county_reports.json"))["counties"].get("Tarrant", {})
+        x = json.load(open("site/data_senate.json"))["early"]["counties"]["Tarrant"]
+        if rep.get("in_person"):
+            self.assertGreaterEqual(x["in_person"], rep["in_person"])
+            self.assertFalse(x["missing"])
+
     def test_incomplete_state_counts_are_not_shown(self):
         # the state's day-1 file had Harris at 4 in-person votes; such a county must show as not posted
         d = json.load(open("site/data_senate.json"))

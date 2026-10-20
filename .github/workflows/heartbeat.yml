@@ -44,6 +44,11 @@ jobs:
               echo "$(TZ=America/Chicago date '+%a %H:%M %Z') starting refresh"
               gh workflow run refresh.yml --ref main && last=$now || echo "could not start refresh, retrying in 5 minutes"
             fi
+            # once each morning around 9 a.m. Central: the primary layer (county totals of early voters by 2026 primary)
+            if [ "$(TZ=America/Chicago date +%H)" = "09" ]; then
+              n=$(gh run list -w primary-layer.yml -L 5 --json createdAt -q "[.[] | select(.createdAt >= \"$(date -u +%Y-%m-%d)\")] | length")
+              if [ "${n:-0}" = "0" ]; then gh workflow run primary-layer.yml --ref main && echo "started primary layer"; fi
+            fi
             sleep 300
           done
       - name: Start the next heartbeat

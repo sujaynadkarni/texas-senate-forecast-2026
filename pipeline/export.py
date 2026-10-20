@@ -139,6 +139,7 @@ def live_data(early, c):
     in 2022 and 2018. A county appears once its total includes in-person votes."""
     from races import KEY_COUNTIES
     live = load_json("data/live.json") or {}
+    reports = (load_json("data/county_reports.json") or {}).get("counties", {})
     if not early:
         return None
     E = early["counties"]
@@ -162,7 +163,8 @@ def live_data(early, c):
         lv = (live.get("counties") or {}).get(name, {})
         rows.append(dict(name=name, group=g, ev=x["ev"], in_person=x["in_person"], mail=x["mail"], today=x["today"],
                          live=x.get("live", False), refreshed=lv.get("refreshed") if x.get("live") else None,
-                         url=lv.get("url"), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
+                         url=lv.get("url") or (reports.get(name, {}).get("url") if x.get("report") else None),
+                         report=x.get("report", False), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
     return dict(fetched=live.get("fetched"), day=early["day"], groups=KEY_COUNTIES, rows=rows)
 
 
@@ -324,6 +326,12 @@ def main():
                                 early=None if not o2["early"] else {x: o2["early"][x] for x in ("est_margin", "mix_effect_pts", "mix_effect_votes")}
                                 | {"counties": {n: v["est_net"] for n, v in o2["early"]["counties"].items()}})
                        for k2, o2 in outs.items() if k2 != k}
+    # the early-voting page shows both races' turnout effect
+    effects = {k: dict(cand=o["cand"], **o["early"]["turnout_effect"]) for k, o in outs.items()
+               if o["early"] and o["early"].get("turnout_effect")}
+    for o in outs.values():
+        if o["early"]:
+            o["early"]["turnout_effects"] = effects
     os.makedirs("site", exist_ok=True)
     for k, o in outs.items():
         json.dump(o, open(f"site/data_{k}.json", "w"), separators=(",", ":"))
