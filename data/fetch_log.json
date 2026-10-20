@@ -1,32 +1,32 @@
 {
  "polls": {
   "ok": true,
-  "at": "2026-10-20T21:32:20+00:00",
+  "at": "2026-10-20T21:34:01+00:00",
   "detail": "senate 60, governor 52 polls"
  },
  "markets": {
   "ok": true,
-  "at": "2026-10-20T21:32:20+00:00",
-  "detail": "senate: Kalshi 0.63, Polymarket 0.65; governor: Kalshi 0.32, Polymarket 0.32"
+  "at": "2026-10-20T21:34:01+00:00",
+  "detail": "senate: Kalshi 0.64, Polymarket 0.65; governor: Kalshi 0.32, Polymarket 0.32"
  },
  "turnout": {
   "ok": true,
-  "at": "2026-10-20T21:32:20+00:00",
+  "at": "2026-10-20T21:34:01+00:00",
   "detail": "10/20/2026: 605,996 early votes"
  },
  "results": {
   "ok": true,
-  "at": "2026-10-20T21:32:20+00:00",
+  "at": "2026-10-20T21:34:01+00:00",
   "detail": "votes counted: senate 0, governor 0"
  },
  "live": {
   "ok": true,
-  "at": "2026-10-20T21:32:20+00:00",
-  "detail": "4 counties: Travis 31,777 today, Montgomery 11,908 today, Bexar 0 today, Dallas 47,026 today"
+  "at": "2026-10-20T21:34:01+00:00",
+  "detail": "4 counties: Travis 32,060 today, Montgomery 11,908 today, Bexar 0 today, Dallas 47,026 today"
  },
  "county": {
   "ok": true,
-  "at": "2026-10-20T21:32:20+00:00",
+  "at": "2026-10-20T21:34:01+00:00",
   "detail": "Tarrant 50,409 through 10/19/2026"
  }
 }
