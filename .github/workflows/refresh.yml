@@ -22,6 +22,7 @@ on:
     branches: [main]
 
 permissions:
+  actions: write            # start the heartbeat if it is not running
   contents: write           # save each day's data back to the repo
   pages: write
   id-token: write
@@ -34,6 +35,16 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      # GitHub skips many scheduled runs. The heartbeat workflow starts refreshes itself; make sure it is running.
+      - name: Start the heartbeat if it is not running
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          n=$(gh run list -w heartbeat.yml -L 10 --json status -q '[.[] | select(.status != "completed")] | length')
+          if [ "${n:-0}" = "0" ]; then gh workflow run heartbeat.yml --ref main && echo "started heartbeat"; else echo "heartbeat already running"; fi
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
