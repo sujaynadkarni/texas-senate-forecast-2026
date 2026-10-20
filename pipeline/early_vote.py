@@ -95,7 +95,7 @@ def primary_mix(c):
         pl = json.load(open("data/primary_layer.json"))
     except (OSError, ValueError):
         return None
-    tot = dict(voters=0, dem=0, rep=0, both=0, none=0)
+    tot = dict(voters=0, dem=0, rep=0, both=0, none=0, dem_primary=0, dem_primary_voted=0, rep_primary=0, rep_primary_voted=0)
     used, counties = 0, {}
     for _, r in c.iterrows():
         x = pl["counties"].get(r.county)
@@ -105,12 +105,18 @@ def primary_mix(c):
         used += 1
         counties[r.county] = x
         for k in tot:
-            tot[k] += x[k]
+            tot[k] += x.get(k, 0)
     if not tot["voters"]:
         return None
     share = {k: tot[k] / tot["voters"] for k in ("dem", "rep", "both", "none")}
     not_in = [n for n in c.sort_values("exp_votes", ascending=False).county if n not in counties][:6]
+    # the headline: what share of each party's March 2026 (early/mail) primary voters have already voted this fall,
+    # in the same counties
+    rate = lambda k: tot[f"{k}_primary_voted"] / tot[f"{k}_primary"] if tot[f"{k}_primary"] else None
+    turnout = dict(dem=rate("dem"), rep=rate("rep"), dem_base=tot["dem_primary"], rep_base=tot["rep_primary"],
+                   dem_voted=tot["dem_primary_voted"], rep_voted=tot["rep_primary_voted"])
     return dict(fetched=pl["fetched"], through=pl["through"], counties_used=used, voters=tot["voters"], share=share, not_in=not_in,
+                turnout=turnout,
                 lean=(share["dem"] - share["rep"]) * 100, primary_early_voters=pl["primary_early_voters"],
                 counties=counties)
 

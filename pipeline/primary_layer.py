@@ -88,21 +88,29 @@ def main(limit=None):
     # A voter can vote early in one county's primary and move; match statewide, not just within the county.
     all_dem = set().union(*dem.values())
     all_rep = set().union(*rep.values())
-    del dem, rep
+    all_voted = set().union(*voted.values())
     rows = {}
     for c in counties:
         v = voted[c["name"]]
         d, r = v & all_dem, v & all_rep
         both = len(d & r)
+        # turnout of each party's primary voters, by the county where they voted in the primary:
+        # how many of them have already voted early (anywhere in Texas) this fall
         rows[title(c["name"])] = dict(voters=len(v), dem=len(d) - both, rep=len(r) - both, both=both,
-                                      none=len(v) - len(d | r))
-    tot = {k: sum(x[k] for x in rows.values()) for k in ("voters", "dem", "rep", "both", "none")}
+                                      none=len(v) - len(d | r),
+                                      dem_primary=len(dem[c["name"]]), dem_primary_voted=len(dem[c["name"]] & all_voted),
+                                      rep_primary=len(rep[c["name"]]), rep_primary_voted=len(rep[c["name"]] & all_voted))
+    del dem, rep, all_voted
+    tot = {k: sum(x[k] for x in rows.values()) for k in ("voters", "dem", "rep", "both", "none", "dem_primary",
+                                                           "dem_primary_voted", "rep_primary", "rep_primary_voted")}
     out = dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), through=gen_dates[-1] if gen_dates else None,
                primary_early_voters=dict(dem=len(all_dem), rep=len(all_rep)), total=tot, counties=rows)
     if not limit:
         json.dump(out, open("data/primary_layer.json", "w"), separators=(",", ":"))
     print(f"primary layer: {tot['voters']:,} early voters through {out['through']}, {time.time() - t0:.0f}s; "
-          f"D-primary {tot['dem']:,} R-primary {tot['rep']:,} both {tot['both']:,} none {tot['none']:,}")
+          f"D-primary {tot['dem']:,} R-primary {tot['rep']:,} both {tot['both']:,} none {tot['none']:,}; "
+          f"D-primary voters voted {tot['dem_primary_voted'] / max(tot['dem_primary'], 1):.1%}, "
+          f"R-primary {tot['rep_primary_voted'] / max(tot['rep_primary'], 1):.1%}")
     return out
 
 

@@ -509,6 +509,17 @@ class LiveCounties(unittest.TestCase):
             self.assertEqual(set(r["base"]), {"2024", "2022", "2018"})
             self.assertEqual(r["ev"], r["in_person"] + r["mail"])   # cumulative = in person + mail
 
+    def test_primary_turnout_is_consistent(self):
+        p = json.load(open("site/data_senate.json"))["early"].get("primary")
+        if not p:
+            return
+        t = p["turnout"]
+        for k in ("dem", "rep"):
+            self.assertLessEqual(t[f"{k}_voted"], t[f"{k}_base"])
+            self.assertAlmostEqual(t[k], t[f"{k}_voted"] / t[f"{k}_base"])
+        raw = json.dumps(json.load(open("data/primary_layer.json")))
+        self.assertNotRegex(raw, r"\b\d{10}\b")                     # no voter IDs saved, totals only
+
     def test_tarrant_report_parser(self):
         from county_reports import parse_tarrant
         txt = ("November 3, 2026 - Joint General and Special Elections\nEarly Voting In Person Totals\nPage 1 of 1\n"
