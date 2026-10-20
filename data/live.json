@@ -1,146 +1,146 @@
 {
- "fetched": "2026-10-20T04:53:32+00:00",
- "day": 1,
- "date": "2026-10-19",
+ "fetched": "2026-10-20T17:10:54+00:00",
+ "day": 2,
+ "date": "2026-10-20",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 19 11:51 PM",
-   "ballots_to_date": 40777,
+   "refreshed": "Tue Oct 20 12:10 PM",
+   "ballots_to_date": 56831,
    "hourly": [
-    2220,
-    2421,
-    3101,
-    3532,
-    3644,
-    3737,
-    3552,
-    3699,
-    3590,
-    3623,
-    3565,
-    3346,
-    747
+    2374,
+    2465,
+    3199,
+    3508,
+    3849,
+    659,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
    ],
-   "hours_in": 13,
-   "today": 40777,
-   "completed_hours": 13,
-   "today_completed": 40777,
-   "through": "close",
+   "hours_in": 6,
+   "today": 16054,
+   "completed_hours": 5,
+   "today_completed": 15395,
+   "through": "12 PM",
    "compare": {
     "2022": {
      "hourly": [
-      1114,
-      1269,
-      1888,
-      2393,
-      2669,
-      2641,
-      2503,
-      2511,
-      2493,
-      2276,
-      2164,
-      1407,
-      9
+      698,
+      1159,
+      1893,
+      2395,
+      2745,
+      2541,
+      2600,
+      2635,
+      2401,
+      2212,
+      1924,
+      1479,
+      4
      ],
-     "same_hours": 25337,
-     "full_day": 25337
+     "same_hours": 8890,
+     "full_day": 24686
     },
     "2024": {
      "hourly": [
-      3116,
-      2951,
-      3686,
-      3949,
-      4380,
-      4209,
-      4012,
-      3956,
-      3945,
-      4016,
-      4117,
-      3717,
-      585
+      2688,
+      2928,
+      3543,
+      3973,
+      4194,
+      4098,
+      4037,
+      4037,
+      3832,
+      3886,
+      3726,
+      3428,
+      202
      ],
-     "same_hours": 46639,
-     "full_day": 46639
+     "same_hours": 17326,
+     "full_day": 44572
     }
    }
   },
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 19 11:51 PM",
-   "ballots_to_date": 13568,
+   "refreshed": "Tue Oct 20 12:06 PM",
+   "ballots_to_date": 19553,
    "hourly": [
+    1,
+    1351,
+    1510,
+    1591,
+    1396,
+    136,
     0,
-    1337,
-    1389,
-    1413,
-    1537,
-    1410,
-    1500,
-    1427,
-    1455,
-    1379,
-    668,
-    53,
+    0,
+    0,
+    0,
+    0,
+    0,
     0
    ],
-   "hours_in": 12,
-   "today": 13568,
-   "completed_hours": 12,
-   "today_completed": 13568,
-   "through": "close",
+   "hours_in": 6,
+   "today": 5985,
+   "completed_hours": 5,
+   "today_completed": 5849,
+   "through": "12 PM",
    "compare": {
     "2024": {
      "hourly": [
       0,
-      1609,
-      1755,
-      1613,
-      1673,
-      1561,
-      1708,
-      1712,
-      1788,
-      1753,
-      1148,
-      198,
+      1737,
+      1817,
+      1734,
+      1742,
+      1690,
+      1701,
+      1816,
+      1837,
+      1886,
+      922,
+      133,
       0
      ],
-     "same_hours": 16518,
-     "full_day": 16518
+     "same_hours": 7030,
+     "full_day": 17015
     }
    }
   },
   "Bexar": {
    "source": "county early-vote dashboard",
    "url": "https://earlyvotecountsdual.bexar.org",
-   "date": "10/19/2026",
+   "date": "10/20/2026",
    "sites": 59,
    "today": 0,
-   "ballots_to_date": 0,
+   "ballots_to_date": 42776,
    "busiest": [
     [
      "Bexar County Elections Department",
      0,
-     0,
-     0
+     747,
+     747
     ],
     [
      "Bexar County Justice Center",
      0,
-     0,
-     0
+     461,
+     461
     ],
     [
      "Brookhollow Branch Library",
      0,
-     0,
-     0
+     1516,
+     1516
     ]
    ],
    "hourly": null,
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Mon Oct 19 7:19 PM",
-   "today": 75834,
-   "ballots_to_date": 75834,
-   "sites": 84,
+   "refreshed": "Tue Oct 20 12:00 PM",
+   "today": 20014,
+   "ballots_to_date": 96940,
+   "sites": 83,
    "busiest": [
     [
-     "Fretz Park Library",
-     2713
-    ],
-    [
      "Oak Lawn Branch Library",
-     2426
+     897
     ],
     [
-     "Disciple Central Comm Church",
-     2307
+     "Fretz Park Library",
+     785
+    ],
+    [
+     "University Park Umc",
+     680
     ]
    ],
    "hourly": null,
