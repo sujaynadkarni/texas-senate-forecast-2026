@@ -957,16 +957,6 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{sdash}}
 |3%
 |-
-|style="text-align:left"|Wedgewood Polls (D)<ref>{{Cite web |url=https://drive.google.com/file/d/1t2mC4MFActxiBdx4ef_5crisXjD9xH7a/view |title=Texas 2026 General Election Survey U.S. Senate & Governor |work=Wedgewood Polls |access-date=August 1, 2026}}</ref>
-|July 30–31, 2026
-|800 (LV)
-|±{{nbsp}}4.0%
-|{{Party shading/Republican}}|'''50%'''
-|44%
-|{{sdash}}
-|{{sdash}}
-|6%
-|-
 |style="text-align:left"|Cygnal (R)<ref>{{Cite web |url=https://www.cygn.al/wp-content/uploads/2026/08/Abbott-Data-Center-Plan-Memo.pdf |title=Survey of n800 Likely General Election Voters in Texas |first=Mitchell |last=Brown |website=Cygnal |date=August 4, 2026 |access-date=August 11, 2026}}</ref>
 |July 29–31, 2026
 |800 (LV)
