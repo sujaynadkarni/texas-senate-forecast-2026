@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-20T21:54:09+00:00",
+ "fetched": "2026-10-20T22:14:01+00:00",
  "day": 2,
  "date": "2026-10-20",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 04:53 PM",
-   "ballots_to_date": 74078,
+   "refreshed": "Tue Oct 20 05:08 PM",
+   "ballots_to_date": 74954,
    "hourly": [
     2374,
     2465,
@@ -18,16 +18,16 @@
     3680,
     3588,
     3758,
-    3191,
-    0,
+    3569,
+    498,
     0,
     0
    ],
-   "hours_in": 10,
-   "today": 33301,
-   "completed_hours": 9,
-   "today_completed": 30110,
-   "through": "4 PM",
+   "hours_in": 11,
+   "today": 34177,
+   "completed_hours": 10,
+   "today_completed": 33679,
+   "through": "5 PM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       1479,
       4
      ],
-     "same_hours": 19067,
+     "same_hours": 21279,
      "full_day": 24686
     },
     "2024": {
@@ -64,7 +64,7 @@
       3428,
       202
      ],
-     "same_hours": 33330,
+     "same_hours": 37216,
      "full_day": 44572
     }
    }
@@ -72,28 +72,28 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 04:50 PM",
-   "ballots_to_date": 26156,
+   "refreshed": "Tue Oct 20 05:10 PM",
+   "ballots_to_date": 27379,
    "hourly": [
     1,
     1351,
     1510,
     1591,
-    1477,
-    1490,
-    1435,
-    1362,
-    1304,
-    1067,
-    0,
+    1515,
+    1572,
+    1586,
+    1537,
+    1511,
+    1461,
+    176,
     0,
     0
    ],
-   "hours_in": 10,
-   "today": 12588,
-   "completed_hours": 9,
-   "today_completed": 11521,
-   "through": "4 PM",
+   "hours_in": 11,
+   "today": 13811,
+   "completed_hours": 10,
+   "today_completed": 13635,
+   "through": "5 PM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       133,
       0
      ],
-     "same_hours": 14074,
+     "same_hours": 15960,
      "full_day": 17015
     }
    }
@@ -149,7 +149,7 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Oct 20 4:30 PM",
+   "refreshed": "Tue Oct 20 5:00 PM",
    "today": 47026,
    "ballots_to_date": 124421,
    "sites": 83,
