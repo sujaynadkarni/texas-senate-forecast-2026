@@ -131,6 +131,13 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     c["pace"] = np.where(c.at_2022_pace > 0, c.ev26 / c.at_2022_pace, np.nan)
     # a big county with no ballots while 2022 had plenty has almost surely not reported yet
     c["missing"] = (c.ev26 == 0) & (c.at_2022_pace > 300) | ((c.at_2022_pace > 2000) & (c.pace < 0.05))
+    # Once in-person voting has started, a county whose state file has almost no in-person votes (Harris
+    # with 4 on day 1, when the county itself reported 70,000+) has not uploaded yet. Treat it as not posted
+    # rather than show a falsely low share of 2022. Same for mail (Bexar: 10 mail ballots on day 1).
+    if n >= 1:
+        in22 = (c.ev22 - c.mail22) * np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
+        mail22 = c.mail22 * np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
+        c["missing"] = c.missing | ((in22 > 500) & (c.in26 < 0.25 * in22)) | ((mail22 > 500) & (c.mail26 < 0.25 * mail22))
 
     # partisan read of the ballots cast so far
     s = c[share_col].values

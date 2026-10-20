@@ -509,6 +509,17 @@ class LiveCounties(unittest.TestCase):
             self.assertEqual(set(r["base"]), {"2024", "2022", "2018"})
             self.assertEqual(r["ev"], r["in_person"] + r["mail"])   # cumulative = in person + mail
 
+    def test_incomplete_state_counts_are_not_shown(self):
+        # the state's day-1 file had Harris at 4 in-person votes; such a county must show as not posted
+        d = json.load(open("site/data_senate.json"))
+        E = d["early"]["counties"]
+        for r in d["live_turnout"]["rows"]:
+            if r["name"] != "Rural Texas":
+                self.assertFalse(E[r["name"]]["missing"], r["name"])
+        for name, x in E.items():
+            if x["missing"]:
+                self.assertIsNone(x["pace18"], name)
+
     def test_map_and_live_today_agree_for_every_live_county(self):
         for race in ("senate", "governor"):
             d = json.load(open(f"site/data_{race}.json"))

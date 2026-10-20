@@ -886,7 +886,7 @@ const EV_MODE_TITLE = {
 };
 const EV_LEG = [["--slow-2", "Under 80%"], ["--slow-1", "80–95%"], ["--even", "95–105%"], ["--pace-2", "105–120%"], ["--pace-3", "Over 120%"], ["--nodata", "Not posted yet"]];
 function evRatio(c, mode = evMode) {
-  const e = EV && EV.counties[c.name]; if (!e) return null;
+  const e = EV && EV.counties[c.name]; if (!e || e.missing) return null;
   if (mode === "today") return e.today > 0 && e.today22 ? e.today / e.today22 : null;
   if (mode === "mail") return e.mail > 0 && e.mail22 ? e.mail / e.mail22 : null;
   return e.ev > 0 && e.ev22_raw ? e.ev / e.ev22_raw : null;

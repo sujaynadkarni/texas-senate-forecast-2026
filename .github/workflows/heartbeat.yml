@@ -1,0 +1,51 @@
+name: Heartbeat
+
+# GitHub often skips scheduled runs when it is busy (on Oct. 20 no scheduled refresh ran for 12 hours).
+# This job stays running and starts the refresh itself, then starts its own replacement before GitHub's
+# 6-hour job limit. The schedule below only restarts the chain if it ever breaks; the concurrency group
+# means at most one heartbeat runs and one waits, so extra starts are harmless.
+# To stop it: disable this workflow on GitHub (Actions > Heartbeat > ... > Disable workflow).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "11,41 * * * *"
+
+permissions:
+  actions: write            # start the refresh workflow and the next heartbeat
+  contents: read
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
+
+jobs:
+  beat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Start a refresh on schedule for 5.5 hours
+        run: |
+          # Central time: every 10 minutes on election night (Nov 3, 6 p.m. to 2 a.m.), every 20 minutes
+          # from 7 a.m. to 11 p.m. on early-voting days (Oct 19-30), every 3 hours otherwise.
+          interval() {
+            local md h
+            md=$(TZ=America/Chicago date +%m%d); h=$((10#$(TZ=America/Chicago date +%H)))
+            if { [ "$md" = "1103" ] && [ $h -ge 18 ]; } || { [ "$md" = "1104" ] && [ $h -lt 2 ]; }; then echo 10
+            elif [ "$md" -ge 1019 ] && [ "$md" -le 1030 ] && [ $h -ge 7 ] && [ $h -lt 23 ]; then echo 20
+            else echo 180; fi
+          }
+          end=$(( $(date +%s) + 330 * 60 )); last=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            now=$(date +%s)
+            if [ $(( now - last )) -ge $(( $(interval) * 60 - 30 )) ]; then
+              echo "$(TZ=America/Chicago date '+%a %H:%M %Z') starting refresh"
+              gh workflow run refresh.yml --ref main && last=$now || echo "could not start refresh, retrying in 5 minutes"
+            fi
+            sleep 300
+          done
+      - name: Start the next heartbeat
+        if: always()
+        run: gh workflow run heartbeat.yml --ref main

@@ -147,7 +147,7 @@ def live_data(early, c):
     for name, g in group_of.items():
         if name == "Rural Texas":
             # only rural counties whose total already includes in-person votes, so the comparison is like for like
-            es = [E[n] for n in c.county[c.region == "Rural"] if n in E and E[n]["in_person"] > 0]
+            es = [E[n] for n in c.county[c.region == "Rural"] if n in E and E[n]["in_person"] > 0 and not E[n]["missing"]]
             names = es
             ev, ip = sum(x["ev"] for x in es), sum(x["in_person"] for x in es)
             if ip <= 0:
@@ -157,7 +157,7 @@ def live_data(early, c):
                              base={"2022": sum(x["ev22_raw"] for x in es), "2018": None, "2024": None}))
             continue
         x = E.get(name)
-        if not x or x["in_person"] <= 0:
+        if not x or x["in_person"] <= 0 or x["missing"]:      # not posted, or the state's file is clearly incomplete
             continue
         lv = (live.get("counties") or {}).get(name, {})
         rows.append(dict(name=name, group=g, ev=x["ev"], in_person=x["in_person"], mail=x["mail"], today=x["today"],
