@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-10-20T22:14+00:00",
+  "generated": "2026-10-20T22:34+00:00",
   "mode": "early",
   "poll_avg": 2.4366217712860294,
   "n_polls": 60,
@@ -9,12 +9,12 @@
    "Polymarket": 0.645
   },
   "needle": 0.73728,
-  "early_total": 751402,
+  "early_total": 758226,
   "counted": {},
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-20T22:14+00:00",
+  "generated": "2026-10-20T22:34+00:00",
   "mode": "early",
   "poll_avg": -2.1978139794746054,
   "n_polls": 52,
@@ -23,7 +23,7 @@
    "Polymarket": 0.295
   },
   "needle": 0.27934,
-  "early_total": 751402,
+  "early_total": 758226,
   "counted": {},
   "expected_turnout": 10135782.280166816
  }

@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-20T22:14:01+00:00",
+ "fetched": "2026-10-20T22:34:17+00:00",
  "day": 2,
  "date": "2026-10-20",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 05:08 PM",
-   "ballots_to_date": 74954,
+   "refreshed": "Tue Oct 20 05:29 PM",
+   "ballots_to_date": 76138,
    "hourly": [
     2374,
     2465,
@@ -18,15 +18,15 @@
     3680,
     3588,
     3758,
-    3569,
-    498,
+    3566,
+    1685,
     0,
     0
    ],
    "hours_in": 11,
-   "today": 34177,
+   "today": 35361,
    "completed_hours": 10,
-   "today_completed": 33679,
+   "today_completed": 33676,
    "through": "5 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 05:10 PM",
-   "ballots_to_date": 27379,
+   "refreshed": "Tue Oct 20 05:30 PM",
+   "ballots_to_date": 27633,
    "hourly": [
     1,
     1351,
@@ -85,12 +85,12 @@
     1537,
     1511,
     1461,
-    176,
+    430,
     0,
     0
    ],
    "hours_in": 11,
-   "today": 13811,
+   "today": 14065,
    "completed_hours": 10,
    "today_completed": 13635,
    "through": "5 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Oct 20 5:00 PM",
-   "today": 47026,
-   "ballots_to_date": 124421,
+   "refreshed": "Tue Oct 20 5:30 PM",
+   "today": 52412,
+   "ballots_to_date": 129779,
    "sites": 83,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     2058
+     2335
     ],
     [
      "Fretz Park Library",
-     1782
+     1967
     ],
     [
      "Disciple Central Comm Church",
-     1520
+     1728
     ]
    ],
    "hourly": null,
