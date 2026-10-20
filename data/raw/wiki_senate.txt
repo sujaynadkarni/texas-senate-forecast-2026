@@ -3068,13 +3068,13 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |5.2%
 |{{party shading/Democratic}}|'''Talarico +2.2%'''
 |-
-|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 14, 2026 |orig-date=August 7, 2026 |access-date=October 19, 2026}}</ref>
-|through October 11, 2026
-|October 14, 2026
-|45.3%
-|{{party shading/Democratic}}|'''48.0%'''
-|6.7%
-|{{party shading/Democratic}}|'''Talarico +2.7%'''
+|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 20, 2026 |orig-date=August 7, 2026 |access-date=October 20, 2026}}</ref>
+|through October 16, 2026
+|October 20, 2026
+|46.3%
+|{{party shading/Democratic}}|'''48.6%'''
+|6.1%
+|{{party shading/Democratic}}|'''Talarico +2.3%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
 |through October 14, 2026
