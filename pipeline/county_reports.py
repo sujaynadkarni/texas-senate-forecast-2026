@@ -53,14 +53,18 @@ def parse_harris(text):
         raise ValueError("no total rows in Harris report")
     num = lambda t: int(t.replace(",", ""))
     def row(r):
-        vals = [num(t) for t in r[:-1] if not re.fullmatch(r"0{6,}", t)]
+        # days still to come are shown as "0000000000" or, since Oct. 21, as "0"
+        vals = [num(t) for t in r[:-1]]
         if sum(vals) != num(r[-1]):
             raise ValueError(f"Harris report: days {vals} do not add up to {r[-1]}")
         return vals, num(r[-1])
     (ip_days, ip), (mail_days, mail), (_, total) = row(num_rows[0]), row(num_rows[1]), row(num_rows[2])
-    if ip + mail != total or not ip_days or len(ip_days) > len(days):
+    if ip + mail != total:
         raise ValueError("Harris report: in person + mail does not match total early voters")
-    return ip, mail, days[len(ip_days) - 1], ip_days[-1]
+    n = max((i + 1 for i, v in enumerate(ip_days) if v > 0), default=0)      # days with in-person check-ins
+    if not n or n > len(days):
+        raise ValueError(f"Harris report: {n} days of check-ins for {len(days)} day columns")
+    return ip, mail, days[n - 1], ip_days[n - 1]
 
 
 def pdf_text(raw):
@@ -68,18 +72,26 @@ def pdf_text(raw):
     return "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(raw)).pages)
 
 
+def check_date(rec):
+    from zoneinfo import ZoneInfo
+    today = datetime.now(ZoneInfo("America/Chicago")).date()
+    if rec.get("through") and datetime.strptime(rec["through"], "%m/%d/%Y").date() > today:
+        raise ValueError(f"report says it runs through {rec['through']}, after today; the format may have changed")
+    return rec
+
+
 def fetch_county_reports():
     out = {}
     try:
         n, through, last, posted = parse_tarrant(pdf_text(get_bytes(TARRANT_PDF)))
-        out["Tarrant"] = dict(in_person=n, through=f"{through}/2026" if through else None, last_day=last, posted=posted,
-                              url=TARRANT_PDF, source="Tarrant County daily early-vote report")
+        out["Tarrant"] = check_date(dict(in_person=n, through=f"{through}/2026" if through else None, last_day=last,
+                                         posted=posted, url=TARRANT_PDF, source="Tarrant County daily early-vote report"))
     except Exception as e:
         out["Tarrant"] = dict(error=f"{type(e).__name__}: {e}")
     try:
         ip, mail, through, last = parse_harris(pdf_text(get_bytes(HARRIS_PDF)))
-        out["Harris"] = dict(in_person=ip, mail=mail, through=through, last_day=last, url=HARRIS_PDF,
-                             source="Harris County Clerk daily early-vote report")
+        out["Harris"] = check_date(dict(in_person=ip, mail=mail, through=through, last_day=last, url=HARRIS_PDF,
+                                        source="Harris County Clerk daily early-vote report"))
     except Exception as e:
         out["Harris"] = dict(error=f"{type(e).__name__}: {e}")
     json.dump(dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), counties=out),

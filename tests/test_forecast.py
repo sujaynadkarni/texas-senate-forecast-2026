@@ -609,6 +609,9 @@ class LiveCounties(unittest.TestCase):
         self.assertEqual(parse_harris(txt), (204570, 27549, "10/20/2026", 99911))
         with self.assertRaises(ValueError):                         # rows that don't add up must not pass
             parse_harris(txt.replace("204,570", "204,571"))
+        # Oct. 21 format: future days as "0" instead of "0000000000" (it was read as "through 10/30")
+        txt2 = txt.replace("0000000000", "0 0")
+        self.assertEqual(parse_harris(txt2), (204570, 27549, "10/20/2026", 99911))
 
     def test_tarrant_report_parser(self):
         from county_reports import parse_tarrant
