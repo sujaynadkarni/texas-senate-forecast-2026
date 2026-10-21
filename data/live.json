@@ -1,19 +1,19 @@
 {
- "fetched": "2026-10-21T16:25:49+00:00",
+ "fetched": "2026-10-21T16:45:53+00:00",
  "day": 3,
  "date": "2026-10-21",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 11:22 AM",
-   "ballots_to_date": 93780,
+   "refreshed": "Wed Oct 21 11:43 AM",
+   "ballots_to_date": 95053,
    "hourly": [
     2159,
     2478,
     3156,
     3475,
-    1376,
+    2649,
     0,
     0,
     0,
@@ -24,7 +24,7 @@
     0
    ],
    "hours_in": 5,
-   "today": 12644,
+   "today": 13917,
    "completed_hours": 4,
    "today_completed": 11268,
    "through": "11 AM",
@@ -72,14 +72,14 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 11:21 AM",
-   "ballots_to_date": 32828,
+   "refreshed": "Wed Oct 21 11:41 AM",
+   "ballots_to_date": 33347,
    "hourly": [
     1,
     1420,
     1497,
     1604,
-    576,
+    1095,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 5,
-   "today": 5098,
+   "today": 5617,
    "completed_hours": 4,
    "today_completed": 4522,
    "through": "11 AM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 21 11:00 AM",
-   "today": 12766,
-   "ballots_to_date": 155777,
+   "refreshed": "Wed Oct 21 11:30 AM",
+   "today": 14856,
+   "ballots_to_date": 157864,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     550
+     642
     ],
     [
      "Fretz Park Library",
-     512
+     601
     ],
     [
      "Rowlett Community Centre",
-     435
+     494
     ]
    ],
    "hourly": null,
