@@ -1,20 +1,20 @@
 {
- "fetched": "2026-10-21T17:06:05+00:00",
+ "fetched": "2026-10-21T17:14:57+00:00",
  "day": 3,
  "date": "2026-10-21",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 12:04 PM",
-   "ballots_to_date": 96337,
+   "refreshed": "Wed Oct 21 12:14 PM",
+   "ballots_to_date": 96981,
    "hourly": [
     2159,
     2478,
     3156,
     3475,
-    3654,
-    279,
+    3653,
+    924,
     0,
     0,
     0,
@@ -24,9 +24,9 @@
     0
    ],
    "hours_in": 6,
-   "today": 15201,
+   "today": 15845,
    "completed_hours": 5,
-   "today_completed": 14922,
+   "today_completed": 14921,
    "through": "12 PM",
    "compare": {
     "2022": {
@@ -72,15 +72,15 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 12:02 PM",
-   "ballots_to_date": 33901,
+   "refreshed": "Wed Oct 21 12:12 PM",
+   "ballots_to_date": 34180,
    "hourly": [
     1,
     1420,
     1497,
     1604,
     1594,
-    55,
+    334,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 6,
-   "today": 6171,
+   "today": 6450,
    "completed_hours": 5,
    "today_completed": 6116,
    "through": "12 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 21 11:54 AM",
-   "today": 17823,
-   "ballots_to_date": 160815,
+   "refreshed": "Wed Oct 21 12:10 PM",
+   "today": 19715,
+   "ballots_to_date": 162711,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     770
+     848
     ],
     [
      "Fretz Park Library",
-     717
+     787
     ],
     [
      "Rowlett Community Centre",
-     582
+     653
     ]
    ],
    "hourly": null,
