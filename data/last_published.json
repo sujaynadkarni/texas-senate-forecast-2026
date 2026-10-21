@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-10-21T17:56+00:00",
+  "generated": "2026-10-21T17:59+00:00",
   "mode": "early",
   "poll_avg": 2.4366217712860294,
   "n_polls": 59,
@@ -9,7 +9,7 @@
    "Polymarket": 0.645
   },
   "needle": 0.73728,
-  "early_total": 1210881,
+  "early_total": 1211020,
   "counted": {},
   "early_in_person": {
    "Anderson": 1222,
@@ -172,7 +172,7 @@
    "Mills": 367,
    "Mitchell": 141,
    "Montague": 849,
-   "Montgomery": 35280,
+   "Montgomery": 35419,
    "Moore": 291,
    "Morris": 367,
    "Motley": 71,
@@ -460,7 +460,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-21T17:56+00:00",
+  "generated": "2026-10-21T17:59+00:00",
   "mode": "early",
   "poll_avg": -2.1978139794745943,
   "n_polls": 51,
@@ -469,7 +469,7 @@
    "Polymarket": 0.315
   },
   "needle": 0.27934,
-  "early_total": 1210881,
+  "early_total": 1211020,
   "counted": {},
   "early_in_person": {
    "Anderson": 1222,
@@ -632,7 +632,7 @@
    "Mills": 367,
    "Mitchell": 141,
    "Montague": 849,
-   "Montgomery": 35280,
+   "Montgomery": 35419,
    "Moore": 291,
    "Morris": 367,
    "Motley": 71,
