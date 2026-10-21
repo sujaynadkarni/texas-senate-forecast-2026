@@ -332,6 +332,15 @@ def main():
     for o in outs.values():
         if o["early"]:
             o["early"]["turnout_effects"] = effects
+    # totals only go up: remember the highest in-person total per county for the day (see early_vote.load_floor)
+    e = next((o["early"] for o in outs.values() if o["early"]), None)
+    if e and e.get("floor_day"):
+        floor = load_json("data/ev_floor.json", {})
+        day = floor.setdefault(e["floor_day"], {})
+        for n, x in e["counties"].items():
+            if not x["missing"] and x["in_person"] > day.get(n, 0):
+                day[n] = x["in_person"]
+        json.dump(floor, open("data/ev_floor.json", "w"), separators=(",", ":"))
     os.makedirs("site", exist_ok=True)
     for k, o in outs.items():
         json.dump(o, open(f"site/data_{k}.json", "w"), separators=(",", ":"))

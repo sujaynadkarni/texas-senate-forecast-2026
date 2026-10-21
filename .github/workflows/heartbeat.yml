@@ -12,6 +12,7 @@ on:
 
 permissions:
   actions: write            # start the refresh workflow and the next heartbeat
+  issues: write             # alert if the site stops updating
   contents: read
 
 concurrency:
@@ -26,6 +27,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
     steps:
+      - uses: actions/checkout@v4
       - name: Start a refresh on schedule for 5.5 hours
         run: |
           # Central time: every 10 minutes on election night (Nov 3, 6 p.m. to 2 a.m.), every 20 minutes
@@ -48,6 +50,16 @@ jobs:
             if [ "$(TZ=America/Chicago date +%H)" = "09" ]; then
               n=$(gh run list -w primary-layer.yml -L 5 --json createdAt -q "[.[] | select(.createdAt >= \"$(date -u +%Y-%m-%d)\")] | length")
               if [ "${n:-0}" = "0" ]; then gh workflow run primary-layer.yml --ref main && echo "started primary layer"; fi
+            fi
+            # watchdog: during voting hours the site must have updated in the last hour
+            # (from 8 a.m., so the first morning refreshes have run; at most one alert every 30 minutes)
+            if [ "$(interval)" -le 20 ] && [ $((10#$(TZ=America/Chicago date +%H))) -ge 8 ] && [ $(( now - ${alerted:-0} )) -ge 1800 ]; then
+              f=$(curl -s -m 30 "https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/early.html?x=$(date +%s)" | grep -oE '"fetched":"[^"]+"' | tail -1 | cut -d'"' -f4)
+              age=$(( ( $(date +%s) - $(date -d "${f:-1970-01-01}" +%s 2>/dev/null || echo 0) ) / 60 ))
+              if [ "$age" -gt 60 ]; then
+                .github/scripts/alert.sh open "The live site's data is $age minutes old (last update ${f:-unknown} UTC)."
+                alerted=$now
+              fi
             fi
             sleep 300
           done

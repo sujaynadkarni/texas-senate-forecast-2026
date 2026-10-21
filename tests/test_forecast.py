@@ -211,12 +211,12 @@ class EarlyVote(unittest.TestCase):
         cls.c["exp_share"] = 0.5 + cls.c.rel_blend
         cls.c.loc[cls.c.exp_share < .02, "exp_share"] = .02
         # synthetic data only: ignore today's real county reports and live counts
-        cls._real = (EVm.load_reports, EVm.load_live)
-        EVm.load_reports, EVm.load_live = (lambda: {}), (lambda: None)
+        cls._real = (EVm.load_reports, EVm.load_live, EVm.load_floor)
+        EVm.load_reports, EVm.load_live, EVm.load_floor = (lambda: {}), (lambda: None), (lambda: {})
 
     @classmethod
     def tearDownClass(cls):
-        cls.EVm.load_reports, cls.EVm.load_live = cls._real
+        cls.EVm.load_reports, cls.EVm.load_live, cls.EVm.load_floor = cls._real
 
     def run_fake(self, factor):
         t22 = self.EVm.load_2022()
@@ -235,6 +235,19 @@ class EarlyVote(unittest.TestCase):
         finally:
             if saved is not None:
                 open(path, "w").write(saved)
+
+    def test_totals_never_drop_below_published(self):
+        # a partial state file (yesterday's votes missing) must not pull a county below what we already published
+        f = np.ones(len(self.c))
+        base = self.run_fake(f)["counties"]["Travis"]
+        floor = {"10/20/2026": {"Travis": base["in_person"] + 50000}}
+        real = self.EVm.load_floor
+        self.EVm.load_floor = lambda: floor
+        try:
+            t = self.run_fake(f)["counties"]["Travis"]
+        finally:
+            self.EVm.load_floor = real
+        self.assertGreaterEqual(t["in_person"], base["in_person"] + 50000 + base["today"])
 
     def test_same_pace_as_2022_reads_as_even(self):
         e = self.run_fake(np.ones(len(self.c)))
@@ -434,6 +447,16 @@ class Sanity(unittest.TestCase):
         import sanity
         cls.S = sanity
         cls.base = sanity.snapshot()
+
+    def test_county_early_total_drop_blocks(self):
+        # Oct. 20: Travis fell from 64,878 to 46,844 when the state posted 1 vote for the day. Never publish that.
+        import copy
+        prev = copy.deepcopy(self.base); cur = copy.deepcopy(self.base)
+        prev["senate"]["early_counties"] = {"Travis": 64878, "Dallas": 100000}
+        cur["senate"]["early_counties"] = {"Travis": 46844, "Dallas": 100500}
+        probs = self.S.check(prev, cur)
+        self.assertTrue(any("Travis early votes fell" in p for p in probs), probs)
+        self.assertFalse(any("Dallas" in p for p in probs))
 
     def mutate(self, **changes):
         import copy

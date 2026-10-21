@@ -5,7 +5,7 @@ Each source writes its own file under data/. If a source fails, the previous fil
 and the failure is recorded in data/fetch_log.json so the site can show which data is stale.
 Run from project root:  PYTHONPATH=pipeline python3 pipeline/fetch.py
 """
-import base64, csv, json, re, subprocess, sys, traceback
+import base64, csv, json, re, subprocess, sys, time, traceback
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
@@ -26,9 +26,16 @@ def get(url):
     return out.decode("utf-8")
 
 
-def sos_json(url):
-    d = json.loads(get(url))
-    return json.loads(base64.b64decode(d["upload"]))
+def sos_json(url, tries=4):
+    # The state's server sometimes answers with an empty body for a moment (Oct. 20, 9 p.m.); retry before failing.
+    for i in range(tries):
+        try:
+            d = json.loads(get(url))
+            return json.loads(base64.b64decode(d["upload"]))
+        except (ValueError, KeyError, subprocess.CalledProcessError):
+            if i == tries - 1:
+                raise
+            time.sleep(5 * (i + 1))
 
 
 # ---- polls -----------------------------------------------------------------------------------

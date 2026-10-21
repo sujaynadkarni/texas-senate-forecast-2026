@@ -8,7 +8,7 @@ with mail ballots leaning further toward Democrats (Harris history) and in-perso
 2022 baseline: Texas Tribune early-voting tracker (Secretary of State data, all 254 counties, 12 days).
 """
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 import numpy as np, pandas as pd
 
 EV_START = {2026: date(2026, 10, 19), 2022: date(2022, 10, 24)}
@@ -39,6 +39,16 @@ def load_live():
         return json.load(open("data/live.json"))
     except (OSError, ValueError):
         return None
+
+
+def load_floor():
+    """Highest in-person total published so far for each county and day: {"MM/DD/YYYY": {county: votes}}.
+    Written by export.py after each run. Totals can only go up, so a partial state file or a reset county
+    feed can never pull a county below what we already published."""
+    try:
+        return json.load(open("data/ev_floor.json"))
+    except (OSError, ValueError):
+        return {}
 
 
 def load_reports():
@@ -164,6 +174,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         c.loc[m, "today26"] = float(rec["last_day"]) if through == d_latest else 0.0
         c.loc[m, "report"] = True
     c["live"] = False
+    live_day = d_latest
     live = load_live()
     if live:
         live_day = datetime.strptime(live["date"], "%Y-%m-%d").date()
@@ -191,6 +202,18 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                 c.loc[m, "in26"] = total
                 c.loc[m, "today26"] = float(rec["today"])
                 c.loc[m, "live"] = True
+    # Totals only go up: never below the highest in-person total already published for this day, and never
+    # below yesterday's plus today's votes (a state file with part of yesterday must not erase it).
+    cur_day = max(d_latest, live_day) if c.live.any() else d_latest
+    floor = load_floor()
+    f_today = floor.get(cur_day.strftime("%m/%d/%Y"), {})
+    f_prev = floor.get((cur_day - timedelta(days=1)).strftime("%m/%d/%Y"), {})
+    for j, name in zip(c.index, c.county):
+        lo = max(f_today.get(name, 0), f_prev.get(name, 0) + c.at[j, "today26"])
+        if c.at[j, "in26"] < lo:
+            if f_prev.get(name) and f_today.get(name, 0) > f_prev[name]:
+                c.at[j, "today26"] = max(c.at[j, "today26"], f_today[name] - f_prev[name])
+            c.at[j, "in26"] = float(lo)
     c["ev26"] = c.in26 + c.mail26
     if c.in26.sum() == 0:
         n = 0                       # no in-person votes yet: still the mail-only stretch before early voting
@@ -328,6 +351,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                                   est_net=int(round(r.est_net)), pct=round(float(r.pct26) * 100, 2),
                                   pct22=round(float(r.pct22) * 100, 2))
     out = dict(
+        floor_day=cur_day.strftime("%m/%d/%Y"),
         as_of=latest, updated=daily[latest].get("updated"), day=n, mail_only=bool(c.in26.sum() == 0),
         total=int(c.ev26.sum()), mail=int(c.mail26.sum()), in_person=int(c.in26.sum()),
         at_2022_pace=int(c.at_2022_pace.sum()), pace=float(c.ev26[rep].sum() / max(c.at_2022_pace[rep].sum(), 1)),

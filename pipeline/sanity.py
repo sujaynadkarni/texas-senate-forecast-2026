@@ -16,6 +16,7 @@ LIMITS = dict(
     poll_count_drop=0.25,     # parsed poll count may not fall by more than 25%
     market_lo=0.01, market_hi=0.99,
     early_drop=0.02,          # early-vote total may not fall by more than 2%
+    early_county_drop=0.01,   # a county's early-vote total may not fall at all (1% and 200 votes of slack)
     county_drop=0.05,         # a county's counted votes may not fall by more than 5% (and 500 votes)
     counted_over=1.25,        # counted votes may not exceed 125% of expected turnout
     needle_pts=0.25,          # with no votes counted, the win chance may not move more than 25 points
@@ -31,6 +32,8 @@ def snapshot():
         snap[key] = dict(generated=d["generated"], mode=d["mode"], poll_avg=(2 * d["polls"]["average"] - 1) * 100,
                          n_polls=n_polls, markets={m["source"]: m["d"] for m in d["markets"]}, needle=d["needle"]["p"],
                          early_total=(d.get("early") or {}).get("total", 0), counted=counted,
+                         early_counties={n: x["ev"] for n, x in ((d.get("early") or {}).get("counties") or {}).items()
+                                         if not x.get("missing")},
                          expected_turnout=d["forecast"]["turnout"])
     return snap
 
@@ -54,6 +57,10 @@ def check(prev, cur):
             problems.append(f"{name}: poll count fell {p['n_polls']} -> {c['n_polls']} (poll page may have changed)")
         if p["early_total"] and c["early_total"] < (1 - LIMITS["early_drop"]) * p["early_total"]:
             problems.append(f"{name}: early-vote total fell {p['early_total']:,} -> {c['early_total']:,}")
+        for county, v in (p.get("early_counties") or {}).items():
+            now = c["early_counties"].get(county)
+            if now is not None and v - now > max(200, LIMITS["early_county_drop"] * v):
+                problems.append(f"{name}: {county} early votes fell {v:,} -> {now:,} (totals can only go up)")
         for county, v in p["counted"].items():
             now = c["counted"].get(county, 0)
             if v - now > max(500, LIMITS["county_drop"] * v):

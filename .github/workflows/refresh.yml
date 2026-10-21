@@ -23,6 +23,7 @@ on:
 
 permissions:
   actions: write            # start the heartbeat if it is not running
+  issues: write             # open an alert issue when a refresh fails, close it when one succeeds
   contents: write           # save each day's data back to the repo
   pages: write
   id-token: write
@@ -56,7 +57,7 @@ jobs:
 
       # fetch -> model -> build -> 40+ regression tests; exits non-zero (and nothing is published) if any test fails
       - name: Refresh, test and sanity-check
-        run: ./refresh.sh
+        run: ./refresh.sh 2>&1 | tee refresh.log; exit ${PIPESTATUS[0]}
         env:
           SANITY_OVERRIDE: ${{ inputs.override_sanity && '1' || '' }}
 
@@ -76,6 +77,23 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
+
+      - name: Alert if this refresh failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          why=$(grep -hE "SANITY:|FAIL|Error" refresh.log 2>/dev/null | head -8)
+          .github/scripts/alert.sh open "A refresh failed, so nothing was published.
+          ${why:-See the run log.}"
+
+      - name: Clear the alert
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: .github/scripts/alert.sh close "Refresh succeeded; the site is updating again."
 
   deploy:
     needs: refresh
