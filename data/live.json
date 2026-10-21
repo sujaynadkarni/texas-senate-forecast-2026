@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-21T22:13:06+00:00",
+ "fetched": "2026-10-21T22:15:38+00:00",
  "day": 3,
  "date": "2026-10-21",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 05:10 PM",
-   "ballots_to_date": 114671,
+   "refreshed": "Wed Oct 21 05:15 PM",
+   "ballots_to_date": 114952,
    "hourly": [
     2159,
     2478,
@@ -19,12 +19,12 @@
     3644,
     3612,
     3452,
-    549,
+    830,
     0,
     0
    ],
    "hours_in": 11,
-   "today": 33535,
+   "today": 33816,
    "completed_hours": 10,
    "today_completed": 32986,
    "through": "5 PM",
@@ -149,7 +149,7 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 21 5:12 PM",
+   "refreshed": "Wed Oct 21 5:15 PM",
    "today": 45708,
    "ballots_to_date": 188694,
    "sites": 84,
