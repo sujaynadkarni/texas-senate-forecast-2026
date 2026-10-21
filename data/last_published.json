@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-21T22:56+00:00",
+  "generated": "2026-10-21T23:07+00:00",
   "mode": "early",
   "poll_avg": 2.443268139288257,
   "n_polls": 62,
   "markets": {
-   "Kalshi": 0.66,
+   "Kalshi": 0.68,
    "Polymarket": 0.675
   },
   "needle": 0.7379,
-  "early_total": 1365628,
+  "early_total": 1365947,
   "counted": {},
   "early_in_person": {
    "Anderson": 1222,
@@ -177,7 +177,7 @@
    "Mills": 367,
    "Mitchell": 141,
    "Montague": 849,
-   "Montgomery": 42119,
+   "Montgomery": 42135,
    "Moore": 291,
    "Morris": 367,
    "Motley": 71,
@@ -234,7 +234,7 @@
    "Throckmorton": 36,
    "Titus": 760,
    "Tom Green": 2620,
-   "Travis": 117309,
+   "Travis": 117612,
    "Trinity": 583,
    "Tyler": 470,
    "Upshur": 1109,
@@ -478,16 +478,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-21T22:56+00:00",
+  "generated": "2026-10-21T23:07+00:00",
   "mode": "early",
   "poll_avg": -2.3378655309331586,
   "n_polls": 54,
   "markets": {
-   "Kalshi": 0.32,
+   "Kalshi": 0.33,
    "Polymarket": 0.315
   },
   "needle": 0.26834,
-  "early_total": 1365628,
+  "early_total": 1365947,
   "counted": {},
   "early_in_person": {
    "Anderson": 1222,
@@ -655,7 +655,7 @@
    "Mills": 367,
    "Mitchell": 141,
    "Montague": 849,
-   "Montgomery": 42119,
+   "Montgomery": 42135,
    "Moore": 291,
    "Morris": 367,
    "Motley": 71,
@@ -712,7 +712,7 @@
    "Throckmorton": 36,
    "Titus": 760,
    "Tom Green": 2620,
-   "Travis": 117309,
+   "Travis": 117612,
    "Trinity": 583,
    "Tyler": 470,
    "Upshur": 1109,
