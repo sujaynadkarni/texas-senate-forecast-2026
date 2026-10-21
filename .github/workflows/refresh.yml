@@ -7,9 +7,9 @@ on:
     - cron: "17 12 * * *"
     - cron: "17 17 * * *"
     - cron: "17 0 * * *"
-    # Early voting days (Oct 19-30): every 20 minutes, 8 a.m. to 10 p.m. Central, as counties post turnout
-    - cron: "3,23,43 13-23 19-30 10 *"
-    - cron: "3,23,43 0-3 20-31 10 *"
+    # Early voting days (Oct 19-30): every hour, 8 a.m. to 10 p.m. Central (backup; the heartbeat starts these)
+    - cron: "3 13-23 19-30 10 *"
+    - cron: "3 0-3 20-31 10 *"
     # Election night, Nov 3 (Central Standard Time): every 10 minutes from 7 p.m. to 1 a.m. Central
     - cron: "3-59/10 1-7 4 11 *"
   workflow_dispatch:        # "Run workflow" button on GitHub

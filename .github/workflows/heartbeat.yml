@@ -30,13 +30,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Start a refresh on schedule for 5.5 hours
         run: |
-          # Central time: every 10 minutes on election night (Nov 3, 6 p.m. to 2 a.m.), every 20 minutes
+          # Central time: every 10 minutes on election night (Nov 3, 6 p.m. to 2 a.m.), every hour
           # from 7 a.m. to 11 p.m. on early-voting days (Oct 19-30), every 3 hours otherwise.
           interval() {
             local md h
             md=$(TZ=America/Chicago date +%m%d); h=$((10#$(TZ=America/Chicago date +%H)))
             if { [ "$md" = "1103" ] && [ $h -ge 18 ]; } || { [ "$md" = "1104" ] && [ $h -lt 2 ]; }; then echo 10
-            elif [ "$md" -ge 1019 ] && [ "$md" -le 1030 ] && [ $h -ge 7 ] && [ $h -lt 23 ]; then echo 20
+            elif [ "$md" -ge 1019 ] && [ "$md" -le 1030 ] && [ $h -ge 7 ] && [ $h -lt 23 ]; then echo 60
             else echo 180; fi
           }
           end=$(( $(date +%s) + 330 * 60 )); last=0
@@ -51,12 +51,12 @@ jobs:
               n=$(gh run list -w primary-layer.yml -L 5 --json createdAt -q "[.[] | select(.createdAt >= \"$(date -u +%Y-%m-%d)\")] | length")
               if [ "${n:-0}" = "0" ]; then gh workflow run primary-layer.yml --ref main && echo "started primary layer"; fi
             fi
-            # watchdog: during voting hours the site must have updated in the last hour
+            # watchdog: during voting hours the site must have updated within two refresh intervals (plus 30 minutes)
             # (from 8 a.m., so the first morning refreshes have run; at most one alert every 30 minutes)
-            if [ "$(interval)" -le 20 ] && [ $((10#$(TZ=America/Chicago date +%H))) -ge 8 ] && [ $(( now - ${alerted:-0} )) -ge 1800 ]; then
+            if [ "$(interval)" -le 60 ] && [ $((10#$(TZ=America/Chicago date +%H))) -ge 9 ] && [ $(( now - ${alerted:-0} )) -ge 1800 ]; then
               f=$(curl -s -m 30 "https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/early.html?x=$(date +%s)" | grep -oE '"fetched":"[^"]+"' | tail -1 | cut -d'"' -f4)
               age=$(( ( $(date +%s) - $(date -d "${f:-1970-01-01}" +%s 2>/dev/null || echo 0) ) / 60 ))
-              if [ "$age" -gt 60 ]; then
+              if [ "$age" -gt $(( 2 * $(interval) + 30 )) ]; then
                 .github/scripts/alert.sh open "The live site's data is $age minutes old (last update ${f:-unknown} UTC)."
                 alerted=$now
               fi
