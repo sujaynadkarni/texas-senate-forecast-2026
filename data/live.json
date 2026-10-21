@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-21T19:36:28+00:00",
+ "fetched": "2026-10-21T19:56:34+00:00",
  "day": 3,
  "date": "2026-10-21",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 02:34 PM",
-   "ballots_to_date": 105530,
+   "refreshed": "Wed Oct 21 02:55 PM",
+   "ballots_to_date": 106769,
    "hourly": [
     2159,
     2478,
@@ -15,8 +15,8 @@
     3475,
     3652,
     3712,
-    3645,
-    2117,
+    3646,
+    3355,
     0,
     0,
     0,
@@ -24,9 +24,9 @@
     0
    ],
    "hours_in": 8,
-   "today": 24394,
+   "today": 25633,
    "completed_hours": 7,
-   "today_completed": 22277,
+   "today_completed": 22278,
    "through": "2 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 02:34 PM",
-   "ballots_to_date": 38006,
+   "refreshed": "Wed Oct 21 02:54 PM",
+   "ballots_to_date": 38550,
    "hourly": [
     1,
     1420,
@@ -82,7 +82,7 @@
     1594,
     1622,
     1623,
-    915,
+    1459,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 8,
-   "today": 10276,
+   "today": 10820,
    "completed_hours": 7,
    "today_completed": 9361,
    "through": "2 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 21 2:09 PM",
-   "today": 28232,
-   "ballots_to_date": 171276,
+   "refreshed": "Wed Oct 21 2:54 PM",
+   "today": 34837,
+   "ballots_to_date": 177841,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1238
+     1576
     ],
     [
      "Fretz Park Library",
-     1115
+     1409
     ],
     [
-     "Rowlett Community Centre",
-     897
+     "University Park Umc",
+     1104
     ]
    ],
    "hourly": null,
