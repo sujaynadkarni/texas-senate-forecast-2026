@@ -15,6 +15,7 @@ import io
 import json
 import re
 import subprocess
+import time
 from datetime import datetime, timezone
 
 HARRIS_PDF = "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf"
@@ -29,10 +30,12 @@ def get_bytes(url, referer=None):
     cmd = ["curl", "-sL", "-f", "-m", "60", "-A", BROWSER_UA, "-H", "Accept: text/html,application/pdf,*/*"]
     if referer:
         cmd += ["-e", referer]
-    out = subprocess.run(cmd + [url], capture_output=True, check=True).stdout
-    if not out:
-        raise ValueError(f"empty response from {url}")
-    return out
+    for attempt in range(3):                     # county sites hiccup (Denton and Collin, Oct. 21, 4:16 p.m.)
+        r = subprocess.run(cmd + [url], capture_output=True)
+        if r.returncode == 0 and r.stdout:
+            return r.stdout
+        time.sleep(5 * (attempt + 1))
+    raise ValueError(f"no response from {url} after 3 tries (curl exit {r.returncode})")
 
 
 def links(page_url, pattern):
@@ -194,6 +197,20 @@ def fetch_comal(cache):
                 source="Comal County daily in-person voter lists (counted)")
 
 
+def keep_last_good(out, prev):
+    """A county whose source failed this run keeps its last good report (marked with when it last worked), so a
+    website hiccup doesn't drop it back to the state's older numbers. The error stays visible to the lag check."""
+    for name, rec in out.items():
+        old = (prev or {}).get(name, {})
+        if rec.get("error") and old.get("in_person"):
+            out[name] = dict(old, error=rec["error"], stale=True, last_good=old.get("last_good") or prev_fetched(prev))
+    return out
+
+
+def prev_fetched(prev):
+    return (prev or {}).get("__fetched")
+
+
 def fetch_county_reports():
     out = {}
     try:
@@ -209,14 +226,17 @@ def fetch_county_reports():
     except Exception as e:
         out["Harris"] = dict(error=f"{type(e).__name__}: {e}")
     try:
-        prev_cache = json.load(open("data/county_reports.json")).get("comal_cache", {})
+        prev_all = json.load(open("data/county_reports.json"))
     except (OSError, ValueError):
-        prev_cache = {}
+        prev_all = {}
+    prev_cache = prev_all.get("comal_cache", {})
     for name, fn in (("Denton", fetch_denton), ("Collin", fetch_collin), ("Comal", lambda: fetch_comal(prev_cache))):
         try:
             out[name] = check_date(fn())
         except Exception as e:
             out[name] = dict(error=f"{type(e).__name__}: {e}")
+    prev = dict(prev_all.get("counties") or {}, __fetched=prev_all.get("fetched"))
+    out = keep_last_good(out, prev)
     json.dump(dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), counties=out, comal_cache=prev_cache),
               open("data/county_reports.json", "w"), indent=1)
     return ", ".join(f"{k} {v['in_person']:,} through {v['through']}" if "in_person" in v else f"{k} {v['error']}"

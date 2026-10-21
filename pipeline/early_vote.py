@@ -175,7 +175,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                                      source=rec.get("source"))
     for name, rec in reports.items():
         m = c.county == name
-        if rec.get("error") or not rec.get("through") or not m.any() or (
+        if (rec.get("error") and not rec.get("stale")) or not rec.get("through") or not m.any() or (
                 rec["in_person"] <= float(c.loc[m, "in26"].iloc[0]) and rec.get("mail", 0) <= float(c.loc[m, "mail26"].iloc[0])):
             continue
         through = datetime.strptime(rec["through"], "%m/%d/%Y").date()

@@ -621,6 +621,14 @@ class LiveCounties(unittest.TestCase):
             R.parse_collin(col.replace("3,170", "3,171"))           # sites must add up to the total
         self.assertEqual(R.count_voter_ids("1 SMITH, A 1012345678 101\n2 DOE, B 2098765432 205\n3 DOE, B 2098765432\n"), 2)
 
+    def test_failed_county_source_keeps_last_good_report(self):
+        import county_reports as R
+        prev = {"Denton": dict(in_person=66303, mail=3725, through="10/20/2026", last_day=31563), "__fetched": "t0"}
+        out = R.keep_last_good({"Denton": dict(error="curl exit 22")}, prev)
+        self.assertEqual(out["Denton"]["in_person"], 66303)
+        self.assertTrue(out["Denton"]["stale"])
+        self.assertIn("error", out["Denton"])                         # still reported to the lag check
+
     def test_lag_check(self):
         from datetime import datetime
         import lag_check
