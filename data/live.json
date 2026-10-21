@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-21T02:51:04+00:00",
+ "fetched": "2026-10-21T02:54:26+00:00",
  "day": 2,
  "date": "2026-10-20",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 09:47 PM",
+   "refreshed": "Tue Oct 20 09:52 PM",
    "ballots_to_date": 81136,
    "hourly": [
     2374,
