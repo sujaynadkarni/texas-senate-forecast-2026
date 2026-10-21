@@ -41,6 +41,13 @@ def load_live():
         return None
 
 
+def load_reports():
+    try:
+        return json.load(open("data/county_reports.json"))["counties"]
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
 def day_number(d):
     return max(0, (d - EV_START[2026]).days + 1)
 
@@ -145,10 +152,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     # Official county reports that are ahead of the state's file (Tarrant's morning PDF): use them where the
     # state's in-person count for that county is lower.
     c["report"] = False
-    try:
-        reports = json.load(open("data/county_reports.json"))["counties"]
-    except (OSError, ValueError, KeyError):
-        reports = {}
+    reports = load_reports()
     for name, rec in reports.items():
         m = c.county == name
         if rec.get("error") or not rec.get("through") or not m.any() or rec["in_person"] <= float(c.loc[m, "in26"].iloc[0]):
@@ -167,11 +171,24 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
             if live_day > d_latest:                      # the state has no file for today yet
                 c["today26"] = 0.0
                 n = day_number(live_day)
+            # Official in-person total through the day before the live day. When the state already has a file for
+            # the live day, it may hold part of that day (Travis: 1 vote; Bexar: part of the day with "0 today"),
+            # so start from the previous day's file rather than add on top and double count.
+            prev = daily[dates[-2]]["counties"] if live_day == d_latest and len(dates) > 1 else None
             for name, rec in live["counties"].items():
                 m = c.county == name
-                if rec.get("error") or not rec.get("today") or not m.any() or float(c.loc[m, "today26"].iloc[0]) > 0:
+                if rec.get("error") or not rec.get("today") or not m.any():
                     continue
-                c.loc[m, "in26"] = c.loc[m, "in26"] + rec["today"]
+                if live_day > d_latest:
+                    base = float(c.loc[m, "in26"].iloc[0])
+                elif prev is not None:
+                    base = float(prev.get(name, [0, 0, 0])[0])
+                else:
+                    base = float(c.loc[m, "in26"].iloc[0] - c.loc[m, "today26"].iloc[0])
+                total = base + rec["today"]
+                if total <= float(c.loc[m, "in26"].iloc[0]):
+                    continue                             # the official count is already ahead of the live one
+                c.loc[m, "in26"] = total
                 c.loc[m, "today26"] = float(rec["today"])
                 c.loc[m, "live"] = True
     c["ev26"] = c.in26 + c.mail26
@@ -230,7 +247,9 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     if n >= 1:
         in22 = (c.ev22 - c.mail22) * np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
         mail22 = c.mail22 * np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
-        c["missing"] = c.missing | ((in22 > 500) & (c.in26 < 0.25 * in22)) | ((mail22 > 500) & (c.mail26 < 0.25 * mail22))
+        # 50%: partial uploads have shown up at 30-45% of 2022 (El Paso, Collin, Fort Bend on day 2) while every
+        # complete county is running near or above 2022
+        c["missing"] = c.missing | ((in22 > 500) & (c.in26 < 0.5 * in22)) | ((mail22 > 500) & (c.mail26 < 0.5 * mail22))
 
     # partisan read of the ballots cast so far
     s = c[share_col].values

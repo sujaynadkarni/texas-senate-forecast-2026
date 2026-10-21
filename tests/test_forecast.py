@@ -210,6 +210,13 @@ class EarlyVote(unittest.TestCase):
         cls.c, _ = S.build(load())
         cls.c["exp_share"] = 0.5 + cls.c.rel_blend
         cls.c.loc[cls.c.exp_share < .02, "exp_share"] = .02
+        # synthetic data only: ignore today's real county reports and live counts
+        cls._real = (EVm.load_reports, EVm.load_live)
+        EVm.load_reports, EVm.load_live = (lambda: {}), (lambda: None)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.EVm.load_reports, cls.EVm.load_live = cls._real
 
     def run_fake(self, factor):
         t22 = self.EVm.load_2022()
