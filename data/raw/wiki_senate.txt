@@ -3154,8 +3154,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |October 9–11, 2026
 |854 (LV)
 |±{{nbsp}}3.6%
-|'''47%'''
-|'''47%'''
+|{{party shading/Tie}} |'''47%'''
+|{{party shading/Tie}} |'''47%'''
 |2%
 |{{sdash}}
 |4%
@@ -3270,8 +3270,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |September 18–28, 2026
 |850 (LV)
 |±{{nbsp}}4.5%
-|'''45%'''
-|'''45%'''
+|{{party shading/Tie}} |'''45%'''
+|{{party shading/Tie}} |'''45%'''
 |2%
 |2%{{efn|"Another candidate" with 1%; "Will not vote" with 1%}}
 |7%
@@ -3319,8 +3319,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |September 22–24, 2026 
 |856 (LV)
 |± 3.5%
-|'''48%'''
-|'''48%'''
+|{{party shading/Tie}} |'''48%'''
+|{{party shading/Tie}} |'''48%'''
 |{{sdash}}
 |{{sdash}}
 |4%
@@ -3439,8 +3439,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |rowspan=2|August 24–26, 2026 
 |rowspan=2|1,167 (LV)
 |rowspan=2|±{{nbsp}}2.9%
-|'''50%'''{{efn|name=lean}}
-|'''50%'''
+|{{party shading/Tie}} |'''50%'''{{efn|name=lean}}
+|{{party shading/Tie}} |'''50%'''
 |{{sdash}}
 |{{sdash}}
 |{{sdash}}
@@ -3545,8 +3545,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |June 19–27, 2026
 |656 (LV)
 |±{{nbsp}}4.5%
-|'''47%'''
-|'''47%'''
+|{{party shading/Tie}} |'''47%'''
+|{{party shading/Tie}} |'''47%'''
 |{{sdash}}
 |<1%
 |6%
@@ -3585,8 +3585,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |June 1–4, 2026
 |807 (LV)
 |±{{nbsp}}4.0%
-|'''46%'''
-|'''46%'''
+|{{party shading/Tie}} |'''46%'''
+|{{party shading/Tie}} |'''46%'''
 |{{sdash}}
 |4%{{Efn|"Someone else" with 3%; "Wouldn't vote" with 1%}}
 |5%
@@ -3619,8 +3619,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |April 22 – May 6, 2026
 |1,223 (LV)
 |±{{nbsp}}2.8%
-|'''45%'''
-|'''45%'''
+|{{party shading/Tie}} |'''45%'''
+|{{party shading/Tie}} |'''45%'''
 |2%
 |{{sdash}}
 |8%
@@ -3683,8 +3683,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |January 10–12, 2026
 |1,165 (RV)
 |±{{nbsp}}2.8%
-|'''46%'''
-|'''46%'''
+|{{party shading/Tie}} |'''46%'''
+|{{party shading/Tie}} |'''46%'''
 |{{sdash}}
 |{{sdash}}
 |9%
@@ -3693,8 +3693,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |November 12–17, 2025
 |1,000 (LV)
 |±{{nbsp}}3.0%
-|'''44%'''
-|'''44%'''
+|{{party shading/Tie}} |'''44%'''
+|{{party shading/Tie}} |'''44%'''
 |{{sdash}}
 |{{sdash}}
 |12%
@@ -3943,8 +3943,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |January 10–12, 2026
 |1,165 (RV)
 |±{{nbsp}}2.8%
-|'''46%'''
-|'''46%'''
+|{{party shading/Tie}} |'''46%'''
+|{{party shading/Tie}} |'''46%'''
 |{{sdash}}
 |9%
 |-
