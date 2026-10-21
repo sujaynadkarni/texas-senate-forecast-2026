@@ -181,6 +181,9 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .gdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
 .gdot.dem { background: var(--dem); } .gdot.battle { background: var(--battle); } .gdot.rep { background: var(--rep); }
 .gdot.lean-rep { background: var(--rep-3); } .gdot.none { background: #b9b9b4; }
+.src-box { margin-top: 10px; font: 14px var(--sans); }
+.src-box summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
+#src-table td, #src-table th { text-align: left; white-space: normal; }
 .verdict { font: 800 24px/1.25 var(--sans); margin: 6px 0 16px; text-wrap: balance; }
 .race-bars { display: grid; gap: 14px; max-width: 640px; }
 .race-bar .lab { display: flex; justify-content: space-between; gap: 12px; font: 15px var(--sans); margin-bottom: 4px; }
@@ -335,6 +338,8 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       </div>
       <div class="tbl-scroll"><table id="live-table"></table></div>
       <p class="note" id="live-note"></p>
+      <details class="src-box"><summary>Where each county's numbers come from</summary>
+        <div class="tbl-scroll"><table id="src-table"></table></div></details>
     </section>
     <section class="col-wide" id="tilt-sec" hidden>
       <div class="rule-top"><h2>Which party's voters are turning out faster?</h2>
@@ -1032,6 +1037,15 @@ function liveView() {
     const waiting = (g === "all" ? Object.values(L.groups).flat() : L.groups[g]).filter((n) => !L.rows.some((r) => r.name === n));
     $("#live-note").textContent = `Early votes so far = in-person plus mail ballots since early voting began, including today's unofficial county counts where the state hasn't posted yet. "vs. 2022" compares each county with 2022 through the same day of early voting as its latest numbers (shown as "day N"). Counties report on different schedules, so a county whose latest report is day 1 is compared with 2022's day 1. 2024 mail totals by county aren't available, so 2024 shows "–". ${waiting.length ? "Not posted yet: " + waiting.join(", ") + ". " : ""}Last checked ${fmtDate(L.fetched)}.`;
   };
+  if (L.sources) {
+    let t = `<thead><tr><th>County</th><th>Source</th><th>Latest day</th></tr></thead><tbody>`;
+    for (const x of L.sources) {
+      const src = x.url ? `<a href="${x.url}" target="_blank" rel="noopener">${x.source}</a>` : x.source;
+      const day = x.note ? x.note : x.through_day ? `day ${x.through_day}${x.through_day < L.day - 1 ? ` <span class="sub">(missing ${L.day - 1 - x.through_day === 1 ? "yesterday" : `the last ${L.day - 1 - x.through_day} days`})</span>` : ""}` : "–";
+      t += `<tr class="${x.group}"><td class="name">${x.name}</td><td>${src}</td><td>${day}</td></tr>`;
+    }
+    $("#src-table").innerHTML = t + "</tbody>";
+  }
   const tabs = [...document.querySelectorAll("#live-tabs button")];
   tabs.forEach((b) => b.addEventListener("click", () => { tabs.forEach((x) => x.setAttribute("aria-selected", x === b)); draw(b.dataset.g); }));
   draw("all");

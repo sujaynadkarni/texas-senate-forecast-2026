@@ -604,6 +604,35 @@ class LiveCounties(unittest.TestCase):
         raw = json.dumps(json.load(open("data/primary_layer.json")))
         self.assertNotRegex(raw, r"\b\d{10}\b")                     # no voter IDs saved, totals only
 
+    def test_denton_collin_comal_parsers(self):
+        import county_reports as R
+        den = ("NOVEMBER 3, 2026 GENERAL ELECTION\nVOTING BY PERSONAL APPEARANCE\n10/19 10/20 Total\n"
+               "Daily Totals / Election Total 34740 31563 66303\nEarly\nArgyle Town Hall 586 498 1084\n")
+        self.assertEqual(R.parse_denton_inperson(den), (66303, "10/20/2026", 31563))
+        with self.assertRaises(ValueError):
+            R.parse_denton_inperson(den.replace("66303", "66304"))
+        mail = "10/07 10/08 10/20 Total\n Denton County 394 399 1 794\nState Rep.\n"
+        self.assertEqual(R.parse_denton_mail(mail), 794)
+        col = ("Check-in Summary by Polling Place Within Date Range\nCheck-in Date Range: 10/19/2026 through 10/21/2026\n"
+               "EV036, The Grove at Frisco Commons EV036\n1,446\nEV038, Wylie Community Park Center EV038\n1,724\n"
+               "Total\n3,170\nReport Date: 10/21/2026 12:20:01\n")
+        self.assertEqual(R.parse_collin(col), (3170, "10/21/2026"))
+        with self.assertRaises(ValueError):
+            R.parse_collin(col.replace("3,170", "3,171"))           # sites must add up to the total
+        self.assertEqual(R.count_voter_ids("1 SMITH, A 1012345678 101\n2 DOE, B 2098765432 205\n3 DOE, B 2098765432\n"), 2)
+
+    def test_lag_check(self):
+        from datetime import datetime
+        import lag_check
+        L = {"day": 3, "sources": [
+            dict(name="Dallas", shown=True, through_day=3, source="live"),
+            dict(name="Smith", shown=True, through_day=1, source="state"),
+            dict(name="El Paso", shown=False, through_day=None, source="state", note="incomplete"),
+            dict(name="Rural Texas", shown=True, through_day=None, source="state")]}
+        noon = lag_check.behind(L, datetime(2026, 10, 21, 13, 0))
+        self.assertEqual([x.split(":")[0] for x in noon], ["Smith", "El Paso"])
+        self.assertEqual(lag_check.behind(L, datetime(2026, 10, 21, 9, 0)), [])   # mornings: normal overnight lag
+
     def test_harris_report_parser(self):
         from county_reports import parse_harris
         txt = ("Monday Tuesday Wednesday\n19-Oct 20-Oct 21-Oct 22-Oct\n7am-7pm 7am-7pm\n"

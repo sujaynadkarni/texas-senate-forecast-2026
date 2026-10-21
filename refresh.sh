@@ -10,4 +10,5 @@ echo "== 3/4 build";  python3 pipeline/build_site.py && python3 pipeline/share_c
 echo "== 4/4 tests";  python3 -m unittest tests/test_forecast.py 2>&1 | tail -3
 python3 -m unittest -q tests/test_forecast.py >/dev/null 2>&1 || { echo "TESTS FAILED - do not publish"; exit 1; }
 echo "== sanity";     python3 pipeline/sanity.py
+echo "== lag";        python3 pipeline/lag_check.py || echo "(lag check failed; not blocking)"
 echo "READY TO PUBLISH: public/ (index, governor, early)"

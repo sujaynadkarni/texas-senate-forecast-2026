@@ -133,6 +133,9 @@ def nowcast(c, res, results):
                 complete_counties=int((frac >= 1.0).sum()), T=T, P=P, frac=frac)
 
 
+SOS_EV_URL = "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr"
+
+
 def live_data(early, c):
     """Key counties, cumulative early votes so far (in person + mail), from the same county numbers the rest of
     the site uses (state counts plus county live counts for today). Compared with the same point of early voting
@@ -165,7 +168,28 @@ def live_data(early, c):
                          live=x.get("live", False), refreshed=lv.get("refreshed") if x.get("live") else None,
                          url=lv.get("url") or (reports.get(name, {}).get("url") if x.get("report") else None),
                          report=x.get("report", False), mail_missing=x.get("mail_missing", False), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
-    return dict(fetched=live.get("fetched"), day=early["day"], groups=KEY_COUNTIES, rows=rows)
+    # where each key county's numbers come from, and how current they are (shown under Live today; also used by
+    # pipeline/lag_check.py)
+    sources = []
+    for name, g in group_of.items():
+        if name == "Rural Texas":
+            sources.append(dict(name=name, group=g, source="Texas Secretary of State (daily file)", url=SOS_EV_URL,
+                                through_day=None, shown=True))
+            continue
+        x = E.get(name, {})
+        lv = (live.get("counties") or {}).get(name, {})
+        rep = reports.get(name, {})
+        if x.get("live"):
+            src, url = lv.get("source", "county live tracker"), lv.get("url")
+        elif x.get("report"):
+            src = rep.get("source") or lv.get("source") or "county report"
+            url = rep.get("url") or lv.get("url")
+        else:
+            src, url = "Texas Secretary of State (daily file)", SOS_EV_URL
+        sources.append(dict(name=name, group=g, source=src, url=url, through_day=x.get("through_day"),
+                            shown=bool(x) and not x.get("missing") and x.get("in_person", 0) > 0,
+                            note="state's numbers look incomplete; not shown" if x.get("missing") else None))
+    return dict(fetched=live.get("fetched"), day=early["day"], groups=KEY_COUNTIES, rows=rows, sources=sources)
 
 
 def run_race(key, now, turnout, results_all, markets_all, fetch_log):

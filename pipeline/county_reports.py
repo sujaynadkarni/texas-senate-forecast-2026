@@ -2,6 +2,9 @@
 
   Harris   "Daily Record of Early Voting Check-ins" PDF, updated each evening: in-person check-ins per day and
            mail ballots received (the state's file had Harris at 30,460 in person after day 2; the county, 204,570).
+  Denton   daily "Early Voting Totals by Location" and "Returned Mail Ballot Totals" PDFs
+  Collin   "Totals by Site Through <date>" PDF (includes today's check-ins so far)
+  Comal    daily lists of in-person voters, counted (only the count is kept)
   Tarrant  "Early Voting In Person Totals" PDF, posted each morning with the in-person total through the
            previous day (the state's file had Tarrant at 16 in-person votes on day 1; the county reported 50,409).
 
@@ -18,9 +21,31 @@ HARRIS_PDF = "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA
 TARRANT_PDF = "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/ev_reports/Early_Voting_Daily_Totals.pdf"
 
 
-def get_bytes(url):
-    return subprocess.run(["curl", "-sL", "-f", "-m", "60", "-A", "Mozilla/5.0 (tx-senate-forecast)", url],
-                          capture_output=True, check=True).stdout
+BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+
+def get_bytes(url, referer=None):
+    # some county sites (Denton) refuse requests that don't look like a browser
+    cmd = ["curl", "-sL", "-f", "-m", "60", "-A", BROWSER_UA, "-H", "Accept: text/html,application/pdf,*/*"]
+    if referer:
+        cmd += ["-e", referer]
+    out = subprocess.run(cmd + [url], capture_output=True, check=True).stdout
+    if not out:
+        raise ValueError(f"empty response from {url}")
+    return out
+
+
+def links(page_url, pattern):
+    """(link text, absolute URL) for links on a county page whose text or address matches pattern."""
+    from urllib.parse import urljoin
+    import html as H
+    page = get_bytes(page_url).decode("utf-8", "ignore")
+    out = []
+    for href, text in re.findall(r'href=["\']([^"\']+)["\'][^>]*>(.{0,300}?)</a>', page, re.S):
+        text = H.unescape(re.sub(r"<[^>]+>|\s+", " ", text)).strip()
+        if re.search(pattern, text + " " + href, re.I):
+            out.append((text, urljoin(page_url, H.unescape(href))))
+    return out
 
 
 def parse_tarrant(text):
@@ -80,6 +105,95 @@ def check_date(rec):
     return rec
 
 
+DENTON_PAGE = "https://www.votedenton.gov/early-voting-election-day-rosters/"
+COLLIN_PAGE = "https://www.collincountytx.gov/elections/rosters"
+COMAL_PAGE = "https://www.comalcounty.gov/264/Archived-Data"
+
+
+def parse_denton_inperson(text):
+    """'10/19 10/20 Total' then 'Daily Totals / Election Total 34740 31563 66303'. Returns (in_person, last day
+    'MM/DD/2026', that day's votes)."""
+    head = next((ln for ln in text.splitlines() if re.match(r"\s*\d{1,2}/\d{1,2}(\s+\d{1,2}/\d{1,2})*\s+Total", ln)), "")
+    days = re.findall(r"\d{1,2}/\d{1,2}", head)
+    m = re.search(r"Daily Totals / Election Total\s+([\d,\s]+)", text)
+    if not days or not m:
+        raise ValueError("no totals row in Denton report")
+    vals = [int(v.replace(",", "")) for v in m.group(1).split()][:len(days) + 1]
+    if len(vals) != len(days) + 1 or sum(vals[:-1]) != vals[-1]:
+        raise ValueError(f"Denton report: days {vals[:-1]} do not add up to {vals[-1:]}")
+    return vals[-1], f"{days[-1]}/2026", vals[-2]
+
+
+def parse_denton_mail(text):
+    """Row ' Denton County 394 399 ... 3725': mail ballots returned per day, then the total."""
+    m = re.search(r"Denton County\s+([\d,\s]+)", text)
+    if not m:
+        raise ValueError("no county row in Denton mail report")
+    vals = [int(v.replace(",", "")) for v in m.group(1).split()]
+    if sum(vals[:-1]) != vals[-1]:
+        raise ValueError("Denton mail report does not add up")
+    return vals[-1]
+
+
+def parse_collin(text):
+    """'Check-in Date Range: 10/19/2026 through 10/21/2026' ... 'Total' / '82,478'. Returns (in_person, through)."""
+    rng = re.search(r"Check-in Date Range:\s*(\d{1,2}/\d{1,2}/\d{4})\s+through\s+(\d{1,2}/\d{1,2}/\d{4})", text)
+    tot = re.findall(r"\bTotal\s*\n\s*([\d,]+)\s*\n", text + "\n")
+    if not rng or not tot:
+        raise ValueError("no date range or total in Collin report")
+    sites = [int(v.replace(",", "")) for v in re.findall(r"\bEV\d{3}\s*\n\s*([\d,]+)", text)]
+    total = int(tot[-1].replace(",", ""))
+    if sites and sum(sites) != total:
+        raise ValueError(f"Collin report: sites add up to {sum(sites)}, total says {total}")
+    m, d, y = rng.group(2).split("/")
+    return total, f"{int(m):02d}/{int(d):02d}/{y}"
+
+
+def count_voter_ids(text):
+    """Number of distinct voter IDs (10 digits) on a voter list. Only the count leaves this function."""
+    return len(set(re.findall(r"(?<!\d)(\d{10})(?!\d)", text)))
+
+
+def fetch_denton():
+    lk = links(DENTON_PAGE, r"ev_by_day_poll_pad|Returned_by_day")
+    ip_url = next(u for t, u in lk if "ev_by_day_poll_pad" in u)
+    ip, through, last = parse_denton_inperson(pdf_text(get_bytes(ip_url, DENTON_PAGE)))
+    mail_url = next((u for t, u in lk if "Returned_by_day" in u), None)
+    mail = parse_denton_mail(pdf_text(get_bytes(mail_url, DENTON_PAGE))) if mail_url else 0
+    return dict(in_person=ip, mail=mail, through=through, last_day=last, url=DENTON_PAGE,
+                source="Denton County daily early-vote totals")
+
+
+def fetch_collin():
+    lk = [(t, u) for t, u in links(COLLIN_PAGE, r"Totals by Site Through") if u.lower().split("?")[0].endswith(".pdf")]
+    if not lk:
+        raise ValueError("no 'Totals by Site Through' report on Collin's page")
+    ip, through = parse_collin(pdf_text(get_bytes(lk[0][1], COLLIN_PAGE)))
+    return dict(in_person=ip, through=through, last_day=0, url=COLLIN_PAGE, source="Collin County totals by site")
+
+
+def fetch_comal(cache):
+    """Comal posts each day's list of in-person voters. Count the voters on each day's list (cached by document,
+    so each list is read once) and add them up."""
+    lk = links(COMAL_PAGE, r"\d{2}-\d{2}-2026, GENERAL ELECTION IN PERSON")
+    days = {}
+    for text, url in lk:
+        d = re.search(r"(\d{2})-(\d{2})-2026", text)
+        if d:
+            days[f"{d.group(1)}/{d.group(2)}/2026"] = url
+    if not days:
+        raise ValueError("no daily in-person lists on Comal's page")
+    counts = {}
+    for day, url in days.items():
+        doc = url.rstrip("/").split("/")[-1]
+        if doc not in cache:
+            cache[doc] = count_voter_ids(pdf_text(get_bytes(url, COMAL_PAGE)))
+        counts[day] = cache[doc]
+    last = max(days, key=lambda x: datetime.strptime(x, "%m/%d/%Y"))
+    return dict(in_person=sum(counts.values()), through=last, last_day=counts[last], by_day=counts, url=COMAL_PAGE,
+                source="Comal County daily in-person voter lists (counted)")
+
+
 def fetch_county_reports():
     out = {}
     try:
@@ -94,7 +208,16 @@ def fetch_county_reports():
                                         source="Harris County Clerk daily early-vote report"))
     except Exception as e:
         out["Harris"] = dict(error=f"{type(e).__name__}: {e}")
-    json.dump(dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), counties=out),
+    try:
+        prev_cache = json.load(open("data/county_reports.json")).get("comal_cache", {})
+    except (OSError, ValueError):
+        prev_cache = {}
+    for name, fn in (("Denton", fetch_denton), ("Collin", fetch_collin), ("Comal", lambda: fetch_comal(prev_cache))):
+        try:
+            out[name] = check_date(fn())
+        except Exception as e:
+            out[name] = dict(error=f"{type(e).__name__}: {e}")
+    json.dump(dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), counties=out, comal_cache=prev_cache),
               open("data/county_reports.json", "w"), indent=1)
     return ", ".join(f"{k} {v['in_person']:,} through {v['through']}" if "in_person" in v else f"{k} {v['error']}"
                      for k, v in out.items())

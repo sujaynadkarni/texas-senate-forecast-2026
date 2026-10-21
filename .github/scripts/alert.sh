@@ -3,7 +3,7 @@
 # The issue mentions the repo owner, so GitHub emails them and notifies the GitHub app.
 #   alert.sh open "what went wrong"     alert.sh close "what recovered"
 set -u
-TITLE="Site alert: data not updating"
+TITLE="${ALERT_TITLE:-Site alert: data not updating}"
 num=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number -q '.[0].number' 2>/dev/null)
 now=$(TZ=America/Chicago date '+%b %-d, %-I:%M %p %Z')
 run="${GITHUB_SERVER_URL:-https://github.com}/${GITHUB_REPOSITORY:-}/actions/runs/${GITHUB_RUN_ID:-}"

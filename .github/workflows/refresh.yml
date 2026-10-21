@@ -95,6 +95,17 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: .github/scripts/alert.sh close "Refresh succeeded; the site is updating again."
 
+      - name: Alert if key counties are behind or a county source broke
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ALERT_TITLE: "Data alert: key counties behind or a county source failed"
+        run: |
+          lag=$(python3 -c "import json; print('\n'.join(json.load(open('data/lag.json'))['behind']))" 2>/dev/null || true)
+          if [ -n "$lag" ]; then .github/scripts/alert.sh open "These key counties are behind, or their source failed (the site uses the state's numbers for them):
+          $lag"; else .github/scripts/alert.sh close "All key counties are current and every county source worked."; fi
+
   deploy:
     needs: refresh
     runs-on: ubuntu-latest
