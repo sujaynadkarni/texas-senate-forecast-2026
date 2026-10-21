@@ -903,7 +903,7 @@ function evRatio(c, mode = evMode) {
   const e = EV && EV.counties[c.name]; if (!e || e.missing) return null;
   if (mode === "today") return e.today > 0 && e.today22 ? e.today / e.today22 : null;
   if (mode === "mail") return e.mail > 0 && e.mail22 ? e.mail / e.mail22 : null;
-  return e.ev > 0 && e.ev22_raw ? e.ev / e.ev22_raw : null;
+  return e.ev_cmp > 0 && e.ev22_raw ? e.ev_cmp / e.ev22_raw : null;
 }
 const evColor = (c) => { const p = evRatio(c); if (p == null) return css("--nodata");
   return p < 0.8 ? css("--slow-2") : p < 0.95 ? css("--slow-1") : p <= 1.05 ? css("--even") : p <= 1.2 ? css("--pace-2") : css("--pace-3"); };
@@ -1015,7 +1015,7 @@ function liveView() {
   const L = DATA.live_turnout;
   if (!L) { $("#live-sec").hidden = true; return; }
   const GNAME = { dem: "Democratic", battle: "Battleground", rep: "Republican" };
-  const share = (now, then) => then ? `<strong>${Math.round(now / then * 100)}%</strong><span class="sub">of ${fmtInt(then)}</span>` : `<span class="nr">–</span>`;
+  const share = (now, then, day) => then ? `<strong>${Math.round(now / then * 100)}%</strong><span class="sub">of ${fmtInt(then)}${day ? ` · day ${day}` : ""}</span>` : `<span class="nr">–</span>`;
   const draw = (g) => {
     const rows = L.rows.filter((r) => g === "all" || r.group === g);
     let h = `<thead><tr><th>County</th><th>Early votes so far</th><th>Voted today</th><th>vs. 2024</th><th>vs. 2022</th><th>vs. 2018</th></tr></thead><tbody>`;
@@ -1025,12 +1025,12 @@ function liveView() {
       h += `<tr class="${r.group}"><td class="name">${r.name}<span class="sub">${GNAME[r.group]}${src}</span></td>
         <td><strong>${fmtInt(r.ev)}</strong><span class="sub">${r.mail_missing ? "in person; mail not posted yet" : `${fmtInt(r.in_person)} in person · ${fmtInt(r.mail)} mail`}</span></td>
         <td>${r.today > 0 ? fmtInt(r.today) + asof : `<span class="nr">–</span>`}${r.report && !(r.today > 0) ? `<span class="sub">county report, through yesterday</span>` : ""}</td>
-        <td>${share(r.ev, r.base["2024"])}</td><td>${share(r.ev, r.base["2022"])}</td><td>${share(r.ev, r.base["2018"])}</td></tr>`;
+        <td>${share(r.ev_cmp, r.base["2024"])}</td><td>${share(r.ev_cmp, r.base["2022"], r.through_day)}</td><td>${share(r.ev_cmp, r.base["2018"], r.through_day)}</td></tr>`;
     }
     if (!rows.length) h += `<tr><td colspan="6" style="text-align:left;white-space:normal;color:var(--ink-3)">No ${GNAME[g] ? GNAME[g].toLowerCase() : "key"} county has posted in-person numbers yet. Counties appear here as soon as they do.</td></tr>`;
     $("#live-table").innerHTML = h + "</tbody>";
     const waiting = (g === "all" ? Object.values(L.groups).flat() : L.groups[g]).filter((n) => !L.rows.some((r) => r.name === n));
-    $("#live-note").textContent = `Early votes so far = in-person plus mail ballots since early voting began, including today's unofficial county counts where the state hasn't posted yet. "vs. 2022" compares with the same point of early voting in 2022 (day ${L.day}). 2024 mail totals by county aren't available, so 2024 shows "–". ${waiting.length ? "Not posted yet: " + waiting.join(", ") + ". " : ""}Last checked ${fmtDate(L.fetched)}.`;
+    $("#live-note").textContent = `Early votes so far = in-person plus mail ballots since early voting began, including today's unofficial county counts where the state hasn't posted yet. "vs. 2022" compares each county with 2022 through the same day of early voting as its latest numbers (shown as "day N"). Counties report on different schedules, so a county whose latest report is day 1 is compared with 2022's day 1. 2024 mail totals by county aren't available, so 2024 shows "–". ${waiting.length ? "Not posted yet: " + waiting.join(", ") + ". " : ""}Last checked ${fmtDate(L.fetched)}.`;
   };
   const tabs = [...document.querySelectorAll("#live-tabs button")];
   tabs.forEach((b) => b.addEventListener("click", () => { tabs.forEach((x) => x.setAttribute("aria-selected", x === b)); draw(b.dataset.g); }));

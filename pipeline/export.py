@@ -153,7 +153,7 @@ def live_data(early, c):
             ev, ip = sum(x["ev"] for x in es), sum(x["in_person"] for x in es)
             if ip <= 0:
                 continue
-            rows.append(dict(name=name, group=g, ev=ev, in_person=ip, mail=sum(x["mail"] for x in es),
+            rows.append(dict(name=name, group=g, ev=ev, ev_cmp=sum(x["ev_cmp"] for x in es), in_person=ip, mail=sum(x["mail"] for x in es),
                              today=sum(x["today"] for x in es), live=False, counties=len(names),
                              base={"2022": sum(x["ev22_raw"] for x in es), "2018": None, "2024": None}))
             continue
@@ -161,7 +161,7 @@ def live_data(early, c):
         if not x or x["in_person"] <= 0 or x["missing"]:      # not posted, or the state's file is clearly incomplete
             continue
         lv = (live.get("counties") or {}).get(name, {})
-        rows.append(dict(name=name, group=g, ev=x["ev"], in_person=x["in_person"], mail=x["mail"], today=x["today"],
+        rows.append(dict(name=name, group=g, ev=x["ev"], ev_cmp=x["ev_cmp"], through_day=x.get("through_day"), in_person=x["in_person"], mail=x["mail"], today=x["today"],
                          live=x.get("live", False), refreshed=lv.get("refreshed") if x.get("live") else None,
                          url=lv.get("url") or (reports.get(name, {}).get("url") if x.get("report") else None),
                          report=x.get("report", False), mail_missing=x.get("mail_missing", False), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
@@ -332,17 +332,17 @@ def main():
     for o in outs.values():
         if o["early"]:
             o["early"]["turnout_effects"] = effects
-    # totals only go up: remember the highest in-person total per county for the day (see early_vote.load_floor)
+    # totals only go up: remember each county's highest official in-person total and the day it runs through
+    # (see early_vote.load_floor). Official numbers only: a live tracker's glitch must never become a floor.
     e = next((o["early"] for o in outs.values() if o["early"]), None)
-    if e and e.get("floor_day"):
-        floor = load_json("data/ev_floor.json", {})
-        day = floor.setdefault(e["floor_day"], {})
+    if e and e.get("day"):
+        best = load_json("data/ev_best.json", {})
         for n, x in e["counties"].items():
-            # official numbers only (state file, county reports): a live tracker's glitch must never become a floor
-            official = x["in_person"] - (x["today"] if x.get("live") else 0)
-            if not x["missing"] and official > day.get(n, 0):
-                day[n] = official
-        json.dump(floor, open("data/ev_floor.json", "w"), separators=(",", ":"))
+            live_today = x["today"] if x.get("live") else 0
+            official, through = x["in_person"] - live_today, x.get("through_day", 0) - (1 if live_today else 0)
+            if not x["missing"] and official > best.get(n, {}).get("in_person", 0):
+                best[n] = dict(in_person=official, through_day=max(through, 0))
+        json.dump(best, open("data/ev_best.json", "w"), separators=(",", ":"), sort_keys=True)
     os.makedirs("site", exist_ok=True)
     for k, o in outs.items():
         json.dump(o, open(f"site/data_{k}.json", "w"), separators=(",", ":"))

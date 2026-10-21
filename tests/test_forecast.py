@@ -218,36 +218,41 @@ class EarlyVote(unittest.TestCase):
     def tearDownClass(cls):
         cls.EVm.load_reports, cls.EVm.load_live, cls.EVm.load_floor = cls._real
 
-    def run_fake(self, factor):
+    def day_counts(self, day, factor):
+        """2022's real day-`day` county numbers, scaled to 2026 registration (times factor)."""
         t22 = self.EVm.load_2022()
-        d3 = t22[t22.day == 3].set_index("key")
+        dd = t22[t22.day == day].set_index("key")
         key = self.c.county.str.upper().str.replace(r"[^A-Z]", "", regex=True)
-        counties = {}
+        out = {}
         for name, k, reg26, f in zip(self.c.county, key, self.c.reg26, factor):
-            r = d3.loc[k]
+            r = dd.loc[k]
             scale = reg26 / r.reg_voters * f
-            counties[name] = [int(r.cum_in_person * scale), int(r.cum_by_mail * scale), int(r.today_in_person * scale)]
+            out[name] = [int(r.cum_in_person * scale), int(r.cum_by_mail * scale), int(r.today_in_person * scale)]
+        return out
+
+    def analyze_with(self, day3, factor=None, day2=None):
+        """Synthetic state files like the real ones: one per day (Oct. 19-21), days 1-2 from 2022, day 3 given."""
+        factor = np.ones(len(self.c)) if factor is None else factor
+        daily = {"10/19/2026": {"final": False, "counties": self.day_counts(1, factor)},
+                 "10/20/2026": {"final": False, "counties": day2 or self.day_counts(2, factor)},
+                 "10/21/2026": {"final": False, "counties": day3}}
         path = "data/ev_daily_2026.json"
         saved = open(path).read() if os.path.exists(path) else None
         try:
-            json.dump({"10/21/2026": {"final": False, "counties": counties}}, open(path, "w"))
+            json.dump(daily, open(path, "w"))
             return self.EVm.analyze(self.c, E.MAIL_SKEW, E.MAIL_SKEW_DEFAULT, E.EV_SKEW)
         finally:
             if saved is not None:
                 open(path, "w").write(saved)
 
+    def run_fake(self, factor):
+        return self.analyze_with(self.day_counts(3, factor), factor)
+
     def run_edited(self, edit):
-        """Synthetic day 3 at exactly 2022's pace, with some counties' numbers edited: edit(counties) in place."""
-        base = self.run_fake(np.ones(len(self.c)))
-        counties = {n: [v["in_person"], v["mail"], v["today"]] for n, v in base["counties"].items()}
+        """Synthetic day 3 at exactly 2022's pace, with some counties' day-3 numbers edited: edit(counties) in place."""
+        counties = self.day_counts(3, np.ones(len(self.c)))
         edit(counties)
-        path = "data/ev_daily_2026.json"
-        saved = open(path).read()
-        try:
-            json.dump({"10/21/2026": {"final": False, "counties": counties}}, open(path, "w"))
-            return self.EVm.analyze(self.c, E.MAIL_SKEW, E.MAIL_SKEW_DEFAULT, E.EV_SKEW)
-        finally:
-            open(path, "w").write(saved)
+        return self.analyze_with(counties)
 
     def test_mail_not_loaded_compares_in_person_only(self):
         # Parker, Johnson, Lubbock on day 2: in-person votes in, mail 0. Keep the county, compare like with like.
@@ -276,17 +281,28 @@ class EarlyVote(unittest.TestCase):
         self.assertTrue(self.run_edited(edit)["counties"]["Fort Bend"]["missing"])
 
     def test_totals_never_drop_below_published(self):
-        # a partial state file (yesterday's votes missing) must not pull a county below what we already published
+        # a partial state file must not pull a county below what we already published, and the comparison day
+        # follows the day that published total runs through
         f = np.ones(len(self.c))
         base = self.run_fake(f)["counties"]["Travis"]
-        floor = {"10/20/2026": {"Travis": base["in_person"] + 50000}}
         real = self.EVm.load_floor
-        self.EVm.load_floor = lambda: floor
+        self.EVm.load_floor = lambda: {"Travis": {"in_person": base["in_person"] + 50000, "through_day": 3}}
         try:
             t = self.run_fake(f)["counties"]["Travis"]
         finally:
             self.EVm.load_floor = real
-        self.assertGreaterEqual(t["in_person"], base["in_person"] + 50000 + base["today"])
+        self.assertGreaterEqual(t["in_person"], base["in_person"] + 50000)
+        self.assertEqual(t["through_day"], 3)
+
+    def test_lagging_county_compared_through_its_own_last_day(self):
+        # Oct. 21 (day 3): Comal had only day 1 in the state's file. Compare with 2022's day 1, not day 3.
+        one = np.ones(len(self.c))
+        d1 = self.day_counts(1, one)["Comal"]
+        day2, day3 = self.day_counts(2, one), self.day_counts(3, one)
+        day2["Comal"] = [d1[0], d1[1], 0]; day3["Comal"] = [d1[0], d1[1], 0]
+        x = self.analyze_with(day3, one, day2)["counties"]["Comal"]
+        self.assertEqual(x["through_day"], 1)
+        self.assertAlmostEqual(x["pace"], 1.0, delta=0.05)
 
     def test_same_pace_as_2022_reads_as_even(self):
         e = self.run_fake(np.ones(len(self.c)))
@@ -315,27 +331,15 @@ class EarlyVote(unittest.TestCase):
 
     def test_partial_day_is_compared_fairly(self):
         # Harris has not posted today: its total is through yesterday, so compare with 2022 through day 2
-        t22 = self.EVm.load_2022()
-        d2 = t22[t22.day == 2].set_index("key")
-        f = np.ones(len(self.c))
-        e = self.run_fake(f)
-        h = e["counties"]["Harris"]
-        self.assertTrue(h["reported_today"])
-        path = "data/ev_daily_2026.json"
-        saved = open(path).read()
-        try:
-            fake = json.loads(json.dumps({"10/21/2026": {"final": False, "counties": {}}}))
-            r = d2.loc["HARRIS"]; scale = self.c.set_index("county").reg26["Harris"] / r.reg_voters
-            base = self.run_fake(f)
-            counties = {n: [v["in_person"], v["mail"], v["today"]] for n, v in base["counties"].items()}
-            counties["Harris"] = [int(r.cum_in_person * scale), int(r.cum_by_mail * scale), 0]
-            fake["10/21/2026"]["counties"] = counties
-            json.dump(fake, open(path, "w"))
-            e2 = self.EVm.analyze(self.c, E.MAIL_SKEW, E.MAIL_SKEW_DEFAULT, E.EV_SKEW)
-        finally:
-            open(path, "w").write(saved)
+        e = self.run_fake(np.ones(len(self.c)))
+        self.assertTrue(e["counties"]["Harris"]["reported_today"])
+        def edit(cs):
+            in2, mail2, _ = self.day_counts(2, np.ones(len(self.c)))["Harris"]
+            cs["Harris"] = [in2, mail2, 0]
+        e2 = self.run_edited(edit)
         h2 = e2["counties"]["Harris"]
         self.assertFalse(h2["reported_today"])
+        self.assertEqual(h2["through_day"], 2)
         self.assertAlmostEqual(h2["pace"], 1.0, delta=0.02)          # through yesterday vs 2022 through day 2
         self.assertEqual(e2["today"]["counties"], e["today"]["counties"] - 1)
 
