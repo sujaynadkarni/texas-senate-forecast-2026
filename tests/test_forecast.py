@@ -236,6 +236,45 @@ class EarlyVote(unittest.TestCase):
             if saved is not None:
                 open(path, "w").write(saved)
 
+    def run_edited(self, edit):
+        """Synthetic day 3 at exactly 2022's pace, with some counties' numbers edited: edit(counties) in place."""
+        base = self.run_fake(np.ones(len(self.c)))
+        counties = {n: [v["in_person"], v["mail"], v["today"]] for n, v in base["counties"].items()}
+        edit(counties)
+        path = "data/ev_daily_2026.json"
+        saved = open(path).read()
+        try:
+            json.dump({"10/21/2026": {"final": False, "counties": counties}}, open(path, "w"))
+            return self.EVm.analyze(self.c, E.MAIL_SKEW, E.MAIL_SKEW_DEFAULT, E.EV_SKEW)
+        finally:
+            open(path, "w").write(saved)
+
+    def test_mail_not_loaded_compares_in_person_only(self):
+        # Parker, Johnson, Lubbock on day 2: in-person votes in, mail 0. Keep the county, compare like with like.
+        def edit(cs):
+            for n in ("Parker", "Lubbock"):
+                cs[n][1] = 0
+        e = self.run_edited(edit)
+        for n in ("Parker", "Lubbock"):
+            x = e["counties"][n]
+            self.assertFalse(x["missing"], n)
+            self.assertTrue(x["mail_missing"], n)
+            self.assertAlmostEqual(x["pace"], 1.0, delta=0.03)
+
+    def test_token_same_day_count_is_not_a_report(self):
+        # Johnson had 28 votes "today" by evening: compare through yesterday, not with a full 2022 day
+        def edit(cs):
+            in_, mail, today = cs["Johnson"]
+            cs["Johnson"] = [in_ - today + 28, mail, 28]
+        x = self.run_edited(edit)["counties"]["Johnson"]
+        self.assertFalse(x["reported_today"])
+        self.assertAlmostEqual(x["pace"], 1.0, delta=0.05)
+
+    def test_county_far_below_state_norm_is_flagged(self):
+        def edit(cs):
+            cs["Fort Bend"] = [int(cs["Fort Bend"][0] * 0.45), int(cs["Fort Bend"][1] * 0.45), cs["Fort Bend"][2]]
+        self.assertTrue(self.run_edited(edit)["counties"]["Fort Bend"]["missing"])
+
     def test_totals_never_drop_below_published(self):
         # a partial state file (yesterday's votes missing) must not pull a county below what we already published
         f = np.ones(len(self.c))
@@ -549,6 +588,16 @@ class LiveCounties(unittest.TestCase):
             self.assertAlmostEqual(t[k], t[f"{k}_voted"] / t[f"{k}_base"])
         raw = json.dumps(json.load(open("data/primary_layer.json")))
         self.assertNotRegex(raw, r"\b\d{10}\b")                     # no voter IDs saved, totals only
+
+    def test_harris_report_parser(self):
+        from county_reports import parse_harris
+        txt = ("Monday Tuesday Wednesday\n19-Oct 20-Oct 21-Oct 22-Oct\n7am-7pm 7am-7pm\n"
+               "1 Acres Homes MultiService Center SRD139 1,542 1,387 0000000000 2,929\n"
+               "104,659 99,911 0000000000 204,570\n24,794 2,755 0000000000 27,549\n"
+               "129,453 102,666 0000000000 232,119\n56,457 1,289 0000000000 57,746\n")
+        self.assertEqual(parse_harris(txt), (204570, 27549, "10/20/2026", 99911))
+        with self.assertRaises(ValueError):                         # rows that don't add up must not pass
+            parse_harris(txt.replace("204,570", "204,571"))
 
     def test_tarrant_report_parser(self):
         from county_reports import parse_tarrant

@@ -1023,7 +1023,7 @@ function liveView() {
       const src = r.url ? ` · <a href="${r.url}" target="_blank" rel="noopener">source</a>` : r.counties ? ` · ${r.counties} counties` : "";
       const asof = r.live && r.refreshed ? `<span class="sub">as of ${r.refreshed.replace(/^\w+ \w+ \d+ /, "").replace(/^0/, "")}</span>` : "";
       h += `<tr class="${r.group}"><td class="name">${r.name}<span class="sub">${GNAME[r.group]}${src}</span></td>
-        <td><strong>${fmtInt(r.ev)}</strong><span class="sub">${fmtInt(r.in_person)} in person · ${fmtInt(r.mail)} mail</span></td>
+        <td><strong>${fmtInt(r.ev)}</strong><span class="sub">${r.mail_missing ? "in person; mail not posted yet" : `${fmtInt(r.in_person)} in person · ${fmtInt(r.mail)} mail`}</span></td>
         <td>${r.today > 0 ? fmtInt(r.today) + asof : `<span class="nr">–</span>`}${r.report && !(r.today > 0) ? `<span class="sub">county report, through yesterday</span>` : ""}</td>
         <td>${share(r.ev, r.base["2024"])}</td><td>${share(r.ev, r.base["2022"])}</td><td>${share(r.ev, r.base["2018"])}</td></tr>`;
     }

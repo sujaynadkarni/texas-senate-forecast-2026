@@ -164,7 +164,7 @@ def live_data(early, c):
         rows.append(dict(name=name, group=g, ev=x["ev"], in_person=x["in_person"], mail=x["mail"], today=x["today"],
                          live=x.get("live", False), refreshed=lv.get("refreshed") if x.get("live") else None,
                          url=lv.get("url") or (reports.get(name, {}).get("url") if x.get("report") else None),
-                         report=x.get("report", False), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
+                         report=x.get("report", False), mail_missing=x.get("mail_missing", False), base={"2022": x["ev22_raw"] or None, "2018": x.get("ev18_raw"), "2024": None}))
     return dict(fetched=live.get("fetched"), day=early["day"], groups=KEY_COUNTIES, rows=rows)
 
 

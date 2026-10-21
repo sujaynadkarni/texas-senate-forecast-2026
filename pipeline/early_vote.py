@@ -165,7 +165,8 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
     reports = load_reports()
     for name, rec in reports.items():
         m = c.county == name
-        if rec.get("error") or not rec.get("through") or not m.any() or rec["in_person"] <= float(c.loc[m, "in26"].iloc[0]):
+        if rec.get("error") or not rec.get("through") or not m.any() or (
+                rec["in_person"] <= float(c.loc[m, "in26"].iloc[0]) and rec.get("mail", 0) <= float(c.loc[m, "mail26"].iloc[0])):
             continue
         through = datetime.strptime(rec["through"], "%m/%d/%Y").date()
         if through > d_latest:
@@ -173,6 +174,8 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         c.loc[m, "in26"] = float(rec["in_person"])
         c.loc[m, "today26"] = float(rec["last_day"]) if through == d_latest else 0.0
         c.loc[m, "report"] = True
+        if rec.get("mail", 0) > float(c.loc[m, "mail26"].iloc[0]):
+            c.loc[m, "mail26"] = float(rec["mail"])
     c["live"] = False
     live_day = d_latest
     live = load_live()
@@ -196,7 +199,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                     base = float(prev.get(name, [0, 0, 0])[0])
                 else:
                     base = float(c.loc[m, "in26"].iloc[0] - c.loc[m, "today26"].iloc[0])
-                total = base + rec["today"]
+                total = max(base + rec["today"], rec.get("ballots_to_date") or 0)
                 if total <= float(c.loc[m, "in26"].iloc[0]):
                     continue                             # the official count is already ahead of the live one
                 c.loc[m, "in26"] = total
@@ -232,13 +235,28 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         c["mail22"] = c["ev22"]
     else:
         today22 = c.key.map(b.today_in_person).fillna(0)
-        c["reported_today"] = (c.today26 > 0) | (today22 == 0)
+        # A token count for today (Johnson: 28 votes by evening) is a partial upload, not a day's report: compare
+        # through yesterday until at least a quarter of 2022's same day is in.
+        today22s = today22 * np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
+        c["reported_today"] = ((c.today26 > 0) & (c.today26 >= 0.25 * today22s)) | (today22 == 0)
         prev = t22[t22.day == n - 1].set_index("key") if n >= 2 else None
         ev22_prev = c.key.map(prev.cum_ev_total).fillna(0) if prev is not None else c.key.map(b.cum_by_mail).fillna(0)
         c["ev22"] = np.where(c.reported_today, c.key.map(b.cum_ev_total).fillna(0), ev22_prev)
         c["today22"] = today22
         mail_prev = c.key.map(prev.cum_by_mail).fillna(0) if prev is not None else c.key.map(b.cum_by_mail).fillna(0)
         c["mail22"] = np.where(c.reported_today, c.key.map(b.cum_by_mail).fillna(0), mail_prev)
+    # Mail not loaded yet while in-person votes are (the state had 0-10 mail ballots for Parker, Johnson, Lubbock,
+    # Williamson and Bexar on day 2): compare in person with in person instead of hiding the county.
+    c["mail_missing"] = False
+    if n >= 1:
+        scale22 = np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
+        mail22s, in22s = c.mail22 * scale22, (c.ev22 - c.mail22) * scale22
+        mm = (mail22s > 500) & (c.mail26 < 0.5 * mail22s) & ~((in22s > 500) & (c.in26 < 0.5 * in22s))
+        c.loc[mm, "ev22"] = c.ev22[mm] - c.mail22[mm]
+        c.loc[mm, "mail22"] = 0.0
+        c.loc[mm, "mail26"] = 0.0
+        c.loc[mm, "ev26"] = c.in26[mm]
+        c["mail_missing"] = mm
     # 2018, same point (30 largest counties only)
     t18 = load_2018()
     c["ev18"], c["reg18_ev"] = np.nan, np.nan
@@ -254,6 +272,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
             else:
                 v = d18p[k]["cum_total"] if k in d18p else d18[k]["cum_mail"]
             c.loc[j, "ev18"], c.loc[j, "reg18_ev"] = v, d18[k]["reg"]
+    c.loc[c.mail_missing, "ev18"] = np.nan             # 2018 daily totals include mail; no like-for-like comparison
     c["at_2018_pace"] = c.ev18 / c.reg18_ev * c.reg26
     c["pace18"] = c.ev26 / c.at_2018_pace
     c["ev22_final"] = c.key.map(final22.cum_ev_total).fillna(0)
@@ -273,6 +292,12 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         # 50%: partial uploads have shown up at 30-45% of 2022 (El Paso, Collin, Fort Bend on day 2) while every
         # complete county is running near or above 2022
         c["missing"] = c.missing | ((in22 > 500) & (c.in26 < 0.5 * in22)) | ((mail22 > 500) & (c.mail26 < 0.5 * mail22))
+        # and relative to the rest of the state: a big county far below the typical county's pace (Fort Bend at 60% of
+        # 2022 on day 2 while the median county was near 140%) is almost surely a partial upload
+        big = ~c.missing & (c.at_2022_pace > 2000) & c.pace.notna()
+        if big.sum() >= 10:
+            med = float(np.median(c.pace[big]))
+            c["missing"] = c.missing | ((c.at_2022_pace > 2000) & (c.pace < 0.6 * med))
 
     # partisan read of the ballots cast so far
     s = c[share_col].values
@@ -348,6 +373,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                                   ev18_raw=None if pd.isna(r.ev18) else int(r.ev18),
                                   pace18=None if pd.isna(r.pace18) or r.missing else round(float(r.pace18), 3),
                                   pace=None if pd.isna(r.pace) else round(float(r.pace), 3), missing=bool(r.missing), report=bool(r.report),
+                                  mail_missing=bool(r.mail_missing),
                                   est_net=int(round(r.est_net)), pct=round(float(r.pct26) * 100, 2),
                                   pct22=round(float(r.pct22) * 100, 2))
     out = dict(

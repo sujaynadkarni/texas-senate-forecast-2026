@@ -1,5 +1,7 @@
 """Official county early-vote reports that come out before the state's file is complete.
 
+  Harris   "Daily Record of Early Voting Check-ins" PDF, updated each evening: in-person check-ins per day and
+           mail ballots received (the state's file had Harris at 30,460 in person after day 2; the county, 204,570).
   Tarrant  "Early Voting In Person Totals" PDF, posted each morning with the in-person total through the
            previous day (the state's file had Tarrant at 16 in-person votes on day 1; the county reported 50,409).
 
@@ -12,6 +14,7 @@ import re
 import subprocess
 from datetime import datetime, timezone
 
+HARRIS_PDF = "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf"
 TARRANT_PDF = "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/ev_reports/Early_Voting_Daily_Totals.pdf"
 
 
@@ -36,6 +39,30 @@ def parse_tarrant(text):
     return num(row[1]), days[-1] if days else None, num(row[-1]), " ".join(posted.groups()) if posted else None
 
 
+def parse_harris(text):
+    """Header '19-Oct 20-Oct ... 30-Oct' (one column per early-voting day). After the polling places come four rows
+    of numbers only: in-person check-ins, mail ballots received, total early voters, ballots mailed. Each has one
+    value per day so far, '0000000000' for days to come, then the total. Returns (in_person, mail, last day
+    'MM/DD/2026', that day's in-person check-ins)."""
+    months = {"Oct": 10, "Nov": 11}
+    head = next((ln for ln in text.splitlines() if re.search(r"\b\d{1,2}-Oct\b", ln)), "")
+    days = [f"{months[m]:02d}/{int(d):02d}/2026" for d, m in re.findall(r"\b(\d{1,2})-(Oct|Nov)\b", head)]
+    num_rows = [ln.split() for ln in text.splitlines()
+                if ln.strip() and all(re.fullmatch(r"[\d,]+|0{6,}", t) for t in ln.split()) and len(ln.split()) >= 3]
+    if len(num_rows) < 3:
+        raise ValueError("no total rows in Harris report")
+    num = lambda t: int(t.replace(",", ""))
+    def row(r):
+        vals = [num(t) for t in r[:-1] if not re.fullmatch(r"0{6,}", t)]
+        if sum(vals) != num(r[-1]):
+            raise ValueError(f"Harris report: days {vals} do not add up to {r[-1]}")
+        return vals, num(r[-1])
+    (ip_days, ip), (mail_days, mail), (_, total) = row(num_rows[0]), row(num_rows[1]), row(num_rows[2])
+    if ip + mail != total or not ip_days or len(ip_days) > len(days):
+        raise ValueError("Harris report: in person + mail does not match total early voters")
+    return ip, mail, days[len(ip_days) - 1], ip_days[-1]
+
+
 def pdf_text(raw):
     from pypdf import PdfReader
     return "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(raw)).pages)
@@ -49,6 +76,12 @@ def fetch_county_reports():
                               url=TARRANT_PDF, source="Tarrant County daily early-vote report")
     except Exception as e:
         out["Tarrant"] = dict(error=f"{type(e).__name__}: {e}")
+    try:
+        ip, mail, through, last = parse_harris(pdf_text(get_bytes(HARRIS_PDF)))
+        out["Harris"] = dict(in_person=ip, mail=mail, through=through, last_day=last, url=HARRIS_PDF,
+                             source="Harris County Clerk daily early-vote report")
+    except Exception as e:
+        out["Harris"] = dict(error=f"{type(e).__name__}: {e}")
     json.dump(dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), counties=out),
               open("data/county_reports.json", "w"), indent=1)
     return ", ".join(f"{k} {v['in_person']:,} through {v['through']}" if "in_person" in v else f"{k} {v['error']}"
