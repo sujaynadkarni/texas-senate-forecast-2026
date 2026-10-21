@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-21T19:16:31+00:00",
+ "fetched": "2026-10-21T19:22:50+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 101428,
@@ -16,6 +16,36 @@
    "last_day": 99910,
    "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf",
    "source": "Harris County Clerk daily early-vote report"
+  },
+  "Denton": {
+   "in_person": 66303,
+   "mail": 3725,
+   "through": "10/20/2026",
+   "last_day": 31563,
+   "url": "https://www.votedenton.gov/early-voting-election-day-rosters/",
+   "source": "Denton County daily early-vote totals"
+  },
+  "Collin": {
+   "in_person": 82478,
+   "through": "10/21/2026",
+   "last_day": 0,
+   "url": "https://www.collincountytx.gov/elections/rosters",
+   "source": "Collin County totals by site"
+  },
+  "Comal": {
+   "in_person": 11668,
+   "through": "10/20/2026",
+   "last_day": 5797,
+   "by_day": {
+    "10/20/2026": 5797,
+    "10/19/2026": 5871
+   },
+   "url": "https://www.comalcounty.gov/264/Archived-Data",
+   "source": "Comal County daily in-person voter lists (counted)"
   }
+ },
+ "comal_cache": {
+  "8839": 5797,
+  "8826": 5871
  }
 }
