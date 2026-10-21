@@ -324,17 +324,8 @@ Candidates in ''italics'' withdrew before the primary election took place.
 ! style="width:75px;"| John<br />Cornyn
 ! style="width:75px;"| Wesley<br />Hunt
 ! style="width:75px;"| Ken<br />Paxton
-! style="width:75px;"| Other/Undecided<br />{{Efn|name=calculated|Calculated by taking the difference of 100% and all other candidates combined.}}
+! style="width:75px;"| Other/<br />Undecided{{Efn|name=calculated|Calculated by taking the difference of 100% and all other candidates combined.}}
 !Margin
-|-
-|FiftyPlusOne<ref name="50p1R">{{cite web |title=Texas Republican Senate Primary |url=https://fiftyplusone.news/polls/senate/republican-primary/texas |archive-url=https://megalodon.jp/2026-0307-0014-30/https://fiftyplusone.news:443/polls/senate/republican-primary/texas |archive-date=March 6, 2026 |website=Fifty Plus One |access-date=February 17, 2025}}</ref>
-|through February 27, 2026
-|March 3, 2026
-|{{party shading/Republican}}|'''29.5%'''
-|21.2%
-|{{party shading/Republican}}|'''35.6%'''
-|13.7%
-|{{party shading/Republican}}|'''Paxton +6.1%'''
 |-
 |[[270toWin]]<ref name="renamed_from_270_on_20260207205712">{{cite web |title=2026 Polls: Texas Senate|url=https://www.270towin.com/2026-senate-polls/texas |archive-url=https://web.archive.org/web/20260306152318/https://www.270towin.com/2026-senate-polls/texas |archive-date=March 6, 2026 |website=270toWin |access-date=February 7, 2025}}</ref>
 |February 25 – March 2, 2026
@@ -345,15 +336,6 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |8.6%
 |{{party shading/Republican}}|'''Paxton +3.5%'''
 |-
-|[[RealClearPolitics]]<ref name="RCP6march">{{cite web |title=2026 Texas Senate – Republican Primary |url=https://www.realclearpolitics.com/epolls/2026/senate/tx/2026_texas_senate_republican_primary-8724.html |archive-url=https://web.archive.org/web/20260306160119/https://www.realclearpolling.com/polls/senate/republican-primary/2026/texas |archive-date=March 6, 2026 |website=RealClearPolitics |access-date=September 13, 2025}}</ref>
-|February 13–27, 2026
-|March 2, 2026
-|{{party shading/Republican}}|'''35.4%'''
-|15.8%
-|{{party shading/Republican}}|'''39.2%'''
-|9.6%
-|{{party shading/Republican}}|'''Paxton +3.8%'''
-|-
 |[[Decision Desk HQ]]<ref name="DDHQ">{{cite web |title=Texas Senate Republican Primary Ballot Test |url=https://polls.decisiondeskhq.com/averages/primary-ballot-test/2026-tx-us-senate-gop/texas/republicans-lv-rv-adults-independents |archive-url=https://megalodon.jp/2026-0307-0137-22/https://polls.decisiondeskhq.com:443/averages/primary-ballot-test/2026-tx-us-senate-gop/texas/republicans-lv-rv-adults-independents |archive-date=March 6, 2026 |website=Decision Desk HQ |access-date=August 30, 2025}}</ref>
 |through February 27, 2026
 |March 2, 2026
@@ -363,20 +345,29 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |9.2%
 |{{party shading/Republican}} |'''Paxton +3.5%'''
 |-
-|Race to the WH<ref name="rtwhpoll">{{cite web |title=2026 Senate Polling Average – Track All the Latest Polls |url=https://www.racetothewh.com/senate/texas26 |website=Race to the WH |access-date=November 18, 2025}}</ref>
+|[[FiftyPlusOne]]<ref name="50p1R">{{cite web |title=Texas Republican Senate Primary |url=https://fiftyplusone.news/polls/senate/republican-primary/texas |archive-url=https://megalodon.jp/2026-0307-0014-30/https://fiftyplusone.news:443/polls/senate/republican-primary/texas |archive-date=March 6, 2026 |website=Fifty Plus One |access-date=February 17, 2025}}</ref>
 |through February 27, 2026
+|March 3, 2026
+|{{party shading/Republican}}|'''29.5%'''
+|21.2%
+|{{party shading/Republican}}|'''35.6%'''
+|13.7%
+|{{party shading/Republican}}|'''Paxton +6.1%'''
+|-
+|[[RealClearPolitics]]<ref name="RCP6march">{{cite web |title=2026 Texas Senate – Republican Primary |url=https://www.realclearpolitics.com/epolls/2026/senate/tx/2026_texas_senate_republican_primary-8724.html |archive-url=https://web.archive.org/web/20260306160119/https://www.realclearpolling.com/polls/senate/republican-primary/2026/texas |archive-date=March 6, 2026 |website=RealClearPolitics |access-date=September 13, 2025}}</ref>
+|February 13–27, 2026
 |March 2, 2026
-|{{party shading/Republican}}|'''32.9%'''
-|17.4%
-|{{party shading/Republican}}|'''37.2%'''
-|12.5%
-| {{party shading/Republican}} |'''Paxton +5.7%'''
+|{{party shading/Republican}}|'''35.4%'''
+|15.8%
+|{{party shading/Republican}}|'''39.2%'''
+|9.6%
+|{{party shading/Republican}}|'''Paxton +3.8%'''
 |-
 | colspan="3" |'''Average'''
-|{{party shading/Republican}}|'''33.7%'''
-|17.7%
-|{{party shading/Republican}}|'''37.9%'''
-|10.7%
+|{{party shading/Republican}}|'''33.9%'''
+|17.8%
+|{{party shading/Republican}}|'''38.1%'''
+|10.2%
 |{{party shading/Republican}}|'''Paxton +4.2%'''
 |}
 
@@ -2930,14 +2921,14 @@ The election is taking place amidst a broader push by the Trump administration t
 
 '''Local officials'''
 * [[Steve Bartlett]], former [[mayor of Dallas]] (1991–1995) and former [[TX-03]] (1983–1991) ''(Republican)''<ref name="RepubsForTal"/>
-*[[Michael Bloomberg]], former [[Mayor of New York City]] (2002–2013)<ref>{{Cite web|url=https://www.nytimes.com/2026/10/20/us/bloomberg-democrats-midterms-donation.html|title=Bloomberg Gives Democrats $80 Million in 11th-Hour Midterm Push|last1=Schleifer|first1=Theodore|last2=Oreskes|first2=Benjamin|date=October 20, 2026|access-date=October 21, 2026|website=[[The New York Times]]}}</ref>
+*[[Michael Bloomberg]], former [[mayor of New York City]] (2002–2013)<ref>{{Cite web|url=https://www.nytimes.com/2026/10/20/us/bloomberg-democrats-midterms-donation.html|title=Bloomberg Gives Democrats $80 Million in 11th-Hour Midterm Push|last1=Schleifer|first1=Theodore|last2=Oreskes|first2=Benjamin|date=October 20, 2026|access-date=October 21, 2026|website=[[The New York Times]]}}</ref>
 * Jim Ross, mayor of [[Arlington, Texas|Arlington]] (2021–present) ''(Independent)''<ref>{{Cite web |last=Barman |first=Deep Das |date=August 7, 2026 |title='Tired of criminals running for office': Arlington Mayor Jim Ross endorses James Talarico |url=https://gomcgill.com/tired-of-criminals-running-for-office-arlington-mayor-jim-ross-endorses-james-talarico |access-date=September 7, 2026 |website=McGill Media |language=en}}</ref>
 * Glen Whitley, former [[Tarrant County, Texas|Tarrant County]] judge (2007–2022) ''(Republican)''<ref>{{Cite news |url=https://rollcall.com/2026/08/06/at-the-races-crossing-lines/ |title=At the Races: Crossing lines |last1=Altimari |first1=Daniela |last2=McIntire |first2=Mary Ellen |work=[[Roll Call]] |date=August 6, 2026 |access-date=August 7, 2026}}</ref>
 
 '''Individuals'''
 * [[Jack Antonoff]], singer and producer<ref>{{Cite news |url=https://www.statesman.com/entertainment/music/article/jack-antonoff-talarico-acl-fest-bleachers-22472305.php |title=Jack Antonoff wears 'Talarico for Texas' shirt at ACL Fest |last=Psencik |first=Katey |work=[[Austin American-Statesman]] |date=October 12, 2026 |access-date=October 12, 2026}}</ref>
 * [[Beck Bennett]], actor and comedian<ref name="Celebrity"/>
-* [[Barbara Bush (born 1981)|Barbara Bush]], daughter of [[President of the United States|President]] [[George W. Bush]] ''(Independent)''<ref>{{Cite web|url=https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/16/564593/barbara-bush-james-talarico-super-pac-us-senate/|title=Barbara Bush donated to super PAC supporting James Talarico for U.S. Senate|last=Schneider|first=Andrew|date=October 16, 2026|access-date=October 19, 2026|website=[[Houston Public Media]]}}</ref>
+* [[Barbara Bush (born 1981)|Barbara Bush]], daughter of [[President of the United States|President]] [[George W. Bush]] ''(Independent)''<ref>{{Cite web|url=https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/16/564593/barbara-bush-james-talarico-super-pac-us-senate/|title=Barbara Bush donated to super PAC supporting James Talarico for U.S. Senate|last=Schneider|first=Andrew|date=October 16, 2026|access-date=October 19, 2026|website=[[KUHT|Houston Public Media]]}}</ref>
 * [[Neil Bush]], son of [[President of the United States|President]] [[George H. W. Bush]] ''(Republican)''<ref>{{cite web|url=https://www.facebook.com/neilmbush/posts/pfbid0KCAuR13Puhn5U6cQcy6FuhQ5j6YmtxUb38ntkSFfH5bhQjpbeQubW3kULXCKAibNl|title=I have never posted a political message on Facebook not wanting to offend friends whose views may be very different than mine.|date=October 20, 2026|access-date=October 21, 2026}}</ref>
 * [[Mark Cuban]], businessman ''(Independent)''<ref name="Celebrity"/>
 * [[Matthew DeSarno]], former FBI special agent<ref>{{Cite web |last=Powell |first=Adam |title=Cornyn's Dr. Seuss-inspired ad attacks Paxton in Texas US Senate race |url=https://www.elpasotimes.com/story/news/politics/elections/2026/05/06/cornyn-ramps-up-attacks-on-paxton-weeks-before-texas-us-senate-runoff/89950368007/ |access-date=May 12, 2026 |website=El Paso Times |language=en-US}}</ref>

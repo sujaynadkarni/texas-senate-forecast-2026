@@ -1,118 +1,118 @@
 {
- "fetched": "2026-10-21T04:50:50+00:00",
- "day": 2,
- "date": "2026-10-20",
+ "fetched": "2026-10-21T16:10:35+00:00",
+ "day": 3,
+ "date": "2026-10-21",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 11:46 PM",
-   "ballots_to_date": 81136,
+   "refreshed": "Wed Oct 21 11:07 AM",
+   "ballots_to_date": 92841,
    "hourly": [
-    2374,
-    2465,
-    3199,
-    3508,
-    3849,
-    3689,
-    3680,
-    3588,
-    3758,
-    3566,
-    3396,
-    2900,
-    387
+    2159,
+    2478,
+    3156,
+    3476,
+    436,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
    ],
-   "hours_in": 13,
-   "today": 40359,
-   "completed_hours": 13,
-   "today_completed": 40359,
-   "through": "close",
+   "hours_in": 5,
+   "today": 11705,
+   "completed_hours": 4,
+   "today_completed": 11269,
+   "through": "11 AM",
    "compare": {
     "2022": {
      "hourly": [
-      698,
-      1159,
-      1893,
-      2395,
-      2745,
-      2541,
-      2600,
-      2635,
-      2401,
-      2212,
-      1924,
-      1479,
-      4
+      716,
+      1070,
+      1785,
+      2405,
+      2783,
+      2530,
+      2637,
+      2710,
+      2439,
+      2229,
+      1890,
+      1446,
+      11
      ],
-     "same_hours": 24686,
-     "full_day": 24686
+     "same_hours": 5976,
+     "full_day": 24651
     },
     "2024": {
      "hourly": [
-      2688,
-      2928,
-      3543,
-      3973,
-      4194,
-      4098,
-      4037,
-      4037,
-      3832,
-      3886,
-      3726,
-      3428,
-      202
+      2534,
+      2857,
+      3738,
+      3883,
+      4105,
+      4067,
+      3815,
+      3875,
+      4014,
+      3946,
+      3522,
+      3162,
+      140
      ],
-     "same_hours": 44572,
-     "full_day": 44572
+     "same_hours": 13012,
+     "full_day": 43658
     }
    }
   },
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 11:46 PM",
-   "ballots_to_date": 27730,
+   "refreshed": "Wed Oct 21 11:06 AM",
+   "ballots_to_date": 32417,
    "hourly": [
     1,
-    1351,
-    1510,
-    1591,
-    1515,
-    1572,
-    1586,
-    1537,
-    1511,
-    1461,
-    524,
-    3,
+    1420,
+    1497,
+    1604,
+    165,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     0
    ],
-   "hours_in": 12,
-   "today": 14162,
-   "completed_hours": 12,
-   "today_completed": 14162,
-   "through": "close",
+   "hours_in": 5,
+   "today": 4687,
+   "completed_hours": 4,
+   "today_completed": 4522,
+   "through": "11 AM",
    "compare": {
     "2024": {
      "hourly": [
-      0,
-      1737,
-      1817,
-      1734,
-      1742,
-      1690,
-      1701,
-      1816,
-      1837,
-      1886,
-      922,
-      133,
+      1,
+      2004,
+      2043,
+      1943,
+      1909,
+      1807,
+      1847,
+      1989,
+      1981,
+      2097,
+      619,
+      61,
       0
      ],
-     "same_hours": 17015,
-     "full_day": 17015
+     "same_hours": 5991,
+     "full_day": 18301
     }
    }
   },
@@ -121,7 +121,7 @@
    "url": "https://earlyvotecountsdual.bexar.org",
    "date": "10/20/2026",
    "sites": 59,
-   "today": 44740,
+   "today": 0,
    "ballots_to_date": 87550,
    "busiest": [
     [
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Oct 20 7:31 PM",
-   "today": 61266,
-   "ballots_to_date": 138543,
-   "sites": 83,
+   "refreshed": "Wed Oct 21 11:00 AM",
+   "today": 12766,
+   "ballots_to_date": 155777,
+   "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     2702
+     550
     ],
     [
      "Fretz Park Library",
-     2176
+     512
     ],
     [
-     "Disciple Central Comm Church",
-     1989
+     "Rowlett Community Centre",
+     435
     ]
    ],
    "hourly": null,
