@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-21T01:04:28+00:00",
+ "fetched": "2026-10-21T02:51:04+00:00",
  "day": 2,
  "date": "2026-10-20",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 08:04 PM",
+   "refreshed": "Tue Oct 20 09:47 PM",
    "ballots_to_date": 81136,
    "hourly": [
     2374,
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 20 08:03 PM",
+   "refreshed": "Tue Oct 20 09:49 PM",
    "ballots_to_date": 27730,
    "hourly": [
     1,
@@ -121,26 +121,26 @@
    "url": "https://earlyvotecountsdual.bexar.org",
    "date": "10/20/2026",
    "sites": 59,
-   "today": 0,
-   "ballots_to_date": 42810,
+   "today": 44740,
+   "ballots_to_date": 87550,
    "busiest": [
     [
-     "Bexar County Elections Department",
-     0,
-     723,
-     723
-    ],
-    [
-     "Bexar County Justice Center",
-     0,
-     461,
-     461
-    ],
-    [
      "Brookhollow Branch Library",
-     0,
+     1676,
      1516,
-     1516
+     3192
+    ],
+    [
+     "Northwest Vista College",
+     1519,
+     1207,
+     2726
+    ],
+    [
+     "Cody Branch Library",
+     1290,
+     1253,
+     2543
     ]
    ],
    "hourly": null,

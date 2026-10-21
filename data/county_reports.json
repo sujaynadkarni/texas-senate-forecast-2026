@@ -1,11 +1,11 @@
 {
- "fetched": "2026-10-21T01:04:34+00:00",
+ "fetched": "2026-10-21T02:51:09+00:00",
  "counties": {
   "Tarrant": {
-   "in_person": 50409,
-   "through": "10/19/2026",
-   "last_day": 50409,
-   "posted": "October 20, 2026 8:00:53AM",
+   "in_person": 101425,
+   "through": "10/20/2026",
+   "last_day": 51016,
+   "posted": "October 20, 2026 8:19:24PM",
    "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/ev_reports/Early_Voting_Daily_Totals.pdf",
    "source": "Tarrant County daily early-vote report"
   }
