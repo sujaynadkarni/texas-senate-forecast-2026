@@ -32,8 +32,13 @@ def snapshot():
         snap[key] = dict(generated=d["generated"], mode=d["mode"], poll_avg=(2 * d["polls"]["average"] - 1) * 100,
                          n_polls=n_polls, markets={m["source"]: m["d"] for m in d["markets"]}, needle=d["needle"]["p"],
                          early_total=(d.get("early") or {}).get("total", 0), counted=counted,
-                         early_counties={n: x["ev"] for n, x in ((d.get("early") or {}).get("counties") or {}).items()
+                         # in person and mail separately: whether a county's mail counts can change between runs (when
+                         # its mail looks incomplete it is compared in person only), so total early votes can't be
+                         # compared run to run (Webb, Oct. 21)
+                         early_in_person={n: x["in_person"] for n, x in ((d.get("early") or {}).get("counties") or {}).items()
                                          if not x.get("missing")},
+                         early_mail={n: x["mail"] for n, x in ((d.get("early") or {}).get("counties") or {}).items()
+                                     if not x.get("missing") and not x.get("mail_missing")},
                          expected_turnout=d["forecast"]["turnout"])
     return snap
 
@@ -57,10 +62,14 @@ def check(prev, cur):
             problems.append(f"{name}: poll count fell {p['n_polls']} -> {c['n_polls']} (poll page may have changed)")
         if p["early_total"] and c["early_total"] < (1 - LIMITS["early_drop"]) * p["early_total"]:
             problems.append(f"{name}: early-vote total fell {p['early_total']:,} -> {c['early_total']:,}")
-        for county, v in (p.get("early_counties") or {}).items():
-            now = c["early_counties"].get(county)
+        for county, v in (p.get("early_in_person") or {}).items():
+            now = c["early_in_person"].get(county)
             if now is not None and v - now > max(200, LIMITS["early_county_drop"] * v):
-                problems.append(f"{name}: {county} early votes fell {v:,} -> {now:,} (totals can only go up)")
+                problems.append(f"{name}: {county} in-person early votes fell {v:,} -> {now:,} (totals can only go up)")
+        for county, v in (p.get("early_mail") or {}).items():
+            now = c["early_mail"].get(county)
+            if now is not None and v - now > max(200, 0.02 * v):      # the state may drop a few rejected ballots
+                problems.append(f"{name}: {county} mail ballots fell {v:,} -> {now:,}")
         for county, v in p["counted"].items():
             now = c["counted"].get(county, 0)
             if v - now > max(500, LIMITS["county_drop"] * v):

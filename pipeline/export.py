@@ -338,8 +338,10 @@ def main():
         floor = load_json("data/ev_floor.json", {})
         day = floor.setdefault(e["floor_day"], {})
         for n, x in e["counties"].items():
-            if not x["missing"] and x["in_person"] > day.get(n, 0):
-                day[n] = x["in_person"]
+            # official numbers only (state file, county reports): a live tracker's glitch must never become a floor
+            official = x["in_person"] - (x["today"] if x.get("live") else 0)
+            if not x["missing"] and official > day.get(n, 0):
+                day[n] = official
         json.dump(floor, open("data/ev_floor.json", "w"), separators=(",", ":"))
     os.makedirs("site", exist_ok=True)
     for k, o in outs.items():

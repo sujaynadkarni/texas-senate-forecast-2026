@@ -130,6 +130,12 @@ def fetch_live():
                                          hourly=None, compare={})
     except Exception as e:
         out["counties"]["Dallas"] = dict(error=f"{type(e).__name__}: {e}")
+    # Polls open at 7 a.m. Before that, any "today" count is yesterday's still sitting in the county's feed
+    # (Dallas showed 61,266 at 6:30 a.m. on Oct. 21, day 2's total), so it must not be counted as today's.
+    if datetime.now(TX).hour < 7:
+        for rec in out["counties"].values():
+            if rec.get("today"):
+                rec["today"], rec["note"] = 0, "polls not open yet; count is from the previous day"
     json.dump(out, open("data/live.json", "w"), indent=1)
     ok = [k for k, v in out["counties"].items() if "error" not in v]
     return f"{len(ok)} counties: " + ", ".join(f"{k} {out['counties'][k].get('today', 0):,} today" for k in ok)

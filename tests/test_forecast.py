@@ -491,11 +491,22 @@ class Sanity(unittest.TestCase):
         # Oct. 20: Travis fell from 64,878 to 46,844 when the state posted 1 vote for the day. Never publish that.
         import copy
         prev = copy.deepcopy(self.base); cur = copy.deepcopy(self.base)
-        prev["senate"]["early_counties"] = {"Travis": 64878, "Dallas": 100000}
-        cur["senate"]["early_counties"] = {"Travis": 46844, "Dallas": 100500}
+        prev["senate"]["early_in_person"] = {"Travis": 64878, "Dallas": 100000}
+        cur["senate"]["early_in_person"] = {"Travis": 46844, "Dallas": 100500}
         probs = self.S.check(prev, cur)
-        self.assertTrue(any("Travis early votes fell" in p for p in probs), probs)
+        self.assertTrue(any("Travis in-person early votes fell" in p for p in probs), probs)
         self.assertFalse(any("Dallas" in p for p in probs))
+
+    def test_mail_switching_to_in_person_only_does_not_block(self):
+        # Oct. 21: Webb's 241 mail ballots looked incomplete on day 3, so it was compared in person only and its
+        # total fell 5,162 -> 4,921. No vote was lost; that must not block publishing.
+        import copy
+        prev = copy.deepcopy(self.base); cur = copy.deepcopy(self.base)
+        prev["senate"].update(early_in_person={"Webb": 4921}, early_mail={"Webb": 241})
+        cur["senate"].update(early_in_person={"Webb": 4921}, early_mail={})
+        self.assertEqual([p for p in self.S.check(prev, cur) if "Webb" in p], [])
+        cur["senate"]["early_mail"] = {"Webb": 20}                     # a real mail drop still blocks
+        self.assertTrue(any("Webb mail ballots fell" in p for p in self.S.check(prev, cur)))
 
     def mutate(self, **changes):
         import copy

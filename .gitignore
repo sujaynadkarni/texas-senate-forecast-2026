@@ -6,3 +6,4 @@ public/
 # raw 2026 primary downloads (10 MB); their totals are kept in data/primaries_2026.csv
 data/raw/dem_primary26.json
 data/raw/rep_primary26.json
+parked/
