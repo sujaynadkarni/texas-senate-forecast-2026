@@ -666,6 +666,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{sdash}}
 |{{sdash}}
 |-
+| style="text-align:left;"|GS Strategy Group (R)/New River Strategies (D)<ref>{{cite web |title=Senate Battleground District Project: October 2026 Toplines |url=https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october |website=[[The Cook Political Report]] |date=October 21, 2026}}</ref>{{efn-ua|name=CPR|Poll sponsored by ''[[The Cook Political Report]]''.}}
+|October 9–13, 2026
+|934 (LV)
+|{{TBA}}
+|{{party shading/Republican}}|'''48%'''
+|46%
+|3%
+|{{sdash}}
+|3%
+|-
 |style="text-align:left" rowspan="2"|[[Marist University]]<ref>{{cite web |title=Marist Poll of 1,196 Texas Registered Voters |url=https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_TX-NOS-and-Tables_202610131056%5Eal3j7.pdf |work=[[Marist University]] |access-date=October 14, 2026}}</ref>
 |rowspan="2"|October 8–11, 2026
 |{{TBA}} (LV)

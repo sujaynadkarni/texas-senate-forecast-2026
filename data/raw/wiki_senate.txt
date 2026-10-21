@@ -3130,6 +3130,16 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |{{sdash}}
 |3%
 |-
+| style="text-align:left;"|GS Strategy Group (R)/<br />New River Strategies (D)<ref>{{cite web |title=Senate Battleground District Project: October 2026 Toplines |url=https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october |website=[[The Cook Political Report]] |date=October 21, 2026}}</ref>{{efn-ua|name=CPR|Poll sponsored by ''[[The Cook Political Report]]''.}}
+|October 9–13, 2026
+|934 (LV)
+|{{TBA}}
+|44%
+|{{party shading/Democratic}}|'''49%'''
+|3%
+|{{sdash}}
+|4%
+|-
 |style="text-align: left;"|ActiVote<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/ |title=Talarico Leads Paxton in Texas Senate Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
 |September 30 – October 14, 2026
 |400 (LV)
