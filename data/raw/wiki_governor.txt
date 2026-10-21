@@ -610,12 +610,12 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{party shading/Republican}} |'''Abbott +1.9%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 14, 2026
-|October 20, 2026
-|{{party shading/Republican}} |'''48.9%'''
+|through October 16, 2026
+|October 21, 2026
+|{{party shading/Republican}} |'''48.8%'''
 |46.5%
-|4.6%
-|{{party shading/Republican}} |'''Abbott +2.4%'''
+|4.7%
+|{{party shading/Republican}} |'''Abbott +2.3%'''
 |-
 |colspan="3" |Average
 |{{party shading/Republican}} |'''49.1%'''
