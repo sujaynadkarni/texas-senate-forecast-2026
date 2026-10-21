@@ -636,6 +636,24 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Other
 ! Undecided
 |-
+|style="text-align:left" rowspan="2"|Beacon Research (D)/<br />Shaw & Co. Research (R)<ref>{{Cite web|url=https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf|title=TEXAS SENATE AND GOVERNOR |website=[[Fox News]]|date=October 21, 2026|access-date=October 21, 2026}}</ref>{{efn-ua|name=Fox}}
+|rowspan="2"|October 15–19, 2026
+|2,011 (RV)
+|±&nbsp;2.0%
+|{{party shading/Republican}}|'''50%'''
+|49%
+|{{sdash}}
+|{{sdash}}
+|1%
+|-
+|1,398 (LV)
+|±&nbsp;2.5%
+|{{party shading/Republican}}|'''52%'''
+|47%
+|{{sdash}}
+|{{sdash}}
+|1%
+|-
 |style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{Cite web|url=https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/|title=CBS News poll shows a Texas toss-up with Talarico, Paxton in tight Senate race|first1=Anthony|last1=Salvanto|first2=Jennifer|last2=De Pinto|first3=Fred|last3=Backus|website=[[CBS News]] |date=October 18, 2026 |access-date=October 18, 2026}}</ref>
 |October 8–16, 2026
 |1,492 (LV)

@@ -3100,6 +3100,24 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 ! Other
 ! Undecided
 |-
+|style="text-align:left" rowspan="2"|Beacon Research (D)/<br />Shaw & Co. Research (R)<ref>{{Cite web |url=https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish |first=Victoria |last=Balara |title=Fox News Poll: Texas Senate race galloping toward a photo finish |work=[[Fox News]] |date=October 21, 2026 |access-date=October 21, 2026}}</ref>{{efn-ua|name=Fox}}
+|rowspan="2"|October 15–19, 2026
+|1,398 (LV)
+|±{{nbsp}}2.5%
+|'''49%'''
+|'''49%'''
+|{{sdash}}
+|{{sdash}}
+|2%
+|-
+|2,011 (RV)
+|±{{nbsp}}2.0%
+|46%
+|{{Party shading/Democratic}}|'''52%'''
+|{{sdash}}
+|{{sdash}}
+|2%
+|-
 |style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{Cite web|url=https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/|title=CBS News poll shows a Texas toss-up with Talarico, Paxton in tight Senate race|first1=Anthony|last1=Salvanto|first2=Jennifer|last2=De Pinto|first3=Fred|last3=Backus|website=[[CBS News]] |date=October 18, 2026 |access-date=October 18, 2026}}</ref>
 |October 8–16, 2026
 |1,492 (LV)
