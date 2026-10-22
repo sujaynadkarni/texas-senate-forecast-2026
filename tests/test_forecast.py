@@ -211,12 +211,15 @@ class EarlyVote(unittest.TestCase):
         cls.c["exp_share"] = 0.5 + cls.c.rel_blend
         cls.c.loc[cls.c.exp_share < .02, "exp_share"] = .02
         # synthetic data only: ignore today's real county reports and live counts
-        cls._real = (EVm.load_reports, EVm.load_live, EVm.load_floor)
+        cls._real = (EVm.load_reports, EVm.load_live, EVm.load_floor, EVm.load_published, EVm.load_live_days)
         EVm.load_reports, EVm.load_live, EVm.load_floor = (lambda: {}), (lambda: None), (lambda: {})
+        EVm.load_published = lambda: dict(in_person={}, mail={}, through={})
+        EVm.load_live_days = lambda: {}
 
     @classmethod
     def tearDownClass(cls):
-        cls.EVm.load_reports, cls.EVm.load_live, cls.EVm.load_floor = cls._real
+        (cls.EVm.load_reports, cls.EVm.load_live, cls.EVm.load_floor, cls.EVm.load_published,
+         cls.EVm.load_live_days) = cls._real
 
     def day_counts(self, day, factor):
         """2022's real day-`day` county numbers, scaled to 2026 registration (times factor)."""
@@ -276,9 +279,55 @@ class EarlyVote(unittest.TestCase):
         self.assertAlmostEqual(x["pace"], 1.0, delta=0.05)
 
     def test_county_far_below_state_norm_is_flagged(self):
+        # a big county running far below every other county (a partial upload) is shown as not posted
+        f = np.ones(len(self.c))
+        f[list(self.c.county).index("Fort Bend")] = 0.45
+        self.assertTrue(self.run_fake(f)["counties"]["Fort Bend"]["missing"])
+
+    def test_late_upload_counts_through_its_file_day(self):
+        # Fort Bend's Oct. 21 file jumped from day 1 to days 1-3 at once, with "1" voted "on the date": it runs
+        # through day 3, not day 1
+        one = np.ones(len(self.c))
+        d1 = self.day_counts(1, one)["Fort Bend"]
+        day2 = self.day_counts(2, one); day3 = self.day_counts(3, one)
+        day2["Fort Bend"] = [d1[0], d1[1], 0]
+        day3["Fort Bend"] = [day3["Fort Bend"][0], day3["Fort Bend"][1], 1]
+        x = self.analyze_with(day3, one, day2)["counties"]["Fort Bend"]
+        self.assertEqual(x["through_day"], 3)
+        self.assertAlmostEqual(x["pace"], 1.0, delta=0.05)
+
+    def test_state_glitch_holds_county_at_published_numbers(self):
+        # Oct. 22: the state's file reset Webb from 4,921 in person + 241 mail to 1 + 0. Keep what we published,
+        # don't block the site, and name the county.
         def edit(cs):
-            cs["Fort Bend"] = [int(cs["Fort Bend"][0] * 0.45), int(cs["Fort Bend"][1] * 0.45), cs["Fort Bend"][2]]
-        self.assertTrue(self.run_edited(edit)["counties"]["Fort Bend"]["missing"])
+            cs["Webb"] = [1, 0, 0]
+        real = self.EVm.load_published
+        self.EVm.load_published = lambda: dict(in_person={"Webb": 4921}, mail={"Webb": 241}, through={"Webb": 1})
+        try:
+            x = self.run_edited(edit)["counties"]["Webb"]
+        finally:
+            self.EVm.load_published = real
+        self.assertEqual(x["in_person"], 4921)
+        self.assertIn("published", x["held"])
+
+    def test_live_day_survives_tracker_reset(self):
+        # Oct. 22: Dallas's tracker reset for day 4 before the state posted day 3. Day 3's saved live count must
+        # still be counted: state through day 2 + saved day 3 + today's live count.
+        one = np.ones(len(self.c))
+        d2 = self.day_counts(2, one)
+        day3 = self.day_counts(3, one)
+        day3["Dallas"] = [d2["Dallas"][0], d2["Dallas"][1], 0]          # state hasn't posted Dallas's day 3
+        live = {"date": "2026-10-22", "fetched": "2026-10-22T19:00:00+00:00",
+                "counties": {"Dallas": {"today": 20000, "refreshed": "Thu Oct 22 1:00 PM"}}}
+        real = (self.EVm.load_live, self.EVm.load_live_days)
+        self.EVm.load_live = lambda: live
+        self.EVm.load_live_days = lambda: {"Dallas": {"2026-10-21": 55560, "2026-10-22": 20000}}
+        try:
+            x = self.analyze_with(day3, one)["counties"]["Dallas"]
+        finally:
+            self.EVm.load_live, self.EVm.load_live_days = real
+        self.assertEqual(x["in_person"], d2["Dallas"][0] + 55560 + 20000)
+        self.assertEqual(x["through_day"], 4)
 
     def test_totals_never_drop_below_published(self):
         # a partial state file must not pull a county below what we already published, and the comparison day
@@ -491,26 +540,16 @@ class Sanity(unittest.TestCase):
         cls.S = sanity
         cls.base = sanity.snapshot()
 
-    def test_county_early_total_drop_blocks(self):
-        # Oct. 20: Travis fell from 64,878 to 46,844 when the state posted 1 vote for the day. Never publish that.
+    def test_county_drop_warns_but_does_not_block(self):
+        # one county's bad numbers must never stop the whole site (Oct. 22: Webb and Dallas blocked it 15 hours)
         import copy
         prev = copy.deepcopy(self.base); cur = copy.deepcopy(self.base)
-        prev["senate"]["early_in_person"] = {"Travis": 64878, "Dallas": 100000}
-        cur["senate"]["early_in_person"] = {"Travis": 46844, "Dallas": 100500}
-        probs = self.S.check(prev, cur)
-        self.assertTrue(any("Travis in-person early votes fell" in p for p in probs), probs)
-        self.assertFalse(any("Dallas" in p for p in probs))
-
-    def test_mail_switching_to_in_person_only_does_not_block(self):
-        # Oct. 21: Webb's 241 mail ballots looked incomplete on day 3, so it was compared in person only and its
-        # total fell 5,162 -> 4,921. No vote was lost; that must not block publishing.
-        import copy
-        prev = copy.deepcopy(self.base); cur = copy.deepcopy(self.base)
-        prev["senate"].update(early_in_person={"Webb": 4921}, early_mail={"Webb": 241})
-        cur["senate"].update(early_in_person={"Webb": 4921}, early_mail={})
-        self.assertEqual([p for p in self.S.check(prev, cur) if "Webb" in p], [])
-        cur["senate"]["early_mail"] = {"Webb": 20}                     # a real mail drop still blocks
-        self.assertTrue(any("Webb mail ballots fell" in p for p in self.S.check(prev, cur)))
+        prev["senate"].update(early_in_person={"Travis": 64878, "Dallas": 100000}, early_mail={"Webb": 241})
+        cur["senate"].update(early_in_person={"Travis": 46844, "Dallas": 100500}, early_mail={"Webb": 0})
+        warnings = []
+        probs = self.S.check(prev, cur, warnings)
+        self.assertFalse(any("Travis" in p or "Webb" in p for p in probs), probs)
+        self.assertTrue(any("Travis" in w for w in warnings) and any("Webb" in w for w in warnings), warnings)
 
     def mutate(self, **changes):
         import copy

@@ -37,14 +37,18 @@ def snapshot():
                          # compared run to run (Webb, Oct. 21)
                          early_in_person={n: x["in_person"] for n, x in ((d.get("early") or {}).get("counties") or {}).items()
                                          if not x.get("missing")},
+                         early_through={n: x.get("through_day", 0) for n, x in ((d.get("early") or {}).get("counties") or {}).items()},
                          early_mail={n: x["mail"] for n, x in ((d.get("early") or {}).get("counties") or {}).items()
                                      if not x.get("missing") and not x.get("mail_missing")},
                          expected_turnout=d["forecast"]["turnout"])
     return snap
 
 
-def check(prev, cur):
+def check(prev, cur, warnings=None):
+    """Statewide problems (returned) block publishing. County-level ones go to `warnings`: one county's bad numbers
+    must never stop the whole site (early_vote.py already holds such a county at its last published numbers)."""
     problems = []
+    warnings = [] if warnings is None else warnings
     for key, c in cur.items():
         name = RACES[key]["office"]
         for src, v in c["markets"].items():
@@ -65,11 +69,11 @@ def check(prev, cur):
         for county, v in (p.get("early_in_person") or {}).items():
             now = c["early_in_person"].get(county)
             if now is not None and v - now > max(200, LIMITS["early_county_drop"] * v):
-                problems.append(f"{name}: {county} in-person early votes fell {v:,} -> {now:,} (totals can only go up)")
+                warnings.append(f"{name}: {county} in-person early votes fell {v:,} -> {now:,}")
         for county, v in (p.get("early_mail") or {}).items():
             now = c["early_mail"].get(county)
             if now is not None and v - now > max(200, 0.02 * v):      # the state may drop a few rejected ballots
-                problems.append(f"{name}: {county} mail ballots fell {v:,} -> {now:,}")
+                warnings.append(f"{name}: {county} mail ballots fell {v:,} -> {now:,}")
         for county, v in p["counted"].items():
             now = c["counted"].get(county, 0)
             if v - now > max(500, LIMITS["county_drop"] * v):
@@ -82,7 +86,10 @@ def check(prev, cur):
 def main():
     prev = json.load(open(SNAP)) if os.path.exists(SNAP) else None
     cur = snapshot()
-    problems = check(prev, cur)
+    warnings = []
+    problems = check(prev, cur, warnings)
+    for msg in warnings:
+        print("SANITY WARNING (county held, not blocking):", msg)
     override = os.environ.get("SANITY_OVERRIDE") == "1"
     for msg in problems:
         print("SANITY:", msg)

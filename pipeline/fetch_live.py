@@ -137,6 +137,16 @@ def fetch_live():
             if rec.get("today"):
                 rec["today"], rec["note"] = 0, "polls not open yet; count is from the previous day"
     json.dump(out, open("data/live.json", "w"), indent=1)
+    # keep each county's highest count for each day: the trackers reset overnight (see early_vote.load_live_days)
+    try:
+        days = json.load(open("data/live_days.json"))
+    except (OSError, ValueError):
+        days = {}
+    for name, rec in out["counties"].items():
+        if rec.get("today") and not rec.get("error"):
+            day = days.setdefault(name, {})
+            day[out["date"]] = max(day.get(out["date"], 0), int(rec["today"]))
+    json.dump(days, open("data/live_days.json", "w"), indent=1, sort_keys=True)
     ok = [k for k, v in out["counties"].items() if "error" not in v]
     return f"{len(ok)} counties: " + ", ".join(f"{k} {out['counties'][k].get('today', 0):,} today" for k in ok)
 

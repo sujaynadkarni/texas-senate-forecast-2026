@@ -38,9 +38,18 @@ def broken_sources():
     return out
 
 
+def held_counties():
+    """Counties kept at their last published numbers because new numbers came in lower (a glitch somewhere)."""
+    try:
+        E = json.load(open("site/data_senate.json"))["early"]["counties"]
+    except (OSError, ValueError, KeyError, TypeError):
+        return []
+    return [f"{n}: kept at last published numbers ({x['held']})" for n, x in E.items() if x.get("held")]
+
+
 def main():
     L = json.load(open("site/data_senate.json")).get("live_turnout") or {}
-    lag = (behind(L, datetime.now(ZoneInfo("America/Chicago"))) if L else []) + broken_sources()
+    lag = (behind(L, datetime.now(ZoneInfo("America/Chicago"))) if L else []) + broken_sources() + held_counties()
     json.dump(dict(behind=lag), open("data/lag.json", "w"), indent=1)
     for msg in lag:
         print("LAG:", msg)

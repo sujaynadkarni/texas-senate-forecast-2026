@@ -53,6 +53,26 @@ def load_floor():
         return {}
 
 
+def load_live_days():
+    """Each live-tracked county's highest count for each day, saved as the day goes: {county: {"YYYY-MM-DD": votes}}.
+    A county's live tracker resets overnight, and the state may not post that day for a while; without this the
+    day disappears (Dallas, Oct. 22: day 3's 55,560 live votes vanished when the tracker reset)."""
+    try:
+        return json.load(open("data/live_days.json"))
+    except (OSError, ValueError):
+        return {}
+
+
+def load_published():
+    """What the site last published for each county: {"in_person": {...}, "mail": {...}, "through": {...}}."""
+    try:
+        s = json.load(open("data/last_published.json"))["senate"]
+        return dict(in_person=s.get("early_in_person") or {}, mail=s.get("early_mail") or {},
+                    through=s.get("early_through") or {})
+    except (OSError, ValueError, KeyError):
+        return dict(in_person={}, mail={}, through={})
+
+
 def load_reports():
     try:
         return json.load(open("data/county_reports.json"))["counties"]
@@ -195,21 +215,30 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
             if live_day > d_latest:                      # the state has no file for today yet
                 c["today26"] = 0.0
                 n = day_number(live_day)
-            # Official in-person total through the day before the live day. When the state already has a file for
-            # the live day, it may hold part of that day (Travis: 1 vote; Bexar: part of the day with "0 today"),
-            # so start from the previous day's file rather than add on top and double count.
-            prev = daily[dates[-2]]["counties"] if live_day == d_latest and len(dates) > 1 else None
+            # In-person votes before today: the latest official total (state file or our saved official best),
+            # plus each day since then that only the county's live tracker counted (saved in live_days.json),
+            # then today's live count. Never add the live count on top of a state file that already has part of
+            # today (Travis had 1 vote "today" in it), and never lose a day when the tracker resets overnight.
+            live_days = load_live_days()
+            best_off = load_floor()
+            ln = day_number(live_day)
             for name, rec in live["counties"].items():
                 m = c.county == name
                 if rec.get("error") or not rec.get("today") or not m.any():
                     continue
-                if live_day > d_latest:
-                    base = float(c.loc[m, "in26"].iloc[0])
-                elif prev is not None:
-                    base = float(prev.get(name, [0, 0, 0])[0])
-                else:
-                    base = float(c.loc[m, "in26"].iloc[0] - c.loc[m, "today26"].iloc[0])
-                total = max(base + rec["today"], rec.get("ballots_to_date") or 0)
+                off, off_day = 0.0, 0
+                for dstr in dates:
+                    dd = datetime.strptime(dstr, "%m/%d/%Y").date()
+                    v = daily[dstr]["counties"].get(name, [0, 0, 0])
+                    if day_number(dd) < ln and v[2] > 0 and v[0] >= off:
+                        off, off_day = float(v[0]), day_number(dd)
+                b = best_off.get(name)
+                if b and b["through_day"] < ln and b["in_person"] > off:
+                    off, off_day = float(b["in_person"]), b["through_day"]
+                saved = live_days.get(name, {})
+                extra = sum(v for d, v in saved.items()
+                            if off_day < day_number(datetime.strptime(d, "%Y-%m-%d").date()) < ln)
+                total = max(off + extra + rec["today"], rec.get("ballots_to_date") or 0)
                 if total <= float(c.loc[m, "in26"].iloc[0]):
                     continue                             # the official count is already ahead of the live one
                 c.loc[m, "in26"] = total
@@ -230,6 +259,24 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         if c.at[j, "in26"] < lo:
             c.at[j, "in26"] = float(lo)
             c.at[j, "floor_k"] = b["through_day"]
+    # One county's bad numbers never block the site, and never pull it below what we already published: if the
+    # state's file glitches (Webb, Oct. 22: 4,921 in person -> 1, 241 mail -> 0) keep the published numbers for that
+    # county, publish everything else, and name the county in the data alert.
+    pub = load_published()
+    c["held"] = None
+    c["held_k"] = 0
+    for j, name in zip(c.index, c.county):
+        why = []
+        pin, pmail = pub["in_person"].get(name), pub["mail"].get(name)
+        if pin is not None and c.at[j, "in26"] < pin:
+            why.append(f"in person {int(c.at[j, 'in26']):,} < published {pin:,}")
+            c.at[j, "in26"] = float(pin)
+            c.at[j, "held_k"] = int(pub["through"].get(name, 0))
+        if pmail is not None and c.at[j, "mail26"] < pmail:
+            why.append(f"mail {int(c.at[j, 'mail26']):,} < published {pmail:,}")
+            c.at[j, "mail26"] = float(pmail)
+        if why:
+            c.at[j, "held"] = "; ".join(why)
     c["ev26"] = c.in26 + c.mail26
     if c.in26.sum() == 0:
         n = 0                       # no in-person votes yet: still the mail-only stretch before early voting
@@ -252,19 +299,24 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
         t22d = {d: g.set_index("key") for d, g in t22.groupby("day")}
         scale22 = np.where(c.reg22 > 0, c.reg26 / c.reg22.where(c.reg22 > 0, 1), 1)
         k = pd.Series(0, index=c.index)
-        for dstr in dates:                                       # last day with a real in-person report
+        # The latest day each county's numbers run through: the last state file in which its running in-person total
+        # grew by a real amount. Not the file's "votes on this date" field: late uploads put several days into one
+        # file with almost nothing "on this date" (Fort Bend's Oct. 21 file: 10,085 -> 41,039 in person, "1" on the
+        # date). A token change (Johnson +28, Travis +1) is a partial upload, not a day.
+        seen = pd.Series(0.0, index=c.index)
+        for dstr in dates:
             dn = day_number(datetime.strptime(dstr, "%m/%d/%Y").date())
-            if not 1 <= dn <= n or dn not in t22d:
-                continue
-            on = c.county.map(lambda x: daily[dstr]["counties"].get(x, [0, 0, 0])[2]).astype(float)
-            t22_on = c.key.map(t22d[dn].today_in_person).fillna(0) * scale22
-            # a token count (Johnson: 28 votes by evening) is a partial upload, not a day's report
-            k = k.where(~((on > 0) & (on >= 0.25 * t22_on)), dn)
+            cum = c.county.map(lambda x: daily[dstr]["counties"].get(x, [0, 0, 0])[0]).astype(float)
+            if 1 <= dn <= n and dn in t22d:
+                t22_on = c.key.map(t22d[dn].today_in_person).fillna(0) * scale22
+                grew = (cum - seen > 0) & (cum - seen >= 0.25 * t22_on)
+                k = k.where(~grew, dn)
+            seen = np.maximum(seen, cum)
         for name, rec in reports.items():                        # county reports say which day they run through
             m = (c.county == name) & c.report
             if m.any() and rec.get("through"):
                 k[m] = day_number(datetime.strptime(rec["through"], "%m/%d/%Y").date())
-        k = np.maximum(k, c.floor_k)                             # totals carried up from an earlier day's count
+        k = np.maximum(np.maximum(k, c.floor_k), c.held_k)      # totals carried up from an earlier day's count
         k[c.live] = n                                            # live counties include today
         k[(k == 0) & (c.in26 > 0)] = 1
         c["through_day"] = k.clip(upper=n).astype(int)
@@ -401,6 +453,7 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                                   pace18=None if pd.isna(r.pace18) or r.missing else round(float(r.pace18), 3),
                                   pace=None if pd.isna(r.pace) else round(float(r.pace), 3), missing=bool(r.missing), report=bool(r.report),
                                   mail_missing=bool(r.mail_missing), through_day=int(r.through_day),
+                                  held=r.held if isinstance(r.held, str) else None,
                                   est_net=int(round(r.est_net)), pct=round(float(r.pct26) * 100, 2),
                                   pct22=round(float(r.pct22) * 100, 2))
     out = dict(
