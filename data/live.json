@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-22T00:07:01+00:00",
+ "fetched": "2026-10-22T01:07:10+00:00",
  "day": 3,
  "date": "2026-10-21",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 07:04 PM",
-   "ballots_to_date": 120482,
+   "refreshed": "Wed Oct 21 08:06 PM",
+   "ballots_to_date": 120626,
    "hourly": [
     2159,
     2478,
@@ -20,13 +20,13 @@
     3612,
     3452,
     3382,
-    2916,
-    62
+    2915,
+    207
    ],
    "hours_in": 13,
-   "today": 39346,
-   "completed_hours": 12,
-   "today_completed": 39284,
+   "today": 39490,
+   "completed_hours": 13,
+   "today_completed": 39490,
    "through": "close",
    "compare": {
     "2022": {
@@ -45,7 +45,7 @@
       1446,
       11
      ],
-     "same_hours": 24640,
+     "same_hours": 24651,
      "full_day": 24651
     },
     "2024": {
@@ -64,7 +64,7 @@
       3162,
       140
      ],
-     "same_hours": 43518,
+     "same_hours": 43658,
      "full_day": 43658
     }
    }
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 07:04 PM",
+   "refreshed": "Wed Oct 21 08:05 PM",
    "ballots_to_date": 42137,
    "hourly": [
     1,
@@ -121,26 +121,26 @@
    "url": "https://earlyvotecountsdual.bexar.org",
    "date": "10/21/2026",
    "sites": 59,
-   "today": 0,
-   "ballots_to_date": 87597,
+   "today": 45133,
+   "ballots_to_date": 132730,
    "busiest": [
     [
-     "Bexar County Elections Department",
-     0,
-     1535,
-     1535
-    ],
-    [
-     "Bexar County Justice Center",
-     0,
-     962,
-     962
-    ],
-    [
      "Brookhollow Branch Library",
-     0,
+     1675,
      3192,
-     3192
+     4867
+    ],
+    [
+     "Northwest Vista College",
+     1485,
+     2726,
+     4211
+    ],
+    [
+     "Encino Branch Library",
+     1460,
+     2524,
+     3984
     ]
    ],
    "hourly": null,
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 21 7:06 PM",
-   "today": 55056,
-   "ballots_to_date": 198007,
+   "refreshed": "Wed Oct 21 7:48 PM",
+   "today": 55560,
+   "ballots_to_date": 198477,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     2501
+     2517
     ],
     [
      "Fretz Park Library",
-     2144
+     2160
     ],
     [
      "Disciple Central Comm Church",
-     1674
+     1691
     ]
    ],
    "hourly": null,
