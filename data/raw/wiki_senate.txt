@@ -2745,7 +2745,7 @@ The election is taking place amidst a broader push by the Trump administration t
 |-
 |align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=October 19, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
-|October 6, 2026
+|October 20, 2026
 |-
 |align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=October 19, 2026}}</ref>
 |{{USRaceRating|Tossup}}
@@ -2928,9 +2928,9 @@ The election is taking place amidst a broader push by the Trump administration t
 '''Individuals'''
 * [[Jack Antonoff]], singer and producer<ref>{{Cite news |url=https://www.statesman.com/entertainment/music/article/jack-antonoff-talarico-acl-fest-bleachers-22472305.php |title=Jack Antonoff wears 'Talarico for Texas' shirt at ACL Fest |last=Psencik |first=Katey |work=[[Austin American-Statesman]] |date=October 12, 2026 |access-date=October 12, 2026}}</ref>
 * [[Beck Bennett]], actor and comedian<ref name="Celebrity"/>
-* [[Connie Britton]], actress<ref name = "ChronCelebrities">{{Cite web |last=Malcolm |first=Timothy |date=2026-10-19 |title='Friday Night Lights' cast, the Chicks, RFK Jr. stumping for Senate candidates |url=https://www.chron.com/politics/article/talarico-paxton-friday-night-lights-22482868.php |access-date=2026-10-21 |website=Chron |language=en}}</ref>
+* [[Connie Britton]], actress<ref name = "ChronCelebrities">{{Cite web |last=Malcolm |first=Timothy |date=October 19, 2026 |title='Friday Night Lights' cast, the Chicks, RFK Jr. stumping for Senate candidates |url=https://www.chron.com/politics/article/talarico-paxton-friday-night-lights-22482868.php |access-date=October 21, 2026 |website=Chron |language=en}}</ref>
 * [[Barbara Bush (born 1981)|Barbara Bush]], daughter of [[President of the United States|President]] [[George W. Bush]] ''(Independent)''<ref>{{Cite web|url=https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/16/564593/barbara-bush-james-talarico-super-pac-us-senate/|title=Barbara Bush donated to super PAC supporting James Talarico for U.S. Senate|last=Schneider|first=Andrew|date=October 16, 2026|access-date=October 19, 2026|website=[[KUHT|Houston Public Media]]}}</ref>
-* [[Neil Bush]], son of [[President of the United States|President]] [[George H. W. Bush]] ''(Republican)''<ref>{{Cite news |last=Baio |first=Ariana |date=2026-10-21 |title=Bush's brother crosses party lines to vote for James Talarico for Senate |url=https://www.theguardian.com/us-news/2026/oct/21/neil-bush-votes-james-talarico |access-date=2026-10-21 |work=The Guardian |language=en-GB |issn=0261-3077}}</ref>
+* [[Neil Bush]], son of [[President of the United States|President]] [[George H. W. Bush]] ''(Republican)''<ref>{{Cite news |last=Baio |first=Ariana |date=October 21, 2026 |title=Bush's brother crosses party lines to vote for James Talarico for Senate |url=https://www.theguardian.com/us-news/2026/oct/21/neil-bush-votes-james-talarico |access-date=October 21, 2026 |work=The Guardian |language=en-GB |issn=0261-3077}}</ref>
 * [[Mark Cuban]], businessman ''(Independent)''<ref name="Celebrity"/>
 * [[Matthew DeSarno]], former FBI special agent<ref>{{Cite web |last=Powell |first=Adam |title=Cornyn's Dr. Seuss-inspired ad attacks Paxton in Texas US Senate race |url=https://www.elpasotimes.com/story/news/politics/elections/2026/05/06/cornyn-ramps-up-attacks-on-paxton-weeks-before-texas-us-senate-runoff/89950368007/ |access-date=May 12, 2026 |website=El Paso Times |language=en-US}}</ref>
 * [[Don Henley]], singer and musician<ref name="Celebrity"/>
