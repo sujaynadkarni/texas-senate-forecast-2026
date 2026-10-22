@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-22T22:09:13+00:00",
+ "fetched": "2026-10-22T23:09:41+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 150354,
@@ -19,7 +19,7 @@
   },
   "Denton": {
    "in_person": 94659,
-   "mail": 4247,
+   "mail": 4645,
    "through": "10/21/2026",
    "last_day": 28357,
    "url": "https://www.votedenton.gov/early-voting-election-day-rosters/",
@@ -30,7 +30,10 @@
    "through": "10/21/2026",
    "last_day": 0,
    "url": "https://www.collincountytx.gov/elections/rosters",
-   "source": "Collin County totals by site"
+   "source": "Collin County totals by site",
+   "error": "ValueError: no response from https://www.collincountytx.gov/docs/default-source/elections/election-rosters/totals-by-site-through-october-21-2026.pdf?sfvrsn=72337ee9_3 after 3 tries (curl exit 22)",
+   "stale": true,
+   "last_good": "2026-10-22T22:09:13+00:00"
   },
   "Comal": {
    "in_person": 17485,
