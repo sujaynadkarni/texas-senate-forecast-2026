@@ -4474,6 +4474,340 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 }}
 {{Election box end}}
 
+<!-- This is a template borrowed from the [[2025 Virginia gubernatorial election]]. Modify and fill this out once exit polls are available.
+==Exit poll==
+{| class="wikitable sortable" style="font-size:90%; line-height:1.2"
+|+ 2026 United States Senate election in Texas voter demographics (CNN)
+|-
+! Demographic subgroup
+! {{party shading/Democratic}} |Talarico
+! {{party shading/Republican}} |Paxton
+! % of<br />total vote
+|-
+! colspan="4" |Ideology
+|-
+| [[Modern liberalism in the United States|Liberals]]
+| style="text-align:right; background:#b0ceff;" | 96
+| style="text-align:right; background:#fff3f3;" | 4
+| style="text-align:right;" | 33
+|-
+| [[Moderates]]
+| style="text-align:right; background:#b0ceff;" | 69
+| style="text-align:right; background:#fff3f3;" | 31
+| style="text-align:right;" | 33
+|-
+| [[Conservatism in the United States|Conservatives]]
+| style="text-align:right; background:#f0f0ff;" | 10
+| style="text-align:right; background:#ffb6b6;" | 90
+| style="text-align:right;" | 35
+|-
+! colspan="4" |Party
+|-
+| [[Democratic Party (United States)|Democrats]]
+| style="text-align:right; background:#b0ceff;" | 99
+| style="text-align:right; background:#fff3f3;" | 1
+| style="text-align:right;" | 36
+|-
+| [[Republican Party (United States)|Republicans]]
+| style="text-align:right; background:#f0f0ff;" | 7
+| style="text-align:right; background:#ffb6b6;" | 93
+| style="text-align:right;" | 31
+|-
+| [[Independent (voter)|Independents]]
+| style="text-align:right; background:#b0ceff;" | 59
+| style="text-align:right; background:#fff3f3;" | 40
+| style="text-align:right;" | 33
+|-
+! colspan="4" |Donald Trump job approval
+|-
+| Approve
+| style="text-align:right; background:#f0f0ff;" | 6
+| style="text-align:right; background:#ffb6b6;" | 94
+| style="text-align:right;" | 39
+|-
+| Disapprove
+| style="text-align:right; background:#b0ceff;" | 92
+| style="text-align:right; background:#fff3f3;" | 7
+| style="text-align:right;" | 59
+|-
+! colspan="4" |Most important issue facing Michigan
+|-
+| Economy
+| style="text-align:right; background:#b0ceff;" | 63
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 48
+|-
+| Health care
+| style="text-align:right; background:#b0ceff;" | 81
+| style="text-align:right; background:#fff3f3;" | 18
+| style="text-align:right;" | 21
+|-
+| Education
+| style="text-align:right; background:#b0ceff;" | 55
+| style="text-align:right; background:#fff3f3;" | 45
+| style="text-align:right;" | 11
+|-
+| Immigration
+| style="text-align:right; background:#f0f0ff;" | 11
+| style="text-align:right; background:#ffb6b6;" | 89
+| style="text-align:right;" | 11
+|-
+! colspan="4" |2024 presidential vote
+|-
+| [[Kamala Harris]]
+| style="text-align:right; background:#b0ceff;" | 99
+| style="text-align:right; background:#fff3f3;" | 1
+| style="text-align:right;" | 51
+|-
+| [[Donald Trump]]
+| style="text-align:right; background:#f0f0ff;" | 7
+| style="text-align:right; background:#ffb6b6;" | 93
+| style="text-align:right;" | 42
+|-
+| Another candidate
+| style="text-align:right; background:#b0ceff;" | 61
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 2
+|-
+| Did not vote
+| style="text-align:right; background:#b0ceff;" | 61
+| style="text-align:right; background:#fff3f3;" | 39
+| style="text-align:right;" | 3
+|-
+! colspan="4" |Gender
+|-
+| Men
+| style="text-align:right; background:#f0f0ff;" | 48
+| style="text-align:right; background:#ffb6b6;" | 51
+| style="text-align:right;" | 47
+|-
+| Women
+| style="text-align:right; background:#b0ceff;" | 65
+| style="text-align:right; background:#fff3f3;" | 35
+| style="text-align:right;" | 53
+|-
+! colspan="4" |Income
+|-
+| $200,000 or more
+| style="text-align:right; background:#b0ceff;" | 64
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 14
+|-
+| $100,000-$199,999
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 48
+| style="text-align:right;" | 28
+|-
+| $50,000-$99,999
+| style="text-align:right; background:#b0ceff;" | 58
+| style="text-align:right; background:#fff3f3;" | 42
+| style="text-align:right;" | 31
+|-
+| Less than $50,000
+| style="text-align:right; background:#b0ceff;" | 63
+| style="text-align:right; background:#fff3f3;" | 37
+| style="text-align:right;" | 26
+|-
+! colspan="4" |Race/ethnicity
+|-
+| [[White American|White]]
+| style="text-align:right; background:#f0f0ff;" | 47
+| style="text-align:right; background:#ffb6b6;" | 53
+| style="text-align:right;" | 71
+|-
+| [[Asian Americans|Asian]]
+| style="text-align:right; background:#b0ceff;" | 80
+| style="text-align:right; background:#fff3f3;" | 20
+| style="text-align:right;" | 4
+|-
+| [[Hispanic and Latino Americans|Latino]]
+| style="text-align:right; background:#b0ceff;" | 67
+| style="text-align:right; background:#fff3f3;" | 33
+| style="text-align:right;" | 5
+|-
+| [[African Americans|Black]]
+| style="text-align:right; background:#b0ceff;" | 93
+| style="text-align:right; background:#fff3f3;" | 7
+| style="text-align:right;" | 16
+|-
+! colspan="4" | White born-again or evangelical Christian?
+|-
+| Yes
+| style="text-align:right; background:#f0f0ff;" | 20
+| style="text-align:right; background:#ffb6b6;" | 80
+| style="text-align:right;" | 28
+|-
+| No
+| style="text-align:right; background:#b0ceff;" | 71
+| style="text-align:right; background:#fff3f3;" | 29
+| style="text-align:right;" | 72
+|-
+! colspan="4" | Race by gender
+|-
+| White men
+| style="text-align:right; background:#f0f0ff;" | 38
+| style="text-align:right; background:#ffb6b6;" | 61
+| style="text-align:right;" | 34
+|-
+| White women
+| style="text-align:right; background:#b0ceff;" | 54
+| style="text-align:right; background:#fff3f3;" | 46
+| style="text-align:right;" | 36
+|-
+| Black men
+| style="text-align:right; background:#b0ceff;" | 89
+| style="text-align:right; background:#fff3f3;" | 11
+| style="text-align:right;" | 7
+|-
+| Black women
+| style="text-align:right; background:#b0ceff;" | 96
+| style="text-align:right; background:#fff3f3;" | 3
+| style="text-align:right;" | 9
+|-
+| Latino men
+| style="text-align:right; background:#b0ceff;" | 53
+| style="text-align:right; background:#fff3f3;" | 47
+| style="text-align:right;" | 2
+|-
+| Latina women
+| style="text-align:right; background:#b0ceff;" | 78
+| style="text-align:right; background:#fff3f3;" | 22
+| style="text-align:right;" | 2
+|-
+| All other voters
+| style="text-align:right; background:#b0ceff;" | 73
+| style="text-align:right; background:#fff3f3;" | 27
+| style="text-align:right;" | 9
+|-
+! colspan="4" |Age
+|-
+| 18–29 years old
+| style="text-align:right; background:#b0ceff;" | 70
+| style="text-align:right; background:#fff3f3;" | 29
+| style="text-align:right;" | 13
+|-
+| 30–44 years old
+| style="text-align:right; background:#b0ceff;" | 62
+| style="text-align:right; background:#fff3f3;" | 38
+| style="text-align:right;" | 20
+|-
+| 45-64 years old
+| style="text-align:right; background:#b0ceff;" | 55
+| style="text-align:right; background:#fff3f3;" | 45
+| style="text-align:right;" | 35
+|-
+| 65 and older
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 49
+| style="text-align:right;" | 32
+|-
+! colspan="4" |Area type
+|-
+| Urban
+| style="text-align:right; background:#b0ceff;" | 66
+| style="text-align:right; background:#fff3f3;" | 34
+| style="text-align:right;" | 19
+|-
+| Suburban
+| style="text-align:right; background:#b0ceff;" | 59
+| style="text-align:right; background:#fff3f3;" | 41
+| style="text-align:right;" | 57
+|-
+| Rural
+| style="text-align:right; background:#f0f0ff;" | 46
+| style="text-align:right; background:#ffb6b6;" | 54
+| style="text-align:right;" | 24
+|-
+! colspan="4" |Education
+|-
+| College graduate
+| style="text-align:right; background:#b0ceff;" | 63
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 52
+|-
+| No college degree
+| style="text-align:right; background:#b0ceff;" | 50
+| style="text-align:right; background:#fff3f3;" | 49
+| style="text-align:right;" | 48
+|-
+! colspan="4" |Education by race
+|-
+| White college graduates
+| style="text-align:right; background:#b0ceff;" | 57
+| style="text-align:right; background:#fff3f3;" | 43
+| style="text-align:right;" | 38
+|-
+| Non-white college graduates
+| style="text-align:right; background:#b0ceff;" | 80
+| style="text-align:right; background:#fff3f3;" | 19
+| style="text-align:right;" | 14
+|-
+| Whites without college
+| style="text-align:right; background:#f0f0ff;" | 34
+| style="text-align:right; background:#ffb6b6;" | 66
+| style="text-align:right;" | 33
+|-
+| Non-whites without college
+| style="text-align:right; background:#b0ceff;" | 85
+| style="text-align:right; background:#fff3f3;" | 15
+| style="text-align:right;" | 15
+|-
+! colspan="4" |Education by gender and race
+|-
+| White women with college degrees
+| style="text-align:right; background:#b0ceff;" | 65
+| style="text-align:right; background:#fff3f3;" | 35
+| style="text-align:right;" | 20
+|-
+| White women without college degrees
+| style="text-align:right; background:#f0f0ff;" | 39
+| style="text-align:right; background:#ffb6b6;" | 60
+| style="text-align:right;" | 16
+|-
+| White men with college degrees
+| style="text-align:right; background:#f0f0ff;" | 48
+| style="text-align:right; background:#ffb6b6;" | 52
+| style="text-align:right;" | 18
+|-
+| White men without college degrees
+| style="text-align:right; background:#f0f0ff;" | 29
+| style="text-align:right; background:#ffb6b6;" | 71
+| style="text-align:right;" | 17
+|-
+| Voters of color
+| style="text-align:right; background:#b0ceff;" | 83
+| style="text-align:right; background:#fff3f3;" | 17
+| style="text-align:right;" | 30
+|-
+! colspan="4" |Educational attainment
+|-
+| [[Postgraduate education|Advanced degree]]
+| style="text-align:right; background:#b0ceff;" | 68
+| style="text-align:right; background:#fff3f3;" | 32
+| style="text-align:right;" | 23
+|-
+| [[Bachelor's degree]]
+| style="text-align:right; background:#b0ceff;" | 60
+| style="text-align:right; background:#fff3f3;" | 40
+| style="text-align:right;" | 29
+|-
+| [[Associate's degree]]
+| style="text-align:right; background:#b0ceff;" | 53
+| style="text-align:right; background:#fff3f3;" | 47
+| style="text-align:right;" | 10
+|-
+| Some college
+| style="text-align:right; background:#b0ceff;" | 55
+| style="text-align:right; background:#fff3f3;" | 45
+| style="text-align:right;" | 17
+|-
+| Never attended college
+| style="text-align:right; background:#f0f0ff;" | 46
+| style="text-align:right; background:#ffb6b6;" | 54
+| style="text-align:right;" | 21
+|}
+ -->
+
 ==Notes==
 {{reflist|group=n}}
 {{notelist}}
