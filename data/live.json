@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-22T21:08:55+00:00",
+ "fetched": "2026-10-22T21:21:49+00:00",
  "day": 4,
  "date": "2026-10-22",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 04:07 PM",
-   "ballots_to_date": 149610,
+   "refreshed": "Thu Oct 22 04:17 PM",
+   "ballots_to_date": 150242,
    "hourly": [
     2023,
     2305,
@@ -17,16 +17,16 @@
     3524,
     3577,
     3604,
-    3593,
-    422,
+    3595,
+    1052,
     0,
     0,
     0
    ],
    "hours_in": 10,
-   "today": 28984,
+   "today": 29616,
    "completed_hours": 9,
-   "today_completed": 28562,
+   "today_completed": 28564,
    "through": "4 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 04:05 PM",
-   "ballots_to_date": 54375,
+   "refreshed": "Thu Oct 22 04:20 PM",
+   "ballots_to_date": 54765,
    "hourly": [
     0,
     1406,
@@ -84,13 +84,13 @@
     1528,
     1471,
     1447,
-    129,
+    519,
     0,
     0,
     0
    ],
    "hours_in": 10,
-   "today": 12238,
+   "today": 12628,
    "completed_hours": 9,
    "today_completed": 12109,
    "through": "4 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Thu Oct 22 4:06 PM",
-   "today": 35487,
-   "ballots_to_date": 234249,
+   "refreshed": "Thu Oct 22 4:21 PM",
+   "today": 36601,
+   "ballots_to_date": 235394,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1592
+     1646
     ],
     [
      "Fretz Park Library",
-     1480
+     1521
     ],
     [
-     "Rowlett Community Centre",
-     1172
+     "University Park Umc",
+     1202
     ]
    ],
    "hourly": null,
