@@ -1,118 +1,118 @@
 {
- "fetched": "2026-10-22T04:06:20+00:00",
- "day": 3,
- "date": "2026-10-21",
+ "fetched": "2026-10-22T19:53:08+00:00",
+ "day": 4,
+ "date": "2026-10-22",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 11:03 PM",
-   "ballots_to_date": 120626,
+   "refreshed": "Thu Oct 22 02:49 PM",
+   "ballots_to_date": 144996,
    "hourly": [
-    2159,
-    2478,
-    3156,
-    3475,
-    3652,
-    3712,
-    3646,
-    3644,
-    3612,
-    3452,
-    3382,
-    2915,
-    207
+    2023,
+    2305,
+    3002,
+    3327,
+    3607,
+    3524,
+    3577,
+    3005,
+    0,
+    0,
+    0,
+    0,
+    0
    ],
-   "hours_in": 13,
-   "today": 39490,
-   "completed_hours": 13,
-   "today_completed": 39490,
-   "through": "close",
+   "hours_in": 8,
+   "today": 24370,
+   "completed_hours": 7,
+   "today_completed": 21365,
+   "through": "2 PM",
    "compare": {
     "2022": {
      "hourly": [
-      716,
-      1070,
-      1785,
-      2405,
-      2783,
-      2530,
+      701,
+      1058,
+      1813,
+      2371,
+      2569,
+      2398,
+      2561,
       2637,
-      2710,
-      2439,
-      2229,
-      1890,
-      1446,
-      11
+      2384,
+      2108,
+      1914,
+      1298,
+      4
      ],
-     "same_hours": 24651,
-     "full_day": 24651
+     "same_hours": 13471,
+     "full_day": 23816
     },
     "2024": {
      "hourly": [
-      2534,
-      2857,
-      3738,
-      3883,
-      4105,
-      4067,
-      3815,
-      3875,
-      4014,
-      3946,
-      3522,
-      3162,
-      140
+      2570,
+      2782,
+      3532,
+      3838,
+      4090,
+      3887,
+      3892,
+      3807,
+      3786,
+      3708,
+      3300,
+      2747,
+      182
      ],
-     "same_hours": 43658,
-     "full_day": 43658
+     "same_hours": 24591,
+     "full_day": 42121
     }
    }
   },
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 21 11:03 PM",
-   "ballots_to_date": 42137,
+   "refreshed": "Thu Oct 22 02:49 PM",
+   "ballots_to_date": 52526,
    "hourly": [
-    1,
-    1420,
-    1497,
-    1604,
-    1594,
-    1622,
-    1623,
-    1595,
-    1532,
-    1462,
-    453,
-    4,
+    0,
+    1406,
+    1437,
+    1631,
+    1641,
+    1548,
+    1528,
+    1198,
+    0,
+    0,
+    0,
+    0,
     0
    ],
-   "hours_in": 12,
-   "today": 14407,
-   "completed_hours": 12,
-   "today_completed": 14407,
-   "through": "close",
+   "hours_in": 8,
+   "today": 10389,
+   "completed_hours": 7,
+   "today_completed": 9191,
+   "through": "2 PM",
    "compare": {
     "2024": {
      "hourly": [
-      1,
-      2004,
-      2043,
-      1943,
-      1909,
-      1807,
-      1847,
-      1989,
-      1981,
-      2097,
-      619,
-      61,
+      0,
+      2035,
+      2122,
+      2052,
+      2028,
+      2016,
+      1962,
+      2048,
+      2052,
+      2075,
+      656,
+      23,
       0
      ],
-     "same_hours": 18301,
-     "full_day": 18301
+     "same_hours": 12215,
+     "full_day": 19069
     }
    }
   },
@@ -121,7 +121,7 @@
    "url": "https://earlyvotecountsdual.bexar.org",
    "date": "10/21/2026",
    "sites": 59,
-   "today": 45133,
+   "today": 0,
    "ballots_to_date": 132730,
    "busiest": [
     [
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 21 7:48 PM",
-   "today": 55560,
-   "ballots_to_date": 198477,
+   "refreshed": "Thu Oct 22 2:51 PM",
+   "today": 27752,
+   "ballots_to_date": 226533,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     2517
+     1284
     ],
     [
      "Fretz Park Library",
-     2160
+     1177
     ],
     [
-     "Disciple Central Comm Church",
-     1691
+     "University Park Umc",
+     946
     ]
    ],
    "hourly": null,

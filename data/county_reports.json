@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-22T04:06:29+00:00",
+ "fetched": "2026-10-22T19:53:21+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 150354,
@@ -10,10 +10,10 @@
    "source": "Tarrant County daily early-vote report"
   },
   "Harris": {
-   "in_person": 297985,
+   "in_person": 297981,
    "mail": 29706,
    "through": "10/21/2026",
-   "last_day": 93417,
+   "last_day": 93414,
    "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf",
    "source": "Harris County Clerk daily early-vote report"
   },
@@ -33,10 +33,11 @@
    "source": "Collin County totals by site"
   },
   "Comal": {
-   "in_person": 11668,
-   "through": "10/20/2026",
-   "last_day": 5797,
+   "in_person": 17485,
+   "through": "10/21/2026",
+   "last_day": 5817,
    "by_day": {
+    "10/21/2026": 5817,
     "10/20/2026": 5797,
     "10/19/2026": 5871
    },
@@ -46,6 +47,7 @@
  },
  "comal_cache": {
   "8839": 5797,
-  "8826": 5871
+  "8826": 5871,
+  "8857": 5817
  }
 }
