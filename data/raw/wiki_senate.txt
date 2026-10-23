@@ -2684,7 +2684,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 |{{legend|#BCB993|50%}}
 }}
 ]]
-
+[[File:2026 United States Senate Democratic primary election in Texas results map by four Dallas–Fort Worth Counties precinct.svg|thumb|300px|Results of the 2026 Democratic U.S. Senate primary by precinct in [[Dallas County, Texas|Dallas]], [[Tarrant County, Texas|Tarrant]], [[Collin County, Texas|Collin]], and [[Denton County, Texas|Denton]] counties. {{collapsible list | title = {{legend|#7996E2|Talarico}} | {{legend|#0D0596|90–100%}} | {{legend|#3933E5|80–90%}} | {{legend|#584CDE|70–80%}} | {{legend|#6674DE|60–70%}} | {{legend|#7996E2|50–60%}} | {{legend|#A5B0FF|40–50%}} }} {{collapsible list | title = {{legend|#5FD35F|Crockett}} | {{legend|#165016|90–100%}} | {{legend|#217821|80–90%}} | {{legend|#2CA02C|70–80%}} | {{legend|#37C837|60–70%}} | {{legend|#5FD35F|50–60%}} | {{legend|#87DE87|40–50%}} }} {{collapsible list | title = {{legend|#A58100|Hassan}} | {{legend|#A58100|90–100%}} }} {{collapsible list | title = {{legend|#D2B1D9|Other}} | {{legend|#AE8BB1|Tie at 50%}}| {{legend|#D2B1D9|Tie below 50%}} | {{legend|#808080|No votes}} | {{legend|#656565|No data}} }}]]
 {{Election box begin no change
 | title = Democratic primary results<ref name="SoS primary results" />
 }}

@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-22T23:09:02+00:00",
+ "fetched": "2026-10-23T00:07:21+00:00",
  "day": 4,
  "date": "2026-10-22",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 06:07 PM",
-   "ballots_to_date": 156092,
+   "refreshed": "Thu Oct 22 07:05 PM",
+   "ballots_to_date": 158349,
    "hourly": [
     2023,
     2305,
@@ -19,15 +19,15 @@
     3604,
     3596,
     3396,
-    3128,
-    377,
-    0
+    3127,
+    2564,
+    71
    ],
-   "hours_in": 12,
-   "today": 35466,
-   "completed_hours": 11,
-   "today_completed": 35089,
-   "through": "6 PM",
+   "hours_in": 13,
+   "today": 37723,
+   "completed_hours": 12,
+   "today_completed": 37652,
+   "through": "close",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       1298,
       4
      ],
-     "same_hours": 22514,
+     "same_hours": 23812,
      "full_day": 23816
     },
     "2024": {
@@ -64,7 +64,7 @@
       2747,
       182
      ],
-     "same_hours": 39192,
+     "same_hours": 41939,
      "full_day": 42121
     }
    }
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 06:07 PM",
+   "refreshed": "Thu Oct 22 07:03 PM",
    "ballots_to_date": 56128,
    "hourly": [
     0,
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Thu Oct 22 6:06 PM",
-   "today": 43860,
-   "ballots_to_date": 243923,
+   "refreshed": "Thu Oct 22 7:07 PM",
+   "today": 48605,
+   "ballots_to_date": 247678,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1976
+     2167
     ],
     [
      "Fretz Park Library",
-     1737
+     1882
     ],
     [
-     "Rowlett Community Centre",
-     1370
+     "Disciple Central Comm Church",
+     1472
     ]
    ],
    "hourly": null,
