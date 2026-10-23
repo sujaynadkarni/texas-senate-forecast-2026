@@ -1,17 +1,17 @@
 {
- "fetched": "2026-10-23T13:40:02+00:00",
+ "fetched": "2026-10-23T14:39:58+00:00",
  "day": 5,
  "date": "2026-10-23",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 08:35 AM",
-   "ballots_to_date": 162246,
+   "refreshed": "Fri Oct 23 09:37 AM",
+   "ballots_to_date": 165416,
    "hourly": [
     2348,
-    1499,
-    0,
+    2710,
+    1959,
     0,
     0,
     0,
@@ -23,11 +23,11 @@
     0,
     0
    ],
-   "hours_in": 2,
-   "today": 3847,
-   "completed_hours": 1,
-   "today_completed": 2348,
-   "through": "8 AM",
+   "hours_in": 3,
+   "today": 7017,
+   "completed_hours": 2,
+   "today_completed": 5058,
+   "through": "9 AM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       1172,
       6
      ],
-     "same_hours": 791,
+     "same_hours": 1606,
      "full_day": 25974
     },
     "2024": {
@@ -64,7 +64,7 @@
       2472,
       126
      ],
-     "same_hours": 2864,
+     "same_hours": 6142,
      "full_day": 44736
     }
    }
@@ -72,12 +72,12 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 08:38 AM",
-   "ballots_to_date": 57098,
+   "refreshed": "Fri Oct 23 09:34 AM",
+   "ballots_to_date": 58539,
    "hourly": [
     0,
-    970,
-    0,
+    1509,
+    902,
     0,
     0,
     0,
@@ -89,11 +89,11 @@
     0,
     0
    ],
-   "hours_in": 2,
-   "today": 970,
-   "completed_hours": 1,
-   "today_completed": 0,
-   "through": "8 AM",
+   "hours_in": 3,
+   "today": 2411,
+   "completed_hours": 2,
+   "today_completed": 1509,
+   "through": "9 AM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       43,
       0
      ],
-     "same_hours": 0,
+     "same_hours": 2267,
      "full_day": 20102
     }
    }
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Fri Oct 23 8:39 AM",
-   "today": 2683,
-   "ballots_to_date": 251324,
-   "sites": 81,
+   "refreshed": "Fri Oct 23 9:39 AM",
+   "today": 5703,
+   "ballots_to_date": 254400,
+   "sites": 83,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     137
+     272
     ],
     [
      "Fretz Park Library",
-     115
+     243
     ],
     [
      "Audelia Road Branch Library",
-     104
+     206
     ]
    ],
    "hourly": null,
