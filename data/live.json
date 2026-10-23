@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-23T01:09:08+00:00",
+ "fetched": "2026-10-23T02:09:15+00:00",
  "day": 4,
  "date": "2026-10-22",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 08:07 PM",
+   "refreshed": "Thu Oct 22 09:05 PM",
    "ballots_to_date": 158399,
    "hourly": [
     2023,
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 08:04 PM",
+   "refreshed": "Thu Oct 22 09:06 PM",
    "ballots_to_date": 56128,
    "hourly": [
     0,
@@ -119,30 +119,11 @@
   "Bexar": {
    "source": "county early-vote dashboard",
    "url": "https://earlyvotecountsdual.bexar.org",
-   "date": "10/22/2026",
-   "sites": 59,
-   "today": 44200,
-   "ballots_to_date": 176930,
-   "busiest": [
-    [
-     "Northwest Vista College",
-     1803,
-     4211,
-     6014
-    ],
-    [
-     "Brookhollow Branch Library",
-     1565,
-     4867,
-     6432
-    ],
-    [
-     "Maverick Branch Library",
-     1441,
-     3711,
-     5152
-    ]
-   ],
+   "date": null,
+   "sites": 0,
+   "today": 0,
+   "ballots_to_date": 0,
+   "busiest": [],
    "hourly": null,
    "compare": {}
   },

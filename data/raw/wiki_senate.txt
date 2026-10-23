@@ -2747,57 +2747,57 @@ The election is taking place amidst a broader push by the Trump administration t
 !Ranking
 !As of
 |-
-|align="left"|[[CBS News]]<ref>{{Cite news |title=2026 midterm election races to watch |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |last1=Hubbard |first1=Kaia |last2=Linton |first2=Caroline |last3=Yilek |first3=Caitlin |last4=Walsh |first4=Joe |work=[[CBS News]] |orig-date=September 13, 2026 |date=October 6, 2026 |access-date=October 7, 2026}}</ref>
+|align="left"|[[CBS News]]<ref>{{Cite news |title=2026 midterm election races to watch |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |work=[[CBS News]] |orig-date=September 13, 2026 |date=October 17, 2026 |access-date=October 22, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 6, 2026
+|October 17, 2026
 |-
-|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=October 19, 2026|website=[[Cook Political Report]]}}</ref>
+|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=October 22, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
 |October 20, 2026
 |-
-|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=October 19, 2026}}</ref>
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=October 22, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 19, 2026
+|October 22, 2026
 |-
-|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=October 19, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=October 22, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
 |{{USRaceRating|Tossup}}
-|October 19, 2026
+|October 21, 2026
 |-
-|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=October 19, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=October 22, 2026 |website=[[FiftyPlusOne]]}}</ref>
 |{{USRaceRating|Tossup}}
-|October 19, 2026
+|October 22, 2026
 |-
-|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: As the House falls, the Senate stays in play |url=https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play |work=[[Fox News]] |date=October 13, 2026 |access-date=October 19, 2026}}</ref>
+|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Trump country at a crossroads |url=https://www.foxnews.com/politics/fox-news-power-rankings-trump-country-crossroads |work=[[Fox News]] |date=October 20, 2026 |access-date=October 22, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 13, 2026
+|October 20, 2026
 |-
-|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=October 19, 2026 |website=[[Inside Elections]]}}</ref>
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=October 22, 2026 |website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Tossup}}
 |October 15, 2026
 |-
-|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |orig-date=August 19, 2026 |work=[[MS NOW]] |date=September 16, 2026 |access-date=October 7, 2026}}</ref>
-|{{USRaceRating|Tossup}}
-|September 16, 2026
-|-
-|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=October 19, 2026}}</ref>
-|{{USRaceRating|Tossup}}
-|October 19, 2026
-|-
-|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=October 19, 2026|website=[[RealClearPolitics]]}}</ref>
+|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 12, 2026 |access-date=October 22, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 12, 2026
 |-
-|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=October 19, 2026}}</ref>
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=October 22, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|October 22, 2026
+|-
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=October 22, 2026|website=[[RealClearPolitics]]}}</ref>
+|{{USRaceRating|Tossup}}
+|October 12, 2026
+|-
+|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=October 22, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 14, 2026
 |-
-|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=October 19, 2026 |orig-date=August 11, 2026 |access-date=October 19, 2026 |url-access=subscription}}</ref>
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=October 22, 2026 |orig-date=August 11, 2026 |access-date=October 22, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|October 19, 2026
+|October 22, 2026
 |-
-|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=October 19, 2026}}</ref>
+|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=October 22, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|October 19, 2026
+|October 22, 2026
 |}
 
 === Post-primary endorsements ===

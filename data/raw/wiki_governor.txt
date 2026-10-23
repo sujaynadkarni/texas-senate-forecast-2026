@@ -578,8 +578,8 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Margin
 |-
 |[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Governor|url=https://www.270towin.com/2026-governor-polls/texas|website=[[270toWin]]|access-date=October 20, 2026}}</ref>
-|October 5–16, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*. Dates listed here should be dates *administered*-->
-|October 20, 2026
+|October 5–20, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*. Dates listed here should be dates *administered*-->
+|October 22, 2026
 |{{party shading/Republican}} |'''50.8%'''
 |47.0%
 |2.2%
