@@ -3109,6 +3109,16 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 ! Other
 ! Undecided
 |-
+| style="text-align:left;"|[[Rasmussen Reports]]<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_texas_senate |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=October 23, 2026 |access-date=October 23, 2026}}</ref>
+|October 20–21, 2026
+|965 (LV)
+|±{{nbsp}}3.0%
+|'''45%'''
+|'''45%'''
+|5%
+|{{sdash}}
+|5%
+|-
 |style="text-align:left;"|ActiVote<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |publisher=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref>
 |October 17–21, 2026
 |400 (LV)
