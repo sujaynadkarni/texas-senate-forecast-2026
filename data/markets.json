@@ -1,10 +1,10 @@
 {
- "fetched": "2026-10-23T21:10:35+00:00",
+ "fetched": "2026-10-23T21:13:02+00:00",
  "senate": [
   {
    "source": "Kalshi",
    "d": 0.66,
-   "volume_usd": 38375155,
+   "volume_usd": 38376087,
    "url": "https://kalshi.com/markets/senatetx/texas-senate-race"
   },
   {
@@ -18,7 +18,7 @@
   {
    "source": "Kalshi",
    "d": 0.27,
-   "volume_usd": 4471964,
+   "volume_usd": 4472052,
    "url": "https://kalshi.com/markets/govpartytx/texas-governor"
   },
   {
