@@ -3119,7 +3119,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |{{sdash}}
 |5%
 |-
-|style="text-align:left;"|ActiVote<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |publisher=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref>
+|style="text-align:left;"|[[Victor Allis|ActiVote]]<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |publisher=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref> {{efn-ua|Activote conducts its poll using a app and get data from online responses. Pollster data may or may not be reliable. }}
+
 |October 17–21, 2026
 |400 (LV)
 |±{{nbsp}}4.9%
