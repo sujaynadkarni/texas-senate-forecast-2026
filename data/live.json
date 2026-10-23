@@ -1,16 +1,30 @@
 {
- "fetched": "2026-10-23T11:09:46+00:00",
+ "fetched": "2026-10-23T12:09:43+00:00",
  "day": 5,
  "date": "2026-10-23",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 06:08 AM",
-   "ballots_to_date": 158399,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Fri Oct 23 07:06 AM",
+   "ballots_to_date": 158717,
+   "hourly": [
+    318,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 318,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -58,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 06:06 AM",
+   "refreshed": "Fri Oct 23 07:07 AM",
    "ballots_to_date": 56128,
    "hourly": [],
    "hours_in": 0,
@@ -121,27 +135,26 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Thu Oct 22 7:48 PM",
+   "refreshed": "Fri Oct 23 7:09 AM",
    "today": 0,
    "ballots_to_date": 247826,
-   "sites": 84,
+   "sites": 0,
    "busiest": [
     [
-     "Oak Lawn Branch Library",
-     2167
+     "Byrd Middle School",
+     0
     ],
     [
-     "Fretz Park Library",
-     1882
+     "Duncanville High School",
+     0
     ],
     [
-     "Disciple Central Comm Church",
-     1472
+     "Jdg Louis A Bedford Jr Law Academy",
+     0
     ]
    ],
    "hourly": null,
-   "compare": {},
-   "note": "polls not open yet; count is from the previous day"
+   "compare": {}
   }
  }
 }
