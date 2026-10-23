@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-23T04:52+00:00",
+  "generated": "2026-10-23T06:40+00:00",
   "mode": "early",
-  "poll_avg": 2.323888140695063,
+  "poll_avg": 2.323888140695085,
   "n_polls": 64,
   "markets": {
-   "Kalshi": 0.67,
+   "Kalshi": 0.66,
    "Polymarket": 0.665
   },
   "needle": 0.728,
-  "early_total": 2690586,
+  "early_total": 2690839,
   "counted": {},
   "early_in_person": {
    "Anderson": 3357,
@@ -118,7 +118,7 @@
    "Hays": 29582,
    "Hemphill": 223,
    "Henderson": 8388,
-   "Hidalgo": 52682,
+   "Hidalgo": 52686,
    "Hockley": 1754,
    "Hood": 5464,
    "Hopkins": 2957,
@@ -584,7 +584,7 @@
    "Edwards": 10,
    "Ellis": 1165,
    "El Paso": 5417,
-   "Erath": 4,
+   "Erath": 252,
    "Falls": 0,
    "Fannin": 170,
    "Fayette": 276,
@@ -730,7 +730,7 @@
    "Wilbarger": 0,
    "Willacy": 0,
    "Winkler": 0,
-   "Yoakum": 23,
+   "Yoakum": 24,
    "Young": 1,
    "Zapata": 0,
    "Zavala": 0
@@ -738,16 +738,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-23T04:52+00:00",
+  "generated": "2026-10-23T06:40+00:00",
   "mode": "early",
-  "poll_avg": -2.6102361814519304,
+  "poll_avg": -2.610236181451908,
   "n_polls": 56,
   "markets": {
    "Kalshi": 0.34,
    "Polymarket": 0.305
   },
   "needle": 0.24556,
-  "early_total": 2690586,
+  "early_total": 2690839,
   "counted": {},
   "early_in_person": {
    "Anderson": 3357,
@@ -856,7 +856,7 @@
    "Hays": 29582,
    "Hemphill": 223,
    "Henderson": 8388,
-   "Hidalgo": 52682,
+   "Hidalgo": 52686,
    "Hockley": 1754,
    "Hood": 5464,
    "Hopkins": 2957,
@@ -1322,7 +1322,7 @@
    "Edwards": 10,
    "Ellis": 1165,
    "El Paso": 5417,
-   "Erath": 4,
+   "Erath": 252,
    "Falls": 0,
    "Fannin": 170,
    "Fayette": 276,
@@ -1468,7 +1468,7 @@
    "Wilbarger": 0,
    "Willacy": 0,
    "Winkler": 0,
-   "Yoakum": 23,
+   "Yoakum": 24,
    "Young": 1,
    "Zapata": 0,
    "Zavala": 0

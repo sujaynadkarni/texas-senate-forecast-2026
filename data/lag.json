@@ -3,12 +3,13 @@
   "Collin: county source failed (ValueError: no response from https://www.collincountytx.gov/docs/default-source/elections/election-rosters/totals-by-site-through-october-21-2026.pdf?sfvrsn=723)",
   "Aransas: kept at last published numbers (mail 1 < published 2)",
   "Austin: kept at last published numbers (mail 0 < published 1)",
-  "Erath: kept at last published numbers (mail 3 < published 4)",
+  "Dallas: kept at last published numbers (in person 267,593 < published 316,357)",
   "Hockley: kept at last published numbers (mail 3 < published 10)",
   "Jefferson: kept at last published numbers (mail 1,073 < published 1,074)",
+  "Montgomery: kept at last published numbers (in person 45,338 < published 56,128)",
   "Panola: kept at last published numbers (mail 0 < published 2)",
   "Presidio: kept at last published numbers (mail 12 < published 18)",
-  "Travis: kept at last published numbers (mail 8,932 < published 8,939)",
+  "Travis: kept at last published numbers (in person 125,062 < published 158,437; mail 8,932 < published 8,939)",
   "Tyler: kept at last published numbers (mail 0 < published 1)",
   "Webb: kept at last published numbers (mail 0 < published 241)"
  ]
