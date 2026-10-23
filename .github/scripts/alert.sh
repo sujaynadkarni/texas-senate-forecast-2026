@@ -3,7 +3,7 @@
 # The issue mentions the repo owner, so GitHub emails them and notifies the GitHub app.
 #   alert.sh open "what went wrong"     alert.sh close "what recovered"
 set -u
-TITLE="${ALERT_TITLE:-Site alert: data not updating}"
+TITLE="${ALERT_TITLE:-Site did not update}"
 num=$(gh issue list --state open --limit 50 --json number,title -q ".[] | select(.title == \"$TITLE\") | .number" 2>/dev/null | head -1)
 now=$(TZ=America/Chicago date '+%b %-d, %-I:%M %p %Z')
 run="${GITHUB_SERVER_URL:-https://github.com}/${GITHUB_REPOSITORY:-}/actions/runs/${GITHUB_RUN_ID:-}"
@@ -14,7 +14,7 @@ Run: $run"
   if [ -n "$num" ]; then gh issue comment "$num" --body "$body"
   else gh issue create --title "$TITLE" --body "@${GITHUB_REPOSITORY_OWNER:-} $body
 
-The site keeps its last good version until this is fixed. This issue closes itself when a refresh succeeds."; fi
+The site keeps showing its last good version until the next successful update. This issue closes itself when that happens."; fi
 elif [ "$1" = "close" ]; then
   for n in $(gh issue list --state open --limit 50 --json number,title -q ".[] | select(.title == \"$TITLE\") | .number" 2>/dev/null); do
     gh issue close "$n" --comment "$now: $2"

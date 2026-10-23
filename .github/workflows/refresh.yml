@@ -78,33 +78,26 @@ jobs:
         with:
           path: public
 
-      - name: Alert if this refresh failed
+      - name: Tell the owner the site did not update
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          why=$(grep -hE "SANITY:|FAIL|Error" refresh.log 2>/dev/null | head -8)
-          .github/scripts/alert.sh open "A refresh failed, so nothing was published.
-          ${why:-See the run log.}"
+          shown=$(python3 -c "import json; print(json.load(open('data/last_published.json'))['senate']['generated'])" 2>/dev/null || echo "an earlier run")
+          why=$(grep -hE "SANITY:|FAIL|Error" refresh.log 2>/dev/null | head -5)
+          .github/scripts/alert.sh open "The site did NOT update. It still shows data from ${shown} (UTC).
+          Reason: ${why:-see the run log}"
 
-      - name: Clear the alert
+      - name: Close the alert once the site updates
         if: success()
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: .github/scripts/alert.sh close "Refresh succeeded; the site is updating again."
-
-      - name: Alert if key counties are behind or a county source broke
-        if: success()
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          ALERT_TITLE: "Data alert: key counties behind or a county source failed"
         run: |
-          lag=$(python3 -c "import json; print('\n'.join(json.load(open('data/lag.json'))['behind']))" 2>/dev/null || true)
-          if [ -n "$lag" ]; then .github/scripts/alert.sh open "These key counties are behind, or their source failed (the site uses the state's numbers for them):
-          $lag"; else .github/scripts/alert.sh close "All key counties are current and every county source worked."; fi
+          .github/scripts/alert.sh close "Fixed. The site updated successfully."
+          # retire the old hourly "counties behind" alert: that information is on the site's sources table
+          ALERT_TITLE="Data alert: key counties behind or a county source failed" .github/scripts/alert.sh close "Retired: county freshness is shown on the site instead of alerts."
 
   deploy:
     needs: refresh
