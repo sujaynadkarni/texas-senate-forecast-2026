@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-10-23T18:40+00:00",
+  "generated": "2026-10-23T19:10+00:00",
   "mode": "early",
   "poll_avg": 2.3791222822643787,
   "n_polls": 66,
@@ -9,7 +9,7 @@
    "Polymarket": 0.665
   },
   "needle": 0.7325,
-  "early_total": 2999936,
+  "early_total": 3007104,
   "counted": {},
   "early_in_person": {
    "Anderson": 4330,
@@ -68,7 +68,7 @@
    "Crosby": 297,
    "Culberson": 319,
    "Dallam": 203,
-   "Dallas": 341253,
+   "Dallas": 345476,
    "Dawson": 728,
    "Deaf Smith": 892,
    "Delta": 499,
@@ -179,7 +179,7 @@
    "Mills": 749,
    "Mitchell": 498,
    "Montague": 2875,
-   "Montgomery": 65515,
+   "Montgomery": 66367,
    "Moore": 1087,
    "Morris": 1176,
    "Motley": 120,
@@ -235,7 +235,7 @@
    "Throckmorton": 97,
    "Titus": 2808,
    "Tom Green": 10246,
-   "Travis": 180200,
+   "Travis": 182293,
    "Trinity": 1991,
    "Tyler": 1810,
    "Upshur": 3918,
@@ -737,7 +737,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-23T18:40+00:00",
+  "generated": "2026-10-23T19:10+00:00",
   "mode": "early",
   "poll_avg": -2.610236181451908,
   "n_polls": 56,
@@ -746,7 +746,7 @@
    "Polymarket": 0.275
   },
   "needle": 0.24556,
-  "early_total": 2999936,
+  "early_total": 3007104,
   "counted": {},
   "early_in_person": {
    "Anderson": 4330,
@@ -805,7 +805,7 @@
    "Crosby": 297,
    "Culberson": 319,
    "Dallam": 203,
-   "Dallas": 341253,
+   "Dallas": 345476,
    "Dawson": 728,
    "Deaf Smith": 892,
    "Delta": 499,
@@ -916,7 +916,7 @@
    "Mills": 749,
    "Mitchell": 498,
    "Montague": 2875,
-   "Montgomery": 65515,
+   "Montgomery": 66367,
    "Moore": 1087,
    "Morris": 1176,
    "Motley": 120,
@@ -972,7 +972,7 @@
    "Throckmorton": 97,
    "Titus": 2808,
    "Tom Green": 10246,
-   "Travis": 180200,
+   "Travis": 182293,
    "Trinity": 1991,
    "Tyler": 1810,
    "Upshur": 3918,
