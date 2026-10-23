@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-23T00:07:21+00:00",
+ "fetched": "2026-10-23T00:09:14+00:00",
  "day": 4,
  "date": "2026-10-22",
  "counties": {
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 22 07:03 PM",
+   "refreshed": "Thu Oct 22 07:08 PM",
    "ballots_to_date": 56128,
    "hourly": [
     0,
@@ -149,7 +149,7 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Thu Oct 22 7:07 PM",
+   "refreshed": "Thu Oct 22 7:09 PM",
    "today": 48605,
    "ballots_to_date": 247678,
    "sites": 84,
