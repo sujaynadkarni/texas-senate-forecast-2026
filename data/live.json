@@ -1,16 +1,16 @@
 {
- "fetched": "2026-10-23T12:09:43+00:00",
+ "fetched": "2026-10-23T13:09:43+00:00",
  "day": 5,
  "date": "2026-10-23",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 07:06 AM",
-   "ballots_to_date": 158717,
+   "refreshed": "Fri Oct 23 08:09 AM",
+   "ballots_to_date": 161110,
    "hourly": [
-    318,
-    0,
+    2349,
+    362,
     0,
     0,
     0,
@@ -23,11 +23,11 @@
     0,
     0
    ],
-   "hours_in": 1,
-   "today": 318,
-   "completed_hours": 0,
-   "today_completed": 0,
-   "through": null,
+   "hours_in": 2,
+   "today": 2711,
+   "completed_hours": 1,
+   "today_completed": 2349,
+   "through": "8 AM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       1172,
       6
      ],
-     "same_hours": 0,
+     "same_hours": 791,
      "full_day": 25974
     },
     "2024": {
@@ -64,7 +64,7 @@
       2472,
       126
      ],
-     "same_hours": 0,
+     "same_hours": 2864,
      "full_day": 44736
     }
    }
@@ -72,14 +72,28 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 07:07 AM",
-   "ballots_to_date": 56128,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
-   "completed_hours": 0,
+   "refreshed": "Fri Oct 23 08:08 AM",
+   "ballots_to_date": 56317,
+   "hourly": [
+    0,
+    189,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 2,
+   "today": 189,
+   "completed_hours": 1,
    "today_completed": 0,
-   "through": null,
+   "through": "8 AM",
    "compare": {
     "2024": {
      "hourly": [
@@ -135,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Fri Oct 23 7:09 AM",
-   "today": 0,
-   "ballots_to_date": 247826,
-   "sites": 0,
+   "refreshed": "Fri Oct 23 8:09 AM",
+   "today": 1421,
+   "ballots_to_date": 250031,
+   "sites": 79,
    "busiest": [
     [
-     "Byrd Middle School",
-     0
+     "Oak Lawn Branch Library",
+     73
     ],
     [
-     "Duncanville High School",
-     0
+     "Fretz Park Library",
+     61
     ],
     [
-     "Jdg Louis A Bedford Jr Law Academy",
-     0
+     "Rowlett Community Centre",
+     58
     ]
    ],
    "hourly": null,

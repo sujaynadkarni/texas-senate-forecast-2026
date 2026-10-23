@@ -3119,6 +3119,35 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |{{sdash}}
 |{{sdash}}
 |-
+|style="text-align:left;" rowspan="4"|Verasight/VoteHub<ref>{{Cite web|url=https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Texas_Report_D8A925D0.pdf|title=Texas likely voter toplines|website=VoteHub|access-date=October 23, 2026}}</ref>
+|rowspan="4"|October 1–20, 2026
+|rowspan="2"|509 (LV)
+|rowspan="4"|±{{nbsp}}4.3%
+|45%{{efn|name=lean}}
+|{{party shading/Democratic}}|'''48%'''
+|1%
+|{{sdash}}
+|6%
+|-
+|41%
+|{{party shading/Democratic}}|'''46%'''
+|4%
+|{{sdash}}
+|9%
+|-
+|rowspan="2"|517 (RV)
+|45%{{efn|name=lean}}
+|{{party shading/Democratic}}|'''46%'''
+|2%
+|{{sdash}}
+|7%
+|-
+|41%
+|{{party shading/Democratic}}|'''43%'''
+|5%
+|{{sdash}}
+|11%
+|-
 |rowspan="2" style="text-align:left;"|[[Emerson College]]<ref>{{cite web |title=Texas 2026 Poll: Toss-Up U.S. Senate Race; Abbott Maintains Edge for Governor |url=https://emersoncollegepolling.com/texas-2026-poll-toss-up/ |website=[[Emerson College Polling]] |access-date=October 22, 2026 |date=October 22, 2026}}</ref>
 |rowspan="2"|October 17–19, 2026
 |rowspan="2"|1,000 (LV)
