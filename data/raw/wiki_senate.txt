@@ -2747,7 +2747,7 @@ The election is taking place amidst a broader push by the Trump administration t
 !Ranking
 !As of
 |-
-|align="left"|[[CBS News]]<ref>{{Cite news |title=2026 midterm election races to watch |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |work=[[CBS News]] |orig-date=September 13, 2026 |date=October 17, 2026 |access-date=October 22, 2026}}</ref>
+|align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |date=October 17, 2026 |access-date=October 24, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 17, 2026
 |-
