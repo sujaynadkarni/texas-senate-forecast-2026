@@ -3043,7 +3043,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 ! Margin
 |-
 |[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Senate|url=https://www.270towin.com/2026-senate-polls/texas|website=[[270toWin]]|access-date=October 23, 2026}}</ref>
-|October 12–21, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
+|October 8–21, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
 |October 23, 2026
 |47.3%
 |{{party shading/Democratic}} |'''49.3%'''
@@ -3091,10 +3091,10 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |{{party shading/Democratic}}|'''Talarico +2.4%'''
 |-
 |colspan="3" |Average
-|46.6%
+|46.5%
 |{{party shading/Democratic}} |'''48.8%'''
-|4.6%
-|{{party shading/Democratic}} |'''Talarico +2.2%'''
+|4.7%
+|{{party shading/Democratic}} |'''Talarico +2.3%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"

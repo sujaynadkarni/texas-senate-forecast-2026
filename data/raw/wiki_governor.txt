@@ -453,7 +453,7 @@ If Abbott is re-elected and serves out his fourth term, he will become the state
 *Pat Dixon ([[Libertarian Party (United States)|Libertarian]]), former chair of the [[Libertarian Party of Texas]]<ref name=":2">{{Cite web |last=Schmidt |first=Nolan |title=9 Libertarians vie for state seats in November election |url=https://seguingazette.com/opinion/community_columnists/schmidt-9-libertarians-vie-for-state-seats-in-november-election/article_1def3ed7-d65d-42cf-acb1-5fecca0a94d4.html |access-date=January 28, 2026 |website=seguingazette.com |date=December 16, 2025 |language=en}}</ref>
 
 =====Write-in=====
-*Edward Earl Giles<ref name=write>https://www.amarillopioneer.com/blog/2026/9/1/write-in-candidates-to-appear-on-texas-state-ballot</ref>
+*Edward Earl Giles<ref name=write>{{Cite web|url=https://www.amarillopioneer.com/blog/2026/9/1/write-in-candidates-to-appear-on-texas-state-ballot|title=Write-In Candidates to Appear on Texas State Ballot|date=September 1, 2026|website=The Amarillo Pioneer}}</ref>
 *Jinghpaw Majoishingra<ref name=write/>
 *Mike Miller<ref name=write/>
 *Jenn Mack Raphoon (Independent)<ref>{{Cite web|title=Jenn Mack Raphoon Signs Texas First Pledge for Governor - Texian Partisan|url=https://texianpartisan.com/news/tnm-news/jenn-mack-raphoon-signs-texas-first-pledge-for-governor/|date=November 3, 2025|access-date=December 1, 2025|language=en-US}}</ref><ref name=":1">{{Cite web |title=Independent Declarations of Intent |url=https://www.sos.state.tx.us/elections/forms/2026-independent-declaration-tracking.pdf |access-date=July 23, 2026 |website=Texas Secretary of State}}</ref><ref name=write/>
@@ -479,33 +479,37 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 !Ranking
 !As of
 |-
-|align=left|''[[The Cook Political Report]]''<ref>{{cite web|title=2026 CPR Governor Race ratings|url=https://www.cookpolitical.com/ratings/governor-race-ratings|website=[[The Cook Political Report]]|access-date=October 11, 2026}}</ref>
+|align=left|''[[The Cook Political Report]]''<ref>{{cite web|title=2026 CPR Governor Race ratings|url=https://www.cookpolitical.com/ratings/governor-race-ratings|website=[[The Cook Political Report]]|access-date=October 23, 2026}}</ref>
 |{{USRaceRating|Lean|R}}
-|October 1, 2026
+|October 23, 2026
 |-
-|align=left|[[Decision Desk HQ]]<ref name="DDHQ">{{cite web |title=2026 Governor Forecast |url=https://votes.decisiondeskhq.com/forecast/2026/governor |website=[[Decision Desk HQ]] |access-date=October 11, 2026}}</ref>
+|align=left|[[Decision Desk HQ]]<ref name="DDHQ">{{cite web |title=2026 Governor Forecast |url=https://votes.decisiondeskhq.com/forecast/2026/governor |website=[[Decision Desk HQ]] |access-date=October 23, 2026}}</ref>
 |{{USRaceRating|Lean|R}}
-|October 11, 2026
+|October 23, 2026
 |-
-|align=left|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: The biggest surprises come after October |url=https://www.foxnews.com/politics/fox-news-power-rankings-the-biggest-surprises-come-after-october |work=[[Fox News]] |date=October 6, 2026 |access-date=October 11, 2026}}</ref>
+|align=left|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Trump country at a crossroads |url=https://www.foxnews.com/politics/fox-news-power-rankings-trump-country-crossroads |work=[[Fox News]] |date=October 20, 2026 |access-date=October 23, 2026}}</ref>
 |{{USRaceRating|Lean|R}}
-|October 6, 2026
+|October 20, 2026
 |-
-|align=left|''[[Inside Elections]]''<ref>{{Cite web|title=Gubernatorial Ratings|url=https://insideelections.com/ratings/governor|access-date=October 15, 2026|website=[[Inside Elections]]}}</ref>
+|align=left|''[[Inside Elections]]''<ref>{{Cite web|title=Gubernatorial Ratings|url=https://insideelections.com/ratings/governor|access-date=October 23, 2026|website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Lean|R}}
 |October 15, 2026
 |-
-|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/governor/2026/toss-up |title=2026 Governor Races |website=[[RealClearPolitics]] |access-date=October 11, 2026}}</ref>
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#governor-section |work=[[NBC News]] |access-date=October 23, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|October 23, 2026
+|-
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/governor/2026/toss-up |title=2026 Governor Races |website=[[RealClearPolitics]] |access-date=October 23, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 5, 2026
+|October 12, 2026
 |-
-|align=left|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Governor|url=https://centerforpolitics.org/crystalball/2026-governor/|website=[[Sabato's Crystal Ball]]|access-date=October 11, 2026}}</ref>
+|align=left|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Governor|url=https://centerforpolitics.org/crystalball/2026-governor/|website=[[Sabato's Crystal Ball]]|access-date=October 23, 2026}}</ref>
 |{{USRaceRating|Lean|R}}
-|October 6, 2026
+|October 22, 2026
 |-
-|align="left"|[[Silver Bulletin]]<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=October 11, 2026 |orig-date=August 11, 2026 |access-date=October 11, 2026 |url-access=subscription}}</ref>
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=October 23, 2026 |orig-date=August 11, 2026 |access-date=October 23, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Lean|R}}
-|October 11, 2026
+|October 23, 2026
 |}
 
 === Post-primary endorsements ===
