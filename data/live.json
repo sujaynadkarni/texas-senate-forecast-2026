@@ -1,16 +1,30 @@
 {
- "fetched": "2026-10-24T11:41:29+00:00",
+ "fetched": "2026-10-24T12:41:32+00:00",
  "day": 6,
  "date": "2026-10-24",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 06:39 AM",
-   "ballots_to_date": 198852,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Sat Oct 24 07:36 AM",
+   "ballots_to_date": 199892,
+   "hourly": [
+    1040,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 1040,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -58,11 +72,25 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 06:40 AM",
-   "ballots_to_date": 71338,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Sat Oct 24 07:36 AM",
+   "ballots_to_date": 72237,
+   "hourly": [
+    898,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 898,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -121,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sat Oct 24 6:39 AM",
-   "today": 0,
-   "ballots_to_date": 302892,
-   "sites": 0,
+   "refreshed": "Sat Oct 24 7:37 AM",
+   "today": 848,
+   "ballots_to_date": 303894,
+   "sites": 78,
    "busiest": [
     [
-     "Byrd Middle School",
-     0
+     "Rowlett Community Centre",
+     46
     ],
     [
-     "Duncanville High School",
-     0
+     "Dallas College-Garland Center",
+     39
     ],
     [
-     "Jdg Louis A Bedford Jr Law Academy",
-     0
+     "Fretz Park Library",
+     36
     ]
    ],
    "hourly": null,
