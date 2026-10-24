@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-24T22:19:29+00:00",
+ "fetched": "2026-10-24T22:42:31+00:00",
  "day": 6,
  "date": "2026-10-24",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 05:16 PM",
-   "ballots_to_date": 221073,
+   "refreshed": "Sat Oct 24 05:37 PM",
+   "ballots_to_date": 221657,
    "hourly": [
     1607,
     1434,
@@ -18,15 +18,15 @@
     2633,
     2434,
     2332,
-    1893,
-    458,
+    1901,
+    1034,
     0,
     0
    ],
    "hours_in": 11,
-   "today": 22221,
+   "today": 22805,
    "completed_hours": 10,
-   "today_completed": 21763,
+   "today_completed": 21771,
    "through": "5 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 05:14 PM",
-   "ballots_to_date": 86010,
+   "refreshed": "Sat Oct 24 05:40 PM",
+   "ballots_to_date": 86480,
    "hourly": [
     1422,
     1325,
@@ -85,12 +85,12 @@
     1428,
     1359,
     1278,
-    264,
+    734,
     0,
     0
    ],
    "hours_in": 11,
-   "today": 14671,
+   "today": 15141,
    "completed_hours": 10,
    "today_completed": 14407,
    "through": "5 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sat Oct 24 5:17 PM",
-   "today": 32011,
-   "ballots_to_date": 335079,
+   "refreshed": "Sat Oct 24 5:42 PM",
+   "today": 32868,
+   "ballots_to_date": 335912,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1484
+     1522
     ],
     [
      "Fretz Park Library",
-     1118
+     1152
     ],
     [
      "Rowlett Community Centre",
-     1054
+     1068
     ]
    ],
    "hourly": null,
