@@ -3138,26 +3138,26 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |{{party shading/Democratic}}|'''48%'''
 |1%
 |{{sdash}}
-|6%
+|5%
 |-
 |41%
 |{{party shading/Democratic}}|'''46%'''
 |4%
 |{{sdash}}
-|9%
+|{{sdash}}
 |-
 |rowspan="2"|517 (RV)
 |45%{{efn|name=lean}}
 |{{party shading/Democratic}}|'''46%'''
 |2%
 |{{sdash}}
-|7%
+|{{sdash}}
 |-
 |41%
 |{{party shading/Democratic}}|'''43%'''
 |5%
 |{{sdash}}
-|11%
+|{{sdash}}
 |-
 |rowspan="2" style="text-align:left;"|[[Emerson College]]<ref>{{cite web |title=Texas 2026 Poll: Toss-Up U.S. Senate Race; Abbott Maintains Edge for Governor |url=https://emersoncollegepolling.com/texas-2026-poll-toss-up/ |website=[[Emerson College Polling]] |access-date=October 22, 2026 |date=October 22, 2026}}</ref>
 |rowspan="2"|October 17–19, 2026
