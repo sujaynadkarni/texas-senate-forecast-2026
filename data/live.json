@@ -1,18 +1,18 @@
 {
- "fetched": "2026-10-24T15:41:44+00:00",
+ "fetched": "2026-10-24T15:58:54+00:00",
  "day": 6,
  "date": "2026-10-24",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 10:41 AM",
-   "ballots_to_date": 205399,
+   "refreshed": "Sat Oct 24 10:56 AM",
+   "ballots_to_date": 206065,
    "hourly": [
     1607,
     1434,
     1942,
-    1564,
+    2230,
     0,
     0,
     0,
@@ -24,7 +24,7 @@
     0
    ],
    "hours_in": 4,
-   "today": 6547,
+   "today": 7213,
    "completed_hours": 3,
    "today_completed": 4983,
    "through": "10 AM",
@@ -72,13 +72,13 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 10:40 AM",
-   "ballots_to_date": 76669,
+   "refreshed": "Sat Oct 24 10:56 AM",
+   "ballots_to_date": 77103,
    "hourly": [
     1422,
     1325,
     1466,
-    1117,
+    1551,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 4,
-   "today": 5330,
+   "today": 5764,
    "completed_hours": 3,
    "today_completed": 4213,
    "through": "10 AM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sat Oct 24 10:37 AM",
-   "today": 8198,
-   "ballots_to_date": 311263,
+   "refreshed": "Sat Oct 24 10:57 AM",
+   "today": 9143,
+   "ballots_to_date": 312226,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     382
+     421
     ],
     [
      "Rowlett Community Centre",
-     317
+     342
     ],
     [
      "Dallas County Mesquite Gov Ctr",
-     298
+     328
     ]
    ],
    "hourly": null,
