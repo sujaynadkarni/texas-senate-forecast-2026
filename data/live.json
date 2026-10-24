@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-24T00:41:02+00:00",
+ "fetched": "2026-10-24T01:41:02+00:00",
  "day": 5,
  "date": "2026-10-23",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 07:36 PM",
+   "refreshed": "Fri Oct 23 08:39 PM",
    "ballots_to_date": 198852,
    "hourly": [
     2348,
@@ -25,8 +25,8 @@
    ],
    "hours_in": 13,
    "today": 40453,
-   "completed_hours": 12,
-   "today_completed": 40352,
+   "completed_hours": 13,
+   "today_completed": 40453,
    "through": "close",
    "compare": {
     "2022": {
@@ -45,7 +45,7 @@
       1172,
       6
      ],
-     "same_hours": 25968,
+     "same_hours": 25974,
      "full_day": 25974
     },
     "2024": {
@@ -64,7 +64,7 @@
       2472,
       126
      ],
-     "same_hours": 44610,
+     "same_hours": 44736,
      "full_day": 44736
     }
    }
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 23 07:37 PM",
+   "refreshed": "Fri Oct 23 08:38 PM",
    "ballots_to_date": 71338,
    "hourly": [
     0,
@@ -119,28 +119,28 @@
   "Bexar": {
    "source": "county early-vote dashboard",
    "url": "https://earlyvotecountsdual.bexar.org",
-   "date": "10/22/2026",
+   "date": "10/23/2026",
    "sites": 59,
-   "today": 0,
-   "ballots_to_date": 176930,
+   "today": 45703,
+   "ballots_to_date": 222633,
    "busiest": [
     [
      "Northwest Vista College",
-     1803,
-     4211,
-     6014
+     1891,
+     6014,
+     7905
     ],
     [
      "Brookhollow Branch Library",
-     1565,
-     4867,
-     6432
+     1807,
+     6432,
+     8239
     ],
     [
-     "Maverick Branch Library",
-     1441,
-     3711,
-     5152
+     "Parman Branch Library @ Stone Oak",
+     1512,
+     4742,
+     6254
     ]
    ],
    "hourly": null,
@@ -149,7 +149,7 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Fri Oct 23 7:37 PM",
+   "refreshed": "Fri Oct 23 7:42 PM",
    "today": 54308,
    "ballots_to_date": 302892,
    "sites": 84,
