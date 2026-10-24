@@ -3001,7 +3001,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 
 {| class="wikitable sortable"
 |-
-! colspan=4 |Campaign finance reports as of September 30, 2026
+! colspan=4 |Campaign finance reports as of October 14, 2026
 |- style="text-align:center;"
 !Candidate
 !Raised
@@ -3009,19 +3009,19 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 !Cash on hand
 |-
 |{{party shading/Republican}}|Ken Paxton (R)
-|$19,497,809
-|$14,572,704
-|$4,925,105
+|$22,327,474
+|$17,543,066
+|$4,784,408
 |-
 |{{party shading/Democratic}}|James Talarico (D)
-|$128,772,835
-|$114,178,603
-|$14,594,231
+|$146,349,912
+|$136,427,055
+|$9,922,857
 |-
 |{{party shading/Libertarian}}|Ted Brown (L)
-|$12,667
-|$9,787
-|$2,948
+|$14,257
+|$13,037
+|$1,288
 |-
 ! colspan="4" |<small>Source: [[Federal Election Commission]]<ref>{{cite web |title=2026 Election United States Senate – Texas |url=https://www.fec.gov/data/elections/senate/TX/2026/ |website=fec.gov |publisher=[[Federal Election Commission]] |access-date=October 16, 2026}}</ref></small>
 |}
@@ -3109,7 +3109,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 ! Other
 ! Undecided
 |-
-| style="text-align:left;"|[[Rasmussen Reports]]<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_texas_senate |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=October 23, 2026 |access-date=October 23, 2026}}</ref>
+| style="text-align:left;"|[[Rasmussen Reports]] (R)<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_texas_senate |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=October 23, 2026 |access-date=October 23, 2026}}</ref>
 |October 20–21, 2026
 |965 (LV)
 |±{{nbsp}}3.0%
@@ -3340,8 +3340,8 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |{{sdash}}
 |0%
 |4%
-|-
-| style="text-align:left;"|[[Rasmussen Reports]]<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_texas_senate_september_28_29_2026 |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=September 30, 2026 |access-date=September 30, 2026}}</ref>
+|- 
+| style="text-align:left;"|[[Rasmussen Reports]] (R)<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_texas_senate_september_28_29_2026 |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=September 30, 2026 |access-date=September 30, 2026}}</ref>
 |September 28–29, 2026
 |1,128 (LV)
 |±{{nbsp}}3.0%
