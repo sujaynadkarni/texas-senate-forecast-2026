@@ -1,11 +1,11 @@
 {
  "senate": {
-  "generated": "2026-10-24T00:24+00:00",
+  "generated": "2026-10-24T00:41+00:00",
   "mode": "early",
   "poll_avg": 2.4051739799763716,
   "n_polls": 69,
   "markets": {
-   "Kalshi": 0.65,
+   "Kalshi": 0.64,
    "Polymarket": 0.645
   },
   "needle": 0.73464,
@@ -736,13 +736,13 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-24T00:24+00:00",
+  "generated": "2026-10-24T00:41+00:00",
   "mode": "early",
   "poll_avg": -2.5519746471631355,
   "n_polls": 58,
   "markets": {
-   "Kalshi": 0.27,
-   "Polymarket": 0.275
+   "Kalshi": 0.29,
+   "Polymarket": 0.28
   },
   "needle": 0.25052,
   "early_total": 3174040,
