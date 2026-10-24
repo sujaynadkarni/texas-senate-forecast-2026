@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-23T23:10:53+00:00",
+ "fetched": "2026-10-24T00:11:04+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 196719,
@@ -18,10 +18,10 @@
    "source": "Harris County Clerk daily early-vote report"
   },
   "Denton": {
-   "in_person": 120625,
+   "in_person": 150760,
    "mail": 5392,
-   "through": "10/22/2026",
-   "last_day": 25964,
+   "through": "10/23/2026",
+   "last_day": 30135,
    "url": "https://www.votedenton.gov/early-voting-election-day-rosters/",
    "source": "Denton County daily early-vote totals"
   },
