@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-24T22:42:40+00:00",
+ "fetched": "2026-10-24T23:42:42+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 247668,
@@ -19,7 +19,7 @@
   },
   "Denton": {
    "in_person": 150760,
-   "mail": 5392,
+   "mail": 6170,
    "through": "10/23/2026",
    "last_day": 30135,
    "url": "https://www.votedenton.gov/early-voting-election-day-rosters/",
