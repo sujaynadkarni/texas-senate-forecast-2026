@@ -1,32 +1,32 @@
 {
  "polls": {
   "ok": true,
-  "at": "2026-10-24T17:12:02+00:00",
+  "at": "2026-10-24T18:12:10+00:00",
   "detail": "senate 69, governor 60 polls"
  },
  "markets": {
   "ok": true,
-  "at": "2026-10-24T17:12:02+00:00",
-  "detail": "senate: Kalshi 0.63, Polymarket 0.62; governor: Kalshi 0.32, Polymarket 0.29"
+  "at": "2026-10-24T18:12:10+00:00",
+  "detail": "senate: Kalshi 0.64, Polymarket 0.62; governor: Kalshi 0.32, Polymarket 0.29"
  },
  "turnout": {
   "ok": true,
-  "at": "2026-10-24T17:12:02+00:00",
-  "detail": "10/24/2026: 3,422,610 early votes"
+  "at": "2026-10-24T18:12:10+00:00",
+  "detail": "10/24/2026: 3,573,554 early votes"
  },
  "results": {
   "ok": true,
-  "at": "2026-10-24T17:12:02+00:00",
+  "at": "2026-10-24T18:12:10+00:00",
   "detail": "votes counted: senate 0, governor 0"
  },
  "live": {
   "ok": true,
-  "at": "2026-10-24T17:12:02+00:00",
-  "detail": "4 counties: Travis 10,393 today, Montgomery 7,628 today, Bexar 0 today, Dallas 14,206 today"
+  "at": "2026-10-24T18:12:10+00:00",
+  "detail": "4 counties: Travis 12,816 today, Montgomery 9,146 today, Bexar 0 today, Dallas 18,008 today"
  },
  "county": {
   "ok": true,
-  "at": "2026-10-24T17:12:02+00:00",
+  "at": "2026-10-24T18:12:10+00:00",
   "detail": "Tarrant 247,668 through 10/23/2026, Harris 479,409 through 10/23/2026, Denton 150,760 through 10/23/2026, Collin 164,034 through 10/23/2026, Comal 28,996 through 10/23/2026"
  }
 }
