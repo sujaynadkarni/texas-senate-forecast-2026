@@ -1,16 +1,16 @@
 {
- "fetched": "2026-10-24T12:41:32+00:00",
+ "fetched": "2026-10-24T13:41:29+00:00",
  "day": 6,
  "date": "2026-10-24",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 07:36 AM",
-   "ballots_to_date": 199892,
+   "refreshed": "Sat Oct 24 08:40 AM",
+   "ballots_to_date": 201371,
    "hourly": [
-    1040,
-    0,
+    1607,
+    912,
     0,
     0,
     0,
@@ -23,11 +23,11 @@
     0,
     0
    ],
-   "hours_in": 1,
-   "today": 1040,
-   "completed_hours": 0,
-   "today_completed": 0,
-   "through": null,
+   "hours_in": 2,
+   "today": 2519,
+   "completed_hours": 1,
+   "today_completed": 1607,
+   "through": "8 AM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       783,
       124
      ],
-     "same_hours": 0,
+     "same_hours": 507,
      "full_day": 17069
     },
     "2024": {
@@ -64,7 +64,7 @@
       1089,
       6
      ],
-     "same_hours": 0,
+     "same_hours": 2298,
      "full_day": 28039
     }
    }
@@ -72,11 +72,11 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 07:36 AM",
-   "ballots_to_date": 72237,
+   "refreshed": "Sat Oct 24 08:38 AM",
+   "ballots_to_date": 73628,
    "hourly": [
-    898,
-    0,
+    1422,
+    867,
     0,
     0,
     0,
@@ -89,11 +89,11 @@
     0,
     0
    ],
-   "hours_in": 1,
-   "today": 898,
-   "completed_hours": 0,
-   "today_completed": 0,
-   "through": null,
+   "hours_in": 2,
+   "today": 2289,
+   "completed_hours": 1,
+   "today_completed": 1422,
+   "through": "8 AM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       1088,
       43
      ],
-     "same_hours": 0,
+     "same_hours": 2275,
      "full_day": 23423
     }
    }
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sat Oct 24 7:37 AM",
-   "today": 848,
-   "ballots_to_date": 303894,
-   "sites": 78,
+   "refreshed": "Sat Oct 24 8:37 AM",
+   "today": 2399,
+   "ballots_to_date": 305457,
+   "sites": 81,
    "busiest": [
     [
-     "Rowlett Community Centre",
-     46
+     "Oak Lawn Branch Library",
+     111
     ],
     [
-     "Dallas College-Garland Center",
-     39
+     "Rowlett Community Centre",
+     108
     ],
     [
      "Fretz Park Library",
-     36
+     84
     ]
    ],
    "hourly": null,
