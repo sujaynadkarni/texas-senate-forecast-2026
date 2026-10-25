@@ -1,19 +1,19 @@
 {
- "fetched": "2026-10-25T15:13:40+00:00",
+ "fetched": "2026-10-25T16:13:48+00:00",
  "day": 7,
  "date": "2026-10-25",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sun Oct 25 10:09 AM",
-   "ballots_to_date": 225996,
+   "refreshed": "Sun Oct 25 11:13 AM",
+   "ballots_to_date": 227689,
    "hourly": [
     530,
     727,
-    1102,
-    210,
-    0,
+    1101,
+    1528,
+    376,
     0,
     0,
     0,
@@ -23,11 +23,11 @@
     0,
     0
    ],
-   "hours_in": 4,
-   "today": 2569,
-   "completed_hours": 3,
-   "today_completed": 2359,
-   "through": "10 AM",
+   "hours_in": 5,
+   "today": 4262,
+   "completed_hours": 4,
+   "today_completed": 3886,
+   "through": "11 AM",
    "compare": {
     "2022": {
      "hourly": [
@@ -72,14 +72,28 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sun Oct 25 10:12 AM",
-   "ballots_to_date": 87698,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
-   "completed_hours": 0,
+   "refreshed": "Sun Oct 25 11:08 AM",
+   "ballots_to_date": 87940,
+   "hourly": [
+    0,
+    0,
+    0,
+    0,
+    242,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 5,
+   "today": 242,
+   "completed_hours": 4,
    "today_completed": 0,
-   "through": null,
+   "through": "11 AM",
    "compare": {
     "2024": {
      "hourly": [
@@ -135,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sat Oct 24 7:21 PM",
-   "today": 36269,
+   "refreshed": "Sun Oct 25 11:01 AM",
+   "today": 0,
    "ballots_to_date": 339325,
-   "sites": 84,
+   "sites": 0,
    "busiest": [
     [
-     "Oak Lawn Branch Library",
-     1602
+     "Byrd Middle School",
+     0
     ],
     [
-     "Fretz Park Library",
-     1254
+     "Duncanville High School",
+     0
     ],
     [
-     "Rowlett Community Centre",
-     1237
+     "Jdg Louis A Bedford Jr Law Academy",
+     0
     ]
    ],
    "hourly": null,
