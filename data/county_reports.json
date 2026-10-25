@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-25T14:03:22+00:00",
+ "fetched": "2026-10-25T15:03:31+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 298746,
@@ -11,7 +11,7 @@
   },
   "Harris": {
    "in_person": 546651,
-   "mail": 34954,
+   "mail": 34929,
    "through": "10/24/2026",
    "last_day": 67242,
    "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf",
