@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-24T23:42:35+00:00",
+ "fetched": "2026-10-25T00:42:37+00:00",
  "day": 6,
  "date": "2026-10-24",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 06:40 PM",
-   "ballots_to_date": 223176,
+   "refreshed": "Sat Oct 24 07:38 PM",
+   "ballots_to_date": 223427,
    "hourly": [
     1607,
     1434,
@@ -20,14 +20,14 @@
     2332,
     1901,
     1608,
-    945,
-    0
+    1190,
+    6
    ],
-   "hours_in": 12,
-   "today": 24324,
-   "completed_hours": 11,
-   "today_completed": 23379,
-   "through": "6 PM",
+   "hours_in": 13,
+   "today": 24575,
+   "completed_hours": 12,
+   "today_completed": 24569,
+   "through": "close",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       783,
       124
      ],
-     "same_hours": 16162,
+     "same_hours": 16945,
      "full_day": 17069
     },
     "2024": {
@@ -64,7 +64,7 @@
       1089,
       6
      ],
-     "same_hours": 26944,
+     "same_hours": 28033,
      "full_day": 28039
     }
    }
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 24 06:41 PM",
-   "ballots_to_date": 87474,
+   "refreshed": "Sat Oct 24 07:37 PM",
+   "ballots_to_date": 87698,
    "hourly": [
     1422,
     1325,
@@ -86,14 +86,14 @@
     1359,
     1278,
     1063,
-    665,
-    0
+    840,
+    49
    ],
-   "hours_in": 12,
-   "today": 16135,
-   "completed_hours": 11,
-   "today_completed": 15470,
-   "through": "6 PM",
+   "hours_in": 13,
+   "today": 16359,
+   "completed_hours": 12,
+   "today_completed": 16310,
+   "through": "close",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       1088,
       43
      ],
-     "same_hours": 22292,
+     "same_hours": 23380,
      "full_day": 23423
     }
    }
@@ -119,28 +119,28 @@
   "Bexar": {
    "source": "county early-vote dashboard",
    "url": "https://earlyvotecountsdual.bexar.org",
-   "date": "10/23/2026",
+   "date": "10/24/2026",
    "sites": 59,
-   "today": 0,
-   "ballots_to_date": 222633,
+   "today": 40720,
+   "ballots_to_date": 263353,
    "busiest": [
     [
      "Northwest Vista College",
-     1891,
-     6014,
-     7905
+     2049,
+     7905,
+     9954
+    ],
+    [
+     "Encino Branch Library",
+     1674,
+     6879,
+     8553
     ],
     [
      "Brookhollow Branch Library",
-     1807,
-     6432,
-     8239
-    ],
-    [
-     "Parman Branch Library @ Stone Oak",
-     1512,
-     4742,
-     6254
+     1637,
+     8239,
+     9876
     ]
    ],
    "hourly": null,
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sat Oct 24 6:42 PM",
-   "today": 35207,
-   "ballots_to_date": 338280,
+   "refreshed": "Sat Oct 24 7:21 PM",
+   "today": 36269,
+   "ballots_to_date": 339325,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1580
+     1602
     ],
     [
      "Fretz Park Library",
-     1220
+     1254
     ],
     [
      "Rowlett Community Centre",
-     1213
+     1237
     ]
    ],
    "hourly": null,
