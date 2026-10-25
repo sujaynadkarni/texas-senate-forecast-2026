@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-25T21:44:12+00:00",
+ "fetched": "2026-10-25T22:23:38+00:00",
  "day": 7,
  "date": "2026-10-25",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sun Oct 25 04:40 PM",
-   "ballots_to_date": 238879,
+   "refreshed": "Sun Oct 25 05:23 PM",
+   "ballots_to_date": 240029,
    "hourly": [
     530,
     727,
@@ -18,16 +18,16 @@
     2188,
     2170,
     1985,
-    1245,
-    0,
+    1780,
+    615,
     0,
     0
    ],
-   "hours_in": 10,
-   "today": 15452,
-   "completed_hours": 9,
-   "today_completed": 14207,
-   "through": "4 PM",
+   "hours_in": 11,
+   "today": 16602,
+   "completed_hours": 10,
+   "today_completed": 15987,
+   "through": "5 PM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       13,
       0
      ],
-     "same_hours": 7585,
+     "same_hours": 8985,
      "full_day": 10039
     },
     "2024": {
@@ -64,7 +64,7 @@
       30,
       0
      ],
-     "same_hours": 13263,
+     "same_hours": 15765,
      "full_day": 17679
     }
    }
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sun Oct 25 04:41 PM",
-   "ballots_to_date": 96421,
+   "refreshed": "Sun Oct 25 05:22 PM",
+   "ballots_to_date": 96854,
    "hourly": [
     0,
     0,
@@ -84,16 +84,16 @@
     1498,
     1411,
     1297,
-    872,
-    0,
+    1155,
+    150,
     0,
     0
    ],
-   "hours_in": 10,
-   "today": 8723,
-   "completed_hours": 9,
-   "today_completed": 7851,
-   "through": "4 PM",
+   "hours_in": 11,
+   "today": 9156,
+   "completed_hours": 10,
+   "today_completed": 9006,
+   "through": "5 PM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       0,
       0
      ],
-     "same_hours": 10628,
+     "same_hours": 12553,
      "full_day": 12920
     }
    }
