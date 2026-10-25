@@ -1,5 +1,6 @@
 {
  "behind": [
+  "Comal: county source failed (ValueError: no response from https://www.comalcounty.gov/264/Archived-Data after 3 tries (curl exit 22))",
   "Anderson: kept at last published numbers (mail 0 < published 1)",
   "Blanco: kept at last published numbers (mail 134 < published 135)",
   "Maverick: kept at last published numbers (mail 104 < published 105)"

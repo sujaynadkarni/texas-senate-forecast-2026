@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-25T03:43:01+00:00",
+ "fetched": "2026-10-25T04:04:54+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 298746,
@@ -44,7 +44,10 @@
     "10/19/2026": 5871
    },
    "url": "https://www.comalcounty.gov/264/Archived-Data",
-   "source": "Comal County daily in-person voter lists (counted)"
+   "source": "Comal County daily in-person voter lists (counted)",
+   "error": "ValueError: no response from https://www.comalcounty.gov/264/Archived-Data after 3 tries (curl exit 22)",
+   "stale": true,
+   "last_good": "2026-10-25T03:43:01+00:00"
   }
  },
  "comal_cache": {

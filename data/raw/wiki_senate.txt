@@ -2884,6 +2884,7 @@ The election is taking place amidst a broader push by the Trump administration t
 * ''[[Washington Reporter]]''<ref>{{cite news |title=EDITORIAL: Ken Paxton for Senate
 |url=https://washingtonreporter.news/editorial-ken-paxton-for-senate/ |access-date=May 28, 2026 |work=Washington Reporter |date=May 28, 2026}}</ref>
 }}
+
 {{Endorsements box
 | title = James Talarico (D)
 | colwidth = 60
@@ -2974,6 +2975,7 @@ The election is taking place amidst a broader push by the Trump administration t
 * [[League of Conservation Voters]]<ref>{{Cite web |title=LCV Action Fund Announces Latest Endorsements for U.S. Senate and House |url=https://www.lcv.org/media-center/lcv-action-fund-announces-latest-endorsements-for-u-s-senate-and-house/ |access-date=May 28, 2026 |website=League of Conservation Voters |language=en-US}}</ref>
 * [[Our Revolution]]<ref name="OurRevolution">{{cite web | title=Our Revolution Endorses James Talarico |url=https://ourrevolution.com/our-revolution-endorses-james-talarico/ |website=Our Revolution |date=March 16, 2026 |access-date=March 16, 2026 |language=en}}</ref>
 * [[People for the American Way]]<ref>{{cite web |title=Elections and Endorsements |url=https://www.peoplefor.org/elections-endorsements#texas |website=People For the American Way |language=en}}</ref>
+*[[Reproductive Freedom for All]]<ref>{{cite web |title=Who We're Endorsing |website=Reproductive Freedom for All |url=https://reproductivefreedomforall.org/elections |archive-url=https://web.archive.org/web/20260715045339/https://reproductivefreedomforall.org/elections |archive-date=July 15, 2026 |access-date=October 24, 2026}}</ref>
 
 '''Newspapers and media'''
 * ''[[Austin American-Statesman]]''<ref>{{cite web |title=For U.S. Senate, Texans deserve Talarico's service over Paxton's self-interest |url=https://www.statesman.com/opinion/editorials/article/us-senate-talarico-endorsement-22420989.php |website=Austin American-Statesman |date=October 5, 2026 |access-date=October 5, 2026 |language=en}}</ref>
@@ -2981,6 +2983,7 @@ The election is taking place amidst a broader push by the Trump administration t
 * ''[[The Dallas Morning News]]''<ref>{{Cite web |date=October 18, 2026 |title=We recommend for U.S. Senate election in Texas |url=https://www.dallasnews.com/opinion/we-recommend/article/texas-us-senate-james-talarico-ken-paxton-22468885.php |access-date=October 19, 2026 |website=[[The Dallas Morning News]] |language=en}}</ref>
 * ''[[Houston Chronicle]]''<ref>{{Cite web |last=Board |first=Houston Chronicle Editorial |date=May 28, 2026 |title=Talarico for Senate: Texans deserve better than Ken Paxton's moral rot |url=https://www.houstonchronicle.com/opinion/endorsements/article/james-talarico-general-election-endorsement-paxton-22277380.php |access-date=May 28, 2026 |website=Houston Chronicle |language=en}}</ref>
 }}
+
 {{Endorsements box
 | title = Declined to endorse
 | list =
