@@ -1,5 +1,6 @@
 {{Short description|none}}
 {{for|related races|2026 United States Senate elections}}
+{{Distinguish|2026 Texas Senate election}}
 {{protection padlock|small=yes}}
 {{Use American English|date=January 2026}}
 {{Use mdy dates|date=October 2026}}
@@ -3117,18 +3118,17 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align:left;"|[[Rasmussen Reports]] (R)<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_texas_senate |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=October 23, 2026 |access-date=October 23, 2026}}</ref>
 |October 20–21, 2026
 |965 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |'''45%'''
 |'''45%'''
 |5%
 |{{sdash}}
 |5%
 |-
-|style="text-align:left;"|[[Victor Allis|ActiVote]]<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |publisher=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref> {{efn-ua|Activote conducts its poll using a app and get data from online responses. Pollster data may or may not be reliable. }}
-
+|style="text-align:left;"|[[Victor Allis|ActiVote]]<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |publisher=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref>{{Efn-ua|Poll conducted through the [[Victor Allis|ActiVote]] app, which allows anyone to vote.}} 
 |October 17–21, 2026
 |400 (LV)
-|±{{nbsp}}4.9%
+|±&nbsp;4.9%
 |49%
 |{{Party shading/Democratic}}|'''51%'''
 |{{sdash}}
@@ -3138,7 +3138,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;" rowspan="4"|Verasight/VoteHub<ref>{{Cite web|url=https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Texas_Report_D8A925D0.pdf|title=Texas likely voter toplines|website=VoteHub|access-date=October 23, 2026}}</ref>
 |rowspan="4"|October 1–20, 2026
 |rowspan="2"|509 (LV)
-|rowspan="4"|±{{nbsp}}4.3%
+|rowspan="4"|±&nbsp;4.3%
 |45%{{efn|name=lean}}
 |{{party shading/Democratic}}|'''48%'''
 |1%
@@ -3167,7 +3167,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |rowspan="2" style="text-align:left;"|[[Emerson College]]<ref>{{cite web |title=Texas 2026 Poll: Toss-Up U.S. Senate Race; Abbott Maintains Edge for Governor |url=https://emersoncollegepolling.com/texas-2026-poll-toss-up/ |website=[[Emerson College Polling]] |access-date=October 22, 2026 |date=October 22, 2026}}</ref>
 |rowspan="2"|October 17–19, 2026
 |rowspan="2"|1,000 (LV)
-|rowspan="2"|±{{nbsp}}3.0%
+|rowspan="2"|±&nbsp;3.0%
 |48%{{efn|name=lean}}
 |{{party shading/Democratic}}|'''49%'''
 |3%
@@ -3183,7 +3183,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left" rowspan="2"|Beacon Research (D)/<br />Shaw & Co. Research (R)<ref>{{Cite web |url=https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish |first=Victoria |last=Balara |title=Fox News Poll: Texas Senate race galloping toward a photo finish |work=[[Fox News]] |date=October 21, 2026 |access-date=October 21, 2026}}</ref>{{efn-ua|name=Fox}}
 |rowspan="2"|October 15–19, 2026
 |1,398 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |'''49%'''
 |'''49%'''
 |{{sdash}}
@@ -3191,7 +3191,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |2%
 |-
 |2,011 (RV)
-|±{{nbsp}}2.0%
+|±&nbsp;2.0%
 |46%
 |{{Party shading/Democratic}}|'''52%'''
 |{{sdash}}
@@ -3201,7 +3201,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Texas Public Opinion Research (D)<ref>{{cite web |title=October Poll: In Texas General Election, Talarico Leads Paxton by Four Points; Abbott Leads Hinojosa by Three Points |url=https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election |work=Texas Public Opinion Research |date=October 23, 2026 |access-date=October 23, 2026}}</ref>
 |October 15–18, 2026
 |969 (LV)
-|±{{nbsp}}3.9%
+|±&nbsp;3.9%
 |47%
 |{{party shading/Democratic}}|'''51%'''
 |2%
@@ -3211,7 +3211,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Pollfinity Research<ref>{{cite web |title=Talarico 48%, Paxton 43%: Texas Senate and Governor Races Inside the Margin in New Pollfinity Survey |url=https://pollfinity.com/polls/tx-governor-senate-2026-oct |work=Pollfinity Research |date=October 22, 2026 |access-date=October 23, 2026}}</ref>
 |October 15–18, 2026
 |278 (RV)
-|±{{nbsp}}6.5%
+|±&nbsp;6.5%
 |43%
 |{{party shading/Democratic}}|'''48%'''
 |2%
@@ -3221,7 +3221,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{Cite web|url=https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/|title=CBS News poll shows a Texas toss-up with Talarico, Paxton in tight Senate race|first1=Anthony|last1=Salvanto|first2=Jennifer|last2=De Pinto|first3=Fred|last3=Backus|website=[[CBS News]] |date=October 18, 2026 |access-date=October 18, 2026}}</ref>
 |October 8–16, 2026
 |1,492 (LV)
-|±{{nbsp}}3.5%
+|±&nbsp;3.5%
 |49%
 |{{Party shading/Democratic}}|'''51%'''
 |{{sdash}}
@@ -3231,7 +3231,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |InsiderAdvantage<ref>{{cite web|url=https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/|title=InsiderAdvantage Senate Surveys: Texas, Paxton 49, Talarico 48; Kansas, Marshall 48%, Hamilton 47%; Maine, Jackson 49, Collins 47;Update: All Conducted 10/13-14|website=InsiderAdvantage|date=October 15, 2026|access-date=October 15, 2026}}</ref><ref>{{Cite tweet |author=InsiderAdvantage |user=InsiderPolling |number=2111096358233129297 |title=Texas Survey of Likely Voters |date=October 16, 2026 |access-date=October 16, 2026}}</ref>
 |October 13–14, 2026
 |1,200 (LV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{Party shading/Republican}} | '''49%'''
 |48%
 |2%
@@ -3241,7 +3241,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]<ref>{{Cite web|url=https://www.uh.edu/hobby/texas2026/index.php |title=Texas Votes 2026 |website=[[University of Houston]] |date=October 19, 2026 |access-date=October 19, 2026}}</ref>
 |October 10–14, 2026
 |2,000 (LV)
-|±{{nbsp}}2.2%
+|±&nbsp;2.2%
 |46%
 |{{Party shading/Democratic}}|'''48%'''
 |3%
@@ -3261,7 +3261,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;"|ActiVote<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/ |title=Talarico Leads Paxton in Texas Senate Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
 |September 30 – October 14, 2026
 |400 (LV)
-|±{{nbsp}}4.9%
+|±&nbsp;4.9%
 |48%
 |{{Party shading/Democratic}}|'''52%'''
 |{{sdash}}
@@ -3271,7 +3271,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas U.S. Senate Survey |url=https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view |work=Quantus Insights |access-date=October 13, 2026}}</ref>
 |October 9–11, 2026
 |854 (LV)
-|±{{nbsp}}3.6%
+|±&nbsp;3.6%
 |'''47%'''
 |'''47%'''
 |2%
@@ -3281,7 +3281,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left" rowspan="2"|[[Marist University]]<ref>{{cite web |title=Marist Poll of 1,196 Texas Registered Voters |url=https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_TX-NOS-and-Tables_202610131056%5Eal3j7.pdf |work=[[Marist University]] |access-date=October 14, 2026}}</ref>
 |rowspan="2"|October 8–11, 2026
 |{{TBA}} (LV)
-|±{{nbsp}}4.9%
+|±&nbsp;4.9%
 |45%
 |{{Party shading/Democratic}}|'''47%'''
 |{{sdash}}
@@ -3289,7 +3289,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |4%
 |-
 |1,196 (RV)
-|±{{nbsp}}4.3%
+|±&nbsp;4.3%
 |44%
 |{{Party shading/Democratic}}|'''48%'''
 |{{sdash}}
@@ -3299,7 +3299,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{Cite web |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/TX-Midterms-Report-1009.pdf |title=Texas Statewide General Election Survey |work=[[Trafalgar Group]] |date=October 10, 2026 |access-date=October 10, 2026}}</ref>
 |October 6–8, 2026
 |1,086 (LV)
-|±{{nbsp}}2.9%
+|±&nbsp;2.9%
 |44%
 |{{party shading/Democratic}}|'''47%'''
 |2%
@@ -3309,7 +3309,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left"|ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=Texas Poll: Talarico Maintains Small Lead Over Paxton |url=https://reconmr.com/wp-content/uploads/2026/10/TXP004-October-Press-Release.pdf |website=ReconMR |date=October 13, 2026 |access-date=October 13, 2026}}</ref>
 |October 5–8, 2026
 |617 (LV)
-|±{{nbsp}}4.4%
+|±&nbsp;4.4%
 |44%
 |{{party shading/Democratic}}|'''48%'''
 |{{sdash}}
@@ -3319,7 +3319,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;"|[[YouGov]]<ref>{{cite web |title=Texas General Election 2026 – Likely Voters |url=https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20260921_lv.pdf |work=[[YouGov]] |via=[[The New York Times]] |date=October 6, 2026 |access-date=October 6, 2026}}</ref>
 |September 28 – October 5, 2026
 |3,625 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |44%
 |{{party shading/Democratic}}|'''50%'''
 |{{sdash}}
@@ -3329,7 +3329,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[University of Texas]]/Texas Politics Project<ref>{{Cite web|url=http://texaspolitics.utexas.edu/blog/latest-ut-texas-politics-poll-finds-historic-levels-of-competition-in-texas-midterm-elections |title=Latest UT/Texas Politics Poll Finds Historic Levels of Competition in Texas Midterm Elections |work=The Texas Politics Project |date=October 13, 2026 |access-date=October 14, 2026}}</ref>
 |September 25 – October 5, 2026
 |861 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |47%
 |{{Party shading/Democratic}}|'''50%'''
 |1%
@@ -3339,7 +3339,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: September 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-texas-poll-toplines.html |website=[[NYTimes]] |date=October 2, 2026 |access-date=October 3, 2026}}</ref>
 |September 21–30, 2026
 |615 (LV)
-|±{{nbsp}}4.5%
+|±&nbsp;4.5%
 |45%
 |{{party shading/Democratic}}|'''51%'''
 |{{sdash}}
@@ -3349,7 +3349,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align:left;"|[[Rasmussen Reports]] (R)<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/public_surveys/toplines_texas_senate_september_28_29_2026 |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=September 30, 2026 |access-date=September 30, 2026}}</ref>
 |September 28–29, 2026
 |1,128 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |45%
 |{{party shading/Democratic}}|'''46%'''
 |4%
@@ -3359,7 +3359,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left" rowspan="2"|Beacon Research (D)/<br />Shaw & Co. Research (R)<ref>{{Cite web |url=https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_september-24-28-2026_texas_topline_october-1-release.pdf |title=Texas Senate and Governor |work=[[Fox News]] |date=October 1, 2026 |access-date=October 1, 2026}}</ref>{{efn-ua|name=Fox}}
 |rowspan="2"|September 24–28, 2026
 |881 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |49%
 |{{Party shading/Democratic}}|'''51%'''
 |{{sdash}}
@@ -3367,7 +3367,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |1%
 |-
 |1,203 (RV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |46%
 |{{Party shading/Democratic}}|'''53%'''
 |{{sdash}}
@@ -3377,7 +3377,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;"|Guidant Polling & Strategy (R)<ref>{{cite web |title=Texas Statewide Survey Results |url=https://static01.nyt.com/newsgraphics/documenttools/b31cf2744465b8b7/1a8b655b-full.pdf |work=Guidant Polling & Strategy |via=[[The New York Times]] |date=October 6, 2026 |access-date=October 8, 2026}}</ref>{{efn-ua|name=PFA|Poll sponsored by [[Public First Action]]}}
 |September 20–28, 2026
 |800 (LV)
-|±{{nbsp}}3.5%
+|±&nbsp;3.5%
 |44%
 |{{party shading/Democratic}}|'''47%'''
 |4%
@@ -3387,7 +3387,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[UMass Lowell]]/[[YouGov]]<ref>{{Cite web |url=https://www.uml.edu/news/press-releases/2026/10092026-texas-poll.aspx |title=Texas poll: Paxton, Talarico tied in U.S. Senate race |work=[[UMass Lowell]] |date=October 8, 2026 |access-date=October 8, 2026}}</ref>
 |September 18–28, 2026
 |850 (LV)
-|±{{nbsp}}4.5%
+|±&nbsp;4.5%
 |'''45%'''
 |'''45%'''
 |2%
@@ -3407,7 +3407,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |rowspan="4" style="text-align:left;"|Big Data Poll<ref>{{cite web |title=Lone Star State Poll: Talarico, Paxton in Close Race for U.S. Senate in Texas |url=https://www.bigdatapoll.com/blog/lone-star-state-poll-talarico-paxton-in-close-race-us-senate-in-texas/ |work=Big Data Poll |date=September 27, 2026 |access-date=September 27, 2026}}</ref>{{Efn-ua|Poll sponsored by the Public Polling Project}}
 |rowspan="4"|September 24–26, 2026
 |rowspan="2"|698 (LV)
-|rowspan="4"|±{{nbsp}}4.0%
+|rowspan="4"|±&nbsp;4.0%
 |45%{{efn|name=lean}}
 |{{party shading/Democratic}}|'''47%'''
 |8%
@@ -3446,7 +3446,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align:left;"|Texas Public Opinion Research (D)<ref>{{cite web |title=September Poll: Talarico Leads Paxton by Five Points; Abbott Leads Hinojosa by Four Points |url=https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election-662 |work=Texas Public Opinion Research |date=September 25, 2026 |access-date=September 25, 2026}}</ref>
 |September 19–22, 2026
 |1,007 (LV)
-|±{{nbsp}}3.6%
+|±&nbsp;3.6%
 |44%
 |{{party shading/Democratic}}|'''49%'''
 |3%
@@ -3456,7 +3456,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align:left;"|[[Marist University]]<ref>{{cite web |title=Marist Poll of 1,139 Texas Registered Voters |url=https://maristpoll.marist.edu/wp-content/uploads/2026/09/Marist-Poll_TX-NOS-and-Tables_202609221131.pdf |work=[[Marist University]] |access-date=September 22, 2026}}</ref>
 |September 17–20, 2026
 |1,139 (RV)
-|±{{nbsp}}4.4%
+|±&nbsp;4.4%
 |44%
 |{{party shading/Democratic}}|'''50%'''
 |{{sdash}}
@@ -3466,7 +3466,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[Texas Southern University]]<ref>{{Cite web |url=https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6ab15cb39e4cc420b9ef07f5/1790008500236/TSUSept2026_TXStatewideRaces.pdf |title=Texas 2026: U.S. Senate, Governor, and Other Statewide Races |work=[[Texas Southern University]] |access-date=September 22, 2026}}</ref>
 |September 15–19, 2026
 |1,800 (LV)
-|±{{nbsp}}2.3%
+|±&nbsp;2.3%
 |46%
 |{{Party shading/Democratic}}|'''47%'''
 |3%
@@ -3476,7 +3476,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{Cite web |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/TX-Midterms-Full-Report-0918.pdf |title=Texas General Election Survey |work=[[Trafalgar Group]] |date=September 18, 2026 |access-date=September 18, 2026}}</ref>
 |September 15–17, 2026
 |1,079 (LV)
-|±{{nbsp}}2.9%
+|±&nbsp;2.9%
 |45%
 |{{party shading/Democratic}}|'''46%'''
 |3%
@@ -3486,7 +3486,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left"|[[Emerson College]]<ref>{{cite web |title=Texas 2026 Poll: Talarico and Paxton in Dead Heat, Abbott Maintains Edge |url=https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/ |website=[[Emerson College Polling]] |access-date=September 17, 2026 |date=September 17, 2026}}</ref>
 |September 12–14, 2026
 |1,000 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |46%
 |{{party shading/Democratic}}|'''47%'''
 |2%
@@ -3506,7 +3506,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left"|ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=The ReconMR Texas Poll |url=https://reconmr.com/wp-content/uploads/2026/09/ReconMR-Texas-Poll-September-Release-Final.pdf |website=ReconMR |access-date=September 17, 2026 |date=September 17, 2026}}</ref>
 |September 8–11, 2026
 |614 (LV)
-|±{{nbsp}}4.3%
+|±&nbsp;4.3%
 |43%
 |{{party shading/Democratic}}|'''49%'''
 |{{sdash}}
@@ -3516,7 +3516,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[Mason-Dixon Polling & Strategy|Mason-Dixon]]<ref>{{cite web |url=https://s3.documentcloud.org/documents/28623723/tx926allvoterresults.pdf |title=Mason-Dixon Polling & Strategy – September 2026 Texas Poll |date=September 15, 2026 |access-date=September 15, 2026 |website=[[Mason-Dixon Polling & Strategy]]}}</ref>{{efn-ua|name=Telemundo|Poll sponsored by [[Telemundo|Telemundo Texas]]}}
 |September 8–10, 2026
 |625 (LV)
-|±{{nbsp}}4.0%
+|±&nbsp;4.0%
 |43%
 |{{party shading/Democratic}}|'''46%'''
 |3%
@@ -3526,7 +3526,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |InsiderAdvantage<ref>{{Cite web |title=Top Line Tabs Texas |url=https://insideradvantage.com/top-line-tabs-texas/ |website=InsiderAdvantage |date=September 10, 2026 |access-date=September 10, 2026}}</ref>
 |September 8–9, 2026
 |1,200 (LV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |46%
 |{{party shading/Democratic}}|'''47%'''
 |2%
@@ -3536,7 +3536,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |[[Univision]]/[[YouGov]]<ref>{{Cite web |url=https://www.univision.com/noticias/politica/poll-univision-texas-2026 |title=This Is What Texas Voters Think Looking Ahead to 2026 |first=Sergio |last=García-Ríos |website=[[Univision]] |date=September 9, 2026 |access-date=September 9, 2026}}</ref>
 |August 27 – September 4, 2026
 |1,000 (RV)
-|±{{nbsp}}3.6%
+|±&nbsp;3.6%
 |43%
 |{{party shading/Democratic}}|'''48%'''
 |{{sdash}}
@@ -3546,7 +3546,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Fabrizio Ward (R)/<br />Impact Research (D)<ref>{{cite press release |title=New AARP Texas Poll: Highly Motivated Older Voters Could Shape Close Senate, Governor Races |url=https://www.aarp.org/press/releases/2026-09-10-new-aarp-texas-poll-highly-motivated-older-voters-could-shape-close-senate-governor-races/ |work=[[AARP]] |date=September 10, 2026 |access-date=September 10, 2026}}</ref>{{Efn-ua|name=AARP|Poll commissioned by [[AARP]]}}
 |August 30 – September 1, 2026
 |895 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |44%
 |{{party shading/Democratic}}|'''48%'''
 |{{sdash}}
@@ -3556,7 +3556,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |rowspan=2 style="text-align:left;"|Overton Insights (R)<ref name="Overton">{{cite web |title=Texas Toplines and Demographic Variables |url=https://overtoninsights.com/wp-content/uploads/2026/09/Overton_Insights_Texas_Public_Policy_Foundation_Toplines_and_Demographics-3.pdf |publisher=Overton Insights |access-date=September 2, 2026}}</ref>{{Efn-ua|name="TPPF"|Poll sponsored by the [[Texas Public Policy Foundation]], a conservative think tank}}
 |rowspan=2|August 24–26, 2026 
 |rowspan=2|1,167 (LV)
-|rowspan=2|±{{nbsp}}2.9%
+|rowspan=2|±&nbsp;2.9%
 |'''50%'''{{efn|name=lean}}
 |'''50%'''
 |{{sdash}}
@@ -3572,7 +3572,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Texas Public Opinion Research (D)<ref>{{cite web |title=New Poll: In Texas General Election, Talarico Leads Paxton by Six Points; Abbott Leads Hinojosa by Seven Points |url=https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election |website=Texas Public Opinion Research |via=[[Substack]] |date=August 27, 2026 |access-date=August 27, 2026}}</ref>
 |August 21–24, 2026
 |1,000 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |42%{{efn|name=lean}}
 |{{Party shading/Democratic}}|'''48%'''
 |1%
@@ -3582,7 +3582,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[University of Texas]]/Texas Politics Project<ref>{{Cite web|url=https://texaspolitics.utexas.edu/files/202608_POLL_TOPLINE-c5d4ba53.pdf|title=University of Texas / Texas Politics Project Poll – Texas Statewide Survey|work=[[University of Texas]]|date=August 25, 2026|access-date=August 25, 2026}}</ref>
 |August 5–13, 2026
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |39%
 |{{Party shading/Democratic}}|'''42%'''
 |3%
@@ -3592,7 +3592,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left"|[[Emerson College]]<ref>{{cite web |title=Texas 2026 Poll: Paxton and Talarico Deadlocked in U.S. Senate Race; Abbott Leads Hinojosa by Four Points |url=https://emersoncollegepolling.com/texas-2026-poll-paxton-and-talarico/ |website=Emerson College Polling |access-date=August 13, 2026 |date=August 13, 2026}}</ref>
 |August 9–10, 2026
 |1000 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |{{party shading/Republican}}|'''47%'''
 |46%
 |{{sdash}}
@@ -3602,7 +3602,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=Talarico Leads 48–45 Among Likely Voters, New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-07-txsen |website=254 Labs |date=August 6, 2026 |access-date=August 6, 2026}}</ref>{{Efn-ua|Poll conducted on behalf of 254 Labs}}
 |July 15–31, 2026
 |1,001 (RV){{Efn|"weighted to likely voter targets provided by 254 Labs"}}
-|±{{nbsp}}3.6%
+|±&nbsp;3.6%
 |45%
 |{{Party shading/Democratic}}|'''48%'''
 |{{sdash}}
@@ -3612,7 +3612,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[Texas A&M University]]/ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=Statewide Races: Remain Close, With Movement Toward Dems Since June |first=Lindsey |last=Hendren |url=https://reconmr.com/wp-content/uploads/2026/08/Texas-Pulse-August-Release-August-7-2026-Final.pdf |work=[[Texas A&M University]] and ReconMR|date=August 7, 2026 |access-date=August 7, 2026}}</ref>
 |July 27–30, 2026
 |619 (LV)
-|±{{nbsp}}4.7%
+|±&nbsp;4.7%
 |43%
 |{{Party shading/Democratic}}|'''47%'''
 |{{sdash}}
@@ -3622,7 +3622,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[Texas Southern University]]<ref>{{Cite web |url=https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a713767d4ed824b91ea090d/1785804647961/Texas+Statewide+August2026.pdf |title=Texas 2026: U.S. Senate, Governor, and Other Statewide Races |work=[[Texas Southern University]] |access-date=August 4, 2026}}</ref>
 |July 27–30, 2026
 |1,200 (LV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |45%
 |{{Party shading/Democratic}}|'''47%'''
 |2%
@@ -3632,7 +3632,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left"|Beacon Research (D)/<br />Shaw & Co. Research (R)<ref>{{cite web |title=Fox News Poll: GOP divisions shape Texas Senate race |first=Victoria |last=Balara |url=https://www.foxnews.com/politics/fox-news-poll-gop-divisions-shape-texas-senate-race |website=[[Fox News]] |date=July 29, 2026 |access-date=July 29, 2026}}</ref>{{efn-ua|name=Fox|Poll conducted for [[Fox News]]}}
 |July 23–27, 2026
 |1,005 (RV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |48%
 |{{Party shading/Democratic}}|'''51%'''
 |{{sdash}}
@@ -3642,7 +3642,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Texas Public Opinion Research (D)<ref>{{cite web |title=New Poll: James Talarico's Lead Over Ken Paxton Widens in Texas Senate General Election, Gov and Ag Races Neck-and-Neck |url=https://texaspublicopinionresearch.substack.com/p/new-poll-james-talaricos-lead-over |website=Texas Public Opinion Research |via=[[Substack]] |date=July 28, 2026 |access-date=July 28, 2026}}</ref>
 |July 15–17, 2026
 |1,048 (LV)
-|±{{nbsp}}3.4%
+|±&nbsp;3.4%
 |40%
 |{{party shading/Democratic}}|'''45%'''
 |1%
@@ -3652,7 +3652,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|A2 Insights<ref>{{cite web |title=Texas Statewide Survey |url=https://drive.google.com/file/d/16hlQhGNlhHYtjMQsng-0sU06UourCYhQ/view |publisher=A2 Insights |date=June 2026 |access-date=June 30, 2026}}</ref>
 |June 23–28, 2026
 |618 (LV)
-|±{{nbsp}}5.3%
+|±&nbsp;5.3%
 |46%
 |{{party shading/Democratic}}|'''48%'''
 |{{sdash}}
@@ -3662,7 +3662,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: June 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-toplines.html |website=[[NYTimes]] |date=June 30, 2026 |access-date=October 3, 2026}}</ref>
 |June 19–27, 2026
 |656 (LV)
-|±{{nbsp}}4.5%
+|±&nbsp;4.5%
 |'''47%'''
 |'''47%'''
 |{{sdash}}
@@ -3682,7 +3682,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[University of Texas]]/Texas Politics Project<ref>{{Cite web|url=https://texaspolitics.utexas.edu/files/202606_POLL_TOPLINE-723970a4.pdf|title=University of Texas / Texas Politics Project Poll – Texas Statewide Survey|work=[[University of Texas]]|date=June 23, 2026|access-date=June 23, 2026}}</ref>
 |June 5–12, 2026
 |1,200 (RV)
-|±{{nbsp}}2.8%{{efn|name=weighting|±3.4% adjusted for weighting}}
+|±&nbsp;2.8%{{efn|name=weighting|±3.4% adjusted for weighting}}
 |{{party shading/Republican}}|'''43%'''
 |42%
 |3%
@@ -3692,7 +3692,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas Republicans Lead Statewide, Senate Race Starts Close |url=https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close |website=Quantus Insights |access-date=June 5, 2026}}</ref>
 |June 3–4, 2026
 |800 (LV)
-|±{{nbsp}}3.5%
+|±&nbsp;3.5%
 |{{party shading/Republican}}|'''45%'''
 |43%
 |{{sdash}}
@@ -3702,7 +3702,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;"|[[Texas A&M University]]/ReconMR/[[Siena Research Institute|Siena University]]<ref>{{cite web |title=Texas Pulse Poll Powered by Texas A&M University's Bush School of Government & Public Service and ReconMR |url=https://reconmr.com/wp-content/uploads/2026/06/TXPLV-Crosstabs-1.pdf |access-date=August 7, 2026}}</ref>
 |June 1–4, 2026
 |807 (LV)
-|±{{nbsp}}4.0%
+|±&nbsp;4.0%
 |'''46%'''
 |'''46%'''
 |{{sdash}}
@@ -3712,7 +3712,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Texas Public Opinion Research (D)<ref name="TPORPostRunoffPoll">{{cite web |title=New Poll: James Talarico Leads Ken Paxton in Texas Senate General Election |url=https://mailchi.mp/06e052a423d6/tpor-talarico-leads-gen-elect-5-29 |publisher=Texas Public Opinion Research |date=May 29, 2026 |access-date=May 29, 2026}}</ref>
 |May 27–28, 2026
 |1,670 (LV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |44%
 |{{party shading/Democratic}}|'''47%'''
 |1%
@@ -3736,7 +3736,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |[[Texas Southern University]]<ref name="TSUMay2026"/>
 |April 22 – May 6, 2026
 |1,223 (LV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |'''45%'''
 |'''45%'''
 |2%
@@ -3746,7 +3746,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Texas Public Opinion Research (D)<ref name="TPOR"/>
 |April 17–20, 2026
 |1,018 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |41%
 |{{party shading/Democratic}}|'''46%'''
 |{{sdash}}
@@ -3756,7 +3756,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |[[University of Texas]]/Texas Politics Project<ref name="TPP"/>
 |April 10–20, 2026
 |1,200 (RV)
-|±{{nbsp}}2.8%{{efn|name=weighting|±3.4% adjusted for weighting}}
+|±&nbsp;2.8%{{efn|name=weighting|±3.4% adjusted for weighting}}
 |34%
 |{{party shading/Democratic}}|'''42%'''
 |{{sdash}}
@@ -3766,7 +3766,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Impact Research (D)<ref name="ImpactMarch20206"/>{{efn-ua|name=Talarico}}
 |March 12–17, 2026
 |900 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |43%
 |{{party shading/Democratic}}|'''44%'''
 |5%
@@ -3776,7 +3776,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[Public Policy Polling]] (D)<ref name="PPPMarch2026"/>{{efn-ua|name=SMP}}
 |March 4–5, 2026
 |576 (V)
-|±{{nbsp}}4.1%
+|±&nbsp;4.1%
 |45%
 |{{party shading/Democratic}}|'''47%'''
 |{{sdash}}
@@ -3790,7 +3790,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026"/>
 |January 20–31, 2026
 |1,502 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |{{party shading/Republican}}|'''46%'''
 |44%
 |3%
@@ -3800,7 +3800,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonJan" />
 |January 10–12, 2026
 |1,165 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |'''46%'''
 |'''46%'''
 |{{sdash}}
@@ -3810,7 +3810,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Ragnar Research Partners (R)<ref name="Top"/>
 |November 12–17, 2025
 |1,000 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |'''44%'''
 |'''44%'''
 |{{sdash}}
@@ -3820,7 +3820,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''49%'''
 |46%
 |{{sdash}}
@@ -3830,7 +3830,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |{{party shading/Republican}}|'''38%'''
 |37%
 |{{sdash}}
@@ -3856,7 +3856,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Overton Insights (R)<ref name="Overton"/>{{Efn-ua|name="TPPF"}}
 |August 24–26, 2026
 |1,167 (LV)
-|±{{nbsp}}2.9%
+|±&nbsp;2.9%
 |43%
 |{{party shading/Democratic}}|'''44%'''
 |{{sdash}}
@@ -3869,7 +3869,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |[[Texas Southern University]]<ref name="TSUMay2026">{{cite web |last1=Adams |first1=Michael O. |last2=Jones |first2=Mark P. |title=The November 2026 Elections in Texas: U.S. Senate, Governor & Lieutenant Governor |url=https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a0addffcba58d0751053542/1779097087749/TSUTexasNov2026.pdf |publisher=[[Texas Southern University]] |access-date=May 18, 2026}}</ref>
 |April 22 – May 6, 2026
 |1,223 (LV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''45%'''
 |44%
 |3%{{efn|name=Brown3}}
@@ -3878,7 +3878,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Texas Public Opinion Research (D)<ref name="TPOR">{{Cite web|url=https://www.texastribune.org/wp-content/uploads/2026/04/TPOR-April-2026-TXSEN-poll.pdf|title=New Poll: Talarico Leads Both Cornyn and Paxton in Texas Senate General Election|first=Caroline|last=Bankoff|work=Texas Public Opinion Research|date=April 28, 2026|access-date=April 28, 2026}}</ref>
 |April 17–20, 2026
 |1,018 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |41%
 |{{party shading/Democratic}}|'''44%'''
 |{{sdash}}
@@ -3887,7 +3887,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |[[University of Texas]]/Texas Politics Project<ref name="TPP">{{Cite web|url=https://texaspolitics.utexas.edu/files/202604_POLL_TOPLINES-1d319c0b.pdf|title=Texas Statewide Survey|work=[[University of Texas|Texas Politics Project]]|date=April 29, 2026|access-date=April 29, 2026}}</ref>
 |April 10–20, 2026
 |1,200 (RV)
-|±{{nbsp}}2.8%{{efn|name=weighting}}
+|±&nbsp;2.8%{{efn|name=weighting}}
 |33%
 |{{party shading/Democratic}}|'''40%'''
 |7%{{efn|name="SE7"|"Someone else" with 7%}}
@@ -3896,7 +3896,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Impact Research (D)<ref name="ImpactMarch20206">{{Cite web |date=March 20, 2026 |title=Poll: Talarico leads Cornyn and Paxton in general election matchups |first=Adam |last=Wren |url=https://www.politico.com/live-updates/2026/03/20/congress/texas-senate-talarico-cornyn-paxton-poll-00837336 |access-date=March 20, 2026 |website=[[Politico]] |language=en}}</ref>{{efn-ua|name=Talarico}}
 |March 12–17, 2026
 |900 (LV)
-|±{{nbsp}}3.3%
+|±&nbsp;3.3%
 |41%
 |{{party shading/Democratic}}|'''43%'''
 |7%{{efn|name=Brown7|Ted Brown (L) with 7%}}
@@ -3905,7 +3905,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[Public Policy Polling]] (D)<ref name="PPPMarch2026">{{cite web|url=https://punchbowl.news/article/campaigns/paxton-cornyn-poll/|title=Dems: Paxton and Cornyn poll the same|first=Max|last=Cohen|website=[[Punchbowl News]]|date=March 9, 2026|access-date=March 9, 2026}}</ref>{{efn-ua|name=SMP}}
 |March 4–5, 2026
 |576 (V)
-|±{{nbsp}}4.1%
+|±&nbsp;4.1%
 |43%
 |{{party shading/Democratic}}|'''44%'''
 |{{sdash}}
@@ -3918,7 +3918,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026"/>
 |January 20–31, 2026
 |1,502 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |{{party shading/Republican}}|'''44%'''
 |43%
 |5%{{efn|name=Brown5}}
@@ -3927,7 +3927,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonJan" />
 |January 10–12, 2026
 |1,165 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''47%'''
 |44%
 |{{sdash}}
@@ -3936,7 +3936,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Ragnar Research Partners (R)<ref name="Top"/>
 |November 12–17, 2025
 |1,000 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |{{party shading/Republican}}|'''46%'''
 |40%
 |{{sdash}}
@@ -3945,7 +3945,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''48%'''
 |45%
 |{{sdash}}
@@ -3954,7 +3954,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |{{party shading/Republican}}|'''41%'''
 |35%
 |7%{{efn|name="SE7"}}
@@ -3976,7 +3976,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026"/>
 |January 20–31, 2026
 |1,502 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |{{party shading/Republican}}|'''45%'''
 |43%
 |5%{{efn|name=Brown5|Ted Brown (L) with 5%}}
@@ -3985,7 +3985,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonJan" />
 |January 10–12, 2026
 |1,165 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''48%'''
 |43%
 |{{sdash}}
@@ -3994,7 +3994,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Change Research]] (D)<ref name="ChangeDec">{{cite web |last1=Thomas |first1=Sumati |title=Texas Senate Early Findings 2026 |url=https://changeresearch.com/texas-senate-early-findings-2026/ |website=Change Research |access-date=December 2, 2025 |date=December 2, 2025}}</ref>
 |November 21–26, 2025
 |1,189 (V)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |{{party shading/Republican}}|'''49%'''
 |41%
 |{{sdash}}
@@ -4003,7 +4003,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''50%'''
 |44%
 |{{sdash}}
@@ -4025,7 +4025,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 | style="text-align: left;" |Overton Insights (R)<ref name="Overton"/>{{Efn-ua|name="TPPF"}}
 |August 24–26, 2026
 |1,167 (LV)
-|±{{nbsp}}2.9%
+|±&nbsp;2.9%
 | {{party shading/Republican}} |'''49%'''
 |43%
 |8%
@@ -4042,7 +4042,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |Hart Research (D)<ref>{{Cite report |date=February 16, 2026 |title=Current dynamics in Texas U.S. Senate Democratic Primary |work=Hart Research Associates |url=https://www.politico.com/f/?id=0000019c-6981-d3b5-addf-e9c52a670000 |access-date=April 26, 2026 |via=Politico |format=PDF}}</ref><ref>{{Cite web |date=February 17, 2026|title=Jasmine Crockett Posts Poll Showing She Would Beat Texas AG Ken Paxton In Senate Race |url=https://www.latintimes.com/jasmine-crockett-posts-poll-showing-she-would-beat-texas-ag-ken-paxton-senate-race-594696|url-status=live |archive-url=https://web.archive.org/web/20260329034248/https://www.latintimes.com/jasmine-crockett-posts-poll-showing-she-would-beat-texas-ag-ken-paxton-senate-race-594696 |archive-date=March 29, 2026 |access-date=March 29, 2026 |website=Latin Times |language=en}}</ref>{{Efn-ua|Poll sponsored by Forward Texas super PAC, which supports Crockett}}
 |February 6–12, 2026
 |803 (LV)
-|±{{nbsp}}3.5%
+|±&nbsp;3.5%
 |45%
 |{{party shading/Democratic}}|'''49%'''
 |{{sdash}}
@@ -4051,7 +4051,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026"/>
 |January 20–31, 2026
 |1,502 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |{{party shading/Republican}}|'''45%'''
 |43%
 |4%{{efn|name="Brown4"|Ted Brown (L) with 4%}}
@@ -4060,7 +4060,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonJan" />
 |January 10–12, 2026
 |1,165 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |'''46%'''
 |'''46%'''
 |{{sdash}}
@@ -4069,7 +4069,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Change Research]] (D)<ref name="ChangeDec"/>
 |November 21–26, 2025
 |1,189 (V)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |{{party shading/Republican}}|'''50%'''
 |42%
 |{{sdash}}
@@ -4078,7 +4078,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''49%'''
 |47%
 |{{sdash}}
@@ -4100,7 +4100,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Ragnar Research Partners (R)<ref name="Top">{{cite web |title=Texas Statewide Survey |first1=Chris |last1=Perkins |url=https://www.politico.com/f/?id=0000019a-9d57-df0f-abfa-fd7fac900000 |work=Ragnar Research Partners | date=November 19, 2025 | access-date=November 19, 2025}}</ref>
 |November 12–17, 2025
 |1,000 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |{{party shading/Republican}}|'''47%'''
 |40%
 |{{sdash}}
@@ -4109,7 +4109,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''48%'''
 |46%
 |{{sdash}}
@@ -4118,7 +4118,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |{{party shading/Republican}}|'''43%'''
 |37%
 |7%{{efn|name="SE7"|"Someone else" with 7%}}
@@ -4127,7 +4127,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonAug2025"/>
 |August 11–12, 2025
 |1,000 (RV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |{{party shading/Republican}}|'''45%'''
 |38%
 |{{sdash}}
@@ -4136,7 +4136,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''48%'''
 |44%
 |{{sdash}}
@@ -4158,7 +4158,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Ragnar Research Partners (R)<ref name="Top"/>
 |November 12–17, 2025
 |1,000 (LV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |43%
 |{{party shading/Democratic}}|'''44%'''
 |{{sdash}}
@@ -4167,7 +4167,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''48%'''
 |47%
 |{{sdash}}
@@ -4176,7 +4176,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |38%
 |{{party shading/Democratic}}|'''41%'''
 |8%{{efn|name="SE8"|"Someone else" with 8%}}
@@ -4185,7 +4185,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;" rowspan="2"|GBAO (D)<ref>{{cite web|url=https://static.politico.com/d7/56/d6c155d8413699210d8cd57ecb7d/signal-2025-08-21-215322.pdf|title=Allred for Texas State of the Race Memo – August 2025|work=GBAO|date=August 22, 2025|access-date=August 22, 2025}}</ref>{{Efn-ua|Poll sponsored by Allred's campaign}}
 |rowspan="2"|August 13–18, 2025
 |rowspan="2"|800 (LV)
-|rowspan="2"|±{{nbsp}}3.5%
+|rowspan="2"|±&nbsp;3.5%
 |47%
 |{{party shading/Democratic}}|'''49%'''
 |{{sdash}}
@@ -4199,7 +4199,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonAug2025"/>
 |August 11–12, 2025
 |1,000 (RV)
-|±{{nbsp}}3.0%
+|±&nbsp;3.0%
 |{{party shading/Republican}}|'''46%'''
 |41%
 |{{sdash}}
@@ -4208,7 +4208,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''48%'''
 |46%
 |{{sdash}}
@@ -4239,7 +4239,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''50%'''
 |45%
 |{{sdash}}
@@ -4248,7 +4248,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |{{party shading/Republican}}|'''38%'''
 |37%
 |6%{{efn|name="SE6"}}
@@ -4257,7 +4257,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''47%'''
 |44%
 |{{sdash}}
@@ -4279,7 +4279,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026"/>
 |January 20–31, 2026
 |1,502 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |{{party shading/Republican}}|'''46%'''
 |43%
 |3%{{efn|name=Brown3|Ted Brown (L) with 3%}}
@@ -4288,7 +4288,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonJan" />
 |January 10–12, 2026
 |1,165 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''48%'''
 |43%
 |{{sdash}}
@@ -4297,7 +4297,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''50%'''
 |45%
 |{{sdash}}
@@ -4319,7 +4319,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align: left;" |[[University of Houston]]/[[YouGov]]<ref name="UHFeb2026"/>
 |January 20–31, 2026
 |1,502 (LV)
-|±{{nbsp}}2.5%
+|±&nbsp;2.5%
 |{{party shading/Republican}}|'''46%'''
 |42%
 |3%{{efn|name=Brown3}}
@@ -4328,7 +4328,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[Emerson College]]<ref name="EmersonJan" />
 |January 10–12, 2026
 |1,165 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''47%'''
 |44%
 |{{sdash}}
@@ -4337,7 +4337,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''50%'''
 |44%
 |{{sdash}}
@@ -4346,7 +4346,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
-|±{{nbsp}}3.1%
+|±&nbsp;3.1%
 |36%
 |{{party shading/Democratic}}|'''37%'''
 |6%{{efn|name="SE6"|"Someone else" with 6%}}
@@ -4367,7 +4367,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''49%'''
 |46%
 |5%
@@ -4375,7 +4375,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''49%'''
 |43%
 |8%
@@ -4395,7 +4395,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''49%'''
 |46%
 |5%
@@ -4403,7 +4403,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''49%'''
 |45%
 |6%
@@ -4423,7 +4423,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[University of Houston]]/<br />[[Texas Southern University]]<ref name="UH/TSUSept2025"/>
 |September 19 – October 1, 2025
 |1,650 (RV)
-|±{{nbsp}}2.4%
+|±&nbsp;2.4%
 |{{party shading/Republican}}|'''49%'''
 |47%
 |4%
@@ -4431,7 +4431,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''49%'''
 |43%
 |8%
@@ -4451,7 +4451,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''48%'''
 |41%
 |11%
@@ -4471,7 +4471,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''47%'''
 |44%
 |9%
@@ -4491,7 +4491,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|[[YouGov]]/[[Texas Southern University]]<ref name="TSUMay2025"/>
 |May 9–19, 2025
 |1,200 (RV)
-|±{{nbsp}}2.8%
+|±&nbsp;2.8%
 |{{party shading/Republican}}|'''48%'''
 |42%
 |10%
@@ -4511,7 +4511,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Stratus Intelligence (R)<ref name="SIJune2025Axios"/><ref name="SIJune2025X"/>{{efn-ua|name=CPP}}
 |June 6–8, 2025
 |800 (LV)
-|±{{nbsp}}3.5%
+|±&nbsp;3.5%
 |{{party shading/Republican}}|'''42%'''
 |35%
 |23%
@@ -4531,7 +4531,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Stratus Intelligence (R)<ref name="SIJune2025Axios"/><ref name="SIJune2025X"/>{{efn-ua|name=CPP}}
 |June 6–8, 2025
 |800 (LV)
-|±{{nbsp}}3.5%
+|±&nbsp;3.5%
 |39%
 |{{party shading/Democratic}}|'''42%'''
 |19%
@@ -4552,7 +4552,7 @@ Talarico has considerably outraised Paxton throughout the campaign. Due to the h
 |style="text-align:left;"|Texas Public Opinion Research<ref name="TPORSept2025"/>
 |August 27–29, 2025
 |843 (RV)
-|±{{nbsp}}4.6%
+|±&nbsp;4.6%
 |{{party shading/Republican}}|'''48%'''
 |43%
 |9%{{efn|"Someone else" with 9%}}
