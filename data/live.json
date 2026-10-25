@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-25T22:44:16+00:00",
+ "fetched": "2026-10-25T23:44:16+00:00",
  "day": 7,
  "date": "2026-10-25",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sun Oct 25 05:39 PM",
-   "ballots_to_date": 240483,
+   "refreshed": "Sun Oct 25 06:42 PM",
+   "ballots_to_date": 241817,
    "hourly": [
     530,
     727,
@@ -19,15 +19,15 @@
     2170,
     1985,
     1780,
-    1069,
-    0,
+    1590,
+    813,
     0
    ],
-   "hours_in": 11,
-   "today": 17056,
-   "completed_hours": 10,
-   "today_completed": 15987,
-   "through": "5 PM",
+   "hours_in": 12,
+   "today": 18390,
+   "completed_hours": 11,
+   "today_completed": 17577,
+   "through": "6 PM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       13,
       0
      ],
-     "same_hours": 8985,
+     "same_hours": 10026,
      "full_day": 10039
     },
     "2024": {
@@ -64,7 +64,7 @@
       30,
       0
      ],
-     "same_hours": 15765,
+     "same_hours": 17649,
      "full_day": 17679
     }
    }
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sun Oct 25 05:43 PM",
+   "refreshed": "Sun Oct 25 06:39 PM",
    "ballots_to_date": 96874,
    "hourly": [
     0,
@@ -91,9 +91,9 @@
    ],
    "hours_in": 11,
    "today": 9176,
-   "completed_hours": 10,
-   "today_completed": 9006,
-   "through": "5 PM",
+   "completed_hours": 11,
+   "today_completed": 9176,
+   "through": "6 PM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       0,
       0
      ],
-     "same_hours": 12553,
+     "same_hours": 12920,
      "full_day": 12920
     }
    }
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Sun Oct 25 5:30 PM",
-   "today": 17326,
-   "ballots_to_date": 357142,
+   "refreshed": "Sun Oct 25 6:03 PM",
+   "today": 18662,
+   "ballots_to_date": 358431,
    "sites": 84,
    "busiest": [
     [
      "Fretz Park Library",
-     725
+     757
     ],
     [
      "Oak Lawn Branch Library",
-     719
+     754
     ],
     [
      "Rowlett Community Centre",
-     689
+     730
     ]
    ],
    "hourly": null,
