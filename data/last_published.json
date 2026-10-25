@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-25T15:03+00:00",
+  "generated": "2026-10-25T15:13+00:00",
   "mode": "early",
   "poll_avg": 2.4781950012048304,
   "n_polls": 69,
   "markets": {
-   "Kalshi": 0.64,
+   "Kalshi": 0.65,
    "Polymarket": 0.64
   },
   "needle": 0.74042,
-  "early_total": 4122134,
+  "early_total": 4122357,
   "counted": {},
   "early_in_person": {
    "Anderson": 5370,
@@ -235,7 +235,7 @@
    "Throckmorton": 122,
    "Titus": 3457,
    "Tom Green": 12638,
-   "Travis": 225773,
+   "Travis": 225996,
    "Trinity": 2334,
    "Tyler": 2292,
    "Upshur": 4868,
@@ -759,16 +759,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-25T15:03+00:00",
+  "generated": "2026-10-25T15:13+00:00",
   "mode": "early",
   "poll_avg": -2.5183581913090003,
   "n_polls": 60,
   "markets": {
-   "Kalshi": 0.35,
+   "Kalshi": 0.34,
    "Polymarket": 0.315
   },
   "needle": 0.25312,
-  "early_total": 4122134,
+  "early_total": 4122357,
   "counted": {},
   "early_in_person": {
    "Anderson": 5370,
@@ -994,7 +994,7 @@
    "Throckmorton": 122,
    "Titus": 3457,
    "Tom Green": 12638,
-   "Travis": 225773,
+   "Travis": 225996,
    "Trinity": 2334,
    "Tyler": 2292,
    "Upshur": 4868,
