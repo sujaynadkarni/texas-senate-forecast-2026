@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-25T22:23:46+00:00",
+ "fetched": "2026-10-25T22:44:24+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 298746,
@@ -18,16 +18,16 @@
    "source": "Harris County Clerk daily early-vote report"
   },
   "Denton": {
-   "in_person": 178619,
+   "in_person": 192248,
    "mail": 6209,
-   "through": "10/24/2026",
-   "last_day": 27858,
+   "through": "10/25/2026",
+   "last_day": 13629,
    "url": "https://www.votedenton.gov/early-voting-election-day-rosters/",
    "source": "Denton County daily early-vote totals"
   },
   "Collin": {
-   "in_person": 198095,
-   "through": "10/24/2026",
+   "in_person": 214745,
+   "through": "10/25/2026",
    "last_day": 0,
    "url": "https://www.collincountytx.gov/elections/rosters",
    "source": "Collin County totals by site"
