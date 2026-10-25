@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-25T00:56:11+00:00",
+ "fetched": "2026-10-25T01:42:49+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 247668,
@@ -10,10 +10,10 @@
    "source": "Tarrant County daily early-vote report"
   },
   "Harris": {
-   "in_person": 479409,
-   "mail": 32713,
-   "through": "10/23/2026",
-   "last_day": 95108,
+   "in_person": 546651,
+   "mail": 34954,
+   "through": "10/24/2026",
+   "last_day": 67242,
    "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf",
    "source": "Harris County Clerk daily early-vote report"
   },
