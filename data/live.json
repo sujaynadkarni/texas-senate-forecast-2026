@@ -1,16 +1,16 @@
 {
- "fetched": "2026-10-26T12:04:56+00:00",
+ "fetched": "2026-10-26T13:04:53+00:00",
  "day": 8,
  "date": "2026-10-26",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 26 07:03 AM",
-   "ballots_to_date": 242163,
+   "refreshed": "Mon Oct 26 08:01 AM",
+   "ballots_to_date": 243240,
    "hourly": [
-    124,
-    0,
+    1165,
+    36,
     0,
     0,
     0,
@@ -23,11 +23,11 @@
     0,
     0
    ],
-   "hours_in": 1,
-   "today": 124,
-   "completed_hours": 0,
-   "today_completed": 0,
-   "through": null,
+   "hours_in": 2,
+   "today": 1201,
+   "completed_hours": 1,
+   "today_completed": 1165,
+   "through": "8 AM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       934,
       10
      ],
-     "same_hours": 0,
+     "same_hours": 511,
      "full_day": 22236
     },
     "2024": {
@@ -64,7 +64,7 @@
       2534,
       105
      ],
-     "same_hours": 0,
+     "same_hours": 1738,
      "full_day": 37563
     }
    }
@@ -72,11 +72,11 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 26 07:02 AM",
-   "ballots_to_date": 96905,
+   "refreshed": "Mon Oct 26 08:03 AM",
+   "ballots_to_date": 97740,
    "hourly": [
-    31,
-    0,
+    817,
+    49,
     0,
     0,
     0,
@@ -89,11 +89,11 @@
     0,
     0
    ],
-   "hours_in": 1,
-   "today": 31,
-   "completed_hours": 0,
-   "today_completed": 0,
-   "through": null,
+   "hours_in": 2,
+   "today": 866,
+   "completed_hours": 1,
+   "today_completed": 817,
+   "through": "8 AM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       1783,
       150
      ],
-     "same_hours": 0,
+     "same_hours": 1749,
      "full_day": 24284
     }
    }
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Mon Oct 26 6:12 AM",
-   "today": 0,
-   "ballots_to_date": 358431,
-   "sites": 0,
+   "refreshed": "Mon Oct 26 7:38 AM",
+   "today": 459,
+   "ballots_to_date": 359439,
+   "sites": 73,
    "busiest": [
     [
-     "Byrd Middle School",
-     0
+     "Oak Lawn Branch Library",
+     40
     ],
     [
-     "Duncanville High School",
-     0
+     "Duncanville Library",
+     21
     ],
     [
-     "Jdg Louis A Bedford Jr Law Academy",
-     0
+     "A E Sims Cedar Hill Rec Center",
+     20
     ]
    ],
    "hourly": null,
