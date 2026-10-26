@@ -1,16 +1,16 @@
 {
- "fetched": "2026-10-26T13:04:53+00:00",
+ "fetched": "2026-10-26T13:15:06+00:00",
  "day": 8,
  "date": "2026-10-26",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 26 08:01 AM",
-   "ballots_to_date": 243240,
+   "refreshed": "Mon Oct 26 08:12 AM",
+   "ballots_to_date": 243472,
    "hourly": [
-    1165,
-    36,
+    1162,
+    271,
     0,
     0,
     0,
@@ -24,9 +24,9 @@
     0
    ],
    "hours_in": 2,
-   "today": 1201,
+   "today": 1433,
    "completed_hours": 1,
-   "today_completed": 1165,
+   "today_completed": 1162,
    "through": "8 AM",
    "compare": {
     "2022": {
@@ -72,11 +72,11 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 26 08:03 AM",
-   "ballots_to_date": 97740,
+   "refreshed": "Mon Oct 26 08:14 AM",
+   "ballots_to_date": 97874,
    "hourly": [
     817,
-    49,
+    183,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 2,
-   "today": 866,
+   "today": 1000,
    "completed_hours": 1,
    "today_completed": 817,
    "through": "8 AM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Mon Oct 26 7:38 AM",
-   "today": 459,
+   "refreshed": "Mon Oct 26 8:08 AM",
+   "today": 904,
    "ballots_to_date": 359439,
-   "sites": 73,
+   "sites": 82,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     40
+     63
     ],
     [
      "Duncanville Library",
-     21
+     38
     ],
     [
-     "A E Sims Cedar Hill Rec Center",
-     20
+     "Disciple Central Comm Church",
+     38
     ]
    ],
    "hourly": null,
