@@ -1,9 +1,12 @@
 {
  "behind": [
   "Anderson: kept at last published numbers (mail 0 < published 1)",
-  "Colorado: kept at last published numbers (mail 227 < published 228)",
-  "Comal: kept at last published numbers (mail 2,366 < published 2,378)",
+  "Bell: kept at last published numbers (mail 2,665 < published 2,686)",
+  "Comal: kept at last published numbers (mail 2,341 < published 2,378)",
+  "Ellis: kept at last published numbers (mail 1,285 < published 1,292)",
+  "Hidalgo: kept at last published numbers (mail 3,712 < published 3,713)",
   "Hunt: kept at last published numbers (mail 746 < published 753)",
-  "Midland: kept at last published numbers (mail 491 < published 513)"
+  "Tarrant: kept at last published numbers (mail 15,412 < published 15,419)",
+  "Williamson: kept at last published numbers (mail 5,919 < published 5,928)"
  ]
 }
