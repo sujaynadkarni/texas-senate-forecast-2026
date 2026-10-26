@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-26T19:05:34+00:00",
+ "fetched": "2026-10-26T19:45:50+00:00",
  "day": 8,
  "date": "2026-10-26",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 26 02:02 PM",
-   "ballots_to_date": 260101,
+   "refreshed": "Mon Oct 26 02:44 PM",
+   "ballots_to_date": 262536,
    "hourly": [
     1165,
     1640,
@@ -15,8 +15,8 @@
     2846,
     3224,
     3285,
-    3541,
-    123,
+    3535,
+    2564,
     0,
     0,
     0,
@@ -24,9 +24,9 @@
     0
    ],
    "hours_in": 8,
-   "today": 18062,
+   "today": 20497,
    "completed_hours": 7,
-   "today_completed": 17939,
+   "today_completed": 17933,
    "through": "2 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Oct 26 02:02 PM",
-   "ballots_to_date": 106242,
+   "refreshed": "Mon Oct 26 02:43 PM",
+   "ballots_to_date": 107332,
    "hourly": [
     817,
     910,
@@ -82,7 +82,7 @@
     1654,
     1578,
     1551,
-    59,
+    1149,
     0,
     0,
     0,
@@ -90,7 +90,7 @@
     0
    ],
    "hours_in": 8,
-   "today": 9368,
+   "today": 10458,
    "completed_hours": 7,
    "today_completed": 9309,
    "through": "2 PM",
