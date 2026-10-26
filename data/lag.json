@@ -1,5 +1,6 @@
 {
  "behind": [
+  "Denton: county source failed (ValueError: Denton mail report does not add up)",
   "Anderson: kept at last published numbers (mail 0 < published 1)",
   "Bell: kept at last published numbers (mail 2,665 < published 2,686)",
   "Comal: kept at last published numbers (mail 2,339 < published 2,378)",

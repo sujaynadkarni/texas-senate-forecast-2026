@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-26T22:46:05+00:00",
+ "fetched": "2026-10-26T23:40:00+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 323544,
@@ -23,7 +23,10 @@
    "through": "10/25/2026",
    "last_day": 13629,
    "url": "https://www.votedenton.gov/early-voting-election-day-rosters/",
-   "source": "Denton County daily early-vote totals"
+   "source": "Denton County daily early-vote totals",
+   "error": "ValueError: Denton mail report does not add up",
+   "stale": true,
+   "last_good": "2026-10-26T22:46:05+00:00"
   },
   "Collin": {
    "in_person": 214745,
