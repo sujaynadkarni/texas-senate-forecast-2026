@@ -2748,6 +2748,10 @@ The election is taking place amidst a broader push by the Trump administration t
 !Ranking
 !As of
 |-
+|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=October 26, 2026 |access-date=October 26, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|October 26, 2026
+|-
 |align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |date=October 17, 2026 |access-date=October 24, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 17, 2026
