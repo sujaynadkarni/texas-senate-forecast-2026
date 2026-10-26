@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-10-26T01:04+00:00",
+  "generated": "2026-10-26T01:44+00:00",
   "mode": "early",
   "poll_avg": 2.4781950012048304,
   "n_polls": 69,
@@ -9,7 +9,7 @@
    "Polymarket": 0.635
   },
   "needle": 0.74042,
-  "early_total": 4415483,
+  "early_total": 4458411,
   "counted": {},
   "early_in_person": {
    "Anderson": 5370,
@@ -111,7 +111,7 @@
    "Hansford": 418,
    "Hardeman": 315,
    "Hardin": 8398,
-   "Harris": 546651,
+   "Harris": 587516,
    "Harrison": 10308,
    "Hartley": 497,
    "Haskell": 513,
@@ -364,7 +364,7 @@
    "Hansford": 7,
    "Hardeman": 7,
    "Hardin": 7,
-   "Harris": 6,
+   "Harris": 7,
    "Harrison": 6,
    "Hartley": 7,
    "Haskell": 6,
@@ -614,7 +614,7 @@
    "Hamilton": 77,
    "Hansford": 59,
    "Hardeman": 18,
-   "Harris": 34954,
+   "Harris": 37017,
    "Harrison": 490,
    "Hartley": 31,
    "Haskell": 35,
@@ -759,16 +759,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-26T01:04+00:00",
+  "generated": "2026-10-26T01:44+00:00",
   "mode": "early",
   "poll_avg": -2.5183581913090003,
   "n_polls": 60,
   "markets": {
    "Kalshi": 0.33,
-   "Polymarket": 0.3
+   "Polymarket": 0.305
   },
   "needle": 0.25312,
-  "early_total": 4415483,
+  "early_total": 4458411,
   "counted": {},
   "early_in_person": {
    "Anderson": 5370,
@@ -870,7 +870,7 @@
    "Hansford": 418,
    "Hardeman": 315,
    "Hardin": 8398,
-   "Harris": 546651,
+   "Harris": 587516,
    "Harrison": 10308,
    "Hartley": 497,
    "Haskell": 513,
@@ -1123,7 +1123,7 @@
    "Hansford": 7,
    "Hardeman": 7,
    "Hardin": 7,
-   "Harris": 6,
+   "Harris": 7,
    "Harrison": 6,
    "Hartley": 7,
    "Haskell": 6,
@@ -1373,7 +1373,7 @@
    "Hamilton": 77,
    "Hansford": 59,
    "Hardeman": 18,
-   "Harris": 34954,
+   "Harris": 37017,
    "Harrison": 490,
    "Hartley": 31,
    "Haskell": 35,
