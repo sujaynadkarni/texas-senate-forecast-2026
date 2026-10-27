@@ -3131,7 +3131,7 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |{{sdash}}
 |5%
 |-
-|style="text-align:left;"|[[Victor Allis|ActiVote]]<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |publisher=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref>{{Efn-ua|Poll conducted through the [[Victor Allis|ActiVote]] app, which allows anyone to vote.}} 
+|style="text-align:left;"|[[ActiVote]]<ref>{{cite web |title=Talarico Holds Narrow Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-21/ |work=ActiVote |access-date=October 22, 2026 |date=October 21, 2026}}</ref> 
 |October 17–21, 2026
 |400 (LV)
 |±&nbsp;4.9%
@@ -3264,7 +3264,7 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |{{sdash}}
 |4%
 |-
-|style="text-align: left;"|ActiVote<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/ |title=Talarico Leads Paxton in Texas Senate Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
+|style="text-align: left;"|[[Victor Allis|ActiVote]]<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/ |title=Talarico Leads Paxton in Texas Senate Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
 |September 30 – October 14, 2026
 |400 (LV)
 |±&nbsp;4.9%
