@@ -1,10 +1,6 @@
 {
  "behind": [
   "Denton: through day 7 of 9; source: Denton County daily early-vote totals",
-  "Denton: county source failed (ValueError: Denton mail report does not add up)",
-  "Burleson: kept at last published numbers (mail 281 < published 282)",
-  "Karnes: kept at last published numbers (mail 149 < published 150)",
-  "Llano: kept at last published numbers (mail 516 < published 517)",
-  "Travis: kept at last published numbers (mail 12,059 < published 12,067)"
+  "Denton: county source failed (ValueError: Denton mail report does not add up)"
  ]
 }
