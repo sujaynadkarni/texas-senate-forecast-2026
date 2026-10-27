@@ -647,7 +647,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Other
 ! Undecided
 |-
-| style="text-align: left;"|ActiVote<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-governor/ |title=Abbott Extends Lead Over Hinojosa in Texas Governor Race |work=ActiVote |date=October 21, 2026 |access-date=October 22, 2026}}</ref>
+| style="text-align: left;"|[[ActiVote]]<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-governor/ |title=Abbott Extends Lead Over Hinojosa in Texas Governor Race |work=[[ActiVote]] |date=October 21, 2026 |access-date=October 22, 2026}}</ref>
 |October 17–21, 2026
 |400 (LV)
 |±{{nbsp}}4.9%
@@ -657,13 +657,15 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{sdash}}
 |{{sdash}}
 |-
-|style="text-align:left;"|[[N+ Univision]]/[[YouGov]]<ref>{{cite web |title=Texas stays close as Latino voters reshape the 2026 map |url=https://www.univision.com/noticias/politica/poll-univision-texas-latinos |work=N+ Univision|access-date=October 27, 2026 |date=October 27, 2026}}</ref> 
+|style="text-align:left;"|[[Univision]]/[[YouGov]]<ref>{{cite web |title=Texas stays close as Latino voters reshape the 2026 map |url=https://www.univision.com/noticias/politica/poll-univision-texas-latinos |work=[[Univision]] |access-date=October 27, 2026 |date=October 27, 2026}}</ref> 
 |October 13–21, 2026
 |1,000 (RV)
-|±&nbsp;3.8%
+|±{{nbsp}}3.8%
 |{{Party shading/Republican}}|'''48%'''
 |46%
-|colspan="3"|6%
+|{{sdash}}
+|1%
+|5%
 |-
 |style="text-align:left;" rowspan="4"|Verasight/VoteHub<ref>{{Cite web|url=https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Texas_Report_D8A925D0.pdf|title=Texas likely voter toplines|website=VoteHub|access-date=October 23, 2026}}</ref>
 |rowspan="4"|October 1–20, 2026
