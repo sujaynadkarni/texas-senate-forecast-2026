@@ -25,11 +25,6 @@
 | party2 = Democratic Party (United States)
 | popular_vote2 =
 | percentage2 =
-| image3 = 3x4.svg
-| nominee3 = Ted Brown
-| party3 = Libertarian Party (United States)
-| popular_vote3 =
-| percentage3 =
 | map_image =
 | map_size =
 | map_caption = County results
