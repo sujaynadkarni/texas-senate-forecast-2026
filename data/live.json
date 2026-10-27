@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-27T21:17:06+00:00",
+ "fetched": "2026-10-27T21:47:50+00:00",
  "day": 9,
  "date": "2026-10-27",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 04:12 PM",
-   "ballots_to_date": 300808,
+   "refreshed": "Tue Oct 27 04:44 PM",
+   "ballots_to_date": 302488,
    "hourly": [
     1444,
     1738,
@@ -17,16 +17,16 @@
     3194,
     3304,
     3301,
-    3282,
-    659,
+    3280,
+    2341,
     0,
     0,
     0
    ],
    "hours_in": 10,
-   "today": 25491,
+   "today": 27171,
    "completed_hours": 9,
-   "today_completed": 24832,
+   "today_completed": 24830,
    "through": "4 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 04:13 PM",
-   "ballots_to_date": 125350,
+   "refreshed": "Tue Oct 27 04:44 PM",
+   "ballots_to_date": 126070,
    "hourly": [
     767,
     914,
@@ -84,13 +84,13 @@
     1532,
     1496,
     1410,
-    320,
+    1040,
     0,
     0,
     0
    ],
    "hours_in": 10,
-   "today": 12107,
+   "today": 12827,
    "completed_hours": 9,
    "today_completed": 11787,
    "through": "4 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Oct 27 3:33 PM",
-   "today": 26737,
-   "ballots_to_date": 430067,
+   "refreshed": "Tue Oct 27 4:21 PM",
+   "today": 29889,
+   "ballots_to_date": 433227,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1141
+     1290
     ],
     [
      "Fretz Park Library",
-     1088
+     1202
     ],
     [
      "University Park Umc",
-     879
+     971
     ]
    ],
    "hourly": null,
