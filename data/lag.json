@@ -3,13 +3,11 @@
   "Denton: county source failed (ValueError: Denton mail report does not add up)",
   "Bell: kept at last published numbers (mail 2,665 < published 2,686)",
   "Comal: kept at last published numbers (mail 2,342 < published 2,378)",
-  "Dallas: kept at last published numbers (in person 443,203 < published 487,415)",
   "Ellis: kept at last published numbers (mail 1,285 < published 1,292)",
   "Erath: kept at last published numbers (mail 285 < published 286)",
   "Hidalgo: kept at last published numbers (mail 3,712 < published 3,713)",
   "Karnes: kept at last published numbers (mail 149 < published 150)",
-  "Montgomery: kept at last published numbers (in person 96,874 < published 113,243)",
   "Tarrant: kept at last published numbers (mail 15,412 < published 15,419)",
-  "Travis: kept at last published numbers (in person 251,949 < published 275,317; mail 12,059 < published 12,067)"
+  "Travis: kept at last published numbers (mail 12,059 < published 12,067)"
  ]
 }
