@@ -1,16 +1,30 @@
 {
- "fetched": "2026-10-27T11:16:52+00:00",
+ "fetched": "2026-10-27T12:16:53+00:00",
  "day": 9,
  "date": "2026-10-27",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 06:15 AM",
-   "ballots_to_date": 275317,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Tue Oct 27 07:14 AM",
+   "ballots_to_date": 275765,
+   "hourly": [
+    448,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 448,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -58,11 +72,25 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 06:12 AM",
-   "ballots_to_date": 113243,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Tue Oct 27 07:14 AM",
+   "ballots_to_date": 113479,
+   "hourly": [
+    236,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 236,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -121,27 +149,26 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Mon Oct 26 7:19 PM",
+   "refreshed": "Tue Oct 27 6:25 AM",
    "today": 0,
    "ballots_to_date": 403179,
-   "sites": 84,
+   "sites": 0,
    "busiest": [
     [
-     "Oak Lawn Branch Library",
-     1894
+     "Byrd Middle School",
+     0
     ],
     [
-     "Fretz Park Library",
-     1524
+     "Duncanville High School",
+     0
     ],
     [
-     "University Park Umc",
-     1368
+     "Jdg Louis A Bedford Jr Law Academy",
+     0
     ]
    ],
    "hourly": null,
-   "compare": {},
-   "note": "polls not open yet; count is from the previous day"
+   "compare": {}
   }
  }
 }
