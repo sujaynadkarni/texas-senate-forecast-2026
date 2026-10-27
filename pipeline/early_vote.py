@@ -126,6 +126,38 @@ def turnout_effect(c, share_col):
                 coverage=float(c.exp_votes[ok].sum() / c.exp_votes.sum()))
 
 
+def primary_by_day():
+    """Each day's new early voters by 2026 primary, for the key counties: the difference between consecutive mornings
+    in data/primary_days.json. Days are when the state updated its voter lists, which trail actual voting by a day
+    or so."""
+    from races import KEY_COUNTIES
+    try:
+        days = json.load(open("data/primary_days.json"))
+    except (OSError, ValueError):
+        return None
+    order = sorted(days, key=lambda d: datetime.strptime(d, "%m/%d/%Y"))
+    if len(order) < 2:
+        return None
+    names = [n for g in KEY_COUNTIES.values() for n in g if n != "Rural Texas"]
+    out = {n: [] for n in names}
+    prev = {}
+    for d in order:
+        for n in names:
+            cur, p = days[d].get(n, [0, 0, 0]), prev.get(n, [0, 0, 0])
+            out[n].append([max(0, cur[k] - p[k]) for k in range(3)])
+        prev = days[d]
+    return dict(days=order, counties=out, groups={n: g for g, ns in KEY_COUNTIES.items() for n in ns})
+
+
+def primary_totals():
+    """Everyone who voted in each March 2026 primary, including on primary day (county results)."""
+    try:
+        p = pd.read_csv("data/primaries_2026.csv")
+        return dict(dem=int(p.dem_primary26.sum()), rep=int(p.rep_primary26.sum()))
+    except (OSError, ValueError, AttributeError):
+        return None
+
+
 def primary_mix(c):
     """Early voters by 2026 primary (pipeline/primary_layer.py), only counties whose voter lists are mostly in:
     at least 75% of the state's official count for the county (lists trail the counts by a day or so), and the
@@ -155,7 +187,7 @@ def primary_mix(c):
     turnout = dict(dem=rate("dem"), rep=rate("rep"), dem_base=tot["dem_primary"], rep_base=tot["rep_primary"],
                    dem_voted=tot["dem_primary_voted"], rep_voted=tot["rep_primary_voted"])
     return dict(fetched=pl["fetched"], through=pl["through"], counties_used=used, voters=tot["voters"], share=share, not_in=not_in,
-                turnout=turnout,
+                turnout=turnout, by_day=primary_by_day(), all_primary=primary_totals(),
                 lean=(share["dem"] - share["rep"]) * 100, primary_early_voters=pl["primary_early_voters"],
                 counties=counties)
 

@@ -181,6 +181,13 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .gdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
 .gdot.dem { background: var(--dem); } .gdot.battle { background: var(--battle); } .gdot.rep { background: var(--rep); }
 .gdot.lean-rep { background: var(--rep-3); } .gdot.none { background: #b9b9b4; }
+.sub-h { font: 800 19px var(--sans); margin: 34px 0 4px; }
+.cd-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 13px var(--sans); color: var(--ink-2); margin: 0 0 12px; }
+.cd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px 28px; }
+.cd-grid > div { min-width: 0; max-width: 420px; }
+.cd-grid h4 { font: 700 15px var(--sans); margin: 0 0 2px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.cd-grid h4 span + span { font-weight: 400; font-size: 12px; color: var(--ink-3); }
+.cd-grid svg { width: 100%; height: auto; display: block; font-family: var(--sans); }
 .src-box { margin-top: 10px; font: 14px var(--sans); }
 .src-box summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 #src-table td, #src-table th { text-align: left; white-space: normal; }
@@ -347,6 +354,13 @@ footer ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
       <p class="verdict" id="tilt-verdict"></p>
       <div class="race-bars" id="tilt-bars"></div>
       <p class="note" id="tilt-note"></p>
+      <div id="cd-sec" hidden>
+        <h3 class="sub-h">By county, day by day</h3>
+        <p class="section-dek">Each day's new early voters in the key counties: those who voted in the March Democratic primary, the Republican primary, or neither. "No party history" includes independents, people who skip primaries, and people who voted on primary day itself, whom the state's free lists don't show.</p>
+        <div class="cd-legend"><span><i class="gdot dem"></i>Democratic primary voters</span><span><i class="gdot rep"></i>Republican primary voters</span><span><i class="gdot none"></i>No party history</span></div>
+        <div class="cd-grid" id="cd-grid"></div>
+        <p class="note" id="cd-note"></p>
+      </div>
     </section>
     <section class="col-wide">
       <p class="ev-total" id="ev-total"></p>
@@ -1008,10 +1022,44 @@ function tiltView() {
   const top = Math.max(T.dem, T.rep) * 1.15;
   const bar = (lab, v, n, base, col) => `<div class="race-bar"><div class="lab"><span>${lab}</span><span><strong>${p1(v)}</strong> already voted</span></div>
     <div class="track"><div class="fill" style="width:${v / top * 100}%;background:${col}"></div></div>
-    <div class="sub">${fmtInt(n)} of ${fmtInt(base)}</div></div>`;
+    <div class="sub">${fmtInt(n)} of the ${fmtInt(base)} who voted early or by mail in March</div></div>`;
   $("#tilt-bars").innerHTML = bar("Democratic primary voters", T.dem, T.dem_voted, T.dem_base, "var(--dem)")
     + bar("Republican primary voters", T.rep, T.rep_voted, T.rep_base, "var(--rep)");
-  $("#tilt-note").textContent = `Counts people who voted early or by mail in the March 2026 primaries (the state's free lists don't include primary-day voters), in the ${P.counties_used} counties whose lists of this fall's early voters are in. Not in yet: ${P.not_in.join(", ")}. Primary voters are a clue to party, not votes: some cross over, and many voters skip primaries. State lists through ${P.through}.`;
+  const A = P.all_primary, E = P.primary_early_voters;
+  const mil = (x) => (x / 1e6).toFixed(2) + " million";
+  const allp = A && E ? ` Statewide, ${mil(E.dem)} of the ${mil(A.dem)} Democratic primary voters and ${mil(E.rep)} of the ${mil(A.rep)} Republican ones voted early or by mail; the state's free lists don't include those who voted on primary day, so they can't be matched.` : "";
+  $("#tilt-note").textContent = `Counts people who voted early or by mail in the March 2026 primaries, in the ${P.counties_used} counties whose lists of this fall's early voters are in.${allp} Not in yet: ${P.not_in.join(", ")}. Primary voters are a clue to party, not votes: some cross over, and many voters skip primaries. State lists through ${P.through}.`;
+}
+
+/* ---------- by county, day by day: new early voters by 2026 primary ---------- */
+function countyDayView() {
+  const B = EV && EV.primary && EV.primary.by_day;
+  if (PAGE !== "early" || !B) return;
+  $("#cd-sec").hidden = false;
+  const COL = ["var(--dem)", "var(--rep)", "#b4b2a9"];
+  const days = B.days.map((d, i) => (i === 0 ? "≤" : "") + (+d.slice(3, 5)));
+  const k = (v) => (v >= 1000 ? (v / 1000).toFixed(v >= 10000 ? 0 : 1) + "k" : String(v));
+  let h = "";
+  for (const [name, rows] of Object.entries(B.counties)) {
+    const tot = [0, 1, 2].map((j) => rows.reduce((s, r) => s + r[j], 0)), T = tot[0] + tot[1] + tot[2] || 1;
+    const max = Math.max(1, ...rows.flat());
+    const W = 300, H = 178, top = 40, bottom = 150, gw = (W - 8) / rows.length, bw = Math.min(10, (gw - 6) / 3);
+    let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${name}: new Democratic, Republican and no-party early voters by day">`;
+    svg += `<line x1="4" x2="${W - 4}" y1="${bottom}" y2="${bottom}" stroke="#c3c2b7" stroke-width="1"/>`;
+    rows.forEach((r, i) => {
+      const x0 = 4 + i * gw + (gw - 3 * bw - 2) / 2;
+      r.forEach((v, j) => {
+        const hgt = v / max * (bottom - top), x = x0 + j * (bw + 1), y = bottom - hgt;
+        svg += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(hgt, v ? 1 : 0).toFixed(1)}" fill="${COL[j]}" rx="1"/>`;
+        if (v >= 0.06 * max) svg += `<text x="${(x + bw / 2).toFixed(1)}" y="${(y - 3).toFixed(1)}" font-size="8" fill="#757575" transform="rotate(-90 ${(x + bw / 2).toFixed(1)} ${(y - 3).toFixed(1)})">${k(v)}</text>`;
+      });
+      svg += `<text x="${(4 + i * gw + gw / 2).toFixed(1)}" y="${bottom + 14}" font-size="10" fill="#757575" text-anchor="middle">${days[i]}</text>`;
+    });
+    svg += `<text x="4" y="${H - 2}" font-size="9" fill="#9a9a95">October</text></svg>`;
+    h += `<div><h4><span><i class="gdot ${B.groups[name]}"></i>${name}</span><span>D ${Math.round(tot[0] / T * 100)}% · R ${Math.round(tot[1] / T * 100)}% · none ${Math.round(tot[2] / T * 100)}%</span></h4>${svg}</div>`;
+  }
+  $("#cd-grid").innerHTML = h;
+  $("#cd-note").textContent = `Days are when the state updated its lists of early voters, which trail actual voting by a day or so; a near-empty day usually means a county's list wasn't updated, and the next day catches up. "≤${days[0].slice(1)}" covers the first days of early voting. Someone who voted in both primaries counts half to each. Party history is a clue to party, not a vote.`;
 }
 
 /* ---------- live county turnout (unofficial) ---------- */
@@ -1057,5 +1105,5 @@ function showView() {
   $("#view-forecast").hidden = early; $("#view-early").hidden = !early;
 }
 
-staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); liveView(); tiltView(); showView();
+staleCheck(); header(); share("#share-top"); share("#share-bottom"); drawNeedle(); markets(); explain(); drawMap(); watch(); polls(); pollHistory(); scenarios(); splitTicket(); earlyView(); liveView(); tiltView(); countyDayView(); showView();
 </script>

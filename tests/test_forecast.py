@@ -1,5 +1,6 @@
 """Regression tests. Run from project root:  PYTHONPATH=model:pipeline python3 -m unittest -v tests/test_forecast.py"""
 import json, os, re, shutil, subprocess, sys, unittest
+from datetime import datetime
 import numpy as np, pandas as pd
 
 sys.path[:0] = ["model", "pipeline"]
@@ -679,6 +680,17 @@ class LiveCounties(unittest.TestCase):
         noon = lag_check.behind(L, datetime(2026, 10, 21, 13, 0))
         self.assertEqual([x.split(":")[0] for x in noon], ["Smith", "El Paso"])
         self.assertEqual(lag_check.behind(L, datetime(2026, 10, 21, 9, 0)), [])   # mornings: normal overnight lag
+
+    def test_county_by_day_adds_up(self):
+        # each county's days add up to its latest totals, and only counts are stored
+        days = json.load(open("data/primary_days.json"))
+        last = days[max(days, key=lambda d: datetime.strptime(d, "%m/%d/%Y"))]
+        B = json.load(open("site/data_senate.json"))["early"]["primary"]["by_day"]
+        self.assertEqual(len(B["days"]), len(days))
+        for name, rows in B["counties"].items():
+            for j in range(3):
+                self.assertGreaterEqual(sum(r[j] for r in rows), last[name][j], name)   # >= because drops clamp to 0
+        self.assertNotRegex(open("data/primary_days.json").read(), r"\b\d{10}\b")
 
     def test_harris_report_parser(self):
         from county_reports import parse_harris

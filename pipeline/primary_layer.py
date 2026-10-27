@@ -75,6 +75,20 @@ def title(name):
     return NAME_FIX.get(t, t)
 
 
+def save_day(out):
+    """Keep each morning's county totals (early voters by 2026 primary, cumulative) in data/primary_days.json:
+    {"MM/DD/YYYY": {county: [democratic, republican, no party history]}}, so the site can show each day's new
+    voters by county. Someone in both primaries counts half to each. Counts only."""
+    try:
+        days = json.load(open("data/primary_days.json"))
+    except (OSError, ValueError):
+        days = {}
+    if out.get("through"):
+        days[out["through"]] = {n: [round(x["dem"] + x["both"] / 2), round(x["rep"] + x["both"] / 2), x["none"]]
+                                for n, x in out["counties"].items()}
+        json.dump(days, open("data/primary_days.json", "w"), separators=(",", ":"), sort_keys=True)
+
+
 def main(limit=None):
     E = elections()
     gen = E[GENERAL]
@@ -107,6 +121,7 @@ def main(limit=None):
                primary_early_voters=dict(dem=len(all_dem), rep=len(all_rep)), total=tot, counties=rows)
     if not limit:
         json.dump(out, open("data/primary_layer.json", "w"), separators=(",", ":"))
+        save_day(out)
     print(f"primary layer: {tot['voters']:,} early voters through {out['through']}, {time.time() - t0:.0f}s; "
           f"D-primary {tot['dem']:,} R-primary {tot['rep']:,} both {tot['both']:,} none {tot['none']:,}; "
           f"D-primary voters voted {tot['dem_primary_voted'] / max(tot['dem_primary'], 1):.1%}, "

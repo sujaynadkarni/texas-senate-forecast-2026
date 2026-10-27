@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "forecast-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/primary_layer.json
+          git add data/primary_layer.json data/primary_days.json
           git diff --cached --quiet && exit 0
           git commit -m "Primary layer $(date -u +'%Y-%m-%d %H:%M UTC')"
           for i in 1 2 3; do git pull --rebase --autostash -q origin main && git push && exit 0; sleep 10; done
