@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-27T18:02:41+00:00",
+ "fetched": "2026-10-27T18:36:47+00:00",
  "day": 9,
  "date": "2026-10-27",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 01:00 PM",
-   "ballots_to_date": 290271,
+   "refreshed": "Tue Oct 27 01:32 PM",
+   "ballots_to_date": 292048,
    "hourly": [
     1444,
     1738,
@@ -15,7 +15,7 @@
     2862,
     3237,
     3194,
-    9,
+    1786,
     0,
     0,
     0,
@@ -24,7 +24,7 @@
     0
    ],
    "hours_in": 7,
-   "today": 14954,
+   "today": 16731,
    "completed_hours": 6,
    "today_completed": 14945,
    "through": "1 PM",
@@ -72,16 +72,16 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 12:58 PM",
-   "ballots_to_date": 120549,
+   "refreshed": "Tue Oct 27 01:34 PM",
+   "ballots_to_date": 121451,
    "hourly": [
     767,
     914,
     1249,
     1505,
     1494,
-    1377,
-    0,
+    1420,
+    859,
     0,
     0,
     0,
@@ -89,10 +89,10 @@
     0,
     0
    ],
-   "hours_in": 6,
-   "today": 7306,
+   "hours_in": 7,
+   "today": 8208,
    "completed_hours": 6,
-   "today_completed": 7306,
+   "today_completed": 7349,
    "through": "1 PM",
    "compare": {
     "2024": {
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Oct 27 12:46 PM",
-   "today": 15464,
-   "ballots_to_date": 418810,
+   "refreshed": "Tue Oct 27 1:07 PM",
+   "today": 16782,
+   "ballots_to_date": 420104,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     659
+     717
     ],
     [
      "Fretz Park Library",
-     630
+     674
     ],
     [
      "University Park Umc",
-     501
+     537
     ]
    ],
    "hourly": null,
