@@ -3046,7 +3046,6 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
  |data=Opinion polling for the 2026 United States Senate election in Texas.tab
  |width=100%
 }}
-=== Polling ===
 ;Aggregate polls
 {| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
 !Source of poll<br>aggregation
