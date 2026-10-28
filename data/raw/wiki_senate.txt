@@ -25,13 +25,6 @@
 | party2 = Democratic Party (United States)
 | popular_vote2 =
 | percentage2 =
-<!--Wait for a 3rd poll with Brown with 5% before adding, he's at 2 currently
-| image3 = 3x4.svg
-| nominee3 = Ted Brown
-| party3 = Libertarian Party (United States)
-| popular_vote3 =
-| percentage3 =
--->
 | map_image =
 | map_size =
 | map_caption = County results
