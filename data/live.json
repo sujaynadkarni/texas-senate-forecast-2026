@@ -1,118 +1,90 @@
 {
- "fetched": "2026-10-28T04:58:07+00:00",
- "day": 9,
- "date": "2026-10-27",
+ "fetched": "2026-10-28T05:44:25+00:00",
+ "day": 10,
+ "date": "2026-10-28",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 11:52 PM",
+   "refreshed": "Wed Oct 28 12:40 AM",
    "ballots_to_date": 309087,
-   "hourly": [
-    1444,
-    1738,
-    2470,
-    2862,
-    3237,
-    3194,
-    3304,
-    3301,
-    3280,
-    3145,
-    3016,
-    2648,
-    131
-   ],
-   "hours_in": 13,
-   "today": 33770,
-   "completed_hours": 13,
-   "today_completed": 33770,
-   "through": "close",
+   "hourly": [],
+   "hours_in": 0,
+   "today": 0,
+   "completed_hours": 0,
+   "today_completed": 0,
+   "through": null,
    "compare": {
     "2022": {
      "hourly": [
-      559,
-      926,
-      1391,
-      1988,
-      2330,
-      2361,
-      2494,
-      2572,
-      2554,
-      2383,
-      2412,
-      1704,
-      5
+      746,
+      1206,
+      1782,
+      2204,
+      2616,
+      2705,
+      2879,
+      2895,
+      2769,
+      2846,
+      2838,
+      2459,
+      71
      ],
-     "same_hours": 23679,
-     "full_day": 23679
+     "same_hours": 0,
+     "full_day": 28016
     },
     "2024": {
      "hourly": [
-      1733,
-      2022,
-      2777,
-      3284,
-      3634,
-      3422,
+      1576,
+      2020,
+      2663,
+      3094,
+      3448,
+      3325,
       3421,
-      3548,
-      3429,
-      3429,
-      3155,
-      2701,
-      100
+      3575,
+      3306,
+      3436,
+      3085,
+      2827,
+      126
      ],
-     "same_hours": 36655,
-     "full_day": 36655
+     "same_hours": 0,
+     "full_day": 35902
     }
    }
   },
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 11:56 PM",
+   "refreshed": "Wed Oct 28 12:43 AM",
    "ballots_to_date": 129021,
-   "hourly": [
-    767,
-    914,
-    1249,
-    1505,
-    1494,
-    1420,
-    1532,
-    1496,
-    1410,
-    1413,
-    1427,
-    1094,
-    57
-   ],
-   "hours_in": 13,
-   "today": 15778,
-   "completed_hours": 13,
-   "today_completed": 15778,
-   "through": "close",
+   "hourly": [],
+   "hours_in": 0,
+   "today": 0,
+   "completed_hours": 0,
+   "today_completed": 0,
+   "through": null,
    "compare": {
     "2024": {
      "hourly": [
-      1770,
-      1747,
-      1968,
-      2114,
-      2127,
+      1582,
+      1453,
+      1846,
       2010,
-      2046,
-      2030,
-      1998,
-      2005,
-      2070,
-      1714,
-      59
+      1909,
+      1842,
+      1802,
+      1788,
+      1819,
+      1820,
+      1782,
+      1441,
+      22
      ],
-     "same_hours": 23658,
-     "full_day": 23658
+     "same_hours": 0,
+     "full_day": 21116
     }
    }
   },
@@ -121,7 +93,7 @@
    "url": "https://earlyvotecountsdual.bexar.org",
    "date": "10/27/2026",
    "sites": 59,
-   "today": 42013,
+   "today": 0,
    "ballots_to_date": 370021,
    "busiest": [
     [
@@ -150,7 +122,7 @@
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
    "refreshed": "Tue Oct 27 7:15 PM",
-   "today": 42117,
+   "today": 0,
    "ballots_to_date": 445395,
    "sites": 84,
    "busiest": [
@@ -168,7 +140,8 @@
     ]
    ],
    "hourly": null,
-   "compare": {}
+   "compare": {},
+   "note": "polls not open yet; count is from the previous day"
   }
  }
 }
