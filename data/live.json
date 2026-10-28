@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-28T09:18:47+00:00",
+ "fetched": "2026-10-28T12:03:47+00:00",
  "day": 10,
  "date": "2026-10-28",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 28 04:15 AM",
+   "refreshed": "Wed Oct 28 07:00 AM",
    "ballots_to_date": 309087,
    "hourly": [],
    "hours_in": 0,
@@ -58,7 +58,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Wed Oct 28 04:14 AM",
+   "refreshed": "Wed Oct 28 06:58 AM",
    "ballots_to_date": 129021,
    "hourly": [],
    "hours_in": 0,
@@ -121,27 +121,26 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Oct 27 7:15 PM",
+   "refreshed": "Wed Oct 28 6:36 AM",
    "today": 0,
    "ballots_to_date": 445395,
-   "sites": 84,
+   "sites": 0,
    "busiest": [
     [
-     "Oak Lawn Branch Library",
-     1811
+     "Byrd Middle School",
+     0
     ],
     [
-     "Fretz Park Library",
-     1525
+     "Duncanville High School",
+     0
     ],
     [
-     "University Park Umc",
-     1260
+     "Jdg Louis A Bedford Jr Law Academy",
+     0
     ]
    ],
    "hourly": null,
-   "compare": {},
-   "note": "polls not open yet; count is from the previous day"
+   "compare": {}
   }
  }
 }
