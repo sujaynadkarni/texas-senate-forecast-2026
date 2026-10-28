@@ -3055,59 +3055,59 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 ! style="width:100px;" |Other/<br />Undecided{{Efn|name=calculated}}
 ! Margin
 |-
-|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Senate|url=https://www.270towin.com/2026-senate-polls/texas|website=[[270toWin]]|access-date=October 23, 2026}}</ref>
-|October 8–21, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
-|October 23, 2026
-|47.3%
-|{{party shading/Democratic}} |'''49.3%'''
-|3.0%
-|{{party shading/Democratic}} |'''Talarico +2.0%'''
+|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Senate|url=https://www.270towin.com/2026-senate-polls/texas|website=[[270toWin]]|access-date=October 27, 2026}}</ref>
+|October 9–21, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
+|October 27, 2026
+|46.7%
+|{{party shading/Democratic}} |'''49.6%'''
+|3.7%
+|{{party shading/Democratic}} |'''Talarico +2.9%'''
 |-
-|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas US Senate |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/polling |access-date=October 23, 2026 |website=[[Decision Desk HQ]]}}</ref>
+|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas US Senate |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/polling |access-date=October 27, 2026 |website=[[Decision Desk HQ]]}}</ref>
 |through October 21, 2026
-|October 23, 2026
-|45.5%
-|{{party shading/Democratic}}|'''48.3%'''
-|6.2%
-|{{party shading/Democratic}}|'''Talarico +2.8%'''
+|October 27, 2026
+|44.9%
+|{{party shading/Democratic}}|'''48.0%'''
+|7.1%
+|{{party shading/Democratic}}|'''Talarico +3.1%'''
 |-
-|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Senate Election |url=https://fiftyplusone.news/polls/senate/general/texas |website=[[FiftyPlusOne]] |access-date=October 22, 2026}}</ref>
+|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Senate Election |url=https://fiftyplusone.news/polls/senate/general/texas |website=[[FiftyPlusOne]] |access-date=October 27, 2026}}</ref>
 |through October 21, 2026
-|October 22, 2026
-|46.5%
-|{{party shading/Democratic}} |'''49.1%'''
-|4.4%
-|{{party shading/Democratic}} |'''Talarico +2.6%'''
+|October 27, 2026
+|46.2%
+|{{party shading/Democratic}} |'''49.0%'''
+|4.8%
+|{{party shading/Democratic}} |'''Talarico +2.8%'''
 |-
-|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Senate - Paxton vs. Talarico |url=https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton |access-date=October 23, 2026 |website=[[RealClearPolitics]]}}</ref>
-|October 6–19, 2026
-|October 23, 2026
-|46.8%
-|{{party shading/Democratic}}|'''48.6%'''
-|4.6%
+|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Senate - Paxton vs. Talarico |url=https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton |access-date=October 27, 2026 |website=[[RealClearPolitics]]}}</ref>
+|October 8–19, 2026
+|October 27, 2026
+|46.7%
+|{{party shading/Democratic}}|'''48.5%'''
+|4.8%
 |{{party shading/Democratic}}|'''Talarico +1.8%'''
 |-
-|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 23, 2026 |orig-date=August 7, 2026 |access-date=October 23, 2026}}</ref>
+|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 23, 2026 |orig-date=August 7, 2026 |access-date=October 27, 2026}}</ref>
 |through October 21, 2026
 |October 23, 2026
-|46.7%
+|46.6%
 |{{party shading/Democratic}}|'''48.9%'''
-|5.4%
-|{{party shading/Democratic}}|'''Talarico +2.2%'''
+|5.5%
+|{{party shading/Democratic}}|'''Talarico +2.3%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 19, 2026
-|October 22, 2026
-|46.4%
-|{{party shading/Democratic}}|'''48.8%'''
-|5.8%
-|{{party shading/Democratic}}|'''Talarico +2.4%'''
+|through October 21, 2026
+|October 27, 2026
+|46.1%
+|{{party shading/Democratic}}|'''48.7%'''
+|5.2%
+|{{party shading/Democratic}}|'''Talarico +2.6%'''
 |-
 |colspan="3" |Average
-|46.5%
+|46.2%
 |{{party shading/Democratic}} |'''48.8%'''
-|4.7%
-|{{party shading/Democratic}} |'''Talarico +2.3%'''
+|5.0%
+|{{party shading/Democratic}} |'''Talarico +2.6%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
