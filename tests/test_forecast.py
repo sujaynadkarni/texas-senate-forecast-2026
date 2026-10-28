@@ -653,6 +653,8 @@ class LiveCounties(unittest.TestCase):
             R.parse_denton_inperson(den.replace("66303", "66304"))
         mail = "10/07 10/08 10/20 Total\n Denton County 394 399 1 794\nState Rep.\n"
         self.assertEqual(R.parse_denton_mail(mail), 794)
+        # Oct. 26 layout: no Total column
+        self.assertEqual(R.parse_denton_mail("10/07 10/08 10/27\n Denton County 394 399 223\nState Rep.\n"), 1016)
         col = ("Check-in Summary by Polling Place Within Date Range\nCheck-in Date Range: 10/19/2026 through 10/21/2026\n"
                "EV036, The Grove at Frisco Commons EV036\n1,446\nEV038, Wylie Community Park Center EV038\n1,724\n"
                "Total\n3,170\nReport Date: 10/21/2026 12:20:01\n")

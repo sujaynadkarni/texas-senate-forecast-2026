@@ -128,14 +128,23 @@ def parse_denton_inperson(text):
 
 
 def parse_denton_mail(text):
-    """Row ' Denton County 394 399 ... 3725': mail ballots returned per day, then the total."""
+    """Row ' Denton County 394 399 ... ': mail ballots returned per day under a header of dates, with or without a
+    final Total column (Denton dropped it on Oct. 26). Returns the total returned."""
+    head = next((ln for ln in text.splitlines() if re.match(r"\s*\d{1,2}/\d{1,2}(\s+\d{1,2}/\d{1,2})+", ln)), "")
+    days = re.findall(r"\d{1,2}/\d{1,2}", head)
     m = re.search(r"Denton County\s+([\d,\s]+)", text)
-    if not m:
+    if not m or not days:
         raise ValueError("no county row in Denton mail report")
     vals = [int(v.replace(",", "")) for v in m.group(1).split()]
-    if sum(vals[:-1]) != vals[-1]:
-        raise ValueError("Denton mail report does not add up")
-    return vals[-1]
+    if "Total" in head:
+        vals = vals[:len(days) + 1]
+        if len(vals) != len(days) + 1 or sum(vals[:-1]) != vals[-1]:
+            raise ValueError("Denton mail report does not add up")
+        return vals[-1]
+    vals = vals[:len(days)]
+    if len(vals) != len(days):
+        raise ValueError(f"Denton mail report: {len(days)} dates but {len(vals)} numbers")
+    return sum(vals)
 
 
 def parse_collin(text):
