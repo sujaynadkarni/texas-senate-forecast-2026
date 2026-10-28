@@ -647,6 +647,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Other
 ! Undecided
 |-
+|style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=All State-Wide Democratic Candidates Leading New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-10-tx |website=254 Labs |date=October 28, 2026 |access-date=October 28, 2026}}</ref>{{Efn-ua|Poll conducted on behalf of 254 Labs}}
+|October 21–26, 2026
+|1,000 (RV)
+|±{{nbsp}}4.6%
+|46%
+|{{Party shading/Democratic}}|'''49%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|-
 | style="text-align: left;"|[[ActiVote]]<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-governor/ |title=Abbott Extends Lead Over Hinojosa in Texas Governor Race |work=[[ActiVote]] |date=October 21, 2026 |access-date=October 22, 2026}}</ref>
 |October 17–21, 2026
 |400 (LV)

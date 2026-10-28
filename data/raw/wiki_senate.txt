@@ -3123,6 +3123,16 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 ! Other
 ! Undecided
 |-
+|style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=All State-Wide Democratic Candidates Leading New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-10-tx |website=254 Labs |date=October 28, 2026 |access-date=October 28, 2026}}</ref>{{Efn-ua|name="254L"}}
+|October 21–26, 2026
+|1,000 (RV)
+|±{{nbsp}}4.6%
+|43%
+|{{Party shading/Democratic}}|'''51%'''
+|{{sdash}}
+|2%
+|5%
+|-
 | style="text-align:left;"|[[Rasmussen Reports]]<ref>{{cite web |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_texas_senate |title=Election 2026: Texas Senate |work=[[Rasmussen Reports]] |date=October 23, 2026 |access-date=October 23, 2026}}</ref>
 |October 20–21, 2026
 |965 (LV)
@@ -3617,7 +3627,7 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |2%{{efn|name="SE2"|"Someone else" with 2%}}
 |5%
 |-
-|style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=Talarico Leads 48–45 Among Likely Voters, New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-07-txsen |website=254 Labs |date=August 6, 2026 |access-date=August 6, 2026}}</ref>{{Efn-ua|Poll conducted on behalf of 254 Labs}}
+|style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=Talarico Leads 48–45 Among Likely Voters, New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-07-txsen |website=254 Labs |date=August 6, 2026 |access-date=August 6, 2026}}</ref>{{Efn-ua|name="254L"|Poll conducted on behalf of 254 Labs}}
 |July 15–31, 2026
 |1,001 (RV){{Efn|"weighted to likely voter targets provided by 254 Labs"}}
 |±&nbsp;3.6%
