@@ -2,6 +2,6 @@
  "behind": [
   "Denton: through day 7 of 9; source: Denton County daily early-vote totals",
   "Denton: county source failed (ValueError: Denton mail report does not add up)",
-  "Van Zandt: kept at last published numbers (mail 496 < published 497)"
+  "Pecos: kept at last published numbers (mail 84 < published 87)"
  ]
 }

@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-28T00:18:10+00:00",
+ "fetched": "2026-10-28T01:18:08+00:00",
  "day": 9,
  "date": "2026-10-27",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 07:14 PM",
-   "ballots_to_date": 309070,
+   "refreshed": "Tue Oct 27 08:13 PM",
+   "ballots_to_date": 309087,
    "hourly": [
     1444,
     1738,
@@ -21,12 +21,12 @@
     3145,
     3016,
     2648,
-    114
+    131
    ],
    "hours_in": 13,
-   "today": 33753,
-   "completed_hours": 12,
-   "today_completed": 33639,
+   "today": 33770,
+   "completed_hours": 13,
+   "today_completed": 33770,
    "through": "close",
    "compare": {
     "2022": {
@@ -45,7 +45,7 @@
       1704,
       5
      ],
-     "same_hours": 23674,
+     "same_hours": 23679,
      "full_day": 23679
     },
     "2024": {
@@ -64,7 +64,7 @@
       2701,
       100
      ],
-     "same_hours": 36555,
+     "same_hours": 36655,
      "full_day": 36655
     }
    }
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Oct 27 07:13 PM",
+   "refreshed": "Tue Oct 27 08:15 PM",
    "ballots_to_date": 129021,
    "hourly": [
     767,
@@ -91,8 +91,8 @@
    ],
    "hours_in": 13,
    "today": 15778,
-   "completed_hours": 12,
-   "today_completed": 15721,
+   "completed_hours": 13,
+   "today_completed": 15778,
    "through": "close",
    "compare": {
     "2024": {
@@ -111,7 +111,7 @@
       1714,
       59
      ],
-     "same_hours": 23599,
+     "same_hours": 23658,
      "full_day": 23658
     }
    }
@@ -119,28 +119,28 @@
   "Bexar": {
    "source": "county early-vote dashboard",
    "url": "https://earlyvotecountsdual.bexar.org",
-   "date": "10/26/2026",
+   "date": "10/27/2026",
    "sites": 59,
-   "today": 0,
-   "ballots_to_date": 328008,
+   "today": 42013,
+   "ballots_to_date": 370021,
    "busiest": [
     [
      "Northwest Vista College",
-     1827,
-     10948,
-     12775
-    ],
-    [
-     "Maverick Branch Library",
-     1701,
-     8959,
-     10660
+     1772,
+     12775,
+     14547
     ],
     [
      "Brookhollow Branch Library",
-     1629,
-     10704,
-     12333
+     1595,
+     12333,
+     13928
+    ],
+    [
+     "Encino Branch Library",
+     1575,
+     10943,
+     12518
     ]
    ],
    "hourly": null,
