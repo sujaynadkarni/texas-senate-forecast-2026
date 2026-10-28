@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-10-28T01:18+00:00",
+  "generated": "2026-10-28T02:04+00:00",
   "mode": "early",
   "poll_avg": 2.566361537394979,
   "n_polls": 70,
@@ -9,7 +9,7 @@
    "Polymarket": 0.675
   },
   "needle": 0.7475,
-  "early_total": 5428872,
+  "early_total": 5474470,
   "counted": {},
   "early_in_person": {
    "Anderson": 7058,
@@ -230,7 +230,7 @@
    "Stonewall": 226,
    "Sutton": 582,
    "Swisher": 623,
-   "Tarrant": 373100,
+   "Tarrant": 418698,
    "Taylor": 20460,
    "Terrell": 147,
    "Terry": 1140,
@@ -485,7 +485,7 @@
    "Stonewall": 9,
    "Sutton": 9,
    "Swisher": 9,
-   "Tarrant": 8,
+   "Tarrant": 9,
    "Taylor": 9,
    "Terrell": 9,
    "Terry": 9,
@@ -762,16 +762,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-28T01:18+00:00",
+  "generated": "2026-10-28T02:04+00:00",
   "mode": "early",
   "poll_avg": -2.5019217800716476,
   "n_polls": 61,
   "markets": {
-   "Kalshi": 0.33,
+   "Kalshi": 0.32,
    "Polymarket": 0.335
   },
   "needle": 0.25472,
-  "early_total": 5428872,
+  "early_total": 5474470,
   "counted": {},
   "early_in_person": {
    "Anderson": 7058,
@@ -992,7 +992,7 @@
    "Stonewall": 226,
    "Sutton": 582,
    "Swisher": 623,
-   "Tarrant": 373100,
+   "Tarrant": 418698,
    "Taylor": 20460,
    "Terrell": 147,
    "Terry": 1140,
@@ -1247,7 +1247,7 @@
    "Stonewall": 9,
    "Sutton": 9,
    "Swisher": 9,
-   "Tarrant": 8,
+   "Tarrant": 9,
    "Taylor": 9,
    "Terrell": 9,
    "Terry": 9,
