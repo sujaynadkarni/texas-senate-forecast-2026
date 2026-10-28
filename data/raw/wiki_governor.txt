@@ -552,7 +552,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 
 === Fundraising ===
 {| class="wikitable sortable"
-! colspan="4" |Campaign finance reports as of September 24, 2026
+! colspan="4" |Campaign finance reports as of October 24, 2026
 |- style="text-align:center;"
 !Candidate
 !Raised
@@ -560,21 +560,21 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 !Cash on hand
 |-
 | {{party shading/Republican}} |Greg Abbott (R)
-|$50,575,992
-|$128,990,883
-|$18,187,265
+|$122,319,463
+|$317,723,514
+|$9,361,680
 |-
 | {{party shading/Democratic}} |Gina Hinojosa (D)
-|$19,428,410
-|$16,107,485
-|$4,082,077
+|$39,246,953
+|$36,911,627
+|$989,980
 |-
 | {{party shading/Libertarian}} |Pat Dixon (L)
-|$15,602
-|$11,056
-|$2,368
+|$22,249
+|$14,568
+|$1,064
 |-
-! colspan="4" |<small>Source: Texas Ethics Commission<ref>{{cite web |title=TEC Campaign Finance Reports Search |url=https://www.ethics.state.tx.us/search/cf/SimpleSearchResults.php |access-date=September 9, 2026 |website=ethics.state.tx.us |publisher=Texas Ethics Commission}}</ref></small>
+! colspan="4" |<small>Source: Texas Ethics Commission<ref>{{cite web |title=TEC Campaign Finance Reports Search |url=https://www.ethics.state.tx.us/search/cf/SimpleSearchResults.php |access-date=September 9, 2026 |website=ethics.state.tx.us |publisher=Texas Ethics Commission}}</ref><ref>{{cite web|title=Governor of Texas 2026 Election Season|url=https://www.transparencyusa.org/tx/race/governor-of-texas-76845|website=TransparencyUSA|access-date=October 28, 2026}}</ref></small>
 |}
 
 ===Polling===
