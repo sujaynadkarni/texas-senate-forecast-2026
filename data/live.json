@@ -1,16 +1,30 @@
 {
- "fetched": "2026-10-29T12:00:42+00:00",
+ "fetched": "2026-10-29T12:50:57+00:00",
  "day": 11,
  "date": "2026-10-29",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 29 06:56 AM",
-   "ballots_to_date": 343144,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Thu Oct 29 07:50 AM",
+   "ballots_to_date": 344432,
+   "hourly": [
+    1288,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 1288,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -58,11 +72,25 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 29 06:56 AM",
-   "ballots_to_date": 144859,
-   "hourly": [],
-   "hours_in": 0,
-   "today": 0,
+   "refreshed": "Thu Oct 29 07:47 AM",
+   "ballots_to_date": 145504,
+   "hourly": [
+    645,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hours_in": 1,
+   "today": 645,
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
@@ -121,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Thu Oct 29 6:12 AM",
-   "today": 0,
-   "ballots_to_date": 488375,
-   "sites": 0,
+   "refreshed": "Thu Oct 29 7:47 AM",
+   "today": 427,
+   "ballots_to_date": 488907,
+   "sites": 66,
    "busiest": [
     [
-     "Byrd Middle School",
-     0
+     "Oak Lawn Branch Library",
+     38
     ],
     [
-     "Duncanville High School",
-     0
+     "Audelia Road Branch Library",
+     28
     ],
     [
-     "Jdg Louis A Bedford Jr Law Academy",
-     0
+     "South Garland Branch Library",
+     22
     ]
    ],
    "hourly": null,
