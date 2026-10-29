@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-29T03:50+00:00",
+  "generated": "2026-10-29T05:10+00:00",
   "mode": "early",
   "poll_avg": 2.895636631573928,
   "n_polls": 71,
   "markets": {
-   "Kalshi": 0.67,
+   "Kalshi": 0.68,
    "Polymarket": 0.685
   },
   "needle": 0.77286,
-  "early_total": 6064557,
+  "early_total": 6064568,
   "counted": {},
   "early_in_person": {
    "Anderson": 7814,
@@ -173,7 +173,7 @@
    "Mason": 1277,
    "Matagorda": 6023,
    "Maverick": 6654,
-   "Medina": 11436,
+   "Medina": 11445,
    "Menard": 456,
    "Midland": 22205,
    "Milam": 4767,
@@ -566,7 +566,7 @@
    "Collin": 6419,
    "Collingsworth": 33,
    "Colorado": 270,
-   "Comal": 2515,
+   "Comal": 2516,
    "Comanche": 77,
    "Concho": 56,
    "Cooke": 407,
@@ -664,7 +664,7 @@
    "Live Oak": 90,
    "Llano": 569,
    "Loving": 1,
-   "Lubbock": 1830,
+   "Lubbock": 1831,
    "Lynn": 33,
    "McCulloch": 84,
    "McLennan": 2513,
@@ -764,16 +764,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-29T03:50+00:00",
+  "generated": "2026-10-29T05:10+00:00",
   "mode": "early",
-  "poll_avg": -2.1388565301137197,
+  "poll_avg": -2.1388565301137086,
   "n_polls": 62,
   "markets": {
    "Kalshi": 0.36,
    "Polymarket": 0.375
   },
   "needle": 0.28426,
-  "early_total": 6064557,
+  "early_total": 6064568,
   "counted": {},
   "early_in_person": {
    "Anderson": 7814,
@@ -937,7 +937,7 @@
    "Mason": 1277,
    "Matagorda": 6023,
    "Maverick": 6654,
-   "Medina": 11436,
+   "Medina": 11445,
    "Menard": 456,
    "Midland": 22205,
    "Milam": 4767,
@@ -1330,7 +1330,7 @@
    "Collin": 6419,
    "Collingsworth": 33,
    "Colorado": 270,
-   "Comal": 2515,
+   "Comal": 2516,
    "Comanche": 77,
    "Concho": 56,
    "Cooke": 407,
@@ -1428,7 +1428,7 @@
    "Live Oak": 90,
    "Llano": 569,
    "Loving": 1,
-   "Lubbock": 1830,
+   "Lubbock": 1831,
    "Lynn": 33,
    "McCulloch": 84,
    "McLennan": 2513,

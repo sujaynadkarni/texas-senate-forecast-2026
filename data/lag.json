@@ -1,10 +1,12 @@
 {
  "behind": [
   "Denton: county source failed (ValueError: no totals row in Denton report)",
+  "Dallas: kept at last published numbers (in person 529,532 < published 572,185)",
   "Denton: kept at last published numbers (mail 6,742 < published 6,743)",
   "Ellis: kept at last published numbers (mail 1,376 < published 1,382)",
   "Jefferson: kept at last published numbers (mail 1,956 < published 1,987)",
+  "Montgomery: kept at last published numbers (in person 129,021 < published 144,859)",
   "Parker: kept at last published numbers (mail 1,789 < published 1,790)",
-  "Travis: kept at last published numbers (mail 14,111 < published 14,117)"
+  "Travis: kept at last published numbers (in person 319,016 < published 343,144; mail 14,111 < published 14,117)"
  ]
 }
