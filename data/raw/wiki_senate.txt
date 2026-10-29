@@ -3042,6 +3042,8 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |}
 
 === Polling ===
+Talarico has led in aggregate polling for much of the race, with his lead by the fall being the largest for any Senate Democrat in Texas since [[1988 United States Senate election in Texas|1988]].<ref>{{Cite news |last=Koplowitz |first=Howard |title=New poll shows Democrat smashing record held for 40 years in red state |url=https://www.al.com/politics/2026/10/new-poll-shows-democrat-smashing-record-held-for-40-years-in-red-state.html |work=[[AL.com]] |date=October 29, 2026 |access-date=October 29, 2026 |language=en}}</ref>
+
 {{Chart
  |definition=Opinion polling for the 2026 United States Senate election in Texas.chart
  |data=Opinion polling for the 2026 United States Senate election in Texas.tab
@@ -3124,6 +3126,26 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 ! Other
 ! Undecided
 |-
+|style="text-align:left;"|[[ActiVote]]<ref>{{cite web |title=Talarico Widens Lead Over Paxton in Texas Senate Race |url=https://www.activote.net/polls/2026/tx-u-s-senate/ |work=[[ActiVote]] |date=October 29, 2026 |access-date=October 29, 2026}}</ref> 
+|October 22–28, 2026
+|400 (LV)
+|±{{nbsp}}4.9%
+|48%
+|{{Party shading/Democratic}}|'''52%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|-
+|style="text-align:left"|A2 Insights<ref>{{cite web |title=Texas Statewide Survey |url=https://drive.google.com/file/d/1UACnmnM84Dd1hU0l6iqHNgXkyh5oCelO/view |work=A2 Insights |access-date=October 29, 2026}}</ref>
+|October 23–27, 2026
+|631 (LV)
+|±{{nbsp}}4.9%
+|47%
+|{{Party shading/Democratic}}|'''50%'''
+|{{sdash}}
+|2%
+|0%
+|-
 |style="text-align:left"|SSRS<ref>{{cite web |title=CNN poll conducted by SSRS Texas October |url=https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/ |work=[[CNN]] |via=[[DocumentCloud]] |date=October 29, 2026 |access-date=October 29, 2026}}</ref>{{Efn-ua|Poll conducted for [[CNN]]}}
 |October 20–27, 2026
 |923 (LV)
@@ -3131,8 +3153,8 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |43%
 |{{Party shading/Democratic}}|'''49%'''
 |{{sdash}}
-|8%{{efn|"Neither" with 5%}}
-|0%
+|5%{{efn|"Neither" with 5%}}
+|3%
 |-
 |style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=All State-Wide Democratic Candidates Leading New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-10-tx |website=254 Labs |date=October 28, 2026 |access-date=October 28, 2026}}</ref>{{Efn-ua|name="254L"}}
 |October 21–26, 2026
