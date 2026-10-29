@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-29T10:20:40+00:00",
+ "fetched": "2026-10-29T12:00:42+00:00",
  "day": 11,
  "date": "2026-10-29",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 29 05:19 AM",
+   "refreshed": "Thu Oct 29 06:56 AM",
    "ballots_to_date": 343144,
    "hourly": [],
    "hours_in": 0,
@@ -58,7 +58,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Oct 29 05:18 AM",
+   "refreshed": "Thu Oct 29 06:56 AM",
    "ballots_to_date": 144859,
    "hourly": [],
    "hours_in": 0,
@@ -121,27 +121,26 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Wed Oct 28 7:17 PM",
+   "refreshed": "Thu Oct 29 6:12 AM",
    "today": 0,
    "ballots_to_date": 488375,
-   "sites": 84,
+   "sites": 0,
    "busiest": [
     [
-     "Oak Lawn Branch Library",
-     1956
+     "Byrd Middle School",
+     0
     ],
     [
-     "Fretz Park Library",
-     1545
+     "Duncanville High School",
+     0
     ],
     [
-     "Dallas County Mesquite Gov Ctr",
-     1294
+     "Jdg Louis A Bedford Jr Law Academy",
+     0
     ]
    ],
    "hourly": null,
-   "compare": {},
-   "note": "polls not open yet; count is from the previous day"
+   "compare": {}
   }
  }
 }

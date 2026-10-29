@@ -645,7 +645,17 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! style="width:100px"| Gina<br />Hinojosa (D)
 ! style="width:100px"| Pat<br />Dixon (L)
 ! Other
-! Undecided
+! Undecided	
+|-
+|style="text-align:left"|SSRS<ref>{{cite web |title=CNN poll conducted by SSRS Texas October |url=https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/ |work=[[CNN]] |via=[[DocumentCloud]] |date=October 29, 2026 |access-date=October 29, 2026}}</ref>{{Efn-ua|Poll conducted for [[CNN]]}}
+|October 20–27, 2026
+|923 (LV)
+|±{{nbsp}}4.2%
+|{{Party shading/Republican}}|'''48%'''
+|46%
+|{{sdash}}
+|6%{{efn|"Neither" with 4%}}
+|{{sdash}}
 |-
 |style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=All State-Wide Democratic Candidates Leading New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-10-tx |website=254 Labs |date=October 28, 2026 |access-date=October 28, 2026}}</ref>{{Efn-ua|Poll conducted on behalf of 254 Labs}}
 |October 21–26, 2026
@@ -661,8 +671,8 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |October 17–21, 2026
 |400 (LV)
 |±{{nbsp}}4.9%
-|{{Party shading/Republican}}|'''52.5%'''
-|47.5%
+|{{Party shading/Republican}}|'''53%'''
+|48%
 |{{sdash}}
 |{{sdash}}
 |{{sdash}}
