@@ -2769,9 +2769,9 @@ The election is taking place amidst a broader push by the Trump administration t
 |{{USRaceRating|Tossup}}
 |October 28, 2026
 |-
-|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=October 28, 2026 |website=[[FiftyPlusOne]]}}</ref>
-|{{USRaceRating|Tossup}}
-|October 28, 2026
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=October 29, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|{{USRaceRating|Lean|D|flip}}
+|October 29, 2026
 |-
 |align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: As Iran looms large, can the GOP keep the faithful? |url=https://www.foxnews.com/politics/fox-news-power-rankings-iran-looms-large-can-gop-keep-faithful |work=[[Fox News]] |date=October 27, 2026 |access-date=October 28, 2026}}</ref>
 |{{USRaceRating|Tossup}}
@@ -4983,6 +4983,6 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 
 [[Category:United States Senate elections in Texas|2026]]
 [[Category:2026 United States Senate elections|Texas]]
-[[Category:2026 Texas elections|United States Senate]]
+[[Category:2026 elections in Texas|United States Senate]]
 [[Category:John Cornyn]]
 [[Category:Ken Paxton]]
