@@ -2884,6 +2884,7 @@ The election is taking place amidst a broader push by the Trump administration t
 * [[Texas Farm Bureau]]<ref>{{cite web |last= Powell |first= Adam |title= Paxton gains Farm Bureau backing, boosts Texas US Senate bid |url=https://www.elpasotimes.com/story/news/politics/elections/2026/09/17/ken-paxton-picks-up-farm-vote-boost-in-texas-us-senate-race/91796295007/ |website=[[El Paso Times]] |date=September 17, 2026 |access-date=September 17, 2026}}</ref>
 * [[Texas Patriots PAC]]<ref>{{cite web |title= TEXAS PATRIOTS PAC Voter Guide Tuesday, November 3, 2026 General Election |url=https://www.texaspatriotspac.com/ |website=[[Texas Patriots PAC]] |access-date=October 5, 2026}}</ref>
 * [[United States Chamber of Commerce|U.S. Chamber of Commerce]]<ref>{{cite web |last= Mijares Torres |first= María Paula|title= US Chamber of Commerce Endorses Paxton in Texas Senate Race |url=https://www.bloomberg.com/news/articles/2026-10-18/us-chamber-of-commerce-endorses-paxton-in-texas-senate-race|website=[[Bloomberg News]] |date=October 18, 2026 |access-date=October 19, 2026}}</ref>
+* [[Young Conservatives of Texas]]<ref>{{cite web |title=YCT Endorses Ken Paxton for U.S. Senate |url=https://www.yct.org/yct-endorses-ken-paxton-for-u-s-senate/ |website=[[Young Conservatives of Texas]] |date=October 28, 2026 |access-date=October 29, 2026}}</ref>
 * [[Young Republicans of Texas]]<ref>{{Cite instagram |author=Young Republicans of Texas |author-link=Young Republicans of Texas |user=yrsoftexas |postid=DZ59rZblP9h |title=We're proud to have been vocal participants in the Republican primary as part of our organization's mission to shape the future of the Texas GOP. |date=June 22, 2026 |access-date=August 15, 2026}}</ref>
 
 '''Newspapers and media'''
@@ -3097,18 +3098,18 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |{{party shading/Democratic}}|'''Talarico +3.1%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 21, 2026
-|October 27, 2026
-|46.1%
-|{{party shading/Democratic}}|'''48.7%'''
-|5.2%
-|{{party shading/Democratic}}|'''Talarico +2.6%'''
+|through October 27, 2026
+|October 29, 2026
+|46.0%
+|{{party shading/Democratic}}|'''49.0%'''
+|5.1%
+|{{party shading/Democratic}}|'''Talarico +3.0%'''
 |-
 |colspan="3" |Average
-|45.9%
+|45.8%
 |{{party shading/Democratic}} |'''49.0%'''
-|5.1%
-|{{party shading/Democratic}} |'''Talarico +3.1%'''
+|5.0%
+|{{party shading/Democratic}} |'''Talarico +3.2%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
