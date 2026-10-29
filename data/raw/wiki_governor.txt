@@ -491,9 +491,9 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{USRaceRating|Lean|R}}
 |October 27, 2026
 |-
-|align=left|''[[Inside Elections]]''<ref>{{Cite web|title=Gubernatorial Ratings|url=https://insideelections.com/ratings/governor|access-date=October 28, 2026|website=[[Inside Elections]]}}</ref>
-|{{USRaceRating|Lean|R}}
-|October 15, 2026
+|align=left|''[[Inside Elections]]''<ref>{{Cite web|title=Gubernatorial Ratings|url=https://insideelections.com/ratings/governor|access-date=October 29, 2026|website=[[Inside Elections]]}}</ref>
+|{{USRaceRating|Tilt|R}}
+|October 29, 2026
 |-
 |align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#governor-section |work=[[NBC News]] |access-date=October 28, 2026}}</ref>
 |{{USRaceRating|Lean|R}}

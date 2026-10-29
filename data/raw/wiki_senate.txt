@@ -2777,9 +2777,9 @@ The election is taking place amidst a broader push by the Trump administration t
 |{{USRaceRating|Tossup}}
 |October 27, 2026
 |-
-|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=October 28, 2026 |website=[[Inside Elections]]}}</ref>
-|{{USRaceRating|Tossup}}
-|October 15, 2026
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=October 29, 2026 |website=[[Inside Elections]]}}</ref>
+|{{USRaceRating|Tilt|D|Flip}}
+|October 29, 2026
 |-
 |align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 12, 2026 |access-date=October 28, 2026}}</ref>
 |{{USRaceRating|Tossup}}
