@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-29T13:51:01+00:00",
+ "fetched": "2026-10-29T14:51:17+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 462860,
@@ -10,7 +10,7 @@
    "source": "Tarrant County daily early-vote report"
   },
   "Harris": {
-   "in_person": 820979,
+   "in_person": 820978,
    "mail": 41681,
    "through": "10/28/2026",
    "last_day": 78747,
