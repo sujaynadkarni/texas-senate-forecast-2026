@@ -588,51 +588,51 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! style="width:100px;" |Other/<br />Undecided{{Efn|Calculated by taking the difference of 100% and all other candidates combined.}}
 ! Margin
 |-
-|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Governor|url=https://www.270towin.com/2026-governor-polls/texas|website=[[270toWin]]|access-date=October 27, 2026}}</ref>
-|October 1–27, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*. Dates listed here should be dates *administered*-->
-|October 29, 2026
-|{{party shading/Republican}} |'''49.3%'''
+|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Governor|url=https://www.270towin.com/2026-governor-polls/texas|website=[[270toWin]]|access-date=October 30, 2026}}</ref>
+|October 1–28, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*. Dates listed here should be dates *administered*-->
+|October 30, 2026
+|{{party shading/Republican}} |'''49.9%'''
 |46.7%
-|4.0%
-|{{party shading/Republican}} |'''Abbott +2.6%'''
+|3.4%
+|{{party shading/Republican}} |'''Abbott +3.2%'''
 |-
-|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas Governor|url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-governor-general-election/polling |access-date=October 27, 2026 |website=[[Decision Desk HQ]]}}</ref>
-|through October 27, 2026
-|October 29, 2026
-|{{party shading/Republican}} |'''48.6%'''
-|46.9%
-|4.5%
-|{{party shading/Republican}} |'''Abbott +1.7%'''
-|-
-|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Governor Election |url=https://fiftyplusone.news/polls/governor/general/texas |website=[[FiftyPlusOne]] |access-date=October 27, 2026}}</ref>
-|through October 27, 2026
-|October 29, 2026
+|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas Governor|url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-governor-general-election/polling |access-date=October 30, 2026 |website=[[Decision Desk HQ]]}}</ref>
+|through October 28, 2026
+|October 30, 2026
 |{{party shading/Republican}} |'''49.1%'''
-|46.8%
-|4.1%
-|{{party shading/Republican}} |'''Abbott +2.3%'''
+|46.9%
+|4.0%
+|{{party shading/Republican}} |'''Abbott +2.2%'''
 |-
-|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 27, 2026 |website=[[RealClearPolitics]]}}</ref>
-|October 5–27, 2026
-|October 29, 2026
+|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Governor Election |url=https://fiftyplusone.news/polls/governor/general/texas |website=[[FiftyPlusOne]] |access-date=October 30, 2026}}</ref>
+|through October 28, 2026
+|October 30, 2026
+|{{party shading/Republican}} |'''49.3%'''
+|46.9%
+|3.8%
+|{{party shading/Republican}} |'''Abbott +2.4%'''
+|-
+|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 30, 2026 |website=[[RealClearPolitics]]}}</ref>
+|October 8–27, 2026
+|October 30, 2026
 |{{party shading/Republican}} |'''49.5%'''
 |46.5%
 |4.0%
 |{{party shading/Republican}} |'''Abbott +3.0%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 20, 2026
+|through October 27, 2026
 |October 29, 2026
-|{{party shading/Republican}} |'''49.5%'''
-|46.7%
-|3.8%
-|{{party shading/Republican}} |'''Abbott +2.8%'''
+|{{party shading/Republican}} |'''49.4%'''
+|46.9%
+|3.7%
+|{{party shading/Republican}} |'''Abbott +2.5%'''
 |-
 |colspan="3" |Average
-|{{party shading/Republican}} |'''49.2%'''
-|46.7%
-|4.1%
-|{{party shading/Republican}} |'''Abbott +2.5%'''
+|{{party shading/Republican}} |'''49.4%'''
+|46.8%
+|3.8%
+|{{party shading/Republican}} |'''Abbott +2.6%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
@@ -646,6 +646,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! style="width:100px"| Pat<br />Dixon (L)
 ! Other
 ! Undecided	
+|-
+|style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
+|October 26–28, 2026
+|1,221 (LV)
+|±{{nbsp}}3.2%
+|{{party shading/Republican}}|'''51%'''
+|46%
+|1%
+|{{sdash}}
+|2%
 |-
 |style="text-align:left"|SSRS<ref>{{cite web |title=CNN poll conducted by SSRS Texas October |url=https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/ |work=[[CNN]] |via=[[DocumentCloud]] |date=October 29, 2026 |access-date=October 29, 2026}}</ref>{{Efn-ua|Poll conducted for [[CNN]]}}
 |October 20–27, 2026
