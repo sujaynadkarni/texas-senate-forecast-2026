@@ -3068,20 +3068,20 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{party shading/Democratic}} |'''Talarico +3.5%'''
 |-
 |[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas US Senate |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/polling |access-date=October 29, 2026 |website=[[Decision Desk HQ]]}}</ref>
-|through October 27, 2026
+|through October 28, 2026
 |October 29, 2026
-|44.6%
-|{{party shading/Democratic}}|'''48.9%'''
-|6.5%
-|{{party shading/Democratic}}|'''Talarico +4.3%'''
+|45.5%
+|{{party shading/Democratic}}|'''49.5%'''
+|5.0%
+|{{party shading/Democratic}}|'''Talarico +4.0%'''
 |-
 |[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Senate Election |url=https://fiftyplusone.news/polls/senate/general/texas |website=[[FiftyPlusOne]] |access-date=October 29, 2026}}</ref>
-|through October 27, 2026
+|through October 28, 2026
 |October 29, 2026
-|46.2%
-|{{party shading/Democratic}} |'''49.4%'''
-|4.4%
-|{{party shading/Democratic}} |'''Talarico +3.2%'''
+|45.8%
+|{{party shading/Democratic}} |'''49.3%'''
+|4.9%
+|{{party shading/Democratic}} |'''Talarico +3.5%'''
 |-
 |[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Senate - Paxton vs. Talarico |url=https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton |access-date=October 29, 2026 |website=[[RealClearPolitics]]}}</ref>
 |October 8–27, 2026
@@ -3091,13 +3091,13 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |4.9%
 |{{party shading/Democratic}}|'''Talarico +2.1%'''
 |-
-|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 23, 2026 |orig-date=August 7, 2026 |access-date=October 29, 2026}}</ref>
+|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 29, 2026 |orig-date=August 7, 2026 |access-date=October 29, 2026}}</ref>
 |through October 27, 2026
 |October 29, 2026
-|45.9%
+|46.1%
 |{{party shading/Democratic}}|'''49.0%'''
-|5.1%
-|{{party shading/Democratic}}|'''Talarico +3.1%'''
+|4.9%
+|{{party shading/Democratic}}|'''Talarico +2.9%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
 |through October 27, 2026
@@ -3108,10 +3108,10 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{party shading/Democratic}}|'''Talarico +3.0%'''
 |-
 |colspan="3" |Average
-|45.8%
-|{{party shading/Democratic}} |'''49.0%'''
-|5.0%
-|{{party shading/Democratic}} |'''Talarico +3.2%'''
+|46.0%
+|{{party shading/Democratic}} |'''49.1%'''
+|4.9%
+|{{party shading/Democratic}} |'''Talarico +3.1%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
