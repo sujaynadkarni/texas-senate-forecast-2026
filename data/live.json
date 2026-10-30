@@ -1,21 +1,21 @@
 {
- "fetched": "2026-10-30T18:02:20+00:00",
+ "fetched": "2026-10-30T18:23:23+00:00",
  "day": 12,
  "date": "2026-10-30",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 12:57 PM",
-   "ballots_to_date": 398149,
+   "refreshed": "Fri Oct 30 01:18 PM",
+   "ballots_to_date": 399485,
    "hourly": [
     2218,
     2615,
     3029,
     3339,
     3613,
-    3599,
-    0,
+    3778,
+    1157,
     0,
     0,
     0,
@@ -23,10 +23,10 @@
     0,
     0
    ],
-   "hours_in": 6,
-   "today": 18413,
+   "hours_in": 7,
+   "today": 19749,
    "completed_hours": 6,
-   "today_completed": 18413,
+   "today_completed": 18592,
    "through": "1 PM",
    "compare": {
     "2022": {
@@ -72,16 +72,16 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 12:58 PM",
-   "ballots_to_date": 170977,
+   "refreshed": "Fri Oct 30 01:19 PM",
+   "ballots_to_date": 171587,
    "hourly": [
     1231,
     1323,
     1626,
     1692,
     1765,
-    1685,
-    0,
+    1724,
+    571,
     0,
     0,
     0,
@@ -89,10 +89,10 @@
     0,
     0
    ],
-   "hours_in": 6,
-   "today": 9322,
+   "hours_in": 7,
+   "today": 9932,
    "completed_hours": 6,
-   "today_completed": 9322,
+   "today_completed": 9361,
    "through": "1 PM",
    "compare": {
     "2024": {
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Fri Oct 30 12:53 PM",
-   "today": 22497,
-   "ballots_to_date": 557687,
+   "refreshed": "Fri Oct 30 1:20 PM",
+   "today": 26130,
+   "ballots_to_date": 561182,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     1071
+     1227
     ],
     [
      "Fretz Park Library",
-     851
+     985
     ],
     [
      "University Park Umc",
-     724
+     840
     ]
    ],
    "hourly": null,
