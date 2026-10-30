@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-30T14:02+00:00",
+  "generated": "2026-10-30T15:03+00:00",
   "mode": "early",
   "poll_avg": 2.9873196115375533,
   "n_polls": 77,
   "markets": {
    "Kalshi": 0.7,
-   "Polymarket": 0.71
+   "Polymarket": 0.715
   },
   "needle": 0.77966,
-  "early_total": 6690471,
+  "early_total": 6698617,
   "counted": {},
   "early_in_person": {
    "Anderson": 8600,
@@ -68,7 +68,7 @@
    "Crosby": 625,
    "Culberson": 675,
    "Dallam": 402,
-   "Dallas": 622308,
+   "Dallas": 625769,
    "Dawson": 1299,
    "Deaf Smith": 1843,
    "Delta": 941,
@@ -180,7 +180,7 @@
    "Mills": 1294,
    "Mitchell": 1012,
    "Montague": 4931,
-   "Montgomery": 164221,
+   "Montgomery": 165914,
    "Moore": 2132,
    "Morris": 2172,
    "Motley": 239,
@@ -237,7 +237,7 @@
    "Throckmorton": 204,
    "Titus": 5177,
    "Tom Green": 20816,
-   "Travis": 384501,
+   "Travis": 387493,
    "Trinity": 3444,
    "Tyler": 3358,
    "Upshur": 8172,
@@ -765,16 +765,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-30T14:02+00:00",
+  "generated": "2026-10-30T15:03+00:00",
   "mode": "early",
   "poll_avg": -2.3863138035560505,
   "n_polls": 65,
   "markets": {
-   "Kalshi": 0.37,
-   "Polymarket": 0.385
+   "Kalshi": 0.38,
+   "Polymarket": 0.39
   },
   "needle": 0.26418,
-  "early_total": 6690471,
+  "early_total": 6698617,
   "counted": {},
   "early_in_person": {
    "Anderson": 8600,
@@ -833,7 +833,7 @@
    "Crosby": 625,
    "Culberson": 675,
    "Dallam": 402,
-   "Dallas": 622308,
+   "Dallas": 625769,
    "Dawson": 1299,
    "Deaf Smith": 1843,
    "Delta": 941,
@@ -945,7 +945,7 @@
    "Mills": 1294,
    "Mitchell": 1012,
    "Montague": 4931,
-   "Montgomery": 164221,
+   "Montgomery": 165914,
    "Moore": 2132,
    "Morris": 2172,
    "Motley": 239,
@@ -1002,7 +1002,7 @@
    "Throckmorton": 204,
    "Titus": 5177,
    "Tom Green": 20816,
-   "Travis": 384501,
+   "Travis": 387493,
    "Trinity": 3444,
    "Tyler": 3358,
    "Upshur": 8172,
