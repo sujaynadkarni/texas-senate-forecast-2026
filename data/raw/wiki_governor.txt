@@ -613,26 +613,26 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{party shading/Republican}} |'''Abbott +2.4%'''
 |-
 |[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 30, 2026 |website=[[RealClearPolitics]]}}</ref>
-|October 8–27, 2026
+|October 8–28, 2026
 |October 30, 2026
-|{{party shading/Republican}} |'''49.5%'''
-|46.5%
-|4.0%
-|{{party shading/Republican}} |'''Abbott +3.0%'''
+|{{party shading/Republican}} |'''50.3%'''
+|46.6%
+|3.1%
+|{{party shading/Republican}} |'''Abbott +3.7%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 27, 2026
-|October 29, 2026
-|{{party shading/Republican}} |'''49.4%'''
-|46.9%
-|3.7%
+|through October 28, 2026
+|October 30, 2026
+|{{party shading/Republican}} |'''49.5%'''
+|47.0%
+|3.5%
 |{{party shading/Republican}} |'''Abbott +2.5%'''
 |-
 |colspan="3" |Average
-|{{party shading/Republican}} |'''49.4%'''
+|{{party shading/Republican}} |'''49.6%'''
 |46.8%
-|3.8%
-|{{party shading/Republican}} |'''Abbott +2.6%'''
+|3.6%
+|{{party shading/Republican}} |'''Abbott +2.8%'''
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
