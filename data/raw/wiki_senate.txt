@@ -3059,9 +3059,9 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 ! style="width:100px;" |Other/<br />Undecided{{Efn|name=calculated}}
 ! Margin
 |-
-|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Senate|url=https://www.270towin.com/2026-senate-polls/texas|website=[[270toWin]]|access-date=October 29, 2026}}</ref>
-|October 17–27, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
-|October 29, 2026
+|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Senate|url=https://www.270towin.com/2026-senate-polls/texas|website=[[270toWin]]|access-date=October 30, 2026}}</ref>
+|October 1–28, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
+|October 30, 2026
 |46.4%
 |{{party shading/Democratic}} |'''49.6%'''
 |4.0%
@@ -3100,12 +3100,12 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{party shading/Democratic}}|'''Talarico +2.9%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 27, 2026
-|October 29, 2026
-|46.0%
-|{{party shading/Democratic}}|'''49.0%'''
-|5.1%
-|{{party shading/Democratic}}|'''Talarico +3.0%'''
+|through October 28, 2026
+|October 30, 2026
+|46.2%
+|{{party shading/Democratic}}|'''49.1%'''
+|4.7%
+|{{party shading/Democratic}}|'''Talarico +2.9%'''
 |-
 |colspan="3" |Average
 |46.2%
