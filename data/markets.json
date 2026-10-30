@@ -1,16 +1,16 @@
 {
- "fetched": "2026-10-30T01:52:11+00:00",
+ "fetched": "2026-10-30T02:52:19+00:00",
  "senate": [
   {
    "source": "Kalshi",
    "d": 0.7,
-   "volume_usd": 51916216,
+   "volume_usd": 52289124,
    "url": "https://kalshi.com/markets/senatetx/texas-senate-race"
   },
   {
    "source": "Polymarket",
    "d": 0.695,
-   "volume_usd": 8332231,
+   "volume_usd": 8338462,
    "url": "https://polymarket.com/event/texas-senate-election-winner"
   }
  ],
@@ -18,13 +18,13 @@
   {
    "source": "Kalshi",
    "d": 0.37,
-   "volume_usd": 10042346,
+   "volume_usd": 10051667,
    "url": "https://kalshi.com/markets/govpartytx/texas-governor"
   },
   {
    "source": "Polymarket",
-   "d": 0.365,
-   "volume_usd": 1405392,
+   "d": 0.385,
+   "volume_usd": 1408947,
    "url": "https://polymarket.com/event/texas-governor-election-winner"
   }
  ]

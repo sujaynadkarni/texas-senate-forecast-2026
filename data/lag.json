@@ -1,6 +1,3 @@
 {
- "behind": [
-  "Denton: county source failed (ValueError: no response from https://www.votedenton.gov/early-voting-election-day-rosters/ after 3 tries (curl exit 22))",
-  "Collin: county source failed (ValueError: no response from https://www.collincountytx.gov/elections/rosters after 3 tries (curl exit 22))"
- ]
+ "behind": []
 }
