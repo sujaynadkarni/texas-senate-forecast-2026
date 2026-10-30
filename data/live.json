@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-30T21:29:00+00:00",
+ "fetched": "2026-10-30T21:53:49+00:00",
  "day": 12,
  "date": "2026-10-30",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 04:23 PM",
-   "ballots_to_date": 411534,
+   "refreshed": "Fri Oct 30 04:50 PM",
+   "ballots_to_date": 413318,
    "hourly": [
     2218,
     2615,
@@ -15,18 +15,18 @@
     3339,
     3613,
     3779,
-    3845,
-    3822,
+    3848,
+    3823,
     4030,
-    1508,
+    3288,
     0,
     0,
     0
    ],
    "hours_in": 10,
-   "today": 31798,
+   "today": 33582,
    "completed_hours": 9,
-   "today_completed": 30290,
+   "today_completed": 30294,
    "through": "4 PM",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 04:25 PM",
-   "ballots_to_date": 177060,
+   "refreshed": "Fri Oct 30 04:51 PM",
+   "ballots_to_date": 177856,
    "hourly": [
     1231,
     1323,
@@ -84,13 +84,13 @@
     1753,
     1731,
     1762,
-    798,
+    1594,
     0,
     0,
     0
    ],
    "hours_in": 10,
-   "today": 15405,
+   "today": 16201,
    "completed_hours": 9,
    "today_completed": 14607,
    "through": "4 PM",
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Fri Oct 30 4:22 PM",
-   "today": 49430,
-   "ballots_to_date": 584532,
+   "refreshed": "Fri Oct 30 4:47 PM",
+   "today": 51507,
+   "ballots_to_date": 586597,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     2172
+     2234
     ],
     [
      "Fretz Park Library",
-     1793
+     1847
     ],
     [
      "University Park Umc",
-     1533
+     1583
     ]
    ],
    "hourly": null,
