@@ -1,33 +1,33 @@
 {
- "fetched": "2026-10-30T22:54:07+00:00",
+ "fetched": "2026-10-30T23:53:53+00:00",
  "day": 12,
  "date": "2026-10-30",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 05:50 PM",
-   "ballots_to_date": 417239,
+   "refreshed": "Fri Oct 30 06:50 PM",
+   "ballots_to_date": 421382,
    "hourly": [
     2218,
     2615,
     3029,
-    3353,
-    3663,
-    3790,
-    3849,
-    3826,
-    4033,
-    3962,
-    3165,
-    0,
+    3380,
+    3700,
+    3856,
+    3931,
+    3887,
+    4079,
+    3982,
+    3764,
+    3205,
     0
    ],
-   "hours_in": 11,
-   "today": 37503,
-   "completed_hours": 10,
-   "today_completed": 34338,
-   "through": "5 PM",
+   "hours_in": 12,
+   "today": 41646,
+   "completed_hours": 11,
+   "today_completed": 38441,
+   "through": "6 PM",
    "compare": {
     "2022": {
      "hourly": [
@@ -45,7 +45,7 @@
       4210,
       4483
      ],
-     "same_hours": 37153,
+     "same_hours": 41489,
      "full_day": 50182
     },
     "2024": {
@@ -64,7 +64,7 @@
       3971,
       4259
      ],
-     "same_hours": 34764,
+     "same_hours": 38900,
      "full_day": 47130
     }
    }
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 05:53 PM",
-   "ballots_to_date": 179829,
+   "refreshed": "Fri Oct 30 06:50 PM",
+   "ballots_to_date": 181602,
    "hourly": [
     1231,
     1323,
@@ -85,15 +85,15 @@
     1731,
     1762,
     1871,
-    1696,
-    0,
+    1912,
+    1557,
     0
    ],
-   "hours_in": 11,
-   "today": 18174,
-   "completed_hours": 10,
-   "today_completed": 16478,
-   "through": "5 PM",
+   "hours_in": 12,
+   "today": 19947,
+   "completed_hours": 11,
+   "today_completed": 18390,
+   "through": "6 PM",
    "compare": {
     "2024": {
      "hourly": [
@@ -111,7 +111,7 @@
       2114,
       603
      ],
-     "same_hours": 18776,
+     "same_hours": 20937,
      "full_day": 23654
     }
    }
@@ -149,22 +149,22 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Fri Oct 30 5:54 PM",
-   "today": 58767,
-   "ballots_to_date": 593871,
+   "refreshed": "Fri Oct 30 6:51 PM",
+   "today": 67816,
+   "ballots_to_date": 602886,
    "sites": 84,
    "busiest": [
     [
      "Oak Lawn Branch Library",
-     2501
+     2857
     ],
     [
      "Fretz Park Library",
-     2067
+     2309
     ],
     [
      "University Park Umc",
-     1740
+     1909
     ]
    ],
    "hourly": null,
