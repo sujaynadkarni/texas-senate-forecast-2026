@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-31T02:54+00:00",
+  "generated": "2026-10-31T03:24+00:00",
   "mode": "early",
-  "poll_avg": 2.9873196115375533,
-  "n_polls": 77,
+  "poll_avg": 3.028705685717581,
+  "n_polls": 78,
   "markets": {
    "Kalshi": 0.71,
    "Polymarket": 0.715
   },
-  "needle": 0.77966,
-  "early_total": 7179640,
+  "needle": 0.78314,
+  "early_total": 7231556,
   "counted": {},
   "early_in_person": {
    "Anderson": 9384,
@@ -26,7 +26,7 @@
    "Baylor": 713,
    "Bee": 4556,
    "Bell": 71309,
-   "Bexar": 451713,
+   "Bexar": 503410,
    "Blanco": 5389,
    "Borden": 191,
    "Bosque": 4123,
@@ -237,7 +237,7 @@
    "Throckmorton": 251,
    "Titus": 5558,
    "Tom Green": 22650,
-   "Travis": 427020,
+   "Travis": 427239,
    "Trinity": 3702,
    "Tyler": 3698,
    "Upshur": 8944,
@@ -281,7 +281,7 @@
    "Baylor": 12,
    "Bee": 12,
    "Bell": 12,
-   "Bexar": 11,
+   "Bexar": 12,
    "Blanco": 12,
    "Borden": 11,
    "Bosque": 12,
@@ -766,16 +766,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-31T02:54+00:00",
+  "generated": "2026-10-31T03:24+00:00",
   "mode": "early",
   "poll_avg": -2.3863138035560505,
   "n_polls": 65,
   "markets": {
    "Kalshi": 0.37,
-   "Polymarket": 0.36
+   "Polymarket": 0.355
   },
   "needle": 0.26418,
-  "early_total": 7179640,
+  "early_total": 7231556,
   "counted": {},
   "early_in_person": {
    "Anderson": 9384,
@@ -792,7 +792,7 @@
    "Baylor": 713,
    "Bee": 4556,
    "Bell": 71309,
-   "Bexar": 451713,
+   "Bexar": 503410,
    "Blanco": 5389,
    "Borden": 191,
    "Bosque": 4123,
@@ -1003,7 +1003,7 @@
    "Throckmorton": 251,
    "Titus": 5558,
    "Tom Green": 22650,
-   "Travis": 427020,
+   "Travis": 427239,
    "Trinity": 3702,
    "Tyler": 3698,
    "Upshur": 8944,
@@ -1047,7 +1047,7 @@
    "Baylor": 12,
    "Bee": 12,
    "Bell": 12,
-   "Bexar": 11,
+   "Bexar": 12,
    "Blanco": 12,
    "Borden": 11,
    "Bosque": 12,

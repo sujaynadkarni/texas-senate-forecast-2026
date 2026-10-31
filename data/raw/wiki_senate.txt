@@ -38,7 +38,7 @@
 
 The '''2026 United States Senate election in Texas''' will be held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]] and [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] are the nominees for their respective parties.
 
-Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton. After no candidate received a majority in the March 3 primary, Paxton, aided by a late endorsement from President [[Donald Trump]], defeated Cornyn with 63.8% of the vote in a [[two-round system|runoff]] on May 26. Cornyn became the first incumbent senator from Texas to lose renomination since Democrat [[Ralph Yarborough]] in [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over congresswoman [[Jasmine Crockett]].
+Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton. After no candidate received a majority in the March 3 primary, Paxton, aided by a late endorsement from President [[Donald Trump]], defeated Cornyn with 63.8% of the vote in a [[two-round system|runoff]] on May 26. Cornyn became the first incumbent senator from Texas to lose renomination since Democrat [[Ralph Yarborough]] in [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
 Democrats have not won a Senate election in Texas since [[1988 United States Senate election in Texas|1988]].
 
@@ -2837,7 +2837,7 @@ The election is taking place amidst a broader push by the Trump administration t
 * [[Monica De La Cruz]], [[Texas's 15th congressional district|TX-15]] (2023–present)<ref name="congressmembers"/>
 * [[Pat Fallon]], [[Texas's 4th congressional district|TX-4]] (2021–present)<ref name="congressmembers"/>
 * [[Craig Goldman]], [[Texas's 12th congressional district|TX-12]] (2025–present)<ref name="congressmembers"/>
-* [[Darrell Issa]], [[California's 48th congressional district|CA-48]] (2021–present, 2001–2019)<ref>{{cite web |last=McLaughlin |first=Aidan |title=On the Bus With Ken Paxton, Careening Toward the Bitter End of Trumpism |url=httpshttps://www.vanityfair.com/story/ken-paxton-campaign-texas-senate-trump |website=[[Vanity Fair]] |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
+* [[Darrell Issa]], [[California's 48th congressional district|CA-48]] (2021–present, 2001–2019)<ref>{{cite web |last=McLaughlin |first=Aidan |title=On the Bus With Ken Paxton, Careening Toward the Bitter End of Trumpism |url=https://www.vanityfair.com/story/ken-paxton-campaign-texas-senate-trump |website=[[Vanity Fair (magazine)|Vanity Fair]] |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
 * [[Nathaniel Moran]], [[Texas's 1st congressional district|TX-1]] (2023–present)<ref name="congressmembers"/>
 * [[August Pfluger]], [[Texas's 11th congressional district|TX-11]] (2021–present)<ref name="congressmembers"/>
 * [[Pete Sessions]], [[Texas's 17th congressional district|TX-17]] (2021–present)<ref name="congressmembers"/>
@@ -3166,6 +3166,16 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |5%{{efn|"Neither" with 5%}}
 |3%
+|-
+|style="text-align:left;"|[[Data for Progress]] (D)<ref>{{cite web |title=Democratic Senate Candidates Lead in Maine, Michigan, and Texas |url=https://www.dataforprogress.org/blog/2026/10/30/democratic-senate-candidates-lead-in-maine-michigan-and-texas |work=[[Data for Progress]] |date=October 30, 2026 |access-date=October 30, 2026}}</ref> 
+|October 23–26, 2026
+|712 (LV)
+|±{{nbsp}}4.0%
+|45%
+|{{Party shading/Democratic}}|'''49%'''
+|2%
+|{{sdash}}
+|4%
 |-
 |style="text-align:left"|[[YouGov|YouGov Blue]] (D)<ref>{{cite web |title=All State-Wide Democratic Candidates Leading New 254 Labs / YouGov Blue Survey Finds |url=https://254labs.io/news/2026-10-tx |website=254 Labs |date=October 28, 2026 |access-date=October 28, 2026}}</ref>{{Efn-ua|name="254L"}}
 |October 21–26, 2026

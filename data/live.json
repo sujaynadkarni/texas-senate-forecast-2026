@@ -1,13 +1,13 @@
 {
- "fetched": "2026-10-31T02:54:00+00:00",
+ "fetched": "2026-10-31T03:24:09+00:00",
  "day": 12,
  "date": "2026-10-30",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 09:50 PM",
-   "ballots_to_date": 427020,
+   "refreshed": "Fri Oct 30 10:22 PM",
+   "ballots_to_date": 427239,
    "hourly": [
     2218,
     2615,
@@ -21,12 +21,12 @@
     4100,
     3890,
     3913,
-    4443
+    4662
    ],
    "hours_in": 13,
-   "today": 47284,
+   "today": 47503,
    "completed_hours": 13,
-   "today_completed": 47284,
+   "today_completed": 47503,
    "through": "close",
    "compare": {
     "2022": {
@@ -72,7 +72,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Fri Oct 30 09:51 PM",
+   "refreshed": "Fri Oct 30 10:23 PM",
    "ballots_to_date": 183340,
    "hourly": [
     1231,
@@ -119,28 +119,28 @@
   "Bexar": {
    "source": "county early-vote dashboard",
    "url": "https://earlyvotecountsdual.bexar.org",
-   "date": "10/29/2026",
+   "date": "10/30/2026",
    "sites": 59,
-   "today": 0,
-   "ballots_to_date": 451713,
+   "today": 51697,
+   "ballots_to_date": 503410,
    "busiest": [
     [
      "Northwest Vista College",
-     1856,
-     16421,
-     18277
+     2292,
+     18277,
+     20569
     ],
     [
      "Encino Branch Library",
-     1537,
-     14092,
-     15629
+     1924,
+     15629,
+     17553
     ],
     [
      "Maverick Branch Library",
-     1404,
-     13583,
-     14987
+     1786,
+     14987,
+     16773
     ]
    ],
    "hourly": null,
