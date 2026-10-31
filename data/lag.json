@@ -1,6 +1,5 @@
 {
  "behind": [
-  "Collin: county source failed (ValueError: no 'Totals by Site Through' report on Collin's page)",
   "Kerr: kept at last published numbers (mail 1,167 < published 1,181)",
   "Runnels: kept at last published numbers (mail 95 < published 96)",
   "Williamson: kept at last published numbers (mail 7,223 < published 7,224)"
