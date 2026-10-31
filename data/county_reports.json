@@ -1,19 +1,19 @@
 {
- "fetched": "2026-10-31T03:24:17+00:00",
+ "fetched": "2026-10-31T04:55:39+00:00",
  "counties": {
   "Tarrant": {
-   "in_person": 509294,
-   "through": "10/29/2026",
-   "last_day": 46434,
-   "posted": "October 29, 2026 8:56:36PM",
+   "in_person": 571950,
+   "through": "10/30/2026",
+   "last_day": 62656,
+   "posted": "October 30, 2026 11:38:05PM",
    "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/ev_reports/Early_Voting_Daily_Totals.pdf",
    "source": "Tarrant County daily early-vote report"
   },
   "Harris": {
-   "in_person": 909959,
-   "mail": 43273,
-   "through": "10/29/2026",
-   "last_day": 88984,
+   "in_person": 1036349,
+   "mail": 44661,
+   "through": "10/30/2026",
+   "last_day": 126397,
    "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf",
    "source": "Harris County Clerk daily early-vote report"
   },
