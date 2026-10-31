@@ -647,6 +647,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Other
 ! Undecided	
 |-
+|style="text-align: left;"|KStrat<ref>{{cite web |title=KStrat Poll: Talarico Leads Paxton by 3 Points, Abbott Leads Hinojosa by 2 Points in Texas General Election Survey |url=https://kstrat.net/press/texas-2026-senate-governor-talarico-leads-paxton-october |website=KStrat |date=October 30, 2026 |access-date=October 31, 2026}}</ref>
+|October 27–30, 2026
+|900 (LV)
+|±{{nbsp}}3.3%
+|{{party shading/Republican}}|'''49%'''
+|47%
+|1%
+|1%{{efn|"Another candidate or write-in" with 1%}}
+|3%
+|-
 |style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
 |October 26–28, 2026
 |1,221 (LV)

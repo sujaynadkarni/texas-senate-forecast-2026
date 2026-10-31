@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-10-31T11:54+00:00",
+  "generated": "2026-10-31T14:24+00:00",
   "mode": "early",
-  "poll_avg": 3.028705685717603,
-  "n_polls": 78,
+  "poll_avg": 3.042380882653717,
+  "n_polls": 79,
   "markets": {
    "Kalshi": 0.71,
    "Polymarket": 0.715
   },
-  "needle": 0.78314,
-  "early_total": 7423359,
+  "needle": 0.7842,
+  "early_total": 7502490,
   "counted": {},
   "early_in_person": {
    "Anderson": 9384,
@@ -57,7 +57,7 @@
    "Collin": 374250,
    "Collingsworth": 595,
    "Colorado": 5495,
-   "Comal": 60313,
+   "Comal": 66820,
    "Comanche": 3060,
    "Concho": 425,
    "Cooke": 9079,
@@ -68,7 +68,7 @@
    "Crosby": 752,
    "Culberson": 740,
    "Dallam": 457,
-   "Dallas": 691238,
+   "Dallas": 763862,
    "Dawson": 1468,
    "Deaf Smith": 2034,
    "Delta": 1035,
@@ -324,7 +324,7 @@
    "Crosby": 12,
    "Culberson": 12,
    "Dallam": 12,
-   "Dallas": 12,
+   "Dallas": 13,
    "Dawson": 12,
    "Deaf Smith": 12,
    "Delta": 12,
@@ -771,16 +771,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-10-31T11:54+00:00",
+  "generated": "2026-10-31T14:24+00:00",
   "mode": "early",
-  "poll_avg": -2.3863138035560616,
-  "n_polls": 65,
+  "poll_avg": -2.3595516261325944,
+  "n_polls": 66,
   "markets": {
-   "Kalshi": 0.34,
-   "Polymarket": 0.355
+   "Kalshi": 0.31,
+   "Polymarket": 0.325
   },
-  "needle": 0.26418,
-  "early_total": 7423359,
+  "needle": 0.26646,
+  "early_total": 7502490,
   "counted": {},
   "early_in_person": {
    "Anderson": 9384,
@@ -828,7 +828,7 @@
    "Collin": 374250,
    "Collingsworth": 595,
    "Colorado": 5495,
-   "Comal": 60313,
+   "Comal": 66820,
    "Comanche": 3060,
    "Concho": 425,
    "Cooke": 9079,
@@ -839,7 +839,7 @@
    "Crosby": 752,
    "Culberson": 740,
    "Dallam": 457,
-   "Dallas": 691238,
+   "Dallas": 763862,
    "Dawson": 1468,
    "Deaf Smith": 2034,
    "Delta": 1035,
@@ -1095,7 +1095,7 @@
    "Crosby": 12,
    "Culberson": 12,
    "Dallam": 12,
-   "Dallas": 12,
+   "Dallas": 13,
    "Dawson": 12,
    "Deaf Smith": 12,
    "Delta": 12,

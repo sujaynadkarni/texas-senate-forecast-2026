@@ -1,12 +1,12 @@
 {
- "fetched": "2026-10-31T11:54:21+00:00",
+ "fetched": "2026-10-31T14:24:40+00:00",
  "day": 13,
  "date": "2026-10-31",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 31 06:49 AM",
+   "refreshed": "Sat Oct 31 09:21 AM",
    "ballots_to_date": 427452,
    "hourly": [
     0,
@@ -33,7 +33,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Sat Oct 31 06:50 AM",
+   "refreshed": "Sat Oct 31 09:21 AM",
    "ballots_to_date": 183340,
    "hourly": [],
    "hours_in": 0,
@@ -77,7 +77,7 @@
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
    "refreshed": "Fri Oct 30 7:37 PM",
-   "today": 0,
+   "today": 72624,
    "ballots_to_date": 607618,
    "sites": 84,
    "busiest": [
@@ -95,8 +95,7 @@
     ]
    ],
    "hourly": null,
-   "compare": {},
-   "note": "polls not open yet; count is from the previous day"
+   "compare": {}
   }
  },
  "note": "outside early voting"
