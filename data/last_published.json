@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-01T02:22+00:00",
+  "generated": "2026-11-01T02:23+00:00",
   "mode": "early",
   "poll_avg": 3.042380882653717,
   "n_polls": 79,
@@ -766,10 +766,10 @@
    "Zapata": 35,
    "Zavala": 10
   },
-  "expected_turnout": 10135782.280166814
+  "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-01T02:22+00:00",
+  "generated": "2026-11-01T02:23+00:00",
   "mode": "early",
   "poll_avg": -2.3108952359518486,
   "n_polls": 67,
@@ -1535,6 +1535,6 @@
    "Zapata": 35,
    "Zavala": 10
   },
-  "expected_turnout": 10135782.280166814
+  "expected_turnout": 10135782.280166816
  }
 }
