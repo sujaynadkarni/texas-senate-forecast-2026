@@ -38,7 +38,7 @@
 
 The '''2026 United States Senate election in Texas''' will be held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]] and [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] are the nominees for their respective parties.
 
-Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, which led to no candidates receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over U.S. representative [[Jasmine Crockett]].
+Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, which led to no candidates receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
 Democrats have not won a Senate election in Texas since [[1988 United States Senate election in Texas|1988]]. The race is considered to be one of the most expensive non-presidential electoral races in American history, with spending by both parties surpassing half a billion dollars.
 
@@ -404,7 +404,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |8%{{efn|Anna Bender with 3%; Sara Canady and Gulrez Khan 2%; John Adefope with 1%; Virgil Bierschwale with 0%}}
 |{{sdash}}
 |-
-|style="text-align:left;"|Quantus Insights<ref>{{Cite web|url=https://quantusinsights.org/f/latest-poll-paxton-leads-in-texas-2026-republican-senate-primary#ddfaccf9-bede-412a-8ce9-6f9ddda07554|title=Latest Poll: Paxton Leads in Texas 2026 Republican Senate Primary|website=Quantus Insights|date=February 27, 2026|access-date=February 27, 2026}}</ref>
+|style="text-align:left;"|Quantus Insights (R)<ref>{{Cite web|url=https://quantusinsights.org/f/latest-poll-paxton-leads-in-texas-2026-republican-senate-primary#ddfaccf9-bede-412a-8ce9-6f9ddda07554|title=Latest Poll: Paxton Leads in Texas 2026 Republican Senate Primary|website=Quantus Insights|date=February 27, 2026|access-date=February 27, 2026}}</ref>
 |February 25–26, 2026
 |939 (LV)
 |±{{nbsp}}3.1%
@@ -1236,7 +1236,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 ! Other
 ! Undecided
 |-
-| style="text-align:left;" |Quantus Insights<ref>{{cite web |title=Quantus Survey: Paxton Holds Edge on Eve of Texas GOP Runoff |url=https://quantusinsights.org/f/quantus-survey-paxton-holds-edge-on-eve-of-texas-gop-runoff |website=Quantus Insights |date=May 25, 2026 |access-date=May 25, 2026}}</ref>
+| style="text-align:left;" |Quantus Insights (R)<ref>{{cite web |title=Quantus Survey: Paxton Holds Edge on Eve of Texas GOP Runoff |url=https://quantusinsights.org/f/quantus-survey-paxton-holds-edge-on-eve-of-texas-gop-runoff |website=Quantus Insights |date=May 25, 2026 |access-date=May 25, 2026}}</ref>
 |May 21–23, 2026
 |1,018 (LV)
 |±{{nbsp}}3.5%
@@ -1320,7 +1320,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |{{sdash}}
 |11%
 |-
-| style="text-align:left;" |Quantus Insights<ref>{{cite web|url=https://quantusinsights.org/f/latest-poll-texas-runoff-takes-shape|title=Latest Poll: Texas Runoff Takes Shape|website=Quantus Insights|date=March 24, 2026|access-date=March 24, 2026}}</ref>
+| style="text-align:left;" |Quantus Insights (R)<ref>{{cite web|url=https://quantusinsights.org/f/latest-poll-texas-runoff-takes-shape|title=Latest Poll: Texas Runoff Takes Shape|website=Quantus Insights|date=March 24, 2026|access-date=March 24, 2026}}</ref>
 |March 21–23, 2026
 |1,218 (LV)
 |±{{nbsp}}2.8%
@@ -2749,61 +2749,61 @@ The election is taking place amidst a broader push by the Trump administration t
 !Ranking
 !As of
 |-
-|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=October 26, 2026 |access-date=October 28, 2026}}</ref>
+|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=October 26, 2026 |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 26, 2026
 |-
-|align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |date=October 17, 2026 |access-date=October 28, 2026}}</ref>
+|align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 17, 2026
+|October 30, 2026
 |-
-|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=October 28, 2026|website=[[Cook Political Report]]}}</ref>
+|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 1, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
-|October 20, 2026
+|October 30, 2026
 |-
-|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=October 28, 2026}}</ref>
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 28, 2026
+|October 31, 2026
 |-
-|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=October 28, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 1, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
 |{{USRaceRating|Tossup}}
-|October 28, 2026
+|November 1, 2026
 |-
-|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=October 29, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 1, 2026 |website=[[FiftyPlusOne]]}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|October 29, 2026
+|October 31, 2026
 |-
-|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: As Iran looms large, can the GOP keep the faithful? |url=https://www.foxnews.com/politics/fox-news-power-rankings-iran-looms-large-can-gop-keep-faithful |work=[[Fox News]] |date=October 27, 2026 |access-date=October 28, 2026}}</ref>
+|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 27, 2026
+|November 1, 2026
 |-
-|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=October 29, 2026 |website=[[Inside Elections]]}}</ref>
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 1, 2026 |website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Tilt|D|Flip}}
 |October 29, 2026
 |-
-|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 12, 2026 |access-date=October 28, 2026}}</ref>
+|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 1, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 12, 2026
+|October 29, 2026
 |-
-|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=October 28, 2026}}</ref>
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 28, 2026
+|November 1, 2026
 |-
-|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=October 28, 2026|website=[[RealClearPolitics]]}}</ref>
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 1, 2026|website=[[RealClearPolitics]]}}</ref>
 |{{USRaceRating|Tossup}}
-|October 28, 2026
+|October 31, 2026
 |-
-|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=October 28, 2026}}</ref>
+|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 27, 2026
+|October 29, 2026
 |-
-|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=October 28, 2026 |orig-date=August 11, 2026 |access-date=October 28, 2026 |url-access=subscription}}</ref>
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=October 31, 2026 |orig-date=August 11, 2026 |access-date=November 1, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|October 28, 2026
+|October 31, 2026
 |-
-|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=October 28, 2026}}</ref>
+|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|October 27, 2026
+|October 31, 2026
 |}
 
 === Post-primary endorsements ===
@@ -3139,7 +3139,17 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |0%
 |6%
 |-
-|style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
+|style="text-align:left;|[[YouGov]]<ref>{{cite web|title=Texas General Election 2026 – Likely Voters|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf |website=[[YouGov]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|October 26–29, 2026
+|2,141 (LV)
+|±&nbsp;2.9%
+|47%
+|{{party shading/Democratic}} |'''51%'''
+|1%
+|{{sdash}}
+|1%
+|-
+|style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
 |October 26–28, 2026
 |1,221 (LV)
 |±{{nbsp}}3.2%
@@ -3382,7 +3392,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |4%
 |-
-| style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas U.S. Senate Survey |url=https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view |work=Quantus Insights |access-date=October 13, 2026}}</ref>
+| style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas U.S. Senate Survey |url=https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view |work=Quantus Insights |access-date=October 13, 2026}}</ref>
 |October 9–11, 2026
 |854 (LV)
 |±&nbsp;3.6%
@@ -3803,7 +3813,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |3%{{Efn|"Someone else" with 3%}}
 |10%
 |-
-| style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas Republicans Lead Statewide, Senate Race Starts Close |url=https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close |website=Quantus Insights |access-date=June 5, 2026}}</ref>
+| style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Republicans Lead Statewide, Senate Race Starts Close |url=https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close |website=Quantus Insights |access-date=June 5, 2026}}</ref>
 |June 3–4, 2026
 |800 (LV)
 |±&nbsp;3.5%

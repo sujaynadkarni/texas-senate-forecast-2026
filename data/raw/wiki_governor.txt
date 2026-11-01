@@ -657,6 +657,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |1%{{efn|"Another candidate or write-in" with 1%}}
 |3%
 |-
+|style="text-align:left;|[[YouGov]]<ref>{{cite web|title=Texas General Election 2026 – Likely Voters|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf |website=[[YouGov]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|October 26–29, 2026
+|2,141 (LV)
+|±&nbsp;2.9%
+|{{party shading/Republican}} |'''50%'''
+|49%
+|{{sdash}}
+|1%
+|0%
+|-
 |style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
 |October 26–28, 2026
 |1,221 (LV)
