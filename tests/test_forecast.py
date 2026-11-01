@@ -216,11 +216,14 @@ class EarlyVote(unittest.TestCase):
         EVm.load_reports, EVm.load_live, EVm.load_floor = (lambda: {}), (lambda: None), (lambda: {})
         EVm.load_published = lambda: dict(in_person={}, mail={}, through={})
         EVm.load_live_days = lambda: {}
+        cls._real_vd = EVm.load_vote_dates
+        EVm.load_vote_dates = lambda: {}
 
     @classmethod
     def tearDownClass(cls):
         (cls.EVm.load_reports, cls.EVm.load_live, cls.EVm.load_floor, cls.EVm.load_published,
          cls.EVm.load_live_days) = cls._real
+        cls.EVm.load_vote_dates = cls._real_vd
 
     def day_counts(self, day, factor):
         """2022's real day-`day` county numbers, scaled to 2026 registration (times factor)."""
@@ -310,6 +313,35 @@ class EarlyVote(unittest.TestCase):
             self.EVm.load_published = real
         self.assertEqual(x["in_person"], 4921)
         self.assertIn("published", x["held"])
+
+    def test_county_running_total_is_authoritative(self):
+        # Oct. 27: rebuilding Dallas from saved live days double-counted 84,000 votes; Dallas's own running total
+        # (445,395) is the number to use
+        one = np.ones(len(self.c))
+        day3 = self.day_counts(3, one)
+        live = {"date": "2026-10-21", "fetched": "2026-10-21T23:00:00+00:00",
+                "counties": {"Dallas": {"today": 20000, "ballots_to_date": 123456, "refreshed": "Wed Oct 21 6:00 PM"}}}
+        real = (self.EVm.load_live, self.EVm.load_live_days)
+        self.EVm.load_live = lambda: live
+        self.EVm.load_live_days = lambda: {"Dallas": {"2026-10-19": 90000, "2026-10-20": 90000}}
+        try:
+            x = self.analyze_with(day3, one)["counties"]["Dallas"]
+        finally:
+            self.EVm.load_live, self.EVm.load_live_days = real
+        if x["live"]:
+            self.assertEqual(x["in_person"], 123456)
+
+    def test_latest_day_from_lists_by_voting_date(self):
+        # the state's file is dated a day after the votes it holds; the voter lists by voting date decide the day
+        one = np.ones(len(self.c))
+        d2 = self.day_counts(2, one)["Williamson"]
+        real = self.EVm.load_vote_dates
+        self.EVm.load_vote_dates = lambda: {"Williamson": {"10/19/2026": 9000, "10/20/2026": 9000, "10/21/2026": 3}}
+        try:
+            x = self.analyze_with(self.day_counts(3, one), one)["counties"]["Williamson"]
+        finally:
+            self.EVm.load_vote_dates = real
+        self.assertEqual(x["through_day"], 2)
 
     def test_live_day_survives_tracker_reset(self):
         # Oct. 22: Dallas's tracker reset for day 4 before the state posted day 3. Day 3's saved live count must
@@ -686,7 +718,9 @@ class LiveCounties(unittest.TestCase):
     def test_county_by_day_adds_up(self):
         # each county's days add up to its latest totals, and only counts are stored
         days = json.load(open("data/primary_days.json"))
-        last = days[max(days, key=lambda d: datetime.strptime(d, "%m/%d/%Y"))]
+        last = {}
+        for d in sorted(days, key=lambda d: datetime.strptime(d, "%m/%d/%Y")):
+            last.update(days[d])                          # a county left out one morning keeps its earlier totals
         B = json.load(open("site/data_senate.json"))["early"]["primary"]["by_day"]
         self.assertEqual(len(B["days"]), len(days))
         for name, rows in B["counties"].items():

@@ -145,6 +145,12 @@ def fetch_live():
     for name, rec in out["counties"].items():
         if rec.get("today") and not rec.get("error"):
             day = days.setdefault(name, {})
+            prev = [v for d, v in sorted(day.items()) if d < out["date"]]
+            if prev and int(rec["today"]) == prev[-1] and out["date"] not in day:
+                # the same count as yesterday's final: the feed hasn't reset for today yet (Dallas showed Saturday's
+                # 36,269 on Sunday morning, when polls opened at noon). Not today's count.
+                rec["today"], rec["note"] = 0, "count is still yesterday's; not saved"
+                continue
             day[out["date"]] = max(day.get(out["date"], 0), int(rec["today"]))
     json.dump(days, open("data/live_days.json", "w"), indent=1, sort_keys=True)
     ok = [k for k, v in out["counties"].items() if "error" not in v]

@@ -22,10 +22,11 @@ from urllib.request import Request, urlopen
 
 SOS = "https://goelect.txelections.civixapps.com/api-ivis-system/api/v1"
 GENERAL, DEM_PRIMARY, REP_PRIMARY = 53815, 53814, 53813
-WORKERS = 8
+WORKERS = 6
 
 
-def get_json(url, tries=4):
+def get_json(url, tries=6):
+    # the state's server sometimes answers 503 under load (Oct. 27); back off and retry before giving up
     for i in range(tries):
         try:
             raw = urlopen(Request(url, headers={"User-Agent": "texas-forecast"}), timeout=90).read()
@@ -33,7 +34,7 @@ def get_json(url, tries=4):
         except Exception:
             if i == tries - 1:
                 raise
-            time.sleep(2 * (i + 1))
+            time.sleep(min(60, 3 * 2 ** i))
 
 
 def elections():
@@ -59,13 +60,29 @@ def voter_ids(election_id, date, county, county_id):
     return {r[col].strip() for r in rows[1:] if len(r) > col and r[col].strip()}
 
 
-def collect(election, dates, counties):
+FAILED = set()
+
+
+def safe_ids(election_id, date, county, county_id):
+    try:
+        return voter_ids(election_id, date, county, county_id)
+    except Exception as e:
+        print(f"  {county} {date}: {type(e).__name__} {e} (county left out today)", file=sys.stderr)
+        return None
+
+
+def collect(election, dates, counties, per_date=None):
     """{county_name: set of voter IDs} over the given days."""
     jobs = [(c["name"], c["county_id"], d) for c in counties for d in dates]
     out = {c["name"]: set() for c in counties}
     with ThreadPoolExecutor(WORKERS) as ex:
-        for (name, _, _), ids in zip(jobs, ex.map(lambda j: voter_ids(election, j[2], j[0], j[1]), jobs)):
+        for (name, _, d), ids in zip(jobs, ex.map(lambda j: safe_ids(election, j[2], j[0], j[1]), jobs)):
+            if ids is None:                      # still failing after retries: this county is incomplete today
+                FAILED.add(title(name))
+                continue
             out[name] |= ids
+            if per_date is not None:
+                per_date.setdefault(title(name), {})[d] = len(ids)
     return out
 
 
@@ -96,7 +113,8 @@ def main(limit=None):
     today = datetime.now(timezone.utc).date()
     gen_dates = [d["date"] for d in gen["early_voting_dates"] if datetime.strptime(d["date"], "%m/%d/%Y").date() <= today]
     t0 = time.time()
-    voted = collect(GENERAL, gen_dates, counties)
+    per_date = {}
+    voted = collect(GENERAL, gen_dates, counties, per_date)
     dem = collect(DEM_PRIMARY, [d["date"] for d in E[DEM_PRIMARY]["early_voting_dates"]], counties)
     rep = collect(REP_PRIMARY, [d["date"] for d in E[REP_PRIMARY]["early_voting_dates"]], counties)
     # A voter can vote early in one county's primary and move; match statewide, not just within the county.
@@ -115,13 +133,20 @@ def main(limit=None):
                                       dem_primary=len(dem[c["name"]]), dem_primary_voted=len(dem[c["name"]] & all_voted),
                                       rep_primary=len(rep[c["name"]]), rep_primary_voted=len(rep[c["name"]] & all_voted))
     del dem, rep, all_voted
+    for name in FAILED:
+        rows.pop(name, None)
+        per_date.pop(name, None)
     tot = {k: sum(x[k] for x in rows.values()) for k in ("voters", "dem", "rep", "both", "none", "dem_primary",
                                                            "dem_primary_voted", "rep_primary", "rep_primary_voted")}
     out = dict(fetched=datetime.now(timezone.utc).isoformat(timespec="seconds"), through=gen_dates[-1] if gen_dates else None,
+               failed=sorted(FAILED),
                primary_early_voters=dict(dem=len(all_dem), rep=len(all_rep)), total=tot, counties=rows)
     if not limit:
         json.dump(out, open("data/primary_layer.json", "w"), separators=(",", ":"))
         save_day(out)
+        # early voters per county by the date they voted (counts only): tells the site which day a county's numbers
+        # really run through; the state's turnout file is dated a day after the votes it holds
+        json.dump(dict(fetched=out["fetched"], counties=per_date), open("data/vote_dates.json", "w"), separators=(",", ":"))
     print(f"primary layer: {tot['voters']:,} early voters through {out['through']}, {time.time() - t0:.0f}s; "
           f"D-primary {tot['dem']:,} R-primary {tot['rep']:,} both {tot['both']:,} none {tot['none']:,}; "
           f"D-primary voters voted {tot['dem_primary_voted'] / max(tot['dem_primary'], 1):.1%}, "

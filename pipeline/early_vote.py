@@ -63,6 +63,14 @@ def load_live_days():
         return {}
 
 
+def load_vote_dates():
+    """Early voters per county by the date they voted, from the morning download: {county: {"MM/DD/YYYY": n}}."""
+    try:
+        return json.load(open("data/vote_dates.json"))["counties"]
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
 def load_published():
     """What the site last published for each county: {"in_person": {...}, "mail": {...}, "through": {...}}."""
     try:
@@ -143,9 +151,10 @@ def primary_by_day():
     prev = {}
     for d in order:
         for n in names:
-            cur, p = days[d].get(n, [0, 0, 0]), prev.get(n, [0, 0, 0])
+            p = prev.get(n, [0, 0, 0])
+            cur = days[d].get(n, p)          # a county left out that morning (download failed) carries forward
             out[n].append([max(0, cur[k] - p[k]) for k in range(3)])
-        prev = days[d]
+        prev = {n: days[d].get(n, prev.get(n, [0, 0, 0])) for n in names}
     return dict(days=order, counties=out, groups={n: g for g, ns in KEY_COUNTIES.items() for n in ns})
 
 
@@ -270,7 +279,9 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                 saved = live_days.get(name, {})
                 extra = sum(v for d, v in saved.items()
                             if off_day < day_number(datetime.strptime(d, "%Y-%m-%d").date()) < ln)
-                total = max(off + extra + rec["today"], rec.get("ballots_to_date") or 0)
+                # A county's own running total is authoritative when its tracker publishes one (Dallas, Travis,
+                # Montgomery, Bexar). Rebuilding it from saved days double-counted Dallas by 84,000 (Oct. 27).
+                total = rec["ballots_to_date"] if rec.get("ballots_to_date") else off + extra + rec["today"]
                 if total <= float(c.loc[m, "in26"].iloc[0]):
                     continue                             # the official count is already ahead of the live one
                 c.loc[m, "in26"] = total
@@ -344,6 +355,23 @@ def analyze(c, mail_skew, mail_default, ev_skew, share_col="exp_share", names=("
                 grew = (cum - seen > 0) & (cum - seen >= 0.25 * t22_on)
                 k = k.where(~grew, dn)
             seen = np.maximum(seen, cum)
+        # Counties that report only through the state: the state's file is dated a day after the votes it holds,
+        # so take the latest day from the voter lists by the date people voted (Oct. 27: nine key counties were
+        # labeled day 9 while their numbers ran through day 8).
+        vd = load_vote_dates()
+        for j, (name, key) in enumerate(zip(c.county, c.key)):
+            days_n = vd.get(name)
+            if not days_n:
+                continue
+            kk = 0
+            for dstr, cnt in days_n.items():
+                dn = day_number(datetime.strptime(dstr, "%m/%d/%Y").date())
+                if 1 <= dn <= n and dn in t22d:
+                    full22 = t22d[dn].today_in_person.get(key, 0) * scale22[j]
+                    if cnt > 0 and cnt >= 0.25 * full22:
+                        kk = max(kk, dn)
+            if kk:
+                k.iloc[j] = min(k.iloc[j], kk) if k.iloc[j] else kk
         for name, rec in reports.items():                        # county reports say which day they run through
             m = (c.county == name) & c.report
             if m.any() and rec.get("through"):
