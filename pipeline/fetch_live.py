@@ -93,7 +93,7 @@ def fetch_live():
     day_n = (today - EV_START[2026]).days + 1
     out = {"fetched": NOW, "day": day_n, "date": today.isoformat(), "counties": {}}
     if not 1 <= day_n <= 12:
-        out["note"] = "outside early voting"
+        out["note"] = "outside early voting"     # no live "today" counts outside the 12 days (Oct. 31: Dallas's map still showed Oct. 30)
     for county, slug in ELECTIONLINK.items():
         try:
             summ = parse_summary(get(EL.format(slug=slug, election=ELECTIONS[2026], page="BallotTypeTurnout.html")))
@@ -130,6 +130,10 @@ def fetch_live():
                                          hourly=None, compare={})
     except Exception as e:
         out["counties"]["Dallas"] = dict(error=f"{type(e).__name__}: {e}")
+    if out.get("note") == "outside early voting":
+        for rec in out["counties"].values():
+            if rec.get("today"):
+                rec["today"] = 0
     # Polls open at 7 a.m. Before that, any "today" count is yesterday's still sitting in the county's feed
     # (Dallas showed 61,266 at 6:30 a.m. on Oct. 21, day 2's total), so it must not be counted as today's.
     if datetime.now(TX).hour < 7:

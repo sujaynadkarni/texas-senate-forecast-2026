@@ -89,7 +89,8 @@ def load_reports():
 
 
 def day_number(d):
-    return max(0, (d - EV_START[2026]).days + 1)
+    # early voting runs 12 days (Oct. 19-30); after that the numbers stay "through day 12"
+    return min(EV_DAYS, max(0, (d - EV_START[2026]).days + 1))
 
 
 def turnout_groups(c):
