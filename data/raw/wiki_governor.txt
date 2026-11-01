@@ -588,31 +588,31 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! style="width:100px;" |Other/<br />Undecided{{Efn|Calculated by taking the difference of 100% and all other candidates combined.}}
 ! Margin
 |-
-|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Governor|url=https://www.270towin.com/2026-governor-polls/texas|website=[[270toWin]]|access-date=October 30, 2026}}</ref>
-|October 1–28, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*. Dates listed here should be dates *administered*-->
-|October 30, 2026
-|{{party shading/Republican}} |'''49.9%'''
-|46.7%
-|3.4%
-|{{party shading/Republican}} |'''Abbott +3.2%'''
+|[[270toWin]]<ref name="270toWin">{{cite web|title=2026 Polls: Texas Governor|url=https://www.270towin.com/2026-governor-polls/texas|website=[[270toWin]]|access-date=October 31, 2026}}</ref>
+|October 1–30, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*. Dates listed here should be dates *administered*-->
+|October 31, 2026
+|{{party shading/Republican}} |'''49.6%'''
+|46.8%
+|3.6%
+|{{party shading/Republican}} |'''Abbott +2.8%'''
 |-
-|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas Governor|url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-governor-general-election/polling |access-date=October 30, 2026 |website=[[Decision Desk HQ]]}}</ref>
-|through October 28, 2026
-|October 30, 2026
-|{{party shading/Republican}} |'''49.1%'''
-|46.9%
-|4.0%
+|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas Governor|url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-governor-general-election/polling |access-date=October 31, 2026 |website=[[Decision Desk HQ]]}}</ref>
+|through October 30, 2026
+|October 31, 2026
+|{{party shading/Republican}} |'''49.3%'''
+|46.8%
+|3.9%
+|{{party shading/Republican}} |'''Abbott +2.5%'''
+|-
+|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Governor Election |url=https://fiftyplusone.news/polls/governor/general/texas |website=[[FiftyPlusOne]] |access-date=October 31, 2026}}</ref>
+|through October 30, 2026
+|October 31, 2026
+|{{party shading/Republican}} |'''49.2%'''
+|47.0%
+|3.8%
 |{{party shading/Republican}} |'''Abbott +2.2%'''
 |-
-|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Governor Election |url=https://fiftyplusone.news/polls/governor/general/texas |website=[[FiftyPlusOne]] |access-date=October 30, 2026}}</ref>
-|through October 28, 2026
-|October 30, 2026
-|{{party shading/Republican}} |'''49.3%'''
-|46.9%
-|3.8%
-|{{party shading/Republican}} |'''Abbott +2.4%'''
-|-
-|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 30, 2026 |website=[[RealClearPolitics]]}}</ref>
+|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 31, 2026 |website=[[RealClearPolitics]]}}</ref>
 |October 8–28, 2026
 |October 30, 2026
 |{{party shading/Republican}} |'''50.3%'''
@@ -621,8 +621,8 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{party shading/Republican}} |'''Abbott +3.7%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
-|through October 28, 2026
-|October 30, 2026
+|through October 20, 2026
+|October 31, 2026
 |{{party shading/Republican}} |'''49.5%'''
 |47.0%
 |3.5%
@@ -647,7 +647,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Other
 ! Undecided	
 |-
-|style="text-align: left;"|KStrat<ref>{{cite web |title=KStrat Poll: Talarico Leads Paxton by 3 Points, Abbott Leads Hinojosa by 2 Points in Texas General Election Survey |url=https://kstrat.net/press/texas-2026-senate-governor-talarico-leads-paxton-october |website=KStrat |date=October 30, 2026 |access-date=October 31, 2026}}</ref>
+|style="text-align: left;"|Kreate Strategies<ref>{{cite web |title=KStrat Poll: Talarico Leads Paxton by 3 Points, Abbott Leads Hinojosa by 2 Points in Texas General Election Survey |url=https://kstrat.net/press/texas-2026-senate-governor-talarico-leads-paxton-october |website=KStrat |date=October 30, 2026 |access-date=October 31, 2026}}</ref>
 |October 27–30, 2026
 |900 (LV)
 |±{{nbsp}}3.3%
