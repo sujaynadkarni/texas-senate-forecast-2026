@@ -650,6 +650,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! Other
 ! Undecided	
 |-
+|style="text-align:left;"|Research Co.<ref>{{cite web |last1=Canseco |first1=Mario |title=Florida Stays Red, Texas Could See Senate Swing in U.S. Election |url=https://researchco.ca/2026/11/02/midterms-2026-two/ |website=Research Co. |date=November 2, 2026}}</ref>
+|October 31 – November 2, 2026
+|450 (LV)
+|±{{nbsp}}4.6%
+|{{party shading/Republican}}|'''46%'''
+|44%
+|2%
+|{{sdash}}
+|8%
+|-
 | style="text-align: left;"|[[AtlasIntel]]<ref>{{cite web |title=2026 Midterms: Texas |url=https://cdn1.atlasintel.org/2026_midterms__texas_110126_73e0a3a507f76a2e.pdf |website=[[AtlasIntel]] |date=November 1, 2026}}</ref>
 |October 28 – November 1, 2026
 |1,678 (A)

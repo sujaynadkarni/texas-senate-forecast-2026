@@ -3134,6 +3134,16 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 ! Other
 ! Undecided
 |-
+|style="text-align:left;"|Research Co.<ref>{{cite web |last1=Canseco |first1=Mario |title=Florida Stays Red, Texas Could See Senate Swing in U.S. Election |url=https://researchco.ca/2026/11/02/midterms-2026-two/ |website=Research Co. |date=November 2, 2026}}</ref>
+|October 31 – November 2, 2026
+|450 (LV)
+|±{{nbsp}}4.6%
+|46%
+|{{party shading/Democratic}}|'''49%'''
+|1%
+|{{sdash}}
+|4%
+|-
 | style="text-align: left;"|[[Trafalgar Group]] (R)<ref>{{cite web |title=Texas Statewide General Election Survey – November 2026|url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/11/TX-Midterms-Report-1101.pdf|website=[[Trafalgar Group]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |October 31 – November 1, 2026
 |1,089 (LV)
