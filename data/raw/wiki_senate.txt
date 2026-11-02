@@ -2793,9 +2793,9 @@ The election is taking place amidst a broader push by the Trump administration t
 |{{USRaceRating|Tossup}}
 |October 31, 2026
 |-
-|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 1, 2026}}</ref>
-|{{USRaceRating|Tossup}}
-|October 29, 2026
+|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 2, 2026}}</ref>
+|{{USRaceRating|Lean|D|flip}}
+|November 2, 2026
 |-
 |align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 1, 2026 |orig-date=August 11, 2026 |access-date=November 1, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Likely|D|flip}}
@@ -3074,23 +3074,23 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |4.4%
 |{{party shading/Democratic}} |'''Talarico +3.4%'''
 |-
-|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas US Senate |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/polling |access-date=November 1, 2026 |website=[[Decision Desk HQ]]}}</ref>
+|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Texas US Senate |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election/polling |access-date=November 2, 2026 |website=[[Decision Desk HQ]]}}</ref>
 |through November 1, 2026
-|November 1, 2026
-|45.1%
-|{{party shading/Democratic}}|'''49.2%'''
+|November 2, 2026
+|45.8%
+|{{party shading/Democratic}}|'''49.3%'''
 |5.7%
-|{{party shading/Democratic}}|'''Talarico +4.1%'''
+|{{party shading/Democratic}}|'''Talarico +3.5%'''
 |-
-|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Senate Election |url=https://fiftyplusone.news/polls/senate/general/texas |website=[[FiftyPlusOne]] |access-date=November 1, 2026}}</ref>
+|[[FiftyPlusOne]]<ref>{{Cite web |title=Texas General Senate Election |url=https://fiftyplusone.news/polls/senate/general/texas |website=[[FiftyPlusOne]] |access-date=November 2, 2026}}</ref>
 |through November 1, 2026
-|November 1, 2026
-|45.6%
-|{{party shading/Democratic}}|'''49.4%'''
-|5.0%
+|November 2, 2026
+|45.7%
+|{{party shading/Democratic}}|'''49.5%'''
+|4.8%
 |{{party shading/Democratic}}|'''Talarico +3.8%'''
 |-
-|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Senate - Paxton vs. Talarico |url=https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton |access-date=November 1, 2026 |website=[[RealClearPolitics]]}}</ref>
+|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Senate - Paxton vs. Talarico |url=https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton |access-date=November 2, 2026 |website=[[RealClearPolitics]]}}</ref>
 |October 15 – November 1, 2026
 |November 1, 2026
 |46.5%
@@ -3098,26 +3098,26 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |4.5%
 |{{party shading/Democratic}}|'''Talarico +2.5%'''
 |-
-|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=October 31, 2026 |orig-date=August 7, 2026 |access-date=November 1, 2026}}</ref>
-|through October 28, 2026
-|October 31, 2026
-|46.4%
-|{{party shading/Democratic}}|'''49.1%'''
+|''[[The Texas Tribune]]''<ref>{{Cite news |last=Ngo |first=Hien An |title=U.S. Senate race: Tracking poll results for James Talarico and Ken Paxton |url=https://www.texastribune.org/2026/08/07/texas-us-senate-james-talarico-ken-paxton-polls/ |work=[[The Texas Tribune]] |language=en-US |date=November 2, 2026 |orig-date=August 7, 2026 |access-date=November 2, 2026}}</ref>
+|through November 1, 2026
+|November 2, 2026
+|46.1%
+|{{party shading/Democratic}}|'''49.4%'''
 |4.5%
-|{{party shading/Democratic}}|'''Talarico +2.7%'''
+|{{party shading/Democratic}}|'''Talarico +3.3%'''
 |-
 |''[[Silver Bulletin]]''<ref name="Silver"/>
 |through November 1, 2026
-|November 1, 2026
-|45.9%
-|{{party shading/Democratic}}|'''49.2%'''
+|November 2, 2026
+|46.3%
+|{{party shading/Democratic}}|'''49.8%'''
 |4.9%
 |{{party shading/Democratic}}|'''Talarico +3.3%'''
 |-
 |colspan="3" |Average
-|45.9%
-|{{party shading/Democratic}} |'''49.2%'''
-|4.9%
+|46.1%
+|{{party shading/Democratic}} |'''49.4%'''
+|4.5%
 |{{party shading/Democratic}} |'''Talarico +3.3%'''
 |}
 
