@@ -3183,7 +3183,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |2%{{efn|"Someone else" with 1%; "Would not vote" with 1%}}
 |1%
 |-
-|style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
+|style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas Survey: Paxton Up One, Abbott Ahead by Five |url=https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five |website=Quantus Insights |date=October 30, 2026 |access-date=October 30, 2026}}</ref>
 |October 26–28, 2026
 |1,221 (LV)
 |±{{nbsp}}3.2%
@@ -3406,7 +3406,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |3%
 |-
-|style="text-align: left;"|[[Victor Allis|ActiVote]]<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/ |title=Talarico Leads Paxton in Texas Senate Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
+|style="text-align: left;"|[[ActiVote]]<ref>{{cite web |url=https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/ |title=Talarico Leads Paxton in Texas Senate Race |work=ActiVote |date=October 15, 2026 |access-date=October 15, 2026}}</ref>
 |September 30 – October 14, 2026
 |400 (LV)
 |±{{nbsp}}4.9%
@@ -3426,7 +3426,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |4%
 |-
-| style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas U.S. Senate Survey |url=https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view |work=Quantus Insights |access-date=October 13, 2026}}</ref>
+| style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas U.S. Senate Survey |url=https://drive.google.com/file/d/1awt_8mANYVHZ0UlMxkit8QAVLpDe8k5R/view |work=Quantus Insights |access-date=October 13, 2026}}</ref>
 |October 9–11, 2026
 |854 (LV)
 |±{{nbsp}}3.6%
@@ -3847,7 +3847,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |3%{{Efn|"Someone else" with 3%}}
 |10%
 |-
-| style="text-align: left;"|Quantus Insights (R)<ref>{{cite web |title=Texas Republicans Lead Statewide, Senate Race Starts Close |url=https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close |website=Quantus Insights |access-date=June 5, 2026}}</ref>
+| style="text-align: left;"|Quantus Insights<ref>{{cite web |title=Texas Republicans Lead Statewide, Senate Race Starts Close |url=https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close |website=Quantus Insights |access-date=June 5, 2026}}</ref>
 |June 3–4, 2026
 |800 (LV)
 |±{{nbsp}}3.5%
