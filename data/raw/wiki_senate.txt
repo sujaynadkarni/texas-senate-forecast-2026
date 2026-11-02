@@ -3129,6 +3129,16 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 ! Other
 ! Undecided
 |-
+| style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: October 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-tx-poll-toplines.html |website=[[New York Times]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|October 27 – November 1, 2026
+|1,215 (LV)
+|±{{nbsp}}3.4%
+|43%
+|{{party shading/Democratic}}|'''50%'''
+|{{sdash}}
+|0%{{efn|"Another candidate" with <1%}}
+|6%
+|-
 |style="text-align: left;"|Kreate Strategies<ref>{{cite web |title=KStrat Poll: Talarico Leads Paxton by 3 Points, Abbott Leads Hinojosa by 2 Points in Texas General Election Survey |url=https://kstrat.net/press/texas-2026-senate-governor-talarico-leads-paxton-october |website=KStrat |date=October 30, 2026 |access-date=October 31, 2026}}</ref>
 |October 27–30, 2026
 |900 (LV)

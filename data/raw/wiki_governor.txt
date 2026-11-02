@@ -518,12 +518,15 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |list =
 '''Executive branch officials'''
 * [[Barack Obama]], former [[president of the United States]] (2009–2017)<ref>{{cite news |last1=Goodman |first1=David |title=Obama enters Texas Senate fight With Support for Talarico|url=https://www.nytimes.com/2026/05/12/us/obama-james-talarico-texas-senate-2026-democrats.html |access-date=May 12, 2026 |work=[[The New York Times]] |date=May 12, 2026}}</ref>
+
 '''U.S. representatives'''
 * [[Beto O'Rourke]], former {{ushr|TX|16|TX-16}} (2013–2019), [[2018 United States Senate election in Texas|2018 U.S. senate]] nominee and [[2022 Texas gubernatorial election|2022 gubernatorial]] nominee<ref name=Beto123>{{cite web |title=Trump's nightmare: Texas Senate race is everything Trump didn't want |url=https://www.ms.now/the-briefing-with-jen-psaki/watch/trump-s-nightmare-texas-senate-race-is-everything-trump-didn-t-want-2490683459520 |website=MSNOW |access-date=May 26, 2026}}</ref>
 
 ;Individuals
 *[[Richard Hanania]], right-wing [[Pundit|political commentator]]<ref>{{Cite web |last=Hanania |first=Richard |author-link=Richard Hanania |date=October 26, 2026 |title=Choose Mediocrity and Stagnation. Vote Democrat in Texas. |url=https://www.richardhanania.com/api/v1/post/pdf?postId=222036668 |url-access=registration |url-status=live |archive-url=https://web.archive.org/web/20261026140745/https://www.richardhanania.com/api/v1/post/pdf?postId=222036668 |archive-date=October 26, 2026 |access-date=October 26, 2026 |website=[[Richard Hanania|Richard Hanania's Newsletter]] |language=en |via=[[Substack]]}}</ref>
 *[[Willie Nelson]], musician<ref>{{cite web |last1=Parks |first1=Molly |title=Willie Nelson endorses James Talarico in Texas Senate race |url=https://www.washingtonexaminer.com/live-blog/2026-midterm-elections-live-updates/?highlight=4759111 |website=[[Washington Examiner]] |access-date=October 16, 2026}}</ref>
+*[[Jack Black]], musician<ref>{{cite web |title=Take it from Jack black|url=https://www.instagram.com/p/DfHhK4LMrP6/|website=[[Instagram]] |access-date=November 1, 2026}}</ref>
+*[[The Chicks]], band<ref>{{Cite web |title=Celebrity endorsements roll in for Texas Democrats |url=https://www.sacurrent.com/news/texas-news/celebrity-endorsements-roll-in-for-texas-democrats/|website=[[San Antonio Current]] |access-date=November 1, 2026|date=October 5, |last1=Koithan |first1=Stephanie}}</ref>
 
 ;Labor unions
 *[[American Federation of Government Employees]]<ref>{{cite press release |title=Largest Federal Employee Union Endorses 7 Texas Candidates Running for Election |url=https://www.afge.org/publication/largest-federal-employee-union-endorses-7-texas-candidates-running-for-election/ |publisher=AFGE |access-date=October 20, 2026 |date=October 19, 2026}}</ref>
@@ -612,9 +615,9 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |3.6%
 |{{party shading/Republican}} |'''Abbott +2.2%'''
 |-
-|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=October 31, 2026 |website=[[RealClearPolitics]]}}</ref>
-|October 8–28, 2026
-|October 30, 2026
+|[[RealClearPolitics]]<ref name="RCP19may">{{cite web |title=2026 Texas Governor - Abbott vs. Hinojosa |url=https://www.realclearpolling.com/polls/governor/general/2026/texas/abbott-vs-hinojosa |access-date=November 1, 2026 |website=[[RealClearPolitics]]}}</ref>
+|October 8–29, 2026
+|November 1, 2026
 |{{party shading/Republican}} |'''50.2%'''
 |46.9%
 |2.9%
@@ -624,9 +627,9 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |through October 30, 2026
 |November 1, 2026
 |{{party shading/Republican}} |'''49.5%'''
-|47.0%
-|3.5%
-|{{party shading/Republican}} |'''Abbott +2.5%'''
+|47.1%
+|3.4%
+|{{party shading/Republican}} |'''Abbott +2.4%'''
 |-
 |colspan="3" |Average
 |{{party shading/Republican}} |'''49.6%'''
@@ -646,6 +649,16 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ! style="width:100px"| Pat<br />Dixon (L)
 ! Other
 ! Undecided	
+|-
+| style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: October 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-tx-poll-toplines.html |website=[[New York Times]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|October 27 – November 1, 2026
+|1,215 (LV)
+|±{{nbsp}}3.4%
+|47%
+|{{party shading/Democratic}}|'''48%'''
+|{{sdash}}
+|0%{{efn|"Another candidate" with <1%}}
+|6%
 |-
 |style="text-align: left;"|Kreate Strategies<ref>{{cite web |title=KStrat Poll: Talarico Leads Paxton by 3 Points, Abbott Leads Hinojosa by 2 Points in Texas General Election Survey |url=https://kstrat.net/press/texas-2026-senate-governor-talarico-leads-paxton-october |website=KStrat |date=October 30, 2026 |access-date=October 31, 2026}}</ref>
 |October 27–30, 2026
