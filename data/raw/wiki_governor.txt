@@ -660,9 +660,18 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 |{{sdash}}
 |8%
 |-
+|style="text-align:left;" |[[Emerson College]]<ref>{{cite web|last1=Trende|first1=Claire|last2=Trende|first2=Sean|url=https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and|title=Emerson Senate and House polls briefing|date=November 2, 2026|access-date=November 3, 2026 |url-access=subscription}}</ref>{{efn-ua|Poll sponsored by ''Poll Vault'', a [[Substack]] newsletter authored by [[Sean Trende]].}}
+|October 31 – November 1, 2026
+|500 (LV)
+|–
+|{{party shading/Republican}}|'''50%'''
+|49%
+|1%
+|–
+|-
 | style="text-align: left;"|[[AtlasIntel]]<ref>{{cite web |title=2026 Midterms: Texas |url=https://cdn1.atlasintel.org/2026_midterms__texas_110126_73e0a3a507f76a2e.pdf |website=[[AtlasIntel]] |date=November 1, 2026}}</ref>
 |October 28 – November 1, 2026
-|1,678 (A)
+|1,678 (LV)
 |±{{nbsp}}2.2%
 |48%
 |{{party shading/Democratic}}|'''49%'''
