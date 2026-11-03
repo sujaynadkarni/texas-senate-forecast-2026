@@ -9,6 +9,9 @@
 | country = Texas
 | type = presidential
 | ongoing = yes
+| reporting = 0
+| last_update = 7:00 PM
+| time_zone = [[Central Daylight Time|CDT]]
 | previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
 | next_election = 2032 United States Senate election in Texas
@@ -2749,61 +2752,61 @@ The election is taking place amidst a broader push by the Trump administration t
 !Ranking
 !As of
 |-
-|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=October 26, 2026 |access-date=November 1, 2026}}</ref>
+|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=October 26, 2026 |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 26, 2026
 |-
-|align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 1, 2026}}</ref>
+|align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 30, 2026
 |-
-|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 1, 2026|website=[[Cook Political Report]]}}</ref>
+|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 2, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
-|October 30, 2026
+|November 2, 2026
 |-
-|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 1, 2026}}</ref>
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|November 1, 2026
+|November 2, 2026
 |-
-|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 1, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 2, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
 |{{USRaceRating|Tossup}}
-|November 1, 2026
+|November 2, 2026
 |-
-|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 1, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 2, 2026 |website=[[FiftyPlusOne]]}}</ref>
 |{{USRaceRating|Lean|D|flip}}
-|November 1, 2026
+|November 2, 2026
 |-
 |align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |November 1, 2026
 |-
-|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 1, 2026 |website=[[Inside Elections]]}}</ref>
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 2, 2026 |website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Tilt|D|Flip}}
 |October 29, 2026
 |-
-|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 1, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 1, 2026}}</ref>
+|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 2, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 29, 2026
 |-
-|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 1, 2026}}</ref>
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|November 1, 2026
+|November 2, 2026
 |-
-|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 1, 2026|website=[[RealClearPolitics]]}}</ref>
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 2, 2026|website=[[RealClearPolitics]]}}</ref>
 |{{USRaceRating|Tossup}}
-|October 31, 2026
+|November 2, 2026
 |-
 |align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
 |November 2, 2026
 |-
-|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 1, 2026 |orig-date=August 11, 2026 |access-date=November 1, 2026 |url-access=subscription}}</ref>
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 2, 2026 |orig-date=August 11, 2026 |access-date=November 2, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Likely|D|flip}}
-|November 1, 2026
+|November 2, 2026
 |-
-|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 1, 2026}}</ref>
+|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Likely|D|flip}}
-|November 1, 2026
+|November 2, 2026
 |}
 
 === Post-primary endorsements ===
@@ -2859,7 +2862,7 @@ The election is taking place amidst a broader push by the Trump administration t
 * [[Hillary Hickland]], [[Texas's 55th House of Representatives district|HD-55]] (2025–present)<ref>{{cite web |last= Botchway|first= Hamida|title=Video: Rep. Hillary Hickland Discusses Legislative Priorities and the Texas Senate Race |url=https://kdhnews.com/news/local/video-rep-hillary-hickland-discusses-legislative-priorities-and-the-texas-senate-race/video_b948b12e-65de-4930-91eb-981562388675.html |website=[[Killeen Daily Herald]] |date=October 18, 2026 |access-date=October 19, 2026}}</ref>
 * [[Todd Ames Hunter]], [[Texas's 32nd House of Representatives district|HD-32]] (2009–present, 1993–1997)<ref>{{cite web |last=Hopper |first=Ryan |title=Ken Paxton rallies supporters in Corpus Christi ahead of U.S. Senate race against James Talarico |url=https://www.kiiitv.com/article/news/politics/ken-paxton-rallies-supporters-in-corpus-christi-ahead-of-us-senate-race-against-james-talarico/503-c5226b71-8939-4e5d-9967-b4297eb486c1 |website=[[KERA (FM)| KERA News]] |date=September 2, 2026 |access-date=October 3, 2026}}</ref>
 * [[Jeff Leach (politician)|Jeff Leach]], [[Texas's 67th House of Representatives district|HD-67]] (2013–present)<ref name="AbbottCruzRunoff" />
-* [[Tan Parker]], Majority Leader of the [[Texas Senate]] (2025–present, 2023) and [[Texas's 12th Senate district|SD-12]] (2023–present)<ref>{{cite web |last1=Jeffers Jr. |first1=Gromer |last2=Rosenberg |first=Nathaniel |title=Red alerts, blue dreams: Inside the final days of Texas' Senate race |url=https://www.dallasnews.com/news/politics/article/red-alerts-blue-dreams-inside-final-days-texas-22504977.php |website=[[The Dallas Morning News]] |date=October 31, 2026 |access-date=November 2, 2026}}</ref>
+* [[Tan Parker]], Majority Leader of the [[Texas Senate]] (2025–present, 2023) and [[Texas's 12th Senate district|SD-12]] (2023–present)<ref>{{cite web |last1=Jeffers |first1=Gromer Jr. |last2=Rosenberg |first2=Nathaniel |title=Red alerts, blue dreams: Inside the final days of Texas' Senate race |url=https://www.dallasnews.com/news/politics/article/red-alerts-blue-dreams-inside-final-days-texas-22504977.php |website=[[The Dallas Morning News]] |date=October 31, 2026 |access-date=November 2, 2026}}</ref>
 * [[Angela Paxton]], [[Texas's 8th Senate district|SD-08]] (2019–present)<ref>{{cite web |last=Herrera |first=Jack |title=Ken Paxton’s last stand |url=https://www.washingtonpost.com/politics/2026/11/02/ken-paxton-last-stand-keep-texas-senate-seat-republicans/ |website=[[The Washington Post]] |date=November 2, 2026 |access-date=November 2, 2026}}</ref>
 * [[Matt Shaheen]], [[Texas's 66th House of Representatives district|HD-66]] (2015–present)<ref>{{cite web |last= Love |first= Caroline |title=Texas Rep. Jeff Leach once tried to impeach Ken Paxton. Now he's supporting his U.S. Senate run |url=https://www.keranews.org/news/2026-08-06/ken-paxton-former-friend-turned-political-critic-rep-jeff-leach-endorses-him-at-a-campaign-stop-senate-race |website=[[KERA (FM)| KERA News]] |date=August 6, 2026 |access-date=August 18, 2026}}</ref>
 * [[Cody Vasut]], [[Texas's 25th House of Representatives district|HD-25]] (2021–present)<ref name= "cainandvasut"/>
@@ -2881,7 +2884,7 @@ The election is taking place amidst a broader push by the Trump administration t
 
 '''Organizations'''
 * [[America First Policies| America First Works]]<ref>{{cite web |title=AFW Endorses Ken Paxton for Senator of Texas |url=https://americafirstworks.com/2026/10/afw-endorses-ken-paxton-for-senator-of-texas/ |website=[[America First Policies| America First Works]] |date=October 14, 2026 |access-date=October 31, 2026}}</ref>
-* [[America PAC]]<ref>{{cite web |title=Today is the last day of early voting in Texas. Vote for @KenPaxtonTX! Info: https://VoteSafe.org |url=https://x.com/america/status/2116138052359950460 |website=[[X (social network)|X]] |date=October 14, 2026 |access-date=October 31, 2026}}</ref>
+* [[America PAC]]<ref>{{cite web |title=Today is the last day of early voting in Texas. Vote for @KenPaxtonTX! Info: VoteSafe.org |url=https://x.com/america/status/2116138052359950460 |website=[[X (social network)|X]] |date=October 14, 2026 |access-date=October 31, 2026}}</ref>
 * [[Club for Growth]]<ref>{{cite web |last= Birenbaum |first=Gabby |title=Senate GOP leaders spent months trashing Paxton. Can they turn the page and unify against Talarico? |url=https://www.texastribune.org/2026/05/27/texas-us-senate-gop-primary-runoff-ken-paxton-john-thune-leadership-talarico/ |website=[[The Texas Tribune]] |date=May 27, 2026 |access-date=September 19, 2026}}</ref>
 * [[National Federation of Independent Business]]<ref>{{cite web |last= Powell |first= Adam |title=Talarico launches first attack on Paxton in US Senate race |url=https://www.elpasotimes.com/story/news/politics/elections/2026/09/03/james-talarico-escalates-fight-with-ken-paxton-in-us-senate-race/91552904007/ |website=[[El Paso Times]] |date=September 3, 2026 |access-date=September 3, 2026}}</ref>
 * [[National Right to Life Committee]]<ref>{{cite web |title=National Right to Life Endorses Ken Paxton for U.S. Senate |url=https://nrlc.org/communications/national-right-to-life-endorses-ken-paxton-for-u-s-senate/ |website=[[National Right to Life Committee]] |date=September 16, 2026 |access-date=September 17, 2026}}</ref>
@@ -3006,7 +3009,7 @@ The election is taking place amidst a broader push by the Trump administration t
 | title = Declined to endorse
 | list =
 '''Executive branch officials'''
-* [[Mike Pence]], former [[vice president of the United States]] (2017–2021) ''(Republican)''<ref>{{cite news |last1=Jeffers Jr. |first1=Gromer |title=Former VP Mike Pence declines to endorse Paxton but predicts GOP will hold the Senate |url=https://www.dallasnews.com/news/politics/article/pence-paxton-gop-22284806.php |access-date=May 31, 2026 |agency=The Dallas Morning News |date=May 31, 2026}}</ref>
+* [[Mike Pence]], former [[vice president of the United States]] (2017–2021) ''(Republican)''<ref>{{cite news |last1=Jeffers |first1=Gromer Jr. |title=Former VP Mike Pence declines to endorse Paxton but predicts GOP will hold the Senate |url=https://www.dallasnews.com/news/politics/article/pence-paxton-gop-22284806.php |access-date=May 31, 2026 |agency=The Dallas Morning News |date=May 31, 2026}}</ref>
 
 '''U.S. senators'''
 * [[John Cornyn]], [[Texas]] (2002–present) and primary candidate for this seat ''(Republican)''<ref>{{Cite web|url=https://www.nytimes.com/2026/09/21/us/politics/bush-cornyn-paxton-senate-fund-raiser.html|title=Bush and Cornyn Leave Out Paxton as They Raise Cash for Senate Candidates|last1=Schleifer|first1=Theodore|last2=Wagner|first2=Bayliss|date=September 21, 2026|access-date=September 21, 2026|website=[[The New York Times]]}}</ref>
@@ -3155,7 +3158,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |2%
 |-
-|style="text-align:left;" |[[Emerson College]]<ref>{{cite web|last1=Trende|first1=Claire|last2=Trende|first2=Sean|url=https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and|title=Emerson Senate and House polls briefing|date=November 2, 2026|access-date=November 3, 2026 |url-access=subscription}}</ref>{{efn-ua|Poll sponsored by ''Poll Vault'', a [[Substack]] newsletter authored by [[Sean Trende]].}}
+|style="text-align:left;" |[[Emerson College]]<ref>{{cite web|last1=Trende|first1=Claire|last2=Trende|first2=Sean|url=https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and|title=Emerson Senate and House polls briefing|date=November 2, 2026|access-date=November 3, 2026 |url-access=subscription}}</ref>{{efn-ua|Poll sponsored by ''Poll Vault'', a [[Substack]] newsletter authored by [[Sean Trende]]}}
 |October 31 – November 1, 2026
 |500 (LV)
 |{{sdash}}
