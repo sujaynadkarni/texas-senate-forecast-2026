@@ -1,12 +1,12 @@
 {
- "fetched": "2026-11-03T05:57:48+00:00",
- "day": 15,
- "date": "2026-11-02",
+ "fetched": "2026-11-03T06:50:43+00:00",
+ "day": 16,
+ "date": "2026-11-03",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Mon Nov 2 11:53 PM",
+   "refreshed": "Tue Nov 3 12:48 AM",
    "ballots_to_date": 427452,
    "hourly": [],
    "hours_in": 0,
@@ -14,12 +14,51 @@
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
-   "compare": {}
+   "compare": {
+    "2022": {
+     "hourly": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      0
+     ],
+     "same_hours": 0,
+     "full_day": 12
+    },
+    "2024": {
+     "hourly": [
+      11273,
+      9779,
+      8865,
+      8723,
+      8382,
+      7591,
+      7303,
+      7349,
+      7256,
+      7509,
+      7256,
+      5464,
+      659
+     ],
+     "same_hours": 0,
+     "full_day": 97409
+    }
+   }
   },
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Nov 2 11:54 PM",
+   "refreshed": "Tue Nov 3 12:46 AM",
    "ballots_to_date": 183340,
    "hourly": [],
    "hours_in": 0,
@@ -27,7 +66,27 @@
    "completed_hours": 0,
    "today_completed": 0,
    "through": null,
-   "compare": {}
+   "compare": {
+    "2024": {
+     "hourly": [
+      6451,
+      5034,
+      4869,
+      5138,
+      4830,
+      4158,
+      4068,
+      4160,
+      4473,
+      5314,
+      5583,
+      3822,
+      132
+     ],
+     "same_hours": 0,
+     "full_day": 58032
+    }
+   }
   },
   "Bexar": {
    "source": "county early-vote dashboard",
