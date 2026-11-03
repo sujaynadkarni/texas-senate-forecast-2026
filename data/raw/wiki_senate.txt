@@ -4,15 +4,17 @@
 {{protection padlock|small=yes}}
 {{Use American English|date=January 2026}}
 {{Use mdy dates|date=October 2026}}
+{{current election}}
 {{Infobox election
 | election_name = 2026 United States Senate election in Texas
 | country = Texas
 | type = presidential
 | ongoing = yes
+<!--
 | reporting = 0
 | last_update = 7:00 PM
-| time_zone = [[Central Daylight Time|CDT]]
-| previous_election = 2020 United States Senate election in Texas
+| time_zone = [[Central Standard Time|CST]]
+-->| previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
 | next_election = 2032 United States Senate election in Texas
 | next_year = 2032
@@ -28,9 +30,9 @@
 | party2 = Democratic Party (United States)
 | popular_vote2 = 
 | percentage2 = 
-| map_image = <!-- Please keep this map hidden until election day. {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results}}-->
+| map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results}}
 | map_size = 
-| map_caption = County results
+| map_caption = 
 | title = U.S. senator
 | before_election = [[John Cornyn]]
 | before_party = Republican Party (United States)
