@@ -3,14 +3,17 @@
 {{for|related races|2026 United States gubernatorial elections}}
 {{Use American English|date=January 2025}}
 {{Use mdy dates|date=October 2026}}
+{{current election}}
 {{Infobox election
 | election_name = 2026 Texas gubernatorial election
 | country = Texas
 | type = presidential
 | ongoing = yes
+<!--
 | reporting = 0
 | last_update = 7:00 PM
-| time_zone = [[Central Daylight Time|CDT]]
+| time_zone = [[Central Standard Time|CST]]
+-->
 | previous_election = 2022 Texas gubernatorial election
 | previous_year = 2022
 | next_election = 2030 Texas gubernatorial election
