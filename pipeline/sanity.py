@@ -76,8 +76,10 @@ def check(prev, cur, warnings=None):
                 warnings.append(f"{name}: {county} mail ballots fell {v:,} -> {now:,}")
         for county, v in p["counted"].items():
             now = c["counted"].get(county, 0)
+            # the state corrects counties downward on election night (Nov. 3: Starr 19,432 -> 9,716, a double count);
+            # the model just uses the new count, so this warns and never stops the whole site
             if v - now > max(500, LIMITS["county_drop"] * v):
-                problems.append(f"{name}: {county} counted votes fell {v:,} -> {now:,}")
+                warnings.append(f"{name}: {county} counted votes fell {v:,} -> {now:,}")
         if c["mode"] in ("pre", "early") and p["mode"] in ("pre", "early") and abs(c["needle"] - p["needle"]) > LIMITS["needle_pts"]:
             problems.append(f"{name}: win chance moved {p['needle']:.0%} -> {c['needle']:.0%} with no votes counted")
     return problems

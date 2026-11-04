@@ -610,10 +610,12 @@ class Sanity(unittest.TestCase):
         cur = self.mutate(early_total=90_000)
         self.assertTrue(any("early-vote" in p for p in self.S.check(prev, cur)))
 
-    def test_county_count_shrinking_blocks(self):
+    def test_county_count_shrinking_warns_but_does_not_block(self):
         prev = self.mutate(counted={"Harris": 500_000}, mode="live")
         cur = self.mutate(counted={"Harris": 400_000}, mode="live")
-        self.assertTrue(any("Harris" in p for p in self.S.check(prev, cur)))
+        warnings = []
+        self.assertFalse(any("Harris" in p for p in self.S.check(prev, cur, warnings)))
+        self.assertTrue(any("Harris" in w for w in warnings), warnings)
 
     def test_dead_market_blocks(self):
         cur = self.mutate(markets={"Kalshi": 0.0, "Polymarket": 0.6})
