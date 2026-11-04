@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-04T05:40+00:00",
+  "generated": "2026-11-04T05:50+00:00",
   "mode": "live",
   "poll_avg": 3.450884183474101,
   "n_polls": 85,
@@ -8,7 +8,7 @@
    "Kalshi": 0.997,
    "Polymarket": 0.9995
   },
-  "needle": 1.0,
+  "needle": 0.9999999999999999,
   "early_total": 7743012,
   "counted": {
    "Anderson": 14911,
@@ -54,7 +54,7 @@
    "Coke": 1316,
    "Coleman": 3134,
    "Collin": 413112,
-   "Collingsworth": 0,
+   "Collingsworth": 917,
    "Colorado": 8211,
    "Comal": 87398,
    "Comanche": 5004,
@@ -139,7 +139,7 @@
    "Johnson": 54108,
    "Jones": 5026,
    "Karnes": 3934,
-   "Kaufman": 46863,
+   "Kaufman": 61014,
    "Kendall": 25626,
    "Kenedy": 149,
    "Kent": 357,
@@ -196,7 +196,7 @@
    "Panola": 8369,
    "Parker": 74360,
    "Parmer": 1931,
-   "Pecos": 0,
+   "Pecos": 3196,
    "Polk": 17090,
    "Potter": 25026,
    "Presidio": 1846,
@@ -1025,7 +1025,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-04T05:40+00:00",
+  "generated": "2026-11-04T05:50+00:00",
   "mode": "live",
   "poll_avg": -1.703051611688089,
   "n_polls": 72,
@@ -1033,7 +1033,7 @@
    "Kalshi": 0.997,
    "Polymarket": 0.9995
   },
-  "needle": 0.9999999999998872,
+  "needle": 0.9999999999999222,
   "early_total": 7743012,
   "counted": {
    "Anderson": 15136,
@@ -1079,7 +1079,7 @@
    "Coke": 1327,
    "Coleman": 3202,
    "Collin": 414977,
-   "Collingsworth": 0,
+   "Collingsworth": 949,
    "Colorado": 8283,
    "Comal": 87785,
    "Comanche": 5054,
@@ -1221,7 +1221,7 @@
    "Panola": 8466,
    "Parker": 74918,
    "Parmer": 1942,
-   "Pecos": 0,
+   "Pecos": 3318,
    "Polk": 17297,
    "Potter": 25348,
    "Presidio": 1914,
