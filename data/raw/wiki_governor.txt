@@ -8,7 +8,7 @@
 | election_name = 2026 Texas gubernatorial election
 | country = Texas
 | type = presidential
-| ongoing =
+| ongoing = yes
 | reporting = 42
 | last_update = 8:10 PM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-governor.html |title=Texas Governor Election Results |work=[[The New York Times]] |access-date=November 3, 2026}}</ref>
@@ -16,7 +16,7 @@
 | previous_year = 2022
 | next_election = 2030 Texas gubernatorial election
 | next_year = 2030
-| election_date = November 3, 2026
+| election_date = {{start date|2026|11|03}}
 | image2 = Greg Abbott 2026.jpg
 | nominee2 = [[Greg Abbott]]
 | party2 = Republican Party of Texas
