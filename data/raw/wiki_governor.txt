@@ -8,7 +8,7 @@
 | election_name = 2026 Texas gubernatorial election
 | country = Texas
 | type = presidential
-| ongoing =
+| ongoing = 
 | reporting = 66
 | last_update = 10:06 PM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-governor.html |title=Texas Governor Election Results |work=[[The New York Times]] |access-date=November 3, 2026}}</ref>
@@ -25,22 +25,19 @@
 | image1 = Gina Hinojosa at LBJ Library Forum (3x4 cropped).jpg
 | nominee1 = '''[[Gina Hinojosa]]'''
 | party1 = Texas Democratic Party
-| popular_vote1 = 3,959,786
-| percentage1 = 57.4%
+| popular_vote1 = '''3,959,786'''
+| percentage1 = '''57.4%'''
 | title = [[Governor of Texas|Governor]]
 | before_election = [[Greg Abbott]]
 | before_party = Republican Party of Texas
-| after_election = <!-- Gina Hinojosa -->
-| after_party = <!-- Texas Democratic Party -->
+| after_election = Gina Hinojosa
+| after_party = Texas Democratic Party
 }}
 {{ElectionsTX}}
 
-The '''2026 Texas gubernatorial election''' is scheduled to take place on November 3, 2026, to elect the [[governor of Texas]]. [[Republican Party (United States)|Republican]] incumbent [[Greg Abbott]] is seeking a fourth term.<ref name=absolutely>{{cite web |url= https://www.texastribune.org/2025/11/09/texas-greg-abbott-reelection-campaign-governor/ |title=Gov. Greg Abbott launches reelection campaign for fourth term |date=November 9, 2025 |access-date=November 9, 2025 |publisher=[[The Texas Tribune]] |last=Gou |first=Kayla}}</ref> He is being challenged by [[Democratic Party (United States)|Democratic]] state representative [[Gina Hinojosa]].
+The '''2026 Texas gubernatorial election''' took place on November 3, 2026, to elect the [[governor of Texas]]. [[Republican Party (United States)|Republican]] incumbent [[Greg Abbott]] was seeking a fourth term,<ref name=absolutely>{{cite web |url= https://www.texastribune.org/2025/11/09/texas-greg-abbott-reelection-campaign-governor/ |title=Gov. Greg Abbott launches reelection campaign for fourth term |date=November 9, 2025 |access-date=November 9, 2025 |publisher=[[The Texas Tribune]] |last=Gou |first=Kayla}}</ref> but was defeated by [[Democratic Party (United States)|Democratic]] state representative [[Gina Hinojosa]].<ref>{{Cite web |last=Mendoza |first=Madalyn |date=November 4, 2026 |title=Hinojosa defeats Abbott, flips Texas governor's office blue |url=https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott |access-date=November 4, 2026 |website=Axios |language=en}}</ref><ref>{{Cite web |date=November 4, 2026 |title=Texas Governor Election 2026 Live Results: Gina Hinojosa Wins |url=https://www.nbcnews.com/politics/2026-elections/texas-governor-results |access-date=November 4, 2026 |website=www.nbcnews.com |language=en}}</ref>
 
 [[Primary elections]] were held on March 3, 2026. Facing minimal opposition, Abbott won the Republican nomination with 82% of the vote. Hinojosa won the Democratic nomination with 59% of the vote over a field of candidates that included former congressman [[Chris Bell (politician)|Chris Bell]].
-
-If Abbott is re-elected and serves out his fourth term, he will become the state's longest-serving governor. Democrats have not won a gubernatorial election in Texas since [[1990 Texas gubernatorial election|1990]]. 
-
 {{toclimit|3}}
 
 ==Republican primary==
