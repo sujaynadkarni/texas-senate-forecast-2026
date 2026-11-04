@@ -620,8 +620,10 @@ class Sanity(unittest.TestCase):
         self.assertTrue(any("Kalshi" in p for p in self.S.check(self.base, cur)))
 
     def test_needle_jump_without_votes_blocks(self):
-        cur = self.mutate(needle=self.base["senate"]["needle"] - 0.3)
-        self.assertTrue(any("win chance" in p for p in self.S.check(self.base, cur)))
+        # pin the mode: on election night the real snapshot is "live", where the needle may move (Nov. 3)
+        prev = self.mutate(mode="early")
+        cur = self.mutate(mode="early", needle=self.base["senate"]["needle"] - 0.3)
+        self.assertTrue(any("win chance" in p for p in self.S.check(prev, cur)))
 
 
 class LiveCounties(unittest.TestCase):
