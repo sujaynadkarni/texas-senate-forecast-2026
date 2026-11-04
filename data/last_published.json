@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-11-04T00:24+00:00",
+  "generated": "2026-11-04T00:34+00:00",
   "mode": "early",
   "poll_avg": 3.450884183474101,
   "n_polls": 85,
   "markets": {
-   "Kalshi": 0.75,
-   "Polymarket": 0.765
+   "Kalshi": 0.78,
+   "Polymarket": 0.785
   },
   "needle": 0.81158,
-  "early_total": 7742589,
+  "early_total": 7742618,
   "counted": {},
   "early_in_person": {
    "Anderson": 10531,
@@ -583,7 +583,7 @@
    "Dawson": 75,
    "Deaf Smith": 135,
    "Delta": 85,
-   "Denton": 7923,
+   "Denton": 7952,
    "DeWitt": 185,
    "Dickens": 31,
    "Dimmit": 100,
@@ -770,16 +770,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-04T00:24+00:00",
+  "generated": "2026-11-04T00:34+00:00",
   "mode": "early",
   "poll_avg": -1.703051611688089,
   "n_polls": 72,
   "markets": {
-   "Kalshi": 0.34,
+   "Kalshi": 0.32,
    "Polymarket": 0.335
   },
   "needle": 0.32456,
-  "early_total": 7742589,
+  "early_total": 7742618,
   "counted": {},
   "early_in_person": {
    "Anderson": 10531,
@@ -1353,7 +1353,7 @@
    "Dawson": 75,
    "Deaf Smith": 135,
    "Delta": 85,
-   "Denton": 7923,
+   "Denton": 7952,
    "DeWitt": 185,
    "Dickens": 31,
    "Dimmit": 100,
