@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-04T06:50+00:00",
+  "generated": "2026-11-04T07:00+00:00",
   "mode": "live",
   "poll_avg": 3.464481398832109,
   "n_polls": 85,
@@ -43,7 +43,7 @@
    "Callahan": 5196,
    "Cameron": 100349,
    "Camp": 4170,
-   "Carson": 0,
+   "Carson": 2284,
    "Cass": 10563,
    "Castro": 1516,
    "Chambers": 19072,
@@ -53,7 +53,7 @@
    "Cochran": 678,
    "Coke": 1316,
    "Coleman": 3134,
-   "Collin": 440686,
+   "Collin": 447392,
    "Collingsworth": 917,
    "Colorado": 8217,
    "Comal": 87398,
@@ -67,7 +67,7 @@
    "Crosby": 1437,
    "Culberson": 834,
    "Dallam": 993,
-   "Dallas": 616608,
+   "Dallas": 876696,
    "Dawson": 2509,
    "Deaf Smith": 3448,
    "Delta": 1945,
@@ -186,7 +186,7 @@
    "Motley": 500,
    "Nacogdoches": 21011,
    "Navarro": 15696,
-   "Newton": 2329,
+   "Newton": 4164,
    "Nolan": 3556,
    "Nueces": 97148,
    "Ochiltree": 2278,
@@ -264,7 +264,7 @@
    "Yoakum": 1718,
    "Young": 6343,
    "Zapata": 2078,
-   "Zavala": 2140
+   "Zavala": 3022
   },
   "early_in_person": {
    "Anderson": 10531,
@@ -1025,7 +1025,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-04T06:50+00:00",
+  "generated": "2026-11-04T07:00+00:00",
   "mode": "live",
   "poll_avg": -1.7130612357508457,
   "n_polls": 72,
@@ -1068,7 +1068,7 @@
    "Callahan": 5265,
    "Cameron": 101714,
    "Camp": 4230,
-   "Carson": 0,
+   "Carson": 2336,
    "Cass": 10720,
    "Castro": 1530,
    "Chambers": 19153,
@@ -1078,7 +1078,7 @@
    "Cochran": 681,
    "Coke": 1327,
    "Coleman": 3202,
-   "Collin": 442749,
+   "Collin": 449493,
    "Collingsworth": 949,
    "Colorado": 8289,
    "Comal": 87785,
@@ -1092,7 +1092,7 @@
    "Crosby": 1469,
    "Culberson": 869,
    "Dallam": 1007,
-   "Dallas": 617667,
+   "Dallas": 719567,
    "Dawson": 2537,
    "Deaf Smith": 3493,
    "Delta": 1973,
@@ -1136,7 +1136,7 @@
    "Hansford": 1482,
    "Hardeman": 958,
    "Hardin": 20695,
-   "Harris": 1059898,
+   "Harris": 1088778,
    "Harrison": 23713,
    "Hartley": 1518,
    "Haskell": 1588,
@@ -1211,7 +1211,7 @@
    "Motley": 503,
    "Nacogdoches": 21229,
    "Navarro": 15940,
-   "Newton": 2365,
+   "Newton": 4241,
    "Nolan": 3664,
    "Nueces": 98031,
    "Ochiltree": 2305,
@@ -1289,7 +1289,7 @@
    "Yoakum": 1742,
    "Young": 6477,
    "Zapata": 2163,
-   "Zavala": 2181
+   "Zavala": 3087
   },
   "early_in_person": {
    "Anderson": 10531,
