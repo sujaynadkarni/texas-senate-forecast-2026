@@ -1,13 +1,13 @@
 {
- "fetched": "2026-11-04T01:09:19+00:00",
+ "fetched": "2026-11-04T01:38:00+00:00",
  "day": 16,
  "date": "2026-11-03",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Nov 3 07:04 PM",
-   "ballots_to_date": 527803,
+   "refreshed": "Tue Nov 3 07:37 PM",
+   "ballots_to_date": 528843,
    "hourly": [
     9718,
     8329,
@@ -20,13 +20,13 @@
     8260,
     8520,
     8853,
-    7321,
-    214
+    7319,
+    1230
    ],
    "hours_in": 13,
    "today": 0,
    "completed_hours": 12,
-   "today_completed": 99590,
+   "today_completed": 99588,
    "through": "close",
    "compare": {
     "2022": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Nov 3 07:07 PM",
-   "ballots_to_date": 246935,
+   "refreshed": "Tue Nov 3 07:33 PM",
+   "ballots_to_date": 247494,
    "hourly": [
     6019,
     5632,
@@ -81,18 +81,18 @@
     5411,
     4854,
     3892,
-    4099,
-    4603,
-    4998,
-    6352,
-    6876,
-    5336,
-    198
+    4126,
+    4660,
+    5056,
+    6406,
+    6933,
+    5404,
+    436
    ],
    "hours_in": 13,
    "today": 0,
    "completed_hours": 12,
-   "today_completed": 63395,
+   "today_completed": 63716,
    "through": "close",
    "compare": {
     "2024": {
@@ -149,7 +149,7 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Tue Nov 3 7:03 PM",
+   "refreshed": "Tue Nov 3 7:31 PM",
    "today": 0,
    "ballots_to_date": 607618,
    "sites": 528,
@@ -164,7 +164,7 @@
     ],
     [
      "Oak Lawn Branch Library",
-     2360
+     2362
     ]
    ],
    "hourly": null,
