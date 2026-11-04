@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-04T01:38:00+00:00",
+ "fetched": "2026-11-04T01:39:36+00:00",
  "day": 16,
  "date": "2026-11-03",
  "counties": {
@@ -72,8 +72,8 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Nov 3 07:33 PM",
-   "ballots_to_date": 247494,
+   "refreshed": "Tue Nov 3 07:38 PM",
+   "ballots_to_date": 247529,
    "hourly": [
     6019,
     5632,
@@ -87,7 +87,7 @@
     6406,
     6933,
     5404,
-    436
+    471
    ],
    "hours_in": 13,
    "today": 0,
