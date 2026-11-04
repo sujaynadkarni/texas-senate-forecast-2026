@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-04T06:20+00:00",
+  "generated": "2026-11-04T06:25+00:00",
   "mode": "live",
   "poll_avg": 3.464481398832109,
   "n_polls": 85,
@@ -53,7 +53,7 @@
    "Cochran": 678,
    "Coke": 1316,
    "Coleman": 3134,
-   "Collin": 426467,
+   "Collin": 440686,
    "Collingsworth": 917,
    "Colorado": 8211,
    "Comal": 87398,
@@ -1025,7 +1025,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-04T06:20+00:00",
+  "generated": "2026-11-04T06:25+00:00",
   "mode": "live",
   "poll_avg": -1.7130612357508457,
   "n_polls": 72,
@@ -1078,7 +1078,7 @@
    "Cochran": 681,
    "Coke": 1327,
    "Coleman": 3202,
-   "Collin": 428439,
+   "Collin": 442749,
    "Collingsworth": 949,
    "Colorado": 8283,
    "Comal": 87785,
