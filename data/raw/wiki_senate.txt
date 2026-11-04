@@ -9,8 +9,8 @@
 | election_name = 2026 United States Senate election in Texas
 | country = Texas
 | type = presidential
-| reporting = 70
-| last_update = 9:43 PM
+| reporting = 69
+| last_update = 10:02 PM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-us-senate.html |title=Texas U.S. Senate Election Results |work=[[The New York Times]] |access-date=November 3, 2026}}</ref>
 | previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
@@ -18,23 +18,23 @@
 | next_year = 2032
 | election_date = November 3, 2026
 | image_size = 150x150px
+| image1 = James Talarico Press Conference (centered).jpg
+| nominee1 = '''[[James Talarico]]'''
+| party1 = Democratic Party (United States)
+| popular_vote1 = '''4,085,629'''
+| percentage1 = '''59.5%'''
 | image2 = Ken Paxton - 55022425595 (cropped).jpg
 | nominee2 = [[Ken Paxton]]
 | party2 = Republican Party (United States)
-| popular_vote2 = 3,077,469
-| percentage2 = 43.78%
-| image1 = James Talarico Press Conference (centered).jpg
-| nominee1 = [[James Talarico]]
-| party1 = Democratic Party (United States)
-| popular_vote1 = 3,832,836
-| percentage1 = 54.55%
+| popular_vote2 = 2,675,691
+| percentage2 = 39.0%
 | map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results}}
 | map_size = 
 | map_caption = 
 | title = U.S. senator
 | before_election = [[John Cornyn]]
 | before_party = Republican Party (United States)
-| after_election = James Talarico
+| after_election = [[James Talarico]]
 | after_party = Democratic Party (United States)
 }}
 {{ElectionsTX}}
