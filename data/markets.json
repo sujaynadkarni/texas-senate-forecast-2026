@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-04T05:30:04+00:00",
+ "fetched": "2026-11-04T05:40:07+00:00",
  "senate": [
   {
    "source": "Kalshi",
@@ -10,7 +10,7 @@
   {
    "source": "Polymarket",
    "d": 0.9995,
-   "volume_usd": 21764817,
+   "volume_usd": 21785905,
    "url": "https://polymarket.com/event/texas-senate-election-winner"
   }
  ],
@@ -24,7 +24,7 @@
   {
    "source": "Polymarket",
    "d": 0.9995,
-   "volume_usd": 7368430,
+   "volume_usd": 7371392,
    "url": "https://polymarket.com/event/texas-governor-election-winner"
   }
  ]
