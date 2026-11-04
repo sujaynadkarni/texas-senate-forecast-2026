@@ -2766,9 +2766,9 @@ The election took place amidst a broader push by the Trump administration to res
 |{{USRaceRating|Tossup}}
 |November 2, 2026
 |-
-|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 2, 2026}}</ref>
-|{{USRaceRating|Lean|D|flip}}
-|November 2, 2026
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
 |-
 |align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 3, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
 |{{USRaceRating|Tossup}}
