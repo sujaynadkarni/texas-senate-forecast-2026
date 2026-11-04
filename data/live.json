@@ -1,120 +1,33 @@
 {
- "fetched": "2026-11-04T05:50:12+00:00",
- "day": 16,
- "date": "2026-11-03",
+ "fetched": "2026-11-04T06:00:14+00:00",
+ "day": 17,
+ "date": "2026-11-04",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Tue Nov 3 11:46 PM",
+   "refreshed": "Tue Nov 3 11:57 PM",
    "ballots_to_date": 529266,
-   "hourly": [
-    9718,
-    8329,
-    8228,
-    8567,
-    8415,
-    7620,
-    7737,
-    8022,
-    8260,
-    8520,
-    8853,
-    7319,
-    1481
-   ],
-   "hours_in": 13,
+   "hourly": [],
+   "hours_in": 0,
    "today": 0,
-   "completed_hours": 13,
-   "today_completed": 101069,
-   "through": "close",
-   "compare": {
-    "2022": {
-     "hourly": [
-      2,
-      0,
-      0,
-      0,
-      0,
-      2,
-      1,
-      1,
-      2,
-      1,
-      1,
-      2,
-      0
-     ],
-     "same_hours": 12,
-     "full_day": 12
-    },
-    "2024": {
-     "hourly": [
-      11273,
-      9779,
-      8865,
-      8723,
-      8382,
-      7591,
-      7303,
-      7349,
-      7256,
-      7509,
-      7256,
-      5464,
-      659
-     ],
-     "same_hours": 97409,
-     "full_day": 97409
-    }
-   }
+   "completed_hours": 0,
+   "today_completed": 0,
+   "through": null,
+   "compare": {}
   },
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Tue Nov 3 11:49 PM",
+   "refreshed": "Tue Nov 3 11:59 PM",
    "ballots_to_date": 249741,
-   "hourly": [
-    6182,
-    5755,
-    5455,
-    5571,
-    4988,
-    4006,
-    4242,
-    4784,
-    5197,
-    6653,
-    7177,
-    5681,
-    659
-   ],
-   "hours_in": 13,
+   "hourly": [],
+   "hours_in": 0,
    "today": 0,
-   "completed_hours": 13,
-   "today_completed": 66350,
-   "through": "close",
-   "compare": {
-    "2024": {
-     "hourly": [
-      6451,
-      5034,
-      4869,
-      5138,
-      4830,
-      4158,
-      4068,
-      4160,
-      4473,
-      5314,
-      5583,
-      3822,
-      132
-     ],
-     "same_hours": 58032,
-     "full_day": 58032
-    }
-   }
+   "completed_hours": 0,
+   "today_completed": 0,
+   "through": null,
+   "compare": {}
   },
   "Bexar": {
    "source": "county early-vote dashboard",
