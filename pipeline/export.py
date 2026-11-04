@@ -25,6 +25,7 @@ _h24 = [x for x in json.load(open("data/mail_history.json"))["harris"] if x["yea
 MAIL_SKEW = {"Harris": (_h24["mail_margin_D"] - _h24["county_margin_D"]) / 200}
 MAIL_SKEW_DEFAULT = 0.06
 EV_SKEW = 0.008
+SHARED_EARLY_SD = 0.06      # share pts at 0% of a county counted; scaled down by how much of each county is in
 REGIONS = ["Urban core", "Big suburbs", "Outer suburbs", "Hispanic South/West", "Mid-size metros", "Rural"]
 
 
@@ -109,7 +110,14 @@ def nowcast(c, res, results):
                                 MAIL_SKEW.get(names[j], MAIL_SKEW_DEFAULT)) for j in range(k)])
     obs = T[rep] / (T[rep] + P[rep]) - bias[rep]
     sd = 0.010 + 0.030 * (1 - frac[rep])                      # share pts: 2-8 pts on margin
-    ll = -0.5 * (((share[:, rep] - obs) / sd) ** 2).sum(1)
+    # early ballots are counted first everywhere, so how far they lean from the final count is one shared unknown,
+    # not separate evidence from each county (Nov. 3: 20 small counties of early votes moved the needle to 99%).
+    # Shared error up to 6 share pts (12 on margin), fading as the counted share of each county grows.
+    f_w = float((frac[rep] * (T + P)[rep]).sum() / max((T + P)[rep].sum(), 1))
+    s_b = SHARED_EARLY_SD * (1 - f_w)
+    resid = share[:, rep] - obs
+    a = (resid / sd ** 2).sum(1)
+    ll = -0.5 * (((resid / sd) ** 2).sum(1) - s_b ** 2 * a ** 2 / (1 + s_b ** 2 * (1 / sd ** 2).sum()))
     ll -= ll.max()
     beta, w = 1.0, None
     for beta in (1.0, 0.5, 0.25, 0.1, 0.05, 0.02, 0.01, 0.005):
