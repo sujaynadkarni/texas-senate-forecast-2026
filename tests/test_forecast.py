@@ -598,12 +598,14 @@ class Sanity(unittest.TestCase):
         self.assertEqual(self.S.check(None, self.base), [])
 
     def test_poll_average_jump_blocks(self):
-        cur = self.mutate(poll_avg=self.base["senate"]["poll_avg"] + 4)
-        self.assertTrue(any("poll average" in p for p in self.S.check(self.base, cur)))
+        prev = self.mutate(mode="early")
+        cur = self.mutate(mode="early", poll_avg=self.base["senate"]["poll_avg"] + 4)
+        self.assertTrue(any("poll average" in p for p in self.S.check(prev, cur)))
 
     def test_poll_count_collapse_blocks(self):
-        cur = self.mutate(n_polls=int(self.base["senate"]["n_polls"] * 0.5))
-        self.assertTrue(any("poll count" in p for p in self.S.check(self.base, cur)))
+        prev = self.mutate(mode="early")
+        cur = self.mutate(mode="early", n_polls=int(self.base["senate"]["n_polls"] * 0.5))
+        self.assertTrue(any("poll count" in p for p in self.S.check(prev, cur)))
 
     def test_early_vote_drop_blocks(self):
         prev = self.mutate(early_total=100_000)
@@ -620,6 +622,14 @@ class Sanity(unittest.TestCase):
     def test_dead_market_blocks(self):
         cur = self.mutate(markets={"Kalshi": 0.0, "Polymarket": 0.6})
         self.assertTrue(any("Kalshi" in p for p in self.S.check(self.base, cur)))
+
+    def test_election_night_markets_and_polls_warn_but_do_not_block(self):
+        prev = self.mutate(mode="live")
+        cur = self.mutate(mode="live", markets={"Kalshi": 0.995, "Polymarket": 0.99},
+                          poll_avg=self.base["senate"]["poll_avg"] + 4, n_polls=1)
+        warnings = []
+        self.assertEqual(self.S.check(prev, cur, warnings), [])
+        self.assertTrue(any("Kalshi" in w for w in warnings) and any("poll count" in w for w in warnings), warnings)
 
     def test_needle_jump_without_votes_blocks(self):
         # pin the mode: on election night the real snapshot is "live", where the needle may move (Nov. 3)

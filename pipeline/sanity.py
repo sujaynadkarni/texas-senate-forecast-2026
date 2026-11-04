@@ -51,9 +51,14 @@ def check(prev, cur, warnings=None):
     warnings = [] if warnings is None else warnings
     for key, c in cur.items():
         name = RACES[key]["office"]
+        # once votes are counted, markets go past 99% and the poll page gets rewritten: those warn, never block (Nov. 3)
+        night = c["mode"] not in ("pre", "early")
+        soft = warnings if night else problems
         for src, v in c["markets"].items():
-            if not LIMITS["market_lo"] < v < LIMITS["market_hi"]:
-                problems.append(f"{name}: {src} price {v:.2f} is outside 1-99%")
+            if not 0 < v <= 1:
+                problems.append(f"{name}: {src} price {v:.2f} is not a price")
+            elif not LIMITS["market_lo"] < v < LIMITS["market_hi"]:
+                soft.append(f"{name}: {src} price {v:.2f} is outside 1-99%")
         tot = sum(c["counted"].values())
         if tot > LIMITS["counted_over"] * c["expected_turnout"]:
             problems.append(f"{name}: {tot:,} counted votes is more than 125% of expected turnout")
@@ -61,9 +66,9 @@ def check(prev, cur, warnings=None):
         if not p:
             continue
         if abs(c["poll_avg"] - p["poll_avg"]) > LIMITS["poll_avg_pts"]:
-            problems.append(f"{name}: poll average jumped {p['poll_avg']:+.1f} -> {c['poll_avg']:+.1f}")
+            soft.append(f"{name}: poll average jumped {p['poll_avg']:+.1f} -> {c['poll_avg']:+.1f}")
         if c["n_polls"] < (1 - LIMITS["poll_count_drop"]) * p["n_polls"]:
-            problems.append(f"{name}: poll count fell {p['n_polls']} -> {c['n_polls']} (poll page may have changed)")
+            soft.append(f"{name}: poll count fell {p['n_polls']} -> {c['n_polls']} (poll page may have changed)")
         if p["early_total"] and c["early_total"] < (1 - LIMITS["early_drop"]) * p["early_total"]:
             problems.append(f"{name}: early-vote total fell {p['early_total']:,} -> {c['early_total']:,}")
         for county, v in (p.get("early_in_person") or {}).items():
