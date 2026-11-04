@@ -1,5 +1,7 @@
 {
  "behind": [
+  "Denton: county source failed (ValueError: no response from https://www.votedenton.gov/early-voting-election-day-rosters/ after 3 tries (curl exit 22))",
+  "Collin: county source failed (ValueError: no response from https://www.collincountytx.gov/elections/rosters after 3 tries (curl exit 22))",
   "Aransas: kept at last published numbers (mail 544 < published 545)",
   "Bandera: kept at last published numbers (mail 260 < published 332)",
   "Blanco: kept at last published numbers (mail 196 < published 197)",

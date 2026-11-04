@@ -8,27 +8,25 @@
 | election_name = 2026 Texas gubernatorial election
 | country = Texas
 | type = presidential
-| ongoing = yes
-<!--
-| reporting = 0
-| last_update = 7:00 PM
-| time_zone = [[Central Standard Time|CST]]
--->
+| ongoing =
+| reporting = 42
+| last_update = 8:10 PM
+| time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-governor.html |title=Texas Governor Election Results |work=[[The New York Times]] |access-date=November 3, 2026}}</ref>
 | previous_election = 2022 Texas gubernatorial election
 | previous_year = 2022
 | next_election = 2030 Texas gubernatorial election
 | next_year = 2030
 | election_date = November 3, 2026
-| image1 = Greg Abbott 2026.jpg
-| nominee1 = [[Greg Abbott]]
-| party1 = Republican Party of Texas
-| popular_vote1 = 
-| percentage1 = 
-| image2 = Gina Hinojosa at LBJ Library Forum (3x4 cropped).jpg
-| nominee2 = [[Gina Hinojosa]]
-| party2 = Texas Democratic Party
-| popular_vote2 = 
-| percentage2 = 
+| image2 = Greg Abbott 2026.jpg
+| nominee2 = [[Greg Abbott]]
+| party2 = Republican Party of Texas
+| popular_vote2 = 1,861,331
+| percentage2 = 42.7%
+| image1 = Gina Hinojosa at LBJ Library Forum (3x4 cropped).jpg
+| nominee1 = [[Gina Hinojosa]]
+| party1 = Texas Democratic Party
+| popular_vote1 = 2,444,456
+| percentage1 = 56.1%
 | title = [[Governor of Texas|Governor]]
 | before_election = [[Greg Abbott]]
 | before_party = Republican Party of Texas
