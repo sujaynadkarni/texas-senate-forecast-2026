@@ -1,6 +1,6 @@
 {
  "behind": [
-  "Collin: county source failed (ValueError: no response from https://www.collincountytx.gov/docs/default-source/elections/election-rosters/totals-by-site-through-october-30-2026.pdf?sfvrsn=366)",
+  "Collin: county source failed (ValueError: Collin report: sites add up to 374238, total says 453117)",
   "Aransas: kept at last published numbers (mail 544 < published 545)",
   "Bandera: kept at last published numbers (mail 260 < published 332)",
   "Blanco: kept at last published numbers (mail 196 < published 197)",

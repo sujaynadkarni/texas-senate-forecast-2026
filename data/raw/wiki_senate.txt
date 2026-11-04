@@ -34,16 +34,16 @@
 | title = U.S. senator
 | before_election = [[John Cornyn]]
 | before_party = Republican Party (United States)
-| after_election = <!-- James Talarico -->
-| after_party = <!-- Democratic Party (United States) -->
+| after_election = James Talarico
+| after_party = Democratic Party (United States)
 }}
 {{ElectionsTX}}
 
-The '''2026 United States Senate election in Texas''' was held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]] and [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] are the nominees for their respective parties.
+The '''2026 United States Senate election in Texas''' was held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] won the seat, defeating [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]].<ref>{{cite web|url=https://www.nbcnews.com/politics/2026-elections/texas-senate-results|title=Texas Senate Results 2026|publisher=[[NBC News]]|access-date=November 3, 2026}}</ref><ref>https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election</ref>{{bare url}}
 
 Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, which led to no candidates receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
-Democrats have not won a Senate election in Texas since [[1988 United States Senate election in Texas|1988]]. The race is considered to be one of the most expensive non-presidential electoral races in American history, with spending by both parties surpassing half a billion dollars.
+Democrats had not won a Senate election in Texas since [[1988 United States Senate election in Texas|1988]]. The race was considered to be one of the most expensive non-presidential electoral races in American history, with spending by both parties surpassing half a billion dollars.
 
 {{toclimit|4}}
 
