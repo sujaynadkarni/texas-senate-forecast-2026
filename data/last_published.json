@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-04T05:10+00:00",
+  "generated": "2026-11-04T05:20+00:00",
   "mode": "live",
   "poll_avg": 3.450884183474101,
   "n_polls": 85,
@@ -8,7 +8,7 @@
    "Kalshi": 0.997,
    "Polymarket": 0.9995
   },
-  "needle": 1.0,
+  "needle": 0.9999999999999999,
   "early_total": 7743012,
   "counted": {
    "Anderson": 14911,
@@ -50,7 +50,7 @@
    "Cherokee": 16207,
    "Childress": 1604,
    "Clay": 4494,
-   "Cochran": 0,
+   "Cochran": 678,
    "Coke": 0,
    "Coleman": 3134,
    "Collin": 395469,
@@ -126,7 +126,7 @@
    "Houston": 7278,
    "Howard": 6873,
    "Hudspeth": 770,
-   "Hunt": 0,
+   "Hunt": 22225,
    "Hutchinson": 5856,
    "Irion": 624,
    "Jack": 3303,
@@ -244,7 +244,7 @@
    "Upton": 835,
    "Uvalde": 8097,
    "Val Verde": 0,
-   "Van Zandt": 14030,
+   "Van Zandt": 21602,
    "Victoria": 27702,
    "Walker": 21159,
    "Waller": 23299,
@@ -1025,7 +1025,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-04T05:10+00:00",
+  "generated": "2026-11-04T05:20+00:00",
   "mode": "live",
   "poll_avg": -1.703051611688089,
   "n_polls": 72,
@@ -1033,7 +1033,7 @@
    "Kalshi": 0.997,
    "Polymarket": 0.9995
   },
-  "needle": 0.9999999436640304,
+  "needle": 0.9999999608257081,
   "early_total": 7743012,
   "counted": {
    "Anderson": 15136,
@@ -1075,7 +1075,7 @@
    "Cherokee": 16358,
    "Childress": 1641,
    "Clay": 4561,
-   "Cochran": 0,
+   "Cochran": 681,
    "Coke": 0,
    "Coleman": 3202,
    "Collin": 397223,
@@ -1151,7 +1151,7 @@
    "Houston": 7391,
    "Howard": 6946,
    "Hudspeth": 791,
-   "Hunt": 0,
+   "Hunt": 22366,
    "Hutchinson": 5972,
    "Irion": 632,
    "Jack": 3347,
@@ -1269,7 +1269,7 @@
    "Upton": 854,
    "Uvalde": 8252,
    "Val Verde": 0,
-   "Van Zandt": 14166,
+   "Van Zandt": 21861,
    "Victoria": 28017,
    "Walker": 21377,
    "Waller": 23393,
