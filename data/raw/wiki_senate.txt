@@ -21,13 +21,13 @@
 | image2 = Ken Paxton - 55022425595 (cropped).jpg
 | nominee2 = [[Ken Paxton]]
 | party2 = Republican Party (United States)
-| popular_vote2 = 2,111,740
+| popular_vote2 = 2,774,482
 | percentage2 = 39%
 | image1 = James Talarico Press Conference (centered).jpg
 | nominee1 = [[James Talarico]]
 | party1 = Democratic Party (United States)
-| popular_vote1 = 3,241,741
-| percentage1 = 60%
+| popular_vote1 = 3,658,165
+| percentage1 = 65%
 | map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results}}
 | map_size = 
 | map_caption = 
