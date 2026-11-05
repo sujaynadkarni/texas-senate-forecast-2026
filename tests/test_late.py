@@ -22,5 +22,16 @@ class RCV(unittest.TestCase):
         self.assertEqual(len(fin), 2)
 
 
+class Rating(unittest.TestCase):
+    def test_bands(self):
+        self.assertEqual(L.rating(0.5, 0.1), "Toss-up")
+        self.assertEqual(L.rating(0.75, 3), "Lean Democratic")
+        self.assertEqual(L.rating(0.10, -5), "Likely Republican")
+        self.assertEqual(L.rating(0.99, 8), "Safe Democratic")
+
+    def test_within_one_point_is_at_most_lean(self):
+        self.assertEqual(L.rating(0.98, 0.3), "Lean Democratic")
+
+
 if __name__ == "__main__":
     unittest.main()

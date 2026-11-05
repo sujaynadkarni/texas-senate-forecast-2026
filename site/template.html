@@ -161,6 +161,7 @@ td .sub { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px
 .pagetabs a { font: 700 15px var(--sans); color: var(--ink-3); text-decoration: none; padding: 10px 16px 9px; border-bottom: 4px solid transparent; margin-bottom: -1px; }
 .pagetabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--ink); }
 .pagetabs a:hover { color: var(--ink); }
+@media (max-width: 440px) { .pagetabs { overflow-x: auto; scrollbar-width: none; } .pagetabs a { padding: 10px 8px 9px; font-size: 14px; white-space: nowrap; } }
 .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); }
 .stats > div { padding: 14px 12px; min-width: 0; }
 .stats > div + div { border-left: 1px solid var(--rule); }

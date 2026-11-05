@@ -21,15 +21,18 @@ UA = {"User-Agent": "Mozilla/5.0 (texas-forecast late-count)"}
 
 RACES = [
     # key, state, NBC page, 2024 baseline page (None: no baseline), ranked choice,
-    # late: how much of the mail/early lean the votes left carry (Alaska: calibrated so the late count moves the
-    #   margin about as much as in 2022 and 2024, roughly 1 point; the full mail lean would be ~4),
-    # left_sd: uncertainty in how many ballots are left (Mississippi: press reports of ballots left vary widely)
+    # late: how much of the mail/early lean the votes left carry. Alaska: late counts moved 2024 results by 1 to 4
+    #   points (Ballot Measure 2 led on election night and lost); 0.25-1.0 of the lean spans that.
+    # left_sd: uncertainty in how many ballots are left.
+    # counts: share of the ballots left that end up counted. Mississippi's are largely affidavit (provisional)
+    #   ballots, many of which are rejected; the state reported no 2024 affidavit or mail totals to the federal
+    #   election survey (EAVS) and keeps no statewide count, so the range is wide.
     dict(key="ms_senate", state="Mississippi", office="U.S. Senate", page="mississippi-senate-results",
-         base="mississippi-president-results", rcv=False, late=(0.0, 0.5), left_sd=0.35, unit="county"),
+         base="mississippi-president-results", rcv=False, late=(0.0, 0.5), left_sd=0.25, counts=(0.35, 1.0), unit="county"),
     dict(key="ak_senate", state="Alaska", office="U.S. Senate", page="alaska-senate-results",
-         base=None, rcv=True, late=(0.1, 0.6), left_sd=0.15, unit="district"),
+         base=None, rcv=True, late=(0.25, 1.0), left_sd=0.15, counts=(0.9, 1.0), unit="district"),
     dict(key="ak_governor", state="Alaska", office="Governor", page="alaska-governor-results",
-         base=None, rcv=True, late=(0.1, 0.6), left_sd=0.15, unit="district"),
+         base=None, rcv=True, late=(0.25, 1.0), left_sd=0.15, counts=(0.9, 1.0), unit="district"),
 ]
 PARTY = {"dem": "D", "gop": "R"}
 
@@ -133,6 +136,19 @@ def rcv(tot, cands, rng):
                     live[k] += n * frac * grp[k] / gs
 
 
+def rating(p_d, margin):
+    """Race rating from the Democrat's chance and the projected margin (points, + = D).
+    Within 1 point the race is never more than Lean: the count of rejected and late ballots alone can move that much."""
+    side = "Democratic" if p_d >= 0.5 else "Republican"
+    p = max(p_d, 1 - p_d)
+    if p < 0.65:
+        return "Toss-up"
+    level = "Safe" if p >= 0.97 else "Likely" if p >= 0.85 else "Lean"
+    if abs(margin) < 1 and level != "Lean":
+        level = "Lean"
+    return f"{level} {side}"
+
+
 def project(cfg, rng):
     pp = fetch(cfg["page"])
     cands, areas, modes, t = parse(pp)
@@ -202,6 +218,7 @@ def project(cfg, rng):
     for _ in range(N):
         g = rng.gauss(0, 0.05)                  # shared error on D vs. R share of the votes left
         tshift = max(rng.gauss(0, cfg["left_sd"]), -0.9)   # how many votes are really left
+        tshift = (1 + tshift) * rng.uniform(*cfg["counts"]) - 1   # and how many of those are accepted
         lw = rng.uniform(*cfg["late"])
         tot = dict(counted)
         for left, s in plan:
@@ -236,6 +253,7 @@ def project(cfg, rng):
         "late_lean": {n: round(x * 100, 1) for n, x in late_shift.items()} if late_shift else None,
         "late_counted": sum(late.values()),
         "win": {n: round(w / N, 4) for n, w in wins.items()},
+        "rating": rating(wins.get(D, 0) / N if D else 0, margins[N // 2]),
         "first_round": {n: {"mid": round(pct(first[n], .5), 2), "lo": round(pct(first[n], .05), 2), "hi": round(pct(first[n], .95), 2)} for n in names},
         "rcv_share": round(rcv_runs / N, 3) if cfg["rcv"] else None,
         "margin": {"mid": round(margins[N // 2], 2), "lo": round(margins[N // 20], 2), "hi": round(margins[-N // 20], 2)},
@@ -252,7 +270,7 @@ def main():
             races[cfg["key"]] = project(cfg, rng)
             r = races[cfg["key"]]
             top = max(r["win"], key=r["win"].get)
-            print(f"{cfg['key']}: {r['counted_total']:,} counted (~{r['share_in']:.0%}), {r['left_total']:,} left; "
+            print(f"{cfg['key']}: {r['rating']}; {r['counted_total']:,} counted (~{r['share_in']:.0%}), {r['left_total']:,} left; "
                   f"{top} {r['win'][top]:.1%}, margin {r['margin']['mid']:+.2f} ({r['margin']['lo']:+.2f} to {r['margin']['hi']:+.2f})")
         except Exception as e:
             errors.append(f"{cfg['key']}: {e}")
