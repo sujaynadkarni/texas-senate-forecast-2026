@@ -2,45 +2,47 @@
 {{short description|none}}<!-- "none" is preferred when the title alone is adequate; see [[WP:SDNONE]] -->
 {{for|related races|2026 United States gubernatorial elections}}
 {{Use American English|date=January 2025}}
-{{Use mdy dates|date=October 2026}}
+{{Use mdy dates|date=November 2026}}
 {{current election}}
 {{Infobox election
 | election_name = 2026 Texas gubernatorial election
 | country = Texas
 | type = presidential
 | ongoing = 
-| reporting = 89
-| last_update = 12:41 AM
+| reporting = 95
+| last_update = 8:24 AM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-governor.html |title=Texas Governor Election Results |work=[[The New York Times]] |access-date=November 4, 2026}}</ref>
 | previous_election = 2022 Texas gubernatorial election
 | previous_year = 2022
 | next_election = 2030 Texas gubernatorial election
 | next_year = 2030
 | election_date = {{start date|2026|11|03}}
+| image1 = File:Gina Hinojosa at the AFL-CIO COPE convention in 2024 (cropped).jpg
+| nominee1 = '''[[Gina Hinojosa]]'''
+| party1 = Texas Democratic Party
+| popular_vote1 = '''5,230,908'''
+| percentage1 = '''52.8%'''
 | image2 = Greg Abbott 2026.jpg
 | nominee2 = [[Greg Abbott]]
 | party2 = Republican Party of Texas
-| popular_vote2 = 4,206,670
-| percentage2 = 45.9%
-| image1 = Gina Hinojosa at LBJ Library Forum (3x4 cropped).jpg
-| nominee1 = '''[[Gina Hinojosa]]'''
-| party1 = Texas Democratic Party
-| popular_vote1 = '''4,833,851'''
-| percentage1 = '''52.7%'''
+| popular_vote2 = 4,524,948
+| percentage2 = 45.67%
 | title = [[Governor of Texas|Governor]]
 | before_election = [[Greg Abbott]]
 | before_party = Republican Party of Texas
 | after_election = [[Gina Hinojosa]]
 | after_party = Texas Democratic Party
+| map_image = 2026 Texas gubernatorial election results map by county.svg
+| map_size = 310px
+| map_caption = County results<br />'''Hinojosa:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} <br />'''Abbott:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}
 }}
 {{ElectionsTX}}
 
-The '''2026 Texas gubernatorial election''' took place on November 3, 2026, to elect the [[governor of Texas]]. [[Republican Party (United States)|Republican]] incumbent [[Greg Abbott]] was seeking a fourth term,<ref name=absolutely>{{cite web |url= https://www.texastribune.org/2025/11/09/texas-greg-abbott-reelection-campaign-governor/ |title=Gov. Greg Abbott launches reelection campaign for fourth term |date=November 9, 2025 |access-date=November 9, 2025 |publisher=[[The Texas Tribune]] |last=Gou |first=Kayla}}</ref> but was defeated by [[Democratic Party (United States)|Democratic]] state representative [[Gina Hinojosa]].<ref>{{Cite web |last=Mendoza |first=Madalyn |date=November 4, 2026 |title=Hinojosa defeats Abbott, flips Texas governor's office blue |url=https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott |access-date=November 4, 2026 |website=Axios |language=en}}</ref><ref>{{Cite web |date=November 4, 2026 |title=Texas Governor Election 2026 Live Results: Gina Hinojosa Wins |url=https://www.nbcnews.com/politics/2026-elections/texas-governor-results |access-date=November 4, 2026 |website=www.nbcnews.com |language=en}}</ref>
+The '''2026 Texas gubernatorial election''' took place on November 3, 2026, to elect the [[governor of Texas]]. [[Republican Party (United States)|Republican]] incumbent [[Greg Abbott]] was seeking a record fourth term,<ref name=absolutely>{{cite web |url= https://www.texastribune.org/2025/11/09/texas-greg-abbott-reelection-campaign-governor/ |title=Gov. Greg Abbott launches reelection campaign for fourth term |date=November 9, 2025 |access-date=November 9, 2025 |publisher=[[The Texas Tribune]] |last=Gou |first=Kayla}}</ref> but was unexpectedly defeated by [[Democratic Party (United States)|Democratic]] state representative [[Gina Hinojosa]], who will become the first Latina governor of the state and the first woman or Democrat to be elected since [[Ann Richards]] in [[1990 Texas gubernatorial election|1990]].<ref>{{Cite web |last=Mendoza |first=Madalyn |date=November 4, 2026 |title=Hinojosa defeats Abbott, flips Texas governor's office blue |url=https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott |access-date=November 4, 2026 |website=Axios |language=en}}</ref><ref>{{Cite web |date=November 4, 2026 |title=Texas Governor Election 2026 Live Results: Gina Hinojosa Wins |url=https://www.nbcnews.com/politics/2026-elections/texas-governor-results |access-date=November 4, 2026 |website=www.nbcnews.com |language=en}}</ref> Additionally, Abbott is the first incumbent governor of Texas to lose reelection since Richards' reelection bid in [[1994 Texas gubernatorial election|1994]].{{cn|date=November 2026}}
 
 [[Primary elections]] were held on March 3, 2026. Facing minimal opposition, Abbott won the Republican nomination with 82% of the vote. Hinojosa won the Democratic nomination with 59% of the vote over a field of candidates that included former congressman [[Chris Bell (politician)|Chris Bell]].
-{{toclimit|3}}
 
-Hinojosa is the first Democrat to be elected Governor of Texas since [[Ann Richards]] in [[1990 Texas gubernatorial election|1990]].
+{{toclimit|3}}
 
 ==Republican primary==
 ===Candidates=== 
@@ -135,7 +137,7 @@ Hinojosa is the first Democrat to be elected Governor of Texas since [[Ann Richa
 |}
 
 ===Results===
-[[File:2026 Republican Gubernatorial Primary Election Results.png|thumb|250px|Results by county:
+[[File:2026 Republican Gubernatorial Primary Election Results.png|thumb|310px|Results by county:
 {{collapsible list
 | title = {{legend|#C21B18|Abbott}}|{{legend|#D72F30|70–80%}}|{{legend|#C21B18|80–90%}}|{{legend|#A80000|90-100%}}|
 }}]]
@@ -217,9 +219,9 @@ Hinojosa is the first Democrat to be elected Governor of Texas since [[Ann Richa
 *Angela Villescaz, education and gun safety advocate<ref name="Filed"/><ref name=":0" />
 
 ==== Withdrawn ====
-*Ben Flores, [[Bay City, Texas|Bay City]] councilor ''([[2026 Texas Land Commissioner election|running for Land Commissioner]], endorsed Hinojosa)''<ref>{{cite web |last1=Van Hal |first1=Kavan |title=Flores exits governor race, launches bid for Texas Land Commissioner |url=https://baycitytribune.com/news/flores-exits-governor-race-launches-bid-for-texas-land-commissioner/article_4340fb0e-c1e1-417e-957f-1ee530edcc3c.html |access-date=October 21, 2025 |work=[[Bay City Tribune]] |date=October 17, 2025 |quote=Flores also announced his endorsement of State Representative Gina Hinojosa for governor.}}</ref>
+*[[Benjamin Flores (politician)|Benjamin Flores]], [[Bay City, Texas|Bay City]] councilor ''([[2026 Texas Land Commissioner election|running for Land Commissioner]], endorsed Hinojosa)''<ref>{{cite web |last1=Van Hal |first1=Kavan |title=Flores exits governor race, launches bid for Texas Land Commissioner |url=https://baycitytribune.com/news/flores-exits-governor-race-launches-bid-for-texas-land-commissioner/article_4340fb0e-c1e1-417e-957f-1ee530edcc3c.html |access-date=October 21, 2025 |work=[[Bay City Tribune]] |date=October 17, 2025 |quote=Flores also announced his endorsement of State Representative Gina Hinojosa for governor.}}</ref>
 *Nick Pappas, Marine veteran (''running for [[Denton County, Texas|Denton County]] judge)''<ref>{{Cite web|title=Democratic candidates answer questions at forum ahead of March 2026 election|url=https://www.ntdaily.com/news/democratic-candidates-answer-questions-at-forum-ahead-of-march-2026-election/article_e425d40c-90bf-4394-b817-510da22b8036.html|website=NTDaily.com|date=November 1, 2025|access-date=December 1, 2025|language=en|first=Shehzil|last=Imran}}</ref><ref>{{cite web |title=Today, I have officially filed for Denton County Judge in 2026! |url=https://www.instagram.com/p/DRf7XOCD4eK/ |website=Nick Pappas on Instagram |access-date=December 4, 2025}}</ref>
-*Andrew White, son of former Governor [[Mark White (Texas politician)|Mark White]], and candidate for governor in [[2018 Texas gubernatorial election|2018]] ''(endorsed Hinojosa)''<ref name=whitedrop>{{Cite web |last=Guo |first=Kayla |date=January 5, 2026 |title=Houston businessman Andrew White drops bid for Texas governor, endorses fellow Democrat Gina Hinojosa |url=https://www.texastribune.org/2026/01/05/andrew-white-drops-out-texas-governor-democratic-primary/ |access-date=January 5, 2025 |website=[[Texas Tribune]] |language=en-US}}</ref>
+*Andrew White, son of former governor [[Mark White (Texas politician)|Mark White]], and candidate for governor in [[2018 Texas gubernatorial election|2018]] ''(endorsed Hinojosa)''<ref name=whitedrop>{{Cite web |last=Guo |first=Kayla |date=January 5, 2026 |title=Houston businessman Andrew White drops bid for Texas governor, endorses fellow Democrat Gina Hinojosa |url=https://www.texastribune.org/2026/01/05/andrew-white-drops-out-texas-governor-democratic-primary/ |access-date=January 5, 2025 |website=[[Texas Tribune]] |language=en-US}}</ref>
 
 ==== Declined ====
 *[[Jasmine Crockett]], [[United States House of Representatives|U.S. representative]] from [[Texas's 30th congressional district]] (2023–present) ''([[2026 United States Senate election in Texas|ran for U.S. Senate]], endorsed Hinojosa)''<ref name="Lining">{{cite web |last=Wermund |first=Benjamin |date=September 18, 2025 |title=Why Texas Democrats aren't lining up to take on Greg Abbott in the midterms |url=https://www.houstonchronicle.com/politics/texas/article/greg-abbott-democrats-midterms-21043411.php |access-date=September 22, 2025 |website=[[Houston Chronicle]]}}</ref><ref name="10/15 Digest">{{cite web|url=https://www.the-downballot.com/p/morning-digest-arizona-threatens|title=Morning Digest: Arizona threatens to sue after House GOP refuses to seat Democrat|last=Nir|first=David|date=October 15, 2025|access-date=October 15, 2025}}</ref>
@@ -472,9 +474,9 @@ Hinojosa is the first Democrat to be elected Governor of Texas since [[Ann Richa
 *[[Matthew McConaughey]], actor<ref>{{cite web |last1=Zelman |first1=Kevin |title=Matthew McConaughey wants to become the Governor of Texas one day |url=https://kfoxtv.com/news/entertainment/matthew-mcconaughey-wants-to-become-the-governor-of-texas-one-day |website=KFOX14 |date=September 26, 2025 |access-date=September 26, 2025}}</ref><ref>{{Cite web |last=Marks |first=Madi |date=November 13, 2025 |title=Is Matthew McConaughey running for governor? Viral TikTok has fans dazed and confused |url=https://www.fox4news.com/news/is-matthew-mcconaughey-running-governor |access-date=December 10, 2025 |website=FOX 4 |language=en-US}}</ref>
 
 == General election ==
-{{As of|2026|October|14|df=US}}, the candidates have not held a debate together, as Abbott has declined invitations from four separate Texas-based news outlets to debate Hinojosa.<ref>{{Cite web |last=Karlis |first=Michael |date=October 14, 2026 |title=Democrat Gina Hinojosa sends terms to Abbott before impromptu debate at the Governor's Mansion |url=https://www.sacurrent.com/news/politics-and-elections/democrat-gina-hinojosa-sends-terms-to-abbott-before-impromptu-debate-at-the-governors-mansion/ |access-date=October 20, 2026 |website=San Antonio Current |language=en-US}}</ref><ref>{{Cite web |last=Guo |first=Kayla |date=October 7, 2026 |title=Texas Republicans are refusing to debate for the election |url=https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/ |access-date=October 20, 2026 |website=The Texas Tribune |language=en-US}}</ref> If no debate is held it would mark the first gubernatorial election since [[2010 Texas gubernatorial election|2010]] that has not featured a debate between the two major party candidates.<ref>{{Cite web |last1=Adler |first1=Sarah |last2=Batheja |first2=Aman |last3=Duner |first3=Alex |last4=Murphy |first4=Ryan |last5=Aaronson |first5=Becca |date=February 28, 2019 |title=A History of Texas Governor's Race Debates |url=https://www.texastribune.org/2014/08/29/governor-debate-timeline/ |access-date=October 20, 2026 |website=The Texas Tribune}}</ref>
+The election marked the first gubernatorial election since [[2010 Texas gubernatorial election|2010]] that did not feature a debate between the two major party candidates.<ref>{{Cite web |last1=Adler |first1=Sarah |last2=Batheja |first2=Aman |last3=Duner |first3=Alex |last4=Murphy |first4=Ryan |last5=Aaronson |first5=Becca |date=February 28, 2019 |title=A History of Texas Governor's Race Debates |url=https://www.texastribune.org/2014/08/29/governor-debate-timeline/ |access-date=October 20, 2026 |website=The Texas Tribune}}</ref> Hinojosa called for a debate, but Abbott declined four separate invitations from Texas-based news outlets who offered to host.<ref>{{Cite web |last=Karlis |first=Michael |date=October 14, 2026 |title=Democrat Gina Hinojosa sends terms to Abbott before impromptu debate at the Governor's Mansion |url=https://www.sacurrent.com/news/politics-and-elections/democrat-gina-hinojosa-sends-terms-to-abbott-before-impromptu-debate-at-the-governors-mansion/ |access-date=October 20, 2026 |website=San Antonio Current |language=en-US}}</ref><ref>{{Cite web |last=Guo |first=Kayla |date=October 7, 2026 |title=Texas Republicans are refusing to debate for the election |url=https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/ |access-date=October 20, 2026 |website=The Texas Tribune |language=en-US}}</ref> On October 15, Hinojosa hosted an event where she challenged Abbott to a debate in front of the [[Texas Governor's Mansion]] with an empty podium.<ref>{{Cite web |last=Koski |first=Rudy |date=October 15, 2026 |title=Texas governor's race: Greg Abbott misses debate against Gina Hinojosa |url=https://www.fox7austin.com/news/texas-governors-race-greg-abbott-misses-debate-against-gina-hinojosa |access-date=November 4, 2026 |website=FOX 7 Austin |publisher=FOX 7 Austin |language=en-US}}</ref>
 
-On the first day of early voting, Hinojosa announced that she was suing Abbott for allegedly violating the Texas Public Information Act by withholding certain email communications between Abbott and [[Elon Musk]].<ref>{{Cite web |last=Kottke |first=Joe |date=October 19, 2026 |title=Texas Democratic candidate for governor sues to review emails between Elon Musk and Greg Abbott |url=https://www.nbcnews.com/politics/2026-election/texas-democrat-gina-hinojosa-sues-review-emails-elon-musk-greg-abbott-rcna604443 |access-date=October 20, 2026 |website=NBC News |language=en}}</ref><ref>{{Cite web |last= |first= |date=October 20, 2026 |title=Hinojosa sues Abbott to see his office's emails with Elon Musk |url=https://cbsaustin.com/news/local/hinojosa-sues-abbott-to-see-his-offices-emails-with-elon-musk |access-date=October 20, 2026 |website=KEYE |language=en}}</ref> Abbott had invoked a privacy exception to redact the information describing the contents as "intimate and embarrassing." A State District Judge ruled in Hinojosa's favor on October 26, granting her access to the documents. Abbott appealed the ruling, accusing Hinojosa "abusing her official capacity as an outgoing lawmaker for political purposes."<ref>{{Cite web |last=Gainey |first=Blaise |date=October 27, 2026 |title=Gina Hinojosa wins court order to review Abbott-Musk emails, Gov. Abbott appeals |url=https://www.kut.org/politics/2026-10-27/gina-hinojosa-abbott-musk-emails-court-ruling-appeal |access-date=October 27, 2026 |website=KUT Radio, Austin's NPR Station |language=en}}</ref>
+On the first day of early voting, Hinojosa announced that she was suing Abbott for allegedly violating the Texas Public Information Act by withholding certain email communications between Abbott and [[Elon Musk]].<ref>{{Cite web |last=Kottke |first=Joe |date=October 19, 2026 |title=Texas Democratic candidate for governor sues to review emails between Elon Musk and Greg Abbott |url=https://www.nbcnews.com/politics/2026-election/texas-democrat-gina-hinojosa-sues-review-emails-elon-musk-greg-abbott-rcna604443 |access-date=October 20, 2026 |website=NBC News |language=en}}</ref><ref>{{Cite web |last= |first= |date=October 20, 2026 |title=Hinojosa sues Abbott to see his office's emails with Elon Musk |url=https://cbsaustin.com/news/local/hinojosa-sues-abbott-to-see-his-offices-emails-with-elon-musk |access-date=October 20, 2026 |website=KEYE |language=en}}</ref> Abbott had invoked a privacy exception to redact the information describing the contents as "intimate and embarrassing". A State District Judge ruled in Hinojosa's favor on October 26, granting her access to the documents. Abbott appealed the ruling, accusing Hinojosa "abusing her official capacity as an outgoing lawmaker for political purposes."<ref>{{Cite web |last=Gainey |first=Blaise |date=October 27, 2026 |title=Gina Hinojosa wins court order to review Abbott-Musk emails, Gov. Abbott appeals |url=https://www.kut.org/politics/2026-10-27/gina-hinojosa-abbott-musk-emails-court-ruling-appeal |access-date=October 27, 2026 |website=KUT Radio, Austin's NPR Station |language=en}}</ref>
 
 ===Predictions===
 {| class="wikitable" style=text-align:center
@@ -1440,17 +1442,17 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 ===Results===
 {{Election box begin 
  | title=2026 Texas gubernatorial election}}
+{{Election box winning candidate with party link 
+ | party=Democratic Party (United States)
+ | candidate=[[Gina Hinojosa]]
+ | votes= 
+ | percentage=
+ | change    = 
+}}
 {{Election box candidate with party link
  | party=Republican Party (United States)
  | candidate= [[Greg Abbott]] (incumbent)
  | votes=
- | percentage=
- | change    = 
-}}
-{{Election box candidate with party link 
- | party=Democratic Party (United States)
- | candidate=[[Gina Hinojosa]]
- | votes= 
  | percentage=
  | change    = 
 }}
@@ -1471,7 +1473,30 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
  | percentage=100.0%
  | change    = 
 }}
+{{Election box gain with party link no swing
+  |winner     = Democratic Party (United States)
+  |loser      = Republican Party (United States)
+}}
 {{Election box end}}
+
+'''Counties that flipped from Republican to Democratic'''
+*[[Bastrop County, Texas|Bastrop]] (largest municipality: [[Elgin, Texas|Elgin]])
+*[[Brazoria County, Texas|Brazoria]] (largest municipality: [[Pearland, Texas|Pearland]])
+*[[Brazos County, Texas|Brazos]] (largest municipality: [[College Station, Texas|College Station]])
+*[[Brewster County, Texas|Brewster]] (largest municipality: [[Alpine, Texas|Alpine]])
+*[[Caldwell County, Texas|Caldwell]] (largest municipality: [[Lockhart, Texas|Lockhart]])
+*[[Collin County, Texas|Collin]] (largest municipality: [[Plano, Texas|Plano]])
+*[[Culberson County, Texas|Culberson]] (largest municipality: [[Van Horn, Texas|Van Horn]])
+*[[Denton County, Texas|Denton]] (largest municipality: [[Denton, Texas|Denton]])
+*[[Frio County, Texas|Frio]] (largest municipality: [[Pearsall, Texas|Pearsall]])
+*[[Jefferson County, Texas|Jefferson]] (largest municipality: [[Beaumont, Texas|Beaumont]])
+*[[Jim Wells County, Texas|Jim Wells]] (largest municipality: [[Alice, Texas|Alice]])
+*[[Kleberg County, Texas|Kleberg]] (largest municipality: [[Kingsville, Texas|Kingsville]])
+*[[La Salle County, Texas|La Salle]] (largest municipality: [[Cotulla, Texas|Cotulla]])
+*[[Nueces County, Texas|Nueces]] (largest municipality: [[Corpus Christi, Texas|Corpus Christi]])
+*[[Tarrant County, Texas|Tarrant]] (largest municipality: [[Fort Worth, Texas|Fort Worth]])
+*[[Val Verde County, Texas|Val Verde]] (largest municipality: [[Del Rio, Texas|Del Rio]])
+*[[Zapata County, Texas|Zapata]] (largest municipality: [[Zapata, Texas|Zapata]])
 
 == See also ==
 *[[2026 United States gubernatorial elections]]
@@ -1495,6 +1520,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 {{Texas elections}}
 {{2026 United States elections}}
 
-[[Category:Texas gubernatorial elections]]
 [[Category:2026 elections in Texas|Gubernatorial]]
 [[Category:2026 United States gubernatorial elections|Texas]]
+[[Category:Greg Abbott]]
+[[Category:Texas gubernatorial elections]]

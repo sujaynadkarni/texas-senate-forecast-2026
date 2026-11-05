@@ -2,16 +2,16 @@
 {{for|related races|2026 United States Senate elections}}
 {{Distinguish|2026 Texas Senate election}}
 {{protection padlock|small=yes}}
+{{current election|date=November 2026}}
 {{Use American English|date=January 2026}}
-{{Use mdy dates|date=October 2026}}
-{{current election}}
+{{Use mdy dates|date=November 2026}}
 {{Infobox election
 | election_name = 2026 United States Senate election in Texas
 | country = Texas
 | type = presidential
-| reporting = 87
-| last_update = 12:21 PM
-| time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-us-senate.html |title=Texas U.S. Senate Election Results |work=[[The New York Times]] |access-date=November 3, 2026}}</ref>
+| reporting = 99
+| last_update = November 4, 9:11 AM
+| time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://apnews.com/projects/elections-2026/texas-us-senate-results/ |title=Texas U.S. Senate Results |work=[[Associated Press]] |access-date=November 4, 2026}}</ref>
 | previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
 | next_election = 2032 United States Senate election in Texas
@@ -21,16 +21,16 @@
 | image1 = James Talarico Press Conference (centered).jpg
 | nominee1 = '''[[James Talarico]]'''
 | party1 = Democratic Party (United States)
-| popular_vote1 = '''4,932,811'''
-| percentage1 = '''54.9%'''
+| popular_vote1 = '''5,445,121'''
+| percentage1 = '''55.1%'''
 | image2 = Ken Paxton - 55022425595 (cropped).jpg
 | nominee2 = [[Ken Paxton]]
 | party2 = Republican Party (United States)
-| popular_vote2 = 3,884,743
-| percentage2 = 43.3%
+| popular_vote2 = 4,249,752
+| percentage2 = 43.0%
 | map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results}}
 | map_size = 
-| map_caption = 
+| map_caption = '''Talarico:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} <br />'''Paxton:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}
 | title = U.S. senator
 | before_election = [[John Cornyn]]
 | before_party = Republican Party (United States)
@@ -39,11 +39,11 @@
 }}
 {{ElectionsTX}}
 
-The '''2026 United States Senate election in Texas''' was held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] won the seat, defeating [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]].<ref>{{cite web|url=https://www.nbcnews.com/politics/2026-elections/texas-senate-results|title=Texas Senate Results 2026|publisher=[[NBC News]]|access-date=November 3, 2026}}</ref><ref name=decisiodesk>{{cite new|accessdate=November 3, 2026 |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election|date=November 3, 2026 |publisher=decisiondeskhq.com|title=2026 Texas US Senate General Election}}</ref>
+The '''2026 United States Senate election in Texas''' was held on November 3, 2026, to elect the Class 2 member of the [[United States Senate]] from the state of [[Texas]]. [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] defeated [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]].
 
 Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, which led to no candidates receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
-Democrats won their first Senate election in Texas since [[1988 United States Senate election in Texas|1988]].<ref>{{Cite web|url=https://www.nbcnews.com/politics/2026-election/james-talarico-democrat-wins-texas-senate-race-ken-paxton-rcna603319|title=Democrat James Talarico turns Texas Senate seat blue, defeating Ken Paxton|date=November 4, 2026|website=NBC News}}</ref> The race was considered to be one of the most expensive non-presidential electoral races in American history, with spending by both parties surpassing half a billion dollars.
+Talarico is the first Democrat to win a Senate election in Texas since [[1988 United States Senate election in Texas|1988]]. The race was the most expensive in Senate history; Talarico raised over $146 million in campaign donations, while Paxton was primarily supported by [[political action committee]]s and national party groups, which received about $200M from [[Elon Musk]] alone, Paxton's most generous single backer.
 
 {{toclimit|4}}
 
@@ -57,7 +57,7 @@ Incumbent Republican senator [[John Cornyn]] was first elected in [[2002 United 
 [[File:Wesley Hunt, official portrait, 118th Congress (cropped).jpg|thumb|x170px|[[U.S. Representative]] [[Wesley Hunt]] finished third in the Republican primary.]]
 
 ===Background===
-Incumbent senator [[John Cornyn]], who was seeking a fifth term, faced a competitive primary from [[Texas Attorney General|attorney general]] [[Ken Paxton]] which progressed to a runoff after no candidate reached a majority in the first round. The two had clashed publicly since 2022, with Paxton criticizing Cornyn for being insufficiently conservative, particularly over his support for [[Ukraine–United States relations#Russo-Ukrainian War (2014–present)|U.S. aid to Ukraine]], the [[DREAM Act]] for [[Deferred Action for Childhood Arrivals|DACA]] beneficiaries, and for playing a leading role in the passage of the [[Bipartisan Safer Communities Act|bipartisan gun safety bill]] after the [[Uvalde school massacre]]. Cornyn, in turn, highlighted [[Ken Paxton#Legal issues|Paxton's legal troubles]], perceived character flaws and corruption, and his [[Ken Paxton#Impeachment|2023 impeachment]], in which Paxton was impeached by the Republican-controlled [[Texas House of Representatives|Texas House]] before the [[Texas Senate|Senate]] later acquitted him of all charges.<ref name="CP"/><ref>{{Cite web |last=Jacobs |first=Ben |date=May 14, 2025 |title=The Republican Trainwreck of the 2026 Election Cycle |url=https://www.politico.com/news/magazine/2025/05/14/cornyn-paxton-texas-gop-primary-infighting-00346390 |access-date=May 15, 2025 |website=Politico |language=en}}</ref><ref>{{Cite web |last=McLaughlin |first=Seth |title=Sen. Cornyn's reelection bid faces more warning signs in new Senate primary poll |url=https://www.washingtontimes.com/news/2025/jun/3/sen-john-cornyns-reelection-bid-faces-warning-signs-new-senate/ |access-date=June 5, 2025 |website=The Washington Times |date=June 3, 2025 |language=en-US}}</ref><ref>{{Cite news |last=Goodman |first=J. David |date=May 30, 2025 |title=Cornyn Calls Primary Fight Against Ken Paxton a 'Test of Character' |url=https://www.nytimes.com/2025/05/30/us/cornyn-paxton-texas-primary.html |access-date=June 29, 2025 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
+Incumbent senator [[John Cornyn]], who was seeking a fifth term, faced a competitive primary election campaign from [[Texas Attorney General|attorney general]] [[Ken Paxton]] which progressed to a runoff after no candidate reached a majority in the first round. The two had clashed publicly since 2022, with Paxton criticizing Cornyn for being insufficiently conservative, particularly over his support for [[Ukraine–United States relations#Russo-Ukrainian War (2014–present)|U.S. aid to Ukraine]], the [[DREAM Act]] for [[Deferred Action for Childhood Arrivals|DACA]] beneficiaries, and for playing a leading role in the passage of the [[Bipartisan Safer Communities Act|bipartisan gun safety bill]] after the [[Uvalde school massacre]]. Cornyn, in turn, highlighted [[Ken Paxton#Legal issues|Paxton's legal troubles]], perceived character flaws and corruption, and his [[Ken Paxton#Impeachment|2023 impeachment]], in which Paxton was impeached by the Republican-controlled [[Texas House of Representatives|Texas House]] before the [[Texas Senate|Senate]] later acquitted him of all charges.<ref name="CP"/><ref>{{Cite web |last=Jacobs |first=Ben |date=May 14, 2025 |title=The Republican Trainwreck of the 2026 Election Cycle |url=https://www.politico.com/news/magazine/2025/05/14/cornyn-paxton-texas-gop-primary-infighting-00346390 |access-date=May 15, 2025 |website=Politico |language=en}}</ref><ref>{{Cite web |last=McLaughlin |first=Seth |title=Sen. Cornyn's reelection bid faces more warning signs in new Senate primary poll |url=https://www.washingtontimes.com/news/2025/jun/3/sen-john-cornyns-reelection-bid-faces-warning-signs-new-senate/ |access-date=June 5, 2025 |website=The Washington Times |date=June 3, 2025 |language=en-US}}</ref><ref>{{Cite news |last=Goodman |first=J. David |date=May 30, 2025 |title=Cornyn Calls Primary Fight Against Ken Paxton a 'Test of Character' |url=https://www.nytimes.com/2025/05/30/us/cornyn-paxton-texas-primary.html |access-date=June 29, 2025 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
 
 The primary race was seen as a key contest between the [[Republican Party of Texas|Texas Republican Party]]'s establishment wing and its hardline conservative faction.<ref name="CP">{{Cite news |last=Gans |first=Jared |date=February 9, 2025 |title=7 competitive primaries to watch in 2026 |url=https://thehill.com/homenews/campaign/5133732-2026-midterm-elections-primaries/ |archive-url=https://web.archive.org/web/20250210030210/https://thehill.com/homenews/campaign/5133732-2026-midterm-elections-primaries/ |archive-date=February 10, 2025 |access-date=February 13, 2025 |work=The Hill |language=en-US}}</ref> In the years leading up to the election, insurgent [[Radical right (United States)|hard-right]] candidates had steadily gained ground, often ousting more traditional GOP officials. Polling reflected this divide: Paxton held a commanding lead among "[[Trumpism|Trump Movement]]" voters, while Cornyn performed better with the smaller group of "[[Reagan coalition|Traditional Republicans]]."<ref>{{Cite web |last=Jacobs |first=Ben |date=June 7, 2025 |title='Trump movement' turns on Cornyn, poll finds |url=https://www.politico.com/news/2025/06/07/john-cornyn-ken-paxton-poll-trump-movement-00393045 |access-date=June 7, 2025 |website=Politico |language=en}}</ref> On May 19, 2026, [[Donald Trump]] announced his endorsement for Paxton,<ref>{{Cite web |last=McGraw |first=Elizabeth Findell and Meridith |date=May 19, 2026 |title=Trump Endorses Ken Paxton in Tight Texas GOP Senate Race |url=https://www.wsj.com/politics/elections/trump-texas-senate-endorsement-cornyn-paxton-8e7af62d |access-date=May 19, 2026 |website=The Wall Street Journal |language=en-US}}</ref> having previously described both Paxton and Cornyn as good friends.<ref>{{Cite web |date=April 13, 2025 |title=Trump weighs in on Texas Senate race |url=https://www.wfaa.com/article/news/politics/trump-texas-senate-race-john-cornyn-ken-paxton/287-50981ce0-b6cb-4e88-a087-4f343710d4de |access-date=April 14, 2025 |website=WFAA |language=en-US}}</ref> His influence was widely seen as a key factor in determining the primary winner.<ref>{{Cite web |date=April 25, 2025 |title=There's a 'Nasty' Senate Primary Battle Brewing in Texas |url=https://www.notus.org/2026-election/texas-senate-primary-cornyn-paxton |access-date=April 25, 2025 |website=NOTUS |language=en-US}}</ref> He had previously criticized Cornyn as a "hopeless" [[RINO]] (Republican in name only) for supporting the Bipartisan Safer Communities Act, an attack Paxton's campaign highlighted in their ads.<ref>{{Cite web |last=Isenstadt |first=Alex |date=May 2, 2025 |title=Scoop: Pro-Paxton group courts Trump with anti-Cornyn ad |url=https://www.axios.com/2025/05/02/trump-ad-paxton-cornyn-texas-senate |access-date=May 2, 2025 |website=Axios |language=en}}</ref><ref>{{Cite news |title=What becomes of Republicans who cross King Donald? |url=https://www.economist.com/united-states/2025/07/06/what-becomes-of-republicans-who-cross-king-donald |access-date=July 8, 2025 |newspaper=The Economist |issn=0013-0613}}</ref> [[Ted Cruz]], the junior senator, avoided taking a side in the primary, though he previously endorsed Cornyn in [[2020 United States Senate election in Texas|2020]].<ref>{{Cite web |first1=Abby |last1=Livingston |first2=Patrick |last2=Svitek |date=December 7, 2018 |title=Ted Cruz endorses John Cornyn for re-election |url=https://www.texastribune.org/2018/12/07/cruz-cornyn-endorsement/ |access-date=June 9, 2025 |website=The Texas Tribune |language=en}}</ref>
 
@@ -100,12 +100,12 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 | list=
 ;Executive branch officials
 * [[Susan Combs]], former [[United States Secretary of the Interior|U.S. assistant secretary of the interior]] (2019–2020) and [[Texas Comptroller of Public Accounts|comptroller of Texas]] (2007–2015)<ref name="Odessa130"/>
-* [[Donald Evans]], former [[United States Secretary of Commerce|U.S. secretary of commerce]] (2001–2005)<ref name=odessaoaoa>{{Cite web |url=https://www.oaoa.com/local-news/more-than-60-west-texas-republicans-endorse-cornyn-for-reelection/ |title=More than 60 West Texas Republicans endorse Cornyn for reelection |date=January 21, 2025 |access-date=January 26, 2026 |language=en-US |work=[[Odessa American]]}}</ref>
+* [[Donald Evans]], former [[United States Secretary of Commerce|U.S. secretary of commerce]] (2001–2005)<ref name="odessaoaoa">{{Cite web |url=https://www.oaoa.com/local-news/more-than-60-west-texas-republicans-endorse-cornyn-for-reelection/ |title=More than 60 West Texas Republicans endorse Cornyn for reelection |date=January 21, 2025 |access-date=January 26, 2026 |language=en-US |work=[[Odessa American]]}}</ref>
 * [[Kay Bailey Hutchison]], former [[List of United States permanent representatives to NATO|U.S. ambassador to NATO]] (2017–2021) and [[List of United States Senators from Texas|U.S. senator from Texas]] (1993–2013)<ref>{{cite web |title=We served Texas in the Senate. Now we're backing John Cornyn |url=https://www.houstonchronicle.com/opinion/outlook/article/cornyn-gramm-hutchison-texas-senate-gop-primary-21112932.php|access-date=February 25, 2026 |language=en |date=October 22, 2025|last1=Gramm|first1=Phil|last2=Bailey Hutchison|first2=Kay|website=Houston Chronicle}}</ref>
 * [[Rick Perry]], former [[United States Secretary of Energy|U.S. secretary of energy]] (2017–2019) and [[governor of Texas]] (2000–2015)<ref name="Perry">{{cite web |last1=Perry |first1=Rick |title=Rick Perry: Why I am supporting John Cornyn in the U.S. Senate primary |url=https://www.houstonchronicle.com/opinion/outlook/article/rick-perry-endorses-john-cornyn-2025-gop-primary-20796894.php |website=[[Houston Chronicle]] |access-date=August 5, 2025 |date=August 4, 2025}}</ref>
 * [[Pamela Willeford]], former [[List of ambassadors of the United States to Switzerland and Liechtenstein|U.S. ambassador to Switzerland and Liechtenstein]] (2003–2006)<ref name="Odessa130"/>
 ;U.S. senators
-* [[John Barrasso]], [[Senate majority whip]] (2025–present) from [[Wyoming]] (2007–present)<ref name=TXendorse>{{cite web |title=John who? Texas GOP skirts Cornyn endorsement|url=https://punchbowl.news/article/campaigns/no-texas-gop-endorsement-cornyn/ |website=[[Punchbowl News]] |last1=Mutnick|first1=Ally |last2=Soellner|first2=Mica |access-date=June 27, 2025 |language=en |date=June 27, 2025}}</ref>
+* [[John Barrasso]], [[Senate majority whip]] (2025–present) from [[Wyoming]] (2007–present)<ref name="TXendorse">{{cite web |title=John who? Texas GOP skirts Cornyn endorsement|url=https://punchbowl.news/article/campaigns/no-texas-gop-endorsement-cornyn/ |website=[[Punchbowl News]] |last1=Mutnick|first1=Ally |last2=Soellner|first2=Mica |access-date=June 27, 2025 |language=en |date=June 27, 2025}}</ref>
 * [[Marsha Blackburn]], [[Tennessee]] (2019–present)<ref name="TXendorse" />
 * [[Katie Britt]], [[Alabama]] (2023–present)<ref name="KindOfNervous">{{cite web |title=Nervous Republicans rally behind Cornyn as they wait on Trump's Texas pick |url=https://www.politico.com/news/2026/03/04/trump-endorsement-texas-cornyn-paxton-00813475 |website=Politico |access-date=March 5, 2026 |language=en |date=March 4, 2026}}</ref>
 * [[Tom Cotton]], [[Arkansas]] (2015–present)<ref name="TXendorse" />
@@ -134,7 +134,7 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[Tom DeLay]], former [[House majority leader]] (2003–2005) from [[Texas's 22nd congressional district|TX-22]] (1985–2006)<ref name="Cornyn 15"/>
 * [[Jake Ellzey]], [[Texas's 6th congressional district|TX-06]] (2021–present)<ref>{{cite web |title= 'The Least Liked Out of Everybody': Republicans Suggest Wesley Hunt Stay Out of the Texas Senate Race |url= https://www.notus.org/2026-election/republicans-suggest-wesley-hunt-stay-out-of-texas-senate-race |website=[[NOTUS (website)|NOTUS]] |access-date=July 25, 2025 |language=en |date=July 25, 2025}}</ref>
 * [[Bill Flores]], former [[Texas's 17th congressional district|TX-17]] (2011–2021)<ref name="Cornyn 15"/>
-* [[Craig Goldman]], [[Texas's 12th congressional district|TX-12]] (2025–present)<ref name=Amid/>
+* [[Craig Goldman]], [[Texas's 12th congressional district|TX-12]] (2025–present)<ref name="Amid"/>
 * [[Jeb Hensarling]], former [[Texas's 5th congressional district|TX-05]] (2003–2019)<ref name="Cornyn 15"/>
 * [[French Hill (politician)|French Hill]], [[Arkansas's 2nd congressional district|AR-02]] (2015–present)<ref name="TXendorse" />
 * [[Kenny Marchant]], former [[Texas's 24th congressional district|TX-24]] (2005–2021)<ref name="Cornyn 15"/>
@@ -152,7 +152,7 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[Giovanni Capriglione]], [[Texas's 98th House of Representatives district|HD-98]] (2013–present)<ref name="CBS4"/>
 * [[Drew Darby]], [[Texas's 72nd House of Representatives district|HD-72]] (2007–present)<ref name="JanSurges">{{cite web |last1=Powell |first1=Adam |title=US Senate Texas 2026: Talarico gains LGBTQ+ backing, Cornyn touts support |url=https://www.elpasotimes.com/story/news/politics/elections/2026/01/23/us-senate-texas-2026-talarico-surges-with-new-nod-cornyn-banks-endorsements/88302522007/ |website=El Paso Times |access-date=January 24, 2026}}</ref>
 * [[Charlie Geren]], [[Texas's 99th House of Representatives district|HD-99]] (2001–present)<ref name="CBS4">{{cite web |title=Senator Cornyn endorsed by 30 current and past Republican elected leaders in DFW for his re-election bid – CBS Texas |url=https://www.cbsnews.com/texas/news/senator-cornyn-endorsed-by-30-current-and-past-republican-elected-leaders-in-dfw-for-his-re-election-bid/ |website=CBS News |access-date=November 20, 2025 |date=November 13, 2025}}</ref>
-* [[Brooks Landgraf]], former [[Texas's 81st House of Representatives district|HD-81]] (2015–present)<ref name=odessaoaoa/>
+* [[Brooks Landgraf]], former [[Texas's 81st House of Representatives district|HD-81]] (2015–present)<ref name="odessaoaoa"/>
 * [[Carl Tepper]], [[Texas's 84th House of Representatives district|HD-84]] (2023–present)<ref name="JanSurges"/>
 * [[Terry Wilson (politician)|Terry Wilson]], [[Texas's 20th House of Representatives district|HD-20]] (2017–present)<ref name="Odessa130"/>
 }}
@@ -162,7 +162,7 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[John Cyrier]], former [[Texas's 17th House of Representatives district|HD-17]] (2015–2023)<ref name="Odessa130">{{cite web |title=More than 130 prominent Central Texas Republicans endorse Cornyn for re-election |url=https://www.oaoa.com/local-news/elections/more-than-130-prominent-central-texas-republicans-endorse-cornyn-for-re-election/ |website=Odessa American |access-date=February 10, 2026 |date=February 10, 2026}}</ref>
 * [[Larry Gonzales (politician)|Larry Gonzales]], former [[Texas's 52nd House of Representatives district|HD-52]] (2011–2018)<ref name="Odessa130"/>
 * [[Stephanie Klick]], former House majority leader (2019–2021) from [[Texas's 91st House of Representatives district|HD-91]] (2013–2025)<ref name="Klick">{{cite web |title=Who's backing who in Texas' Senate GOP runoff between John Cornyn, Ken Paxton? |url=https://www.star-telegram.com/news/politics-government/state-politics/article315757671.html |website=Fort Worth Star-Telegram |access-date=May 16, 2026}}</ref>
-* [[Dee Margo]], former [[Texas's 78th House of Representatives district|HD-78]] (2011–2013) and [[List of mayors of El Paso, Texas|mayor of El Paso]] (2017–2021)<ref name="Margo">{{cite web |last1=Powell |first1=Adam |title=US Sen. John Cornyn gains major endorsements from El Paso leaders |url=https://www.usatoday.com/story/news/politics/elections/2025/12/02/us-sen-john-cornyn-receive-el-paso-support-as-gop-primary-heats-up/87565699007/ |website=USA TODAY |access-date=December 3, 2025}}</ref>
+* [[Dee Margo]], former [[Texas's 78th House of Representatives district|HD-78]] (2011–2013) and [[List of mayors of El Paso, Texas|mayor of El Paso]] (2017–2021)<ref name="Margo">{{cite web |last1=Powell |first1=Adam |title=US Sen. John Cornyn gains major endorsements from El Paso leaders |url=https://www.usatoday.com/story/news/politics/elections/2025/12/02/us-sen-john-cornyn-receive-el-paso-support-as-gop-primary-heats-up/87565699007/ |website=USA Today |access-date=December 3, 2025}}</ref>
 * [[Four Price]], former [[Texas's 87th House of Representatives district|HD-87]] (2011–2025)<ref name="JanSurges"/>
 * [[John N. Raney]], former [[Texas's 14th House of Representatives district|HD-14]] (2011–2025)<ref name="Odessa130"/>
 }}
@@ -179,8 +179,8 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 
 ;Individuals
 * [[Ayaan Hirsi Ali]], conservative activist and former member of the [[House of Representatives of the Netherlands|Dutch House of Representatives]] (2003–2006)<ref name="FX00">{{cite web |last1=Henry |first1=John |title=John Cornyn, Fort Worth Allies Take Aim at Ken Paxton |url=https://fwtx.com/news/john-cornyn-fort-worth-allies-take-aim-at-ken-paxton/ |website=Fort Worth Magazine |access-date=February 20, 2026 |language=en-us |date=February 19, 2026}}</ref>
-* [[Max Lucado]], pastor<ref>{{cite web |last1=Foley |first1=Ryan |title=Max Lucado backs John Cornyn for re-election to US Senate, praises his 'remarkable integrity' |url=https://www.christianpost.com/news/max-lucado-backs-john-cornyn-for-re-election-to-us-senate.html |website=Christian Post |access-date=February 18, 2026 |language=en |date=February 17, 2026}}</ref>
-* [[Jim McIngvale]], businessman<ref>{{cite web |title=Paxton racks up Texas endorsements as bitter Cornyn runoff hits fever pitch |url=https://www.aol.com/articles/paxton-racks-texas-endorsements-bitter-141155426.html |website=AOL.com |access-date=March 27, 2026 |date=March 19, 2026}}</ref>
+* [[Max Lucado]], pastor<ref>{{cite web |last1=Foley |first1=Ryan |title=Max Lucado backs John Cornyn for re-election to US Senate, praises his 'remarkable integrity' |url=https://www.christianpost.com/news/max-lucado-backs-john-cornyn-for-re-election-to-us-senate.html |website=The Christian Post |access-date=February 18, 2026 |language=en |date=February 17, 2026}}</ref>
+* [[Jim McIngvale]], businessman<ref>{{cite web |title=Paxton racks up Texas endorsements as bitter Cornyn runoff hits fever pitch |url=https://www.aol.com/articles/paxton-racks-texas-endorsements-bitter-141155426.html |website=AOL |access-date=March 27, 2026 |date=March 19, 2026}}</ref>
 
 ;Labor unions
 * [[Combined Law Enforcement Associations of Texas]]<ref>{{cite web |title=CLEAT Political Action Committee |url=https://www.cleat.org/services/public-affairs/cleat-pac/ |website=CLEAT |access-date=December 3, 2025}}</ref>
@@ -196,7 +196,7 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[National Association of Realtors]]<ref name="Realtors">{{cite web |title=National Realtors PAC endorses John Cornyn for re-election |url=https://www.oaoa.com/local-news/national-realtors-pac-endorses-john-cornyn-for-re-election/ |website=The Odessa American |access-date=November 20, 2025 |date=November 19, 2025}}</ref>
 * [[National Association of Home Builders]]<ref name="leadinghome"/>
 * [[National Federation of Independent Business]]<ref name="NFIB">{{cite web |last1=Powell |first1=Adam |title=Texas Senate race: Cornyn banks NFIB backing as Talarico gains Tejanos |url=https://www.elpasotimes.com/story/news/politics/elections/2026/02/03/texas-senate-race-cornyn-lands-nfib-nod-as-talarico-builds-coalition/88489362007/ |website=El Paso Times |access-date=February 4, 2026}}</ref>
-* [[National Republican Senatorial Committee]]<ref name=twotexas/>
+* [[National Republican Senatorial Committee]]<ref name="twotexas"/>
 * [[Republican Jewish Coalition]]<ref name="RJC">{{cite web |last1=Bushman |first1=Eric |title=Cornyn picks up more endorsements, narrows gap in recent polling |url=https://www.audacy.com/krld/news/politics/cornyn-picks-up-more-endorsements-narrows-gap-in-polling |website=Audacy |access-date=August 19, 2025 |date=August 19, 2025}}</ref>
 * [[Senate Leadership Fund]]<ref name="ScottCornyn"/>
 * [[Texas Alliance for Life]]<ref name="TAL">{{cite web |last1=Amy |first1=O'Donnell |title=Texas Alliance for Life Fed PAC Proudly Endorses Senator John Cornyn for Re-Election to U.S. Senate |url=https://www.texasallianceforlife.org/news/endorsement-john-cornyn-2026-senate-race/ |website=Texas Alliance for Life |access-date=August 4, 2025 |date=July 28, 2025}}</ref>
@@ -211,7 +211,7 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 
 ;Newspapers
 * ''[[Austin American-Statesman]]''<ref name="auto2">{{cite web |title=Cornyn remains the GOP's most responsible choice for U.S. Senate |url=https://www.statesman.com/opinion/editorials/article/cornyn-remains-gop-s-responsible-choice-u-s-21339983.php |website=Austin American-Statesman |access-date=February 15, 2026 |language=en |date=February 11, 2026}}</ref>
-* ''[[Dallas Morning News]]''<ref name="auto4">{{Cite web|url=https://www.dallasnews.com/opinion/we-recommend/2026/02/15/us-senate-texas-republican-primary-election/|title=We recommend for U.S. Senate, Republican primary|date=February 15, 2026|website=Dallas News}}</ref>
+* ''[[Dallas Morning News]]''<ref name="auto4">{{Cite web|url=https://www.dallasnews.com/opinion/we-recommend/2026/02/15/us-senate-texas-republican-primary-election/|title=We recommend for U.S. Senate, Republican primary|date=February 15, 2026|website=The Dallas Morning News}}</ref>
 * ''[[Fort Worth Star-Telegram]]''<ref name="auto3">{{cite web |title=Star-Telegram endorsement: Republicans' choice between Cornyn, Paxton for Senate |url=https://www.star-telegram.com/opinion/election-recommendations/article314703295.html |website=Fort Worth Star-Telegram |access-date=February 17, 2026}}</ref>
 * ''[[Houston Chronicle]]''<ref name="auto5">{{cite web |title=Do you want to win or not? Republicans should keep John Cornyn for Senate |url=https://www.houstonchronicle.com/opinion/endorsements/article/john-cornyn-wesley-hunt-ken-paxton-senate-2026-21345636.php |website=Houston Chronicle |date=February 11, 2026 |access-date=February 12, 2026}}</ref>
 * ''[[San Antonio Express-News]]''<ref name="auto1">{{cite news |title=Cornyn's experience, past pragmatism elevate him above GOP primary opponents |url=https://www.expressnews.com/opinion/editorial/article/john-cornyn-republican-primary-endorsement-21318319.php |access-date=February 1, 2026 |work=San Antonio Express-News |date=January 29, 2026}}</ref>
@@ -224,8 +224,8 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[John Rich]], [[United States special envoy]] for [[Land tenure|American landowners]] (2026–present)<ref>{{cite news |last=Nasir |first=Leena |title=John Rich Makes Endorsement In Texas Republican Senate Primary |url=https://www.aol.com/john-rich-makes-endorsement-texas-163502821.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAIfChus1uIV8AoIyeZf5veilc9OaTgtS6xPsH029sotfM1odeVJ3bY0XfG5lNUSMknKO210wNyMOFJ2FCNa8q0xkzgEVPkfmzX_Kjr7_XWOMRleCk_1QfWFieFDXu1CqtopEK4dsFoNs5FJxvkR4M1tdPo5y3sLEsbxZ8hD1hp9M |website=AOL |access-date= May 12, 2025}}</ref>
 
 ;U.S. representatives
-* [[Lance Gooden]], [[Texas's 5th congressional district|TX-05]] (2019–present)<ref name=twotexas>{{cite web |title=Two Texas Republicans throw support behind Paxton in brewing Senate fight |url=https://www.politico.com/live-updates/2025/04/10/congress/ken-paxton-john-cornyn-senate-endorsements-00007743 |first=Amanda | last=Friedman| website=[[Politico]] |access-date=April 10, 2025 |language=en |date=April 10, 2025}}</ref>
-* [[Troy Nehls]], [[Texas's 22nd congressional district|TX-22]] (2021–present)<ref name=twotexas/>
+* [[Lance Gooden]], [[Texas's 5th congressional district|TX-05]] (2019–present)<ref name="twotexas">{{cite web |title=Two Texas Republicans throw support behind Paxton in brewing Senate fight |url=https://www.politico.com/live-updates/2025/04/10/congress/ken-paxton-john-cornyn-senate-endorsements-00007743 |first=Amanda | last=Friedman| website=[[Politico]] |access-date=April 10, 2025 |language=en |date=April 10, 2025}}</ref>
+* [[Troy Nehls]], [[Texas's 22nd congressional district|TX-22]] (2021–present)<ref name="twotexas"/>
 
 ;State legislators
 * [[Anthony Kern]], former [[Arizona]]'s [[Arizona's 27th legislative district|SD-27]] (2023–2025)<ref>{{cite web |title=Turning Point Action endorsing Ken Paxton sparks backlash online |url=https://www.newsweek.com/turning-point-action-endorsing-ken-paxton-sparks-backlash-online-11493994 |website=Newsweek |access-date=February 10, 2026 |language=en |date=February 9, 2026}}</ref>
@@ -260,7 +260,7 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[Keith Self]], [[Texas's 3rd congressional district|TX-03]] (2023–present)<ref name="TXendorse" />
 
 ;Statewide officials
-* [[Greg Abbott]], [[governor of Texas]] (2015–present)<ref>{{cite web |last1=Rosiles |first1=Mateo |title=Greg Abbott rules out endorsement in Cornyn vs. Paxton Senate runoff |url=https://www.usatoday.com/story/news/politics/elections/2026/05/15/abbott-wont-endorse-cornyn-or-paxton-in-texas-senate-runoff/90095973007/ |website=USA TODAY |access-date=May 16, 2026}}</ref>
+* [[Greg Abbott]], [[governor of Texas]] (2015–present)<ref>{{cite web |last1=Rosiles |first1=Mateo |title=Greg Abbott rules out endorsement in Cornyn vs. Paxton Senate runoff |url=https://www.usatoday.com/story/news/politics/elections/2026/05/15/abbott-wont-endorse-cornyn-or-paxton-in-texas-senate-runoff/90095973007/ |website=USA Today |access-date=May 16, 2026}}</ref>
 * [[Dan Patrick (politician)|Dan Patrick]], [[lieutenant governor of Texas]] (2015–present)<ref name="PatrickDecline">{{cite web |last1=Birenbaum |first1=Gabby |title=Ken Paxton defeats John Cornyn for U.S. Senate GOP nomination |url=https://www.texastribune.org/2026/05/26/texas-john-cornyn-ken-paxton-us-senate-republican-primary-runoff/ |website=[[The Texas Tribune]] |language=en |date=May 26, 2026 |quote=Texas' top statewide elected officials, including Sen. Ted Cruz, Gov. Greg Abbott and Lt. Gov. Dan Patrick, stayed mum on the race.}}</ref>
 
 ;State legislators
@@ -592,7 +592,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |{{sdash}}
 |24%
 |-
-|style="text-align:left;"|[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name=McLDec>{{cite web |title=Wesley Hunt Leads in Head-to-Head Ballots for U.S. Senate |url=https://punchbowl.news/tx_statewide_gop_senate_executive_summary_-_12-5-25/ |first1=Jim |last1=McLaughlin |first2=Patrick |last2=Shaw |work=McLaughlin & Associates |date=December 5, 2025 |access-date=December 9, 2025}}</ref>{{efn-ua|name=SFT}}
+|style="text-align:left;"|[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name="McLDec">{{cite web |title=Wesley Hunt Leads in Head-to-Head Ballots for U.S. Senate |url=https://punchbowl.news/tx_statewide_gop_senate_executive_summary_-_12-5-25/ |first1=Jim |last1=McLaughlin |first2=Patrick |last2=Shaw |work=McLaughlin & Associates |date=December 5, 2025 |access-date=December 9, 2025}}</ref>{{efn-ua|name=SFT}}
 |December 1–4, 2025
 |800 (LV)
 |±{{nbsp}}3.4%
@@ -652,7 +652,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |{{sdash}}
 |13%
 |-
-|style="text-align:left;"|Ragnar Research Partners (R)<ref name=MutnickNov>{{cite tweet |title=New: @Senate_Fund releases dueling #TXSEN polling that shows a much better picture for John Cornyn|user=allymutnick|number=1993035706709758221|first1=Ally|last1=Mutnick|access-date=November 25, 2025}}</ref>{{efn-ua|name=SLF}}
+|style="text-align:left;"|Ragnar Research Partners (R)<ref name="MutnickNov">{{cite tweet |title=New: @Senate_Fund releases dueling #TXSEN polling that shows a much better picture for John Cornyn|user=allymutnick|number=1993035706709758221|first1=Ally|last1=Mutnick|access-date=November 25, 2025}}</ref>{{efn-ua|name=SLF}}
 |November 13–16, 2025
 |758 (LV)
 |±{{nbsp}}4.0%
@@ -732,7 +732,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |{{sdash}}
 |18%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025">{{Cite web|url=https://www.uttyler.edu/academics/colleges-schools/arts-sciences/departments/political-science/files/topline-report-of-texas-voters-revised-september-2025.pdf|title=Topline Report of Texas Voters|website=[[University of Texas at Tyler]]|date=October 21, 2025|access-date=October 21, 2025}}</ref>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025">{{Cite web|url=https://www.uttyler.edu/academics/colleges-schools/arts-sciences/departments/political-science/files/topline-report-of-texas-voters-revised-september-2025.pdf|title=Topline Report of Texas Voters|website=[[University of Texas at Tyler]]|date=October 21, 2025|access-date=October 21, 2025}}</ref>
 |September 17–24, 2025
 |492 (RV)
 |±{{nbsp}}3.1%
@@ -886,7 +886,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 |{{sdash}}
 |15%
 |-
-|style="text-align:left;"|[[V. Lance Tarrance Jr.|The Tarrance Group]] (R)<ref name=SLFPAC/>{{efn-ua|name=SLF}}
+|style="text-align:left;"|[[V. Lance Tarrance Jr.|The Tarrance Group]] (R)<ref name="SLFPAC"/>{{efn-ua|name=SLF}}
 |April 27 – May 1, 2025
 |{{sdash}}
 |{{sdash}}
@@ -1039,15 +1039,15 @@ In the days leading up to the March 3 primary, Paxton suggested he could win out
 === Runoff ===
 
 ==== Campaign ====
-Political observers described the runoff campaign between Paxton and Cornyn as "vile" and "brutal", featuring almost exclusively negative advertising from both sides.<ref>{{Cite web |last=Dallas Morning News Editorial Board |date=May 12, 2026 |title=The vile unreality of Ken Paxton, John Cornyn, Mayes Middleton and Chip Roy |url=https://www.dallasnews.com/opinion/editorials/article/vile-unreality-paxton-cornyn-middleton-roy-22253446.php |access-date=May 12, 2026 |website=Dallas News |language=en}}</ref><ref name=":8">{{Cite web |last=Guo |first=Kayla |date=May 14, 2026 |title=Cornyn and Paxton go scorched earth in Senate GOP runoff |url=https://www.texastribune.org/2026/05/14/texas-us-senate-gop-runoff-cornyn-paxton-attack-ads-spending/ |access-date=May 14, 2026 |website=The Texas Tribune |language=en-US}}</ref> Cornyn repeatedly attacked Paxton's character, especially regarding alleged [[infidelity]] towards his wife, state senator [[Angela Paxton]], who had filed for divorce on "biblical grounds", and compared his ethics to that of a "strip club owner."<ref>{{Cite web |last=Morton |first=Joseph |date=May 8, 2026 |title=John Cornyn campaign has sharp Mother's Day message for Ken Paxton |url=https://www.dallasnews.com/news/politics/article/john-cornyn-sends-ken-paxton-mother-s-day-22249024.php |access-date=May 12, 2026 |website=Dallas News |language=en}}</ref><ref name=":7">{{Cite web |last=Zimmermann |first=David |date=May 8, 2026 |title=Cornyn compares Paxton's ethics to a strip club owner's |url=https://www.washingtonexaminer.com/news/campaigns/congressional/4561007/texas-senate-primary-cornyn-paxton-strip-club/ |access-date=May 12, 2026 |website=Washington Examiner |language=en-US}}</ref> He also highlighted the political scandals that have plagued Paxton's career, including his [[Ken Paxton#Texas House investigation and impeachment|2023 impeachment]] by the [[Texas House of Representatives]], framing him as corrupt and unfit for political office.<ref>{{Cite web |last=Solomon |first=Dan |date=May 11, 2026 |title=John Cornyn's Inexplicably Deep-Lore Campaign Against Ken Paxton |url=https://www.texasmonthly.com/news-politics/john-cornyn-obscure-campaign-ken-paxton/ |access-date=May 12, 2026 |website=The Texan}}</ref> Paxton continued to frame Cornyn as insufficiently loyal to Donald Trump.<ref name=":7" /><ref>{{Cite web |last=Dearman |first=Eleanor |date=April 24, 2026 |title=Sen. John Cornyn is 'not a Trump guy,' AG Ken Paxton tells Grapevine Republicans |url=https://www.star-telegram.com/news/politics-government/state-politics/article315516064.html |access-date=May 12, 2026 |website=[[Fort Worth Star-Telegram]]}}</ref> His office also drew scrutiny over a sharp increase in publicly-announced lawsuits made in his capacity as [[Texas Attorney General|attorney general]] since announcing his Senate run and especially in the months immediately before the March primary. A sizeable number of these actions focused on issues salient to conservative voters, including [[Immigration policy in Texas|immigration]], [[Islam]], [[DEI]], [[student protest]]s, and elections, drawing accusations that he used his office to energize his voter base and boost his campaign ahead of the runoff.<ref>{{Cite web|last1=Brooks Harper|first1=Karen|last2=Jankowski|first2=Philip |date=May 14, 2026 |title=As Cornyn-Paxton race heats up, AG's public investigations surge |url=https://www.dallasnews.com/news/politics/article/cornyn-paxton-senate-race-heats-up-ag-public-22253455.php |access-date=May 20, 2026 |website=Dallas News |language=en}}</ref>
+Political observers described the runoff campaign between Paxton and Cornyn as "vile" and "brutal", featuring almost exclusively negative advertising from both sides.<ref>{{Cite web |last=Dallas Morning News Editorial Board |date=May 12, 2026 |title=The vile unreality of Ken Paxton, John Cornyn, Mayes Middleton and Chip Roy |url=https://www.dallasnews.com/opinion/editorials/article/vile-unreality-paxton-cornyn-middleton-roy-22253446.php |access-date=May 12, 2026 |website=The Dallas Morning News |language=en}}</ref><ref name=":8">{{Cite web |last=Guo |first=Kayla |date=May 14, 2026 |title=Cornyn and Paxton go scorched earth in Senate GOP runoff |url=https://www.texastribune.org/2026/05/14/texas-us-senate-gop-runoff-cornyn-paxton-attack-ads-spending/ |access-date=May 14, 2026 |website=The Texas Tribune |language=en-US}}</ref> Cornyn repeatedly attacked Paxton's character, especially regarding alleged [[infidelity]] towards his wife, state senator [[Angela Paxton]], who had filed for divorce on "biblical grounds", and compared his ethics to that of a "strip club owner."<ref>{{Cite web |last=Morton |first=Joseph |date=May 8, 2026 |title=John Cornyn campaign has sharp Mother's Day message for Ken Paxton |url=https://www.dallasnews.com/news/politics/article/john-cornyn-sends-ken-paxton-mother-s-day-22249024.php |access-date=May 12, 2026 |website=The Dallas Morning News |language=en}}</ref><ref name=":7">{{Cite web |last=Zimmermann |first=David |date=May 8, 2026 |title=Cornyn compares Paxton's ethics to a strip club owner's |url=https://www.washingtonexaminer.com/news/campaigns/congressional/4561007/texas-senate-primary-cornyn-paxton-strip-club/ |access-date=May 12, 2026 |website=Washington Examiner |language=en-US}}</ref> He also highlighted the political scandals that have plagued Paxton's career, including his [[Ken Paxton#Texas House investigation and impeachment|2023 impeachment]] by the [[Texas House of Representatives]], framing him as corrupt and unfit for political office.<ref>{{Cite web |last=Solomon |first=Dan |date=May 11, 2026 |title=John Cornyn's Inexplicably Deep-Lore Campaign Against Ken Paxton |url=https://www.texasmonthly.com/news-politics/john-cornyn-obscure-campaign-ken-paxton/ |access-date=May 12, 2026 |website=Texas Monthly}}</ref> Paxton continued to frame Cornyn as insufficiently loyal to Donald Trump.<ref name=":7" /><ref>{{Cite web |last=Dearman |first=Eleanor |date=April 24, 2026 |title=Sen. John Cornyn is 'not a Trump guy,' AG Ken Paxton tells Grapevine Republicans |url=https://www.star-telegram.com/news/politics-government/state-politics/article315516064.html |access-date=May 12, 2026 |website=[[Fort Worth Star-Telegram]]}}</ref> His office also drew scrutiny over a sharp increase in publicly-announced lawsuits made in his capacity as [[Texas Attorney General|attorney general]] since announcing his Senate run and especially in the months immediately before the March primary. A sizeable number of these actions focused on issues salient to conservative voters, including [[Immigration policy in Texas|immigration]], [[Islam]], [[DEI]], [[student protest]]s, and elections, drawing accusations that he used his office to energize his voter base and boost his campaign ahead of the runoff.<ref>{{Cite web|last1=Brooks Harper|first1=Karen|last2=Jankowski|first2=Philip |date=May 14, 2026 |title=As Cornyn-Paxton race heats up, AG's public investigations surge |url=https://www.dallasnews.com/news/politics/article/cornyn-paxton-senate-race-heats-up-ag-public-22253455.php |access-date=May 20, 2026 |website=The Dallas Morning News |language=en}}</ref>
 
-The runoff significantly fractured both the Republican electorate and officeholders in the state, many of whom worried that the money spent and political attacks exchanged during the contest could benefit Democratic nominee [[James Talarico]]. Talarico won his primary outright, avoiding a runoff and allowing him to shift his focus to the general election early.<ref name=":8" /><ref>{{Cite web |last=Moritz |first=John C. |date=May 10, 2026 |title=From Hallmark to hardball: John Cornyn and Ken Paxton go scorched earth |url=https://www.statesman.com/news/columns/article/texas-senate-paxton-cornyn-republican-runoff-22249941.php |access-date=May 12, 2026 |website=Austin American-Statesman |language=en}}</ref> [[Lieutenant Governor of Texas|Lieutenant governor]] [[Dan Patrick (politician)|Dan Patrick]] even warned that a depressed Republican turnout could jeopardize Republican control of the Texas House, though most others dismissed that as extremely unlikely, with many Republicans still expressing confidence that both Paxton and Cornyn could win the general election.<ref>{{Cite web |last=Serrano |first=Alejandro |date=April 8, 2026 |title=Dan Patrick says GOP will have "tough time" holding Texas House |url=https://www.texastribune.org/2026/04/08/texas-house-dan-patrick-gop-majority-2026-midterms-cornyn-paxton/ |access-date=May 12, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite web |last=Svitek |first=Patrick |date=April 30, 2026 |title='It's a mess': With no Trump endorsement in Texas Senate race, Cornyn and Paxton are locked in an expensive brawl |url=https://www.cnn.com/2026/04/30/politics/texas-senate-runoff-john-cornyn-ken-paxton-donald-trump |access-date=May 20, 2026 |website=CNN |language=en}}</ref><ref>{{Cite web|last1=James |first1=Julia |last2=Jankowski |first2=Philip |date=May 4, 2026 |title=Texas House fight likely narrows to few districts despite chatter of shakeup this year |url=https://www.dallasnews.com/news/politics/article/control-texas-house-likely-narrows-districts-22230082.php |access-date=May 20, 2026 |website=Dallas News |language=en}}</ref>
+The runoff significantly fractured both the Republican electorate and officeholders in the state, many of whom worried that the money spent and political attacks exchanged during the contest could benefit Democratic nominee [[James Talarico]]. Talarico won his primary outright, avoiding a runoff and allowing him to shift his focus to the general election early.<ref name=":8" /><ref>{{Cite web |last=Moritz |first=John C. |date=May 10, 2026 |title=From Hallmark to hardball: John Cornyn and Ken Paxton go scorched earth |url=https://www.statesman.com/news/columns/article/texas-senate-paxton-cornyn-republican-runoff-22249941.php |access-date=May 12, 2026 |website=Austin American-Statesman |language=en}}</ref> [[Lieutenant Governor of Texas|Lieutenant governor]] [[Dan Patrick (politician)|Dan Patrick]] even warned that a depressed Republican turnout could jeopardize Republican control of the Texas House, though most others dismissed that as extremely unlikely, with many Republicans still expressing confidence that both Paxton and Cornyn could win the general election.<ref>{{Cite web |last=Serrano |first=Alejandro |date=April 8, 2026 |title=Dan Patrick says GOP will have "tough time" holding Texas House |url=https://www.texastribune.org/2026/04/08/texas-house-dan-patrick-gop-majority-2026-midterms-cornyn-paxton/ |access-date=May 12, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite web |last=Svitek |first=Patrick |date=April 30, 2026 |title='It's a mess': With no Trump endorsement in Texas Senate race, Cornyn and Paxton are locked in an expensive brawl |url=https://www.cnn.com/2026/04/30/politics/texas-senate-runoff-john-cornyn-ken-paxton-donald-trump |access-date=May 20, 2026 |website=CNN |language=en}}</ref><ref>{{Cite web|last1=James |first1=Julia |last2=Jankowski |first2=Philip |date=May 4, 2026 |title=Texas House fight likely narrows to few districts despite chatter of shakeup this year |url=https://www.dallasnews.com/news/politics/article/control-texas-house-likely-narrows-districts-22230082.php |access-date=May 20, 2026 |website=The Dallas Morning News |language=en}}</ref>
 
 Despite speculation following his first-place primary finish that Trump would endorse Cornyn, Trump did not endorse either candidate by the March 17 withdrawal deadline. Republicans had hoped the non-endorsed candidate would exit to avoid a costly runoff and allow the nominee to focus on the general election. However, Paxton refused to withdraw unless the Senate eliminated the [[filibuster]] to pass the [[SAVE America Act]]. Meanwhile, Cornyn, previously a staunch defender of the filibuster, signaled openness to reforming or bypassing it, as Trump indicated his endorsement could hinge on the bill's passage.<ref>{{Cite web |last=Birenbaum |first=Gabby |date=March 17, 2026 |title=Cornyn, Paxton locked in for runoff ballot after deadline |url=https://www.texastribune.org/2026/03/17/texas-senate-gop-primary-runoff-deadline-remove-name-from-ballot-cornyn-paxton/ |access-date=March 18, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite web |last=Diamante |first=Reena |date=March 18, 2026 |title=Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race |url=https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/03/18/texas-senate-gop-primary-runoff-filibuster- |access-date=March 18, 2026 |website=spectrumlocalnews.com |language=en}}</ref> Both candidates continued to court Trump's endorsement to consolidate support from the party, but Trump remained neutral in the race over two months after initially signaling his intention to endorse one of them.<ref>{{Cite web |last=Schwager |first=Adam |date=May 9, 2026 |title=Trump on endorsing Cornyn or Paxton in Texas Senate runoff: 'I'll make a decision' |url=https://thehill.com/homenews/nexstar_media_wire/5870665-trump-on-endorsing-cornyn-or-paxton-in-texas-senate-runoff-ill-make-a-decision/?tbref=hp |access-date=May 12, 2026 |website=The Hill}}</ref> This jockeying included policy-related moves as well as superficial ones, such as a bill introduced by Cornyn to designate [[U.S. Route 287]] as Interstate 47 to honor Trump.<ref>{{Cite web |last=Ardary |first=Steven |date=May 12, 2026 |title=Cornyn moves to honor Trump with Highway 287 renaming bill |url=https://www.fox26houston.com/news/cornyn-trump-interstate-highway-287 |access-date=May 14, 2026 |website=FOX 26 |language=en-US}}</ref>
 
 On May 19, one week before the runoff, Trump announced his endorsement of Ken Paxton.<ref>{{Cite web |last=Bowman |first=Bridget |date=May 19, 2026 |title=Trump endorses Ken Paxton over Sen. John Cornyn ahead of Texas Republican Senate runoff |url=https://www.nbcnews.com/politics/2026-election/trump-endorses-ken-paxton-sen-john-cornyn-ahead-texas-republican-senat-rcna345898 |access-date=May 19, 2026 |website=[[NBC News]] |language=en-US}}</ref> U.S. representative [[Wesley Hunt]], who finished third in the first round of the primary, also endorsed Paxton that day.<ref name="Hunt"/>
 
-Following the runoff, Cornyn indicated tacit support for Paxton, saying he would vote for him and would back the Republican ticket but would not actively campaign for him.<ref name=Cornyn>{{Cite web |last=Touchberry |first=Ramsey |date=June 9, 2026 |title=Cornyn says he won't campaign for Paxton in Texas Senate race |url=https://www.washingtonexaminer.com/news/campaigns/congressional/4601401/cornyn-paxton-texas-senate-campaign-talarico/ |access-date=June 11, 2026 |website=Washington Examiner |language=en-US}}</ref>
+Following the runoff, Cornyn indicated tacit support for Paxton, saying he would vote for him and would back the Republican ticket but would not actively campaign for him.<ref name="Cornyn">{{Cite web |last=Touchberry |first=Ramsey |date=June 9, 2026 |title=Cornyn says he won't campaign for Paxton in Texas Senate race |url=https://www.washingtonexaminer.com/news/campaigns/congressional/4601401/cornyn-paxton-texas-senate-campaign-talarico/ |access-date=June 11, 2026 |website=Washington Examiner |language=en-US}}</ref>
 
 ==== Runoff endorsements ====
 {{Endorsements box
@@ -1109,7 +1109,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 * [[Eli Crane]], [[Arizona's 2nd congressional district|AZ-02]] (2023–present)<ref name="Klick"/> ''(previously endorsed Hunt)''<ref name="Crane11">{{cite web |last1=Altimari |first1=Daniela |title=Texas Rep. Wesley Hunt joins contentious Republican primary for Senate |url=https://rollcall.com/2025/10/06/texas-senate-election-wesley-hunt/ |website=Roll Call |access-date=October 24, 2025 |date=October 6, 2025}}</ref>
 * [[Brandon Gill]], [[Texas's 26th congressional district|TX-26]] (2025–present)<ref>{{cite web |title=Rep. Brandon Gill Throws Support Behind Ken Paxton In High Stakes Runoff Against Cornyn |url=https://dallasexpress.com/state/rep-brandon-gill-throws-support-behind-ken-paxton-in-high-stakes-runoff-against-cornyn/ |website=Dallas Express |access-date=April 3, 2026 |language=en |date=April 2, 2026}}</ref>
 * [[Wesley Hunt]], [[Texas's 38th congressional district|TX-38]] (2023–present) and former candidate for this seat<ref name="Hunt">{{cite web |last1=Birenbaum |first1=Gabby |title=Trump endorses Ken Paxton in Senate GOP runoff |url=https://www.texastribune.org/2026/05/19/donald-trump-ken-paxton-endorsement-texas-senate-gop-primary-runoff-cornyn/ |website=[[Texas Tribune]] |date=May 19, 2026 |access-date=May 19, 2026}}</ref>
-* [[Ronny Jackson]], [[Texas's 13th congressional district|TX-13]] (2021–present)<ref>{{Cite tweet |author=Ken Paxton |user=KenPaxtonTX |number=2057803073464988048 |date=May 22, 2026 |title= I am honored to have the support of Congressman @RonnyJacksonTX! Ronny has consistently fought for President Trump and delivered victory after victory for Texans.}}</ref>
+* [[Ronny Jackson]], [[Texas's 13th congressional district|TX-13]] (2021–present)<ref>{{Cite tweet |last=Paxton |first=Ken |user=KenPaxtonTX |number=2057803073464988048 |date=May 22, 2026 |title= I am honored to have the support of Congressman @RonnyJacksonTX! Ronny has consistently fought for President Trump and delivered victory after victory for Texans.}}</ref>
 * [[Burgess Owens]], [[UT-04]] (2021–present)<ref name="burg">{{cite web |last1=Katz |first1=Michael |title=Paxton gains endorsement in Texas Senate race |url=https://www.msn.com/en-us/news/politics/paxton-gains-endorsement-in-texas-senate-race/ar-AA20rCPQ |website=MSN |access-date=April 10, 2026}}</ref>
 
 '''State legislators'''
@@ -1167,7 +1167,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |$5,257,561
 |$2,342,950
 |-
-! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC">{{cite web |title=2026 Election United States House – Texas |url=https://www.fec.gov/data/elections/senate/TX/2026/ |website=fec.gov |publisher=[[Federal Election Commission]] |access-date=May 12, 2026}}</ref></small>
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC">{{cite web |title=2026 Election United States House – Texas |url=https://www.fec.gov/data/elections/senate/TX/2026/ |website=Federal Election Commission |publisher=[[Federal Election Commission]] |access-date=May 12, 2026}}</ref></small>
 |}
 
 ==== Polling ====
@@ -1489,7 +1489,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |{{sdash}}
 |23%
 |-
-| style="text-align:left;" |[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name=McLDec/>{{efn-ua|name=SFT|Poll sponsored by Standing For Texas, who support Hunt<ref>{{cite web |last1=Choi |first1=Matthew |title=Texas congressman Wesley Hunt praised in statewide ads |url=https://www.texastribune.org/2025/03/26/texas-congress-wesley-hunt-john-cornyn-political-ads/ |website=The Texas Tribune |access-date=December 9, 2025 |date=March 26, 2025}}</ref>}}
+| style="text-align:left;" |[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name="McLDec"/>{{efn-ua|name=SFT|Poll sponsored by Standing For Texas, who support Hunt<ref>{{cite web |last1=Choi |first1=Matthew |title=Texas congressman Wesley Hunt praised in statewide ads |url=https://www.texastribune.org/2025/03/26/texas-congress-wesley-hunt-john-cornyn-political-ads/ |website=The Texas Tribune |access-date=December 9, 2025 |date=March 26, 2025}}</ref>}}
 |December 1–4, 2025
 |800 (LV)
 |±{{nbsp}}3.4%
@@ -1507,7 +1507,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |{{sdash}}
 |22%
 |-
-| style="text-align:left;" |Ragnar Research Partners (R)<ref name=MutnickNov />{{efn-ua|name=SLF}}
+| style="text-align:left;" |Ragnar Research Partners (R)<ref name="MutnickNov" />{{efn-ua|name=SLF}}
 |November 13–16, 2025
 |758 (LV)
 |±{{nbsp}}4.0%
@@ -1723,7 +1723,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |{{sdash}}
 |13%
 |-
-| style="text-align:left;" |[[V. Lance Tarrance Jr.|The Tarrance Group]] (R)<ref name=SLFPAC>{{cite news |last1=Mutnick |first1=Ally |title=SLF poll shows Cornyn getting creamed by Paxton |url=https://punchbowl.news/article/campaigns/cornyn-getting-beat-in-new-poll/ |access-date=May 12, 2025 |work=[[Punchbowl News]] |date=May 12, 2025}}</ref>{{efn-ua|name=SLF|Poll sponsored by the [[Senate Leadership Fund]], which supports Cornyn}}
+| style="text-align:left;" |[[V. Lance Tarrance Jr.|The Tarrance Group]] (R)<ref name="SLFPAC">{{cite news |last1=Mutnick |first1=Ally |title=SLF poll shows Cornyn getting creamed by Paxton |url=https://punchbowl.news/article/campaigns/cornyn-getting-beat-in-new-poll/ |access-date=May 12, 2025 |work=[[Punchbowl News]] |date=May 12, 2025}}</ref>{{efn-ua|name=SLF|Poll sponsored by the [[Senate Leadership Fund]], which supports Cornyn}}
 |April 27 – May 1, 2025
 |{{sdash}}
 |{{sdash}}
@@ -1851,7 +1851,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |39%
 |15%
 |-
-|style="text-align:left;"|[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name=McLDec/>{{efn-ua|name=SFT}}
+|style="text-align:left;"|[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name="McLDec"/>{{efn-ua|name=SFT}}
 |December 1–4, 2025
 |800 (LV)
 |±{{nbsp}}3.4%
@@ -1875,7 +1875,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |34%
 |16%
 |-
-|style="text-align:left;|Stratus Intelligence (R)<ref name="StratusSept2025"/>{{efn-ua|name=proHunt}}
+|style="text-align:left;"|Stratus Intelligence (R)<ref name="StratusSept2025"/>{{efn-ua|name=proHunt}}
 |September 14–16, 2025
 |842 (V)
 |{{sdash}}
@@ -1943,7 +1943,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 |33%
 |23%
 |-
-|style="text-align:left;"|[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name=McLDec/>{{efn-ua|name=SFT}}
+|style="text-align:left;"|[[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref name="McLDec"/>{{efn-ua|name=SFT}}
 |December 1–4, 2025
 |800 (LV)
 |±{{nbsp}}3.4%
@@ -2018,18 +2018,18 @@ Paxton defeated Cornyn with 64% of the runoff vote, becoming the first challenge
 [[File:Rep. Jasmine Crockett - 118th Congress (cropped 3x4).jpg|thumb|170x170px|[[U.S. Representative]] [[Jasmine Crockett]] finished second in the Democratic primary.]]
 
 === Background ===
-Democrats, who have not won a statewide election in Texas since [[1994 Texas lieutenant gubernatorial election|1994]], see an opening in the state due to the bitter and divisive primary fight in the Republican side, a potential midterm backlash against the [[Second Trump presidency|Trump administration]], negative approval ratings for President Trump in Texas, as well as recent polling numbers showing competitive matchups.<ref>{{cite web | url=https://www.ktsm.com/news/texas-politics/state-of-texas-republicans-announce-campaigns-democrats-plot-strategy-for-2026/ | title=State of Texas: Republicans announce campaigns, Democrats plot strategy for 2026 | work=KTSM 9 News | date=June 28, 2025 }}</ref><ref>{{Cite web |date=June 27, 2025 |title=Democrats Allred, Castro, O'Rourke, Talarico meet to discuss 2026 options |url=https://www.dallasnews.com/news/politics/2025/06/26/democrats-allred-castro-orourke-talarico-meet-to-discuss-2026-options/ |access-date=June 29, 2025 |website=Dallas News |language=en}}</ref><ref>{{Cite web |date=June 26, 2025 |title=Donald Trump's approval rating goes negative in Texas |url=https://www.newsweek.com/donald-trump-approval-rating-negative-texas-2091135 |access-date=June 29, 2025 |website=Newsweek |language=en}}</ref><ref>{{Cite web |last=Guo |first=Kayla |date=June 16, 2025 |title=Here are some of the Texas Democrats eyeing statewide runs in 2026 |url=https://www.texastribune.org/2025/06/16/texas-democrats-candidates-2026-midterms-senate-governor/ |access-date=June 29, 2025 |website=The Texas Tribune |language=en}}</ref>
+Democrats, who have not won a statewide election in Texas since [[1994 Texas lieutenant gubernatorial election|1994]], see an opening in the state due to the bitter and divisive primary fight in the Republican side, a potential midterm backlash against the [[Second Trump presidency|Trump administration]], negative approval ratings for President Trump in Texas, as well as recent polling numbers showing competitive matchups.<ref>{{cite web | url=https://www.ktsm.com/news/texas-politics/state-of-texas-republicans-announce-campaigns-democrats-plot-strategy-for-2026/ | title=State of Texas: Republicans announce campaigns, Democrats plot strategy for 2026 | work=KTSM 9 News | date=June 28, 2025 }}</ref><ref>{{Cite web |date=June 27, 2025 |title=Democrats Allred, Castro, O'Rourke, Talarico meet to discuss 2026 options |url=https://www.dallasnews.com/news/politics/2025/06/26/democrats-allred-castro-orourke-talarico-meet-to-discuss-2026-options/ |access-date=June 29, 2025 |website=The Dallas Morning News |language=en}}</ref><ref>{{Cite web |date=June 26, 2025 |title=Donald Trump's approval rating goes negative in Texas |url=https://www.newsweek.com/donald-trump-approval-rating-negative-texas-2091135 |access-date=June 29, 2025 |website=Newsweek |language=en}}</ref><ref>{{Cite web |last=Guo |first=Kayla |date=June 16, 2025 |title=Here are some of the Texas Democrats eyeing statewide runs in 2026 |url=https://www.texastribune.org/2025/06/16/texas-democrats-candidates-2026-midterms-senate-governor/ |access-date=June 29, 2025 |website=The Texas Tribune |language=en}}</ref>
 
 [[Colin Allred]], who unsuccessfully ran against incumbent Republican senator [[Ted Cruz]] in [[2024 United States Senate election in Texas|2024]], exited the race on December 8, 2025, which precipitated [[Jasmine Crockett]]'s entry into the race.<ref>{{Cite web |last=Fields |first=Ashleigh |date=December 9, 2025 |title=Allred says he dropped Senate bid after 'professional, friendly conversation' with Crockett |url=https://thehill.com/homenews/campaign/5640369-allred-crockett-texas-congressional-race/ |access-date=December 9, 2025 |website=The Hill |language=en}}</ref>
 
 === Campaign ===
-[[File:¡Viva_Democracy!_Awesome_turnout_last_night_at_the_James_Talarico_Rally_at_The_Backyard.jpg|thumb|A Talarico rally at The Backyard in [[San Antonio]]]]
+[[File:¡Viva Democracy! Awesome turnout last night at the James Talarico Rally at The Backyard.jpg|thumb|A Talarico rally at The Backyard in [[San Antonio]]]]
 
 Crockett entered the race with high name recognition and strong polling numbers, but her launch on the last day to file meant she had limited time for campaigning statewide.<ref>{{Cite web |last=Guo |first=Kayla |date=December 12, 2025 |title=Crockett leads Talarico in first head-to-head Senate poll |url=https://www.texastribune.org/2025/12/12/texas-senate-democratic-primary-poll-jasmine-crockett-james-talarico/ |access-date=April 28, 2026 |website=The Texas Tribune |language=en-US}}</ref> According to polling data in February 2026 prior to the primaries, Crockett originally had a favorability percentage of 23%, and an unfavorable percentage of 25% while Talarico came in at 18% favorable and 9% unfavorable.<ref>{{Cite web |date=February 23, 2026 |title=Jasmine Crockett Favorability (February 2026) |url=https://texaspolitics.utexas.edu/set/jasmine-crockett-favorability-february-2026 |access-date=April 28, 2026 |website=The Texas Politics Project |language=en}}</ref><ref>{{Cite web |date=February 23, 2026 |title=James Talarico Favorability (February 2026) |url=https://texaspolitics.utexas.edu/set/james-talarico-favorability-february-2026 |access-date=April 28, 2026 |website=The Texas Politics Project |language=en}}</ref> She did not hire a [[campaign manager]], and focused on advertising over a staffed [[Canvassing|field operation]].<ref>{{Cite web |last=Guo |first=Kayla |date=March 6, 2026 |title=Why Jasmine Crockett lost the Dem primary to James Talarico |url=https://www.texastribune.org/2026/03/06/jasmine-crockett-texas-james-talarico-democrat-us-senate-primary/ |access-date=March 22, 2026 |website=The Texas Tribune |language=en-US}}</ref>
 
 Crockett and Talarico participated in a debate on January 24, 2026, hosted by the [[AFL-CIO]] in [[Georgetown, Texas|Georgetown]]. During the debate, both candidates largely aligned on policy and engaged in limited direct attacks. Crockett defended her "firebrand" style as necessary for the political moment, while Talarico emphasized a more measured approach and his perceived electability against Ken Paxton.<ref>{{Cite news |last=Mueller |first=Julia |date=January 24, 2026 |title=5 takeaways from the Texas Senate debate between Crockett, Talarico |url=https://thehill.com/homenews/campaign/5704882-texas-senate-democrats-debate/ |archive-url=https://web.archive.org/web/20260126025423/https://thehill.com/homenews/campaign/5704882-texas-senate-democrats-debate/ |archive-date=January 26, 2026 |access-date=January 27, 2026 |work=The Hill |language=en-US}}</ref> Talarico later faced controversy after a social media influencer alleged he had referred to former rival Colin Allred as a "mediocre Black man" in comparison to Crockett in a private conversation; Talarico disputed the claim as a mischaracterization. Allred subsequently endorsed Crockett and criticized Talarico.<ref name="auto" /> The episode further exposed the racial tension between each candidate's base of support, with Crockett performing best among [[African Americans|Black]] voters, Democrats' strongest voter base, and Talarico performing best among [[White Americans|White]] and [[Hispanic and Latino Americans|Latino]] voters, demographics which hold far more [[swing vote]]rs.<ref>{{Cite web |last=Bowman |first=Bridget |date=February 5, 2026 |title=Viral dispute over 'mediocre' comment exposes racial divides in Democrats' Texas Senate primary |url=https://www.nbcnews.com/politics/2026-election/viral-dispute-mediocre-comment-exposes-racial-divides-democrats-texas-rcna257284 |access-date=February 5, 2026 |website=NBC News |language=en}}</ref>
 
-On February 16, Talarico was scheduled to appear on ''[[The Late Show with Stephen Colbert]]''. According to Colbert, however, [[CBS]] did not allow him to air the interview nor mention the cancellation on-air based on a recently revised interpretation of the [[Federal Communications Commission|FCC]]'s [[equal-time rule]], although he did discuss it during that night's episode in spite of FCC threats. Colbert later posted the interview to the show's [[YouTube]] page.<ref>{{Cite web |last=Moorman |first=Taijuan |title=Colbert slams CBS for canning interview with Trump critic |url=https://www.usatoday.com/story/entertainment/tv/2026/02/17/colbert-james-talarico-cbs-interview-trump/88715400007/ |access-date=February 17, 2026 |website=USA TODAY |language=en-US}}</ref> The interview gained millions of views online, while Talarico fundraised $2.5 million in the aftermath and increased his name recognition as [[early voting]] began ahead of the March 3 primary. Analysts largely viewed the campaign as one based on personality and electability rather than ideology.<ref>{{Cite web |last=Mueller |first=Julia |date=February 19, 2026 |title=Talarico gets burst of momentum from CBS controversy |url=https://thehill.com/homenews/campaign/5744369-cbs-late-show-controversy/ |access-date=February 21, 2026 |website=[[The Hill (newspaper)|The Hill]]}}</ref>
+On February 16, Talarico was scheduled to appear on ''[[The Late Show with Stephen Colbert]]''. According to Colbert, however, [[CBS]] did not allow him to air the interview nor mention the cancellation on-air based on a recently revised interpretation of the [[Federal Communications Commission|FCC]]'s [[equal-time rule]], although he did discuss it during that night's episode in spite of FCC threats. Colbert later posted the interview to the show's [[YouTube]] page.<ref>{{Cite web |last=Moorman |first=Taijuan |title=Colbert slams CBS for canning interview with Trump critic |url=https://www.usatoday.com/story/entertainment/tv/2026/02/17/colbert-james-talarico-cbs-interview-trump/88715400007/ |access-date=February 17, 2026 |website=USA Today |language=en-US}}</ref> The interview gained millions of views online, while Talarico fundraised $2.5 million in the aftermath and increased his name recognition as [[early voting]] began ahead of the March 3 primary. Analysts largely viewed the campaign as one based on personality and electability rather than ideology.<ref>{{Cite web |last=Mueller |first=Julia |date=February 19, 2026 |title=Talarico gets burst of momentum from CBS controversy |url=https://thehill.com/homenews/campaign/5744369-cbs-late-show-controversy/ |access-date=February 21, 2026 |website=[[The Hill (newspaper)|The Hill]]}}</ref>
 
 After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 2026|title=Crockett, after warning of disenfranchisement, concedes to Talarico in Texas Senate race|url=https://www.politico.com/news/2026/03/04/crockett-voting-confusion-dallas-texas-00811419|access-date=April 27, 2026|website=Politico|language=en}}</ref> announcing support for his candidacy, but she declined to actively campaign for him.<ref name="Rahman">{{cite web|last=Rahman|first=Yasira|date=March 5, 2026|title=Jasmine Crockett backs James Talarico after loss but won't 'make plans' to campaign for fellow Dem|url=https://news.meaww.com/jasmine-crockett-backs-james-talarico-after-loss-but-wont-make-plans-to-campaign-for-fellow-dem|website=MEAWW|access-date=May 31, 2026}}</ref>
 
@@ -2045,14 +2045,14 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 * [[Colin Allred]], former [[U.S. representative]] from {{ushr|TX|32}} (2019–2025) and nominee for U.S. Senate in [[2024 United States Senate election in Texas|2024]] (''[[2026 United States House of Representatives elections in Texas#District 33|running for U.S. House]]; endorsed Crockett in the primary and Talarico in the general)''<ref>{{cite web |last1=Marks |first1=Madi |title=Colin Allred leaves U.S. Senate race to run for Congress |url=https://www.fox4news.com/news/colin-allred-drops-out-senate-race-texas-congressioanl-district-33 |access-date=December 8, 2025 |work=[[FOX 4 News Dallas-Fort Worth]] |date=December 8, 2025}}</ref><ref name="auto">{{Cite web|url=https://www.texastribune.org/2026/02/02/texas-us-senate-democratic-primary-colin-allred-james-talarico-mediocre-black-man-tiktok/|title=Colin Allred blasts James Talarico over TikTok allegation that he called him a "mediocre Black man"|first=Kayla|last=Guo|date=February 2, 2026|work=Texas Tribune|access-date=February 2, 2026}}</ref>
 * Emily Morgul, administrative assistant<ref name="johnson">{{cite news |work=[[KXAN-TV]] |access-date=August 15, 2025 |url=https://www.kxan.com/news/texas-politics/sen-nathan-johnson-announces-bid-for-attorney-general/ |last=McCracken |first=Ford |date=August 15, 2025 |title=Sen. Nathan Johnson announces bid for Texas attorney general}}</ref><ref name=":0" />
 * Michael Swanson, waiter<ref name="johnson" /><ref name=":0" />
-* [[Terry Virts]], retired [[United States Air Force]] pilot and [[NASA]] astronaut ''([[2026 United States House of Representatives elections in Texas#District 9|ran for U.S. House]])''<ref>{{Cite web |date=November 6, 2025 |title=TV for Texas-9 |url=https://www.youtube.com/watch?v=UUV8fcQe6Ac |access-date=November 6, 2025 |website=Terry Virts for Texas}}</ref>
-* Paula Williams, realtor<ref>{{Cite web |title=FEC Form 2 for Report FEC-1926578 |url=https://docquery.fec.gov/cgi-bin/forms/S6TX00537/1926578 |access-date=November 22, 2025 |website=docquery.fec.gov}}</ref><ref name=":0" />
+* [[Terry Virts]], retired [[United States Air Force]] pilot and [[NASA]] astronaut ''([[2026 United States House of Representatives elections in Texas#District 9|ran for U.S. House]])''<ref>{{Cite web |date=November 6, 2025 |title=TV for Texas-9 |url=https://www.youtube.com/watch?v=UUV8fcQe6Ac |access-date=November 6, 2025 |via=YouTube}}</ref>
+* Paula Williams, realtor<ref>{{Cite web |title=FEC Form 2 for Report FEC-1926578 |url=https://docquery.fec.gov/cgi-bin/forms/S6TX00537/1926578 |access-date=November 22, 2025 |website=Federal Election Commission}}</ref><ref name=":0" />
 
 ==== Declined ====
 * [[Joaquin Castro]], [[United States House of Representatives|U.S. representative]] from [[Texas's 20th congressional district]] (2013–present) ''([[2026 United States House of Representatives elections in Texas#District 20|running for re-election]])''<ref>{{cite news |last1=Davies |first1=David Martin |title=Rep. Castro is a 'no' vote on funding federal government and shares his plans for political office |url=https://www.tpr.org/government-politics/2025-11-10/rep-castro-is-a-no-vote-on-funding-federal-government-and-shares-his-plans-for-political-office |access-date=November 11, 2025 |work=[[Texas Public Radio]] |date=November 11, 2025 |language=en}}</ref>
 * [[Veronica Escobar]], [[U.S. representative]] from {{ushr|TX|16}} (2019–present) ''([[2026 United States House of Representatives elections in Texas#District 16|running for re-election]])<ref>{{cite web |last=Solender |first=Andrew |date=April 10, 2025 |title=A growing wave of House members is grasping for higher office |url=https://www.axios.com/2025/04/10/house-members-running-for-senate-governor |access-date=April 10, 2025 |website=[[Axios (website)|Axios]]}}</ref>''
 * [[Clay Jenkins]], [[Dallas County, Texas|Dallas County]] judge{{efn|[[County executive]]}} (2011–present)<ref>{{cite news |last1=Jeffers |first1=Gromer Jr. |title=Texas Democrats are searching for 2026 candidates as they resist President Donald Trump |url=https://www.dallasnews.com/news/politics/2025/04/07/texas-democrats-search-for-2026-candidates-as-they-resist-donald-trump/ |access-date=April 7, 2025 |work=[[The Dallas Morning News]] |date=April 7, 2025 |language=en}}</ref>
-* [[Marc Veasey]], [[U.S. representative]] from {{ushr|TX|33}} (2013–present)<ref name=opening>{{cite web|url=https://www.politico.com/news/2025/06/08/texas-senate-dems-paxton-cornyn-00393332|title=Texas Democrats see an opening as Paxton surges. But first they need a candidate.|last=Wu|first=Nicholas|date=June 8, 2025|access-date=June 9, 2025|website=[[Politico]]}}</ref> ''(endorsed Allred)''<ref name="BlackCaucus">{{cite web |last1=Cohen |first1=Max |title=Congressional Black Caucus leaders back Allred in Texas |url=https://punchbowl.news/article/campaigns/cbc-backs-allred/ |website=[[Punchbowl News]] |access-date=September 11, 2025 |date=September 11, 2025}}</ref>
+* [[Marc Veasey]], [[U.S. representative]] from {{ushr|TX|33}} (2013–present)<ref name="opening">{{cite web|url=https://www.politico.com/news/2025/06/08/texas-senate-dems-paxton-cornyn-00393332|title=Texas Democrats see an opening as Paxton surges. But first they need a candidate.|last=Wu|first=Nicholas|date=June 8, 2025|access-date=June 9, 2025|website=[[Politico]]}}</ref> ''(endorsed Allred)''<ref name="BlackCaucus">{{cite web |last1=Cohen |first1=Max |title=Congressional Black Caucus leaders back Allred in Texas |url=https://punchbowl.news/article/campaigns/cbc-backs-allred/ |website=[[Punchbowl News]] |access-date=September 11, 2025 |date=September 11, 2025}}</ref>
 
 ===Endorsements===
 {{Endorsements box
@@ -2065,7 +2065,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 * [[Angela Alsobrooks]], [[Maryland]] (2025–present)<ref>{{Cite web|url=https://thehill.com/homenews/campaign/5744051-sen-angela-alsobrooks-endorses-jasmine-crockett/|title=Alsobrooks becomes first Senate Democrat to endorse Crockett in Texas race|access-date=February 18, 2026|date=February 18, 2026|last=Rego |first=Max |website=The Hill}}</ref>
 
 '''U.S. representatives'''
-* [[Colin Allred]], former {{ushr|TX|32|TX-32}} (2019–2025), [[2024 United States Senate election in Texas|2024 senate nominee]]<ref name="auto"/> ''(endorsed Talarico in the general election)''<ref name=Come/>
+* [[Colin Allred]], former {{ushr|TX|32|TX-32}} (2019–2025), [[2024 United States Senate election in Texas|2024 senate nominee]]<ref name="auto"/> ''(endorsed Talarico in the general election)''<ref name="Come"/>
 * [[Adelita Grijalva]], {{ushr|AZ|7|AZ-7}} (2025–present)<ref name="NYT live">{{cite web|last1=Corasaniti |first1=Nick |last2=McGaughy |first2=Lauren |last3=Medina |first3=Jennifer |last4=Epstein |first4=Reid |last5=Medina |first5=Eduardo |last6=Goodman |first6=J. David |last7=Epstein |first7=Reid |last8=Goodman |first8=J. David |last9=Goodman |first9=J. David |last10=Goodman |first10=J. David |last11=Boyce |first11=Lily |last12=Goodman |first12=J. David |last13=Medina |first13=Eduardo |last14=Chen |first14=David W. |last15=Medina |first15=Eduardo |last16=Datar |first16=Saurabh |last17=Graham |first17=Ruth |last18=Cochrane |first18=Emily |last19=Ramirez |first19=Ramon |last20=Lerer |first20=Lisa |last21=Ramirez |first21=Ramon |last22=Ramirez |first22=Ramon |last23=Nissenbaum |first23=Dion |last24=Nissenbaum |first24=Dion |last25=Medina |first25=Jennifer |last26=Medina |first26=Eduardo |last27=Goodman |first27=J. David |last28=Nissenbaum |first28=Dion |last29=Goodman |first29=J. David |last30=Goodman |first30=J. David |display-authors=1 |url=https://www.nytimes.com/live/2026/03/02/us/election-midterms-tx-nc-ar/748fe57c-8f28-5da4-9750-6a04f0db57d6?smid=url-share|title=Election Live Updates: Texas Senate Contenders Make Closing Pitches in Bitter and Costly Primaries|work=The New York Times |date=March 3, 2026 |access-date=March 3, 2026}}</ref>
 * [[Ro Khanna]], {{ushr|CA|17|CA-17}} (2017–present)<ref name="medill"/>
 * [[LaMonica McIver]], {{ushr|NJ|10|NJ-10}} (2024–present)<ref name="NJ">{{cite web|url=https://www.mobilize.us/forthepeoplealliance/event/900597/|title=Calls for Crockett with Rep. McIver, Rep. Watson Coleman & Mayor Baraka|access-date=February 20, 2026}}</ref>
@@ -2082,7 +2082,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 * [[Ras Baraka]], [[List of mayors of Newark, New Jersey|mayor]] of [[Newark, New Jersey|Newark]] (2014–present)<ref name="NJ"/>
 
 '''Individuals'''
-* [[Cardi B]], rapper<ref name="CardiB">{{cite web |last1=Bugenhagen |first1=Faith |title='Please vote for my sister': Cardi B endorses Jasmine Crockett in Texas U.S. Senate race |url=https://www.dallasnews.com/arts-entertainment/music/2026/02/26/please-vote-for-my-sister-cardi-b-endorses-jasmine-crockett-in-texas-us-senate-race/ |website=Dallas News |access-date=February 26, 2026 |language=en |date=February 26, 2026}}</ref>
+* [[Cardi B]], rapper<ref name="CardiB">{{cite web |last1=Bugenhagen |first1=Faith |title='Please vote for my sister': Cardi B endorses Jasmine Crockett in Texas U.S. Senate race |url=https://www.dallasnews.com/arts-entertainment/music/2026/02/26/please-vote-for-my-sister-cardi-b-endorses-jasmine-crockett-in-texas-us-senate-race/ |website=The Dallas Morning News |access-date=February 26, 2026 |language=en |date=February 26, 2026}}</ref>
 * [[Method Man]], rapper<ref>{{cite web |last1=Keith |first1=Eric |title=Method Man Endorses Jasmine Crockett for U.S. Senate in Texas: 'A Fighter We Can Trust' |url=https://www.theqgentleman.com/post/2026-02-method-man-endorses-jasmine-crockett-for-u-s-senate-in-texas-a-fighter-we-can-trust/ |website=Quintessential |access-date=February 26, 2026 |date=February 20, 2026}}</ref>
 * [[Kelly Rowland]], singer-songwriter<ref name="CardiB"/>
 * [[Kerry Washington]], actress<ref name="CardiB"/>
@@ -2179,7 +2179,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 '''Newspapers'''
 * ''[[Austin American-Statesman]]''<ref>{{cite news |title=In Senate bid, Talarico models the leadership this moment demands |url=https://www.statesman.com/opinion/editorials/article/senate-bid-talarico-models-leadership-moment-21340046.php |access-date=February 18, 2026 |work=Austin American-Statesman |date=February 10, 2026 |language=en}}</ref>{{#tag:ref|Endorsement only applicable for the primary election.|group=n|name=Prim1}}
 * ''[[The Austin Chronicle]]''<ref>{{cite web |title=March 2026 Primary Election Endorsements for the Austin Area |url=https://www.austinchronicle.com/news/march-2026-primary-election-endorsements/ |website=The Austin Chronicle |access-date=February 18, 2026 |date=February 12, 2026}}</ref>{{#tag:ref|Endorsement only applicable for the primary election.|group=n|name=Prim1}}
-* ''[[Dallas Morning News]]''<ref>{{Cite web|url=https://www.dallasnews.com/opinion/we-recommend/2026/02/15/us-senate-texas-democratic-primary-race/|title=We recommend for U.S. Senate, Democratic primary|date=February 15, 2026|website=Dallas News}}</ref>{{#tag:ref|Endorsement only applicable for the primary election.|group=n|name=Prim1}}
+* ''[[Dallas Morning News]]''<ref>{{Cite web|url=https://www.dallasnews.com/opinion/we-recommend/2026/02/15/us-senate-texas-democratic-primary-race/|title=We recommend for U.S. Senate, Democratic primary|date=February 15, 2026|website=The Dallas Morning News}}</ref>{{#tag:ref|Endorsement only applicable for the primary election.|group=n|name=Prim1}}
 * ''[[Fort Worth Star-Telegram]]''<ref>{{Cite web|url=https://msn.com/en-us/politics/elections/star-telegram-endorsement-talarico-or-crockett-in-democrats-us-senate-race/ar-AA1WrMMN?ocid=BingNewsVerp|title=Star-Telegram endorsement: Talarico or Crockett in Democrats' US Senate race?|publisher=[[MSN]] |access-date=February 18, 2026|date=February 16, 2026|work=[[Fort Worth Star-Telegram]]}}</ref>{{#tag:ref|Endorsement only applicable for the primary election.|group=n|name=Prim1}}
 * ''[[Houston Chronicle]]''<ref>{{cite news |title=Do you want to win or not? Democrats should make Talarico their Senate candidate: Endorsement |url=https://www.houstonchronicle.com/opinion/endorsements/article/talarico-crockett-democratic-primary-texas-2026-21329484.php |access-date=February 3, 2026 |work=Houston Chronicle |date=February 3, 2026}}</ref>{{#tag:ref|Endorsement only applicable for the primary election.|group=n|name=Prim1}}
 }}
@@ -2188,7 +2188,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 | colwidth=60
 | list=
 '''Executive branch officials'''
-* [[Ron Kirk]], former [[mayor of Dallas]] (1995-2002) and former [[United States Trade Representative|U.S. trade representative]] (2009–2013)<ref name="HeatsUp1">{{cite web |title=Black leaders back Allred as Talarico's crowds challenge his lead in Democratic race for U.S. Senate |url=https://www.wfaa.com/article/news/politics/allred-talarico-senate-race-heats-up-endorsements-fundraising/287-cb9de144-170d-4939-bdd4-6c5d4530f1de |website=WFAA |access-date=November 27, 2025 |date=October 8, 2025}}</ref>
+* [[Ron Kirk]], former [[mayor of Dallas]] (1995–2002) and former [[United States Trade Representative|U.S. trade representative]] (2009–2013)<ref name="HeatsUp1">{{cite web |title=Black leaders back Allred as Talarico's crowds challenge his lead in Democratic race for U.S. Senate |url=https://www.wfaa.com/article/news/politics/allred-talarico-senate-race-heats-up-endorsements-fundraising/287-cb9de144-170d-4939-bdd4-6c5d4530f1de |website=WFAA |access-date=November 27, 2025 |date=October 8, 2025}}</ref>
 
 '''U.S. representatives'''
 * [[Sanford Bishop]], {{ushr|GA|2|GA-02}} (1993–present)<ref name="BlackCaucus"/>
@@ -2211,7 +2211,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 | title = Declined to endorse
 | list =
 '''U.S. representatives'''
-* [[Beto O'Rourke]], former [[TX-16]] (2013–2019) and nominee for [[U.S. Senate]] in [[2018 United States Senate election in Texas|2018]]<ref>{{cite web |title=Beto O'Rourke says he won't endorse Jasmine Crockett or James Talarico in Senate primary |url=https://www.houstonchronicle.com/politics/texas-take/article/beto-o-rourke-jasmine-crockett-james-talarico-21299081.php |website=Houston Chronicle |date=January 17, 2026 |access-date=January 18, 2026}}</ref> ''(endorsed Talarico in the general election)''<ref name=Beto123/>
+* [[Beto O'Rourke]], former [[TX-16]] (2013–2019) and nominee for [[U.S. Senate]] in [[2018 United States Senate election in Texas|2018]]<ref>{{cite web |title=Beto O'Rourke says he won't endorse Jasmine Crockett or James Talarico in Senate primary |url=https://www.houstonchronicle.com/politics/texas-take/article/beto-o-rourke-jasmine-crockett-james-talarico-21299081.php |website=Houston Chronicle |date=January 17, 2026 |access-date=January 18, 2026}}</ref> ''(endorsed Talarico in the general election)''<ref name="Beto123"/>
 
 '''Labor unions'''
 * Texas [[AFL-CIO]]<ref name="aflciodecline">{{cite web |title=Texas AFL-CIO gives primary race endorsements, declines pick for US Senate |url=https://www.kxan.com/news/texas-politics/texas-afl-cio-gives-primary-race-endorsements-declines-pick-for-us-senate/ |website=KXAN |date=January 26, 2026 |access-date=February 18, 2026}}</ref> ''(endorsed Talarico in the general election)''<ref name="AFLt">{{cite web |title=Texas AFL-CIO Endorses James Talarico for U.S. Senate |url=https://texasaflcio.org/riograndevalley/news/texas-afl-cio-endorses-james-talarico-us-senate-1 |website=Texas AFL-CIO |access-date=April 16, 2026 |language=en |date=April 15, 2026}}</ref>
@@ -2228,7 +2228,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 !scope="col"| Host
 !scope="col"| Moderator
 !scope="col"| Link
-!scope="col" colspan="5"| Participants
+!scope="col" colspan="3"| Participants
 |-
 !colspan="5" rowspan="2" |<!--
 -->{{Colors|black|#90ff90|{{nbsp}}P{{nbsp}}}} <small>Participant {{nbsp}}</small><!--
@@ -2321,7 +2321,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -2500,7 +2500,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 |{{sdash}}
 |9%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |377 (RV)
 |{{sdash}}
@@ -2601,7 +2601,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 |{{sdash}}
 |7%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |377 (RV)
 |{{sdash}}
@@ -2730,18 +2730,18 @@ The [[Libertarian Party (United States)|Libertarian Party]] convention was held 
 Following the May Republican runoff, both nominees quickly pivoted to the general election.<ref>{{Cite web |last=Zurcher |first=Anthony |date=May 27, 2026 |title=Ken Paxton's win over John Cornyn in Texas primary may also help Democrats in Senate battle |url=https://www.bbc.com/news/articles/clypprglrlyo |access-date=June 11, 2026 |website=BBC News |language=en-GB}}</ref> Paxton's victory was welcomed by Democrats who viewed him as a weaker opponent, leading several nonpartisan forecasters to rate the race as more competitive.<ref name=":9" /> Talarico adopted a more aggressive strategy, highlighting allegations that led to Paxton's impeachment by fellow Republicans.<ref>{{Cite web |date=May 28, 2026 |title=Talarico targets Paxton's scandals in Texas Senate race, pivoting from his sunny primary message |url=https://www.pbs.org/newshour/politics/talarico-targets-paxtons-scandals-in-texas-senate-race-pivoting-from-his-sunny-primary-message |access-date=June 11, 2026 |website=PBS}}</ref>
 
 ==== Economy ====
-Both Talarico and Paxton launched campaigns related to economic issues: Talarico's economic plan is named the "''New American Dream,''" while Paxton's is named "''Protecting the Texas Promise''".<ref name="Website-1">{{Cite web |last=Guo |first=Kayla |date=August 5, 2026 |title=James Talarico rolls out economic agenda that takes aim at “false Gospel of trickle-down economics” |url=https://www.texastribune.org/2026/08/05/texas-senate-james-talarico-economic-agenda-ken-paxton/ |access-date=October 22, 2026 |website=[[The Texas Tribune]]}}</ref> Talarico supports raising [[Minimum wage in the United States|the minimum wage]], canceling medical debt, and passing universal [[Child care|childcare]] and [[Parental leave|paid family leave]].<ref name="Website-1" /> Paxton supports [[Tax deduction|tax deductions]] for [[Healthcare in the United States|healthcare]], [[Housing in the United States|housing]], and family-related expenses.<ref name="Website-1" />
+Both Talarico and Paxton launched campaigns related to economic issues: Talarico's economic plan is named the "''New American Dream''," while Paxton's is named "''Protecting the Texas Promise''".<ref name="Website-1">{{Cite web |last=Guo |first=Kayla |date=August 5, 2026 |title=James Talarico rolls out economic agenda that takes aim at “false Gospel of trickle-down economics” |url=https://www.texastribune.org/2026/08/05/texas-senate-james-talarico-economic-agenda-ken-paxton/ |access-date=October 22, 2026 |website=[[The Texas Tribune]]}}</ref> Talarico supports raising [[Minimum wage in the United States|the minimum wage]], canceling medical debt, and passing universal [[Child care|childcare]] and [[Parental leave|paid family leave]].<ref name="Website-1" /> Paxton supports [[Tax deduction|tax deductions]] for [[Healthcare in the United States|healthcare]], [[Housing in the United States|housing]], and family-related expenses.<ref name="Website-1" />
 
 ==== Social and legal issues ====
 Paxton portrayed Talarico as an extremist, emphasizing [[culture war]] issues and [[gender]], while criticizing his statement that "[[God]] is [[non-binary]]" and questioning his [[masculinity]].<ref>{{Cite web |last=Bowman |first=Bridget |date=May 27, 2026 |title=Ken Paxton defeats GOP Sen. John Cornyn in Texas primary runoff |url=https://www.nbcnews.com/politics/2026-election/texas-runoff-primary-election-winner-paxton-trump-cornyn-rcna346552 |access-date=June 11, 2026 |website=NBC News |language=en}}</ref><ref>{{Cite news |last=Kurtzleben |first=Danielle |date=May 30, 2026 |title=What it means to be a man is a theme in Texas Senate race as Paxton attacks Talarico |url=https://www.npr.org/2026/05/30/nx-s1-5839468/texas-senate-talarico-paxton-gender-masculinity |access-date=June 11, 2026 |work=NPR |language=en}}</ref> Paxton also repeatedly called Talarico a vegan, claiming "you can't get elected as a vegan in Texas," prompting Talarico to release photos and videos of himself eating meat and other animal product foods at campaign events.<ref>{{cite web |url=https://www.politifact.com/factchecks/2026/may/27/ken-paxton/in-texas-senate-race-ken-paxton-falsely-claims-jam/|title= Democratic Texas U.S. Senate candidate James Talarico "is a vegan."|work=PolitiFact|date=May 26, 2026}}</ref> In June, Talarico criticized the Attorney General's office over its handling of a child sexual abuse case involving former attorney Adam Hoffman during Paxton's tenure.<ref name=":10">{{Cite news |last=McGaughy |first=Lauren |date=June 18, 2026 |title=James Talarico Attacks Ken Paxton Over Handling of Child Sex Abuse Case |url=https://www.nytimes.com/2026/06/18/us/talarico-paxton-child-sex-abuse-case.html |access-date=June 23, 2026 |work=The New York Times |language=en-US}}</ref> After a mistrial, Hoffman received a plea deal critics called "unusually lenient" and an "[[Jeffrey Epstein|Epstein]]-style sweetheart deal," as it did not require him to register as a sex offender.<ref>{{Cite web |last1=Sitz |first1=Alicia |last2=Carter |first2=Tatiana |date=June 8, 2026 |title=As Paxton heads to Senate race, critics revisit child sex abuse plea deal |url=https://www.newsnationnow.com/crime/paxton-senate-sex-abuse-plea-deal/ |website=NewsNation}}</ref> Talarico and John Cornyn had previously aired campaign ads criticizing Paxton over the case.<ref>{{Cite web |last=Powell |first=Adam |title=Cornyn keeps up attacks on Paxton in Texas US Senate runoff |url=https://www.elpasotimes.com/story/news/politics/elections/2026/05/07/cornyn-targets-paxton-over-plea-deal-for-sex-abuser-in-texas-us-senate-race/89977335007/ |access-date=June 23, 2026 |website=El Paso Times |language=en-US}}</ref><ref>{{Cite web |last=Guo |first=Kayla |date=May 27, 2026 |url=https://www.texastribune.org/2026/05/27/james-talarico-ken-paxton-launch-attack-ads-in-texas-u-s-senate-race/ |title=Tala-freak-o vs. Ken the Criminal: Texas candidates sharpen attacks as U.S. Senate race locks in |work=[[The Texas Tribune]] |access-date=September 20, 2026}}</ref>
 
 ==== Party unification ====
-Both Talarico and Paxton have faced challenges unifying their parties after the primaries, with limited support from former rivals exposing weaknesses in their coalitions.<ref name=":11">{{Cite web |last=Guo |first=Kayla |date=June 24, 2026 |title=Cornyn, Crockett loom large in Senate race after primary losses |url=https://www.texastribune.org/2026/06/24/john-cornyn-jasmine-crockett-talarico-paxton-texas-senate/ |access-date=July 9, 2026 |website=[[The Texas Tribune]] |language=en-US}}</ref> Talarico has sought to bolster support among Black voters after defeating Jasmine Crockett, who skipped the state Democratic convention and declined to commit to campaigning for him, raising concerns about Black turnout.<ref>{{Cite web |last=Guo |first=Kayla |date=June 27, 2026 |title=Talarico looks for momentum with Black voters at Dem convention |url=https://www.texastribune.org/2026/06/27/texas-democratic-convention-james-talarico-black-voters-jasmine-crockett/ |access-date=July 9, 2026 |website=The Texas Tribune |language=en-US}}</ref> Paxton has struggled with moderate Republicans who backed John Cornyn, with polls showing some Cornyn voters supporting Talarico.<ref name=":11" /> Cornyn has also declined to fundraise for Paxton, instead focusing on competitive [[2026 United States Senate elections|Senate races in other states]].<ref>{{Cite web |last=Birenbaum |first=Gabby |date=August 28, 2026 |title=Why John Cornyn won't be fundraising in Texas' U.S. Senate race |url=https://www.texastribune.org/2026/08/28/john-cornyn-ken-paxton-texas-fundraising-talarico-senate-race/ |access-date=August 28, 2026 |website=The Texas Tribune |language=en-US}}</ref> 
+Both Talarico and Paxton faced challenges unifying their parties after the primaries, with limited support from former rivals exposing weaknesses in their coalitions.<ref name=":11">{{Cite web |last=Guo |first=Kayla |date=June 24, 2026 |title=Cornyn, Crockett loom large in Senate race after primary losses |url=https://www.texastribune.org/2026/06/24/john-cornyn-jasmine-crockett-talarico-paxton-texas-senate/ |access-date=July 9, 2026 |website=[[The Texas Tribune]] |language=en-US}}</ref> Talarico sought to bolster support among Black voters after defeating Jasmine Crockett, who skipped the state Democratic convention and declined to commit to campaigning for him, raising concerns about Black turnout.<ref>{{Cite web |last=Guo |first=Kayla |date=June 27, 2026 |title=Talarico looks for momentum with Black voters at Dem convention |url=https://www.texastribune.org/2026/06/27/texas-democratic-convention-james-talarico-black-voters-jasmine-crockett/ |access-date=July 9, 2026 |website=The Texas Tribune |language=en-US}}</ref> Paxton struggled with moderate Republicans who backed John Cornyn, with polls showing some Cornyn voters supporting Talarico.<ref name=":11" /> Cornyn also declined to fundraise for Paxton, instead focusing on competitive [[2026 United States Senate elections|Senate races in other states]].<ref>{{Cite web |last=Birenbaum |first=Gabby |date=August 28, 2026 |title=Why John Cornyn won't be fundraising in Texas' U.S. Senate race |url=https://www.texastribune.org/2026/08/28/john-cornyn-ken-paxton-texas-fundraising-talarico-senate-race/ |access-date=August 28, 2026 |website=The Texas Tribune |language=en-US}}</ref> 
 
 In part to rally support behind candidates such as Paxton, the Republican Party hosted its first-ever [[2026 Republican National Convention|midterm national convention]] in [[Dallas]] on September 9 and 10.<ref>{{Cite web |last=Ardary |first=Steven |date=September 2, 2026 |title=Trump says Dallas GOP midterm convention will be 'big stuff' |url=https://www.fox4news.com/news/trump-dallas-gop-midterm-convention-paxton-talarico |access-date=September 4, 2026 |website=FOX Local |publisher=FOX 4 News Dallas-Fort Worth |language=en-US}}</ref> After the midterm convention, Paxton said in a private conversation that the convention had a negative effect for the Republican Party.<ref>{{cite web|url=https://www.mediaite.com/media/news/bombshell-leaked-audio-shows-ken-paxton-dissing-trumps-convention-blaming-it-for-his-bad-polls-everybodys-numbers-dropped/|title=Bombshell Leaked Audio Shows Ken Paxton Dissing Trump's Convention — Blaming It for His Bad Polls: 'Everybody's Numbers Dropped'|work=Mediaite|date=September 30, 2026|last=Durante |first=Tom|access-date =September 30, 2026}}</ref>
 
 ==== Attempts of holding debate ====
-On July 16, the Paxton and Talarico campaigns announced negotiations for up to three general election debates.<ref>{{Cite web |last=Whitely |first=Jason |date=July 16, 2026 |title=Talarico says yes to three debates. Paxton's response: 'Of course we are going to debate.' |url=https://www.wfaa.com/article/news/local/talarico-says-yes-three-debates-paxton/287-4b91cce7-20e7-49af-a119-72efe369990b |website=WFAA}}</ref> Had they been held, it would have marked Paxton's first debates since becoming a statewide elected official.<ref>{{Cite news |last=McGaughy |first=Lauren |date=July 16, 2026 |title=Paxton Agrees to Debate Talarico in Texas Senate Race |url=https://www.nytimes.com/2026/07/16/us/paxton-talarico-debate-texas-senate.html |access-date=July 20, 2026 |work=The New York Times |language=en-US |issn=0362-4331}}</ref><ref>{{Cite web |last=Birenbaum |first=Gabby |date=July 16, 2026 |title=Ken Paxton says he'll debate James Talarico in Texas Senate race |url=https://www.texastribune.org/2026/07/16/texas-ken-paxton-james-talarico-debate-senate-race-2026/ |access-date=July 20, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite web |last=Barragán |first=James |date=February 24, 2022 |title=Debate between Texas GOP attorney general candidates got heated, even though incumbent Ken Paxton wasn't there |url=https://www.texastribune.org/?p=109993 |access-date=July 20, 2026 |website=The Texas Tribune |language=en-US}}</ref> By September, Talarico had accepted a fourth invitation to a debate as Paxton had remained noncommittal, but insisted that they were still negotiating and expected to participate in at least one debate before the election.<ref>{{Cite web |last=Bugenhagen |first=Faith |date=September 2, 2026 |title=Talarico accepts debate invitation; Paxton criticizes event but doesn't commit |url=https://www.statesman.com/news/politics/state/article/talarico-paxton-cnn-texas-senate-debate-22414048.php |access-date=September 18, 2026 |website=Austin American-Statesman |language=en}}</ref> Responding to a challenge issued by Talarico to appear on the channel,<ref>{{Cite web |last=Guo|first=Kayla |date=September 24, 2026 |title=James Talarico challenges Ken Paxton to Fox News debate |url=https://www.texastribune.org/2026/09/24/james-talarico-tribfest-2026/ |access-date=October 5, 2026 |website=The Texas Tribune |language=en-US}}</ref> a fifth debate invitation was issued by [[Fox News]].<ref>{{Cite web |last=Murray |first=Casey |date=September 29, 2026 |title=Fox News will host Texas Senate debate if Ken Paxton agrees to face off|url=https://www.houstonchronicle.com/politics/texas/article/paxton-talarico-debate-22455301.php |access-date=October 5, 2026 |website=Houston Chronicle |language=en}}</ref> In early October, president Donald Trump and several other prominent Republicans called on Paxton to debate Talarico.<ref>{{Cite web |last=Rahman |first=Khaleda |date=October 9, 2026 |title=Ken Paxton Avoided Debates for Years. Now He May Have No Choice |url=https://www.newsweek.com/ken-paxton-avoided-debates-years-may-have-no-choice-12540874 |access-date=October 11, 2026 |website=Newsweek |language=en}}</ref> By late October, Paxton had declined all invitations to debate Talarico.<ref>{{Cite news |last=Manchester |first=Julia |last2=Mueller |first2=Julia |date=October 18, 2026 |title=With Ken Paxton's race faltering, GOP looks for someone to blame |url=https://thehill.com/homenews/campaign/6155048-ken-paxton-republicans-texas-senate-race-trump/ |work=The Hill}}</ref> Ultimately, no debates were held. This marked the first Senate race in Texas since [[2000 United States Senate election in Texas|2000]] not to feature a debate between the major party candidates.<ref>{{Cite news |last=Guo |first=Kayla |date=October 7, 2026 |title=Texas Republicans are refusing to debate for the election |url=https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/ |access-date=October 26, 2026 |work=[[The Texas Tribune]] |language=en-US}}</ref>
+On July 16, the Paxton and Talarico campaigns announced negotiations for up to three general election debates.<ref>{{Cite web |last=Whitely |first=Jason |date=July 16, 2026 |title=Talarico says yes to three debates. Paxton's response: 'Of course we are going to debate.' |url=https://www.wfaa.com/article/news/local/talarico-says-yes-three-debates-paxton/287-4b91cce7-20e7-49af-a119-72efe369990b |website=WFAA}}</ref> Had they been held, it would have marked Paxton's first debates since becoming a statewide elected official.<ref>{{Cite news |last=McGaughy |first=Lauren |date=July 16, 2026 |title=Paxton Agrees to Debate Talarico in Texas Senate Race |url=https://www.nytimes.com/2026/07/16/us/paxton-talarico-debate-texas-senate.html |access-date=July 20, 2026 |work=The New York Times |language=en-US |issn=0362-4331}}</ref><ref>{{Cite web |last=Birenbaum |first=Gabby |date=July 16, 2026 |title=Ken Paxton says he'll debate James Talarico in Texas Senate race |url=https://www.texastribune.org/2026/07/16/texas-ken-paxton-james-talarico-debate-senate-race-2026/ |access-date=July 20, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite web |last=Barragán |first=James |date=February 24, 2022 |title=Debate between Texas GOP attorney general candidates got heated, even though incumbent Ken Paxton wasn't there |url=https://www.texastribune.org/?p=109993 |access-date=July 20, 2026 |website=The Texas Tribune |language=en-US}}</ref> By September, Talarico had accepted a fourth invitation to a debate as Paxton had remained noncommittal, but insisted that they were still negotiating and expected to participate in at least one debate before the election.<ref>{{Cite web |last=Bugenhagen |first=Faith |date=September 2, 2026 |title=Talarico accepts debate invitation; Paxton criticizes event but doesn't commit |url=https://www.statesman.com/news/politics/state/article/talarico-paxton-cnn-texas-senate-debate-22414048.php |access-date=September 18, 2026 |website=Austin American-Statesman |language=en}}</ref> Responding to a challenge issued by Talarico to appear on the channel,<ref>{{Cite web |last=Guo|first=Kayla |date=September 24, 2026 |title=James Talarico challenges Ken Paxton to Fox News debate |url=https://www.texastribune.org/2026/09/24/james-talarico-tribfest-2026/ |access-date=October 5, 2026 |website=The Texas Tribune |language=en-US}}</ref> a fifth debate invitation was issued by [[Fox News]].<ref>{{Cite web |last=Murray |first=Casey |date=September 29, 2026 |title=Fox News will host Texas Senate debate if Ken Paxton agrees to face off|url=https://www.houstonchronicle.com/politics/texas/article/paxton-talarico-debate-22455301.php |access-date=October 5, 2026 |website=Houston Chronicle |language=en}}</ref> In early October, president Donald Trump and several other prominent Republicans called on Paxton to debate Talarico.<ref>{{Cite web |last=Rahman |first=Khaleda |date=October 9, 2026 |title=Ken Paxton Avoided Debates for Years. Now He May Have No Choice |url=https://www.newsweek.com/ken-paxton-avoided-debates-years-may-have-no-choice-12540874 |access-date=October 11, 2026 |website=Newsweek |language=en}}</ref> By late October, Paxton had declined all invitations to debate Talarico.<ref>{{Cite news |last=Manchester |first=Julia |last2=Mueller |first2=Julia |date=October 18, 2026 |title=With Ken Paxton's race faltering, GOP looks for someone to blame |url=https://thehill.com/homenews/campaign/6155048-ken-paxton-republicans-texas-senate-race-trump/ |work=The Hill}}</ref> Ultimately, no debates were held, marking the first Senate race in Texas since [[2000 United States Senate election in Texas|2000]] not to feature a debate between the major party candidates.<ref>{{Cite news |last=Guo |first=Kayla |date=October 7, 2026 |title=Texas Republicans are refusing to debate for the election |url=https://www.texastribune.org/2026/10/07/texas-debate-republicans-talarico-paxton-abbott-hinojosa-election/ |access-date=October 26, 2026 |work=[[The Texas Tribune]] |language=en-US}}</ref>
 
 === Election administration ===
 The election took place amidst a broader push by the Trump administration to restrict [[Postal voting in the United States|mail-in voting]], although these efforts were mired in court proceedings.<ref>{{Cite web |last=Gilani |first=Haajrah |date=September 2, 2026 |title=What the US Postal Service's effort to reshape mail-in voting means for Texas |url=https://www.expressnews.com/politics/article/usps-mail-voting-texas-22412931.php |access-date=September 4, 2026 |website=San Antonio Express-News |language=en}}</ref> On September 1, commissioners in [[Tarrant County]], Texas's third-largest county, voted to close roughly a third of its polling locations, a year after cutting early-voting sites in half, citing cost savings at low-turnout locations. Critics warned the closures could increase travel times and suppress turnout.<ref>{{Cite news |last=Zaru |first=Deena |title=Amid public outcry, Tarrant County, Texas cuts polling locations ahead of 2026 midterm elections |url=https://abcnews.com/Politics/amid-public-outcry-tarrant-county-texas-cuts-polling/story?id=136116581 |work=ABC News |date=September 1, 2026 |access-date=September 2, 2026}}</ref> Later that month, [[Votebeat]] reported that the [[Texas Department of Public Safety|Department of Public Safety]] had failed to distribute nearly 200,000 voter registrations to counties over the course of the past year due to a technical error, sparking a bipartisan outcry.<ref name=":2" /> By the beginning of October, the reported size of the backlog had neared 600,000 registrations.<ref>{{Cite web |last1=McManus |first1=Tracey |last2=Tong |first2=William |date=October 2, 2026 |title=Map: Texas DPS voter registrations backlog tracker |url=https://www.dallasnews.com/projects/2026/texas-voter-registration-backlog-tracker/ |access-date=October 4, 2026 |website=[[The Dallas Morning News]] |language=en}}</ref> The backlog was sent to counties all at once, with many of the state's urban counties receiving tens of thousands one month before [[early voting]] was set to begin.<ref name=":2">{{Cite web |last1=DeGuzman |first1=Colleen |last2=Contreras |first2=Natalia |date=September 24, 2026 |title=GOP official: Texas should have caught voter registration error |url=https://www.votebeat.org/texas/2026/06/24/team-voter-registration-system-civix-secretary-of-state/ |access-date=September 29, 2026 |website=The Texas Tribune |language=en-US}}</ref> The state agreed to reimburse counties for the [[overtime]] pay incurred processing the glut of applications.<ref>{{Cite news |last=Behrndt |first=Rachel |date=September 29, 2026 |title=State agrees to pay counties as they work to clear voter registration backlog |url=https://www.wfaa.com/article/news/politics/elections/texas-voter-registration-back-log-funding-glitch-error-pays/287-c61b041d-f622-498d-b971-33838bb88182 |access-date=September 29, 2026 |work=WFAA}}</ref> Observers and election experts highlighted the debacle as an example of the difficulties involved in registering to vote in Texas, one of the only states in the country to not offer universal online voter registration.<ref>{{Cite web |last1=DeGuzman |first1=Colleen |last2=Contreras |first2=Natalia |date=September 26, 2026 |title=Texas' delayed voter applications highlight registration woes |url=https://www.votebeat.org/texas/2026/09/26/voter-registration-delay-backlog-online-dps-error/ |access-date=October 4, 2026 |website=The Texas Tribune |language=en-US}}</ref>
@@ -2752,59 +2752,59 @@ The election took place amidst a broader push by the Trump administration to res
 !Ranking
 !As of
 |-
-|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=November 3, 2026 |orig-date=October 26, 2026 |access-date=November 3, 2026}}</ref>
+|style="text-align: left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=November 3, 2026 |orig-date=October 26, 2026 |access-date=November 3, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
 |November 3, 2026
 |-
-|align="left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 2, 2026}}</ref>
+|style="text-align: left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 30, 2026
 |-
-|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 2, 2026|website=[[Cook Political Report]]}}</ref>
+|style="text-align: left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 2, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
 |November 2, 2026
 |-
-|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
+|style="text-align: left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |November 3, 2026
 |-
-|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 3, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|style="text-align: left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 3, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
 |{{USRaceRating|Tossup}}
 |November 3, 2026
 |-
-|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 2, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|style="text-align: left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 2, 2026 |website=[[FiftyPlusOne]]}}</ref>
 |{{USRaceRating|Lean|D|flip}}
 |November 2, 2026
 |-
-|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|style="text-align: left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |November 1, 2026
 |-
-|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 2, 2026 |website=[[Inside Elections]]}}</ref>
+|style="text-align: left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 2, 2026 |website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Tilt|D|Flip}}
 |October 29, 2026
 |-
-|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 2, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 2, 2026}}</ref>
+|style="text-align: left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 2, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |October 29, 2026
 |-
-|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 3, 2026}}</ref>
+|style="text-align: left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 3, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |November 3, 2026
 |-
-|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 2, 2026|website=[[RealClearPolitics]]}}</ref>
+|style="text-align: left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 2, 2026|website=[[RealClearPolitics]]}}</ref>
 |{{USRaceRating|Tossup}}
 |November 2, 2026
 |-
-|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 2, 2026}}</ref>
+|style="text-align: left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
 |November 2, 2026
 |-
-|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 3, 2026 |url-access=subscription}}</ref>
+|style="text-align: left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 3, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Likely|D|flip}}
 |November 3, 2026
 |-
-|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 2, 2026}}</ref>
+|style="text-align: left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Likely|D|flip}}
 |November 2, 2026
 |}
@@ -2875,15 +2875,15 @@ The election took place amidst a broader push by the Trump administration to res
 * [[Alex Latcham]], political operative<ref>{{cite web |last1=Lucey |first1=Catherine |last2=Tamari |first2=Jonathan |last3=Korte |first3=Gregory |title=GOP Super PAC Says Senate Is 'Firewall' as House Hopes Fade |url=https://www.bloomberg.com/news/articles/2026-10-14/gop-super-pac-says-senate-is-the-firewall-as-house-hopes-fade |website=[[Bloomberg News]] |date=October 14, 2026 |access-date=November 2, 2026}}</ref>
 * [[Zachary Levi]], actor<ref>{{Cite news |url=https://www.dailywire.com/news/exclusive-actor-zachary-levi-makes-big-endorsement-ahead-of-midterms |title=EXCLUSIVE: Actor Zachary Levi Makes Big Endorsement Ahead Of Midterms |last=Prestigiacomo |first=Amanda |work=[[The Daily Wire]] |date=October 13, 2026 |access-date=October 15, 2026}}</ref>
 * [[Tony Lyons]], founder of [[Skyhorse Publishing]]<ref>{{cite web |title=MAHA Action backs Ken Paxton's Senate Push With $1.3 Million |url=https://www.prnewswire.com/news-releases/maha-action-backs-ken-paxtons-senate-push-with-1-3-million-302913308.html |website=[[PR Newswire]] |date=October 19, 2026 |access-date=October 20, 2026}}</ref>
-* [[Johnny Manziel]], former [[National Football League|NFL]] player<ref>{{cite web |last= Humble |first=Ahmed |title=Johnny Manziel puts nearly $11K on Ken Paxton Senate win |url=https://www.chron.com/news/article/johnny-manziel-ken-paxton-bet-22504144.php |website=[[Chron.com]] |date=October 31, 2026 |access-date=November 2, 2026}}</ref>
-* [[Mark Teixeira]], former [[Major League Baseball|MLB]] player<ref>{{cite web |last= Thayer|first=Tracy|title=Teixeira, Virdell make campaign stop ahead of November election |url=https://www.banderabulletin.com/article/3566,teixeira-virdell-make-campaign-stop-ahead-of-november-election |website=Bandera Bulletin |date=October 1, 2026 |access-date=October 19, 2026}}</ref>
+* [[Johnny Manziel]], former [[National Football League|NFL]] player<ref>{{cite web |last= Humble |first=Ahmed |title=Johnny Manziel puts nearly $11K on Ken Paxton Senate win |url=https://www.chron.com/news/article/johnny-manziel-ken-paxton-bet-22504144.php |website=[[Houston Chronicle]] |date=October 31, 2026 |access-date=November 2, 2026}}</ref>
+* [[Mark Teixeira]], former [[Major League Baseball|MLB]] player and candidate for {{ushr|TX|21|TX-21}}<ref>{{cite web |last= Thayer|first=Tracy|title=Teixeira, Virdell make campaign stop ahead of November election |url=https://www.banderabulletin.com/article/3566,teixeira-virdell-make-campaign-stop-ahead-of-november-election |website=Bandera Bulletin |date=October 1, 2026 |access-date=October 19, 2026}}</ref>
 * [[Randy White (American football)|Randy White]], former NFL player<ref>{{cite web |last=Pugh |first=Chris |title=A Cowboys legend just jumped into one of America's closest Senate races |url=https://www.cleveland.com/news/2026/10/a-cowboys-legend-just-jumped-into-one-of-americas-closest-senate-races.html |website=[[The Plain Dealer]] |date=October 5, 2026 |access-date=October 5, 2026}}</ref>
 
 '''Labor unions'''
 * [[National Border Patrol Council]]<ref>{{cite web |last= De Leon III |first= Jose |title=Ken Paxton campaigns in McAllen following endorsement from National Border Patrol Council |url=https://www.krgv.com/news/ken-paxton-campaigns-in-mcallen-following-endorsement-from-national-border-patrol-council/ |website=[[KRGV-TV]] |date=July 15, 2026 |access-date=August 18, 2026}}</ref>
 
 '''Organizations'''
-* [[America First Policies| America First Works]]<ref>{{cite web |title=AFW Endorses Ken Paxton for Senator of Texas |url=https://americafirstworks.com/2026/10/afw-endorses-ken-paxton-for-senator-of-texas/ |website=[[America First Policies| America First Works]] |date=October 14, 2026 |access-date=October 31, 2026}}</ref>
+* [[America First Policies|America First Works]]<ref>{{cite web |title=AFW Endorses Ken Paxton for Senator of Texas |url=https://americafirstworks.com/2026/10/afw-endorses-ken-paxton-for-senator-of-texas/ |website=[[America First Policies| America First Works]] |date=October 14, 2026 |access-date=October 31, 2026}}</ref>
 * [[America PAC]]<ref>{{cite web |title=Today is the last day of early voting in Texas. Vote for @KenPaxtonTX! Info: VoteSafe.org |url=https://x.com/america/status/2116138052359950460 |website=[[X (social network)|X]] |date=October 14, 2026 |access-date=October 31, 2026}}</ref>
 * [[Club for Growth]]<ref>{{cite web |last= Birenbaum |first=Gabby |title=Senate GOP leaders spent months trashing Paxton. Can they turn the page and unify against Talarico? |url=https://www.texastribune.org/2026/05/27/texas-us-senate-gop-primary-runoff-ken-paxton-john-thune-leadership-talarico/ |website=[[The Texas Tribune]] |date=May 27, 2026 |access-date=September 19, 2026}}</ref>
 * [[National Federation of Independent Business]]<ref>{{cite web |last= Powell |first= Adam |title=Talarico launches first attack on Paxton in US Senate race |url=https://www.elpasotimes.com/story/news/politics/elections/2026/09/03/james-talarico-escalates-fight-with-ken-paxton-in-us-senate-race/91552904007/ |website=[[El Paso Times]] |date=September 3, 2026 |access-date=September 3, 2026}}</ref>
@@ -2920,7 +2920,7 @@ The election took place amidst a broader push by the Trump administration to res
 * [[Chris Van Hollen]], [[Maryland]] (2017–present)<ref>{{cite news |last1=Messinger |first1=Ben |last2=Wason |first2=Sanya |title=Maryland's Democratic lawmakers campaign for out-of-state candidates as midterms approach |url=https://cnsmaryland.org/2026/11/02/marylands-democratic-lawmakers-campaign-for-out-of-state-candidates-as-midterms-approach/ |access-date=November 2, 2026 |work=[[Capital News Service (Maryland)|Capital News Service]] |date=November 2, 2026}}</ref>
 
 '''U.S. representatives'''
-* [[Colin Allred]], former [[Texas's 32nd congressional district|TX-32]] (2019–2025), [[2024 United States Senate election in Texas|2024 U.S. Senate]] nominee, and former candidate for this seat<ref name=Come>{{Cite web |date=April 26, 2026 |title='Come and make the ask': Talarico faces a test with Black voters in Texas |url=https://www.politico.com/news/2026/04/26/talarico-texas-senate-black-voters-00892102 |access-date=April 26, 2026 |website=Politico |language=en}}</ref>
+* [[Colin Allred]], former [[Texas's 32nd congressional district|TX-32]] (2019–2025), [[2024 United States Senate election in Texas|2024 U.S. Senate]] nominee, and former candidate for this seat<ref name="Come">{{Cite web |date=April 26, 2026 |title='Come and make the ask': Talarico faces a test with Black voters in Texas |url=https://www.politico.com/news/2026/04/26/talarico-texas-senate-black-voters-00892102 |access-date=April 26, 2026 |website=Politico |language=en}}</ref>
 * [[Jake Auchincloss]], [[Massachusetts' 4th congressional district|MA-04]] (2021–present)<ref>{{Cite web |title=House Democrat: Platner's tattoo should be 'disqualifying' |url=https://thehill.com/homenews/house/5894805-jake-auchincloss-graham-platner-senate-race-tattoo-criticism/ |access-date=May 26, 2026|work=The Hill|date=May 26, 2026|last1=Davis |first1=Sarah }}</ref>
 * [[Greg Casar]], [[TX-35]] (2023–present)<ref>{{cite web |title='So many scandals': Control of the Senate could hinge on deeply flawed Trump pick, Paxton |url=https://www.ms.now/the-briefing-with-jen-psaki/watch/so-many-scandals-control-of-the-senate-could-hinge-on-deeply-flawed-trump-pick-paxton-2501492291613 |website=MSNOW |access-date=May 27, 2026}}</ref>
 * [[Jasmine Crockett]], [[TX-30]] (2023–present) and primary candidate for this seat<ref>{{Cite web |last=Mancini |first=Ryan |title=Crockett says she supports 'all Democrats:' 'Yes, that includes James Talarico' |url=https://thehill.com/homenews/campaign/6130518-crockett-supports-texas-democrat-talarico/ |access-date=October 5, 2026 |website=[[The Hill (newspaper)|The Hill]] |quote=I support all Democrats. Yes, that includes James Talarico, who I endorsed the day after the election, OK?}}</ref>
@@ -2928,7 +2928,7 @@ The election took place amidst a broader push by the Trump administration to res
 * [[Adam Kinzinger]], former {{ushr|IL|16|IL-16}} (2013–2023) and {{ushr|IL|11|IL-11}} (2011–2013) ''(Republican)''<ref name="RepubsForTal"/>
 * [[Gregory Meeks]], {{ushr|NY|5|NY-05}} (1998–present)<ref name="CBCTalarico" />
 * [[Christian Menefee]], {{ushr|TX|18|TX-18}} (2026–present)<ref name="Menefee">{{Cite web |last=Guo |first=Kayla |title=Talarico pledges $25 million for Black voter outreach in Texas |url=https://www.texastribune.org/2026/07/20/texas-james-talarico-black-voters-town-hall-houston-2026-senate/ |website=[[The Texas Tribune]] |language=en-US |date=July 20, 2026 |access-date=August 10, 2026}}</ref>
-* [[Beto O'Rourke]], former {{ushr|TX|16|TX-16}} (2013–2019), [[2018 United States Senate election in Texas|2018 U.S. senate]] nominee and [[2022 Texas gubernatorial election|2022 gubernatorial]] nominee<ref name=Beto123>{{cite web |title=Trump's nightmare: Texas Senate race is everything Trump didn't want |url=https://www.ms.now/the-briefing-with-jen-psaki/watch/trump-s-nightmare-texas-senate-race-is-everything-trump-didn-t-want-2490683459520 |website=MSNOW |access-date=March 24, 2026}}</ref>
+* [[Beto O'Rourke]], former {{ushr|TX|16|TX-16}} (2013–2019), [[2018 United States Senate election in Texas|2018 U.S. senate]] nominee and [[2022 Texas gubernatorial election|2022 gubernatorial]] nominee<ref name="Beto123">{{cite web |title=Trump's nightmare: Texas Senate race is everything Trump didn't want |url=https://www.ms.now/the-briefing-with-jen-psaki/watch/trump-s-nightmare-texas-senate-race-is-everything-trump-didn-t-want-2490683459520 |website=MSNOW |access-date=March 24, 2026}}</ref>
 * [[Alan Steelman]], former {{ushr|TX|5|TX-05}} (1973–1977) ''(Republican)''<ref name="RepubsForTal"/>
 
 '''Statewide officials'''
@@ -2944,8 +2944,8 @@ The election took place amidst a broader push by the Trump administration to res
 * [[Christian Manuel]], [[Texas's 22nd House of Representatives district|HD-22]] (2023–present)<ref>{{Cite web|url=https://www.cnn.com/2026/05/29/politics/james-talarico-black-voters-jasmine-crockett|title=How James Talarico is working to win over Black voters who strongly backed Jasmine Crockett|first=Patrick|last=Svitek|date=May 29, 2026|website=CNN}}</ref>
 * [[Bennett Ratliff]], former [[Texas's 115th House of Representatives district|HD-115]] (2013–2015) ''(Republican)''<ref name="RepubsForTal"/>
 * [[Toni Rose (politician)|Toni Rose]], [[Texas's 110th House of Representatives district|HD-110]] (2013–present)<ref name="reprose">{{cite web |last1=Bell |first1=James |title='Far Too Long': Talarico Reveals Plan Addressing Black Maternal Mortality |url=https://www.binnews.com/content/2026-05-11-far-too-long-talarico-reveals-plan-addressing-black-maternal-mortality/ |publisher=Black Information Network |access-date=May 13, 2026}}</ref>
-* [[Kel Seliger]], former [[Texas Senate, District 31|SD-31]] (2004-2023) ''(Republican)''<ref>{{Cite web|url=https://abc7amarillo.com/news/local/senate-democratic-nominee-james-talarico-kicks-off-clear-eyes-full-hearts-tour-in-amarillo-ken-paxton-kel-seliger-cullin-knutson-john-cornyn-president-donald-trump-politics-election-midterms|title=Senate Democratic nominee Talarico brings 'Clear Eyes, Full Hearts' tour to Amarillo|first=Matthew|last=Watkins|date=October 27, 2026|website=KVII}}</ref>
-* [[Royce West]], [[Texas Senate, District 23|SD-23]] (1993–present) and candidate for this seat in [[2020 United States Senate election in Texas#Eliminated in the runoff|2020]]<ref name=Come/>
+* [[Kel Seliger]], former [[Texas Senate, District 31|SD-31]] (2004–2023) ''(Republican)''<ref>{{Cite web|url=https://abc7amarillo.com/news/local/senate-democratic-nominee-james-talarico-kicks-off-clear-eyes-full-hearts-tour-in-amarillo-ken-paxton-kel-seliger-cullin-knutson-john-cornyn-president-donald-trump-politics-election-midterms|title=Senate Democratic nominee Talarico brings 'Clear Eyes, Full Hearts' tour to Amarillo|first=Matthew|last=Watkins|date=October 27, 2026|website=KVII}}</ref>
+* [[Royce West]], [[Texas Senate, District 23|SD-23]] (1993–present) and candidate for this seat in [[2020 United States Senate election in Texas#Eliminated in the runoff|2020]]<ref name="Come"/>
 
 '''Local officials'''
 * [[Steve Bartlett]], former [[mayor of Dallas]] (1991–1995) and former [[TX-03]] (1983–1991) ''(Republican)''<ref name="RepubsForTal"/>
@@ -2956,7 +2956,7 @@ The election took place amidst a broader push by the Trump administration to res
 '''Individuals'''
 * [[Jack Antonoff]], singer and producer<ref>{{Cite news |url=https://www.statesman.com/entertainment/music/article/jack-antonoff-talarico-acl-fest-bleachers-22472305.php |title=Jack Antonoff wears 'Talarico for Texas' shirt at ACL Fest |last=Psencik |first=Katey |work=[[Austin American-Statesman]] |date=October 12, 2026 |access-date=October 12, 2026}}</ref>
 * [[Beck Bennett]], actor and comedian<ref name="Celebrity"/>
-* [[Connie Britton]], actress<ref name = "ChronCelebrities">{{Cite web |last=Malcolm |first=Timothy |date=October 19, 2026 |title='Friday Night Lights' cast, the Chicks, RFK Jr. stumping for Senate candidates |url=https://www.chron.com/politics/article/talarico-paxton-friday-night-lights-22482868.php |access-date=October 21, 2026 |website=Chron |language=en}}</ref>
+* [[Connie Britton]], actress<ref name = "ChronCelebrities">{{Cite web |last=Malcolm |first=Timothy |date=October 19, 2026 |title='Friday Night Lights' cast, the Chicks, RFK Jr. stumping for Senate candidates |url=https://www.chron.com/politics/article/talarico-paxton-friday-night-lights-22482868.php |access-date=October 21, 2026 |website=Houston Chronicle |language=en}}</ref>
 * [[Barbara Bush (born 1981)|Barbara Bush]], daughter of [[President of the United States|President]] [[George W. Bush]] ''(Independent)''<ref>{{Cite web|url=https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/16/564593/barbara-bush-james-talarico-super-pac-us-senate/|title=Barbara Bush donated to super PAC supporting James Talarico for U.S. Senate|last=Schneider|first=Andrew|date=October 16, 2026|access-date=October 19, 2026|website=[[KUHT|Houston Public Media]]}}</ref>
 * [[Neil Bush]], son of [[President of the United States|President]] [[George H. W. Bush]] ''(Republican)''<ref>{{Cite news |last=Baio |first=Ariana |date=October 21, 2026 |title=Bush's brother crosses party lines to vote for James Talarico for Senate |url=https://www.theguardian.com/us-news/2026/oct/21/neil-bush-votes-james-talarico |access-date=October 21, 2026 |work=The Guardian |language=en-GB |issn=0261-3077}}</ref>
 * [[Mark Cuban]], businessman ''(Independent)''<ref name="Celebrity"/>
@@ -2976,7 +2976,7 @@ The election took place amidst a broader push by the Trump administration to res
 * [[Lionel Sosa]], advertising executive ''(Republican)''<ref name="RepubsForTal"/>
 * [[Emily Strayer]], singer and musician<ref name="Celebrity"/>
 * Wayne Thorburn, former executive director of the [[Republican Party of Texas]] ''(Republican)''<ref>{{cite news|last1=Meyer |first1=Theodoric |title=Two Texas Republicans say they voted for Democrat James Talarico |url=https://www.washingtonpost.com/politics/2026/10/21/two-texas-republicans-say-they-voted-democrat-james-talarico/ |work=[[The Washington Post]] |access-date=October 21, 2026 |language=en |date=October 21, 2026}}</ref>
-* [[Jordan Walker Ross]], actor<ref>{{cite web |last1=David |first1=Jamil |title=Christian drama star draws Texas rep's ire after endorsing Talarico |url=https://www.chron.com/culture/article/ken-paxton-texas-film-incentive-socialist-scheme-22483982.php |website=Chron.com |access-date=October 19, 2026 |language=en |date=October 19, 2026}}</ref>
+* [[Jordan Walker Ross]], actor<ref>{{cite web |last1=David |first1=Jamil |title=Christian drama star draws Texas rep's ire after endorsing Talarico |url=https://www.chron.com/culture/article/ken-paxton-texas-film-incentive-socialist-scheme-22483982.php |website=Houston Chronicle |access-date=October 19, 2026 |language=en |date=October 19, 2026}}</ref>
 
 '''Labor unions'''
 * [[Actors' Equity Association]]<ref>{{Cite web |title=Actors' Equity Association Endorses James Talarico for United States Senate |url=https://actorsequity.org/news/PR/2026/06/08/actors-equity-association-endorses-james-talarico-for-united-states-senate |access-date=September 25, 2026 |website=[[Actors' Equity Association|actorsequity.org]] |language=en}}</ref>
@@ -2984,7 +2984,7 @@ The election took place amidst a broader push by the Trump administration to res
 * [[American Federation of State, County and Municipal Employees]], Local 1624<ref>{{Cite web |title=Endorsements for James Talarico - Texas Democratic Party Candidate |url=https://bluevoterguide.org/TX/candidate_James_Talarico/293105 |access-date=September 25, 2026 |website=bluevoterguide.org |language=en}}</ref>
 * [[American Federation of Teachers]] Texas<ref>{{cite web |title=Texas AFT :Texas AFT COPE endorses James Talarico for U.S. Senate |url=https://www.texasaft.org/government/elections/texas-aft-cope-endorses-james-talarico-for-u-s-senate/ |website=Texas AFT |access-date=March 14, 2026 |date=March 13, 2026}}</ref>
 * Texas [[AFL-CIO]]<ref name="AFLt"/>
-* [[United Auto Workers]]<ref name="UAW">{{cite web|url=https://uawpower.org/states/texas|title=Texas|publisher=UAW Power|access-date=2026-11-03}}</ref>
+* [[United Auto Workers]]<ref name="UAW">{{cite web|url=https://uawpower.org/states/texas|title=Texas|publisher=UAW Power|access-date=November 3, 2026}}</ref>
 
 '''Organizations'''
 * [[Congressional Black Caucus]]<ref name="CBCTalarico">{{cite news |last1=Koseff |first1=Alexei |title=Black congressional leaders endorse James Talarico in Texas Senate race |url=https://www.washingtonpost.com/politics/2026/09/18/black-congressional-leaders-endorse-james-talarico-texas-senate-race/ |access-date=September 18, 2026 |newspaper=[[The Washington Post]] |date=September 18, 2026}}</ref>
@@ -3003,7 +3003,7 @@ The election took place amidst a broader push by the Trump administration to res
 * [[Daily Kos]]<ref name="Kos">{{cite web |title=Daily Kos endorses James Talarico for US Senate in Texas |url=https://www.dailykos.com/stories/2026/3/5/2371655/-Daily-Kos-endorses-James-Talarico-for-US-Senate-in-Texas |website=Daily Kos |date=March 5, 2026 |access-date=March 6, 2026 |language=en}}</ref>
 * ''[[The Dallas Morning News]]''<ref>{{Cite web |date=October 18, 2026 |title=We recommend for U.S. Senate election in Texas |url=https://www.dallasnews.com/opinion/we-recommend/article/texas-us-senate-james-talarico-ken-paxton-22468885.php |access-date=October 19, 2026 |website=[[The Dallas Morning News]] |language=en}}</ref>
 * ''[[Houston Chronicle]]''<ref>{{Cite web |last=Board |first=Houston Chronicle Editorial |date=May 28, 2026 |title=Talarico for Senate: Texans deserve better than Ken Paxton's moral rot |url=https://www.houstonchronicle.com/opinion/endorsements/article/james-talarico-general-election-endorsement-paxton-22277380.php |access-date=May 28, 2026 |website=Houston Chronicle |language=en}}</ref>
-* ''[[San Antonio Express-News]]''<ref>{{Cite web |last= |first= |date=October 16, 2026 |title=Talarico offers Texans a chance to choose integrity for U.S. Senate |url=https://www.expressnews.com/opinion/editorial/article/senate-election-james-talarico-paxton-recommend-22477209.php |access-date=2026-11-02 |website=San Antonio Express-News |language=en}}</ref>
+* ''[[San Antonio Express-News]]''<ref>{{Cite web |last= |first= |date=October 16, 2026 |title=Talarico offers Texans a chance to choose integrity for U.S. Senate |url=https://www.expressnews.com/opinion/editorial/article/senate-election-james-talarico-paxton-recommend-22477209.php |access-date=November 2, 2026 |website=San Antonio Express-News |language=en}}</ref>
 }}
 
 {{Endorsements box
@@ -3023,9 +3023,9 @@ The election took place amidst a broader push by the Trump administration to res
 }}
 
 ===Fundraising===
-The race is considered to be one of the most expensive non-presidential electoral races in American history, with spending by both parties surpassing half a billion dollars.<ref>{{Cite news |title=Talarico Makes Final Election Pitch to Texans: 'You Are My Slingshot' |url=https://www.nytimes.com/2026/10/31/us/politics/talarico-texas.html |last=Draper |first=Robert |work=[[The New York Times]] |language=en-US |issn=0362-4331 |date=October 31, 2026 |access-date=October 31, 2026}}</ref> Talarico has considerably outraised Paxton throughout the campaign. Due to the high national profile of the race, both candidates, especially Talarico, have received significant contributions from voters across the country. Within Texas, Talarico's donation base is concentrated in his home city of [[Austin, Texas|Austin]] and the state's other urban areas, while Paxton's is in [[Dallas]].<ref>{{Cite web |last1=Quinton |first1=Phoebe |last2=Moritz |first2=John C. |date=September 29, 2026 |title=The money behind Talarico and Paxton's Senate race, mapped by ZIP code |url=https://www.dallasnews.com/projects/2026/talarico-paxton-donations-map/ |access-date=October 1, 2026 |website=Dallas Morning News |language=en}}</ref> The Talarico campaign raised $64 million in the third quarter of 2026, the largest quarterly total by a U.S. Senate candidate ever, surpassing the $57 million record that had been set by [[Jaime Harrison]] in the [[2020 United States Senate election in South Carolina|2020 South Carolina senate race]].<ref>{{Cite web |date=October 15, 2026 |title=James Talarico announces record-breaking $64M haul |url=https://www.politico.com/live-updates/2026/10/15/congress/james-talarico-64-million-fundraising-record-01119808 |access-date=October 15, 2026 |website=[[Politico]] |language=en}}</ref><ref>{{Cite news |last=Birenbaum |first=Gabby |date=October 15, 2026 |title=James Talarico raises record $64 million in third quarter |url=https://www.texastribune.org/2026/10/15/james-talarico-64-million-fundraising-texas-senate/ |access-date=October 15, 2026 |work=[[The Texas Tribune]] |language=en-US}}</ref>
+The race was one of the most expensive non-presidential electoral races in American history,<ref>{{Cite news |title=Talarico Makes Final Election Pitch to Texans: 'You Are My Slingshot' |url=https://www.nytimes.com/2026/10/31/us/politics/talarico-texas.html |last=Draper |first=Robert |work=[[The New York Times]] |language=en-US |issn=0362-4331 |date=October 31, 2026 |access-date=October 31, 2026}}</ref> and the most expensive race for the Senate.<ref name=dmn_2026-10-28/><ref name="BirenbaumGuo2026-1">{{Cite news |last=Birenbaum |first=Gabby |last2=Guo |first2=Kayla |date=November 3, 2026 |title=James Talarico defeats Ken Paxton, giving Democrats their first U.S. Senate win in Texas since 1988 |url=https://www.texastribune.org/2026/11/03/texas-ken-paxton-james-talarico-us-senate-elections-2026/ |url-status=live |access-date=November 5, 2026 |work=The Texas Tribune}}</ref> Talarico considerably outraised Paxton throughout the campaign. Due to the high national profile of the race, both candidates, especially Talarico, received significant contributions from voters across the country. Within Texas, Talarico's donation base was concentrated in his home city of [[Austin, Texas|Austin]] and the state's other urban areas, while Paxton's was in [[Dallas]].<ref>{{Cite web |last1=Quinton |first1=Phoebe |last2=Moritz |first2=John C. |date=September 29, 2026 |title=The money behind Talarico and Paxton's Senate race, mapped by ZIP code |url=https://www.dallasnews.com/projects/2026/talarico-paxton-donations-map/ |access-date=October 1, 2026 |website=The Dallas Morning News |language=en}}</ref> The Talarico campaign raised $64 million in the third quarter of 2026, the largest quarterly total by a U.S. Senate candidate ever, surpassing the $57M record that had been set by [[Jaime Harrison]] in the [[2020 United States Senate election in South Carolina|2020 South Carolina senate race]].<ref>{{Cite web |date=October 15, 2026 |title=James Talarico announces record-breaking $64M haul |url=https://www.politico.com/live-updates/2026/10/15/congress/james-talarico-64-million-fundraising-record-01119808 |access-date=October 15, 2026 |website=[[Politico]] |language=en}}</ref><ref>{{Cite news |last=Birenbaum |first=Gabby |date=October 15, 2026 |title=James Talarico raises record $64 million in third quarter |url=https://www.texastribune.org/2026/10/15/james-talarico-64-million-fundraising-texas-senate/ |access-date=October 15, 2026 |work=[[The Texas Tribune]] |language=en-US}}</ref>
 
-Despite Talarico's individual fundraising advantage, however, leading into the fall campaign season, and particularly after the [[2026 Republican National Convention|Republican National Convention]] in Dallas, Paxton has seen a massive infusion of [[political action committee]] and political party spending on his behalf to try to buoy his sagging polling numbers.<ref>{{Cite web |last=Howard |first=Andrew |date=September 11, 2026 |title=Republicans just opened the floodgates on spending for Ken Paxton |url=https://www.politico.com/news/2026/09/11/gop-money-texas-paxton-trump-01072972 |access-date=September 28, 2026|website=[[Politico]] |language=en}}</ref> The [[Senate Leadership Fund]] alone committed over $100 million to support Paxton, far exceeding Talarico's individual fundraising numbers, though a remarkably high investment to defend a seat in a state Republicans have not lost in over 30 years.<ref>{{Cite web |last=Birenbaum |first=Gabby |date=September 23, 2026 |title=Senate Republicans increase ad buy for Ken Paxton to $100M |url=https://www.texastribune.org/2026/09/22/texas-paxton-ads-100-million-senate-race-talarico/ |access-date=September 28, 2026 |website=The Texas Tribune |language=en-US}}</ref> [[Elon Musk]] also donated $10 million to Lone Star Liberty PAC, a group supporting Ken Paxton.<ref>{{Cite web |title=Elon Musk quietly becomes biggest known donor in midterm contests as he tries to save Republicans |website=[[AP News]] |url=https://apnews.com/article/elon-musk-midterms-republicans-donors-c06efc774a2e7c5d345e0d46641eb510}}</ref> The [[Supreme Court of the United States|Supreme Court]] over the summer additionally cleared the way for political parties themselves to freely coordinate advertising spending with candidates at the candidates' reduced rate, handing Republicans a monetary advantage across the country due to the Democratic Party lagging behind the Republicans in party fundraising.<ref>{{Cite web |last1=Doherty |first1=Erin |last2=Kashinsky |first2=Lisa |last3=Piper |first3=Jessica |last4=Howard |first4=Andrew |title=The Supreme Court just made the DNC's fundraising woes a much bigger problem|url=https://www.politico.com/news/2026/06/30/the-supreme-court-just-made-the-dncs-fundraising-woes-a-much-bigger-problem-00983172 |access-date=September 28, 2026 |website=Politico |language=en}}</ref> By October, AdImpact data cited by Reuters put pro-Paxton spending at about $239 million, against roughly $45 million from major Democratic-aligned groups. Texas PAC, a Republican super PAC, accounted for nearly $149 million of that advertising. Federal filings separately showed that Elon Musk gave $158 million to the Senate Leadership Fund, which passed an equivalent sum to Texas PAC. Lone Star Rising PAC, the largest Democratic-aligned outside group, spent $19.3 million on advertising.<ref>{{Cite news |last1=Brooks |first1=Brad |last2=Sullivan |first2=Andy |last3=Somasekhar |first3=Arathy |last4=Sullivan |first4=Andy |date=October 21, 2026 |title=Republicans bet Musk's millions can rescue Texas' Paxton in US Senate race |url=https://www.reuters.com/world/us/republicans-bet-musks-millions-can-rescue-texas-paxton-us-senate-race-2026-10-21/ |access-date=October 26, 2026 |work=Reuters |language=en}}</ref><ref>{{Cite web |last=Birenbaum |first=Gabby |last2=Serrano |first2=Alejandro |date=October 15, 2026 |title=Elon Musk gave $158 million to Senate GOP group helping Paxton |url=https://www.texastribune.org/2026/10/15/elon-musk-ken-paxton-donations-senate-gop-super-pac/ |access-date=October 26, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite news |last=Schleifer |first=Theodore |date=October 16, 2026 |title=Most of Ken Paxton's Money Can Be Traced to One Man: Elon Musk |url=https://www.nytimes.com/2026/10/16/us/politics/elon-musk-ken-paxton-texas-senate-race.html |access-date=October 31, 2026 |work=[[The New York Times]] |language=en-US |issn=0362-4331}}</ref>
+Despite Talarico's individual fundraising advantage, Paxton received a massive infusion of [[political action committee]] (PAC) and political party spending to buoy his sagging polling numbers leading into the fall campaign season, particularly after the [[2026 Republican National Convention|Republican National Convention]] in Dallas.<ref>{{Cite web |last=Howard |first=Andrew |date=September 11, 2026 |title=Republicans just opened the floodgates on spending for Ken Paxton |url=https://www.politico.com/news/2026/09/11/gop-money-texas-paxton-trump-01072972 |access-date=September 28, 2026|website=[[Politico]] |language=en}}</ref> The [[Senate Leadership Fund]] alone committed over $100M to support Paxton, far exceeding Talarico's individual fundraising numbers and representing a remarkably high investment to defend a seat in a state Republicans had not lost in over 30 years.<ref>{{Cite web |last=Birenbaum |first=Gabby |date=September 23, 2026 |title=Senate Republicans increase ad buy for Ken Paxton to $100M |url=https://www.texastribune.org/2026/09/22/texas-paxton-ads-100-million-senate-race-talarico/ |access-date=September 28, 2026 |website=The Texas Tribune |language=en-US}}</ref> [[Elon Musk]] also donated $10M to Lone Star Liberty PAC, a group supporting Ken Paxton.<ref>{{Cite web |title=Elon Musk quietly becomes biggest known donor in midterm contests as he tries to save Republicans |website=[[Associated Press]] |url=https://apnews.com/article/elon-musk-midterms-republicans-donors-c06efc774a2e7c5d345e0d46641eb510}}</ref> The [[Supreme Court of the United States|Supreme Court]] over the summer additionally cleared the way for political parties themselves to freely coordinate advertising spending with candidates at the candidates' reduced rate, handing Republicans a monetary advantage across the country due to the Democratic Party lagging behind the Republicans in party fundraising.<ref>{{Cite web |last1=Doherty |first1=Erin |last2=Kashinsky |first2=Lisa |last3=Piper |first3=Jessica |last4=Howard |first4=Andrew |title=The Supreme Court just made the DNC's fundraising woes a much bigger problem|url=https://www.politico.com/news/2026/06/30/the-supreme-court-just-made-the-dncs-fundraising-woes-a-much-bigger-problem-00983172 |access-date=September 28, 2026 |website=Politico |language=en}}</ref> By October, AdImpact data cited by Reuters put pro-Paxton spending at about $239M, against roughly $45M from major Democratic-aligned groups. Texas PAC, a Republican super PAC, accounted for nearly $149M of that advertising. Federal filings separately showed that Elon Musk gave $158M to the Senate Leadership Fund, which passed an equivalent sum to Texas PAC. Lone Star Rising PAC, the largest Democratic-aligned outside group, spent $19.3M on advertising.<ref>{{Cite news |last1=Brooks |first1=Brad |last2=Sullivan |first2=Andy |last3=Somasekhar |first3=Arathy |last4=Sullivan |first4=Andy |date=October 21, 2026 |title=Republicans bet Musk's millions can rescue Texas' Paxton in US Senate race |url=https://www.reuters.com/world/us/republicans-bet-musks-millions-can-rescue-texas-paxton-us-senate-race-2026-10-21/ |access-date=October 26, 2026 |work=Reuters |language=en}}</ref><ref>{{Cite web |last=Birenbaum |first=Gabby |last2=Serrano |first2=Alejandro |date=October 15, 2026 |title=Elon Musk gave $158 million to Senate GOP group helping Paxton |url=https://www.texastribune.org/2026/10/15/elon-musk-ken-paxton-donations-senate-gop-super-pac/ |access-date=October 26, 2026 |website=The Texas Tribune |language=en-US}}</ref><ref>{{Cite news |last=Schleifer |first=Theodore |date=October 16, 2026 |title=Most of Ken Paxton's Money Can Be Traced to One Man: Elon Musk |url=https://www.nytimes.com/2026/10/16/us/politics/elon-musk-ken-paxton-texas-senate-race.html |access-date=October 31, 2026 |work=[[The New York Times]] |language=en-US |issn=0362-4331}}</ref> The Musk-backed Texas PAC spent over $178M, the largest investment by any single organization involved in the race.<ref name="dmn_2026-10-28">{{cite news |last=Jankowski |first=Philip |title=Texas Senate race shatters US spending record with Musk’s millions |url=https://www.dallasnews.com/news/politics/article/elon-musk-fuels-record-breaking-spending-texas-22494961.php |access-date=November 4, 2026 |work=[[The Dallas Morning News]] |location=Dallas, Texas |date=October 28, 2026 |url-access=limited }}</ref>
 
 {| class="wikitable sortable"
 |-
@@ -3051,11 +3051,11 @@ Despite Talarico's individual fundraising advantage, however, leading into the f
 |$13,037
 |$1,288
 |-
-! colspan="4" |<small>Source: [[Federal Election Commission]]<ref>{{cite web |title=2026 Election United States Senate – Texas |url=https://www.fec.gov/data/elections/senate/TX/2026/ |website=fec.gov |publisher=[[Federal Election Commission]] |access-date=October 16, 2026}}</ref></small>
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref>{{cite web |title=2026 Election United States Senate – Texas |url=https://www.fec.gov/data/elections/senate/TX/2026/ |website=Federal Election Commission |publisher=[[Federal Election Commission]] |access-date=October 16, 2026}}</ref></small>
 |}
 
 === Polling ===
-Talarico has led in aggregate polling for much of the race, with his lead by the fall being the largest for any Senate Democrat in Texas since [[1988 United States Senate election in Texas|1988]].<ref>{{Cite news |last=Koplowitz |first=Howard |title=New poll shows Democrat smashing record held for 40 years in red state |url=https://www.al.com/politics/2026/10/new-poll-shows-democrat-smashing-record-held-for-40-years-in-red-state.html |work=[[AL.com]] |date=October 29, 2026 |access-date=October 29, 2026 |language=en}}</ref>
+Talarico led in aggregate polling for much of the race, with his lead by the fall being the largest for any Senate Democrat in Texas since [[1988 United States Senate election in Texas|1988]].<ref>{{Cite news |last=Koplowitz |first=Howard |title=New poll shows Democrat smashing record held for 40 years in red state |url=https://www.al.com/politics/2026/10/new-poll-shows-democrat-smashing-record-held-for-40-years-in-red-state.html |work=[[AL.com]] |date=October 29, 2026 |access-date=October 29, 2026 |language=en}}</ref>
 
 {{Chart
  |definition=Opinion polling for the 2026 United States Senate election in Texas.chart
@@ -3128,7 +3128,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |}
 
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source{{Efn|Party affiliation labels according to ''[[The Texas Tribune]]''}}
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -3199,7 +3199,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |0%
 |6%
 |-
-|style="text-align:left;|[[YouGov]]<ref>{{cite web|title=Texas General Election 2026 – Likely Voters|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf |website=[[YouGov]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|style="text-align:left;"|[[YouGov]]<ref>{{cite web|title=Texas General Election 2026 – Likely Voters|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_tx_20261026_lv.pdf |website=[[YouGov]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |October 26–29, 2026
 |2,141 (LV)
 |±{{nbsp}}2.9%
@@ -3520,7 +3520,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |2%{{efn|name="SE2"}}
 |{{sdash}}
 |-
-|style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: September 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-texas-poll-toplines.html |website=[[NYTimes]] |date=October 2, 2026 |access-date=October 3, 2026}}</ref>
+|style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: September 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-texas-poll-toplines.html |website=[[The New York Times]] |date=October 2, 2026 |access-date=October 3, 2026}}</ref>
 |September 21–30, 2026
 |615 (LV)
 |±{{nbsp}}4.5%
@@ -3843,7 +3843,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |3%{{Efn|"Other candidate" with 3%}}
 |3%
 |-
-| style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: June 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-toplines.html |website=[[NYTimes]] |date=June 30, 2026 |access-date=October 3, 2026}}</ref>
+| style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: June 2026 Times/Siena Poll of the Likely Electorate in Texas |url=https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-toplines.html |website=[[The New York Times]] |date=June 30, 2026 |access-date=October 3, 2026}}</ref>
 |June 19–27, 2026
 |656 (LV)
 |±{{nbsp}}4.5%
@@ -4011,7 +4011,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |5%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
 |±{{nbsp}}3.1%
@@ -4027,7 +4027,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 <!-- = = = don't edit the line above = = = -->
 '''John Cornyn vs. James Talarico'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4135,7 +4135,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |7%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
 |±{{nbsp}}3.1%
@@ -4147,7 +4147,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''John Cornyn vs. Jasmine Crockett'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4196,7 +4196,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Ken Paxton vs. Jasmine Crockett'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4271,7 +4271,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''John Cornyn vs. Colin Allred'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4299,7 +4299,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |6%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
 |±{{nbsp}}3.1%
@@ -4329,7 +4329,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Ken Paxton vs. Colin Allred'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4357,7 +4357,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |5%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
 |±{{nbsp}}3.1%
@@ -4410,7 +4410,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Wesley Hunt vs. Colin Allred'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4429,7 +4429,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |5%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
 |±{{nbsp}}3.1%
@@ -4450,7 +4450,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Wesley Hunt vs. Jasmine Crockett'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4490,7 +4490,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Wesley Hunt vs. James Talarico'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4527,7 +4527,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 |{{sdash}}
 |6%
 |-
-|style="text-align:left;|[[UT Tyler]]<ref name="UTTylerSept2025"/>
+|style="text-align:left;"|[[UT Tyler]]<ref name="UTTylerSept2025"/>
 |September 17–24, 2025
 |1,032 (RV)
 |±{{nbsp}}3.1%
@@ -4539,7 +4539,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''John Cornyn vs. Beto O'Rourke'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4567,7 +4567,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Ken Paxton vs. Beto O'Rourke'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4595,7 +4595,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Wesley Hunt vs. Beto O'Rourke'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4623,7 +4623,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''John Cornyn vs. Joaquin Castro'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4643,7 +4643,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Ken Paxton vs. Joaquin Castro'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4663,7 +4663,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Wesley Hunt vs. Joaquin Castro'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4683,7 +4683,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''John Cornyn vs. Generic Democrat'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4703,7 +4703,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Ken Paxton vs. Generic Democrat'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4723,7 +4723,7 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 
 '''Generic Republican vs. Generic Democrat'''
 {| class="wikitable" style="font-size:90%;text-align:center;"
-|- valign=bottom
+|- style="vertical-align: bottom"
 ! Poll source
 ! Date(s)<br />administered
 ! Sample<br />size{{efn|name="Key"}}
@@ -4747,20 +4747,42 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 ===Results===
 {{Election box begin 
  | title=2026 United States Senate election in Texas}}
-{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=|percentage=|change=}}
-{{Election box candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=|percentage=|change=}}
-{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=|percentage=|change=}}
-{{Election box write-in with party link|votes=|percentage=|change=}}{{Election box total 
- | votes= 
+{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,445,121|percentage=55.1%|change=+11.2%}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,249,752|percentage=43.0%|change=-10.5%}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=190,258|percentage=1.9%|change=+0.1%}}
+{{Election box write-in with party link|votes=5,112|percentage=0.1%|change=}}{{Election box total 
+ | votes= 9,890,243
  | percentage=100.0
  | change    = 
 }}
 {{Election box end}}
 
-<!-- This is a template borrowed from the [[2025 Virginia gubernatorial election]]. Modify and fill this out once exit polls are available.
-==Exit poll==
+'''Counties that flipped from Republican to Democratic'''
+*[[Bastrop County, Texas|Bastrop]] (largest municipality: [[Elgin, Texas|Elgin]])
+*[[Bell County, Texas|Bell]] (largest municipality: [[Killeen, Texas|Killeen]])
+*[[Brazoria County, Texas|Brazoria]] (largest municipality: [[Pearland, Texas|Pearland]])
+*[[Brazos County, Texas|Brazos]] (largest municipality: [[College Station, Texas|College Station]])
+*[[Brewster County, Texas|Brewster]] (largest municipality: [[Alpine, Texas|Alpine]])
+*[[Caldwell County, Texas|Caldwell]] (largest municipality: [[Lockhart, Texas|Lockhart]])
+*[[Collin County, Texas|Collin]] (largest municipality: [[Plano, Texas|Plano]])
+*[[Denton County, Texas|Denton]] (largest municipality: [[Denton, Texas|Denton]])
+*[[Frio County, Texas|Frio]] (largest municipality: [[Pearsall, Texas|Pearsall]])
+*[[Jefferson County, Texas|Jefferson]] (largest municipality: [[Beaumont, Texas|Beaumont]])
+*[[Jim Wells County, Texas|Jim Wells]] (largest municipality: [[Alice, Texas|Alice]])
+*[[Kaufman County, Texas|Kaufman]] (largest municipality: [[Forney, Texas|Forney]])
+*[[Kleberg County, Texas|Kleberg]] (largest municipality: [[Kingsville, Texas|Kingsville]])
+*[[La Salle County, Texas|La Salle]] (largest municipality: [[Cotulla, Texas|Cotulla]])
+*[[Nueces County, Texas|Nueces]] (largest municipality: [[Corpus Christi, Texas|Corpus Christi]])
+*[[Reeves County, Texas|Reeves]] (largest municipality: [[Pecos, Texas|Pecos]])
+*[[Tarrant County, Texas|Tarrant]] (largest municipality: [[Fort Worth, Texas|Fort Worth]])
+*[[Val Verde County, Texas|Val Verde]] (largest municipality: [[Del Rio, Texas|Del Rio]])
+*[[Williamson County, Texas|Williamson]] (largest municipality: [[Round Rock, Texas|Round Rock]])
+
+==Analysis==
+
+===Exit poll===
 {| class="wikitable sortable" style="font-size:90%; line-height:1.2"
-|+ 2026 United States Senate election in Texas voter demographics (CNN)
+|+ 2026 United States Senate election in Texas (CNN)<ref name="CNN 2026">{{Cite web |title=Voter polls: Election 2026 {{!}} CNN Politics |url=https://www.cnn.com/elections/2026/voter-polls/texas/general/us-senate/0|access-date=November 4, 2026 |website=CNN |language=en}}</ref>
 |-
 ! Demographic subgroup
 ! {{party shading/Democratic}} |Talarico
@@ -4770,326 +4792,298 @@ Talarico has led in aggregate polling for much of the race, with his lead by the
 ! colspan="4" |Ideology
 |-
 | [[Modern liberalism in the United States|Liberals]]
-| style="text-align:right; background:#b0ceff;" | 96
-| style="text-align:right; background:#fff3f3;" | 4
-| style="text-align:right;" | 33
+| style="text-align:right; background:#b0ceff;" | 97
+| style="text-align:right; background:#fff3f3;" | 2
+| style="text-align:right;" | 22
 |-
 | [[Moderates]]
-| style="text-align:right; background:#b0ceff;" | 69
-| style="text-align:right; background:#fff3f3;" | 31
-| style="text-align:right;" | 33
+| style="text-align:right; background:#b0ceff;" | 72
+| style="text-align:right; background:#fff3f3;" | 26
+| style="text-align:right;" | 40
 |-
 | [[Conservatism in the United States|Conservatives]]
-| style="text-align:right; background:#f0f0ff;" | 10
-| style="text-align:right; background:#ffb6b6;" | 90
-| style="text-align:right;" | 35
+| style="text-align:right; background:#f0f0ff;" | 13
+| style="text-align:right; background:#ffb6b6;" | 84
+| style="text-align:right;" | 38
 |-
 ! colspan="4" |Party
 |-
 | [[Democratic Party (United States)|Democrats]]
 | style="text-align:right; background:#b0ceff;" | 99
 | style="text-align:right; background:#fff3f3;" | 1
-| style="text-align:right;" | 36
+| style="text-align:right;" | 33
 |-
 | [[Republican Party (United States)|Republicans]]
-| style="text-align:right; background:#f0f0ff;" | 7
-| style="text-align:right; background:#ffb6b6;" | 93
-| style="text-align:right;" | 31
+| style="text-align:right; background:#f0f0ff;" | 11
+| style="text-align:right; background:#ffb6b6;" | 87
+| style="text-align:right;" | 38
 |-
 | [[Independent (voter)|Independents]]
-| style="text-align:right; background:#b0ceff;" | 59
-| style="text-align:right; background:#fff3f3;" | 40
-| style="text-align:right;" | 33
+| style="text-align:right; background:#b0ceff;" | 64
+| style="text-align:right; background:#fff3f3;" | 33
+| style="text-align:right;" | 29
 |-
 ! colspan="4" |Donald Trump job approval
 |-
 | Approve
-| style="text-align:right; background:#f0f0ff;" | 6
-| style="text-align:right; background:#ffb6b6;" | 94
-| style="text-align:right;" | 39
+| style="text-align:right; background:#f0f0ff;" | 5
+| style="text-align:right; background:#ffb6b6;" | 93
+| style="text-align:right;" | 40
 |-
 | Disapprove
-| style="text-align:right; background:#b0ceff;" | 92
-| style="text-align:right; background:#fff3f3;" | 7
+| style="text-align:right; background:#b0ceff;" | 89
+| style="text-align:right; background:#fff3f3;" | 9
 | style="text-align:right;" | 59
-|-
-! colspan="4" |Most important issue facing Texas
-|-
-| Economy
-| style="text-align:right; background:#b0ceff;" | 63
-| style="text-align:right; background:#fff3f3;" | 36
-| style="text-align:right;" | 48
-|-
-| Health care
-| style="text-align:right; background:#b0ceff;" | 81
-| style="text-align:right; background:#fff3f3;" | 18
-| style="text-align:right;" | 21
-|-
-| Education
-| style="text-align:right; background:#b0ceff;" | 55
-| style="text-align:right; background:#fff3f3;" | 45
-| style="text-align:right;" | 11
-|-
-| Immigration
-| style="text-align:right; background:#f0f0ff;" | 11
-| style="text-align:right; background:#ffb6b6;" | 89
-| style="text-align:right;" | 11
 |-
 ! colspan="4" |2024 presidential vote
 |-
 | [[Kamala Harris]]
-| style="text-align:right; background:#b0ceff;" | 99
+| style="text-align:right; background:#b0ceff;" | 98
 | style="text-align:right; background:#fff3f3;" | 1
-| style="text-align:right;" | 51
-|-
-| [[Donald Trump]]
-| style="text-align:right; background:#f0f0ff;" | 7
-| style="text-align:right; background:#ffb6b6;" | 93
 | style="text-align:right;" | 42
 |-
+| [[Donald Trump]]
+| style="text-align:right; background:#f0f0ff;" | 11
+| style="text-align:right; background:#ffb6b6;" | 86
+| style="text-align:right;" | 47
+|-
 | Another candidate
-| style="text-align:right; background:#b0ceff;" | 61
-| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right; background:#b0ceff;" | 74
+| style="text-align:right; background:#fff3f3;" | 16
 | style="text-align:right;" | 2
 |-
 | Did not vote
-| style="text-align:right; background:#b0ceff;" | 61
-| style="text-align:right; background:#fff3f3;" | 39
-| style="text-align:right;" | 3
+| style="text-align:right; background:#b0ceff;" | 81
+| style="text-align:right; background:#fff3f3;" | 16
+| style="text-align:right;" | 8
 |-
 ! colspan="4" |Gender
 |-
 | Men
-| style="text-align:right; background:#f0f0ff;" | 48
-| style="text-align:right; background:#ffb6b6;" | 51
-| style="text-align:right;" | 47
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 47
+| style="text-align:right;" | 45
 |-
 | Women
-| style="text-align:right; background:#b0ceff;" | 65
-| style="text-align:right; background:#fff3f3;" | 35
-| style="text-align:right;" | 53
+| style="text-align:right; background:#b0ceff;" | 58
+| style="text-align:right; background:#fff3f3;" | 40
+| style="text-align:right;" | 54
 |-
 ! colspan="4" |Income
 |-
-| $200,000 or more
-| style="text-align:right; background:#b0ceff;" | 64
-| style="text-align:right; background:#fff3f3;" | 36
-| style="text-align:right;" | 14
-|-
-| $100,000-$199,999
-| style="text-align:right; background:#b0ceff;" | 51
-| style="text-align:right; background:#fff3f3;" | 48
-| style="text-align:right;" | 28
+| $100,000 or more
+| style="text-align:right; background:#b0ceff;" | 54
+| style="text-align:right; background:#fff3f3;" | 45
+| style="text-align:right;" | 40
 |-
 | $50,000-$99,999
-| style="text-align:right; background:#b0ceff;" | 58
-| style="text-align:right; background:#fff3f3;" | 42
-| style="text-align:right;" | 31
+| style="text-align:right; background:#b0ceff;" | 55
+| style="text-align:right; background:#fff3f3;" | 43
+| style="text-align:right;" | 30
 |-
 | Less than $50,000
-| style="text-align:right; background:#b0ceff;" | 63
-| style="text-align:right; background:#fff3f3;" | 37
-| style="text-align:right;" | 26
+| style="text-align:right; background:#b0ceff;" | 58
+| style="text-align:right; background:#fff3f3;" | 40
+| style="text-align:right;" | 30
 |-
 ! colspan="4" |Race/ethnicity
 |-
 | [[White American|White]]
-| style="text-align:right; background:#f0f0ff;" | 47
-| style="text-align:right; background:#ffb6b6;" | 53
-| style="text-align:right;" | 71
+| style="text-align:right; background:#f0f0ff;" | 42
+| style="text-align:right; background:#ffb6b6;" | 56
+| style="text-align:right;" | 55
 |-
 | [[Asian Americans|Asian]]
-| style="text-align:right; background:#b0ceff;" | 80
-| style="text-align:right; background:#fff3f3;" | 20
+| style="text-align:right; background:#b0ceff;" | 71
+| style="text-align:right; background:#fff3f3;" | 28
 | style="text-align:right;" | 4
 |-
 | [[Hispanic and Latino Americans|Latino]]
-| style="text-align:right; background:#b0ceff;" | 67
-| style="text-align:right; background:#fff3f3;" | 33
-| style="text-align:right;" | 5
+| style="text-align:right; background:#b0ceff;" | 68
+| style="text-align:right; background:#fff3f3;" | 30
+| style="text-align:right;" | 24
 |-
 | [[African Americans|Black]]
-| style="text-align:right; background:#b0ceff;" | 93
-| style="text-align:right; background:#fff3f3;" | 7
-| style="text-align:right;" | 16
+| style="text-align:right; background:#b0ceff;" | 90
+| style="text-align:right; background:#fff3f3;" | 8
+| style="text-align:right;" | 12
 |-
 ! colspan="4" | White born-again or evangelical Christian?
 |-
 | Yes
-| style="text-align:right; background:#f0f0ff;" | 20
+| style="text-align:right; background:#f0f0ff;" | 17
 | style="text-align:right; background:#ffb6b6;" | 80
-| style="text-align:right;" | 28
+| style="text-align:right;" | 20
 |-
 | No
-| style="text-align:right; background:#b0ceff;" | 71
-| style="text-align:right; background:#fff3f3;" | 29
-| style="text-align:right;" | 72
+| style="text-align:right; background:#b0ceff;" | 65
+| style="text-align:right; background:#fff3f3;" | 33
+| style="text-align:right;" | 80
 |-
 ! colspan="4" | Race by gender
 |-
 | White men
-| style="text-align:right; background:#f0f0ff;" | 38
-| style="text-align:right; background:#ffb6b6;" | 61
-| style="text-align:right;" | 34
+| style="text-align:right; background:#f0f0ff;" | 39
+| style="text-align:right; background:#ffb6b6;" | 59
+| style="text-align:right;" | 26
 |-
 | White women
-| style="text-align:right; background:#b0ceff;" | 54
-| style="text-align:right; background:#fff3f3;" | 46
-| style="text-align:right;" | 36
+| style="text-align:right; background:#f0f0ff;" | 44
+| style="text-align:right; background:#ffb6b6;" | 54
+| style="text-align:right;" | 29
 |-
 | Black men
-| style="text-align:right; background:#b0ceff;" | 89
-| style="text-align:right; background:#fff3f3;" | 11
-| style="text-align:right;" | 7
+| style="text-align:right; background:#b0ceff;" | 87
+| style="text-align:right; background:#fff3f3;" | 10
+| style="text-align:right;" | 5
 |-
 | Black women
-| style="text-align:right; background:#b0ceff;" | 96
-| style="text-align:right; background:#fff3f3;" | 3
-| style="text-align:right;" | 9
+| style="text-align:right; background:#b0ceff;" | 92
+| style="text-align:right; background:#fff3f3;" | 6
+| style="text-align:right;" | 7
 |-
 | Latino men
-| style="text-align:right; background:#b0ceff;" | 53
-| style="text-align:right; background:#fff3f3;" | 47
-| style="text-align:right;" | 2
+| style="text-align:right; background:#b0ceff;" | 63
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 11
 |-
 | Latina women
-| style="text-align:right; background:#b0ceff;" | 78
-| style="text-align:right; background:#fff3f3;" | 22
-| style="text-align:right;" | 2
+| style="text-align:right; background:#b0ceff;" | 73
+| style="text-align:right; background:#fff3f3;" | 25
+| style="text-align:right;" | 13
 |-
 | All other voters
-| style="text-align:right; background:#b0ceff;" | 73
-| style="text-align:right; background:#fff3f3;" | 27
+| style="text-align:right; background:#b0ceff;" | 57
+| style="text-align:right; background:#fff3f3;" | 40
 | style="text-align:right;" | 9
 |-
 ! colspan="4" |Age
 |-
 | 18–29 years old
-| style="text-align:right; background:#b0ceff;" | 70
-| style="text-align:right; background:#fff3f3;" | 29
+| style="text-align:right; background:#b0ceff;" | 79
+| style="text-align:right; background:#fff3f3;" | 19
 | style="text-align:right;" | 13
 |-
 | 30–44 years old
-| style="text-align:right; background:#b0ceff;" | 62
-| style="text-align:right; background:#fff3f3;" | 38
-| style="text-align:right;" | 20
+| style="text-align:right; background:#b0ceff;" | 66
+| style="text-align:right; background:#fff3f3;" | 32
+| style="text-align:right;" | 22
 |-
 | 45-64 years old
-| style="text-align:right; background:#b0ceff;" | 55
-| style="text-align:right; background:#fff3f3;" | 45
+| style="text-align:right; background:#b0ceff;" | 49
+| style="text-align:right; background:#ffb6b6;" | 49
 | style="text-align:right;" | 35
 |-
 | 65 and older
-| style="text-align:right; background:#b0ceff;" | 51
-| style="text-align:right; background:#fff3f3;" | 49
-| style="text-align:right;" | 32
+| style="text-align:right; background:#f0f0ff;" | 44
+| style="text-align:right; background:#ffb6b6;" | 55
+| style="text-align:right;" | 30
 |-
 ! colspan="4" |Area type
 |-
 | Urban
-| style="text-align:right; background:#b0ceff;" | 66
-| style="text-align:right; background:#fff3f3;" | 34
-| style="text-align:right;" | 19
+| style="text-align:right; background:#b0ceff;" | 73
+| style="text-align:right; background:#fff3f3;" | 26
+| style="text-align:right;" | 23
 |-
 | Suburban
 | style="text-align:right; background:#b0ceff;" | 59
-| style="text-align:right; background:#fff3f3;" | 41
-| style="text-align:right;" | 57
+| style="text-align:right; background:#fff3f3;" | 40
+| style="text-align:right;" | 48
 |-
 | Rural
-| style="text-align:right; background:#f0f0ff;" | 46
-| style="text-align:right; background:#ffb6b6;" | 54
-| style="text-align:right;" | 24
+| style="text-align:right; background:#f0f0ff;" | 36
+| style="text-align:right; background:#ffb6b6;" | 61
+| style="text-align:right;" | 30
 |-
 ! colspan="4" |Education
 |-
 | College graduate
-| style="text-align:right; background:#b0ceff;" | 63
-| style="text-align:right; background:#fff3f3;" | 36
-| style="text-align:right;" | 52
+| style="text-align:right; background:#b0ceff;" | 60
+| style="text-align:right; background:#fff3f3;" | 38
+| style="text-align:right;" | 45
 |-
 | No college degree
-| style="text-align:right; background:#b0ceff;" | 50
-| style="text-align:right; background:#fff3f3;" | 49
-| style="text-align:right;" | 48
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 47
+| style="text-align:right;" | 55
 |-
 ! colspan="4" |Education by race
 |-
 | White college graduates
-| style="text-align:right; background:#b0ceff;" | 57
-| style="text-align:right; background:#fff3f3;" | 43
-| style="text-align:right;" | 38
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 47
+| style="text-align:right;" | 28
 |-
 | Non-white college graduates
-| style="text-align:right; background:#b0ceff;" | 80
-| style="text-align:right; background:#fff3f3;" | 19
-| style="text-align:right;" | 14
+| style="text-align:right; background:#b0ceff;" | 74
+| style="text-align:right; background:#fff3f3;" | 24
+| style="text-align:right;" | 18
 |-
 | Whites without college
-| style="text-align:right; background:#f0f0ff;" | 34
+| style="text-align:right; background:#f0f0ff;" | 32
 | style="text-align:right; background:#ffb6b6;" | 66
-| style="text-align:right;" | 33
+| style="text-align:right;" | 28
 |-
 | Non-whites without college
-| style="text-align:right; background:#b0ceff;" | 85
-| style="text-align:right; background:#fff3f3;" | 15
-| style="text-align:right;" | 15
+| style="text-align:right; background:#b0ceff;" | 70
+| style="text-align:right; background:#fff3f3;" | 28
+| style="text-align:right;" | 27
 |-
 ! colspan="4" |Education by gender and race
 |-
 | White women with college degrees
-| style="text-align:right; background:#b0ceff;" | 65
-| style="text-align:right; background:#fff3f3;" | 35
-| style="text-align:right;" | 20
+| style="text-align:right; background:#b0ceff;" | 54
+| style="text-align:right; background:#fff3f3;" | 44
+| style="text-align:right;" | 14
 |-
 | White women without college degrees
-| style="text-align:right; background:#f0f0ff;" | 39
-| style="text-align:right; background:#ffb6b6;" | 60
-| style="text-align:right;" | 16
+| style="text-align:right; background:#f0f0ff;" | 34
+| style="text-align:right; background:#ffb6b6;" | 64
+| style="text-align:right;" | 15
 |-
 | White men with college degrees
-| style="text-align:right; background:#f0f0ff;" | 48
-| style="text-align:right; background:#ffb6b6;" | 52
-| style="text-align:right;" | 18
+| style="text-align:right; background:#f0f0ff;" | 49
+| style="text-align:right; background:#ffb6b6;" | 50
+| style="text-align:right;" | 13
 |-
 | White men without college degrees
 | style="text-align:right; background:#f0f0ff;" | 29
-| style="text-align:right; background:#ffb6b6;" | 71
-| style="text-align:right;" | 17
+| style="text-align:right; background:#ffb6b6;" | 69
+| style="text-align:right;" | 13
 |-
 | Voters of color
-| style="text-align:right; background:#b0ceff;" | 83
-| style="text-align:right; background:#fff3f3;" | 17
-| style="text-align:right;" | 30
+| style="text-align:right; background:#b0ceff;" | 72
+| style="text-align:right; background:#fff3f3;" | 26
+| style="text-align:right;" | 45
 |-
 ! colspan="4" |Educational attainment
 |-
 | [[Postgraduate education|Advanced degree]]
-| style="text-align:right; background:#b0ceff;" | 68
-| style="text-align:right; background:#fff3f3;" | 32
-| style="text-align:right;" | 23
+| style="text-align:right; background:#b0ceff;" | 64
+| style="text-align:right; background:#fff3f3;" | 34
+| style="text-align:right;" | 18
 |-
 | [[Bachelor's degree]]
-| style="text-align:right; background:#b0ceff;" | 60
-| style="text-align:right; background:#fff3f3;" | 40
-| style="text-align:right;" | 29
+| style="text-align:right; background:#b0ceff;" | 57
+| style="text-align:right; background:#fff3f3;" | 41
+| style="text-align:right;" | 27
 |-
 | [[Associate's degree]]
-| style="text-align:right; background:#b0ceff;" | 53
-| style="text-align:right; background:#fff3f3;" | 47
-| style="text-align:right;" | 10
+| style="text-align:right; background:#b0ceff;" | 54
+| style="text-align:right; background:#fff3f3;" | 44
+| style="text-align:right;" | 12
 |-
 | Some college
-| style="text-align:right; background:#b0ceff;" | 55
-| style="text-align:right; background:#fff3f3;" | 45
-| style="text-align:right;" | 17
+| style="text-align:right; background:#f0f0ff;" | 48
+| style="text-align:right; background:#ffb6b6;" | 50
+| style="text-align:right;" | 21
 |-
 | Never attended college
-| style="text-align:right; background:#f0f0ff;" | 46
-| style="text-align:right; background:#ffb6b6;" | 54
-| style="text-align:right;" | 21
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 46
+| style="text-align:right;" | 22
 |}
- -->
 
 ==Notes==
 {{reflist|group=n}}
