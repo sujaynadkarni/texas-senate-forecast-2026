@@ -1,17 +1,7 @@
 name: Refresh forecast
 
 on:
-  schedule:
-    # Off the top of the hour: GitHub delays or skips many jobs scheduled at :00.
-    # 7:17 a.m., 12:17 p.m. and 7:17 p.m. Central Daylight Time (one hour earlier after Nov. 1)
-    - cron: "17 12 * * *"
-    - cron: "17 17 * * *"
-    - cron: "17 0 * * *"
-    # Early voting days (Oct 19-30): every hour, 8 a.m. to 10 p.m. Central (backup; the heartbeat starts these)
-    - cron: "3 13-23 19-30 10 *"
-    - cron: "3 0-3 20-31 10 *"
-    # Election night, Nov 3 (Central Standard Time): every 10 minutes from 7 p.m. to 1 a.m. Central
-    - cron: "3-59/10 1-7 4 11 *"
+  # Scheduled refreshes stopped after the election (Nov. 5). Run by hand with "Run workflow".
   workflow_dispatch:        # "Run workflow" button on GitHub
     inputs:
       override_sanity:

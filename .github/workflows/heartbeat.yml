@@ -7,8 +7,6 @@ name: Heartbeat
 # To stop it: disable this workflow on GitHub (Actions > Heartbeat > ... > Disable workflow).
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "11,41 * * * *"
 
 permissions:
   actions: write            # start the refresh workflow and the next heartbeat
@@ -21,6 +19,7 @@ concurrency:
 
 jobs:
   beat:
+    if: false              # stopped after the election (Nov. 5); delete this line to restart
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
