@@ -27,13 +27,20 @@ PAGES = [  # file, title, description, card
     ("governor.html", "Texas Governor Forecast: Abbott vs. Hinojosa", gov_desc, "share_governor.png"),
     ("early.html", "Texas Early Vote Tracker", early_desc, "share_early.png"),
 ]
+if os.path.exists("build/late.html"):
+    PAGES.append(("late.html", "Still Counting: Mississippi and Alaska",
+                  "Projections for the Mississippi Senate race and Alaska's Senate and governor races from the ballots still being counted.",
+                  None))
 os.makedirs("public", exist_ok=True)
 for fname, title, desc, card in PAGES:
     url = BASE + ("" if fname == "index.html" else fname)
     page = open(f"build/{fname}").read()
     page = re.sub(r"^<title>.*?</title>\s*", "", page, count=1)
     t, dsc = html.escape(title), html.escape(desc)
-    img = f"{BASE}{card}?v={version}"
+    img = f"{BASE}{card}?v={version}" if card else ""
+    og_img = (f'<meta property="og:image" content="{img}">\n<meta property="og:image:width" content="1200">\n'
+              f'<meta property="og:image:height" content="630">\n<meta name="twitter:card" content="summary_large_image">') if card else '<meta name="twitter:card" content="summary">'
+    tw_img = f'<meta name="twitter:image" content="{img}">\n' if card else ""
     head = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -47,14 +54,10 @@ for fname, title, desc, card in PAGES:
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{dsc}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{img}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
+{og_img}
 <meta name="twitter:title" content="{t}">
 <meta name="twitter:description" content="{dsc}">
-<meta name="twitter:image" content="{img}">
-<style>:root{{color-scheme:only light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}body{{margin:0}}img{{max-width:100%}}[hidden]{{display:none!important}}</style>
+{tw_img}<style>:root{{color-scheme:only light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}body{{margin:0}}img{{max-width:100%}}[hidden]{{display:none!important}}</style>
 </head>
 <body>
 """

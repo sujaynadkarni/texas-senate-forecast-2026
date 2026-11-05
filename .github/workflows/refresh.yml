@@ -1,7 +1,9 @@
 name: Refresh forecast
 
 on:
-  # Scheduled refreshes stopped after the election (Nov. 5). Run by hand with "Run workflow".
+  # After the election (Nov. 5): every 30 minutes through Nov. 25 for the "Still counting" page (Mississippi, Alaska).
+  schedule:
+    - cron: "7,37 * 5-25 11 *"
   workflow_dispatch:        # "Run workflow" button on GitHub
     inputs:
       override_sanity:

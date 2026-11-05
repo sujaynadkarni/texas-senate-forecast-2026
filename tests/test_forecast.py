@@ -467,7 +467,7 @@ class SiteData(unittest.TestCase):
     def test_markets_present(self):
         self.assertEqual({m["source"] for m in self.d["markets"]}, {"Kalshi", "Polymarket"})
         for m in self.d["markets"]:
-            self.assertTrue(0 < m["d"] < 1)
+            self.assertTrue(0 <= m["d"] <= 1)   # settled markets pay 0 or 1 once a race is called (Nov. 4)
 
     def test_names_match_race(self):
         self.assertEqual(self.d["cand"]["d"], RACES[self.race]["d"])
