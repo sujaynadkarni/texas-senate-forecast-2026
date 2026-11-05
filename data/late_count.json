@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T18:33+00:00",
+ "generated": "2026-11-05T22:50+00:00",
  "races": {
   "ms_senate": {
    "key": "ms_senate",
@@ -7,7 +7,7 @@
    "office": "U.S. Senate",
    "rcv": false,
    "unit": "county",
-   "source_time": "2026-11-05T18:32:41.516Z",
+   "source_time": "2026-11-05T22:50:19.464Z",
    "candidates": [
     {
      "name": "Colom",
@@ -28,19 +28,19 @@
    "dem": "Colom",
    "rep": "Hyde-Smith",
    "counted": {
-    "Colom": 466226,
-    "Hyde-Smith": 464502,
-    "Pinkins": 19978
+    "Colom": 466775,
+    "Hyde-Smith": 464962,
+    "Pinkins": 20007
    },
-   "counted_total": 950706,
-   "share_in": 0.956,
-   "left_total": 43756,
+   "counted_total": 951744,
+   "share_in": 0.9570000000000001,
+   "left_total": 42764,
    "swing_vs_2024": 20.6,
    "late_lean": null,
    "late_counted": 0,
    "win": {
-    "Colom": 0.9775,
-    "Hyde-Smith": 0.0225,
+    "Colom": 0.9811,
+    "Hyde-Smith": 0.0188,
     "Pinkins": 0.0
    },
    "rating": "Lean Democratic",
@@ -53,7 +53,7 @@
     "Hyde-Smith": {
      "mid": 48.8,
      "lo": 48.64,
-     "hi": 48.92
+     "hi": 48.91
     },
     "Pinkins": {
      "mid": 2.1,
@@ -63,91 +63,91 @@
    },
    "rcv_share": null,
    "margin": {
-    "mid": 0.3,
-    "lo": 0.07,
+    "mid": 0.31,
+    "lo": 0.08,
     "hi": 0.63
    },
    "places": [
     {
      "name": "Hinds",
-     "left": 6620,
+     "left": 6507,
      "pin": 90.0,
      "counted_margin": 60.8,
      "counted": 77465
     },
     {
      "name": "Rankin",
-     "left": 4387,
+     "left": 4312,
      "pin": 90.0,
      "counted_margin": -25.6,
      "counted": 51331
     },
     {
      "name": "Harrison",
-     "left": 3147,
+     "left": 3093,
      "pin": 93.5,
      "counted_margin": -3.7,
      "counted": 58850
     },
     {
      "name": "DeSoto",
-     "left": 2194,
+     "left": 2156,
      "pin": 95.0,
      "counted_margin": 6.1,
      "counted": 54184
     },
     {
      "name": "Lee",
-     "left": 2136,
+     "left": 2099,
      "pin": 90.0,
      "counted_margin": -17.6,
      "counted": 24993
     },
     {
      "name": "Madison",
-     "left": 1841,
+     "left": 1821,
      "pin": 95.0,
-     "counted_margin": 0.6,
-     "counted": 45481
+     "counted_margin": 0.8,
+     "counted": 45766
     },
     {
      "name": "Jackson",
-     "left": 1435,
+     "left": 1410,
      "pin": 95.0,
      "counted_margin": -14.7,
      "counted": 35432
     },
     {
      "name": "Forrest",
-     "left": 908,
+     "left": 893,
      "pin": 95.0,
      "counted_margin": 10.3,
      "counted": 22433
     },
     {
      "name": "Lauderdale",
-     "left": 885,
+     "left": 870,
      "pin": 95.0,
      "counted_margin": -1.7,
      "counted": 21874
     },
     {
      "name": "Lowndes",
-     "left": 861,
+     "left": 847,
      "pin": 95.0,
      "counted_margin": 15.9,
      "counted": 21284
     },
     {
      "name": "Alcorn",
-     "left": 849,
+     "left": 835,
      "pin": 91.0,
      "counted_margin": -52.8,
      "counted": 11164
     },
     {
      "name": "Oktibbeha",
-     "left": 746,
+     "left": 733,
      "pin": 94.0,
      "counted_margin": 21.2,
      "counted": 15204
@@ -160,7 +160,7 @@
    "office": "U.S. Senate",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-05T18:32:52.662Z",
+   "source_time": "2026-11-05T22:50:27.133Z",
    "candidates": [
     {
      "name": "Peltola",
@@ -343,7 +343,7 @@
    "office": "Governor",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-05T18:33:00.365Z",
+   "source_time": "2026-11-05T22:50:34.234Z",
    "candidates": [
     {
      "name": "Kreiss-Tomkins",
