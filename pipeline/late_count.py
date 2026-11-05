@@ -23,7 +23,7 @@ RACES = [
     # key, state, NBC page, 2024 baseline page (None: no baseline), ranked choice,
     # late: how much of the mail/early lean the votes left carry (Alaska: calibrated so the late count moves the
     #   margin about as much as in 2022 and 2024, roughly 1 point; the full mail lean would be ~4),
-    # left_sd: uncertainty in how many ballots are left (Mississippi: NBC expects ~57K, press reports 15K or fewer)
+    # left_sd: uncertainty in how many ballots are left (Mississippi: press reports of ballots left vary widely)
     dict(key="ms_senate", state="Mississippi", office="U.S. Senate", page="mississippi-senate-results",
          base="mississippi-president-results", rcv=False, late=(0.0, 0.5), left_sd=0.35, unit="county"),
     dict(key="ak_senate", state="Alaska", office="U.S. Senate", page="alaska-senate-results",
@@ -185,6 +185,15 @@ def project(cfg, rng):
         cm = (a["votes"].get(D, 0) - a["votes"].get(R, 0)) / max(a["total"], 1) * 100
         table.append({"name": a["name"], "left": round(left), "pin": round(a["pin"] * 100, 1),
                       "counted_margin": round(cm, 1), "counted": a["total"]})
+    # county "% in" figures are rounded; scale the votes left so the total matches NBC/AP's statewide share counted
+    state_in = (pp["races"][0].get("summary") or {}).get("percentIn")
+    state_in = float(state_in) / 100 if state_in not in (None, "") and 0 < float(state_in) <= 100 else None
+    raw_left = sum(p[0] for p in plan)
+    if state_in and raw_left > 0:
+        k = (T / state_in - T) / raw_left
+        plan = [(left * k, s) for left, s in plan]
+        for row in table:
+            row["left"] = round(row["left"] * k)
     table.sort(key=lambda r: -r["left"])
     left_total = sum(p[0] for p in plan)
 
@@ -222,7 +231,7 @@ def project(cfg, rng):
     return {
         "key": cfg["key"], "state": cfg["state"], "office": cfg["office"], "rcv": cfg["rcv"], "unit": cfg["unit"],
         "source_time": t, "candidates": cands, "dem": D, "rep": R,
-        "counted": counted, "counted_total": T, "share_in": round(T / exp_total, 3) if exp_total else None,
+        "counted": counted, "counted_total": T, "share_in": state_in or (round(T / exp_total, 3) if exp_total else None),
         "left_total": round(left_total), "swing_vs_2024": round(swing * 100, 1) if rep else None,
         "late_lean": {n: round(x * 100, 1) for n, x in late_shift.items()} if late_shift else None,
         "late_counted": sum(late.values()),
