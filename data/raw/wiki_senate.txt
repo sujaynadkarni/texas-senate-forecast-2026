@@ -10,7 +10,7 @@
 | country = Texas
 | type = presidential
 | reporting = 99
-| last_update = November 4, 9:11 AM
+| last_update = November 5, 1:34 PM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://apnews.com/projects/elections-2026/texas-us-senate-results/ |title=Texas U.S. Senate Results |work=[[Associated Press]] |access-date=November 4, 2026}}</ref>
 | previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
@@ -21,13 +21,13 @@
 | image1 = James Talarico Press Conference (centered).jpg
 | nominee1 = '''[[James Talarico]]'''
 | party1 = Democratic Party (United States)
-| popular_vote1 = '''5,445,121'''
-| percentage1 = '''55.1%'''
+| popular_vote1 = '''5,445,156'''
+| percentage1 = '''55.06%'''
 | image2 = Ken Paxton - 55022425595 (cropped).jpg
 | nominee2 = [[Ken Paxton]]
 | party2 = Republican Party (United States)
-| popular_vote2 = 4,249,752
-| percentage2 = 43.0%
+| popular_vote2 = 4,249,763
+| percentage2 = 42.97%
 | map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results |[[File:2026 United States Senate election in Texas results map by congressional district.svg|310px]] |Congressional district results}}
 | map_size = 
 | map_caption = '''Talarico:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} {{legend0|#3933E5|80–90%}} <br />'''Paxton:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}
@@ -43,7 +43,7 @@ The '''2026 United States Senate election in Texas''' was held on November 3, 20
 
 Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, which led to no candidates receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
-The general election was anticipated to be a tossup and one of the most competitive Senate races in 2026. Polling generally indicated a small but consistent lead for Talarico, and some news organizations forecasted it as leaning towards Democrats. Talarico won by a decisive 12% margin, significantly outpacing his polling averages; his victory was part of a broad wave of victories for Democrats, who flipped every statewide office on the ballot in Texas.<ref>{{Cite web |last=Mahajan |first=Eleanor Klibanoff, Apurva |date=2026-11-04 |title=Democrats seize power in Texas, ending decades of GOP dominance |url=https://www.texastribune.org/2026/11/04/texas-democrats-blue-wave/ |access-date=2026-11-05 |website=The Texas Tribune |language=en-US}}</ref> Talarico is the first Democrat to win a Senate election in Texas in [[1988 United States Senate election in Texas|1988]]. The race was the most expensive in Senate history; Talarico raised over $146 million in campaign donations, while Paxton was primarily supported by [[super PAC]]s, which received over $200 million from [[Elon Musk]] alone.
+The general election was anticipated to be a tossup and one of the most competitive Senate races in 2026. Polling generally indicated a small but consistent lead for Talarico, and some news organizations forecasted it as leaning towards Democrats. Talarico won by a decisive 12% margin, significantly outpacing his polling averages; his victory was part of a broad wave of victories for Democrats, who flipped every statewide office on the ballot in Texas.<ref>{{Cite web |last=Mahajan |first=Eleanor Klibanoff, Apurva |date=2026-11-04 |title=Democrats seize power in Texas, ending decades of GOP dominance |url=https://www.texastribune.org/2026/11/04/texas-democrats-blue-wave/ |access-date=2026-11-05 |website=The Texas Tribune |language=en-US}}</ref> Talarico is the first Democrat to win a Senate election in Texas since [[1988 United States Senate election in Texas|1988]], and the first to win this seat since Lyndon B. Johnson in 1960. The race was the most expensive in Senate history; Talarico raised over $146 million in campaign donations, while Paxton was primarily supported by [[super PAC]]s, which received over $200 million from [[Elon Musk]] alone.
 
 {{toclimit|4}}
 
@@ -262,8 +262,8 @@ All three candidates competed for the endorsement of Donald Trump, having made s
 * [[Keith Self]], [[Texas's 3rd congressional district|TX-03]] (2023–present)<ref name="TXendorse" />
 
 ;Statewide officials
-* [[Greg Abbott]], [[governor of Texas]] (2015–present)<ref>{{cite web |last1=Rosiles |first1=Mateo |title=Greg Abbott rules out endorsement in Cornyn vs. Paxton Senate runoff |url=https://www.usatoday.com/story/news/politics/elections/2026/05/15/abbott-wont-endorse-cornyn-or-paxton-in-texas-senate-runoff/90095973007/ |website=USA Today |access-date=May 16, 2026}}</ref>
-* [[Dan Patrick (politician)|Dan Patrick]], [[lieutenant governor of Texas]] (2015–present)<ref name="PatrickDecline">{{cite web |last1=Birenbaum |first1=Gabby |title=Ken Paxton defeats John Cornyn for U.S. Senate GOP nomination |url=https://www.texastribune.org/2026/05/26/texas-john-cornyn-ken-paxton-us-senate-republican-primary-runoff/ |website=[[The Texas Tribune]] |language=en |date=May 26, 2026 |quote=Texas' top statewide elected officials, including Sen. Ted Cruz, Gov. Greg Abbott and Lt. Gov. Dan Patrick, stayed mum on the race.}}</ref>
+* [[Greg Abbott]], [[governor of Texas]] (2015–2027)<ref>{{cite web |last1=Rosiles |first1=Mateo |title=Greg Abbott rules out endorsement in Cornyn vs. Paxton Senate runoff |url=https://www.usatoday.com/story/news/politics/elections/2026/05/15/abbott-wont-endorse-cornyn-or-paxton-in-texas-senate-runoff/90095973007/ |website=USA Today |access-date=May 16, 2026}}</ref>
+* [[Dan Patrick (politician)|Dan Patrick]], [[lieutenant governor of Texas]] (2015–2027)<ref name="PatrickDecline">{{cite web |last1=Birenbaum |first1=Gabby |title=Ken Paxton defeats John Cornyn for U.S. Senate GOP nomination |url=https://www.texastribune.org/2026/05/26/texas-john-cornyn-ken-paxton-us-senate-republican-primary-runoff/ |website=[[The Texas Tribune]] |language=en |date=May 26, 2026 |quote=Texas' top statewide elected officials, including Sen. Ted Cruz, Gov. Greg Abbott and Lt. Gov. Dan Patrick, stayed mum on the race.}}</ref>
 
 ;State legislators
 * [[Angela Paxton]], former majority leader of the [[Texas Senate]] (2023–2025) from the [[Texas's 8th Senate district|8th district]] (2019–present)<ref>{{cite web |last1=Swai |first1=Finya |title=Paxton's estranged wife doesn't endorse in Texas Senate race |url=https://thehill.com/homenews/campaign/5895724-ken-paxton-texas-senate-race-wife/ |website=[[The Hill (newspaper)|The Hill]] |date=May 26, 2026 |access-date=May 26, 2026}}</ref>
@@ -4749,15 +4749,67 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 ===Results===
 {{Election box begin 
  | title=2026 United States Senate election in Texas}}
-{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,445,121|percentage=55.1%|change=+11.2%}}
-{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,249,752|percentage=43.0%|change=-10.5%}}
-{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=190,258|percentage=1.9%|change=+0.1%}}
-{{Election box write-in with party link|votes=5,112|percentage=0.1%|change=}}{{Election box total 
- | votes= 9,890,243
+{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,445,156|percentage=55.06%|change=+11.18%}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,249,763|percentage=42.97%|change=-10.54%}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=190,259|percentage=1.92%|change=+0.04%}}
+{{Election box write-in with party link|votes=5,112|percentage=0.05%|change=}}{{Election box total 
+ | votes= 9,890,290
  | percentage=100.0
  | change    = 
 }}
+{{Election box gain with party link no swing
+ | winner = Democratic Party (United States)
+ | loser = Republican Party (United States)
+}}
 {{Election box end}}
+
+====By county====
+{{collapse top|1=<span style="font-size:88%;">By county</span>|left=yes|bg=#B0CEFF;line-height:135%;|border=none}}
+{| class="wikitable sortable"
+|+ style=line-height:1.5|Legend
+|- {{Party shading/Democratic}}
+| colspan="2" | Counties won by [[James Talarico|Talarico]]
+|- {{Party shading/Republican}}
+| colspan="2" | Counties won by [[Ken Paxton|Paxton]]
+|}
+<div style="overflow:auto">
+{| class="wikitable sortable" style="text-align: right;"
+|+ 2020 U.S. Senate election results by Texas county
+|-
+! rowspan=2 | County<ref>{{Cite news |date=2026-11-03 |title=2026 Texas US Senate General Election Results |url=https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election |archive-url=http://web.archive.org/web/20261001170431/https://votes.decisiondeskhq.com/races/2026-11-03/texas-us-senate-general-election |archive-date=2026-10-01 |access-date=2026-11-06 |work=Decision Desk HQ Votes |language=en}}</ref>
+! colspan="2" | Talarico<br />Democratic
+! colspan="2" | Paxton<br />Republican
+! colspan="2" | Brown<br />Libertarian
+! colspan="2" | Margin
+! rowspan="2" data-sort-type="number" | Total<br />votes
+|-
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+! data-sort-type="number" style="padding-left:0.2em" | Votes
+! data-sort-type="number" | %
+|- {{Party shading/Republican}}
+| style="white-space:nowrap;text-align:center;" |[[Anderson County, Texas|Anderson]]||3,981||26.09%||10,930||71.64%||346||2.27%||-6,949||-45.55%||15,257
+|-
+!Total
+| style="padding:0" |'''5,445,156'''
+|'''55.06%'''|| style="padding:0" |'''4,249,763'''
+|'''42.97%'''|| style="padding:0" |'''190,259'''
+|'''1.92%'''|| style="padding:0" |'''1,195,393'''
+|'''12.09%'''|| style="padding:0" |'''9,885,178'''
+|-
+!
+! colspan="2" | Talarico<br />Democratic
+! colspan="2" | Paxton<br />Republican
+! colspan="2" | Brown<br />Libertarian
+! colspan="2" | Margin
+! Total<br />votes
+|}
+'''WORK IN PROGRESS; FEEL FREE TO HELP CONTRIBUTE BY ADDING DATA FROM THE SOURCE IN THE TOP LEFT BOX!'''
+{{collapse bottom}}
 
 '''Counties that flipped from Republican to Democratic'''
 *[[Bastrop County, Texas|Bastrop]] (largest municipality: [[Elgin, Texas|Elgin]])
