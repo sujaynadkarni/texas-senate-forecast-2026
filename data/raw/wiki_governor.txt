@@ -1504,6 +1504,313 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 *[[Val Verde County, Texas|Val Verde]] (largest municipality: [[Del Rio, Texas|Del Rio]])
 *[[Zapata County, Texas|Zapata]] (largest municipality: [[Zapata, Texas|Zapata]])
 
+==Analysis==
+
+===Exit poll===
+{| class="wikitable sortable" style="font-size:90%; line-height:1.2"
+|+ 2026 Texas gubernatorial election (CNN)<ref name="CNN 2026">{{Cite web |title=Voter polls: Election 2026 {{!}} CNN Politics |url=https://www.cnn.com/elections/2026/voter-polls/texas/general/governor/0|access-date=November 6, 2026 |website=CNN |language=en}}</ref>
+|-
+! Demographic subgroup
+! {{party shading/Democratic}} |Hinojosa
+! {{party shading/Republican}} |Abbott
+! % of<br />total vote
+|-
+! colspan="4" |Ideology
+|-
+| [[Modern liberalism in the United States|Liberals]]
+| style="text-align:right; background:#b0ceff;" | 97
+| style="text-align:right; background:#fff3f3;" | 2
+| style="text-align:right;" | 22
+|-
+| [[Moderates]]
+| style="text-align:right; background:#b0ceff;" | 67
+| style="text-align:right; background:#fff3f3;" | 31
+| style="text-align:right;" | 40
+|-
+| [[Conservatism in the United States|Conservatives]]
+| style="text-align:right; background:#f0f0ff;" | 13
+| style="text-align:right; background:#ffb6b6;" | 86
+| style="text-align:right;" | 38
+|-
+! colspan="4" |Party
+|-
+| [[Democratic Party (United States)|Democrats]]
+| style="text-align:right; background:#b0ceff;" | 98
+| style="text-align:right; background:#fff3f3;" | 2
+| style="text-align:right;" | 33
+|-
+| [[Republican Party (United States)|Republicans]]
+| style="text-align:right; background:#f0f0ff;" | 9
+| style="text-align:right; background:#ffb6b6;" | 90
+| style="text-align:right;" | 38
+|-
+| [[Independent (voter)|Independents]]
+| style="text-align:right; background:#b0ceff;" | 59
+| style="text-align:right; background:#fff3f3;" | 38
+| style="text-align:right;" | 29
+|-
+! colspan="4" |Donald Trump job approval
+|-
+| Approve
+| style="text-align:right; background:#f0f0ff;" | 4
+| style="text-align:right; background:#ffb6b6;" | 95
+| style="text-align:right;" | 40
+|-
+| Disapprove
+| style="text-align:right; background:#b0ceff;" | 86
+| style="text-align:right; background:#fff3f3;" | 12
+| style="text-align:right;" | 59
+|-
+! colspan="4" |2024 presidential vote
+|-
+| [[Kamala Harris]]
+| style="text-align:right; background:#b0ceff;" | 96
+| style="text-align:right; background:#fff3f3;" | 3
+| style="text-align:right;" | 42
+|-
+| [[Donald Trump]]
+| style="text-align:right; background:#f0f0ff;" | 10
+| style="text-align:right; background:#ffb6b6;" | 89
+| style="text-align:right;" | 47
+|-
+| Another candidate
+| style="text-align:right; background:#b0ceff;" | 66
+| style="text-align:right; background:#fff3f3;" | 21
+| style="text-align:right;" | 2
+|-
+| Did not vote
+| style="text-align:right; background:#b0ceff;" | 76
+| style="text-align:right; background:#fff3f3;" | 20
+| style="text-align:right;" | 8
+|-
+! colspan="4" |Gender
+|-
+| Men
+| style="text-align:right; background:#f0f0ff;" | 49
+| style="text-align:right; background:#ffb6b6;" | 50
+| style="text-align:right;" | 45
+|-
+| Women
+| style="text-align:right; background:#b0ceff;" | 56
+| style="text-align:right; background:#fff3f3;" | 43
+| style="text-align:right;" | 54
+|-
+! colspan="4" |Income
+|-
+| $100,000 or more
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 48
+| style="text-align:right;" | 40
+|-
+| $50,000-$99,999
+| style="text-align:right; background:#b0ceff;" | 53
+| style="text-align:right; background:#fff3f3;" | 45
+| style="text-align:right;" | 30
+|-
+| Less than $50,000
+| style="text-align:right; background:#b0ceff;" | 56
+| style="text-align:right; background:#fff3f3;" | 42
+| style="text-align:right;" | 30
+|-
+! colspan="4" |Race/ethnicity
+|-
+| [[White American|White]]
+| style="text-align:right; background:#f0f0ff;" | 40
+| style="text-align:right; background:#ffb6b6;" | 59
+| style="text-align:right;" | 55
+|-
+| [[Asian Americans|Asian]]
+| style="text-align:right; background:#b0ceff;" | 66
+| style="text-align:right; background:#fff3f3;" | 34
+| style="text-align:right;" | 4
+|-
+| [[Hispanic and Latino Americans|Latino]]
+| style="text-align:right; background:#b0ceff;" | 65
+| style="text-align:right; background:#fff3f3;" | 33
+| style="text-align:right;" | 24
+|-
+| [[African Americans|Black]]
+| style="text-align:right; background:#b0ceff;" | 88
+| style="text-align:right; background:#fff3f3;" | 10
+| style="text-align:right;" | 12
+|-
+! colspan="4" | White born-again or evangelical Christian?
+|-
+| Yes
+| style="text-align:right; background:#f0f0ff;" | 16
+| style="text-align:right; background:#ffb6b6;" | 83
+| style="text-align:right;" | 20
+|-
+| No
+| style="text-align:right; background:#b0ceff;" | 62
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 80
+|-
+! colspan="4" | Race by gender
+|-
+| White men
+| style="text-align:right; background:#f0f0ff;" | 38
+| style="text-align:right; background:#ffb6b6;" | 61
+| style="text-align:right;" | 26
+|-
+| White women
+| style="text-align:right; background:#f0f0ff;" | 42
+| style="text-align:right; background:#ffb6b6;" | 57
+| style="text-align:right;" | 29
+|-
+| Black men
+| style="text-align:right; background:#b0ceff;" | 85
+| style="text-align:right; background:#fff3f3;" | 12
+| style="text-align:right;" | 5
+|-
+| Black women
+| style="text-align:right; background:#b0ceff;" | 90
+| style="text-align:right; background:#fff3f3;" | 9
+| style="text-align:right;" | 7
+|-
+| Latino men
+| style="text-align:right; background:#b0ceff;" | 59
+| style="text-align:right; background:#fff3f3;" | 40
+| style="text-align:right;" | 11
+|-
+| Latina women
+| style="text-align:right; background:#b0ceff;" | 70
+| style="text-align:right; background:#fff3f3;" | 28
+| style="text-align:right;" | 13
+|-
+| All other voters
+| style="text-align:right; background:#b0ceff;" | 55
+| style="text-align:right; background:#fff3f3;" | 44
+| style="text-align:right;" | 9
+|-
+! colspan="4" |Age
+|-
+| 18–29 years old
+| style="text-align:right; background:#b0ceff;" | 77
+| style="text-align:right; background:#fff3f3;" | 21
+| style="text-align:right;" | 13
+|-
+| 30–44 years old
+| style="text-align:right; background:#b0ceff;" | 62
+| style="text-align:right; background:#fff3f3;" | 36
+| style="text-align:right;" | 22
+|-
+| 45-64 years old
+| style="text-align:right; background:#f0f0ff;" | 47
+| style="text-align:right; background:#ffb6b6;" | 51
+| style="text-align:right;" | 35
+|-
+| 65 and older
+| style="text-align:right; background:#f0f0ff;" | 42
+| style="text-align:right; background:#ffb6b6;" | 57
+| style="text-align:right;" | 30
+|-
+! colspan="4" |Area type
+|-
+| Urban
+| style="text-align:right; background:#b0ceff;" | 71
+| style="text-align:right; background:#fff3f3;" | 28
+| style="text-align:right;" | 23
+|-
+| Suburban
+| style="text-align:right; background:#b0ceff;" | 56
+| style="text-align:right; background:#fff3f3;" | 43
+| style="text-align:right;" | 48
+|-
+| Rural
+| style="text-align:right; background:#f0f0ff;" | 34
+| style="text-align:right; background:#ffb6b6;" | 64
+| style="text-align:right;" | 30
+|-
+! colspan="4" |Education
+|-
+| College graduate
+| style="text-align:right; background:#b0ceff;" | 58
+| style="text-align:right; background:#fff3f3;" | 41
+| style="text-align:right;" | 45
+|-
+| No college degree
+| style="text-align:right; background:#f0f0ff;" | 49
+| style="text-align:right; background:#ffb6b6;" | 50
+| style="text-align:right;" | 55
+|-
+! colspan="4" |Education by race
+|-
+| White college graduates
+| style="text-align:right; background:#b0ceff;" | 51
+| style="text-align:right; background:#fff3f3;" | 48
+| style="text-align:right;" | 28
+|-
+| Non-white college graduates
+| style="text-align:right; background:#b0ceff;" | 70
+| style="text-align:right; background:#fff3f3;" | 29
+| style="text-align:right;" | 18
+|-
+| Whites without college
+| style="text-align:right; background:#f0f0ff;" | 30
+| style="text-align:right; background:#ffb6b6;" | 68
+| style="text-align:right;" | 28
+|-
+| Non-whites without college
+| style="text-align:right; background:#b0ceff;" | 68
+| style="text-align:right; background:#fff3f3;" | 30
+| style="text-align:right;" | 27
+|-
+! colspan="4" |Education by gender and race
+|-
+| White women with college degrees
+| style="text-align:right; background:#b0ceff;" | 53
+| style="text-align:right; background:#fff3f3;" | 46
+| style="text-align:right;" | 14
+|-
+| White women without college degrees
+| style="text-align:right; background:#f0f0ff;" | 31
+| style="text-align:right; background:#ffb6b6;" | 67
+| style="text-align:right;" | 15
+|-
+| White men with college degrees
+| style="text-align:right; background:#f0f0ff;" | 48
+| style="text-align:right; background:#ffb6b6;" | 51
+| style="text-align:right;" | 13
+|-
+| White men without college degrees
+| style="text-align:right; background:#f0f0ff;" | 27
+| style="text-align:right; background:#ffb6b6;" | 71
+| style="text-align:right;" | 13
+|-
+| Voters of color
+| style="text-align:right; background:#b0ceff;" | 69
+| style="text-align:right; background:#fff3f3;" | 30
+| style="text-align:right;" | 45
+|-
+! colspan="4" |Educational attainment
+|-
+| [[Postgraduate education|Advanced degree]]
+| style="text-align:right; background:#b0ceff;" | 62
+| style="text-align:right; background:#fff3f3;" | 37
+| style="text-align:right;" | 18
+|-
+| [[Bachelor's degree]]
+| style="text-align:right; background:#b0ceff;" | 56
+| style="text-align:right; background:#fff3f3;" | 43
+| style="text-align:right;" | 27
+|-
+| [[Associate's degree]]
+| style="text-align:right; background:#b0ceff;" | 50
+| style="text-align:right; background:#fff3f3;" | 48
+| style="text-align:right;" | 12
+|-
+| Some college
+| style="text-align:right; background:#f0f0ff;" | 47
+| style="text-align:right; background:#ffb6b6;" | 52
+| style="text-align:right;" | 21
+|-
+| Never attended college
+| style="text-align:right; background:#b0ceff;" | 49
+| style="text-align:right; background:#ffb6b6;" | 49
+| style="text-align:right;" | 22
+|}
+
 == See also ==
 *[[2026 United States gubernatorial elections]]
 *[[2026 Texas elections]]
