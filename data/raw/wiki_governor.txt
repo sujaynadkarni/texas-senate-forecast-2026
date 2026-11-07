@@ -21,7 +21,7 @@
 | nominee1 = '''[[Gina Hinojosa]]'''
 | party1 = Texas Democratic Party
 | popular_vote1 = '''5,230,929'''
-| percentage1 = '''52.8%'''
+| percentage1 = '''52.82%'''
 | image2 = Greg Abbott 2026.jpg
 | nominee2 = [[Greg Abbott]]
 | party2 = Republican Party of Texas
@@ -1452,23 +1452,23 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 {{Election box winning candidate with party link 
  | party=Democratic Party (United States)
  | candidate=[[Gina Hinojosa]]
- | votes= 
- | percentage=
- | change    = 
+ | votes= 5,230,929
+ | percentage= 52.82
+ | change    = +8.96
 }}
 {{Election box candidate with party link
  | party=Republican Party (United States)
  | candidate= [[Greg Abbott]] (incumbent)
- | votes=
- | percentage=
- | change    = 
+ | votes= 4,524,955
+ | percentage= 45.67
+ | change    = -9.08
 }}
 {{Election box candidate with party link 
  | party=Libertarian Party (United States)
  | candidate=Pat Dixon
- | votes= 
- | percentage=
- | change    = 
+ | votes= 148,121
+ | percentage= 1.50
+ | change    = +0.49
 }}
 {{Election box write-in with party link
  |votes=
@@ -1476,7 +1476,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
  |change=
 }}
 {{Election box total 
- | votes= 
+ | votes= 9,905,493
  | percentage=100.0%
  | change    = 
 }}

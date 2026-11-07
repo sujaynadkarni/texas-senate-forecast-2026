@@ -43,7 +43,7 @@ The '''2026 United States Senate election in Texas''' was held on November 3, 20
 
 Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, which led to no candidates receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
-The general election was anticipated to be a tossup and one of the most competitive Senate races in 2026. Polling generally indicated a small but consistent lead for Talarico, and some news organizations forecast a narrow Democratic lean. Talarico won by a decisive 12% margin, significantly outpacing his polling averages; his win was part of a broad wave of victories for Democrats in Texas, who flipped every statewide office on the ballot.<ref>{{Cite web|last1=Klibanoff|first1=Eleanor|date=November 4, 2026 |title=Democrats seize power in Texas, ending decades of GOP dominance |url=https://www.texastribune.org/2026/11/04/texas-democrats-blue-wave/ |access-date=November 6, 2026 |website=The Texas Tribune |language=en-US}}</ref> Talarico is the first Democrat to win a Senate election in Texas since [[1988 United States Senate election in Texas|1988]]. The race was the most expensive in Senate history; Talarico raised over $146 million in campaign donations, while Paxton was primarily supported by [[super PAC]]s funded largely by [[Elon Musk]], who spent over $200 million.
+The general election was anticipated to be a tossup and one of the most competitive Senate races in 2026. Polling generally indicated a small but consistent lead for Talarico, and some news organizations forecast a narrow Democratic lean. Talarico won by a decisive 12% margin, significantly outpacing his polling averages; his win was part of a broad wave of victories for Democrats in Texas, who flipped every statewide office on the ballot.<ref>{{Cite web|last1=Klibanoff|first1=Eleanor|date=November 4, 2026 |title=Democrats seize power in Texas, ending decades of GOP dominance |url=https://www.texastribune.org/2026/11/04/texas-democrats-blue-wave/ |access-date=November 6, 2026 |website=The Texas Tribune |language=en-US}}</ref> Talarico is the first Democrat to win a Senate election in Texas since [[1988 United States Senate election in Texas|1988]] and the first to win this Class 2 Senate seat since [[Lyndon B. Johnson]] in [[1960 United States Senate election in Texas|1960]]. The race was the most expensive in Senate history; Talarico raised over $146 million in campaign donations, while Paxton was primarily supported by [[super PAC]]s funded largely by [[Elon Musk]], who spent over $200 million.
 
 {{toclimit|4}}
 
@@ -1112,7 +1112,7 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 * [[Brandon Gill]], [[Texas's 26th congressional district|TX-26]] (2025–present)<ref>{{cite web |title=Rep. Brandon Gill Throws Support Behind Ken Paxton In High Stakes Runoff Against Cornyn |url=https://dallasexpress.com/state/rep-brandon-gill-throws-support-behind-ken-paxton-in-high-stakes-runoff-against-cornyn/ |website=Dallas Express |access-date=April 3, 2026 |language=en |date=April 2, 2026}}</ref>
 * [[Wesley Hunt]], [[Texas's 38th congressional district|TX-38]] (2023–present) and former candidate for this seat<ref name="Hunt">{{cite web |last1=Birenbaum |first1=Gabby |title=Trump endorses Ken Paxton in Senate GOP runoff |url=https://www.texastribune.org/2026/05/19/donald-trump-ken-paxton-endorsement-texas-senate-gop-primary-runoff-cornyn/ |website=[[Texas Tribune]] |date=May 19, 2026 |access-date=May 19, 2026}}</ref>
 * [[Ronny Jackson]], [[Texas's 13th congressional district|TX-13]] (2021–present)<ref>{{Cite tweet |last=Paxton |first=Ken |user=KenPaxtonTX |number=2057803073464988048 |date=May 22, 2026 |title= I am honored to have the support of Congressman @RonnyJacksonTX! Ronny has consistently fought for President Trump and delivered victory after victory for Texans.}}</ref>
-* [[Burgess Owens]], [[UT-04]] (2021–present)<ref name="burg">{{cite web |last1=Katz |first1=Michael |title=Paxton gains endorsement in Texas Senate race |url=https://www.msn.com/en-us/news/politics/paxton-gains-endorsement-in-texas-senate-race/ar-AA20rCPQ |website=MSN |access-date=April 10, 2026}}</ref>
+* [[Burgess Owens]], [[UT-04]] (2021–2027)<ref name="burg">{{cite web |last1=Katz |first1=Michael |title=Paxton gains endorsement in Texas Senate race |url=https://www.msn.com/en-us/news/politics/paxton-gains-endorsement-in-texas-senate-race/ar-AA20rCPQ |website=MSN |access-date=April 10, 2026}}</ref>
 
 '''State legislators'''
 * 2 [[Texas senate|state senators]]{{efn|
@@ -2760,11 +2760,11 @@ The election took place amidst a broader push by the Trump administration to res
 |-
 |style="text-align: left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 30, 2026
+|November 3, 2026
 |-
 |style="text-align: left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 2, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
-|November 2, 2026
+|November 3, 2026
 |-
 |style="text-align: left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
 |{{USRaceRating|Tossup}}
@@ -2784,11 +2784,11 @@ The election took place amidst a broader push by the Trump administration to res
 |-
 |style="text-align: left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 2, 2026 |website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Tilt|D|Flip}}
-|October 29, 2026
+|November 3, 2026
 |-
 |style="text-align: left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 2, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 2, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|October 29, 2026
+|November 3, 2026
 |-
 |style="text-align: left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 3, 2026}}</ref>
 |{{USRaceRating|Tossup}}
