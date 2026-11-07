@@ -32,9 +32,14 @@
 | before_party = Republican Party of Texas
 | after_election = [[Gina Hinojosa]]
 | after_party = Texas Democratic Party
-| map_image = 2026 Texas gubernatorial election results map by county.svg
+| map_image = {{Switcher
+| [[File:2026 Texas gubernatorial election results map by county.svg|280px]]
+| County results
+| <!-- Please do not remove this map as it shows the correct congressional district results for this election in addition to the 2022 U.S. House elections -->[[File:Texas Gubernatorial 2026 Cong Districts.png|280px]]
+| Congressional district results
+}}
 | map_size = 310px
-| map_caption = County results<br />'''Hinojosa:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} <br />'''Abbott:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}
+| map_caption = '''Hinojosa:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} <br />'''Abbott:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}
 }}
 {{ElectionsTX}}
 
