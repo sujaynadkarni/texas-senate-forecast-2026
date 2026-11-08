@@ -9,7 +9,7 @@
 | country = Texas
 | type = presidential
 | reporting = 99
-| last_update = November 5, 1:34 PM
+| last_update = November 7, 1:22 PM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://apnews.com/projects/elections-2026/texas-us-senate-results/ |title=Texas U.S. Senate Results |work=[[Associated Press]] |access-date=November 4, 2026}}</ref>
 | previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
@@ -20,12 +20,12 @@
 | image1 = James Talarico Press Conference (centered).jpg
 | nominee1 = '''[[James Talarico]]'''
 | party1 = Democratic Party (United States)
-| popular_vote1 = '''5,445,156'''
+| popular_vote1 = '''5,446,309'''
 | percentage1 = '''55.06%'''
 | image2 = Ken Paxton - 55022425595 (cropped).jpg
 | nominee2 = [[Ken Paxton]]
 | party2 = Republican Party (United States)
-| popular_vote2 = 4,249,763
+| popular_vote2 = 4,250,166
 | percentage2 = 42.97%
 | map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results |[[File:2026 United States Senate election in Texas results map by congressional district.svg|310px]] |Congressional district results}}
 | map_size = 
@@ -4750,11 +4750,11 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 ===Results===
 {{Election box begin 
  | title=2026 United States Senate election in Texas}}
-{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,445,156|percentage=55.06%|change=+11.18%}}
-{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,249,763|percentage=42.97%|change=-10.54%}}
-{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=190,259|percentage=1.92%|change=+0.04%}}
+{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,446,309|percentage=55.06%|change=+11.18%}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,250,166|percentage=42.97%|change=-10.54%}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=190,293|percentage=1.92%|change=+0.04%}}
 {{Election box write-in with party link|votes=5,112|percentage=0.05%|change=}}{{Election box total 
- | votes= 9,890,290
+ | votes= 9,891,880
  | percentage=100.0
  | change    = 
 }}
@@ -5340,7 +5340,7 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 *[[Williamson County, Texas|Williamson]] (largest municipality: [[Round Rock, Texas|Round Rock]])
 
 === By congressional district ===
-Talarico won twenty-five of thirty-eight congressional districts, including eleven held by Republicans.<ref>{{Cite web|url=https://theoelections.com/#e=2026s&level=ushouse&plan=p26c2025|title=theoelections - Texas election results by precinct|website=theoelections|accessdate=November 7, 2026}}</ref>
+Talarico won 25 out of 38 congressional districts, including eleven that elected Republicans.<ref>{{Cite web|url=https://theoelections.com/#e=2026s&level=ushouse&plan=p26c2025|title=theoelections - Texas election results by precinct|website=theoelections|accessdate=November 7, 2026}}</ref>
 {|class="wikitable sortable" style=text-align:center
 ! District
 ! Paxton
