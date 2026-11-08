@@ -8,9 +8,6 @@
 | election_name = 2026 United States Senate election in Texas
 | country = Texas
 | type = presidential
-| reporting = 99
-| last_update = November 7, 1:22 PM
-| time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://apnews.com/projects/elections-2026/texas-us-senate-results/ |title=Texas U.S. Senate Results |work=[[Associated Press]] |access-date=November 4, 2026}}</ref>
 | previous_election = 2020 United States Senate election in Texas
 | previous_year = 2020
 | next_election = 2032 United States Senate election in Texas
@@ -5540,7 +5537,9 @@ Talarico won 25 out of 38 congressional districts, including eleven that elected
 |}
 
 ==Analysis==
-Talarico's win by 12.1 percent exceeded his polling average by nine percent. Voter turnout substantially exceeded previous Texas midterm elections, eclipsing the previous record in 2018 by 18 percent and the 2022 midterms by 22 percent, but detailed analysis of exit polling indicated that Talarico's performance could not be explained simply by increased turnout: comparing results with the [[2024 United States presidential election#Results|2024 presidential election]], about one in nine Texans who voted for Trump that year voted for Talarico, and 66 percent of Latino voters chose Talarico after splitting almost evenly in 2024.<ref>{{cite news |last=Fox |first=Keaton |title=The polls missed Texas again. This time by twice as much. The other way. |url=https://abc13.com/post/polls-missed-texas-time-other/20017735/ | location=Houston |publisher=KTRK-TV |date=November 6, 2026 |access-date=November 7, 2026}}</ref>
+Talarico's win by 12.1 percent exceeded his polling average by nine percent. Voter turnout substantially exceeded previous Texas midterm elections, eclipsing the previous record in 2018 by 18 percent and the 2022 midterms by 22 percent, but detailed analysis of exit polling indicated that Talarico's performance could not be explained simply by increased turnout: comparing results with the [[2024 United States presidential election#Results|2024 presidential election]], about one in nine Texans who voted for Trump that year voted for Talarico.
+
+After making a heavily pronounced shift in favor of [[Donald Trump]] in 2024, Latino voters in the state swung sharply back into the Democratic column this election, with exit polling estimating 66% of them supported Talarico after splitting almost evenly in 2024.<ref>{{cite news |last=Fox |first=Keaton |title=The polls missed Texas again. This time by twice as much. The other way. |url=https://abc13.com/post/polls-missed-texas-time-other/20017735/ | location=Houston |publisher=KTRK-TV |date=November 6, 2026 |access-date=November 7, 2026}}</ref> Notable examples include [[Hidalgo County, Texas|Hidalgo]], [[Webb County, Texas|Webb]], and [[Starr County, Texas|Starr]] counties, all predominantly Hispanic counties in [[South Texas]], who voted over 70% for Talarico after backing Trump 2 years earlier.<ref>{{Cite web |date=2026-11-08 |title=Texas U.S. Senate Election 2026 Live Results: James Talarico Wins |url=https://www.nbcnews.com/politics/2026-elections/texas-senate-results |access-date=2026-11-08 |website=www.nbcnews.com |language=en}}</ref> The latter, which recorded a 76.99% share, came notably close to dethroning [[Travis County, Texas|Travis County]], home to [[Austin, Texas|Austin]], as the most Democratic county in the state this election, which voted 78.48% for Talarico. 
 
 ===Exit poll===
 {| class="wikitable sortable" style="font-size:90%; line-height:1.2"
