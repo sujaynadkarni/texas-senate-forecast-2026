@@ -2750,59 +2750,59 @@ The election took place amidst a broader push by the Trump administration to res
 !Ranking
 !As of
 |-
-|style="text-align: left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=November 3, 2026 |orig-date=October 26, 2026 |access-date=November 3, 2026}}</ref>
+|style="text-align: left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=November 3, 2026 |orig-date=October 26, 2026 |access-date=November 8, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
 |November 3, 2026
 |-
-|style="text-align: left"|[[CBS News]]<ref>{{Cite news |title=U.S. Senate: Battleground Races |url=https://www.cbsnews.com/midterms/ |work=[[CBS News]] |access-date=November 2, 2026}}</ref>
+|style="text-align: left"|[[CBS News]]<ref>{{Cite news |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |title=2026 midterm election races to watch |last1=Hubbard |first1=Kaia |last2=Linton |first2=Caroline |last3=Yilek |first3=Caitlin |last4=Walsh |first4=Joe |work=[[CBS News]] |orig-date=September 13, 2026 |date=November 2, 2026 |access-date=November 8, 2026}}</ref>
 |{{USRaceRating|Tossup}}
-|November 3, 2026
+|October 30, 2026
 |-
-|style="text-align: left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 2, 2026|website=[[Cook Political Report]]}}</ref>
+|style="text-align: left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 8, 2026|website=[[Cook Political Report]]}}</ref>
 |{{USRaceRating|Tossup}}
-|November 3, 2026
-|-
-|style="text-align: left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
-|{{USRaceRating|Tossup}}
-|November 3, 2026
-|-
-|style="text-align: left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 3, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
-|{{USRaceRating|Tossup}}
-|November 3, 2026
-|-
-|style="text-align: left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 2, 2026 |website=[[FiftyPlusOne]]}}</ref>
-|{{USRaceRating|Lean|D|flip}}
 |November 2, 2026
+|-
+|style="text-align: left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|style="text-align: left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 8, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|style="text-align: left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 8, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|{{USRaceRating|Lean|D|flip}}
+|November 3, 2026
 |-
 |style="text-align: left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |November 1, 2026
 |-
-|style="text-align: left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 2, 2026 |website=[[Inside Elections]]}}</ref>
+|style="text-align: left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 8, 2026 |website=[[Inside Elections]]}}</ref>
 |{{USRaceRating|Tilt|D|Flip}}
-|November 3, 2026
+|October 29, 2026
 |-
-|style="text-align: left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 2, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 2, 2026}}</ref>
+|style="text-align: left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 8, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|October 29, 2026
+|-
+|style="text-align: left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 8, 2026}}</ref>
 |{{USRaceRating|Tossup}}
 |November 3, 2026
 |-
-|style="text-align: left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 3, 2026}}</ref>
-|{{USRaceRating|Tossup}}
-|November 3, 2026
-|-
-|style="text-align: left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 2, 2026|website=[[RealClearPolitics]]}}</ref>
+|style="text-align: left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 8, 2026|website=[[RealClearPolitics]]}}</ref>
 |{{USRaceRating|Tossup}}
 |November 2, 2026
 |-
-|style="text-align: left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 2, 2026}}</ref>
+|style="text-align: left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 8, 2026}}</ref>
 |{{USRaceRating|Lean|D|flip}}
 |November 2, 2026
 |-
-|style="text-align: left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 3, 2026 |url-access=subscription}}</ref>
+|style="text-align: left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 8, 2026 |url-access=subscription}}</ref>
 |{{USRaceRating|Likely|D|flip}}
 |November 3, 2026
 |-
-|style="text-align: left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 2, 2026}}</ref>
+|style="text-align: left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 8, 2026}}</ref>
 |{{USRaceRating|Likely|D|flip}}
 |November 2, 2026
 |}
@@ -5537,9 +5537,17 @@ Talarico won 25 out of 38 congressional districts, including eleven that elected
 |}
 
 ==Analysis==
+{{More citations needed section}}
+
 Talarico's win by 12.1 percent exceeded his polling average by nine percent. Voter turnout substantially exceeded previous Texas midterm elections, eclipsing the previous record in 2018 by 18 percent and the 2022 midterms by 22 percent, but detailed analysis of exit polling indicated that Talarico's performance could not be explained simply by increased turnout: comparing results with the [[2024 United States presidential election#Results|2024 presidential election]], about one in nine Texans who voted for Trump that year voted for Talarico.
 
-After making a heavily pronounced shift in favor of [[Donald Trump]] in 2024, Latino voters in the state swung sharply back into the Democratic column this election, with exit polling estimating 66% of them supported Talarico after splitting almost evenly in 2024.<ref>{{cite news |last=Fox |first=Keaton |title=The polls missed Texas again. This time by twice as much. The other way. |url=https://abc13.com/post/polls-missed-texas-time-other/20017735/ | location=Houston |publisher=KTRK-TV |date=November 6, 2026 |access-date=November 7, 2026}}</ref> Notable examples include [[Hidalgo County, Texas|Hidalgo]], [[Webb County, Texas|Webb]], and [[Starr County, Texas|Starr]] counties, all predominantly Hispanic counties in [[South Texas]], who voted over 70% for Talarico after backing Trump 2 years earlier.<ref>{{Cite web |date=2026-11-08 |title=Texas U.S. Senate Election 2026 Live Results: James Talarico Wins |url=https://www.nbcnews.com/politics/2026-elections/texas-senate-results |access-date=2026-11-08 |website=www.nbcnews.com |language=en}}</ref> The latter, which recorded a 76.99% share, came notably close to dethroning [[Travis County, Texas|Travis County]], home to [[Austin, Texas|Austin]], as the most Democratic county in the state this election, which voted 78.48% for Talarico. 
+After making a heavily pronounced shift in favor of [[Donald Trump]] in 2024, Latino voters in the state swung sharply back into the Democratic column this election, with exit polling estimating 66% of them supported Talarico after splitting almost evenly in 2024.<ref>{{cite news |last=Fox |first=Keaton |title=The polls missed Texas again. This time by twice as much. The other way. |url=https://abc13.com/post/polls-missed-texas-time-other/20017735/ | location=Houston |publisher=KTRK-TV |date=November 6, 2026 |access-date=November 7, 2026}}</ref> Notable examples include [[Hidalgo County, Texas|Hidalgo]], [[Webb County, Texas|Webb]], and [[Starr County, Texas|Starr]] counties, all predominantly Hispanic counties in [[South Texas]], who voted over 70% for Talarico after backing Trump [[2024 United States presidential election in Texas|2 years earlier]].<ref>{{Cite web |date=2026-11-08 |title=Texas U.S. Senate Election 2026 Live Results: James Talarico Wins |url=https://www.nbcnews.com/politics/2026-elections/texas-senate-results |access-date=2026-11-08 |website=www.nbcnews.com |language=en}}</ref> The latter, which recorded a 76.99% share, came notably close to dethroning [[Travis County, Texas|Travis County]], home to [[Austin, Texas|Austin]], as the most Democratic county in the state this election, which voted 78.48% for Talarico.  
+
+Talarico experienced major surges in support throughout the major metropolitan regions in the [[Texas Triangle]]. In [[Greater Austin]], the region he represented in the [[Texas House of Representatives|state house]], he won every county by double digits. He swamped Ken Paxton in Travis County by a nearly 4-to-1 margin, and scored a commanding 32-point routing in [[Hays County, Texas|Hays County]], which had voted for [[Kamala Harris]] by under 6 points in 2024. Talarico also won by a comfortable 20 points in [[Williamson County, Texas|Williamson County]], a large suburban swing county directly north of Austin, which narrowly voted for [[Joe Biden]] in [[2020 United States presidential election in Texas|2020]] before flipping back to Trump in 2024 by under 3 points. [[Caldwell County, Texas|Caldwell]] and [[Bastrop County, Texas|Bastrop]] counties also fell into Talarico's column by 15.7% and 10.9%, respectively, after both voting for Trump by double digits in 2024.  
+
+Talarico performed extremely well in [[Greater Houston]] and [[Greater San Antonio]]. He won the large urban counties of [[Harris County, Texas|Harris]] and [[Bexar County, Texas|Bexar]] by greater than 2-to-1 margins, which delivered rather lukewarm Democratic victories 2 years earlier, and made substantial inroads into their surrounding suburbs. In the Houston area, [[Fort Bend County, Texas|Fort Bend County]] broke over 60% for Talarico after voting extremely narrowly for Kamala Harris in 2024, and [[Brazoria County, Texas|Brazoria County]] flipped into his column as well after supporting Trump by 20 points.
+
+Perhaps the clearest example of the swing towards Talarico could be seen in the vast swaths of suburbs in the [[Dallas–Fort Worth metroplex]], the largest metropolitan area in the state. Historically, in the 21st century, this region had delivered massive, overwhelming victories for Republicans that were key to their electoral dominance in statewide elections. He scored nearly 72% of the vote in [[Dallas County, Texas|Dallas County]], which is typically a Democratic stronghold but still well-exceeded Kamala Harris' 22-point margin in 2024. [[Tarrant County, Texas|Tarrant County]], home to [[Fort Worth, Texas|Fort Worth]], flipped for Talarico by over 19 points after being treated as a battleground since being narrowly won by [[Beto O'Rourke]] in [[2018 United States Senate election in Texas|2018]]. [[Collin County, Texas|Collin]] and [[Denton, Texas|Denton]] counties, which are incredibly fast-growing, densely populated, and historically deep-red suburban territory in the Metroplex, were also successfully flipped by Talarico.
 
 ===Exit poll===
 {| class="wikitable sortable" style="font-size:90%; line-height:1.2"
