@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-07T20:51+00:00",
+  "generated": "2026-11-08T00:31+00:00",
   "mode": "final",
   "poll_avg": 3.464481398832131,
   "n_polls": 85,
@@ -9,7 +9,7 @@
    "Polymarket": 1.0
   },
   "needle": 0.9999999999999998,
-  "early_total": 7753789,
+  "early_total": 7754968,
   "counted": {
    "Anderson": 14911,
    "Andrews": 4018,
@@ -323,7 +323,7 @@
    "Crosby": 755,
    "Culberson": 755,
    "Dallam": 521,
-   "Dallas": 608919,
+   "Dallas": 610094,
    "Dawson": 1853,
    "Deaf Smith": 2374,
    "Delta": 1197,
@@ -358,7 +358,7 @@
    "Gonzales": 4989,
    "Gray": 3665,
    "Grayson": 39583,
-   "Gregg": 25079,
+   "Gregg": 25080,
    "Grimes": 7023,
    "Guadalupe": 51663,
    "Hale": 5299,
@@ -979,7 +979,7 @@
    "Schleicher": 34,
    "Scurry": 85,
    "Shackelford": 62,
-   "Shelby": 189,
+   "Shelby": 192,
    "Sherman": 16,
    "Smith": 2769,
    "Somervell": 71,
@@ -1026,7 +1026,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-07T20:51+00:00",
+  "generated": "2026-11-08T00:31+00:00",
   "mode": "final",
   "poll_avg": -1.7130612357508457,
   "n_polls": 72,
@@ -1035,7 +1035,7 @@
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7753789,
+  "early_total": 7754968,
   "counted": {
    "Anderson": 15136,
    "Andrews": 4084,
@@ -1349,7 +1349,7 @@
    "Crosby": 755,
    "Culberson": 755,
    "Dallam": 521,
-   "Dallas": 608919,
+   "Dallas": 610094,
    "Dawson": 1853,
    "Deaf Smith": 2374,
    "Delta": 1197,
@@ -1384,7 +1384,7 @@
    "Gonzales": 4989,
    "Gray": 3665,
    "Grayson": 39583,
-   "Gregg": 25079,
+   "Gregg": 25080,
    "Grimes": 7023,
    "Guadalupe": 51663,
    "Hale": 5299,
@@ -2005,7 +2005,7 @@
    "Schleicher": 34,
    "Scurry": 85,
    "Shackelford": 62,
-   "Shelby": 189,
+   "Shelby": 192,
    "Sherman": 16,
    "Smith": 2769,
    "Somervell": 71,
