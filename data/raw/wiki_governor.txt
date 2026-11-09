@@ -9,7 +9,6 @@
 | country = Texas
 | type = presidential
 | ongoing = 
-| reporting = 99
 | last_update = Nov. 6, 10:15 AM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://apps.texastribune.org/features/2026/texas-general-election-live-results-2026/ |title=Texas Governor Election Results |work=[[Texas Tribune]] |access-date=November 6, 2026}}</ref>
 | previous_election = 2022 Texas gubernatorial election
@@ -20,13 +19,13 @@
 | image1 = Gina Hinojosa at the AFL-CIO COPE convention in 2024 (cropped).jpg
 | nominee1 = '''[[Gina Hinojosa]]'''
 | party1 = Texas Democratic Party
-| popular_vote1 = '''5,230,929'''
+| popular_vote1 = '''5,232,679'''
 | percentage1 = '''52.82%'''
 | image2 = Greg Abbott 2026.jpg
 | nominee2 = [[Greg Abbott]]
 | party2 = Republican Party of Texas
-| popular_vote2 = 4,524,955
-| percentage2 = 45.67%
+| popular_vote2 = 4,525,947
+| percentage2 = 45.68%
 | title = [[Governor of Texas|Governor]]
 | before_election = [[Greg Abbott]]
 | before_party = Republican Party of Texas
@@ -1459,21 +1458,21 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 {{Election box winning candidate with party link 
  | party=Democratic Party (United States)
  | candidate=[[Gina Hinojosa]]
- | votes= 5,230,929
+ | votes= 5,232,679
  | percentage= 52.82
  | change    = +8.96
 }}
 {{Election box candidate with party link
  | party=Republican Party (United States)
  | candidate= [[Greg Abbott]] (incumbent)
- | votes= 4,524,955
- | percentage= 45.67
+ | votes= 4,525,947
+ | percentage= 45.68
  | change    = -9.08
 }}
 {{Election box candidate with party link 
  | party=Libertarian Party (United States)
  | candidate=Pat Dixon
- | votes= 148,121
+ | votes= 148,140
  | percentage= 1.50
  | change    = +0.49
 }}
@@ -1483,7 +1482,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
  |change=
 }}
 {{Election box total 
- | votes= 9,905,493
+ | votes= 9,906,766
  | percentage=100.0%
  | change    = 
 }}
