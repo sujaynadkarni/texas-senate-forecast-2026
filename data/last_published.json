@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-08T22:52+00:00",
+  "generated": "2026-11-09T02:37+00:00",
   "mode": "final",
   "poll_avg": 3.464481398832131,
   "n_polls": 85,
@@ -9,7 +9,7 @@
    "Polymarket": 1.0
   },
   "needle": 0.9999999999999998,
-  "early_total": 7754968,
+  "early_total": 7754986,
   "counted": {
    "Anderson": 14911,
    "Andrews": 4018,
@@ -334,7 +334,7 @@
    "Donley": 791,
    "Duval": 2240,
    "Eastland": 3745,
-   "Ector": 19601,
+   "Ector": 19619,
    "Edwards": 574,
    "Ellis": 70301,
    "El Paso": 155576,
@@ -1026,7 +1026,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-08T22:52+00:00",
+  "generated": "2026-11-09T02:37+00:00",
   "mode": "final",
   "poll_avg": -1.7130612357508568,
   "n_polls": 72,
@@ -1035,7 +1035,7 @@
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7754968,
+  "early_total": 7754986,
   "counted": {
    "Anderson": 15136,
    "Andrews": 4084,
@@ -1360,7 +1360,7 @@
    "Donley": 791,
    "Duval": 2240,
    "Eastland": 3745,
-   "Ector": 19601,
+   "Ector": 19619,
    "Edwards": 574,
    "Ellis": 70301,
    "El Paso": 155576,
