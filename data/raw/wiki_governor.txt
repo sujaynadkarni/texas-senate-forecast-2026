@@ -144,9 +144,8 @@ Hinojosa is the first Democrat to win a gubernatorial election in Texas since [[
 
 ===Results===
 [[File:2026 Republican Gubernatorial Primary Election Results.png|thumb|310px|Results by county:
-{{collapsible list
-| title = {{legend|#C21B18|Abbott}}|{{legend|#D72F30|70–80%}}|{{legend|#C21B18|80–90%}}|{{legend|#A80000|90-100%}}|
-}}]]
+{{legend|#D72F30|Abbott—70–80%}} {{legend|#C21B18|Abbott—80–90%}} {{legend|#A80000|Abbott—90–100%}}
+]]
 {{Election box begin no change
  | title= Republican primary}}
 {{Election box winning candidate with party link no change
