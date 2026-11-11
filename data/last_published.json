@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-11T16:06+00:00",
+  "generated": "2026-11-11T22:41+00:00",
   "mode": "final",
   "poll_avg": 3.4329594787922746,
   "n_polls": 85,
@@ -9,7 +9,7 @@
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7757103,
+  "early_total": 7757696,
   "counted": {
    "Anderson": 14911,
    "Andrews": 4018,
@@ -374,7 +374,7 @@
    "Hemphill": 786,
    "Henderson": 22461,
    "Hidalgo": 161702,
-   "Hill": 8131,
+   "Hill": 8723,
    "Hockley": 4407,
    "Hood": 20057,
    "Hopkins": 9062,
@@ -860,7 +860,7 @@
    "Freestone": 124,
    "Frio": 106,
    "Gaines": 47,
-   "Galveston": 3483,
+   "Galveston": 3484,
    "Garza": 44,
    "Gillespie": 596,
    "Glasscock": 15,
@@ -1026,7 +1026,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-11T16:06+00:00",
+  "generated": "2026-11-11T22:41+00:00",
   "mode": "final",
   "poll_avg": -1.7021821305683527,
   "n_polls": 72,
@@ -1035,7 +1035,7 @@
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7757103,
+  "early_total": 7757696,
   "counted": {
    "Anderson": 15136,
    "Andrews": 4084,
@@ -1400,7 +1400,7 @@
    "Hemphill": 786,
    "Henderson": 22461,
    "Hidalgo": 161702,
-   "Hill": 8131,
+   "Hill": 8723,
    "Hockley": 4407,
    "Hood": 20057,
    "Hopkins": 9062,
@@ -1886,7 +1886,7 @@
    "Freestone": 124,
    "Frio": 106,
    "Gaines": 47,
-   "Galveston": 3483,
+   "Galveston": 3484,
    "Garza": 44,
    "Gillespie": 596,
    "Glasscock": 15,
