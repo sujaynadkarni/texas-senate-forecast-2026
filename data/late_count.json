@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T20:00+00:00",
+ "generated": "2026-11-11T00:38+00:00",
  "races": {
   "ms_senate": {
    "key": "ms_senate",
@@ -7,7 +7,7 @@
    "office": "U.S. Senate",
    "rcv": false,
    "unit": "county",
-   "source_time": "2026-11-10T19:59:40.079Z",
+   "source_time": "2026-11-11T00:36:28.802Z",
    "candidates": [
     {
      "name": "Colom",
@@ -28,32 +28,32 @@
    "dem": "Colom",
    "rep": "Hyde-Smith",
    "counted": {
-    "Colom": 468020,
-    "Hyde-Smith": 465445,
-    "Pinkins": 20034
+    "Colom": 468212,
+    "Hyde-Smith": 465533,
+    "Pinkins": 20038
    },
-   "counted_total": 953499,
+   "counted_total": 953783,
    "share_in": 0.9740000000000001,
-   "left_total": 25453,
+   "left_total": 25460,
    "swing_vs_2024": 20.7,
    "late_lean": null,
    "late_counted": 0,
    "win": {
-    "Colom": 0.9991,
-    "Hyde-Smith": 0.0009,
+    "Colom": 0.9993,
+    "Hyde-Smith": 0.0007,
     "Pinkins": 0.0
    },
    "rating": "Lean Democratic",
    "first_round": {
     "Colom": {
-     "mid": 49.12,
-     "lo": 49.05,
+     "mid": 49.13,
+     "lo": 49.06,
      "hi": 49.22
     },
     "Hyde-Smith": {
-     "mid": 48.78,
+     "mid": 48.77,
      "lo": 48.68,
-     "hi": 48.85
+     "hi": 48.84
     },
     "Pinkins": {
      "mid": 2.1,
@@ -63,9 +63,9 @@
    },
    "rcv_share": null,
    "margin": {
-    "mid": 0.35,
-    "lo": 0.21,
-    "hi": 0.54
+    "mid": 0.36,
+    "lo": 0.22,
+    "hi": 0.55
    },
    "places": [
     {
@@ -160,7 +160,7 @@
    "office": "U.S. Senate",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-10T19:59:25.321Z",
+   "source_time": "2026-11-11T00:36:35.654Z",
    "candidates": [
     {
      "name": "Peltola",
@@ -343,7 +343,7 @@
    "office": "Governor",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-10T20:00:06.138Z",
+   "source_time": "2026-11-11T00:36:40.173Z",
    "candidates": [
     {
      "name": "Kreiss-Tomkins",
