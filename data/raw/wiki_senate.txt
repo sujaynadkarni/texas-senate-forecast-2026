@@ -17,13 +17,13 @@
 | image1 = James Talarico Press Conference (centered).jpg
 | nominee1 = '''[[James Talarico]]'''
 | party1 = Democratic Party (United States)
-| popular_vote1 = '''5,447,069'''
-| percentage1 = '''55.06%'''
+| popular_vote1 = '''5,447,080'''
+| percentage1 = '''55.09%'''
 | image2 = Ken Paxton - 55022425595 (cropped).jpg
 | nominee2 = [[Ken Paxton]]
 | party2 = Republican Party (United States)
-| popular_vote2 = 4,250,664
-| percentage2 = 42.97%
+| popular_vote2 = 4,250,704
+| percentage2 = 42.99%
 | map_image = {{switcher |[[File:2026 United States Senate election in Texas results map by county.svg|310px]] |County results |[[File:2026 United States Senate election in Texas results map by congressional district.svg|310px]] |Congressional district results}}
 | map_size = 
 | map_caption = '''Talarico:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} {{legend0|#3933E5|80–90%}} <br />'''Paxton:''' {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}
@@ -3168,6 +3168,16 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 |{{sdash}}
 |{{sdash}}
 |-
+|style="text-align:left;"|[[HarrisX]]<ref>{{cite web |title=Final HarrisX 2026 Midterms Poll: Democrats Ahead in Senate Races Across Texas, Michigan and Ohio; Abbott and Benson Lead Comfortably in Texas and Michigan, Acton and Ramaswamy Statistically Tied in Ohio |url=https://www.harrisx.com/posts/final-harrisx-2026-midterm-poll |website=[[HarrisX]] |date=November 3, 2026}}</ref>
+|October 30 – November 1, 2026
+|512 (LV)
+|±{{nbsp}}4.3%
+|44%
+|{{party shading/Democratic}}|'''50%'''
+|{{sdash}}
+|4%{{efn|"Another candidate" with 4%}}
+|2%
+|-
 | style="text-align: left;"|[[AtlasIntel]]<ref>{{cite web |title=2026 Midterms: Texas |url=https://cdn1.atlasintel.org/2026_midterms__texas_110126_73e0a3a507f76a2e.pdf|website=[[AtlasIntel]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
 |October 28 – November 1, 2026
 |1,678 (LV)
@@ -4746,8 +4756,8 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 ===Results===
 {{Election box begin 
  | title=2026 United States Senate election in Texas}}
-{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,447,069|percentage=55.06|change=+11.18}}
-{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,250,664|percentage=42.97|change=-10.54}}
+{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=5,447,080|percentage=55.09|change=+11.18}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=4,250,704|percentage=42.99|change=-10.54}}
 {{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Ted Brown|votes=190,293|percentage=1.92|change=+0.04}}
 {{Election box write-in with party link|votes=5,112|percentage=0.05|change=}}{{Election box total 
  | votes= 9,891,880

@@ -1,15 +1,15 @@
 {
  "senate": {
-  "generated": "2026-11-11T22:41+00:00",
+  "generated": "2026-11-12T03:47+00:00",
   "mode": "final",
-  "poll_avg": 3.4329594787922746,
-  "n_polls": 85,
+  "poll_avg": 3.554379511645389,
+  "n_polls": 86,
   "markets": {
    "Kalshi": 0.997,
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7757696,
+  "early_total": 7757831,
   "counted": {
    "Anderson": 14911,
    "Andrews": 4018,
@@ -378,7 +378,7 @@
    "Hockley": 4407,
    "Hood": 20057,
    "Hopkins": 9062,
-   "Houston": 4677,
+   "Houston": 4678,
    "Howard": 5057,
    "Hudspeth": 192,
    "Hunt": 22688,
@@ -493,7 +493,7 @@
    "Titus": 6244,
    "Tom Green": 25342,
    "Travis": 437424,
-   "Trinity": 4098,
+   "Trinity": 4232,
    "Tyler": 4413,
    "Upshur": 10145,
    "Upton": 617,
@@ -1026,16 +1026,16 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-11T22:41+00:00",
+  "generated": "2026-11-12T03:47+00:00",
   "mode": "final",
-  "poll_avg": -1.7021821305683527,
-  "n_polls": 72,
+  "poll_avg": -1.870252564397401,
+  "n_polls": 73,
   "markets": {
    "Kalshi": 0.997,
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7757696,
+  "early_total": 7757831,
   "counted": {
    "Anderson": 15136,
    "Andrews": 4084,
@@ -1404,7 +1404,7 @@
    "Hockley": 4407,
    "Hood": 20057,
    "Hopkins": 9062,
-   "Houston": 4677,
+   "Houston": 4678,
    "Howard": 5057,
    "Hudspeth": 192,
    "Hunt": 22688,
@@ -1519,7 +1519,7 @@
    "Titus": 6244,
    "Tom Green": 25342,
    "Travis": 437424,
-   "Trinity": 4098,
+   "Trinity": 4232,
    "Tyler": 4413,
    "Upshur": 10145,
    "Upton": 617,
