@@ -1,12 +1,12 @@
 {
- "fetched": "2026-11-13T08:44:47+00:00",
+ "fetched": "2026-11-13T17:09:47+00:00",
  "day": 26,
  "date": "2026-11-13",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/travistx/2026-11-03/index.html",
-   "refreshed": "Thu Nov 12 09:56 PM",
+   "refreshed": "Fri Nov 13 11:09 AM",
    "ballots_to_date": 529266,
    "hourly": [],
    "hours_in": 0,
@@ -19,7 +19,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Thu Nov 12 09:56 PM",
+   "refreshed": "Fri Nov 13 11:07 AM",
    "ballots_to_date": 249741,
    "hourly": [],
    "hours_in": 0,
@@ -62,7 +62,7 @@
   "Dallas": {
    "source": "county vote-center map (ArcGIS)",
    "url": "https://experience.arcgis.com/experience/8204fc2e36cd4fac8729efcedd4fda7f/page/Page?views=Early-Voting",
-   "refreshed": "Thu Nov 12 4:07 PM",
+   "refreshed": "Fri Nov 13 8:36 AM",
    "today": 0,
    "ballots_to_date": 607618,
    "sites": 528,

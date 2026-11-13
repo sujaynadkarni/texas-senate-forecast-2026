@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T08:45+00:00",
+ "generated": "2026-11-13T17:10+00:00",
  "races": {
   "ms_senate": {
    "key": "ms_senate",
@@ -7,7 +7,7 @@
    "office": "U.S. Senate",
    "rcv": false,
    "unit": "county",
-   "source_time": "2026-11-13T04:03:08.288Z",
+   "source_time": "2026-11-13T17:09:52.833Z",
    "candidates": [
     {
      "name": "Colom",
@@ -28,14 +28,14 @@
    "dem": "Colom",
    "rep": "Hyde-Smith",
    "counted": {
-    "Colom": 476120,
-    "Hyde-Smith": 470179,
-    "Pinkins": 20349
+    "Colom": 478459,
+    "Hyde-Smith": 471203,
+    "Pinkins": 20397
    },
-   "counted_total": 966648,
+   "counted_total": 970059,
    "share_in": 0.99,
-   "left_total": 9764,
-   "swing_vs_2024": 21.0,
+   "left_total": 9799,
+   "swing_vs_2024": 21.1,
    "late_lean": null,
    "late_counted": 0,
    "win": {
@@ -46,14 +46,14 @@
    "rating": "Lean Democratic",
    "first_round": {
     "Colom": {
-     "mid": 49.26,
-     "lo": 49.23,
-     "hi": 49.29
+     "mid": 49.32,
+     "lo": 49.29,
+     "hi": 49.35
     },
     "Hyde-Smith": {
-     "mid": 48.63,
-     "lo": 48.6,
-     "hi": 48.66
+     "mid": 48.57,
+     "lo": 48.54,
+     "hi": 48.6
     },
     "Pinkins": {
      "mid": 2.1,
@@ -63,94 +63,94 @@
    },
    "rcv_share": null,
    "margin": {
-    "mid": 0.64,
-    "lo": 0.58,
-    "hi": 0.71
+    "mid": 0.77,
+    "lo": 0.71,
+    "hi": 0.83
    },
    "places": [
     {
-     "name": "Lee",
-     "left": 1094,
-     "pin": 94.0,
-     "counted_margin": -17.6,
-     "counted": 24993
-    },
-    {
      "name": "Hinds",
-     "left": 549,
+     "left": 700,
      "pin": 99.0,
      "counted_margin": 61.1,
-     "counted": 79224
-    },
-    {
-     "name": "Lowndes",
-     "left": 483,
-     "pin": 96.8,
-     "counted_margin": 15.9,
-     "counted": 21284
+     "counted": 79228
     },
     {
      "name": "Lauderdale",
-     "left": 464,
+     "left": 592,
      "pin": 97.0,
      "counted_margin": -1.7,
      "counted": 21874
     },
     {
      "name": "Harrison",
-     "left": 416,
+     "left": 530,
      "pin": 99.0,
      "counted_margin": -3.2,
      "counted": 59955
     },
     {
      "name": "DeSoto",
-     "left": 386,
+     "left": 493,
      "pin": 99.0,
      "counted_margin": 7.4,
      "counted": 55730
     },
     {
-     "name": "Washington",
-     "left": 370,
-     "pin": 95.4,
-     "counted_margin": 56.2,
-     "counted": 11191
-    },
-    {
      "name": "Rankin",
-     "left": 364,
+     "left": 465,
      "pin": 99.0,
      "counted_margin": -24.9,
      "counted": 52612
     },
     {
      "name": "Tate",
-     "left": 333,
+     "left": 424,
      "pin": 95.0,
      "counted_margin": -19.4,
      "counted": 9215
     },
     {
      "name": "Madison",
-     "left": 324,
+     "left": 413,
      "pin": 99.0,
      "counted_margin": 1.0,
      "counted": 46749
     },
     {
-     "name": "Lamar",
-     "left": 294,
-     "pin": 98.0,
-     "counted_margin": -25.8,
-     "counted": 21020
+     "name": "Jackson",
+     "left": 332,
+     "pin": 99.0,
+     "counted_margin": -13.7,
+     "counted": 37605
     },
     {
-     "name": "Holmes",
-     "left": 283,
-     "pin": 94.0,
-     "counted_margin": 72.7,
-     "counted": 6465
+     "name": "Leflore",
+     "left": 300,
+     "pin": 96.0,
+     "counted_margin": 51.0,
+     "counted": 8221
+    },
+    {
+     "name": "Lee",
+     "left": 228,
+     "pin": 99.0,
+     "counted_margin": -16.5,
+     "counted": 25801
+    },
+    {
+     "name": "Forrest",
+     "left": 203,
+     "pin": 99.0,
+     "counted_margin": 10.5,
+     "counted": 23001
+    },
+    {
+     "name": "Lowndes",
+     "left": 192,
+     "pin": 99.0,
+     "counted_margin": 16.3,
+     "counted": 21819
     }
    ]
   },
@@ -160,7 +160,7 @@
    "office": "U.S. Senate",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-13T04:03:56.589Z",
+   "source_time": "2026-11-13T17:09:55.142Z",
    "candidates": [
     {
      "name": "Peltola",
@@ -198,8 +198,8 @@
     "Write-ins": 0
    },
    "counted_total": 254203,
-   "share_in": 0.882,
-   "left_total": 34009,
+   "share_in": 0.879,
+   "left_total": 34993,
    "swing_vs_2024": null,
    "late_lean": {
     "Peltola": 6.9,
@@ -219,19 +219,19 @@
    "rating": "Safe Democratic",
    "first_round": {
     "Peltola": {
-     "mid": 50.14,
-     "lo": 49.6,
-     "hi": 50.76
+     "mid": 50.26,
+     "lo": 49.69,
+     "hi": 50.91
     },
     "Sullivan": {
-     "mid": 46.15,
-     "lo": 45.56,
-     "hi": 46.66
+     "mid": 46.04,
+     "lo": 45.43,
+     "hi": 46.57
     },
     "Heikes": {
-     "mid": 2.08,
-     "lo": 2.03,
-     "hi": 2.12
+     "mid": 2.07,
+     "lo": 2.02,
+     "hi": 2.11
     },
     "Sullivan Jr.": {
      "mid": 1.63,
@@ -244,96 +244,96 @@
      "hi": 0.0
     }
    },
-   "rcv_share": 0.34,
+   "rcv_share": 0.233,
    "margin": {
-    "mid": 4.16,
-    "lo": 3.01,
-    "hi": 5.4
+    "mid": 4.38,
+    "lo": 3.19,
+    "hi": 5.69
    },
    "places": [
     {
      "name": "State House District 2",
-     "left": 2407,
-     "pin": 68.0,
+     "left": 2479,
+     "pin": 66.8,
      "counted_margin": 20.9,
      "counted": 5385
     },
     {
-     "name": "State House District 36",
-     "left": 1944,
-     "pin": 75.1,
-     "counted_margin": 0.6,
-     "counted": 6174
-    },
-    {
      "name": "State House District 6",
-     "left": 1936,
-     "pin": 80.3,
+     "left": 1876,
+     "pin": 80.4,
      "counted_margin": -2.9,
      "counted": 8308
     },
     {
+     "name": "State House District 36",
+     "left": 1876,
+     "pin": 75.3,
+     "counted_margin": 0.6,
+     "counted": 6174
+    },
+    {
      "name": "State House District 9",
-     "left": 1727,
-     "pin": 83.1,
+     "left": 1768,
+     "pin": 82.4,
      "counted_margin": 6.3,
      "counted": 8939
     },
     {
      "name": "State House District 1",
-     "left": 1411,
-     "pin": 78.4,
+     "left": 1534,
+     "pin": 76.5,
      "counted_margin": -4.9,
      "counted": 5390
     },
     {
      "name": "State House District 11",
-     "left": 1350,
-     "pin": 83.8,
+     "left": 1365,
+     "pin": 83.3,
      "counted_margin": 1.8,
      "counted": 7353
     },
     {
-     "name": "State House District 17",
-     "left": 1287,
-     "pin": 80.7,
-     "counted_margin": 47.9,
-     "counted": 5664
-    },
-    {
      "name": "State House District 21",
-     "left": 1215,
-     "pin": 83.8,
+     "left": 1282,
+     "pin": 82.7,
      "counted_margin": 19.8,
      "counted": 6618
     },
     {
-     "name": "State House District 12",
-     "left": 1208,
-     "pin": 83.2,
-     "counted_margin": 14.2,
-     "counted": 6300
-    },
-    {
      "name": "State House District 23",
-     "left": 1203,
-     "pin": 85.8,
+     "left": 1271,
+     "pin": 84.8,
      "counted_margin": -8.5,
      "counted": 7654
     },
     {
+     "name": "State House District 17",
+     "left": 1231,
+     "pin": 81.0,
+     "counted_margin": 47.9,
+     "counted": 5664
+    },
+    {
+     "name": "State House District 12",
+     "left": 1221,
+     "pin": 82.7,
+     "counted_margin": 14.2,
+     "counted": 6300
+    },
+    {
+     "name": "State House District 5",
+     "left": 1210,
+     "pin": 79.5,
+     "counted_margin": 10.3,
+     "counted": 5064
+    },
+    {
      "name": "State House District 15",
-     "left": 1201,
+     "left": 1171,
      "pin": 85.1,
      "counted_margin": 7.9,
      "counted": 7222
-    },
-    {
-     "name": "State House District 16",
-     "left": 1123,
-     "pin": 86.3,
-     "counted_margin": 25.0,
-     "counted": 7444
     }
    ]
   },
@@ -343,7 +343,7 @@
    "office": "Governor",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-13T04:08:53.175Z",
+   "source_time": "2026-11-13T17:09:46.287Z",
    "candidates": [
     {
      "name": "Kreiss-Tomkins",
@@ -381,8 +381,8 @@
     "Write-ins": 0
    },
    "counted_total": 251425,
-   "share_in": 0.879,
-   "left_total": 34610,
+   "share_in": 0.877,
+   "left_total": 35263,
    "swing_vs_2024": null,
    "late_lean": {
     "Kreiss-Tomkins": 6.7,
@@ -402,22 +402,22 @@
    "rating": "Safe Democratic",
    "first_round": {
     "Kreiss-Tomkins": {
-     "mid": 51.13,
-     "lo": 50.58,
-     "hi": 51.77
+     "mid": 51.15,
+     "lo": 50.59,
+     "hi": 51.8
     },
     "Wilson": {
-     "mid": 28.22,
-     "lo": 27.68,
-     "hi": 28.69
+     "mid": 28.2,
+     "lo": 27.65,
+     "hi": 28.68
     },
     "Bronson": {
      "mid": 13.49,
      "lo": 13.33,
-     "hi": 13.61
+     "hi": 13.62
     },
     "Taylor": {
-     "mid": 7.17,
+     "mid": 7.16,
      "lo": 7.1,
      "hi": 7.22
     },
@@ -429,94 +429,94 @@
    },
    "rcv_share": 0.0,
    "margin": {
-    "mid": 28.88,
-    "lo": 27.63,
-    "hi": 30.29
+    "mid": 28.93,
+    "lo": 27.66,
+    "hi": 30.37
    },
    "places": [
     {
      "name": "State House District 2",
-     "left": 2441,
-     "pin": 67.7,
+     "left": 2540,
+     "pin": 66.6,
      "counted_margin": 43.7,
      "counted": 5331
     },
     {
      "name": "State House District 6",
-     "left": 1973,
-     "pin": 80.0,
+     "left": 1941,
+     "pin": 80.1,
      "counted_margin": 12.3,
      "counted": 8225
     },
     {
      "name": "State House District 36",
-     "left": 1970,
-     "pin": 74.8,
+     "left": 1930,
+     "pin": 75.0,
      "counted_margin": 16.4,
      "counted": 6092
     },
     {
      "name": "State House District 9",
-     "left": 1743,
-     "pin": 83.1,
+     "left": 1812,
+     "pin": 82.4,
      "counted_margin": 32.2,
      "counted": 8928
     },
     {
      "name": "State House District 1",
-     "left": 1424,
-     "pin": 78.2,
+     "left": 1579,
+     "pin": 76.2,
      "counted_margin": 23.5,
      "counted": 5322
     },
     {
      "name": "State House District 11",
-     "left": 1382,
-     "pin": 83.5,
+     "left": 1417,
+     "pin": 83.0,
      "counted_margin": 26.8,
      "counted": 7285
     },
     {
-     "name": "State House District 17",
-     "left": 1320,
-     "pin": 80.3,
-     "counted_margin": 60.9,
-     "counted": 5604
-    },
-    {
      "name": "State House District 21",
-     "left": 1237,
-     "pin": 83.6,
+     "left": 1324,
+     "pin": 82.5,
      "counted_margin": 37.6,
      "counted": 6573
     },
     {
      "name": "State House District 23",
-     "left": 1237,
-     "pin": 85.5,
+     "left": 1314,
+     "pin": 84.6,
      "counted_margin": 15.3,
      "counted": 7600
     },
     {
+     "name": "State House District 17",
+     "left": 1289,
+     "pin": 80.5,
+     "counted_margin": 60.9,
+     "counted": 5604
+    },
+    {
      "name": "State House District 12",
-     "left": 1228,
-     "pin": 83.0,
+     "left": 1266,
+     "pin": 82.4,
      "counted_margin": 33.5,
      "counted": 6243
     },
     {
-     "name": "State House District 15",
-     "left": 1213,
-     "pin": 85.0,
-     "counted_margin": 29.3,
-     "counted": 7163
+     "name": "State House District 5",
+     "left": 1243,
+     "pin": 79.2,
+     "counted_margin": 34.7,
+     "counted": 4982
     },
     {
-     "name": "State House District 16",
-     "left": 1155,
-     "pin": 86.0,
-     "counted_margin": 43.0,
-     "counted": 7388
+     "name": "State House District 15",
+     "left": 1210,
+     "pin": 84.9,
+     "counted_margin": 29.3,
+     "counted": 7163
     }
    ]
   }

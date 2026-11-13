@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-13T08:44+00:00",
+  "generated": "2026-11-13T17:09+00:00",
   "mode": "final",
   "poll_avg": 3.547351765024409,
   "n_polls": 86,
@@ -9,7 +9,7 @@
    "Polymarket": 1.0
   },
   "needle": 1.0,
-  "early_total": 7758507,
+  "early_total": 7758521,
   "counted": {
    "Anderson": 14911,
    "Andrews": 4018,
@@ -360,7 +360,7 @@
    "Grayson": 39585,
    "Gregg": 25080,
    "Grimes": 7023,
-   "Guadalupe": 51663,
+   "Guadalupe": 51669,
    "Hale": 5300,
    "Hall": 429,
    "Hamilton": 2282,
@@ -511,7 +511,7 @@
    "Wichita": 25581,
    "Wilbarger": 2474,
    "Willacy": 2778,
-   "Williamson": 225388,
+   "Williamson": 225396,
    "Wilson": 15884,
    "Winkler": 488,
    "Wise": 24016,
@@ -1026,7 +1026,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-13T08:44+00:00",
+  "generated": "2026-11-13T17:09+00:00",
   "mode": "final",
   "poll_avg": -1.851411716403395,
   "n_polls": 73,
@@ -1035,7 +1035,7 @@
    "Polymarket": 1.0
   },
   "needle": 0.9999999999999999,
-  "early_total": 7758507,
+  "early_total": 7758521,
   "counted": {
    "Anderson": 15136,
    "Andrews": 4084,
@@ -1386,7 +1386,7 @@
    "Grayson": 39585,
    "Gregg": 25080,
    "Grimes": 7023,
-   "Guadalupe": 51663,
+   "Guadalupe": 51669,
    "Hale": 5300,
    "Hall": 429,
    "Hamilton": 2282,
@@ -1537,7 +1537,7 @@
    "Wichita": 25581,
    "Wilbarger": 2474,
    "Willacy": 2778,
-   "Williamson": 225388,
+   "Williamson": 225396,
    "Wilson": 15884,
    "Winkler": 488,
    "Wise": 24016,
