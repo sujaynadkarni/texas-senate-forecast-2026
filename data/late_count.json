@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:51+00:00",
+ "generated": "2026-11-14T03:09+00:00",
  "races": {
   "ms_senate": {
    "key": "ms_senate",
@@ -7,7 +7,7 @@
    "office": "U.S. Senate",
    "rcv": false,
    "unit": "county",
-   "source_time": "2026-11-13T22:50:54.761Z",
+   "source_time": "2026-11-14T03:08:36.363Z",
    "candidates": [
     {
      "name": "Colom",
@@ -28,13 +28,13 @@
    "dem": "Colom",
    "rep": "Hyde-Smith",
    "counted": {
-    "Colom": 479197,
-    "Hyde-Smith": 471668,
-    "Pinkins": 20430
+    "Colom": 479404,
+    "Hyde-Smith": 471817,
+    "Pinkins": 20439
    },
-   "counted_total": 971295,
+   "counted_total": 971660,
    "share_in": 0.99,
-   "left_total": 9811,
+   "left_total": 9815,
    "swing_vs_2024": 21.2,
    "late_lean": null,
    "late_counted": 0,
@@ -47,11 +47,11 @@
    "first_round": {
     "Colom": {
      "mid": 49.34,
-     "lo": 49.31,
-     "hi": 49.37
+     "lo": 49.32,
+     "hi": 49.38
     },
     "Hyde-Smith": {
-     "mid": 48.56,
+     "mid": 48.55,
      "lo": 48.52,
      "hi": 48.58
     },
@@ -63,8 +63,8 @@
    },
    "rcv_share": null,
    "margin": {
-    "mid": 0.8,
-    "lo": 0.74,
+    "mid": 0.81,
+    "lo": 0.75,
     "hi": 0.87
    },
    "places": [
@@ -84,10 +84,10 @@
     },
     {
      "name": "Harrison",
-     "left": 558,
+     "left": 559,
      "pin": 99.0,
      "counted_margin": -3.2,
-     "counted": 59955
+     "counted": 59956
     },
     {
      "name": "DeSoto",
@@ -126,7 +126,7 @@
     },
     {
      "name": "Lee",
-     "left": 240,
+     "left": 241,
      "pin": 99.0,
      "counted_margin": -16.5,
      "counted": 25801
@@ -160,7 +160,7 @@
    "office": "U.S. Senate",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-13T22:51:04.618Z",
+   "source_time": "2026-11-14T03:08:11.643Z",
    "candidates": [
     {
      "name": "Peltola",
@@ -343,7 +343,7 @@
    "office": "Governor",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-13T22:51:07.571Z",
+   "source_time": "2026-11-14T03:08:58.928Z",
    "candidates": [
     {
      "name": "Kreiss-Tomkins",
