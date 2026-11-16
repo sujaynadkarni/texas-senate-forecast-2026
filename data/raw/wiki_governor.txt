@@ -3,13 +3,12 @@
 {{for|related races|2026 United States gubernatorial elections|2026 Texas elections}}
 {{Use American English|date=January 2025}}
 {{Use mdy dates|date=November 2026}}
-{{current election}}
 {{Infobox election
 | election_name = 2026 Texas gubernatorial election
 | country = Texas
 | type = presidential
 | ongoing = 
-| last_update = Nov. 6, 10:15 AM
+| last_update = Nov. 16, 9:00 AM
 | time_zone = [[Central Standard Time|CST]]<ref>{{Cite web |url=https://apps.texastribune.org/features/2026/texas-general-election-live-results-2026/ |title=Texas Governor Election Results |work=[[Texas Tribune]] |access-date=November 6, 2026}}</ref>
 | previous_election = 2022 Texas gubernatorial election
 | previous_year = 2022
@@ -19,13 +18,13 @@
 | image1 = Gina Hinojosa at the AFL-CIO COPE convention in 2024 (cropped).jpg
 | nominee1 = '''[[Gina Hinojosa]]'''
 | party1 = Texas Democratic Party
-| popular_vote1 = '''5,232,679'''
+| popular_vote1 = '''5,232,690'''
 | percentage1 = '''52.82%'''
 | image2 = Greg Abbott 2026.jpg
 | nominee2 = [[Greg Abbott]]
 | party2 = Republican Party of Texas
-| popular_vote2 = 4,525,947
-| percentage2 = 45.68%
+| popular_vote2 = 4,525,990
+| percentage2 = 45.69%
 | title = [[Governor of Texas|Governor]]
 | before_election = [[Greg Abbott]]
 | before_party = Republican Party of Texas
@@ -1460,31 +1459,19 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 {{Election box winning candidate with party link 
  | party=Democratic Party (United States)
  | candidate=[[Gina Hinojosa]]
- | votes= 5,232,679
+ | votes= 5,232,690
  | percentage= 52.82
- | change    = +8.96
+ | change    = {{increase}}8.96
 }}
-{{Election box candidate with party link
- | party=Republican Party (United States)
- | candidate= [[Greg Abbott]] (incumbent)
- | votes= 4,525,947
- | percentage= 45.68
- | change    = -9.08
-}}
-{{Election box candidate with party link 
- | party=Libertarian Party (United States)
- | candidate=Pat Dixon
- | votes= 148,140
- | percentage= 1.50
- | change    = +0.49
-}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Greg Abbott]] (incumbent)|votes=4,525,990|percentage=45.68|change={{decrease}}9.08}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Pat Dixon|votes=148,140|percentage=1.50|change={{increase}}0.49}}
 {{Election box write-in with party link
- |votes=
- |percentage=
+ |votes=3,987
+ |percentage=0.0
  |change=
 }}
 {{Election box total 
- | votes= 9,906,766
+ | votes= 9,910,807
  | percentage=100.0
  | change    = 
 }}
