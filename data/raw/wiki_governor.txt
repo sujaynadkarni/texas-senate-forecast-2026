@@ -1500,6 +1500,206 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 *[[Val Verde County, Texas|Val Verde]] (largest municipality: [[Del Rio, Texas|Del Rio]])
 *[[Zapata County, Texas|Zapata]] (largest municipality: [[Zapata, Texas|Zapata]])
 
+=== By congressional district ===
+Despite losing the state in re-election, Abbott won 24 out of 38 congressional districts.<ref>{{Cite web|url=https://theoelections.com/#e=2026s&level=ushouse&plan=p26c2025|title=theoelections - Texas election results by precinct|website=theoelections|accessdate=November 7, 2026}}</ref>
+{|class="wikitable sortable" style=text-align:center
+! District
+! Abbott
+! Hinojosa
+! Elected<br />representative
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|1|1st}}
+| '''66%'''
+| 32%
+| {{party shading/Republican}}|[[Nathaniel Moran]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|2|2nd}}
+| '''50%'''
+| 48%
+| {{party shading/Republican}}|[[Steve Toth]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|3|3rd}}
+| '''52%'''
+| 47%
+| {{party shading/Republican}}|[[Keith Self]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|4|4th}}
+| '''55%'''
+| 43%
+| {{party shading/Republican}}|[[Pat Fallon]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|5|5th}}
+| '''50%'''
+| 49%
+| {{party shading/Republican}}|[[Lance Gooden]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|6|6th}}
+| '''50%'''
+| 49%
+| {{party shading/Republican}}|[[Jake Ellzey]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|7|7th}}
+| 28%
+| '''70%'''
+| {{party shading/Democratic}}|[[Lizzie Fletcher]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|8|8th}}
+| '''52%'''
+| 47%
+| {{party shading/Republican}}|[[Jessica Steinmann]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|9|9th}}
+| 41%
+| '''58%'''
+| {{party shading/Democratic}}|[[Leticia Gutierrez]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|10|10th}}
+| '''53%'''
+| 46%
+| {{party shading/Republican}}|[[Chris Gober]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|11|11th}}
+| '''56%'''
+| 42%
+| {{party shading/Republican}}|[[August Pfluger]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|12|12th}}
+| '''50%'''
+| 48%
+| {{party shading/Republican}}|[[Craig Goldman]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|13|13th}}
+| '''63%'''
+| 35%
+| {{party shading/Republican}}|[[Ronny Jackson]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|14|14th}}
+| '''51%'''
+| 47%
+| {{party shading/Republican}}|[[Randy Weber]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|15|15th}}
+| 40%
+| '''59%'''
+| {{party shading/Democratic}}|[[Bobby Pulido]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|16|16th}}
+| 28%
+| '''70%'''
+| {{party shading/Democratic}}|[[Veronica Escobar]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|17|17th}}
+| '''51%'''
+| 47%
+| {{party shading/Republican}}|[[Pete Sessions]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|18|18th}}
+| 14%
+| '''84%'''
+| {{party shading/Democratic}}|[[Christian Menefee]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|19|19th}}
+| '''66%'''
+| 32%
+| {{party shading/Republican}}|[[Tom Sell]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|20|20th}}
+| 22%
+| '''75%'''
+| {{party shading/Democratic}}|[[Joaquin Castro]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|21|21st}}
+| '''53%'''
+| 46%
+| {{party shading/Republican}}|[[Mark Teixeira]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|22|22nd}}
+| '''49%'''
+| 48%
+| {{party shading/Republican}}|[[Trever Nehls]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|23|23rd}}
+| 45%
+| '''54%'''
+| {{party shading/Democratic}}|[[Katy Padilla Stout]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|24|24th}}
+| '''52%'''
+| 47%
+| {{party shading/Republican}}|[[Beth Van Duyne]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|25|25th}}
+| '''51%'''
+| 47%
+| {{party shading/Republican}}|[[Roger Williams (Texas politician)|Roger Williams]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|26|26th}}
+| '''54%'''
+| 45%
+| {{party shading/Republican}}|[[Brandon Gill]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|27|27th}}
+| '''50%'''
+| 49%
+| {{party shading/Republican}}|[[Michael Cloud]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|28|28th}}
+| 33%
+| '''66%'''
+| {{party shading/Democratic}}|[[Henry Cuellar]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|29|29th}}
+| 20%
+| '''78%'''
+| {{party shading/Democratic}}|[[Sylvia Garcia]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|30|30th}}
+| 18%
+| '''81%'''
+| {{party shading/Democratic}}|[[Frederick Haynes III]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|31|31st}}
+| '''52%'''
+| 46%
+| {{party shading/Republican}}|[[John Carter (Texas politician)|John Carter]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|32|32nd}}
+| '''50%'''
+| 48%
+| {{party shading/Republican}}|[[Jace Yarbrough]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|33|33rd}}
+| 22%
+| '''77%'''
+| {{party shading/Democratic}}|[[Colin Allred]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|34|34th}}
+| 39%
+| '''59%'''
+| {{party shading/Democratic}}|[[Vicente Gonzalez (American politician)|Vicente Gonzalez]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|35|35th}}
+| 43%
+| '''55%'''
+| {{party shading/Democratic}}|[[Johnny Garcia (politician)|Johnny Garcia]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|36|36th}}
+| '''52%'''
+| 47%
+| {{party shading/Republican}}|[[Brian Babin]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Texas|37|37th}}
+| 15%
+| '''84%'''
+| {{party shading/Democratic}}|[[Greg Casar]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Texas|38|38th}}
+| '''51%'''
+| 48%
+| {{party shading/Republican}}|[[Jon Bonck]]
+|- align=center
+|}
+
 ==Analysis==
 
 ===Exit poll===
