@@ -962,7 +962,7 @@ Candidates in ''italics'' withdrew before the primary election took place.
 ==== Results ====
 [[File:2026 United States Senate Republican primary election in Texas results map by county.svg|thumb|upright|280px|Results by county
 {{collapsible list
-| title = {{legend|#E27F7F|Cornyn}}|{{legend|#FFC8CD|30–40%}}|{{legend|#FFB2B2|40–50%}}|{{legend|#E27F7F|50–60%}}
+| title = {{legend|#cd7fe2|Cornyn}}|{{legend|#f3c8ff|30–40%}}|{{legend|#eeb2ff|40–50%}}|{{legend|#cd7fe2|50–60%}}
 }}
 {{collapsible list
 | title = {{legend|#ff9a50|Paxton}}
@@ -1980,12 +1980,10 @@ Following the runoff, Cornyn indicated tacit support for Paxton, saying he would
 | title = {{legend|#ff9a50|Paxton}}|{{legend|#FFB380|50–60%}}|{{legend|#FF9955|60–70%}}|{{legend|#FF7F2A|70–80%}}|{{legend|#FF6600|80–90%}}
 }}
 {{collapsible list
-| title = {{legend|#e27f7f|Cornyn}}
-|{{legend|#e27f7f|50–60%}}
-|{{legend|#d72f30|70–80%}}
+| title = {{legend|#a94cc2|Cornyn}}|{{legend|#cd7fe2|50–60%}}|{{legend|#a94cc2|70–80%}}
 }}
 {{collapsible list
-| title = {{legend|#F18C6A|Tie}}|{{legend|#F18C6A|50%}}
+| title = {{legend|#999999|Tie}}|{{legend|#999999|50%}}
 }}
 ]]
 {{Election box begin no change
