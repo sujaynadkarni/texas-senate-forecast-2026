@@ -5383,7 +5383,7 @@ Talarico won 25 out of 38 congressional districts, including eleven that elected
 ! District
 ! Paxton
 ! Talarico
-! Elected<br />representative
+! Representative
 |- align=center
 ! {{party shading/Republican}}|{{ushr|Texas|1|1st}}
 | '''63%'''
