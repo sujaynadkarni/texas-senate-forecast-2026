@@ -5360,6 +5360,23 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 *[[Val Verde County, Texas|Val Verde]] (largest municipality: [[Del Rio, Texas|Del Rio]])
 *[[Williamson County, Texas|Williamson]] (largest municipality: [[Round Rock, Texas|Round Rock]])
 
+{{align|right|{{Switcher| [[File:Texas county swing 2020-2026 senate.svg|300px]]|Swing by county<br/>{{collapsible list| title = Legend|
+|{{legend|#d40000|Republican — >15%}}
+|{{legend|#ff0000|Republican — +12.5−15%}}
+|{{legend|#ff2a2a|Republican — +10−12.5%}}
+|{{legend|#ff5555|Republican — +7.5−10%}}
+|{{legend|#ff8080|Republican — +5−7.5%}}
+|{{legend|#ffaaaa|Republican — +2.5−5%}}
+|{{legend|#ffd5d5|Republican — +0−2.5%}}
+|{{legend|#d5f6ff|Democratic — +0−2.5%}}
+|{{legend|#aaeeff|Democratic — +2.5−5%}}
+|{{legend|#77e3ff|Democratic — +5−7.5%}}
+|{{legend|#4bdbff|Democratic — +7.5-10%}}
+|{{legend|#09ceff|Democratic — +10−12.5%}}
+|{{legend|#00bdec|Democratic — +12.5−15%}}
+|{{legend|#00a1c8|Democratic — >15%}}}}
+{{col-end}}}}}}
+
 === By congressional district ===
 Talarico won 25 out of 38 congressional districts, including eleven that elected Republicans.<ref>{{Cite web|url=https://theoelections.com/#e=2026s&level=ushouse&plan=p26c2025|title=theoelections - Texas election results by precinct|website=theoelections|accessdate=November 7, 2026}}</ref>
 {|class="wikitable sortable" style=text-align:center
