@@ -5375,7 +5375,7 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 |{{legend|#09ceff|Democratic — +10−12.5%}}
 |{{legend|#00bdec|Democratic — +12.5−15%}}
 |{{legend|#00a1c8|Democratic — >15%}}}}
-{{col-end}}}}}}
+}}}}
 
 === By congressional district ===
 Talarico won 25 out of 38 congressional districts, including eleven that elected Republicans.<ref>{{Cite web|url=https://theoelections.com/#e=2026s&level=ushouse&plan=p26c2025|title=theoelections - Texas election results by precinct|website=theoelections|accessdate=November 7, 2026}}</ref>
@@ -5578,7 +5578,7 @@ Talarico won 25 out of 38 congressional districts, including eleven that elected
 |}
 
 ==Analysis==
-Talarico's 12.1-point margin of victory exceeded his polling average by nine percent. Voter turnout substantially exceeded previous Texas midterm elections, beating the previous turnout record from 2018 by 18 percent and the 2022 midterms by 22 percent, but detailed analysis of exit polling indicated that Talarico's performance could not be explained simply by increased turnout; comparing results with the [[2024 United States presidential election#Results|2024 presidential election]], about one in nine Texans who voted for Trump that year voted for Talarico.<ref name=KTRK_2026-11-06/> Talarico's 5.4 million votes is the most received by a [[Democratic Party (United States)|Democrat]] in any statewide race in the state's history.<ref>{{Cite web |last=Carrillo |first=Mario |date=November 10, 2026 |title=The Texas We Chose For Our Children |url=https://americasvoice.org/blog/the-texas-we-chose-for-our-children/ |access-date=November 16, 2026 |website=America's Voice |language=en-US}}</ref>
+Talarico's 12.1 percent margin of victory exceeded his polling average by nine percent. Voter turnout substantially exceeded previous Texas midterm elections, beating the previous turnout record from 2018 by 18 percent and the 2022 midterms by 22 percent, but detailed analysis of exit polling indicated that Talarico's performance could not be explained simply by increased turnout; comparing results with the [[2024 United States presidential election#Results|2024 presidential election]], about one in nine Texans who voted for Trump that year voted for Talarico.<ref name=KTRK_2026-11-06/> Talarico's 5.4 million votes is the most received by a [[Democratic Party (United States)|Democrat]] in any statewide race in the state's history.<ref>{{Cite web |last=Carrillo |first=Mario |date=November 10, 2026 |title=The Texas We Chose For Our Children |url=https://americasvoice.org/blog/the-texas-we-chose-for-our-children/ |access-date=November 16, 2026 |website=America's Voice |language=en-US}}</ref>
 
 Latino voters in the state swung sharply back into the Democratic column this election, with exit polling estimating 66% of them supported Talarico after splitting almost evenly between the two parties in 2024.<ref name="KTRK_2026-11-06">{{cite news |last=Fox |first=Keaton |title=The polls missed Texas again. This time by twice as much. The other way. |url=https://abc13.com/post/polls-missed-texas-time-other/20017735/ | location=Houston |publisher=KTRK-TV |date=November 6, 2026 |access-date=November 7, 2026}}</ref>  
 
