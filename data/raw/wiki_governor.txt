@@ -1483,7 +1483,7 @@ On the first day of early voting, Hinojosa announced that she was suing Abbott f
 }}
 {{Election box end}}
 
-'''Counties that flipped from Republican to Democratic'''
+'''Counties that flipped from Republican to Democratic'''<ref>{{Cite news |last=Wu |first=Ashley |last2=Wood |first2=Daniel |last3=Sun |first3=Albert |last4=Hernandez |first4=Marco |last5=Kim |first5=Minho |last6=Goodman |first6=J. David |last7=McGaughy |first7=Lauren |date=2026-11-04 |title=How Democrats Turned Texas Blue |url=https://www.nytimes.com/interactive/2026/11/04/us/elections/texas-midterm-shift-democrats.html |access-date=2026-11-22 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
 *[[Bastrop County, Texas|Bastrop]] (largest municipality: [[Elgin, Texas|Elgin]])
 *[[Brazoria County, Texas|Brazoria]] (largest municipality: [[Pearland, Texas|Pearland]])
 *[[Brazos County, Texas|Brazos]] (largest municipality: [[College Station, Texas|College Station]])
