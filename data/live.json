@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-24T00:19:50+00:00",
- "day": 36,
- "date": "2026-11-23",
+ "fetched": "2026-11-24T10:24:20+00:00",
+ "day": 37,
+ "date": "2026-11-24",
  "counties": {
   "Travis": {
    "source": "county live tracker (ElectionLink)",
@@ -19,7 +19,7 @@
   "Montgomery": {
    "source": "county live tracker (ElectionLink)",
    "url": "https://updates.electionlink.net/widgets/montgomerytx/2026-11-03/index.html",
-   "refreshed": "Mon Nov 23 06:17 PM",
+   "refreshed": "Mon Nov 23 09:57 PM",
    "ballots_to_date": 249741,
    "hourly": [],
    "hours_in": 0,
