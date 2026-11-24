@@ -1,6 +1,6 @@
 {
  "senate": {
-  "generated": "2026-11-23T12:25+00:00",
+  "generated": "2026-11-24T00:19+00:00",
   "mode": "final",
   "poll_avg": 3.491824467920024,
   "n_polls": 86,
@@ -1026,7 +1026,7 @@
   "expected_turnout": 10135782.280166816
  },
  "governor": {
-  "generated": "2026-11-23T12:25+00:00",
+  "generated": "2026-11-24T00:19+00:00",
   "mode": "final",
   "poll_avg": -1.9012779454277373,
   "n_polls": 73,

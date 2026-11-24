@@ -34,7 +34,7 @@
 | after_party = Democratic Party (United States)
 }}
 {{ElectionsTX}}
-The '''2026 United States Senate election in Texas''' was held on November 3, 2026, to elect the [[Classes of United States senators|Class 2 member]] of the [[United States Senate]] from the state of [[Texas]]. [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] defeated [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]].
+The '''2026 United States Senate election in Texas''' was held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Texas]]. [[Democratic Party (United States)|Democratic]] state representative [[James Talarico]] defeated [[Republican Party (United States)|Republican]] state attorney general [[Ken Paxton]].
 
 Four-term Republican incumbent [[John Cornyn]] sought re-election, but was challenged for the party's nomination by Paxton, with neither receiving a majority in the March 3 primary. Aided by a late endorsement from President [[Donald Trump]], Paxton won a [[two-round system|runoff]] on May 26 with 63.8% of the vote, making Cornyn the first incumbent senator from Texas to lose renomination since [[1970 United States Senate election in Texas|1970]]. In the Democratic primary, Talarico won the nomination with 52.4% of the vote over Representative [[Jasmine Crockett]].
 
@@ -2107,7 +2107,7 @@ After the primary, Crockett conceded to Talarico,<ref>{{Cite web |date=March 4, 
 '''State officials'''
 * 4 members of the [[Texas State Board of Education]]{{efn|
 * Rebecca Bell-Metereau<ref name="Talarico Endorsements List 1028"/><ref name="Support"/>
-* Staci Childs<ref name="Talarico Endorsements List 1028"/><ref name="Support"/>
+* [[Staci Childs]]<ref name="Talarico Endorsements List 1028"/><ref name="Support"/>
 * Tiffany Clark<ref name="Talarico Endorsements List 1028"/><ref name="Support"/>
 * Gustavo Reveles<ref name="Talarico Endorsements List 1028"/><ref name="Support"/>}}
 
@@ -5360,14 +5360,7 @@ Talarico led in aggregate polling for much of the race, with his lead by the fal
 *[[Val Verde County, Texas|Val Verde]] (largest municipality: [[Del Rio, Texas|Del Rio]])
 *[[Williamson County, Texas|Williamson]] (largest municipality: [[Round Rock, Texas|Round Rock]])
 
-{{align|right|{{Switcher| [[File:Texas county swing 2020-2026 senate.svg|300px]]|Swing by county<br/>{{collapsible list| title = Legend|
-|{{legend|#d40000|Republican — >15%}}
-|{{legend|#ff0000|Republican — +12.5−15%}}
-|{{legend|#ff2a2a|Republican — +10−12.5%}}
-|{{legend|#ff5555|Republican — +7.5−10%}}
-|{{legend|#ff8080|Republican — +5−7.5%}}
-|{{legend|#ffaaaa|Republican — +2.5−5%}}
-|{{legend|#ffd5d5|Republican — +0−2.5%}}
+{{align|right|{{Switcher| [[File:Texas county swing 2020-2026 senate.svg|300px]]|Swing by county relative to the 2020 Senate election<br/>{{collapsible list| title = Legend|
 |{{legend|#d5f6ff|Democratic — +0−2.5%}}
 |{{legend|#aaeeff|Democratic — +2.5−5%}}
 |{{legend|#77e3ff|Democratic — +5−7.5%}}
@@ -5678,7 +5671,7 @@ Latino voters in the state swung sharply back into the Democratic column this el
 | style="text-align:right; background:#fff3f3;" | 45
 | style="text-align:right;" | 40
 |-
-| $50,000-$99,999
+| $50,000–$99,999
 | style="text-align:right; background:#b0ceff;" | 55
 | style="text-align:right; background:#fff3f3;" | 43
 | style="text-align:right;" | 30
@@ -5771,7 +5764,7 @@ Latino voters in the state swung sharply back into the Democratic column this el
 | style="text-align:right; background:#fff3f3;" | 32
 | style="text-align:right;" | 22
 |-
-| 45-64 years old
+| 45–64 years old
 | style="text-align:right; background:#b0ceff;" | 49
 | style="text-align:right; background:#ffb6b6;" | 49
 | style="text-align:right;" | 35

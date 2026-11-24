@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-23T12:25:56+00:00",
+ "fetched": "2026-11-24T00:19:57+00:00",
  "counties": {
   "Tarrant": {
    "in_person": 571950,
@@ -15,7 +15,10 @@
    "through": "10/30/2026",
    "last_day": 126397,
    "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/docs/Uploads/EVPA_unofficial.pdf",
-   "source": "Harris County Clerk daily early-vote report"
+   "source": "Harris County Clerk daily early-vote report",
+   "error": "ValueError: no total rows in Harris report",
+   "stale": true,
+   "last_good": "2026-11-23T12:25:56+00:00"
   },
   "Denton": {
    "in_person": 319081,

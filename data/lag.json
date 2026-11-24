@@ -1,5 +1,6 @@
 {
  "behind": [
+  "Harris: county source failed (ValueError: no total rows in Harris report)",
   "Denton: county source failed (StopIteration: )",
   "Collin: county source failed (ValueError: Collin report: sites add up to 374238, total says 453117)",
   "Anderson: kept at last published numbers (mail 1 < published 376)",
