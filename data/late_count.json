@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:07+00:00",
+ "generated": "2026-11-25T14:54+00:00",
  "races": {
   "ms_senate": {
    "key": "ms_senate",
@@ -7,7 +7,7 @@
    "office": "U.S. Senate",
    "rcv": false,
    "unit": "county",
-   "source_time": "2026-11-25T03:43:30.289Z",
+   "source_time": "2026-11-25T14:32:39.136Z",
    "candidates": [
     {
      "name": "Colom",
@@ -160,7 +160,7 @@
    "office": "U.S. Senate",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-25T03:54:02.733Z",
+   "source_time": "2026-11-25T14:54:27.947Z",
    "candidates": [
     {
      "name": "Peltola",
@@ -258,7 +258,7 @@
    "office": "Governor",
    "rcv": true,
    "unit": "district",
-   "source_time": "2026-11-25T04:07:55.384Z",
+   "source_time": "2026-11-25T14:54:31.491Z",
    "candidates": [
     {
      "name": "Kreiss-Tomkins",
